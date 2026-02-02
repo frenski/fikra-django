@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="europe_1" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/europe.svg" action="link" editable="true" />
+
+<object id="circle_2" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_3" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_4" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_5" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_6" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_7" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_8" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+<object id="circle_9" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/circle.svg" action="link" editable="true" />
+
+
+
+
+<object id="chimney_1" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+<object id="chimney_2" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+
+<object id="chimney_3" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+
+<object id="chimney_4" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+<object id="chimney_5" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+
+<object id="chimney_6" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+<object id="chimney_7" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+
+<object id="chimney_8" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+<object id="chimney_9" type="image" src="graphics/general/environment/climate_change/air_statesdeaths/chimney.svg" action="link" editable="true" />
+
+
+<object id="smoke_null_1" type="shape" shapetype="rect" size="0.2,0.2" color="#C9EA50" strokeWidth="0" action="link" editable="true"/>
+<object id="smoke_null_2" type="shape" shapetype="rect" size="0.2,0.2" color="#C9EA50" strokeWidth="0" action="link" editable="true"/>
+<object id="smoke_null_3" type="shape" shapetype="rect" size="0.2,0.2" color="#C9EA50" strokeWidth="0" action="link" editable="true"/>
+<object id="smoke_null_4" type="shape" shapetype="rect" size="0.2,0.2" color="#C9EA50" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<animation id="appear_europe_1" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="europe_1" positionStart="1.5:0.398" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_null_4" type="appearFade|scaleTo:0.1;opacity:0; anchorPoint:0.5,0.5;" object="smoke_null_4" positionStart="0.641:0.245" positionRelativeTo="scene" startTime="0" endTime="1" />
+
+<animation id="appear_null_1" type="appearFade|scaleTo:0.1;opacity:0; anchorPoint:0.5,0.5;" object="smoke_null_1" positionStart="0.662:0.278" positionRelativeTo="scene" startTime="0" endTime="1" />
+<animation id="appear_null_2" type="appearFade|scaleTo:0.1;opacity:0; anchorPoint:0.5,0.5;" object="smoke_null_2" positionStart="0.744:0.265" positionRelativeTo="scene" startTime="0" endTime="1" />
+<animation id="appear_null_3" type="appearFade|scaleTo:0.08;opacity:0; anchorPoint:0.5,0.5;" object="smoke_null_3" positionStart="0.164:0.812" positionRelativeTo="scene" startTime="0" endTime="1" />
+
+<animation id="key_5_nullopac" type="basicOpacity|opacity:1" object="smoke_null_4"  startTime="3" endTime="6" />
+<animation id="key_2_nullopac" type="basicOpacity|opacity:1" object="smoke_null_3"  startTime="3.7" endTime="6.7" />
+<animation id="key_3_nullopac" type="basicOpacity|opacity:1" object="smoke_null_1"  startTime="3.6" endTime="6.6" />
+<animation id="key_1_nullopac" type="basicOpacity|opacity:1" object="smoke_null_2"  startTime="3.8" endTime="6.8" />
+
+<animation id="appear_circle_2" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_2" positionStart="0.695:0.3" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_3" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_3" positionStart="0.529:0.275" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_4" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_4" positionStart="0.69:0.469" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_5" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_5" positionStart="0.605:0.364" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_6" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_6" positionStart="0.122:0.927" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_7" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_7" positionStart="0.54:0.516" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_8" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_8" positionStart="0.09:0.694" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_9" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="circle_9" positionStart="0.559:0.749" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+<animation id="key_0_cminey_340" type="appearFromShadowMask|scaleTo:0.02;shadowScale:1;shadowOffset:0" object="chimney_1" positionStart="0.122:0.827"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="3.6" endTime="4.6" />
+
+<animation id="key_0_cminey_340" type="appearFromShadowMask|scaleTo:0.02;shadowScale:1;shadowOffset:0" object="chimney_2" positionStart="0.593:0.25"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_0_cminey_360" type="appearFromShadowMask|scaleTo:0.017;shadowScale:1;shadowOffset:0" object="chimney_3" positionStart="0.61:0.27"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="2.2" endTime="3.2" />
+<animation id="key_0_cminey_340" type="appearFromShadowMask|scaleTo:0.015;shadowScale:1;shadowOffset:0" object="chimney_4" positionStart="0.693:0.25"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="3.30" endTime="4.30" />
+<animation id="key_0_cminey_360" type="appearFromShadowMask|scaleTo:0.014;shadowScale:1;shadowOffset:0" object="chimney_5" positionStart="0.69:0.429"  positionEnd="0.59:0.469"  positionRelativeTo="scene" startTime="3.40" endTime="4.40" />
+
+<animation id="key_0_cminey_120" type="appearFromShadowMask|scaleTo:0.017;shadowScale:1;shadowOffset:0" object="chimney_9" positionStart="0.09:0.61"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="key_0_cminey_340" type="appearFromShadowMask|scaleTo:0.02;shadowScale:1;shadowOffset:0" object="chimney_6" positionStart="0.536:0.419"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="2.4" endTime="3.4" />
+<animation id="key_0_cminey_360" type="appearFromShadowMask|scaleTo:0.017;shadowScale:1;shadowOffset:0" object="chimney_7" positionStart="0.53:0.22"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="2.8" endTime="3.8" />
+<animation id="key_0_cminey_890" type="appearFromShadowMask|scaleTo:0.017;shadowScale:1;shadowOffset:0" object="chimney_8" positionStart="0.558:0.651"  positionEnd="0.093:0.588"  positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="key_map0" type="basicMove|ease:easeOutExpo;" positionStart="1.5:0.398" positionEnd="0.5:0.398" object="europe_1"  startTime="0" endTime="1" />
+
+
+
+<animation id="key_5_circle_20" type="basicScale|scaleTo:0.060;ease:easeInOutSine;" object="circle_2"  startTime="0.20" endTime="1.20" />
+<animation id="key_5_circle_21" type="basicScale|scaleTo:0.050;ease:easeInOutSine;" object="circle_2"  startTime="1.20" endTime="1.50" />
+
+<animation id="key_0_circle_30" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle_3"  startTime="0.40" endTime="1.40" />
+<animation id="key_1_circle_31" type="basicScale|scaleTo:0.050;ease:easeInOutSine;" object="circle_3"  startTime="1.40" endTime="1.70" />
+
+<animation id="key_7_circle_40" type="basicScale|scaleTo:0.080;ease:easeInOutSine;" object="circle_4"  startTime="0.50" endTime="1.50" />
+<animation id="key_5_circle_41" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle_4"  startTime="1.50" endTime="1.80" />
+
+<animation id="key_4_circle_50" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="circle_5"  startTime="0.60" endTime="1.60" />
+<animation id="key_8_circle_51" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle_5"  startTime="1.60" endTime="1.90" />
+
+<animation id="key_2_circle_60" type="basicScale|scaleTo:0.080;ease:easeInOutSine;" object="circle_6"  startTime="0.70" endTime="1.70" />
+<animation id="key_4_circle_61" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle_6"  startTime="1.70" endTime="2.00" />
+
+<animation id="key_8_circle_70" type="basicScale|scaleTo:0.080;ease:easeInOutSine;" object="circle_7"  startTime="0.80" endTime="1.80" />
+<animation id="key_5_circle_71" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle_7"  startTime="1.80" endTime="2.10" />
+
+<animation id="key_7_circle_80" type="basicScale|scaleTo:0.060;ease:easeInOutSine;" object="circle_8"  startTime="0.90" endTime="1.90" />
+<animation id="key_3_circle_81" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="circle_8"  startTime="1.90" endTime="2.20" />
+
+<animation id="key_2_circle_90" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle_9"  startTime="1.00" endTime="2.00" />
+<animation id="key_4_circle_91" type="basicScale|scaleTo:0.080;ease:easeInOutSine;" object="circle_9"  startTime="2.00" endTime="2.30" />
+
+
+
+<animation id="smoke1" type="particleSmoke|stopEmittingAt:0.7;posX:0;posY:0" object="smoke_null_1" startTime="1" endTime="15" positionStart="0.1:0.5" positionEnd="center:center" positionRelativeTo="scene" />
+
+<animation id="smoke2" type="particleSmoke|stopEmittingAt:0.7;posX:0;posY:0.0" object="smoke_null_2" startTime="1" endTime="15" positionStart="0.1:0.5" positionEnd="center:center" positionRelativeTo="scene" />
+
+<animation id="small-smoke3" type="particleSmoke|stopEmittingAt:0.7;posX:0;posY:0" object="smoke_null_3" startTime="1" endTime="15" positionStart="0.1:0.5" positionEnd="center:center" positionRelativeTo="scene" />
+
+<animation id="small-smoke4" type="particleSmoke|stopEmittingAt:0.7;posX:0;posY:0" object="smoke_null_4" startTime="1" endTime="15" positionStart="0.1:0.5" positionEnd="center:center" positionRelativeTo="scene" />
+
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="europe_1,circle_2,circle_3,circle_4,circle_5,circle_6,circle_7,circle_8,circle_9,skull_10,chimney_1,chimney_2,chimney_3,chimney_4,chimney_5,chimney_6,chimney_7,smoke_null_1,smoke_null_2,smoke_null_3,smoke_null_4" positionRelativeTo="scene" startTime="16" endTime="16" />
+
+
+
+
+ </igml>

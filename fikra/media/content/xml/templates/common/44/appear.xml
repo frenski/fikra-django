@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<igml>
+
+<block id="animations">
+
+  <animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_avatar_back_shadow" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="avatar_back_shadow" positionStart="0.52:0.52" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_avatar_back" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="avatar_back" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0"/>
+
+  <animation id="appear-upperb" type="appearFade|opacity:0" object="upperBody" positionStart="0.5:0.5" positionEnd="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0"/>
+
+  <animation id="appear_body_base" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="body_base" positionStart="0.25:0.25" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_eye_l" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eye_l" positionStart="{{eye_l_pos_x}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_eye_r" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eye_r" positionStart="{{eye_r_pos_x}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_mouth" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="mouth" positionStart="{{mouth_pos_x}}:{{mouth_pos_y}}" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_eyebrow_l" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eyebrow_l" positionStart="{{eyebrow_l_pos_x}}:{{eyebrow_l_pos_y}}" positionRelativeTo="scene" startTime="0" endTime="0"/>
+  <animation id="appear_eyebrow_r" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eyebrow_r" positionStart="{{eyebrow_r_pos_x}}:{{eyebrow_r_pos_y}}" positionRelativeTo="scene" startTime="0" endTime="0"/>
+
+  <animation id="scale_eye_l00" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="0" endTime="0"/>
+  <animation id="scale_eye_r00" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="0" endTime="0"/>
+  <animation id="scale_eyebrow_l00" type="basicScale|scaleTo:{{eyebrow_l_scale_x}},{{eyebrow_l_scale_y}}" object="eyebrow_l" startTime="0" endTime="0"/>
+  <animation id="scale_eyebrow_r00" type="basicScale|scaleTo:{{eyebrow_r_scale_x}},{{eyebrow_r_scale_y}}" object="eyebrow_r" startTime="0" endTime="0"/>
+  <animation id="scale_mouth00" type="basicScale|scaleTo:{{mouth_scale_x}},{{mouth_scale_y}}" object="mouth" startTime="0" endTime="0"/>
+
+
+  <animation id="m_0_0_bg_0" type="basicMove" object="bg_0" positionStart="0.5:1.5" positionEnd="0.5:0.5" startTime="0" endTime="0.5"/>
+
+  <animation id="upperb_scale" type="basicScale|scaleTo:0.6" object="upperBody" startTime="0" endTime="0"/>
+  <animation id="upperb_m0" type="basicMove" object="upperBody" positionStart="0.5:0.7" positionEnd="0.5:0.7" startTime="0" endTime="0"/>
+
+  <animation id="upperb_m1" type="basicMove|ease:easeOutExpo" object="upperBody" positionStart="0.5:0.7" positionEnd="0.5:0.5" startTime="0.5" endTime="1.5"/>
+  <animation id="upperb_o0" type="basicOpacity|opacity:1" object="upperBody" startTime="0.5" endTime="1.5"/>
+
+  <animation id="abs_s0" type="basicScale|scaleTo:0.6;ease:easeOutExpo" object="avatar_back_shadow" startTime="0.2" endTime="1"/>
+  <animation id="abs_o0" type="basicOpacity|opacity:1" object="avatar_back_shadow" startTime="0.2" endTime="0.6"/>
+
+  <animation id="ab_s0" type="basicScale|scaleTo:0.6;ease:easeOutExpo" object="avatar_back" startTime="0.4" endTime="1.4"/>
+  <animation id="ab_o0" type="basicOpacity|opacity:1" object="avatar_back" startTime="0.4" endTime="0.8"/>
+
+</block>
+
+</igml>

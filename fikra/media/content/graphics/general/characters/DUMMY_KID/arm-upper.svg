@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolation_Mode_2_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 46.9 99.4" style="enable-background:new 0 0 46.9 99.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5E5E5;}
+	.st1{fill:none;stroke:#0C0C0C;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1_1_">
+	<path class="st0" d="M46.1,18.2C45.6,16,44,11.8,40.4,8.1C32.6,0.3,18.3-2.1,9.6,3.8C6.3,6,4.6,8.9,4,10.1c0,0-11.1,20.3,3.6,84.3
+		c0,0,5,0.4,8.1,0.6c12.3,0.7,23.9-0.1,23.9-0.1S49.6,32.1,46.1,18.2z"/>
+</g>
+<g id="Layer_1">
+	<g id="Isolation_Mode">
+		<circle class="st1" cx="21.9" cy="14.2" r="13.7"/>
+		<circle class="st1" cx="21.9" cy="14.2" r="4.2"/>
+		<line class="st1" x1="21.9" y1="0.5" x2="21.9" y2="28"/>
+		<line class="st1" x1="35.7" y1="14.2" x2="8.2" y2="14.2"/>
+		<circle class="st1" cx="22" cy="85.3" r="13.7"/>
+		<circle class="st1" cx="22" cy="85.3" r="4.2"/>
+		<line class="st1" x1="22" y1="71.6" x2="22" y2="99.1"/>
+		<line class="st1" x1="35.8" y1="85.3" x2="8.3" y2="85.3"/>
+	</g>
+</g>
+</svg>

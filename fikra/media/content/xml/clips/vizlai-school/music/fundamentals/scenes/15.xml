@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Диапазонът и човешкото ухо" description="" author="Yane Frenski" date="05/03/2022">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/design-components/lines/long-scale.svg" editable="true" description=""  />
+<object id="l_3" type="shape" shapetype="rect" size="1,21.1" color="#ff7063" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_4" type="shape" shapetype="rect" size="1,21.1" color="#ff7063" strokeWidth="0" stroke="" editable="true" description="" />
+
+<object id="l_9" type="shape" shapetype="circle" size="1,1" color="#ffffff" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_10" type="text" text="100" size="40" width="100" align = "center" color="#051930" font="MontBlanc-Regular" wordWrap="false" weight="0" editable="true" description="" />
+
+<object id="l_15" type="image" src="graphics/characters/character-icons/ear-salmon.svg" editable="true" description="" />
+
+<object id="path_1" type="shape" shapetype="path" color="#ff7063" stroke="#ff7063" strokeWidth="0" size="0,0,1080,480" path="M95.1,480c60.9-56.6,134.5-135.9,203-241.5c56.7-87.4,86-169.9,112.3-238.5c78.4,0,156.8,0,235.2,0c23.1,65.3,67.5,145.9,122.9,231.1C843.4,346.4,927.1,427.3,991.2,480C692.5,480,393.8,480,95.1,480z" editable="true" />
+
+<object id="path_2" type="shape" shapetype="path" color="none" stroke="#ffffff" strokeWidth="6" size="0,0,280,184" path="M7.7,116.5c3.3-4.1,8.2-7.8,14.8-7.8c14.8,0.1,19.4,14.6,31.2,15c14.7,0.5,13-25.2,27.5-25c20.1,0.2,21.8,45,33.7,45c13.4,0,17.3-55.4,29.5-55.4c15.5,0,7.5,69.7,21.7,68.8c16.6-1.1,6.1-125.7,26-125.7c23.9,0,6.8,140.8,26.7,140.8c19.9,0,2.1-166.1,26-166.1C270.9,6.3,258.2,177,273,177" editable="true" />
+
+<object id="circle-curve" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="20" path="M246.8,5.2C114,7.1,12,116.5,6.3,236.8C0.1,368.4,110.4,491,249.8,491.4c144.7,0.5,256.7-130.8,244.5-265.2C483.5,108.6,379,3.2,246.8,5.2z" size="0,0,500,500" />
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.5:-1" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.5:1.774" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:2.3;opacity:0;anchorPoint:0.5,0.5" object="l_2" positionStart="0.453:1.526" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.009;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.87:1.508" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.009;opacity:0;anchorPoint:0.5,0.5" object="l_4" positionStart="0.136:1.508" startTime="0" endTime="0" description=" appearing order: 4" />
+
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0" endTime="1" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.1" startTime="0" endTime="1" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="0.3" endTime="1.3" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_1" positionEnd="0.5:1.1" startTime="0.3" endTime="1.3" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_2"  startTime="1.90" endTime="2.90" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_2" positionEnd="0.453:0.58" startTime="2.05" endTime="3.05" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="2.20" endTime="3.20" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_3" positionEnd="0.87:0.57" startTime="2.40" endTime="3.40" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_4"  startTime="2.50" endTime="3.50" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_4" positionEnd="0.136:0.57" startTime="2.75" endTime="3.75" description="" />
+
+
+<animation id="appear_path_1" type="appearFade|scaleTo:0.87;opacity:0.3;anchorPoint:0.5,0.5" object="path_1" positionStart="0.503:0.404" startTime="4" endTime="5" description=" appearing order: 15" />
+
+<animation id="appear_l_15" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="l_15" positionStart="0.493:0.227" startTime="4" endTime="5" description=" appearing order: 0" />
+
+<animation id="appear_path_2" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="path_2" positionStart="0.5:1.2" startTime="5" endTime="6" description=" appearing order: 15" />
+<animation id="move_path_2" type="basicMove|ease:easeOutExpo" object="path_2" positionEnd="0.5:0.73" startTime="5" endTime="6" />
+
+<animation id="disappear_path_2" type="disappearFade" object="path_2" startTime="8" endTime="9" description=" appearing order: 15" />
+
+<animation id="draw-circle" type="drawPathOfShapes|scaleTo:0.05;shapeType:circ;intervalGap:8" object="circle-curve" positionStart="0.5:0.525" positionRelativeTo="scene" startTime="9" endTime="11" />
+
+<animation id="appear_l_9" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.568:0.48" startTime="12" endTime="13" description="" />
+
+<animation id="appear_l_9" type="appearFade|scaleTo:0.10;opacity:1;anchorPoint:0.5,0.5" object="l_10" positionStart="0.56:0.48" startTime="12.5" endTime="13.5" description="" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_9,l_10,l_15,path_1,path_2,circle-curve" positionRelativeTo="scene" startTime="17" endTime="18" />
+
+
+
+</igml>

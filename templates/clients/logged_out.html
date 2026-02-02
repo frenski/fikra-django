@@ -1,0 +1,16 @@
+{% extends 'nodes/base.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% block title %} {% trans "Logout" %}: {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/logout.css" %}">
+{% endblock %}
+
+{% block article_main %}
+<div class="main-container logout">
+<p>{% trans "Thank you. You are logged out" %}</p>
+<p><a href="/">{% trans "Keep browsing Vizipedia" %}</a></p>
+</div>
+{% endblock %}

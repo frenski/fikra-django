@@ -1,0 +1,40 @@
+
+<variable id="square_width" type="float" default="0" reference="col_square.width" />
+<variable id="square_height" type="float" default="0" reference="col_square.height" />
+
+<interaction id="enable-drag" type="enableDrag" subtype="basic|tint:AF00AF;limit:pathCircle,0.3,0.35,0.55" objects="dragcircle1" startTime="4" endTime="4.5" actions="onDragMove:setVar:['sqare_col_x','drag_param','x']|setVar:['sqare_col_x','drag_param','y']|setVar:['ind_circle_fill','expression','({{sqare_col_x}}/square_width)*360', 1]|setVar:['ind_circle_fill','expression','({{sqare_col_y}}/square_height)*100', 3]" />
+
+
+
+
+
+
+
+<interaction id="enable-drag" type="enableDrag"
+subtype="basic|tint:AF00AF;limit:rect,0.17,0.25,0.53,0.84" objects="dragcircle1" startTime="4" endTime="4.5"
+actions="onDragMove:
+setVar:['ind_circle_fill1','drag_param','x',1]|
+setVar:['ind_circle_fill1','drag_param','y',3]|
+setVar:['sat_selected','drag_param','angle']|
+setVar:['sqare_col_x','drag_param','x']|
+setVar:['sqare_col_y','drag_param','y']|
+setVar:['ind_circle_fill1','expression','({{sqare_col_x}}/{{sqare_width}})*360', 1]|
+setVar:['ind_circle_fill1','expression','50+({{sqare_col_y}}/{{sqare_height}})*50', 3]" />
+
+
+
+
+
+
+<interaction id="enable-drag" type="enableDrag"
+subtype="basic|tint:AF00AF;limit:rect,0.17,0.25,0.53,0.84" objects="dragcircle1" startTime="4" endTime="4.5"
+actions="onDragMove:
+setVar:['sat_selected','drag_param','angle']|
+setVar:['sqare_col_x','drag_param','x']|
+setVar:['sqare_col_y','drag_param','y']|
+setVar:['ind_circle_fill1','expression','({{sqare_col_x}}/{{sqare_width}})*360', 1]|
+setVar:['ind_circle_fill1','expression','50+({{sqare_col_y}}/{{sqare_height}})*50', 3]" />
+
+
+
+

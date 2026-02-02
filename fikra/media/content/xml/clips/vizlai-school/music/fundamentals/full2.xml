@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000"><include id="scene28" src="xml/clips/vizlai-school/music/fundamentals/scenes/28.xml" startTime="21.00" duration="0.71" />
+
+<style src="styles/fonts/MontBlanc/montblanc.css" type="font" load="sync" name="MontBlanc-Regular" />
+
+<object id="vo1" type="sound" src="audio/vo/vizlai-school/music/fundamentals/music2-part1.mp3" action="link:"/>
+<object id="vo2" type="sound" src="audio/vo/vizlai-school/music/fundamentals/music2-part4.mp3" action="link:"/>
+<object id="vo3" type="sound" src="audio/vo/vizlai-school/music/fundamentals/music2-part7.mp3" action="link:"/>
+<object id="vo4" type="sound" src="audio/vo/vizlai-school/music/fundamentals/music2-part10.mp3" action="link:"/>
+
+<include id="intro1" src="xml/clips/vizlai-school/intro/general.xml" startTime="0" duration="1.3" />
+<include id="intro2" src="xml/clips/vizlai-school/music/intro.xml" startTime="9" duration="1.3" />
+<include id="scene29" src="xml/clips/vizlai-school/music/fundamentals/scenes/29.xml" startTime="26.00" duration="1.40" />
+<include id="scene30" src="xml/clips/vizlai-school/music/fundamentals/scenes/30.xml" startTime="54.00" duration="2.00" />
+<include id="scene32" src="xml/clips/vizlai-school/music/fundamentals/scenes/32.xml" startTime="70.00" duration="0.86" />
+<include id="scene33" src="xml/clips/vizlai-school/music/fundamentals/scenes/33.xml" startTime="76.00" duration="0.91" />
+<include id="scene34" src="xml/clips/vizlai-school/music/fundamentals/scenes/34.xml" startTime="86.00" duration="1.00" />
+<include id="scene35" src="xml/clips/vizlai-school/music/fundamentals/scenes/35.xml" startTime="101.00" duration="1.00" />
+<include id="int4" src="xml/clips/vizlai-school/music/fundamentals/interactions/4.xml" startTime="112.00" duration="0.69" />
+<include id="scene36" src="xml/clips/vizlai-school/music/fundamentals/scenes/36.xml" startTime="121.00" duration="1.92" />
+<include id="scene37" src="xml/clips/vizlai-school/music/fundamentals/scenes/37.xml" startTime="144.00" duration="1.18" />
+<include id="scene38" src="xml/clips/vizlai-school/music/fundamentals/scenes/38.xml" startTime="157.00" duration="2.42" />
+<include id="scene39" src="xml/clips/vizlai-school/music/fundamentals/scenes/39.xml" startTime="203.00" duration="1.06" />
+<include id="scene40" src="xml/clips/vizlai-school/music/fundamentals/scenes/40.xml" startTime="212.00" duration="0.91" />
+<include id="scene41" src="xml/clips/vizlai-school/music/fundamentals/scenes/41.xml" startTime="232.00" duration="2.18" />
+<include id="scene42" src="xml/clips/vizlai-school/music/fundamentals/scenes/42.xml" startTime="280.00" duration="1.79" />
+<include id="int5" src="xml/clips/vizlai-school/music/fundamentals/interactions/5.xml" startTime="305.00" duration="0.77" />
+<include id="scene43" src="xml/clips/vizlai-school/music/fundamentals/scenes/43.xml" startTime="315.00" duration="1.36" />
+<include id="scene44" src="xml/clips/vizlai-school/music/fundamentals/scenes/44.xml" startTime="330.00" duration="1.00" />
+<include id="scene45" src="xml/clips/vizlai-school/music/fundamentals/scenes/45.xml" startTime="343.00" duration="0.67" />
+<include id="scene46" src="xml/clips/vizlai-school/music/fundamentals/scenes/46.xml" startTime="353.00" duration="1.00" />
+
+<animation id="play-vo1" type="playSound|loop:false" object="vo1" startTime="0" endTime="71" />
+<animation id="play-vo2" type="playSound|loop:false" object="vo2" startTime="73" endTime="114" />
+<animation id="play-vo3" type="playSound|loop:false" object="vo3" startTime="118" endTime="313" />
+<animation id="play-vo4" type="playSound|loop:false" object="vo4" startTime="316" endTime="370" />
+
+</igml>

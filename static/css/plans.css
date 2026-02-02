@@ -1,0 +1,21 @@
+.price_label {
+  background-color: white;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.plans ul.features-list  {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.price-block-inner {
+  padding-bottom: 100px;
+}
+
+.plan-btn-subscribe {
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto
+}

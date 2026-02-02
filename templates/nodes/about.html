@@ -1,0 +1,46 @@
+{% extends "nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+
+{% block title %} {% trans "About" %}: {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/about.css" %}">
+{% endblock %}
+
+{% block article_main %}
+
+
+	<div class="main-container">
+
+		<div class="about-container clearfix">
+
+			<div class="about-title">
+				<h3>{% trans "What are some of the special features of Vizipedia?" %}</h3>
+			</div>
+
+			<div class="about-visual">
+				<img src="{% static "img/about-header.png" %}">
+			</div>
+
+		</div>
+
+		<div class="about-extra-wrapper about-extra-wrapper-student clearfix">
+			<h4 class="about-section-title">{% trans "Vizipedia Student" %}</h4>
+			<div class="about-extra"><img class="about-ico" src="{% static "img/icons/about-ico1.png" %}"><br>{% trans "Fast creation of learning games through AI" %}<p>{% trans "No coding skills? No illustrator skills? New to game design? We've got you covered - with verious game engines and powerflull AI models to support them, you can create educational games in minutes and hours, rather than weeks, months or years." %}</p></div>
+			<div class="about-extra"><img class="about-ico" src="{% static "img/icons/about-ico2.png" %}"><br>{% trans "Rich repository of serious games for more efficient learning" %}<p>{% trans "Learning through games can be up to 20 times more efficient than other medium. One can use the repository of games created by other users in order to efficiently acquire new knowled, build or improve their skills." %}</p></div>
+			<div class="about-extra"><img class="about-ico" src="{% static "img/icons/about-ico3.png" %}"><br>{% trans "PBL and GBL tailored learning management system" %}<p>{% trans "Vizipedia offers full LMS capabilities - from user and course management to analytics tools that allow you to follow the learning progress of each user and identify knowledge gaps. They are tailored to Vizipedia's project-based and game-based approach." %}</p></div>
+		</div>
+
+		<div class="about-extra-wrapper about-extra-wrapper-pro clearfix">
+			<h4 class="about-section-title">{% trans "Vizipedia Professional" %}</h4>
+			<div class="about-extra"><img class="about-ico" src="{% static "img/icons/about-ico4.png" %}"><br>{% trans "GBL to significantly improve your employees skills development" %}<p>{% trans "AI is on its way to replace a lot of human tasks. Reskilling and upskilling will be essential. Refocusing human jobs from output to outcome will be critical. Game-based learning can speed-up knowledge acquisition and skills development by up to 20 times. Vizipedia offers a fully-equipped corporate training system based on serious games and AI." %}</p></div>
+			<div class="about-extra"><img class="about-ico" src="{% static "img/icons/about-ico5.png" %}"><br>{% trans "Boost marketing efforst with the help of serious games and AI" %}<p>{% trans "Want to promote your product in a more engaging and fun way? Let's do it with a game that everyone would like to play! With Vizipedia you can create engaging marketing content with gamification through AI tailored to your brand and product(s)! Need some support on the story and the game design - no problem, we are here to support you. " %}</p></div>
+			<div class="about-extra"><img class="about-ico" src="{% static "img/icons/about-ico6.png" %}"><br>{% trans "Use games and to make HR fun and engaging for everyone" %}<p>{% trans "Want your recruitment process to stand out from that of your competition? Want to boost productivity and spice up the work atmosphere? What could be a better way to engage your current and future employees than the ancient art of play? Vizipedia allows the creation of brand tailored games that none employee or aplicant will forget." %}</p></div>
+		</div>
+
+  </div>
+
+{% endblock %}

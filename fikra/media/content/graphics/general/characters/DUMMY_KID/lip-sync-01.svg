@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 238.7 161.9" style="enable-background:new 0 0 238.7 161.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:#F96A81;}
+	.st3{fill:#FFFFFF;}
+</style>
+<title>lip-sync</title>
+<g id="Layer_15">
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M127.8,110.8c-44.5,1.4-83-21.2-82.1-22.8C57,70.2,77.9,41.9,130,42.5s68.5,44.8,68.5,44.8
+				S186,109,127.8,110.8z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			
+				<radialGradient id="SVGID_3_" cx="-14.6611" cy="337.5451" r="48.06" gradientTransform="matrix(1.54 0.11 0.13 -1.8 100.13 702.08)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#3F0922"/>
+				<stop  offset="0.4" style="stop-color:#420A21"/>
+				<stop  offset="0.73" style="stop-color:#4C0E20"/>
+				<stop  offset="1" style="stop-color:#5B141D"/>
+			</radialGradient>
+			<path class="st1" d="M127.8,110.8C83.5,115,44.8,89.5,45.8,88C57,70.2,77.9,41.9,130,42.5s68.5,44.8,68.5,44.8
+				C188.9,97.8,180.9,105.8,127.8,110.8z"/>
+			<path class="st2" d="M125.1,80c33.3,0,37.1,29,37.1,29s-10,6-37,6S88,109.5,88,109.5S98.4,80,125.1,80z"/>
+			<polygon class="st3" points="75.2,43.9 79.5,62.1 162.1,56.8 162.1,37.5 			"/>
+		</g>
+	</g>
+</g>
+</svg>

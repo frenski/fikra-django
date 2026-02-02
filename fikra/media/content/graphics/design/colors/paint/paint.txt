@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg1_0" type="image" src="graphics/design/colors/paint/bg1.svg" action="link" editable="true" />
+
+<object id="bg2_1" type="image" src="graphics/design/colors/paint/bg2.svg" action="link" editable="true" />
+
+<object id="paint_2" type="image" src="graphics/design/colors/paint/paint.svg" action="link" editable="true" />
+
+<object id="paint_3" type="image" src="graphics/design/colors/paint/paint.svg" action="link" editable="true" />
+
+<object id="red_4" type="image" src="graphics/design/colors/paint/red.svg" action="link" editable="true" />
+
+<object id="yellow_5" type="image" src="graphics/design/colors/paint/yellow.svg" action="link" editable="true" />
+
+<object id="blue_6" type="image" src="graphics/design/colors/paint/blue.svg" action="link" editable="true" />
+
+<object id="ring_7" type="image" src="graphics/design/colors/paint/ring.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+<object id="paint_11" type="image" src="graphics/design/colors/paint/paint.svg" action="link" editable="true" />
+
+<object id="paint_12" type="image" src="graphics/design/colors/paint/paint.svg" action="link" editable="true" />
+
+
+
+<object id="brush_13" type="image" src="graphics/design/colors/paint/brush.svg" action="link" editable="true" />
+
+
+
+
+<animation id="appear_bg1_0" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="bg1_0" positionStart="-0.348:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bg2_1" type="appearFade|scaleTo:0.6;opacity:1;anchorPoint:0.5,0.5" object="bg2_1" positionStart="1.364:0.513" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_paint_2" type="appearFade|scaleTo:0.1,0;opacity:1;anchorPoint:0.5,0" object="paint_2" positionStart="0.412:-0.021" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_paint_3" type="appearFade|scaleTo:0.1,0;opacity:1;anchorPoint:0.5,0" object="paint_3" positionStart="0.317:-0.021" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_red_4" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="red_4" positionStart="0.745:1.7" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_yellow_5" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="yellow_5" positionStart="0.743:1.7" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_blue_6" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="blue_6" positionStart="0.743:1.7" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_ring_7" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="ring_7" positionStart="0.748:1.716" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+<animation id="appear_paint_11" type="appearFade|scaleTo:0.1,0;opacity:1;anchorPoint:0.5,0" object="paint_11" positionStart="0.219:-0.021" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_paint_12" type="appearFade|scaleTo:0.1,0;opacity:1;anchorPoint:0.5,0" object="paint_12" positionStart="0.124:-0.093" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_brush_13" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="brush_13" positionStart="0.0:2.333" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_8_bg1_00" type="basicMove|ease:easeOutExpo;" object="bg1_0" positionStart="-0.348:0.500"  positionEnd="0.252:0.500"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+<animation id="key_2_bg2_10" type="basicMove|ease:easeOutExpo;" object="bg2_1" positionStart="1.364:0.513"  positionEnd="0.764:0.513"  positionRelativeTo="scene" startTime="1.20" endTime="2.20" />
+
+<animation id="key_7_paint_20" type="basicScale|scaleTo:0.100,0.000" object="paint_2"  startTime="5.00" endTime="5.00" />
+<animation id="key_8_paint_21" type="basicScale|scaleTo:0.100,0.800" object="paint_2"  startTime="5.00" endTime="6.20" />
+
+<animation id="key_0_paint_30" type="basicScale|scaleTo:0.100,0.000" object="paint_3"  startTime="7.00" endTime="7.00" />
+<animation id="key_7_paint_31" type="basicScale|scaleTo:0.100,0.800" object="paint_3"  startTime="7.00" endTime="8.20" />
+
+<animation id="key_4_red_40" type="basicMove|ease:easeOutExpo;" object="red_4" positionStart="0.745:1.700"  positionEnd="0.745:0.800"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+<animation id="key_6_yellow_50" type="basicMove|ease:easeOutExpo;" object="yellow_5" positionStart="0.743:1.700"  positionEnd="0.743:0.800"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+<animation id="key_1_blue_60" type="basicMove|ease:easeOutExpo;" object="blue_6" positionStart="0.743:1.700"  positionEnd="0.743:0.800"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+<animation id="key_6_ring_70" type="basicMove|ease:easeOutExpo;" object="ring_7" positionStart="0.748:1.716"  positionEnd="0.748:0.816"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+<animation id="key_6_blue_60" type="basicRotate|angle:25.000;revertAnchor:false;" object="blue_6"  startTime="3.00" endTime="4.00" />
+
+<animation id="key_5_yellow_50" type="basicRotate|angle:1.000;revertAnchor:false;" object="yellow_5"  startTime="3.00" endTime="4.00" />
+
+<animation id="key_8_red_40" type="basicRotate|angle:-25.000;revertAnchor:false;" object="red_4"  startTime="3.00" endTime="4.00" />
+
+<animation id="key_2_paint_110" type="basicScale|scaleTo:0.100,0.000" object="paint_11"  startTime="9.00" endTime="9.00" />
+<animation id="key_1_paint_111" type="basicScale|scaleTo:0.100,0.800" object="paint_11"  startTime="9.00" endTime="10.20" />
+
+<animation id="key_1_paint_120" type="basicScale|scaleTo:0.100,0.000" object="paint_12"  startTime="10.80" endTime="10.80" />
+<animation id="key_6_paint_121" type="basicScale|scaleTo:0.100,0.800" object="paint_12"  startTime="10.80" endTime="12.00" />
+
+<animation id="key_8_brush_130" type="basicRotate|angle:35.000;revertAnchor:false;" object="brush_13"  startTime="4.00" endTime="5.00" />
+
+<animation id="key_3_brush_130" type="basicMove" object="brush_13" positionStart="0.000:2.333"  positionEnd="0.000:0.933"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+<animation id="key_5_brush_131" type="basicMove" object="brush_13" positionStart="0.000:0.933"  positionEnd="0.000:1.633"  positionRelativeTo="scene" startTime="5.00" endTime="6.00" />
+<animation id="key_0_brush_132" type="basicMove" object="brush_13" positionStart="0.000:1.633"  positionEnd="0.000:1.633"  positionRelativeTo="scene" startTime="6.00" endTime="6.30" />
+<animation id="key_0_brush_133" type="basicMove" object="brush_13" positionStart="0.000:1.633"  positionEnd="-0.100:1.033"  positionRelativeTo="scene" startTime="6.30" endTime="7.00" />
+<animation id="key_7_brush_134" type="basicMove" object="brush_13" positionStart="-0.100:1.033"  positionEnd="-0.100:1.633"  positionRelativeTo="scene" startTime="7.00" endTime="8.05" />
+<animation id="key_7_brush_135" type="basicMove" object="brush_13" positionStart="-0.100:1.633"  positionEnd="-0.100:1.633"  positionRelativeTo="scene" startTime="8.05" endTime="8.35" />
+<animation id="key_6_brush_136" type="basicMove" object="brush_13" positionStart="-0.100:1.633"  positionEnd="-0.190:1.033"  positionRelativeTo="scene" startTime="8.35" endTime="9.10" />
+<animation id="key_4_brush_137" type="basicMove" object="brush_13" positionStart="-0.190:1.033"  positionEnd="-0.190:1.633"  positionRelativeTo="scene" startTime="9.10" endTime="10.00" />
+<animation id="key_3_brush_138" type="basicMove" object="brush_13" positionStart="-0.190:1.633"  positionEnd="-0.190:1.633"  positionRelativeTo="scene" startTime="10.00" endTime="10.50" />
+<animation id="key_6_brush_139" type="basicMove" object="brush_13" positionStart="-0.190:1.633"  positionEnd="-0.285:1.033"  positionRelativeTo="scene" startTime="10.50" endTime="11.00" />
+<animation id="key_4_brush_1310" type="basicMove" object="brush_13" positionStart="-0.285:1.033"  positionEnd="-0.285:1.633"  positionRelativeTo="scene" startTime="11.00" endTime="12.00" />
+
+<animation id="key_2_blue_60" type="basicScale|scaleTo:0.110" object="blue_6"  startTime="4.00" endTime="4.30" />
+<animation id="key_1_blue_61" type="basicScale|scaleTo:0.100" object="blue_6"  startTime="4.30" endTime="5.00" />
+
+
+
+
+ </igml>

@@ -1,0 +1,7 @@
+audio:audio/vo/design_course/forms/forms.mp3
+
+start at  0:250
+
+xml/clips/design_course/forms/
+
+title:0-0.8,leson1:4-1,pencil:9-0.7,lines:14-0.6,patern:17-1,headers:23-0.5,leson2:28-1,shapes:32-1,geom:36-1,props:42-0.8,drawing:49-1,light:54-1,shadows:61-2,abst:72-1,geom2:78-1,glyphs:84-1,hex:93-0.9,leson3:103-0.7,diamonds:106-1,space:114-1,faces:122-1

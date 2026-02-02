@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<igml>
+
+<block id="variables">
+
+  <variable id="eb_l_target_y1" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/6"/>
+  <variable id="eb_r_target_y1" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/6"/>
+  <variable id="eb_l_target_y2" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/2"/>
+  <variable id="eb_r_target_y2" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/2"/>
+  <variable id="eb_l_target_y3" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/4"/>
+  <variable id="eb_r_target_y3" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/4"/>
+
+  <variable id="ey_l_target_y1" type="expression" expression="{{eye_l_pos_y}}+({{eyebrow_l_pos_y}})/8"/>
+  <variable id="ey_r_target_y1" type="expression" expression="{{eye_r_pos_y}}+({{eyebrow_r_pos_y}})/8"/>
+  <variable id="ey_l_target_y2" type="expression" expression="{{eye_l_pos_y}}-({{eyebrow_l_pos_y}})/8"/>
+  <variable id="ey_r_target_y2" type="expression" expression="{{eye_r_pos_y}}-({{eyebrow_r_pos_y}})/8"/>
+  <variable id="ey_l_target_y3" type="expression" expression="{{eye_l_pos_y}}-({{eyebrow_l_pos_y}})/14"/>
+  <variable id="ey_r_target_y3" type="expression" expression="{{eye_r_pos_y}}-({{eyebrow_r_pos_y}})/14"/>
+
+</block>
+
+<block id="animations">
+
+  <animation id="key_3_eyebrow_l_100" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{eb_l_target_y1}}" positionRelativeTo="scene" startTime="1.5" endTime="2.3"/>
+  <animation id="key_1_eyebrow_l_102" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{eb_l_target_y2}}" positionRelativeTo="scene" startTime="3.50" endTime="4.50"/>
+  <animation id="key_7_eyebrow_r_110" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{eb_r_target_y1}}" positionRelativeTo="scene" startTime="1.5" endTime="2.3"/>
+  <animation id="key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{eb_r_target_y2}}" positionRelativeTo="scene" startTime="3.50" endTime="4.50"/>
+  <animation id="key_5_eyebrow_l_112" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{eb_l_target_y3}}" positionRelativeTo="scene" startTime="5.2" endTime="7"/>
+  <animation id="key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{eb_r_target_y3}}" positionRelativeTo="scene" startTime="5.2" endTime="7"/>
+
+  <animation id="key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{ey_l_target_y1}}" positionRelativeTo="scene" startTime="1.5" endTime="2.3"/>
+  <animation id="key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{ey_l_target_y2}}" positionRelativeTo="scene" startTime="3.50" endTime="4.50"/>
+  <animation id="key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{ey_r_target_y1}}" positionRelativeTo="scene" startTime="1.5" endTime="2.3"/>
+  <animation id="key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{ey_r_target_y2}}" positionRelativeTo="scene" startTime="3.50" endTime="4.50"/>
+  <animation id="key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{ey_l_target_y3}}" positionRelativeTo="scene" startTime="5.2" endTime="7"/>
+  <animation id="key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{ey_r_target_y3}}" positionRelativeTo="scene" startTime="5.2" endTime="7"/>
+z
+  <animation id="ey_l_target_r1" type="basicRotate|angle:-10" object="eyebrow_l" startTime="4" endTime="6.5" />
+  <animation id="ey_r_target_r1" type="basicRotate|angle:10" object="eyebrow_r" startTime="4" endTime="6.5" />
+
+  <animation id="ey_l_target_r2" type="basicRotate|angle:0" object="eyebrow_l" startTime="9" endTime="10" />
+  <animation id="ey_r_target_r2" type="basicRotate|angle:0" object="eyebrow_r" startTime="9" endTime="10" />
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="2.2" endTime="2.7"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="2.2" endTime="2.7"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="2.7" endTime="3.2"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="2.7" endTime="3.2"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="6" endTime="6.2"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="6" endTime="6.2"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="6.2" endTime="6.4"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="6.2" endTime="6.4"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="7" endTime="7.2"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="7" endTime="7.2"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="7.2" endTime="7.4"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="7.2" endTime="7.4"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="9" endTime="9.2"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="9" endTime="9.2"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="9.2" endTime="9.4"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="9.2" endTime="9.4"/>
+
+  <animation id="mouth_act" type="basicMeshMove|targets:[[0.25,0.6],[0.5,0.5],[0.75,0.6]]" object="mouth" startTime="3.2" endTime="3.9"/>
+
+  <animation id="mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="9" endTime="10"/>
+
+</block>
+
+</igml>

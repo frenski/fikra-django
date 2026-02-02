@@ -1,0 +1,12 @@
+	<interaction id="enable-drag" type="enableDrag" subtype="basic|tint:ffffff;limit:rect,0.23,0.73,0.75,0.73" objects="controller_12" startTime="3" endTime="3.5" actions="onDragMove:setVar:['ind_circle_fill1','drag_param','x',1]|setVar:['tk_pos','active_object','position','x']|setVar:['txtScPr3','expression','round(({{slider_x}}-relsata_x)/relsata.widh)']|setVar:['txtPr3_x','expression','{{slider_x}}-3']" />
+
+
+
+
+
+var a = time*3;
+var r = 6;
+var x=r*16*Math.pow(Math.sin(a), 3);
+var y=-r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a));
+
+[x+width/2,y+height/2];

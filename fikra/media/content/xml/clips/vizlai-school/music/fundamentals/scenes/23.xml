@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Дванадесет тона" description="" author="Yane Frenski" date="05/03/2022">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg6.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/music/instruments/music-tone-keyboard-short.svg" editable="true" description=""  />
+<object id="l_2" type="shape" shapetype="rect" size="1,0.703" color="#37b9f3" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_3" type="shape" shapetype="rect" size="1,0.707" color="#ffd769" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_4" type="shape" shapetype="rect" size="1,0.705" color="#4a299b" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_5" type="text" text="12" size="30" width="100" align = "center" color="#37b9f3"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_6" type="text" text="12" size="30" width="100" align = "center" color="#ffd769"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_7" type="text" text="12" size="30" width="100" align = "center" color="#4a299b"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_8" type="image" src="graphics/design-components/shapes/handle-pinter-topright.svg" editable="true" description=""  />
+<object id="l_9" type="shape" shapetype="rect" size="1,5.727" color="#FFFFFF" strokeWidth="0" stroke="#FFFFFF" editable="true" description="" />
+<object id="l_10" type="text" text="тон" size="30" width="100" align = "center" color="#ffffff"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_11" type="image" src="graphics/design-components/shapes/handle-pinter-topright.svg" editable="true" description=""  />
+<object id="l_12" type="shape" shapetype="rect" size="1,4.147" color="#000000" strokeWidth="0" stroke="#000000" editable="true" description="" />
+<object id="l_13" type="text" text="полутон" size="30" width="100" align = "center" color="#ffffff"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_14" type="shape" shapetype="rect" size="1,0.17" color="#000000" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_15" type="text" text="ТЕМПЕРИРАН СТРОЙ" size="30" width="100" align = "center" color="#ffffff"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<animation id="appear_l_0" type="appearFromSide|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.50:0.500" startTime="0" endTime="1.5" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFromSide|scaleTo:1.028;opacity:1;direction:rtl;anchorPoint:0.5,0.5" object="l_1" positionStart="0.488:0.470" startTime="0.2" endTime="1.7" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.299;opacity:0.4;anchorPoint:0.5,0.5" object="l_2" positionStart="0.162:0.469" startTime="2" endTime="3" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.297;opacity:0.4;anchorPoint:0.5,0.5" object="l_3" positionStart="0.468:0.469" startTime="3" endTime="4" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.3;opacity:0.4;anchorPoint:0.5,0.5" object="l_4" positionStart="0.778:0.47" startTime="4" endTime="5" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0.153;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.201:0.306" startTime="2" endTime="3" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0.153;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.523:0.310" startTime="3" endTime="4" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0.153;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.824:0.316" startTime="4" endTime="5" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFade|scaleTo:0.066;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.532:0.688" startTime="6" endTime="7" description=" appearing order: 8" />
+<animation id="appear_l_9" type="appearFade|scaleTo:0.041;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.605:0.792" startTime="6.7" endTime="7.7" description=" appearing order: 9" />
+<animation id="appear_l_10" type="appearFade|scaleTo:0.066;opacity:1;anchorPoint:0.5,0.5" object="l_10" positionStart="0.678:0.801" startTime="7.2" endTime="8.2" description=" appearing order: 10" />
+<animation id="appear_l_11" type="appearFade|scaleTo:0.066;opacity:1;anchorPoint:0.5,0.5" object="l_11" positionStart="0.289:0.575" startTime="8.5" endTime="9.5" description=" appearing order: 11" />
+<animation id="appear_l_12" type="appearFade|scaleTo:0.031;opacity:1;anchorPoint:0.5,0.5" object="l_12" positionStart="0.349:0.701" startTime="9.2" endTime="10.2" description=" appearing order: 12" />
+<animation id="appear_l_13" type="appearFade|scaleTo:0.159;opacity:1;anchorPoint:0.5,0.5" object="l_13" positionStart="0.215:0.731" startTime="9.6" endTime="10.6" description=" appearing order: 13" />
+<animation id="appear_l_14" type="appearFromSide|scaleTo:0.605;opacity:1;anchorPoint:0.5,0.5" object="l_14" positionStart="0.499:0.147" startTime="12.2" endTime="13.2" description=" appearing order: 14" />
+<animation id="appear_l_15" type="appearFromSide|scaleTo:0.401;opacity:1;anchorPoint:0.5,0.5" object="l_15" positionStart="0.500:0.148" startTime="12.5" endTime="13.5" description=" appearing order: 15" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8,l_9,l_10,l_11,l_12,l_13,l_14,l_15" positionRelativeTo="scene" startTime="15" endTime="16" />
+
+</igml>

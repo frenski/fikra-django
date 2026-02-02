@@ -1,0 +1,29 @@
+{
+	"text_objects": {
+		"l_3": "Try to fill in the following table:",
+		"l_20": "Готово",
+		"l_feedback": "Wrong",
+		"an1": " ",
+		"an2": " ",
+		"an3": " ",
+		"an4": " "
+	},
+	"variable_objects": {
+		"an_v1": " ",
+		"an_v2": " ",
+		"an_v3": " ",
+		"an_v4": " ",
+		"sign_neg": "−",
+		"sign_pos": "+",
+		"feedback": "Wrong",
+		"feedback_wrong": "Wrong",
+		"feedback_correct": "Correct",
+		"feedback_long": "Correct answer",
+		"feedback_long_wrong": "The correct answer is: 3 * -10 = -30",
+		"feedback_long_correct": "Correct answer! Well done!"
+	},
+	"meta_info": {
+		"title": "Maths: Multiplication of negative numbers",
+		"description": "In this video you will learn a lot interestig information about multiplication"
+	}
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="brightcircle_1" type="image" src="graphics/general/environment/res_cons/tshirt/brightcircle.svg" action="link" editable="true" />
+
+<object id="darkcircle_2" type="image" src="graphics/general/environment/res_cons/tshirt/darkcircle.svg" action="link" editable="true" />
+
+<object id="longarrow_4" type="image" src="graphics/general/environment/res_cons/planet_urban/longarrow.svg" action="link" editable="true" />
+
+<object id="planet_5" type="image" src="graphics/general/environment/res_cons/planet_urban/planet.svg" action="link" editable="true" />
+
+<object id="planetcircle[5]_6" type="shape" shapetype="circle" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+
+<object id="eye_8" type="image" src="graphics/general/environment/res_cons/planet_urban/eye.svg" action="link" editable="true" />
+
+<object id="eye_9" type="image" src="graphics/general/environment/res_cons/planet_urban/eye.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+
+
+
+<animation id="appear_brightcircle_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="brightcircle_1" positionStart="0.5:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_darkcircle_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="darkcircle_2" positionStart="0.5:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planet_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="planet_5" positionStart="0.92:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planetcircle[5]_6" type="appearFade|scaleTo:0.160;opacity:0; anchorPoint:0.5,0.5;" object="planetcircle[5]_6" positionStart="0.5:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+<animation id="key_0_brightcircle_10" type="basicScale|scaleTo:0.300;ease:easeInOutSine;" object="brightcircle_1"  startTime="11.00" endTime="12.00" />
+<animation id="key_7_brightcircle_11" type="basicScale|scaleTo:0.225;ease:easeInOutSine;" object="brightcircle_1"  startTime="12.00" endTime="12.20" />
+
+<animation id="key_5_darkcircle_20" type="basicScale|scaleTo:0.250;ease:easeInOutSine;" object="darkcircle_2"  startTime="11.20" endTime="12.20" />
+<animation id="key_3_darkcircle_21" type="basicScale|scaleTo:0.190;ease:easeInOutSine;" object="darkcircle_2"  startTime="12.20" endTime="12.40" />
+
+
+<animation id="key_0_planet_50" type="basicMove" object="planet_5" positionStart="0.920:0.265"  positionEnd="-0.080:0.265"  positionRelativeTo="scene" startTime="11.00" endTime="35.00" />
+
+<animation id="mask_planetcircle[5]_60" type="maskObjectBasic" object="planetcircle[5]_6,planet_5"  startTime="11.00" endTime="36.00" />
+
+
+
+
+<animation id="key_6_planetcircle[5]_60" type="basicOpacity|opacity:1" object="planetcircle[5]_6"  startTime="14.00" endTime="15.00" />
+
+<animation id="key_6_planet_50" type="basicScale|scaleTo:1.000" object="planet_5"  startTime="12.00" endTime="13.00" />
+
+
+
+
+
+<animation id="disppear-scene" type="disappearFade" object="spurparrow_21,spurparrow_20,spurparrow_19,spurparrow_18,mouth_12,blink_11,blink_10,eye_9,eye_8,planetshadow_7,planetcircle[5]_6,planet_5,longarrow_4,darkcircle_2,brightcircle_1" positionRelativeTo="scene" startTime="17" endTime="26" />
+
+
+
+ </igml>

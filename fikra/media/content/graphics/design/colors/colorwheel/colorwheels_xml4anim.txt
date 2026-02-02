@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="col-1_0" type="image" src="graphics/design/colors/colorwheel/col-1.svg" action="link" editable="true" />
+
+<object id="col-2_1" type="image" src="graphics/design/colors/colorwheel/col-2.svg" action="link" editable="true" />
+
+<object id="col-3_2" type="image" src="graphics/design/colors/colorwheel/col-3.svg" action="link" editable="true" />
+
+<object id="col-4_3" type="image" src="graphics/design/colors/colorwheel/col-4.svg" action="link" editable="true" />
+
+<object id="col-5_4" type="image" src="graphics/design/colors/colorwheel/col-5.svg" action="link" editable="true" />
+
+<object id="col-6_5" type="image" src="graphics/design/colors/colorwheel/col-6.svg" action="link" editable="true" />
+
+<object id="col-7_6" type="image" src="graphics/design/colors/colorwheel/col-7.svg" action="link" editable="true" />
+
+<object id="col-8_7" type="image" src="graphics/design/colors/colorwheel/col-8.svg" action="link" editable="true" />
+
+<object id="col-9_8" type="image" src="graphics/design/colors/colorwheel/col-9.svg" action="link" editable="true" />
+
+<object id="col-10_9" type="image" src="graphics/design/colors/colorwheel/col-10.svg" action="link" editable="true" />
+
+<object id="col-11_10" type="image" src="graphics/design/colors/colorwheel/col-11.svg" action="link" editable="true" />
+
+<object id="col-12_11" type="image" src="graphics/design/colors/colorwheel/col-12.svg" action="link" editable="true" />
+
+<object id="col-1_12" type="image" src="graphics/design/colors/colorwheel/col-1.svg" action="link" editable="true" />
+
+<object id="col-2_13" type="image" src="graphics/design/colors/colorwheel/col-2.svg" action="link" editable="true" />
+
+<object id="col-3_14" type="image" src="graphics/design/colors/colorwheel/col-3.svg" action="link" editable="true" />
+
+<object id="col-4_15" type="image" src="graphics/design/colors/colorwheel/col-4.svg" action="link" editable="true" />
+
+<object id="col-5_16" type="image" src="graphics/design/colors/colorwheel/col-5.svg" action="link" editable="true" />
+
+<object id="col-6_17" type="image" src="graphics/design/colors/colorwheel/col-6.svg" action="link" editable="true" />
+
+<object id="col-7_18" type="image" src="graphics/design/colors/colorwheel/col-7.svg" action="link" editable="true" />
+
+<object id="col-8_19" type="image" src="graphics/design/colors/colorwheel/col-8.svg" action="link" editable="true" />
+
+<object id="col-9_20" type="image" src="graphics/design/colors/colorwheel/col-9.svg" action="link" editable="true" />
+
+<object id="col-10_21" type="image" src="graphics/design/colors/colorwheel/col-10.svg" action="link" editable="true" />
+
+<object id="col-11_22" type="image" src="graphics/design/colors/colorwheel/col-11.svg" action="link" editable="true" />
+
+<object id="col-12_23" type="image" src="graphics/design/colors/colorwheel/col-12.svg" action="link" editable="true" />
+
+<object id="col-1_24" type="image" src="graphics/design/colors/colorwheel/col-1.svg" action="link" editable="true" />
+
+<object id="col-2_25" type="image" src="graphics/design/colors/colorwheel/col-2.svg" action="link" editable="true" />
+
+<object id="col-3_26" type="image" src="graphics/design/colors/colorwheel/col-3.svg" action="link" editable="true" />
+
+<object id="col-4_27" type="image" src="graphics/design/colors/colorwheel/col-4.svg" action="link" editable="true" />
+
+<object id="col-5_28" type="image" src="graphics/design/colors/colorwheel/col-5.svg" action="link" editable="true" />
+
+<object id="col-6_29" type="image" src="graphics/design/colors/colorwheel/col-6.svg" action="link" editable="true" />
+
+<object id="col-7_30" type="image" src="graphics/design/colors/colorwheel/col-7.svg" action="link" editable="true" />
+
+<object id="col-8_31" type="image" src="graphics/design/colors/colorwheel/col-8.svg" action="link" editable="true" />
+
+<object id="col-9_32" type="image" src="graphics/design/colors/colorwheel/col-9.svg" action="link" editable="true" />
+
+<object id="col-10_33" type="image" src="graphics/design/colors/colorwheel/col-10.svg" action="link" editable="true" />
+
+<object id="col-11_34" type="image" src="graphics/design/colors/colorwheel/col-11.svg" action="link" editable="true" />
+
+<object id="col-12_35" type="image" src="graphics/design/colors/colorwheel/col-12.svg" action="link" editable="true" />
+
+<object id="col-1_36" type="image" src="graphics/design/colors/colorwheel/col-1.svg" action="link" editable="true" />
+
+<object id="col-2_37" type="image" src="graphics/design/colors/colorwheel/col-2.svg" action="link" editable="true" />
+
+<object id="col-3_38" type="image" src="graphics/design/colors/colorwheel/col-3.svg" action="link" editable="true" />
+
+<object id="col-4_39" type="image" src="graphics/design/colors/colorwheel/col-4.svg" action="link" editable="true" />
+
+<object id="col-5_40" type="image" src="graphics/design/colors/colorwheel/col-5.svg" action="link" editable="true" />
+
+<object id="col-6_41" type="image" src="graphics/design/colors/colorwheel/col-6.svg" action="link" editable="true" />
+
+<object id="col-7_42" type="image" src="graphics/design/colors/colorwheel/col-7.svg" action="link" editable="true" />
+
+<object id="col-8_43" type="image" src="graphics/design/colors/colorwheel/col-8.svg" action="link" editable="true" />
+
+<object id="col-9_44" type="image" src="graphics/design/colors/colorwheel/col-9.svg" action="link" editable="true" />
+
+<object id="col-10_45" type="image" src="graphics/design/colors/colorwheel/col-10.svg" action="link" editable="true" />
+
+<object id="col-11_46" type="image" src="graphics/design/colors/colorwheel/col-11.svg" action="link" editable="true" />
+
+<object id="col-12_47" type="image" src="graphics/design/colors/colorwheel/col-12.svg" action="link" editable="true" />
+
+
+
+
+<animation id="appear_col-1_0" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-1_0" positionStart="0.78:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-2_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-2_1" positionStart="0.80:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-3_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-3_2" positionStart="0.84:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-4_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-4_3" positionStart="0.89:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-5_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-5_4" positionStart="0.94:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-6_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-6_5" positionStart="0.96:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-7_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-7_6" positionStart="0.96:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-8_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-8_7" positionStart="0.94:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-9_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-9_8" positionStart="0.89:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-10_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-10_9" positionStart="0.84:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-11_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-11_10" positionStart="0.80:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-12_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-12_11" positionStart="0.78:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-1_12" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-1_12" positionStart="0.55:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-2_13" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-2_13" positionStart="0.57:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-3_14" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-3_14" positionStart="0.61:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-4_15" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-4_15" positionStart="0.66:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-5_16" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-5_16" positionStart="0.71:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-6_17" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-6_17" positionStart="0.73:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-7_18" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-7_18" positionStart="0.73:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-8_19" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-8_19" positionStart="0.71:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-9_20" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-9_20" positionStart="0.66:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-10_21" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-10_21" positionStart="0.61:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-11_22" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-11_22" positionStart="0.57:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-12_23" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-12_23" positionStart="0.55:0.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-1_24" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-1_24" positionStart="0.31:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-2_25" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-2_25" positionStart="0.33:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-3_26" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-3_26" positionStart="0.37:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-4_27" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-4_27" positionStart="0.42:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-5_28" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-5_28" positionStart="0.47:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-6_29" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-6_29" positionStart="0.49:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-7_30" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-7_30" positionStart="0.49:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-8_31" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-8_31" positionStart="0.47:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appe	ar_col-9_32" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-9_32" positionStart="0.42:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-10_33" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-10_33" positionStart="0.37:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-11_34" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-11_34" positionStart="0.33:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-12_35" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-12_35" positionStart="0.31:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-1_36" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-1_36" positionStart="0.06:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-2_37" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-2_37" positionStart="0.08:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-3_38" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-3_38" positionStart="0.12:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-4_39" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-4_39" positionStart="0.17:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-5_40" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-5_40" positionStart="0.22:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-6_41" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-6_41" positionStart="0.24:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-7_42" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-7_42" positionStart="0.24:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-8_43" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-8_43" positionStart="0.22:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-9_44" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-9_44" positionStart="0.17:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-10_45" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-10_45" positionStart="0.12:0.34" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-11_46" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-11_46" positionStart="0.08:0.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_col-12_47" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="col-12_47" positionStart="0.06:0.46" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_4_col-1_00" type="basicScale|scaleTo:0.040" object="col-1_0"  startTime="0.00" endTime="1.00" />
+
+<animation id="key_5_col-2_10" type="basicScale|scaleTo:0.040" object="col-2_1"  startTime="0.10" endTime="1.10" />
+
+<animation id="key_0_col-3_20" type="basicScale|scaleTo:0.040" object="col-3_2"  startTime="0.20" endTime="1.20" />
+
+<animation id="key_1_col-4_30" type="basicScale|scaleTo:0.040" object="col-4_3"  startTime="0.30" endTime="1.30" />
+
+<animation id="key_4_col-5_40" type="basicScale|scaleTo:0.040" object="col-5_4"  startTime="0.40" endTime="1.40" />
+
+<animation id="key_0_col-6_50" type="basicScale|scaleTo:0.040" object="col-6_5"  startTime="0.50" endTime="1.50" />
+
+<animation id="key_0_col-7_60" type="basicScale|scaleTo:0.040" object="col-7_6"  startTime="0.60" endTime="1.60" />
+
+<animation id="key_1_col-8_70" type="basicScale|scaleTo:0.040" object="col-8_7"  startTime="0.70" endTime="1.70" />
+
+<animation id="key_7_col-9_80" type="basicScale|scaleTo:0.040" object="col-9_8"  startTime="0.80" endTime="1.80" />
+
+<animation id="key_5_col-10_90" type="basicScale|scaleTo:0.040" object="col-10_9"  startTime="0.90" endTime="1.90" />
+
+<animation id="key_1_col-11_100" type="basicScale|scaleTo:0.040" object="col-11_10"  startTime="1.00" endTime="2.00" />
+
+<animation id="key_5_col-12_110" type="basicScale|scaleTo:0.040" object="col-12_11"  startTime="1.10" endTime="2.10" />
+
+<animation id="key_3_col-1_120" type="basicScale|scaleTo:0.040" object="col-1_12"  startTime="1.20" endTime="2.20" />
+
+<animation id="key_7_col-2_130" type="basicScale|scaleTo:0.040" object="col-2_13"  startTime="1.30" endTime="2.30" />
+
+<animation id="key_4_col-3_140" type="basicScale|scaleTo:0.040" object="col-3_14"  startTime="1.40" endTime="2.40" />
+
+<animation id="key_4_col-4_150" type="basicScale|scaleTo:0.040" object="col-4_15"  startTime="1.50" endTime="2.50" />
+
+<animation id="key_7_col-5_160" type="basicScale|scaleTo:0.040" object="col-5_16"  startTime="1.60" endTime="2.60" />
+
+<animation id="key_6_col-6_170" type="basicScale|scaleTo:0.040" object="col-6_17"  startTime="1.70" endTime="2.70" />
+
+<animation id="key_2_col-7_180" type="basicScale|scaleTo:0.040" object="col-7_18"  startTime="1.80" endTime="2.80" />
+
+<animation id="key_6_col-8_190" type="basicScale|scaleTo:0.040" object="col-8_19"  startTime="1.90" endTime="2.90" />
+
+<animation id="key_0_col-9_200" type="basicScale|scaleTo:0.040" object="col-9_20"  startTime="1.90" endTime="2.90" />
+
+<animation id="key_3_col-10_210" type="basicScale|scaleTo:0.040" object="col-10_21"  startTime="2.00" endTime="3.00" />
+
+<animation id="key_6_col-11_220" type="basicScale|scaleTo:0.040" object="col-11_22"  startTime="2.10" endTime="3.10" />
+
+<animation id="key_7_col-12_230" type="basicScale|scaleTo:0.040" object="col-12_23"  startTime="2.20" endTime="3.20" />
+
+<animation id="key_7_col-1_240" type="basicScale|scaleTo:0.040" object="col-1_24"  startTime="2.30" endTime="3.30" />
+
+<animation id="key_5_col-2_250" type="basicScale|scaleTo:0.040" object="col-2_25"  startTime="2.40" endTime="3.40" />
+
+<animation id="key_4_col-3_260" type="basicScale|scaleTo:0.040" object="col-3_26"  startTime="2.50" endTime="3.50" />
+
+<animation id="key_8_col-4_270" type="basicScale|scaleTo:0.040" object="col-4_27"  startTime="2.60" endTime="3.60" />
+
+<animation id="key_4_col-5_280" type="basicScale|scaleTo:0.040" object="col-5_28"  startTime="2.70" endTime="3.70" />
+
+<animation id="key_8_col-6_290" type="basicScale|scaleTo:0.040" object="col-6_29"  startTime="2.80" endTime="3.80" />
+
+<animation id="key_8_col-7_300" type="basicScale|scaleTo:0.040" object="col-7_30"  startTime="2.90" endTime="3.90" />
+
+<animation id="key_8_col-8_310" type="basicScale|scaleTo:0.040" object="col-8_31"  startTime="3.00" endTime="4.00" />
+
+<animation id="key_4_col-9_320" type="basicScale|scaleTo:0.040" object="col-9_32"  startTime="3.10" endTime="4.10" />
+
+<animation id="key_6_col-10_330" type="basicScale|scaleTo:0.040" object="col-10_33"  startTime="3.20" endTime="4.20" />
+
+<animation id="key_6_col-11_340" type="basicScale|scaleTo:0.040" object="col-11_34"  startTime="3.30" endTime="4.30" />
+
+<animation id="key_6_col-12_350" type="basicScale|scaleTo:0.040" object="col-12_35"  startTime="3.40" endTime="4.40" />
+
+<animation id="key_3_col-1_360" type="basicScale|scaleTo:0.040" object="col-1_36"  startTime="3.50" endTime="4.50" />
+
+<animation id="key_3_col-2_370" type="basicScale|scaleTo:0.040" object="col-2_37"  startTime="3.60" endTime="4.60" />
+
+<animation id="key_6_col-3_380" type="basicScale|scaleTo:0.040" object="col-3_38"  startTime="3.70" endTime="4.70" />
+
+<animation id="key_3_col-4_390" type="basicScale|scaleTo:0.040" object="col-4_39"  startTime="3.80" endTime="4.80" />
+
+<animation id="key_3_col-5_400" type="basicScale|scaleTo:0.040" object="col-5_40"  startTime="3.90" endTime="4.90" />
+
+<animation id="key_0_col-6_410" type="basicScale|scaleTo:0.040" object="col-6_41"  startTime="4.00" endTime="5.00" />
+
+<animation id="key_2_col-7_420" type="basicScale|scaleTo:0.040" object="col-7_42"  startTime="4.10" endTime="5.10" />
+
+<animation id="key_7_col-8_430" type="basicScale|scaleTo:0.040" object="col-8_43"  startTime="4.20" endTime="5.20" />
+
+<animation id="key_7_col-9_440" type="basicScale|scaleTo:0.040" object="col-9_44"  startTime="4.30" endTime="5.30" />
+
+<animation id="key_7_col-10_450" type="basicScale|scaleTo:0.040" object="col-10_45"  startTime="4.40" endTime="5.40" />
+
+<animation id="key_5_col-11_460" type="basicScale|scaleTo:0.040" object="col-11_46"  startTime="4.50" endTime="5.50" />
+
+<animation id="key_8_col-12_470" type="basicScale|scaleTo:0.040" object="col-12_47"  startTime="4.60" endTime="5.60" />
+
+
+
+
+
+
+ </igml>	

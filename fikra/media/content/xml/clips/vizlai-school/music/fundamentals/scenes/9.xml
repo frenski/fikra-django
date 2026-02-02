@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Музиката като частици" description="" author="Yane Frenski" date="05/03/2022">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg4.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/music/instruments/speaker-purple-big.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/music/instruments/speaker-purple-small.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/music/instruments/speaker-purple-small.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/design-components/icons/flat-icons/wifi-icon-part.svg" editable="true" description=""  />
+<object id="l_5" type="image" src="graphics/design-components/icons/flat-icons/wifi-icon-part.svg" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/design-components/icons/flat-icons/wifi-icon-part.svg" editable="true" description=""  />
+<object id="l_7" type="image" src="graphics/characters/character-icons/ear-salmon.svg" editable="true" description=""  />
+<object id="l_8" type="image" src="graphics/design-components/text-ballons/circle-bubble-purple-orange.svg" editable="true" description=""  />
+<object id="c_1" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_2" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_3" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_4" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_5" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_6" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_7" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="c_8" type="shape" shapetype="circle" size="1,1" color="#FFFFFF" strokeWidth="0" stroke="" editable="true" description="" />
+
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.501:1.502" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFromShadowMask|scaleTo:0.345;shadowScale:1" object="l_1" positionStart="0.391:0.65" startTime="0.5" endTime="1.5" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.205;opacity:0;anchorPoint:0.5,0.5" object="l_2" positionStart="0.560:1.822" startTime="0.5" endTime="0.5" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.205;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.205:1.822" startTime="0.5" endTime="0.5" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.565:0.411" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.602:0.393" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.629:0.368" startTime="0" endTime="0" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.769:0.260" startTime="0" endTime="0" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.388:0.198" startTime="0" endTime="0" description=" appearing order: 3" />
+
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.25" endTime="1.25" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.501:0.502" startTime="0.35" endTime="1.35" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="0.50" endTime="1.50" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_1" positionEnd="0.391:0.650" startTime="0.70" endTime="1.70" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_2"  startTime="0.9" endTime="1.5" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_2" positionEnd="0.560:0.822" startTime="0.5" endTime="1.5" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="0.9" endTime="1.5" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_3" positionEnd="0.205:0.822" startTime="0.5" endTime="1.5" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.051;ease:easeOutBounce;" object="l_4"  startTime="1.70" endTime="2.70" description="" />
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.079;ease:easeOutBounce;" object="l_5"  startTime="1.90" endTime="2.90" description="" />
+<animation id="s_0_0_l_6" type="basicScale|scaleTo:0.104;ease:easeOutBounce;" object="l_6"  startTime="2.10" endTime="3.10" description="" />
+<animation id="s_0_0_l_7" type="basicScale|scaleTo:0.158;ease:easeOutBounce;" object="l_7"  startTime="2.30" endTime="3.30" description="" />
+
+<animation id="r_0_0_l_8" type="basicRotate|angle:260;ease:easeOutBounce;" object="l_8"  startTime="1" endTime="1.1" description="" />
+<animation id="s_0_0_l_8" type="basicScale|scaleTo:0.330;ease:easeOutBounce;" object="l_8"  startTime="2.35" endTime="3.35" description="" />
+
+
+<animation id="sinewave_l_4" type="waveScale|loops:8;axis:x;returnToStart:true;scaleTo:0.015" object="l_4"  positionRelativeTo="scene" startTime="4" endTime="16" />
+<animation id="sinewave_l_4" type="waveScale|loops:8;axis:y;returnToStart:true;scaleTo:0.015" object="l_4"  positionRelativeTo="scene" startTime="4" endTime="16" />
+
+<animation id="sinewave_l_5" type="waveScale|loops:8;axis:x;returnToStart:true;scaleTo:0.015" object="l_5"  positionRelativeTo="scene" startTime="4.5" endTime="16.5" />
+<animation id="sinewave_l_5" type="waveScale|loops:8;axis:y;returnToStart:true;scaleTo:0.015" object="l_5"  positionRelativeTo="scene" startTime="4.5" endTime="16.5" />
+
+<animation id="sinewave_l_6" type="waveScale|loops:8;axis:x;returnToStart:true;scaleTo:0.015" object="l_6"  positionRelativeTo="scene" startTime="5" endTime="17" />
+<animation id="sinewave_l_6" type="waveScale|loops:8;axis:y;returnToStart:true;scaleTo:0.015" object="l_6"  positionRelativeTo="scene" startTime="5" endTime="17" />
+
+<animation id="sinewave_l_7_0" type="waveMove|loops:12;axis:y;returnToStart:true;amplitude:0.005" object="l_7"  positionRelativeTo="scene" startTime="6.5" endTime="7.2" />
+
+<animation id="sinewave_l_7_1" type="waveMove|loops:12;axis:y;returnToStart:true;amplitude:0.005" object="l_7"  positionRelativeTo="scene" startTime="10" endTime="10.7" />
+
+<animation id="sinewave_l_7_2" type="waveMove|loops:12;axis:y;returnToStart:true;amplitude:0.005" object="l_7"  positionRelativeTo="scene" startTime="14" endTime="14.7" />
+
+<animation id="disappear_all" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8"  startTime="15" endTime="16" description="" />
+
+<animation id="appear_c_1" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_1" positionStart="0.314:0.088" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_1" type="basicMove" object="c_1" positionEnd="0.436:0.340" startTime="3" endTime="4" description=" random move 1" />
+<animation id="m_1_c_1" type="basicMove" object="c_1" positionEnd="0.458:0.075" startTime="4" endTime="5" description=" random move 2" />
+<animation id="m_2_c_1" type="basicMove" object="c_1" positionEnd="0.258:0.259" startTime="5" endTime="6" description=" random move 3" />
+<animation id="m_3_c_1" type="basicMove" object="c_1" positionEnd="0.539:0.215" startTime="6" endTime="7" description=" random move 4" />
+<animation id="m_4_c_1" type="basicMove" object="c_1" positionEnd="0.251:0.177" startTime="6" endTime="8" description=" random move 5" />
+<animation id="m_5_c_1" type="basicMove" object="c_1" positionEnd="0.466:0.082" startTime="8" endTime="9" description=" random move 6" />
+<animation id="m_6_c_1" type="basicMove" object="c_1" positionEnd="0.320:0.332" startTime="9" endTime="10" description=" random move 7" />
+<animation id="disappear_c_1" type="disappearFade" object="c_1" startTime="9" endTime="10" description="disappear fade" />
+
+<animation id="appear_c_2" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_2" positionStart="0.436:0.340" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_2" type="basicMove" object="c_2" positionEnd="0.458:0.075" startTime="3" endTime="4" description=" random move 1" />
+<animation id="m_1_c_2" type="basicMove" object="c_2" positionEnd="0.539:0.215" startTime="4" endTime="5" description=" random move 2" />
+<animation id="m_2_c_2" type="basicMove" object="c_2" positionEnd="0.320:0.332" startTime="5" endTime="6" description=" random move 3" />
+<animation id="m_3_c_2" type="basicMove" object="c_2" positionEnd="0.475:0.084" startTime="6" endTime="7" description=" random move 4" />
+<animation id="m_4_c_2" type="basicMove" object="c_2" positionEnd="0.251:0.177" startTime="7" endTime="8" description=" random move 5" />
+<animation id="m_5_c_2" type="basicMove" object="c_2" positionEnd="0.548:0.189" startTime="8" endTime="9" description=" random move 6" />
+<animation id="m_6_c_2" type="basicMove" object="c_2" positionEnd="0.341:0.327" startTime="9" endTime="10" description=" random move 7" />
+<animation id="disappear_c_2" type="disappearFade" object="c_2" startTime="9" endTime="10" description="disappear fade" />
+
+<animation id="appear_c_3" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_3" positionStart="0.436:0.340" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_3" type="basicMove" object="c_3" positionEnd="0.525:0.264" startTime="3" endTime="4" description=" random move 1" />
+<animation id="m_1_c_3" type="basicMove" object="c_3" positionEnd="0.262:0.147" startTime="4" endTime="5" description=" random move 2" />
+<animation id="m_2_c_3" type="basicMove" object="c_3" positionEnd="0.464:0.333" startTime="5" endTime="6" description=" random move 3" />
+<animation id="m_3_c_3" type="basicMove" object="c_3" positionEnd="0.433:0.066" startTime="6" endTime="7" description=" random move 4" />
+<animation id="m_4_c_3" type="basicMove" object="c_3" positionEnd="0.306:0.316" startTime="7" endTime="8" description=" random move 5" />
+<animation id="m_5_c_3" type="basicMove" object="c_3" positionEnd="0.458:0.113" startTime="8" endTime="9" description=" random move 6" />
+<animation id="m_6_c_3" type="basicMove" object="c_3" positionEnd="0.251:0.177" startTime="9" endTime="10" description=" random move 7" />
+<animation id="disappear_c_3" type="disappearFade" object="c_3" startTime="9" endTime="10" description="disappear fade" />
+
+
+<animation id="appear_c_4" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_4" positionStart="0.436:0.340" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_4" type="basicMove" object="c_4" positionEnd="0.450:0.324" startTime="3" endTime="4" description=" random move 1" />
+<animation id="m_1_c_4" type="basicMove" object="c_4" positionEnd="0.280:0.119" startTime="4" endTime="5" description=" random move 2" />
+<animation id="m_2_c_4" type="basicMove" object="c_4" positionEnd="0.537:0.190" startTime="5" endTime="6" description=" random move 3" />
+<animation id="m_3_c_4" type="basicMove" object="c_4" positionEnd="0.270:0.278" startTime="6" endTime="7" description=" random move 4" />
+<animation id="m_4_c_4" type="basicMove" object="c_4" positionEnd="0.537:0.190" startTime="7" endTime="8" description=" random move 5" />
+<animation id="m_5_c_4" type="basicMove" object="c_4" positionEnd="0.385:0.350" startTime="8" endTime="9" description=" random move 6" />
+<animation id="m_6_c_4" type="basicMove" object="c_4" positionEnd="0.397:0.061" startTime="9" endTime="10" description=" random move 7" />
+<animation id="disappear_c_4" type="disappearFade" object="c_4" startTime="9" endTime="10" description="disappear fade" />
+
+<animation id="appear_c_5" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_5" positionStart="0.417:0.193" startTime="3.5" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_5" type="basicMove" object="c_5" positionEnd="0.388:0.057" startTime="3.5" endTime="4.5" description=" random move 1" />
+<animation id="m_1_c_5" type="basicMove" object="c_5" positionEnd="0.450:0.349" startTime="4.5" endTime="5.5" description=" random move 2" />
+<animation id="m_2_c_5" type="basicMove" object="c_5" positionEnd="0.320:0.332" startTime="5.5" endTime="6.5" description=" random move 3" />
+<animation id="m_3_c_5" type="basicMove" object="c_5" positionEnd="0.475:0.084" startTime="6.5" endTime="7.5" description=" random move 4" />
+<animation id="m_4_c_5" type="basicMove" object="c_5" positionEnd="0.251:0.177" startTime="7.5" endTime="8.5" description=" random move 5" />
+<animation id="m_5_c_5" type="basicMove" object="c_5" positionEnd="0.548:0.189" startTime="8.5" endTime="9.5" description=" random move 6" />
+<animation id="m_6_c_5" type="basicMove" object="c_5" positionEnd="0.341:0.327" startTime="9.5" endTime="10.5" description=" random move 7" />
+<animation id="m_7_c_5" type="basicMove" object="c_5" positionEnd="0.388:0.057" startTime="10.5" endTime="11" description=" random move 7" />
+<animation id="disappear_c_5" type="disappearFade" object="c_5" startTime="10.5" endTime="11" description="disappear fade" />
+
+<animation id="appear_c_6" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_6" positionStart="0.388:0.228" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_6" type="basicMove" object="c_6" positionEnd="0.450:0.324" startTime="3.5" endTime="4.5" description=" random move 1" />
+<animation id="m_1_c_6" type="basicMove" object="c_6" positionEnd="0.324:0.119" startTime="4.5" endTime="5.5" description=" random move 2" />
+<animation id="m_2_c_6" type="basicMove" object="c_6" positionEnd="0.537:0.190" startTime="5.5" endTime="6.5" description=" random move 3" />
+<animation id="m_3_c_6" type="basicMove" object="c_6" positionEnd="0.270:0.278" startTime="6.5" endTime="7.5" description=" random move 4" />
+<animation id="m_4_c_6" type="basicMove" object="c_6" positionEnd="0.537:0.190" startTime="7.5" endTime="8.5" description=" random move 5" />
+<animation id="m_5_c_6" type="basicMove" object="c_6" positionEnd="0.385:0.350" startTime="8.5" endTime="9.5" description=" random move 6" />
+<animation id="m_6_c_6" type="basicMove" object="c_6" positionEnd="0.341:0.327" startTime="9.5" endTime="10.5" description=" random move 7" />
+<animation id="m_7_c_6" type="basicMove" object="c_6" positionEnd="0.397:0.061" startTime="10.5" endTime="11" description=" random move 7" />
+<animation id="disappear_c_6" type="disappearFade" object="c_6" startTime="10" endTime="11" description="disappear fade" />
+
+<animation id="appear_c_7" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_7" positionStart="0.432:0.204" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_7" type="basicMove" object="c_7" positionEnd="0.257:0.260" startTime="3" endTime="4.5" description=" random move 1" />
+<animation id="m_1_c_7" type="basicMove" object="c_7" positionEnd="0.510:0.121" startTime="4.5" endTime="5.5" description=" random move 2" />
+<animation id="m_2_c_7" type="basicMove" object="c_7" positionEnd="0.376:0.346" startTime="5.5" endTime="6.5" description=" random move 3" />
+<animation id="m_3_c_7" type="basicMove" object="c_7" positionEnd="0.368:0.067" startTime="6.5" endTime="7.5" description=" random move 4" />
+<animation id="m_4_c_7" type="basicMove" object="c_7" positionEnd="0.327:0.341" startTime="7.5" endTime="8.5" description=" random move 5" />
+<animation id="m_5_c_7" type="basicMove" object="c_7" positionEnd="0.270:0.131" startTime="8.5" endTime="9.5" description=" random move 6" />
+<animation id="m_6_c_7" type="basicMove" object="c_7" positionEnd="0.385:0.312" startTime="9.5" endTime="10.5" description=" random move 7" />
+<animation id="m_7_c_7" type="basicMove" object="c_7" positionEnd="0.362:0.214" startTime="10.5" endTime="11" description=" random move 7" />
+<animation id="disappear_c_7" type="disappearFade" object="c_7" startTime="10" endTime="11" description="disappear fade" />
+
+<animation id="appear_c_8" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="c_8" positionStart="0.346:0.240" startTime="3" endTime="4" description=" appearing order: 0" />
+<animation id="m_0_c_8" type="basicMove" object="c_8" positionEnd="0.325:0.068" startTime="3" endTime="4.5" description=" random move 1" />
+<animation id="m_1_c_8" type="basicMove" object="c_8" positionEnd="0.420:0.344" startTime="4.5" endTime="5.5" description=" random move 2" />
+<animation id="m_2_c_8" type="basicMove" object="c_8" positionEnd="0.297:0.103" startTime="5.5" endTime="6.5" description=" random move 3" />
+<animation id="m_3_c_8" type="basicMove" object="c_8" positionEnd="0.525:0.257" startTime="6.5" endTime="7.5" description=" random move 4" />
+<animation id="m_4_c_8" type="basicMove" object="c_8" positionEnd="0.388:0.198" startTime="7.5" endTime="8.5" description=" random move 5" />
+<animation id="m_5_c_8" type="basicMove" object="c_8" positionEnd="0.483:0.093" startTime="8.5" endTime="9.5" description=" random move 6" />
+<animation id="m_6_c_8" type="basicMove" object="c_8" positionEnd="0.417:0.346" startTime="9.5" endTime="10.5" description=" random move 7" />
+<animation id="m_7_c_8" type="basicMove" object="c_8" positionEnd="0.361:0.202" startTime="10.5" endTime="11" description=" random move 7" />
+<animation id="disappear_c_8" type="disappearFade" object="c_8" startTime="10" endTime="11" description="disappear fade" />
+
+<animation id="disappear_l_8" type="disappearFade" object="l_8" startTime="11" endTime="12" description="disappear fade" />
+
+
+</igml>

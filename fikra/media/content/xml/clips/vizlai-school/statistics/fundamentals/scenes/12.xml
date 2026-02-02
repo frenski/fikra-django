@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#333333" title="Оценки">
+
+	<!-- OBJECTS -->
+  <object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" editable="true" />
+  <object id="l_1" type="image" src="graphics/design-components/arrows/arrow-solid-curved-white.svg" editable="true" />
+  <object id="l_2" type="text" text="мода" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+  <object id="l_3" type="image" src="graphics/design-components/arrows/arrow-solid-curved-white.svg" editable="true" />
+  <object id="l_4" type="text" text="медиана" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+	<object id="barchart-data-viz" type="data-viz" color="#1B1464,#FFD769,#FFD769,#FFD769" strokeWidth="0.01" dotRadius="0.01" fontResize="1.5" data="[['',' ',' ','','',''],['Data',2,5,6,11,11]]" font="MontBlanc-Bold" fontColor="#ffffff" sourceInfo="" action="link:"/>
+
+  <object id="bell-curve" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="3" path="M14.2,195.7c165.2,0,330.4,0,495.6,0" size="0,0,450,50" />
+  <object id="line-up" type="shape" shapetype="path" color="#FFFFFF" stroke="#FFFFFF" strokeWidth="3" path="M19.4,476V18" size="0,0,50,500" />
+  <object id="l_5" type="text" text="10" size="20" align="center" color="#000000" font="MontBlanc-Bold" weight="500" editable="true"  />
+  <object id="l_6" type="text" text="5" size="20" align="center" color="#000000" font="MontBlanc-Bold" weight="500" editable="true"  />
+  <object id="l_7" type="text" text="0" size="20" align="center" color="#000000" font="MontBlanc-Bold" weight="500" editable="true"  />
+
+  <object id="l_8" type="image" src="graphics/design-components/arrows/arrow-solid-curved-white.svg" editable="true" />
+  <object id="l_9" type="text" text="средна стойност" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+
+
+	<!-- ANIMATIONS -->
+  <animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+  <animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.5" startTime="0.5" endTime="1.5" description="" />
+  <animation id="appear_l_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.563:0.228" startTime="12" endTime="13" description=" appearing order: 1" />
+  <animation id="r_0_0_l_1" type="basicRotate|angle:-65" object="l_1" startTime="12" endTime="12" description=" appearing order: 1" />
+  <animation id="appear_l_2" type="appearFade|scaleTo:0.09;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.576:0.105" startTime="12" endTime="13" description=" appearing order: 1" />
+
+  <animation id="appear_l_3" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.437:0.901" startTime="16" endTime="17" description=" appearing order: 3" />
+  <animation id="r_0_0_l_3" type="basicRotate|angle:-155" object="l_3" startTime="16" endTime="16" description=" appearing order: 3" />
+  <animation id="appear_l_4" type="appearFade|scaleTo:0.14;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.253:0.914" startTime="16" endTime="17" description=" appearing order: 4" />
+
+  <animation id="appear_l_8" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.333:0.337" startTime="7" endTime="8" description=" appearing order: 1" />
+  <animation id="r_0_0_l_8" type="basicRotate|angle:-50" object="l_8" startTime="7" endTime="7" description=" appearing order: 1" />
+  <animation id="appear_l_9" type="appearFade|scaleTo:0.27;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.338:0.21" startTime="7" endTime="8" description=" appearing order: 1" />
+
+  <animation id="appear_l_5" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.127:0.3" startTime="2" endTime="3" description=" appearing order: 3" />
+
+  <animation id="appear_l_6" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.127:0.55" startTime="2" endTime="3" description=" appearing order: 3" />
+
+  <animation id="appear_l_7" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.127:0.83" startTime="2" endTime="3" description=" appearing order: 3" />
+
+	<animation id="show-chart1" type="showChartBar|scaleTo:0.75;anchorPoint:0.5,0.5;animOverlap:0.2;" object="barchart-data-viz" positionStart="0.55:0.5" backgroundColor="#002841" positionRelativeTo="scene" startTime="1" endTime="6" />
+
+  <animation id="draw-bell-curve" type="drawPathOfShapes|scaleTo:0.65;shapeType:rect;intervalGap:2" object="bell-curve" positionStart="0.142:0.18" positionRelativeTo="scene" startTime="5" endTime="6" />
+
+  <animation id="disappear-all" type="disappearFade|ease:easeInExpo;cover:self" object="l_0,number-big-circle,number-big,line-up,bell-curve,barchart-data-viz,l_5,l_6,l_7,l_1,l_2,l_3,l_4,l_8,l_9" startTime="20" endTime="21" description="" />
+
+
+</igml>

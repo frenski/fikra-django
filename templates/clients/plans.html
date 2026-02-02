@@ -1,0 +1,107 @@
+{% extends 'nodes/base.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/dashboard.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/business.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/plans.css" %}">
+{% endblock %}
+
+{% block title %} {% trans "Plans" %}: {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block article_main %}
+
+<section class="py-20 bg-[#121826] relative overflow-hidden animate-reveal plans">
+	<div class="absolute inset-0 overflow-hidden">
+		<div class="absolute top-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl"></div>
+		<div class="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+		<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-teal-500/5 rounded-full blur-3xl"></div>
+	</div>
+	<div class="container max-w-7xl mx-auto px-6 relative z-10">
+		<div class="text-center mb-16" style="opacity: 1; transform: none;">
+			<div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-6">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-purple-400"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg><span class="text-sm text-white/80 font-medium">{% trans "Vizipedia Plans" %}</span>
+			</div>
+			<h2 class="text-4xl lg:text-5xl font-bold text-white mb-4">{% trans "Get the most out of Vizipedia" %}</h2>
+			<p class="text-xl text-white/60 max-w-2xl mx-auto">{% trans "Unlock your full potential with our preferential plans" %}</p>
+		</div>
+		<div class="grid lg:grid-cols-3 gap-8">
+			<div class="group relative price-block" style="opacity: 1; transform: none;">
+				<div class="relative bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-500 hover:transform hover:-translate-y-2 h-full price-block-inner">
+					<div class="bg-purple-500/10 rounded-2xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+						<img src="/static/img/icons/3dicon-brain-gray.png" alt="Brain" class="w-14 h-14">
+					</div>
+					<h3 class="text-2xl font-bold text-white mb-4">{% trans "Basic" %}</h3>
+          <h4 class="price_label bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-6">{% trans "Free" %}</h4>
+					<ul class="text-white/70 leading-relaxed features-list">
+            <li>{% trans "Free play of public game content" %}</li>
+            <li>{% trans "50 Free game creation credits" %}</li>
+          </ul>
+          <div class="text-center mt-12 absolute plan-btn-subscribe" style="opacity: 1; transform: none;">
+            <a href="{% url 'tap_payment' subscription_id=1 %}" class="button-outline inline-flex items-center group">{% trans "Subscribe" %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform group-hover:translate-x-1">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+				</div>
+			</div>
+			<div class="group relative price-block" style="opacity: 1; transform: none;">
+				<div class="relative bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-500 hover:transform hover:-translate-y-2 h-full price-block-inner">
+					<div class="bg-blue-500/10 rounded-2xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+						<img src="/static/img/icons/3dicon-brain.png" alt="Gear" class="w-14 h-14">
+					</div>
+          <h3 class="text-2xl font-bold text-white mb-4">{% trans "Enlightener" %}</h3>
+          <h4 class="price_label bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-6">{% trans "25 EUR/month" %}</h4>
+					<ul class="text-white/70 leading-relaxed features-list">
+            <li>{% trans "Free play of public and exclusive game content" %}</li>
+            <li>{% trans "Full access to multiplayer mode" %}</li>
+            <li>{% trans "500 game creation credits" %}</li>
+            <li>{% trans "Game export and embedding" %}</li>
+            <li>{% trans "Customer support" %}</li>
+          </ul>
+          <div class="text-center mt-12 absolute plan-btn-subscribe" style="opacity: 1; transform: none;">
+  					<a href="{% url 'tap_payment' subscription_id=2 %}" class="button-outline inline-flex items-center group">{% trans "Subscribe" %}
+  						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform group-hover:translate-x-1">
+  							<path d="M5 12h14"></path>
+  							<path d="m12 5 7 7-7 7"></path>
+  						</svg>
+  					</a>
+  				</div>
+				</div>
+			</div>
+			<div class="group relative price-block" style="opacity: 1; transform: none;">
+				<div class="relative bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-500 hover:transform hover:-translate-y-2 h-full price-block-inner">
+					<div class="bg-teal-500/10 rounded-2xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+						<img src="/static/img/icons/3dicon-brain-yellow.png" alt="Data Analytics" class="w-14 h-14">
+					</div>
+          <h3 class="text-2xl font-bold text-white mb-4">{% trans "Enlightener Premium" %}</h3>
+          <h4 class="price_label bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-6">{% trans "50 EUR/month" %}</h4>
+					<ul class="text-white/70 leading-relaxed features-list">
+            <li>{% trans "Free play of public and exclusive game content" %}</li>
+            <li>{% trans "Full access to multiplayer mode" %}</li>
+            <li>{% trans "1500 game creation credits" %}</li>
+            <li>{% trans "Game export and embedding" %}</li>
+            <li>{% trans "Learning management features" %}</li>
+            <li>{% trans "Customer support" %}</li>
+          </ul>
+          <div class="text-center mt-12 absolute plan-btn-subscribe" style="opacity: 1; transform: none;">
+            <a href="{% url 'tap_payment' subscription_id=2 %}" class="button-outline inline-flex items-center group">{% trans "Subscribe" %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform group-hover:translate-x-1">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% endblock %}

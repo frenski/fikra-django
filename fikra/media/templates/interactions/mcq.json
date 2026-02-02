@@ -1,0 +1,24 @@
+{
+  "objects":{
+    "question_statement": {
+      "text":"Select the correct answer"
+    },
+    "answer1": {
+      "text":"Answer 1"
+    },
+    "answer2": {
+      "text":"Answer 2"
+    },
+    "answer3": {
+      "text":"Answer 3"
+    },
+    "answer4": {
+      "text":"Answer 4"
+    }
+  },
+  "variables":{
+    "correct": {
+      "default": 0
+    }
+  }
+}

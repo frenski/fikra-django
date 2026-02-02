@@ -1,0 +1,126 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="" title="Feeling positive" description="Feeling positive" author="Dilyana Asenovska" date="22/03/2022">
+<object type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/music1-piece20_3.mp3" id="vo0"/>
+<object id="bg_0" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" action="link" editable="true"/>
+<object id="body_2" type="image" src="graphics/characters/vizlai-school/teen1/body.svg" action="link" editable="true"/>
+<object id="head_3" type="image" src="graphics/characters/vizlai-school/teen1/head.svg" action="link" editable="true"/>
+<object id="eye_4" type="image" src="graphics/characters/vizlai-school/teen1/eye.svg" action="link" editable="true"/>
+<object id="eye_5" type="image" src="graphics/characters/vizlai-school/teen1/eye.svg" action="link" editable="true"/>
+<object id="glasses_6" type="image" src="graphics/characters/vizlai-school/teen1/glasses.svg" action="link" editable="true"/>
+<object id="mouth_7" type="image" src="graphics/characters/vizlai-school/teen1/mouth.svg" action="link" editable="true"/>
+<object id="eyecl_10" type="image" src="graphics/characters/vizlai-school/teen1/eyecl.svg" action="link" editable="true"/>
+<object id="eyecl_11" type="image" src="graphics/characters/vizlai-school/teen1/eyecr.svg" action="link" editable="true"/>
+<object id="avatar_back" type="image" src="graphics/characters/vizlai-school/generic/avatar-back.svg" action="link" editable="true"/>
+<object id="avatar_back_shadow" type="image" src="graphics/characters/vizlai-school/generic/avatar-back-shadow.svg" action="link" editable="true"/>
+<object id="smilemouth_26" type="image" src="graphics/characters/body-components/mouth-smile1.svg" action="link" editable="false"/>
+
+<object id="L_15" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_16" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_17" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_18" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_19" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_20" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_21" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+<object id="L_22" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true"/>
+
+<object id="ok_sign" type="image" src="graphics/education/vizlai-school/generic/ok-sign.svg" editable="true" description=""/>
+
+<container id="upperBody" objects="body_2,head_3,eye_4,eye_5,glasses_6,mouth_7,eyecl_10,eyecl_11,smilemouth_26" action="link:" editable="false"/>
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_avatar_back_shadow" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="avatar_back_shadow" positionStart="0.52:0.52" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_avatar_back" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="avatar_back" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0"/>
+
+<animation id="appear-upperb" type="appearFade|opacity:0" object="upperBody" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0"/>
+
+<animation id="appear_body_2" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="body_2" positionStart="0.235:0.133" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_head_3" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,1" object="head_3" positionStart="0.238:0.08" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_eye_4" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="eye_4" positionStart="0.22:0.02" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_eye_5" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="eye_5" positionStart="0.26:0.02" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_glasses_6" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="glasses_6" positionStart="0.238:-0.05" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_mouth_7" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="mouth_7" positionStart="0.24:0.055" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_eyecl_10" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="eyecl_10" positionStart="0.22:0.01" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_eyecl_11" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="eyecl_11" positionStart="0.26:0.01" positionRelativeTo="scene" startTime="0" endTime="0"/>
+<animation id="appear_mouth_26" type="appearFade|scaleTo:0.025;opacity:0;anchorPoint:0.5,0.5" object="smilemouth_26" positionStart="0.239:0.057" startTime="0" endTime="0"/>
+
+<animation id="appear_L_15" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_15" positionStart="0.30:0.40" startTime="0" endTime="0"/>
+<animation id="appear_L_16" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_16" positionStart="0.45:0.65" startTime="0" endTime="0"/>
+<animation id="appear_L_17" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_17" positionStart="0.57:0.27" startTime="0" endTime="0"/>
+<animation id="appear_L_18" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_18" positionStart="0.63:0.74" startTime="0" endTime="0"/>
+<animation id="appear_L_19" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_19" positionStart="0.72:0.39" startTime="0" endTime="0"/>
+<animation id="appear_L_20" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_20" positionStart="0.34:0.45" startTime="0" endTime="0"/>
+<animation id="appear_L_21" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_21" positionStart="0.67:0.56" startTime="0" endTime="0"/>
+<animation id="appear_L_22" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="L_22" positionStart="0.31:0.70" startTime="0" endTime="0"/>
+
+<animation id="appear_ok_sign" type="appearFade|scaleTo:0.3;opacity:0;anchorPoint:0.5,0.5" object="ok_sign" positionStart="0.419:0.713" startTime="0" endTime="0" description=" appearing order: 11"/>
+<animation id="upbody_m0" type="basicMove" object="upperBody" positionEnd="-0.038:0.34" positionRelativeTo="scene" startTime="0" endTime="0"/>
+
+<animation id="m_0_0_bg_0" type="basicMove" object="bg_0" positionStart="0.5:1.5" positionEnd="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0.5"/>
+
+<animation id="abs_s0" type="basicScale|scaleTo:0.6;ease:easeOutExpo" object="avatar_back_shadow" startTime="0.2" endTime="1"/>
+<animation id="abs_o0" type="basicOpacity|opacity:1" object="avatar_back_shadow" startTime="0.2" endTime="0.6"/>
+<animation id="ab_s0" type="basicScale|scaleTo:0.6;ease:easeOutExpo" object="avatar_back" startTime="0.4" endTime="1.4"/>
+<animation id="ab_o0" type="basicOpacity|opacity:1" object="avatar_back" startTime="0.4" endTime="0.8"/>
+<animation id="upbody_o0" type="basicOpacity|opacity:1" object="upperBody" startTime="0.6" endTime="1"/>
+
+<animation id="upbody_s0" type="basicScale|scaleTo:0.46;ease:easeOutExpo" object="upperBody" startTime="0.6" endTime="1.6"/>
+
+
+
+<animation id="appear_mouth_26" type="basicOpacity|opacity:1" object="smilemouth_26" startTime="2" endTime="3"/>
+<animation id="appear_mouth_26" type="basicMove" positionEnd="0.245:0.057" object="smilemouth_26" startTime="2" endTime="3"/>
+<animation id="appear_mouth_26" type="basicRotate|angle:-10" object="smilemouth_26" startTime="2" endTime="3"/>
+<animation id="disappear_mouth_26" type="disappearFade" object="mouth_7" startTime="2" endTime="3"/>
+
+
+<animation id="key_8_eye_40" type="basicMove" object="eye_4" positionStart="0.720:0.500" positionEnd="0.220:0.020" positionRelativeTo="scene" startTime="1.00" endTime="2.00"/>
+<animation id="key_4_eye_41" type="basicMove" object="eye_4" positionStart="0.720:0.510" positionEnd="0.220:0.020" positionRelativeTo="scene" startTime="2.00" endTime="5.00"/>
+<animation id="key_2_eye_42" type="basicMove" object="eye_4" positionStart="0.720:0.510" positionEnd="0.220:0.010" positionRelativeTo="scene" startTime="5.00" endTime="5.00"/>
+<animation id="key_8_eye_43" type="basicMove" object="eye_4" positionStart="0.720:0.500" positionEnd="0.220:0.010" positionRelativeTo="scene" startTime="5.00" endTime="6.00"/>
+<animation id="key_6_eye_50" type="basicMove" object="eye_5" positionStart="0.760:0.500" positionEnd="0.260:0.020" positionRelativeTo="scene" startTime="1.00" endTime="2.00"/>
+<animation id="key_7_eye_51" type="basicMove" object="eye_5" positionStart="0.760:0.510" positionEnd="0.260:0.020" positionRelativeTo="scene" startTime="2.00" endTime="5.00"/>
+<animation id="key_6_eye_52" type="basicMove" object="eye_5" positionStart="0.760:0.510" positionEnd="0.260:0.010" positionRelativeTo="scene" startTime="5.00" endTime="5.00"/>
+<animation id="key_5_eye_53" type="basicMove" object="eye_5" positionStart="0.760:0.500" positionEnd="0.260:0.010" positionRelativeTo="scene" startTime="5.00" endTime="6.00"/>
+<animation id="key_2_eye_40" type="basicOpacity|opacity:1" object="eye_4" startTime="1.00" endTime="2.00"/>
+<animation id="key_0_eye_41" type="basicOpacity|opacity:0" object="eye_4" startTime="2.00" endTime="2.10"/>
+<animation id="key_1_eye_43" type="basicOpacity|opacity:1" object="eye_4" startTime="2.80" endTime="2.90"/>
+<animation id="key_6_eye_50" type="basicOpacity|opacity:1" object="eye_5" startTime="1.00" endTime="2.00"/>
+<animation id="key_6_eye_51" type="basicOpacity|opacity:0" object="eye_5" startTime="2.00" endTime="2.10"/>
+<animation id="key_3_eye_53" type="basicOpacity|opacity:1" object="eye_5" startTime="2.80" endTime="2.90"/>
+<animation id="key_3_eyecl_100" type="basicMove" object="eyecl_10" positionStart="0.720:0.500" positionEnd="0.220:0.010" positionRelativeTo="scene" startTime="1.00" endTime="2.00"/>
+<animation id="key_4_eyecl_101" type="basicMove" object="eyecl_10" positionStart="0.720:0.510" positionEnd="0.220:0.010" positionRelativeTo="scene" startTime="2.00" endTime="3.00"/>
+<animation id="key_1_eyecl_102" type="basicMove" object="eyecl_10" positionStart="0.720:0.510" positionEnd="0.220:0.000" positionRelativeTo="scene" startTime="3.00" endTime="4.00"/>
+<animation id="key_3_eyecl_103" type="basicMove" object="eyecl_10" positionStart="0.720:0.500" positionEnd="0.220:0.000" positionRelativeTo="scene" startTime="4.00" endTime="5.00"/>
+<animation id="key_7_eyecl_110" type="basicMove" object="eyecl_11" positionStart="0.760:0.500" positionEnd="0.260:0.010" positionRelativeTo="scene" startTime="1.00" endTime="2.00"/>
+<animation id="key_5_eyecl_111" type="basicMove" object="eyecl_11" positionStart="0.760:0.510" positionEnd="0.260:0.010" positionRelativeTo="scene" startTime="2.00" endTime="3.00"/>
+<animation id="key_5_eyecl_112" type="basicMove" object="eyecl_11" positionStart="0.760:0.510" positionEnd="0.260:0.000" positionRelativeTo="scene" startTime="3.00" endTime="4.00"/>
+<animation id="key_7_eyecl_113" type="basicMove" object="eyecl_11" positionStart="0.760:0.500" positionEnd="0.260:0.000" positionRelativeTo="scene" startTime="4.00" endTime="5.00"/>
+
+<animation id="basicScale_0_0_L_15" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_15" startTime="3.33" endTime="4.33" description=""/>
+<animation id="basicScale_0_1_L_15" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_15" startTime="4.33" endTime="5.33" description=""/>
+<animation id="basicScale_0_0_L_16" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_16" startTime="3.67" endTime="4.67" description=""/>
+<animation id="basicScale_0_1_L_16" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_16" startTime="4.67" endTime="5.67" description=""/>
+<animation id="basicScale_0_0_L_17" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_17" startTime="4.00" endTime="5.00" description=""/>
+<animation id="basicScale_0_1_L_17" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_17" startTime="5.00" endTime="6.00" description=""/>
+<animation id="basicScale_0_0_L_18" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_18" startTime="4.33" endTime="5.33" description=""/>
+<animation id="basicScale_0_1_L_18" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_18" startTime="5.33" endTime="6.33" description=""/>
+<animation id="basicScale_0_0_L_19" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_19" startTime="4.67" endTime="5.67" description=""/>
+<animation id="basicScale_0_1_L_19" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_19" startTime="5.67" endTime="6.67" description=""/>
+<animation id="basicScale_0_0_L_20" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_20" startTime="5.00" endTime="6.00" description=""/>
+<animation id="basicScale_0_1_L_20" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_20" startTime="6.00" endTime="7.00" description=""/>
+<animation id="basicScale_0_0_L_21" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_21" startTime="5.33" endTime="6.33" description=""/>
+<animation id="basicScale_0_1_L_21" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_21" startTime="6.33" endTime="7.33" description=""/>
+<animation id="basicScale_0_0_L_22" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="L_22" startTime="5.67" endTime="6.67" description=""/>
+<animation id="basicScale_0_1_L_22" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="L_22" startTime="6.67" endTime="7.67" description=""/>
+
+<animation id="glasses_m0" type="basicMove|ease:easeOutBounce" object="glasses_6" positionEnd="0.238:0.01" startTime="7.00" endTime="8.00"/>
+<animation id="glasses_o0" type="basicOpacity|opacity:1" object="glasses_6" startTime="7.00" endTime="7.50"/>
+
+<animation id="o_0_0_ok_sign" type="basicOpacity|opacity:1" object="ok_sign" startTime="7.20" endTime="7.8"/>
+<animation id="s_0_0_ok_sign" type="basicScale|scaleTo:0.150;ease:easeOutSine;" object="ok_sign" startTime="7.2" endTime="8" description=""/>
+
+<animation id="sinewave_x_ok_sign" type="waveScale|loops:3;axis:x;returnToStart:true;scaleTo:0.02" object="ok_sign" positionRelativeTo="scene" startTime="8" endTime="12"/>
+<animation id="sinewave_y_ok_sign" type="waveScale|loops:3;axis:y;returnToStart:true;scaleTo:0.02" object="ok_sign" positionRelativeTo="scene" startTime="8" endTime="12"/>
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="eyecl_10,eyecl_11,mouth_7,smilemouth_26,glasses_6,eye_5,eyeC,eye_4,head_3,body_2,bg_0,ok_sign,avatar_back,avatar_back_shadow" positionRelativeTo="scene" startTime="12" endTime="12"/>
+<animation type="playSound|loop:false" id="play-vo0" object="vo0" startTime="0.0" endTime="12.0"/>
+</igml>

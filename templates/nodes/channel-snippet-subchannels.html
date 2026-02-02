@@ -1,0 +1,42 @@
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% if subchannels.count > 0 %}
+<h2 class="channel-section-title">{% trans "Modules" %}</h2>
+{% endif %}
+
+{% for subchannel in subchannels %}
+
+<a id="node-link{{subchannel.pk}}" class="node-link" href="{% url 'subchannel_detail' slug_channel=channel.slug slug_subchannel=subchannel.slug %}" data-id="{{subchannel.pk}}">
+<div class="node subchannel clearfix">
+
+  <div class="node-image-container">
+    <div class="node-image" style="background-image:url('{% if subchannel.thumbnail %}{{ media_url }}{{ subchannel.thumbnail}}{% else %}{% static "img/icons/thmb-default-subchannel.png" %}{% endif %}')">
+    </div>
+    <div class="playstopbutton-container">
+      <div class="playstopbutton-back">
+        <svg viewBox="0 0 120 32" preserveAspectRatio="xMinYMin meet">
+           <path  d="M102,22.8C91.6,12.4,81.2,1,63.5,0.8l0,0c-0.1,0-0.2,0-0.2,0c-0.1,0-0.2,0-0.2,0l0,0C45.3,1,35,12.4,24.5,22.8c-9,9-25,9-25,9H61h1.5H127C127,31.8,111,31.8,102,22.8z" style="stroke: none; fill:white;"></path>
+          </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="controlbar">
+
+    <div class="metadata">
+      <h2 class="metadata-title">{{subchannel.title}}</h2>
+      <div class="metadata-description">
+        {% autoescape off %}
+        {{subchannel.description}}
+        {% endautoescape %}
+      </div>
+    </div>
+
+  </div>
+ </div>
+</a>
+
+{% endfor %}

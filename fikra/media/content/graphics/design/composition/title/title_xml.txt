@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#ffffff" strokeWidth="0" action="link" editable="true"/>
+
+
+
+
+
+<object id="rect0_3" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect1_4" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect2_5" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect3_6" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect4_7" type="shape" shapetype="rect" size="0.9,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect5_8" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect7_10" type="shape" shapetype="rect" size="0.6,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect8_11" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect9_12" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect11_14" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="title_15_16" type="image" src="graphics/design/composition/title/title.svg" action="link" editable="true" />
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_rect0_3" type="appearFade|scaleTo:0.455;opacity:1; anchorPoint:0.5,0.5;" object="rect0_3" positionStart="0.424:-1.203" positionRelativeTo="scene" startTime="1" endTime="1" />
+
+<animation id="appear_rect1_4" type="appearFade|scaleTo:0.3;opacity:1; anchorPoint:0.5,0.5;" object="rect1_4" positionStart="0.032:-1.064" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect2_5" type="appearFade|scaleTo:0.30;opacity:1; anchorPoint:0.5,0.5;" object="rect2_5" positionStart="-1.062:0.775" positionRelativeTo="scene" startTime="1.4" endTime="1.4" />
+
+<animation id="appear_rect3_6" type="appearFade|scaleTo:0.15;opacity:1; anchorPoint:0.5,0.5;" object="rect3_6" positionStart="-1.012:0.356" positionRelativeTo="scene" startTime="1.6" endTime="1.6" />
+
+<animation id="appear_rect4_7" type="appearFade|scaleTo:0.3;opacity:1; anchorPoint:0.5,0.5;" object="rect4_7" positionStart="0.252:1.937" positionRelativeTo="scene" startTime="1.8" endTime="1.8" />
+
+<animation id="appear_rect5_8" type="appearFade|scaleTo:0.17;opacity:1; anchorPoint:0.5,0.5;" object="rect5_8" positionStart="0.5:1.94" positionRelativeTo="scene" startTime="2" endTime="2" />
+
+
+
+<animation id="appear_rect7_10" type="appearFade|scaleTo:0.36;opacity:1; anchorPoint:0.5,0.5;" object="rect7_10" positionStart="1.696:0.501" positionRelativeTo="scene" startTime="2.4" endTime="2.4" />
+
+<animation id="appear_rect8_11" type="appearFade|scaleTo:0.21;opacity:1; anchorPoint:0.5,0.5;" object="rect8_11" positionStart="0.771:-1.018" positionRelativeTo="scene" startTime="2.6" endTime="2.6" />
+
+<animation id="appear_rect9_12" type="appearFade|scaleTo:0.28;opacity:1; anchorPoint:0.5,0.5;" object="rect9_12" positionStart="0.738:2.038" positionRelativeTo="scene" startTime="2.8" endTime="2.8" />
+
+
+
+<animation id="appear_rect11_14" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect11_14" positionStart="1.595:0.69" positionRelativeTo="scene" startTime="3.2" endTime="3.2" />
+
+<animation id="appear_title_15_16" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="title_15_16" positionStart="-1.3:0.5" positionRelativeTo="scene" startTime="0" endTime="1" />
+
+
+
+
+
+
+
+
+
+<animation id="key_2_rect0_30" type="basicMove|ease:easeOutExpo;" object="rect0_3" positionStart="0.424:-1.203"  positionEnd="0.424:-0.203"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+<animation id="key_5_rect1_40" type="basicMove|ease:easeOutExpo;" object="rect1_4" positionStart="0.032:-1.064"  positionEnd="0.032:-0.064"  positionRelativeTo="scene" startTime="1.20" endTime="2.20" />
+
+<animation id="key_8_rect2_50" type="basicMove|ease:easeOutExpo;" object="rect2_5" positionStart="-1.062:0.775"  positionEnd="-0.062:0.775"  positionRelativeTo="scene" startTime="1.40" endTime="2.40" />
+
+<animation id="key_4_rect3_60" type="basicMove|ease:easeOutExpo;" object="rect3_6" positionStart="-1.012:0.356"  positionEnd="0.013:0.356"  positionRelativeTo="scene" startTime="1.60" endTime="2.60" />
+
+<animation id="key_3_rect4_70" type="basicMove|ease:easeOutExpo;" object="rect4_7" positionStart="0.252:1.937"  positionEnd="0.252:0.937"  positionRelativeTo="scene" startTime="1.80" endTime="2.80" />
+
+<animation id="key_5_rect5_80" type="basicMove|ease:easeOutExpo;" object="rect5_8" positionStart="0.500:1.940"  positionEnd="0.500:0.940"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+
+
+<animation id="key_4_rect7_100" type="basicMove|ease:easeOutExpo;" object="rect7_10" positionStart="1.696:0.501"  positionEnd="0.696:0.501"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+
+<animation id="key_2_rect8_110" type="basicMove|ease:easeOutExpo;" object="rect8_11" positionStart="0.771:-1.018"  positionEnd="0.771:0.022"  positionRelativeTo="scene" startTime="2.60" endTime="3.60" />
+
+<animation id="key_4_rect9_120" type="basicMove|ease:easeOutExpo;" object="rect9_12" positionStart="0.738:2.038"  positionEnd="0.738:1.038"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+
+
+<animation id="key_6_rect11_140" type="basicMove|ease:easeOutExpo;" object="rect11_14" positionStart="1.595:0.690"  positionEnd="1.390:0.690"  positionRelativeTo="scene" startTime="3.20" endTime="4.20" />
+
+<animation id="key_4_title_15_160" type="basicMove|ease:easeOutSine;" object="title_15_16" positionStart="-1.300:0.500"  positionEnd="0.300:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+
+
+
+ </igml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Какво е тон?" description="" author="Yane Frenski" date="05/03/2022">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#4a299b" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_3" type="shape" shapetype="rect" size="1,0.005" color="#37b9f3" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_1" type="shape" shapetype="path" color="none" stroke="#FFFFFF" strokeWidth="10" size="0,0,3051,640" editable="true" path="M3051,339c-54.9-1.6-81.2,99.5-107.3,94.5c-31-6-24.6-214.2-64.8-218.9c-38.4-4.5-59.5,318.3-74.3,317.8c-40.8-1.5-29.2-346-64.7-343.1c-33.9,2.8-37.2,246.9-64.1,249.1c-17.7,1.5-44.3-312.4-62.1-307.9c-30.1,7.7-48.4,361.4-76.1,359.5c-32.2-2.2-44-416.7-67.9-417.9c-29.3-1.4-92.1,495.1-118.5,493.8c-23.8-1.2-29.6-466.5-54.8-467.8c-23.5-1.2-39.6,438.2-62.1,437.1c-26.4-1.3-46.4-438.3-73.7-440.2c-30.4-2-49,445.8-74.3,443.5c-13.9-1.3-22.1-303.8-38.4-304.9c-14.9-1.1-33.9,164.5-56.4,168c-19.2,2.9-42.4-186.5-52.2-182.1c-14.6,6.4-20,304.8-41.7,304.6c-24.5-0.2-57.7-268.9-71.5-263.6c-16.1,6.2-42.3,154.2-57.2,155.4c-20.8,1.7-43.8-152.9-50.3-154c-19.8-3.3-38.4,136.8-66.1,135c-32.2-2.2-36.3-154.6-60.3-155.7c-29.3-1.4-55,225-81.4,223.6c-23.8-1.2-26.8-186.3-52-187.6c-23.5-1.2-42.4,158.1-65,156.9c-26.4-1.3-33.8-373.8-61-375.6c-30.4-2-60.5,421.3-85.8,419c-13.9-1.3-21.3-85.5-25-128.9c-4.7-54.6-3.8-94.9-13.3-96.1c-6.4-0.8-44.7,101.8-73.1,145c-20.8,31.6-28.6-267.6-53.4-266.2c-16.5,0.9-60.2,298-75.1,296.2c-5.9-0.7-43.2-175.5-49.7-176.6c-19.8-3.3-39,159.4-66.6,157.6c-32.2-2.2-27.8-387.4-51.7-388.5c-29.3-1.4-63.5,457.7-89.9,456.4c-23.8-1.2-26.8-186.3-52-187.6c-23.5-1.2-42.4,158.1-65,156.9c-26.4-1.3-26.2-222-53.4-223.8c-30.4-2-42.5,307.7-67.8,305.4c-13.9-1.3-51.7-160.7-55.5-204c-4.7-54.6-79.5,246.4-88.9,245.2c-6.4-0.8-19.8-442.7-48.2-399.5c-20.8,31.6-58.7,302.3-68.5,306.7c-14.6,6.4-70.3-252.8-104.5-254C112.2,220.5,76.7,429,0,422.9" />
+
+<object id="l_2" type="shape" shapetype="path" color="none" stroke="#FFFFFF" strokeWidth="10" size="0,0,3051,640" path="M3050,156.7c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-7.9-29.3-20.8-43.9-33.7-43.7c-12.6-0.8-25.3,12.6-33.5,40.4l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3L2090,156.7c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3c0,0-50.6-188.5-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2L1131,156.4c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-7.9-29.3-20.8-43.9-33.7-43.7c-12.6-0.8-25.3,12.6-33.5,40.4l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3L171,156.7c-15.3-56.9-49.6-58.6-65.8-3.3c0,0-36.4,103.1-105.2,103.1" />
+
+<object id="l_4" type="text" text="ШУМ" size="30" width="100" align = "center" color="#37b9f3" font="MontBlanc-Regular" wordWrap="false" weight="0" editable="true" description="" />
+
+<object id="l_5" type="shape" shapetype="rect" size="1,1" color="#37b9f3" strokeWidth="0" stroke="" editable="true" description="" />
+
+<object id="l_6" type="shape" shapetype="rect" size="1,0.005" color="#4a299b" strokeWidth="0" stroke="" editable="true" description="" />
+
+<object id="l_7" type="text" text="ТОН" size="30" width="100" align="center" color="#4a299b" font="MontBlanc-Regular" wordWrap="false" weight="0" editable="true" description="" />
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.5:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+
+<animation id="appear_l_5" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_5" positionStart="0.5:-0.500" startTime="0" endTime="0" description=" appearing order: 0" />
+
+<animation id="appear_l_1" type="appearFade|scaleTo:1.8;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="1:0.741" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:1.8;opacity:0;anchorPoint:0.5,0.5" object="l_2" positionStart="1:0.31" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:1;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.5:1.809" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_6" type="appearFade|scaleTo:1;opacity:0;anchorPoint:0.5,0.5" object="l_6" positionStart="0.5:-0.5" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.18;opacity:0;anchorPoint:0.5,0.5" object="l_4" positionStart="0.5:1.807" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0.18;opacity:0;anchorPoint:0.5,0.5" object="l_7" positionStart="0.5:-0.5" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.50" endTime="1.50" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:1" startTime="0.50" endTime="1.50" description="" />
+<animation id="o_0_0_l_5" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_5"  startTime="0.50" endTime="1.50" description="" />
+<animation id="m_0_0_l_5" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_5" positionEnd="0.5:0" startTime="0.50" endTime="1.50" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_1"  startTime="4.00" endTime="5" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:linear;" object="l_1" positionEnd="0.15:0.744" startTime="4" endTime="11" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_2"  startTime="4" endTime="5" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:linear;" object="l_2" positionEnd="0.15:0.31" startTime="4" endTime="11" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="2.00" endTime="3.00" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_3" positionEnd="0.5:0.75" startTime="2.00" endTime="3.00" description="" />
+<animation id="o_0_0_l_6" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_6"  startTime="2.00" endTime="3.00" description="" />
+<animation id="m_0_0_l_6" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_6" positionEnd="0.5:0.28" startTime="2.00" endTime="3.00" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_4"  startTime="2.50" endTime="3.50" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_4" positionEnd="0.5:0.93" startTime="2.50" endTime="3.50" description="" />
+
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_7"  startTime="2.50" endTime="3.50" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_7" positionEnd="0.5:0.1" startTime="2.50" endTime="3.50" description="" />
+
+<animation id="disappear_all" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7"  startTime="10" endTime="11" description="" />
+
+
+</igml>

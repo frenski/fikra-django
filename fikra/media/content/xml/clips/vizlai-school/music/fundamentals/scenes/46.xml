@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#d7eaf1" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_1" type="shape" shapetype="circle" size="1,1" color="#ffd769" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_2" type="image" src="graphics/design-components/buttons/play-button-pink.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/design-components/buttons/pause-button-flat-white.svg" editable="true" description=""  />
+<object id="l_4" type="shape" shapetype="circle" size="1,1.056" color="#ffffff" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_5" type="image" src="graphics/design-components/buttons/reverse-button-flat-white.svg" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/music/symbols/musical-note1.svg" editable="true" description=""  />
+<object id="l_7" type="image" src="graphics/music/symbols/musical-note2.svg" editable="true" description=""  />
+<object id="l_8" type="image" src="graphics/music/symbols/musical-note3.svg" editable="true" description=""  />
+<object id="l_9" type="image" src="graphics/design-components/shapes/curved-dashline.svg" editable="true" description=""  />
+<object id="l_11" type="text" text="Превърти щастието
+" size="30" width="100" align = "center" color="#6977f4"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_12" type="text" text="Спри лошото настроение
+" size="30" width="100" align = "center" color="#6977f4"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_13" type="text" text="Паузирай момента
+" size="30" width="100" align = "center" color="#6977f4"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_14" type="text" text="Изживей момента
+" size="30" width="100" align = "center" color="#f33b79"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:0.860;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.484:1.501" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.042;opacity:0;anchorPoint:0.5,0.5" object="l_2" positionStart="0.213:1.360" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.040;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.213:1.457" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.050;opacity:0;anchorPoint:0.5,0.5" object="l_4" positionStart="0.208:1.550" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0.071;opacity:0;anchorPoint:0.5,0.5" object="l_5" positionStart="0.199:1.652" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0.040;opacity:0;anchorPoint:0.5,0.5" object="l_6" positionStart="0.492:1.095" startTime="0" endTime="0" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0.052;opacity:0;anchorPoint:0.5,0.5" object="l_7" positionStart="0.431:1.167" startTime="0" endTime="0" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFade|scaleTo:0.031;opacity:0;anchorPoint:0.5,0.5" object="l_8" positionStart="0.352:1.144" startTime="0" endTime="0" description=" appearing order: 8" />
+<animation id="appear_l_9" type="appearFade|scaleTo:1.141;opacity:0;anchorPoint:0.5,0.5" object="l_9" positionStart="0.513:1.518" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_11" type="appearFade|scaleTo:0.62;opacity:0;anchorPoint:0.5,0.5" object="l_11" positionStart="1.58:0.65" startTime="0" endTime="0" description=" appearing order: 11" />
+<animation id="appear_l_12" type="appearFade|scaleTo:0.722;opacity:0;anchorPoint:0.5,0.5" object="l_12" positionStart="1.62:0.55" startTime="0" endTime="0" description=" appearing order: 12" />
+<animation id="appear_l_13" type="appearFade|scaleTo:0.6;opacity:0;anchorPoint:0.5,0.5" object="l_13" positionStart="1.565:0.457" startTime="0" endTime="0" description=" appearing order: 13" />
+<animation id="appear_l_14" type="appearFade|scaleTo:0.60;opacity:0;anchorPoint:0.5,0.5" object="l_14" positionStart="1.56:0.35" startTime="0" endTime="0" description=" appearing order: 14" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_0"  startTime="1.25" endTime="2.25" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="1.35" endTime="2.35" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_1"  startTime="1.50" endTime="2.50" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_1" positionEnd="0.484:0.501" startTime="1.70" endTime="2.70" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_2"  startTime="1.75" endTime="2.75" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_2" positionEnd="0.213:0.360" startTime="2.05" endTime="3.05" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_3"  startTime="2.00" endTime="3.00" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_3" positionEnd="0.213:0.457" startTime="2.40" endTime="3.40" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_4"  startTime="2.25" endTime="3.25" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_4" positionEnd="0.208:0.550" startTime="2.75" endTime="3.75" description="" />
+<animation id="o_0_0_l_5" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_5"  startTime="2.50" endTime="3.50" description="" />
+<animation id="m_0_0_l_5" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_5" positionEnd="0.199:0.652" startTime="3.10" endTime="4.10" description="" />
+<animation id="o_0_0_l_6" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_6"  startTime="2.75" endTime="3.75" description="" />
+<animation id="m_0_0_l_6" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_6" positionEnd="0.492:0.095" startTime="3.45" endTime="4.45" description="" />
+<animation id="o_0_0_l_7" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_7"  startTime="3.00" endTime="4.00" description="" />
+<animation id="m_0_0_l_7" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_7" positionEnd="0.431:0.167" startTime="3.80" endTime="4.80" description="" />
+<animation id="o_0_0_l_8" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_8"  startTime="3.25" endTime="4.25" description="" />
+<animation id="m_0_0_l_8" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_8" positionEnd="0.352:0.144" startTime="4.15" endTime="5.15" description="" />
+<animation id="o_0_0_l_9" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_9"  startTime="3.50" endTime="4.50" description="" />
+<animation id="m_0_0_l_9" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_9" positionEnd="0.513:0.518" startTime="4.50" endTime="5.50" description="" />
+<animation id="m_0_0_l_10" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_10" positionEnd="0.485:0.480" startTime="4.85" endTime="5.85" description="" />
+<animation id="o_0_0_l_11" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_11"  startTime="4.00" endTime="5.00" description="" />
+<animation id="m_0_0_l_11" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_11" positionEnd="0.569:0.651" startTime="5.20" endTime="6.20" description="" />
+<animation id="o_0_0_l_12" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_12"  startTime="4.25" endTime="5.25" description="" />
+<animation id="m_0_0_l_12" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_12" positionEnd="0.62:0.55" startTime="5.55" endTime="6.55" description="" />
+<animation id="o_0_0_l_13" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_13"  startTime="4.50" endTime="5.50" description="" />
+<animation id="m_0_0_l_13" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_13" positionEnd="0.565:0.457" startTime="5.90" endTime="6.90" description="" />
+<animation id="o_0_0_l_14" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_14"  startTime="4.75" endTime="5.75" description="" />
+<animation id="m_0_0_l_14" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_14" positionEnd="0.56:0.356" startTime="6.25" endTime="7.25" description="" />
+
+<animation id="disappear_all" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8,l_9,l_10,l_11,l_12,l_13,l_14" startTime="15" endTime="16" description="" />
+
+
+</igml>

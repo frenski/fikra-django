@@ -1,0 +1,1 @@
+max(0, 100 - round(pow(1.4, sum([abs({{tk_pos1}} - {{pos_x_test1}}*0.983), abs({{tk_pos2}} - {{pos_x_test2}}*0.989)])) - 1))

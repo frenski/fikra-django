@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Solve the equation!" description="Solve the equation" author="Dimitar Mehandjiev" date="27/03/2022">
+<style src="styles/fonts/MontBlanc/montblanc.css" type="font" load="sync" name="MontBlanc-Regular" />
+
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg4.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bubble-corner-black.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/education/vizlai-school/generic/question-cartoon.svg" editable="true" description=""  />
+<object id="l_3" type="text" text="Добави правилния знак от умножението:" size="20" align = "center" color="#000000" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.8" weight="0" editable="true"  />
+
+<object id="l_9" type="image" src="graphics/education/vizlai-school/generic/score-bar-frame.svg" editable="true" description=""  />
+<object id="l_bar" type="image" src="graphics/education/vizlai-school/generic/score-bar.svg" editable="true" description=""  />
+<object id="l_bar_back" type="image" src="graphics/education/vizlai-school/generic/score-bar-back.svg" editable="true" description=""  />
+<object id="l_10" type="image" src="graphics/characters/character-icons/icon-running-man.svg" editable="true" description=""  />
+
+<object id="l_19" type="image" src="graphics/education/vizlai-school/generic/button-rounded-black.svg" editable="true" description=""  />
+<object id="l_20" type="text" text="Готово" size="20" align="center" color="#FFFFFF" width="20" font="MontBlanc-Regular" weight="300" hitArea="false" />
+<object id="l_feedback" type="text" text="Wrong" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" />
+
+<object id="l_21" type="image" src="graphics/education/vizlai-school/generic/button-rounded-black.svg" editable="true" description="" action="link|scene://xml/clips/vizlai-school/math/negative-multiplication/interactions/25_{{next_scene_id}}.xml" />
+<object id="l_22" type="text" text="Напред" size="50" align="center" color="#FFFFFF" width="20" font="MontBlanc-Regular" weight="300" hitArea="false" />
+
+<object id="an1" type="text" text=" " size="48" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" hitArea="false" />
+<object id="an2" type="text" text=" " size="48" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" hitArea="false" />
+<object id="an3" type="text" text=" " size="48" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" hitArea="false" />
+<object id="an4" type="text" text=" " size="48" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" hitArea="false" />
+
+<object id="l1_0" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""  />
+<object id="l1_1" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication-black.svg" editable="true" description=""  />
+<object id="l1_2" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""  />
+<object id="l1_3" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-black.svg" editable="true" description=""  />
+<object id="l1_4" type="image" src="graphics/education/vizlai-school/generic/circle-shadow.svg" description=""  />
+
+<variable id="an_v1" type="string" default=" " reference="an1.text" resetReplayParams="true" />
+<variable id="an_v2" type="string" default=" " reference="an2.text" resetReplayParams="true" />
+<variable id="an_v3" type="string" default=" " reference="an3.text" resetReplayParams="true" />
+<variable id="an_v4" type="string" default=" " reference="an4.text" resetReplayParams="true" />
+<variable id="an_exp1" type="int" default="0" resetReplayParams="true" />
+<variable id="an_exp2" type="int" default="0" resetReplayParams="true" />
+<variable id="an_exp3" type="int" default="0" resetReplayParams="true" />
+<variable id="an_exp4" type="int" default="0" resetReplayParams="true" />
+<variable id="next_scene_id" type="int" default="1" resetReplayParams="true" />
+
+<variable id="sign_neg" type="string" default="−" resetReplayParams="true" />
+<variable id="sign_pos" type="string" default="+" resetReplayParams="true" />
+<variable id="feedback" type="string" default="Wrong" reference="l_feedback.text" resetReplayParams="true" />
+<variable id="feedback_wrong" type="string" default="Грешно" resetReplayParams="true" />
+<variable id="feedback_correct" type="string" default="Правилно" resetReplayParams="true" />
+<variable id="feedback_long" type="string" default="Correct answer" reference="l_feedback_long.text" resetReplayParams="true" />
+<variable id="feedback_long_wrong" type="string" default="Правилнят отговор е: 3 * -10 = -30" resetReplayParams="true" />
+<variable id="feedback_long_correct" type="string" default="Браво! Ти въведе правилния отговор!" resetReplayParams="true" />
+
+<variable id="star_offset" type="float" default="0.478" resetReplayParams="true" />
+<variable id="star_before" type="expression" expression="{{star_offset}} + 0.1" resetReplayParams="true" />
+<variable id="bar_before" type="expression" expression="0.1" resetReplayParams="true" />
+<variable id="star_after" type="float" default="0.1" resetReplayParams="true" />
+<variable id="bar_after" type="float" default="0.1" resetReplayParams="true" />
+
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:0.420;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.074:0.069" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.092:0.085" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.7;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.500:0.28" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_bar_back" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0,0.5" object="l_bar_back" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_bar" type="appearFade|scaleTo:0.0,0.05;opacity:1;anchorPoint:0,0.5" object="l_bar" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.701:0.101" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_10" positionStart="{{star_before}}:0.093" startTime="0" endTime="0" description=" appearing order: 10" />
+<animation id="appear_l1_0" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_0" positionStart="0.332:0.387" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l1_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_1" positionStart="0.412:0.374" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l1_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_2" positionStart="0.493:0.387" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l1_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_3" positionStart="0.581:0.386" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l1_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_4" positionStart="0.675:0.389" startTime="0" endTime="0" description=" appearing order: 4" />
+
+<animation id="appear_an1" type="appearFade|scaleTo:0.016;opacity:1;anchorPoint:0.5,0.5" object="an1" positionStart="0.664:0.386" startTime="0" endTime="0" description="plus minus text" />
+<animation id="appear_an2" type="appearFade|scaleTo:0.016;opacity:1;anchorPoint:0.5,0.5" object="an2" positionStart="0.664:0.492" startTime="0" endTime="0" description="plus minus text" />
+<animation id="appear_an3" type="appearFade|scaleTo:0.016;opacity:1;anchorPoint:0.5,0.5" object="an3" positionStart="0.664:0.596" startTime="0" endTime="0" description="plus minus text" />
+<animation id="appear_an4" type="appearFade|scaleTo:0.016;opacity:1;anchorPoint:0.5,0.5" object="an4" positionStart="0.664:0.704" startTime="0" endTime="0" description="plus minus text" />
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="1.20" endTime="2.63" description="" />
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.093;ease:easeOutBounce;" object="l_2"  startTime="1.40" endTime="2.40" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="1.70" endTime="3.13" description="" />
+
+<animation id="s_0_0_l1_0" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l1_0"  startTime="3.20" endTime="4.20" description="" />
+<animation id="s_0_0_l1_1" type="basicScale|scaleTo:0.021;ease:easeOutBounce;" object="l1_1"  startTime="3.40" endTime="4.40" description="" />
+<animation id="s_0_0_l1_2" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l1_2"  startTime="3.60" endTime="4.60" description="" />
+<animation id="s_0_0_l1_3" type="basicScale|scaleTo:0.035;ease:easeOutBounce;" object="l1_3"  startTime="3.80" endTime="4.80" description="" />
+<animation id="s_0_0_l1_4" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l1_4"  startTime="4.00" endTime="5.00" description="" />
+
+<animation id="appear_l_19" type="appearFade|scaleTo:0.302;opacity:1;anchorPoint:0.5,0.5" object="l_19" positionStart="0.504:1.855" startTime="0" endTime="0" description=" appearing order: 8" />
+<animation id="appear_l_20" type="appearFade|scaleTo:0.136;opacity:1;anchorPoint:0.5,0.5" object="l_20" positionStart="0.505:1.857" startTime="0" endTime="0" description=" appearing order: 9" />
+
+<animation id="m_0_0_l_19" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_19" positionEnd="0.504:0.855" startTime="4.35" endTime="5.35" description="" />
+<animation id="m_0_0_l_20" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_20" positionEnd="0.505:0.857" startTime="4.50" endTime="5.5" description="" />
+
+<animation id="s_0_0_l_bar_back" type="basicScale|scaleTo:0.46;ease:easeOutBounce;" object="l_bar_back"  startTime="5" endTime="5.5" description="" />
+<animation id="s_0_0_l_9" type="basicScale|scaleTo:0.486;ease:easeOutBounce;" object="l_9"  startTime="5.2" endTime="5.7" description="" />
+<animation id="s_0_0_l_10" type="basicScale|scaleTo:0.106;ease:easeOutBounce;" object="l_10"  startTime="5.4" endTime="5.9" description="" />
+<animation id="s_0_0_l_bar" type="basicScale|scaleTo:{{bar_before}},0.05;ease:easeOutBounce;" object="l_bar"  startTime="5.4" endTime="6" description="" />
+
+
+<animation id="l_feedback_appear" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_feedback" positionStart="0.400:0.5" startTime="6" endTime="6.5" description=" appearing order: 0" />
+
+<animation id="l_feedback_scale" type="basicScale|scaleTo:0.4;ease:easeOutBounce" object="l_feedback" startTime="6" endTime="7" description="show appear with bounce" />
+
+<animation id="l_feedback_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_feedback" startTime="8" endTime="9" description="diappear with scale" />
+
+<animation id="l_feedback_disappear2" type="basicOpacity|opacity:0;" object="l_feedback" startTime="8" endTime="9" description="diappear with opacity" />
+
+<animation id="button_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_19" startTime="9" endTime="9.5" description="diappear with scale" />
+<animation id="button_disappear2" type="basicOpacity|opacity:0;" object="l_19" startTime="9" endTime="9.5" description="diappear with opacity" />
+<animation id="button_text_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_20" startTime="9" endTime="9.5" description="diappear with scale" />
+<animation id="button_text_disappear2" type="basicOpacity|opacity:0;" object="l_20" startTime="9" endTime="9.5" description="diappear with opacity" />
+
+<animation id="appear_l_21" type="appearFade|scaleTo:0.302;opacity:1;anchorPoint:0.5,0.5" object="l_21" positionStart="0.5:0.65" startTime="10" endTime="11" description=" appearing order: 8" />
+<animation id="appear_l_22" type="appearFade|scaleTo:0.18;opacity:1;anchorPoint:0.5,0.5" object="l_22" positionStart="0.5:0.65" startTime="10" endTime="11" description=" appearing order: 9" />
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="6" endTime="onUserEvent"/>
+
+<interaction id="l1_4_click" type="enableClick" subtype="basic" objects="l1_4" startTime="6" endTime="9" actions="onClick::setVar::['an_v1', 'expression', '({{an_exp1}} == -1 | {{an_exp1}} == 0 ) ? {{sign_pos}} : {{sign_neg}} ']||setVar::['an_exp1', 'expression', '({{an_exp1}} == -1 | {{an_exp1}} == 0 ) ? 1 : -1 ']" />
+
+<interaction id="ready-click" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_19" startTime="6" endTime="9" actions="onClick::play||setVar::['feedback','expression', '{{an_exp1}}==-1 ? {{feedback_correct}}: {{feedback_wrong}}']||setVar::['next_scene_id','expression', '{{an_exp1}}==-1 ? 4 : 3']" />
+
+
+</igml>

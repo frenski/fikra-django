@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="fileinclude" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff" title="">
+	<object id="sound_exercise" type="sound" src="audio/vo/test_interactions.mp3" action="link:" />
+
+	<object id="sound_file" type="sound" src="audio/vo/design_course/color/color.mp3" action="link:" />
+
+	<include id="scene2" src="xml/clips/antony/design_course/color/scenes/titlecol.xml" startTime="0" duration="1" />
+	<include id="scene3" src="xml/clips/antony/design_course/color/scenes/designer2.xml" startTime="4" duration="1" />
+	<include id="scene4" src="xml/clips/antony/design_course/color/scenes/leson1.xml" startTime="11" duration="1" />
+	<include id="scene5" src="xml/clips/antony/design_course/color/scenes/timeline.xml" startTime="15" duration="1.6" />
+	<include id="scene6" src="xml/clips/antony/design_course/color/scenes/leson2.xml" startTime="36" duration="1" />
+	<include id="scene7" src="xml/clips/antony/design_course/color/scenes/colorwheel.xml" startTime="40" duration="1" />
+	<include id="scene8" src="xml/clips/antony/design_course/color/scenes/moods.xml" startTime="47" duration="1" />
+	<include id="scene9" src="xml/clips/antony/design_course/color/scenes/ternary.xml" startTime="58" duration="1" />
+	<include id="scene10" src="xml/clips/antony/design_course/color/scenes/scheme1.xml" startTime="83" duration="0.8" />
+	<include id="scene11" src="xml/clips/antony/design_course/color/scenes/compli.xml" startTime="91" duration="1" />
+	<include id="scene12" src="xml/clips/antony/design_course/color/scenes/scheme2.xml" startTime="100" duration="1" />
+	<include id="scene13" src="xml/clips/antony/design_course/color/scenes/analogus.xml" startTime="110" duration="1" />
+	<include id="scene14" src="xml/clips/antony/design_course/color/scenes/paint.xml" startTime="120" duration="1" />
+	<include id="scene15" src="xml/clips/antony/design_course/color/scenes/colorwheel4.xml" startTime="135" duration="2" />
+	<include id="scene16" src="xml/clips/antony/design_course/color/scenes/leson3.xml" startTime="169" duration="1" />
+	<include id="scene17" src="xml/clips/antony/design_course/color/scenes/colchar.xml" startTime="173" duration="1" />
+	<include id="scene18" src="xml/clips/antony/design_course/color/scenes/leson4.xml" startTime="184" duration="1" />
+	<include id="scene19" src="xml/clips/antony/design_course/color/scenes/monitorprint.xml" startTime="188" duration="1" />
+	<include id="scene20" src="xml/clips/antony/design_course/color/scenes/rgb.xml" startTime="194" duration="1" />
+	<include id="scene21" src="xml/clips/antony/design_course/color/scenes/hls.xml" startTime="208" duration="0.5" />
+	<include id="scene22" src="xml/clips/antony/design_course/color/scenes/cmyk.xml" startTime="224" duration="0.7" />
+	<include id="scene23" src="xml/clips/antony/design_course/color/scenes/spot_label.xml" startTime="238" duration="0.4" />
+	<include id="scene24" src="xml/clips/antony/design_course/color/scenes/careful.xml" startTime="242" duration="1" />
+	<include id="scene25" src="xml/clips/antony/design_course/color/scenes/alltypes.xml" startTime="252" duration="1" />
+	<include id="scene26" src="xml/clips/antony/design_course/color/scenes/inkprint.xml" startTime="259" duration="1" />
+	<include id="test" src="xml/clips/antony/design_course/color/scenes/outro.xml" startTime="281" duration="1" />
+	<include id="scene27" src="xml/clips/antony/design_course/color/interactions/guess1.xml" startTime="285" duration="1" />
+	<include id="scene28" src="xml/clips/antony/design_course/color/interactions/guess2.xml" startTime="297" duration="1" />
+	<include id="scene29" src="xml/clips/antony/design_course/color/interactions/guess3.xml" startTime="309" duration="1" />
+	<include id="scene30" src="xml/clips/antony/design_course/color/interactions/numcols.xml" startTime="321" duration="1" />
+	<include id="scene31" src="xml/clips/antony/design_course/color/interactions/flower.xml" startTime="333" duration="1" />
+	<include id="scene32" src="xml/clips/antony/design_course/color/interactions/int_col.xml" startTime="345" duration="1" />
+	<include id="scene33" src="xml/clips/antony/design_course/color/interactions/tint_col.xml" startTime="357" duration="1" />
+	<include id="scene34" src="xml/clips/antony/design_course/color/interactions/dist.xml" startTime="369" duration="1" />
+	<animation id="play-sound" type="playSound|loop:false" object="sound_file" startTime="1.5" endTime="300" />
+	<animation id="play-sound2" type="playSound|loop:false" object="sound_exercise" startTime="281" endTime="300" />
+</igml>

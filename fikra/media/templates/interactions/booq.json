@@ -1,0 +1,18 @@
+{
+  "objects":{
+    "question_statement": {
+      "text":"Is it true of false?"
+    },
+    "icon2": {
+      "src":"graphics/education/vizlai-school/generic/correct1.png"
+    },
+    "icon1": {
+      "src":"graphics/education/vizlai-school/generic/wrong1.png"
+    }
+  },
+  "variables":{
+    "correct": {
+      "default": 0
+    }
+  }
+}

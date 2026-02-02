@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff">
+
+
+ <container id="fullBody_38" objects="lowerBody_39,upperBody_40" editable="true" action="link:"   />
+
+ <container id="lowerBody_39" objects="torso_21,leg-upper_17,leg-lower_18,foot_19,leg-upper_22,leg-lower_23,foot_24,controller_25,controller_20" anchorRoot="torso_21" editable="false" action="link:"   />
+
+ <container id="upperBody_40" objects="body_12,arm-upper_8,arm-lower_9,hand_10,arm-upper_13,arm-lower_14,hand_15,fullHead_41,controller_16,controller_11" anchorRoot="body_12" editable="false" action="link:"   />
+
+ <container id="fullHead_41" objects="head_27,backhair_26,hair_28,eye-r_29,eye-l_30,eyebrow-r_31,eyebrow-l_32,nose_33,mouth_34,beard_35,mustache_36,helm_37" anchorRoot="head_27" editable="false" action="link:"   />
+
+
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,0.5" color="#DBF7AA" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_2" type="shape" shapetype="rect" size="0.5,0.5" color="#B33B70" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.2,0.4" color="#682A53" strokeWidth="0" action="link" editable="true"/>
+
+<object id="housecar_4" type="image" src="graphics/general/environment/res_cons/middle_class/house_car.svg" action="link" editable="true" />
+
+<object id="calendar_5" type="image" src="graphics/general/environment/res_cons/middle_class/calendar.svg" action="link" editable="true" />
+
+<object id="middleclass_6" type="image" src="graphics/general/environment/res_cons/middle_class/middle_class.svg" action="link" editable="true" />
+
+
+
+<object id="arm-upper_8" type="image" src="graphics/general/characters/vizlaichar_close/arm-upper.svg" action="link" editable="true" />
+
+<object id="arm-lower_9" type="image" src="graphics/general/characters/vizlaichar_close/arm-lower.svg" action="link" editable="true" />
+
+<object id="hand_10" type="image" src="graphics/general/characters/vizlaichar_close/hand.svg" action="link" editable="true" />
+
+<object id="controller_11" type="shape" shapetype="rect" size="0.5,0.5" color="#d1eff7" strokeWidth="0" action="link" editable="true"/>
+
+<object id="body_12" type="image" src="graphics/general/characters/vizlaichar_close/body.svg" action="link" editable="true" />
+
+<object id="arm-upper_13" type="image" src="graphics/general/characters/vizlaichar_close/arm-upper.svg" action="link" editable="true" />
+
+<object id="arm-lower_14" type="image" src="graphics/general/characters/vizlaichar_close/arm-lower.svg" action="link" editable="true" />
+
+<object id="hand_15" type="image" src="graphics/general/characters/vizlaichar_close/hand.svg" action="link" editable="true" />
+
+<object id="controller_16" type="shape" shapetype="rect" size="0.5,0.5" color="#db0401" strokeWidth="0" action="link" editable="true"/>
+
+<object id="leg-upper_17" type="image" src="graphics/general/characters/vizlaichar_close/leg-upper.svg" action="link" editable="true" />
+
+<object id="leg-lower_18" type="image" src="graphics/general/characters/vizlaichar_close/leg-lower.svg" action="link" editable="true" />
+
+<object id="foot_19" type="image" src="graphics/general/characters/vizlaichar_close/foot.svg" action="link" editable="true" />
+
+<object id="controller_20" type="shape" shapetype="rect" size="0.5,0.5" color="#999a6e" strokeWidth="0" action="link" editable="true"/>
+
+<object id="torso_21" type="image" src="graphics/general/characters/vizlaichar_close/torso.svg" action="link" editable="true" />
+
+<object id="leg-upper_22" type="image" src="graphics/general/characters/vizlaichar_close/leg-upper.svg" action="link" editable="true" />
+
+<object id="leg-lower_23" type="image" src="graphics/general/characters/vizlaichar_close/leg-lower.svg" action="link" editable="true" />
+
+<object id="foot_24" type="image" src="graphics/general/characters/vizlaichar_close/foot.svg" action="link" editable="true" />
+
+<object id="controller_25" type="shape" shapetype="rect" size="0.5,0.5" color="#6d2cfe" strokeWidth="0" action="link" editable="true"/>
+
+<object id="backhair_26" type="image" src="graphics/general/characters/vizlaichar_close/backhair.svg" action="link" editable="true" />
+
+<object id="head_27" type="image" src="graphics/general/characters/vizlaichar_close/head.svg" action="link" editable="true" />
+
+<object id="hair_28" type="image" src="graphics/general/characters/vizlaichar_close/hair.svg" action="link" editable="true" />
+
+<object id="eye-r_29" type="image" src="graphics/general/characters/vizlaichar_close/eye-r.svg" action="link" editable="true" />
+
+<object id="eye-l_30" type="image" src="graphics/general/characters/vizlaichar_close/eye-l.svg" action="link" editable="true" />
+
+<object id="eyebrow-r_31" type="image" src="graphics/general/characters/vizlaichar_close/eyebrow-r.svg" action="link" editable="true" />
+
+<object id="eyebrow-l_32" type="image" src="graphics/general/characters/vizlaichar_close/eyebrow-l.svg" action="link" editable="true" />
+
+<object id="nose_33" type="image" src="graphics/general/characters/vizlaichar_close/nose.svg" action="link" editable="true" />
+
+<object id="mouth_34" type="image" src="graphics/general/characters/vizlaichar_close/mouth.svg" action="link" editable="true" />
+
+<object id="beard_35" type="image" src="graphics/general/characters/vizlaichar_close/beard.svg" action="link" editable="true" />
+
+<object id="mustache_36" type="image" src="graphics/general/characters/vizlaichar_close/mustache.svg" action="link" editable="true" />
+
+<object id="helm_37" type="image" src="graphics/general/characters/vizlaichar_close/helm.svg" action="link" editable="true" />
+
+
+
+
+
+<animation id="appear_Grid_0" type="appearFade|scaleTo:1;opacity:0.8;anchorPoint:0.5,0.5" object="Grid_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0.001" />
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.5:2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_2" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_2" positionStart="1.65:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:0.5,0.6;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="0.80:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_housecar_4" type="appearFade|scaleTo:0.7;opacity:1;anchorPoint:0.5,0.5" object="housecar_4" positionStart="0.2:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_calendar_5" type="appearFade|scaleTo:0.23;opacity:1;anchorPoint:0.5:0.5" object="calendar_5" positionStart="1.2:0.279" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_middleclass_6" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="middleclass_6" positionStart="0.765:1.53" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_controller_11" type="appearFade|scaleTo:0.05;opacity:0; anchorPoint:;" object="controller_11" positionStart="0.293:0.337" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_body_12" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:" object="body_12" positionStart="0.25:0.3" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<!-- APPEAR CONTAINER --><animation id="appear_fullBody_38" type="appearFade|anchorPoint:0.0,0.0" object="fullBody_38" positionStart="0.32:0.85" positionRelativeTo="scene" startTime="0.1" endTime="2.1" />
+
+<!-- APPEAR CONTAINER --><animation id="appear_lowerBody_39" type="appearFade|anchorPoint:0.0,0.0" object="lowerBody_39" positionStart="0.13: 0.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<!-- APPEAR CONTAINER --><animation id="appear_upperBody_40" type="appearFade|anchorPoint:0.0,0.0" object="upperBody_40" positionStart="-0.27:-0.3" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<!-- APPEAR CONTAINER --><animation id="appear_fullHead_41" type="appearFade|anchorPoint:0.0,0.0" object="fullHead_41" positionStart="0.4: 0.2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_arm-upper_8" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:" object="arm-upper_8" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_arm-lower_9" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:" object="arm-lower_9" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_hand_10" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:" object="hand_10" positionStart="0.05:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+<animation id="appear_arm-upper_13" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:" object="arm-upper_13" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_arm-lower_14" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:" object="arm-lower_14" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_hand_15" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:" object="hand_15" positionStart="0.05:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_controller_16" type="appearFade|scaleTo:0.05;opacity:0; anchorPoint:;" object="controller_16" positionStart="0.06:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leg-upper_17" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:" object="leg-upper_17" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leg-lower_18" type="appearFade|scaleTo:0.06;opacity:1;anchorPoint:" object="leg-lower_18" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_foot_19" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:" object="foot_19" positionStart="0.05:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_controller_20" type="appearFade|scaleTo:0.05;opacity:0; anchorPoint:;" object="controller_20" positionStart="-0.25:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_torso_21" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:" object="torso_21" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leg-upper_22" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:" object="leg-upper_22" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leg-lower_23" type="appearFade|scaleTo:0.06;opacity:1;anchorPoint:" object="leg-lower_23" positionStart="-0.15:-0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_foot_24" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:" object="foot_24" positionStart="-0.145:-0.24" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_controller_25" type="appearFade|scaleTo:0.05;opacity:0; anchorPoint:;" object="controller_25" positionStart="-0.22:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_backhair_26" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="backhair_26" positionStart="-0.16:-0.23" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_head_27" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="head_27" positionStart="-0.15:-0.2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_hair_28" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="hair_28" positionStart="-0.1375:-0.28" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eye-r_29" type="appearFade|scaleTo:0.007;opacity:1;anchorPoint:0.5,0.5" object="eye-r_29" positionStart="-0.163:-0.22" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eye-l_30" type="appearFade|scaleTo:0.007;opacity:1;anchorPoint:0.5,0.5" object="eye-l_30" positionStart="-0.13:-0.22" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyebrow-r_31" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="eyebrow-r_31" positionStart="-0.163:-0.25" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyebrow-l_32" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="eyebrow-l_32" positionStart="-0.13:-0.24" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_nose_33" type="appearFade|scaleTo:0.015;opacity:1;anchorPoint:0.5,0.5" object="nose_33" positionStart="-0.146:-0.18" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_mouth_34" type="appearFade|scaleTo:0.015;opacity:1;anchorPoint:0.5,0.5" object="mouth_34" positionStart="-0.146:-0.15" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_beard_35" type="appearFade|scaleTo:0.08;opacity:0;anchorPoint:0.5,0.5" object="beard_35" positionStart="-0.15:-0.26" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_mustache_36" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="mustache_36" positionStart="-0.13:-0.17" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_helm_37" type="appearFade|scaleTo:0.15;opacity:0;anchorPoint:0.5,0.5" object="helm_37" positionStart="-0.18:-0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="character_controller_11" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.5,0.1],[0.45,0.1],[0.5,0.1]];jointPoints:[[0.5,0.9],[1.5,0.75],[0.5,0.1],[0.33,-0.25]];clockwise:true" positionRelativeTo="scene" startTime="0" endTime="120" object="arm-upper_8,arm-lower_9,hand_10,body_12,controller_11" />
+
+
+<animation id="character_controller_16" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.5,0.1],[0.45,0.1],[0.5,0.1]];jointPoints:[[0.5,0.9],[1.5,0.75],[0.5,0.1],[-0.33,-0.25]];clockwise:true" positionRelativeTo="scene" startTime="0" endTime="120" object="arm-upper_13,arm-lower_14,hand_15,body_12,controller_16" />
+
+
+<animation id="character_controller_20" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.35, 0.1], [0.45, 0.1], [0.5, 0.1]];jointPoints:[[0.5,0.9],[1.5, 0.90],[0.5,0.1],[-0.1,-0.2]];clockwise:true" positionRelativeTo="scene" startTime="0" endTime="120" object="leg-upper_17,leg-lower_18,foot_19,torso_21,controller_20" />
+
+
+<animation id="character_controller_25" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.35, 0.1], [0.45, 0.1], [0.5, 0.1]];jointPoints:[[0.5, 0.9], [1.5, 0.90], [0.5, 0.1], [-0.1, -0.2]];clockwise:false" positionRelativeTo="scene" startTime="0" endTime="120" object="leg-upper_22,leg-lower_23,foot_24,torso_21,controller_25" />
+
+
+
+<animation id="key_1_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.500:2.000"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_0_rect_20" type="basicMove|ease:easeOutExpo;" object="rect_2" positionStart="1.650:0.500"  positionEnd="1.050:0.500"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_8_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="0.800:1.400"  positionEnd="0.800:0.900"  positionRelativeTo="scene" startTime="0.90" endTime="1.40" />
+
+<animation id="key_7_housecar_40" type="basicMove" object="housecar_4" positionStart="0.200:1.500"  positionEnd="0.200:0.600"  positionRelativeTo="scene" startTime="1.10" endTime="1.60" />
+<animation id="key_0_housecar_41" type="basicMove" object="housecar_4" positionStart="0.200:0.600"  positionEnd="0.200:0.650"  positionRelativeTo="scene" startTime="1.60" endTime="2.00" />
+<animation id="key_1_housecar_42" type="basicMove" object="housecar_4" positionStart="0.200:0.650"  positionEnd="0.200:0.650"  positionRelativeTo="scene" startTime="2.00" endTime="5.80" />
+
+<animation id="key_8_calendar_50" type="basicMove|ease:easeOutExpo;" object="calendar_5" positionStart="1.200:0.279"  positionEnd="0.780:0.279"  positionRelativeTo="scene" startTime="1.85" endTime="2.50" />
+
+<animation id="key_4_middleclass_60" type="basicMove" object="middleclass_6" positionStart="0.765:1.530"  positionEnd="0.765:0.730"  positionRelativeTo="scene" startTime="2.10" endTime="2.60" />
+<animation id="key_4_middleclass_61" type="basicMove" object="middleclass_6" positionStart="0.765:0.730"  positionEnd="0.765:0.780"  positionRelativeTo="scene" startTime="2.60" endTime="3.00" />
+<animation id="key_0_middleclass_62" type="basicMove" object="middleclass_6" positionStart="0.765:0.780"  positionEnd="0.765:0.780"  positionRelativeTo="scene" startTime="3.00" endTime="6.80" />
+
+
+
+
+
+
+
+
+
+<animation id="key_4_controller_110" type="basicMove|ease:easeInOutSine;" object="controller_11" positionStart="0.293:0.337"  positionEnd="0.293:0.317"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+<animation id="key_0_controller_111" type="basicMove|ease:easeInOutSine;" object="controller_11" positionStart="0.293:0.317"  positionEnd="0.293:0.357"  positionRelativeTo="scene" startTime="4.00" endTime="19.00" />
+
+
+
+
+
+
+
+
+
+<animation id="key_0_controller_160" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.060:0.420"  positionEnd="0.100:0.160"  positionRelativeTo="scene" startTime="4.00" endTime="4.34" />
+<animation id="key_5_controller_161" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.100:0.160"  positionEnd="0.100:0.160"  positionRelativeTo="scene" startTime="4.34" endTime="4.67" />
+<animation id="key_6_controller_162" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.100:0.160"  positionEnd="0.110:0.230"  positionRelativeTo="scene" startTime="4.67" endTime="5.14" />
+<animation id="key_2_controller_163" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.110:0.230"  positionEnd="0.120:-0.050"  positionRelativeTo="scene" startTime="5.14" endTime="5.63" />
+<animation id="key_5_controller_164" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.120:-0.050"  positionEnd="0.120:-0.068"  positionRelativeTo="scene" startTime="5.63" endTime="6.23" />
+<animation id="key_4_controller_165" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.120:-0.068"  positionEnd="0.120:0.220"  positionRelativeTo="scene" startTime="6.23" endTime="7.10" />
+<animation id="key_0_controller_166" type="basicMove|ease:easeInOutSine;" object="controller_16" positionStart="0.120:0.220"  positionEnd="0.100:0.160"  positionRelativeTo="scene" startTime="7.10" endTime="7.45" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_3_eyer_290" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-r_29"  startTime="4.00" endTime="4.25" />
+<animation id="key_8_eyer_291" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-r_29"  startTime="4.25" endTime="4.60" />
+<animation id="key_6_eyer_292" type="basicScale|scaleTo:0.007,0.013;ease:easeInOutSine;" object="eye-r_29"  startTime="4.60" endTime="5.00" />
+<animation id="key_0_eyer_293" type="basicScale|scaleTo:0.007,0.013;ease:easeInOutSine;" object="eye-r_29"  startTime="5.00" endTime="7.00" />
+<animation id="key_6_eyer_294" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-r_29"  startTime="7.00" endTime="7.25" />
+<animation id="key_6_eyer_295" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-r_29"  startTime="7.25" endTime="7.60" />
+<animation id="key_4_eyer_296" type="basicScale|scaleTo:0.007,0.013;ease:easeInOutSine;" object="eye-r_29"  startTime="7.60" endTime="8.00" />
+
+
+<animation id="key_3_eyer_290" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-l_30"  startTime="4.00" endTime="4.25" />
+<animation id="key_8_eyer_291" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-l_30"  startTime="4.25" endTime="4.60" />
+<animation id="key_6_eyer_292" type="basicScale|scaleTo:0.007,0.013;ease:easeInOutSine;" object="eye-l_30"  startTime="4.60" endTime="5.00" />
+<animation id="key_0_eyer_293" type="basicScale|scaleTo:0.007,0.013;ease:easeInOutSine;" object="eye-l_30"  startTime="5.00" endTime="7.00" />
+<animation id="key_6_eyer_294" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-l_30"  startTime="7.00" endTime="7.25" />
+<animation id="key_6_eyer_295" type="basicScale|scaleTo:0.007,0.003;ease:easeInOutSine;" object="eye-l_30"  startTime="7.25" endTime="7.60" />
+<animation id="key_4_eyer_296" type="basicScale|scaleTo:0.007,0.013;ease:easeInOutSine;" object="eye-l_30"  startTime="7.60" endTime="8.00" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_0_fullBody_380" type="basicScale|scaleTo:0.600" object="fullBody_38"  startTime="0.10" endTime="0.11" />
+
+
+
+
+
+
+
+
+
+<animation id="key_6_fullBody_380" type="basicMove|ease:easeInOutSine;" object="fullBody_38" positionStart="0.320:0.850"  positionEnd="0.320:1.850"  positionRelativeTo="scene" startTime="0.00" endTime="0.20" />
+<animation id="key_2_fullBody_381" type="basicMove|ease:easeInOutSine;" object="fullBody_38" positionStart="0.320:1.850"  positionEnd="0.320:1.850"  positionRelativeTo="scene" startTime="0.20" endTime="2.00" />
+<animation id="key_3_fullBody_382" type="basicMove|ease:easeInOutSine;" object="fullBody_38" positionStart="0.320:1.850"  positionEnd="0.320:0.750"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_1_fullBody_383" type="basicMove|ease:easeInOutSine;" object="fullBody_38" positionStart="0.320:0.750"  positionEnd="0.320:0.810"  positionRelativeTo="scene" startTime="3.00" endTime="3.20" />
+
+
+
+
+
+ </igml>

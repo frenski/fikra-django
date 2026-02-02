@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="" title="Музиката е ..." description="" author="Yane Frenski" date="05/03/2022">
+<object id="bg_0" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" action="link" editable="true" />
+<object id="body_2" type="image" src="graphics/characters/vizlai-school/teen3/body.svg" action="link" editable="true" />
+<object id="head_3" type="image" src="graphics/characters/vizlai-school/teen3/head.svg" action="link" editable="true" />
+<object id="eye_4" type="image" src="graphics/characters/vizlai-school/teen3/eye.svg" action="link" editable="true" />
+<object id="eye_5" type="image" src="graphics/characters/vizlai-school/teen3/eye.svg" action="link" editable="true" />
+<object id="mouth_7" type="image" src="graphics/characters/vizlai-school/teen3/mouth.svg" action="link" editable="true" />
+<object id="eyecl_10" type="image" src="graphics/characters/vizlai-school/teen3/eyecl.svg" action="link" editable="true" />
+<object id="eyecl_11" type="image" src="graphics/characters/vizlai-school/teen3/eyecr.svg" action="link" editable="true" />
+<object id="smilemouth_26" type="image" src="graphics/characters/body-components/mouth-smile1.svg" action="link" editable="false" />
+<object id="lock1" type="image" src="graphics/characters/vizlai-school/teen3/lock1.svg" action="link" editable="true" />
+<object id="lock2" type="image" src="graphics/characters/vizlai-school/teen3/lock2.svg" action="link" editable="true" />
+<object id="lock3" type="image" src="graphics/characters/vizlai-school/teen3/lock3.svg" action="link" editable="true" />
+
+<object id="l_1" type="image" src="graphics/music/music-theory/five-lines-wave-green.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-1.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-2.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-2.svg" editable="true" description=""  />
+<object id="l_5" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-3.svg" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-4.svg" editable="true" description=""  />
+<object id="l_7" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-1.svg" editable="true" description=""  />
+<object id="l_8" type="image" src="graphics/music/music-theory/music-note-basic-blue-shadow-3.svg" editable="true" description=""  />
+<object id="l_9" type="image" src="graphics/nature/flowers/tulip1.svg" editable="true" description=""  />
+<object id="l_10" type="image" src="graphics/nature/flowers/tulip1.svg" editable="true" description=""  />
+<object id="l_11" type="image" src="graphics/nature/flowers/tulip1.svg" editable="true" description=""  />
+<object id="l_12" type="image" src="graphics/nature/flowers/tulip1.svg" editable="true" description=""  />
+
+<container id="upperBody" objects="body_2,head_3,eye_4,eye_5,mouth_7,eyecl_10,eyecl_11,smilemouth_26,lock1,lock2,lock3" action="link:" editable="true" />
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_l_9" type="appearFade|scaleTo:0.168;opacity:0;anchorPoint:0.5,0.5" object="l_9" positionStart="0.146:1.323" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_10" type="appearFade|scaleTo:0.147;opacity:0;anchorPoint:0.5,0.5" object="l_10" positionStart="0.344:1.403" startTime="0" endTime="0" description=" appearing order: 10" />
+<animation id="appear_l_11" type="appearFade|scaleTo:0.193;opacity:0;anchorPoint:0.5,0.5" object="l_11" positionStart="0.616:1.434" startTime="0" endTime="0" description=" appearing order: 11" />
+<animation id="appear_l_12" type="appearFade|scaleTo:0.229;opacity:0;anchorPoint:0.5,0.5" object="l_12" positionStart="0.869:1.461" startTime="0" endTime="0" description=" appearing order: 12" />
+
+<animation id="appear-upperb" type="appearFade|opacity:0;anchorPoint:0.5,1" object="upperBody" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_head_3" type="appearFade|scaleTo:0.19;opacity:1;anchorPoint:0.5,1" object="head_3" positionStart="0.233:0.115" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_body_2" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="body_2" positionStart="0.235:0.133" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_eye_4" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="eye_4" positionStart="0.22:0.02" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_eye_5" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="eye_5" positionStart="0.26:0.02" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_mouth_7" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="mouth_7" positionStart="0.24:0.055" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_eyecl_10" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="eyecl_10" positionStart="0.22:0.012" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_eyecl_11" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="eyecl_11" positionStart="0.26:0.012" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_mouth_26" type="appearFade|scaleTo:0.025;opacity:0;anchorPoint:0.5,0.5" object="smilemouth_26" positionStart="0.239:0.057" startTime="0" endTime="0" />
+<animation id="appear_lock3" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0,0" object="lock3" positionStart="0.232:-0.027" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_lock2" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0,0" object="lock2" positionStart="0.232:-0.027" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_lock1" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0,0" object="lock1" positionStart="0.232:-0.027" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_l_1" type="appearFade|scaleTo:1.6;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.71:1.544" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.699:0.858" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.282:0.687" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.955:0.842" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.065:0.605" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.372:0.826" startTime="0" endTime="0" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.101:0.745" startTime="0" endTime="0" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.513:0.757" startTime="0" endTime="0" description=" appearing order: 8" />
+
+<animation id="rotate_lock3" type="basicRotate|angle:-15" object="lock3" startTime="0" endTime="0" />
+<animation id="rotate_lock2" type="basicRotate|angle:-20" object="lock2" startTime="0" endTime="0" />
+<animation id="rotate_lock1" type="basicRotate|angle:-25" object="lock1" startTime="0" endTime="0" />
+
+<animation id="upbody_m0" type="basicMove" object="upperBody" positionEnd="-0.2:0.361" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="m_0_0_bg_0" type="basicMove" object="bg_0" positionStart="0.5:1.5" positionEnd="0.5:0.5" startTime="0" endTime="0.5" />
+
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="0.5" endTime="1.5" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_1" positionEnd="0.737:0.544" startTime="0.5" endTime="1.5" description="" />
+
+<animation id="upbody_o0" type="basicOpacity|opacity:1" object="upperBody" startTime="0.6" endTime="1" />
+
+<animation id="upbody_s0" type="basicScale|scaleTo:0.65;ease:easeOutExpo" object="upperBody" startTime="0.6" endTime="1.6" />
+
+<animation id="appear_mouth_26" type="basicOpacity|opacity:1" object="smilemouth_26" startTime="2" endTime="3" />
+<animation id="appear_mouth_26" type="basicMove" positionEnd="0.245:0.057" object="smilemouth_26" startTime="2" endTime="3" />
+<animation id="appear_mouth_26" type="basicRotate|angle:-10" object="smilemouth_26" startTime="2" endTime="3" />
+<animation id="disappear_mouth_26" type="disappearFade" object="mouth_7" startTime="2" endTime="3" />
+
+
+<animation id="key_8_eye_40" type="basicMove" object="eye_4" positionStart="0.720:0.500"  positionEnd="0.220:0.020"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_4_eye_41" type="basicMove" object="eye_4" positionStart="0.720:0.510"  positionEnd="0.220:0.020"  positionRelativeTo="scene" startTime="2.00" endTime="5.00" />
+<animation id="key_6_eye_50" type="basicMove" object="eye_5" positionStart="0.760:0.500"  positionEnd="0.260:0.020"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_7_eye_51" type="basicMove" object="eye_5" positionStart="0.760:0.510"  positionEnd="0.260:0.020"  positionRelativeTo="scene" startTime="2.00" endTime="5.00" />
+
+<animation id="rotate_lock3" type="waveRotate|angle:-1;loops:4" object="lock3" startTime="1.5" endTime="11.5" />
+<animation id="rotate_lock2" type="waveRotate|angle:-1.8;loops:4" object="lock2" startTime="1.5" endTime="11.5" />
+<animation id="rotate_lock1" type="waveRotate|angle:-3;loops:4" object="lock1" startTime="1.5" endTime="11.5" />
+
+<animation id="s_0_0_eye_5" type="basicScale|scaleTo:0.001;axis:y" object="eye_5" startTime="1.50" endTime="1.60" />
+<animation id="s_0_1_eye_5" type="basicScale|scaleTo:0.01;axis:y" object="eye_5" startTime="1.80" endTime="1.90" />
+<animation id="s_0_0_eye_4" type="basicScale|scaleTo:0.001;axis:y" object="eye_4" startTime="1.50" endTime="1.60" />
+<animation id="s_0_1_eye_4" type="basicScale|scaleTo:0.01;axis:y" object="eye_4" startTime="1.80" endTime="1.90" />
+
+<animation id="s_0_2_eye_5" type="basicScale|scaleTo:0.001;axis:y" object="eye_5" startTime="5.00" endTime="5.10" />
+<animation id="s_0_3_eye_5" type="basicScale|scaleTo:0.01;axis:y" object="eye_5" startTime="5.20" endTime="5.30" />
+<animation id="s_0_2_eye_4" type="basicScale|scaleTo:0.001;axis:y" object="eye_4" startTime="5.00" endTime="5.10" />
+<animation id="s_0_3_eye_4" type="basicScale|scaleTo:0.01;axis:y" object="eye_4" startTime="5.20" endTime="5.30" />
+
+<animation id="s_0_2_eye_5" type="basicScale|scaleTo:0.001;axis:y" object="eye_5" startTime="8.00" endTime="8.10" />
+<animation id="s_0_3_eye_5" type="basicScale|scaleTo:0.01;axis:y" object="eye_5" startTime="8.20" endTime="8.30" />
+<animation id="s_0_2_eye_4" type="basicScale|scaleTo:0.001;axis:y" object="eye_4" startTime="8.00" endTime="8.10" />
+<animation id="s_0_3_eye_4" type="basicScale|scaleTo:0.01;axis:y" object="eye_4" startTime="8.20" endTime="8.30" />
+
+<animation id="s_0_2_eye_5" type="basicScale|scaleTo:0.001;axis:y" object="eye_5" startTime="10.00" endTime="10.10" />
+<animation id="s_0_3_eye_5" type="basicScale|scaleTo:0.01;axis:y" object="eye_5" startTime="10.20" endTime="10.30" />
+<animation id="s_0_2_eye_4" type="basicScale|scaleTo:0.001;axis:y" object="eye_4" startTime="10.00" endTime="10.10" />
+<animation id="s_0_3_eye_4" type="basicScale|scaleTo:0.01;axis:y" object="eye_4" startTime="10.20" endTime="10.30" />
+
+<animation id="key_3_eyecl_100" type="basicMove" object="eyecl_10" positionEnd="0.220:0.012"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_1_eyecl_102" type="basicMove" object="eyecl_10" positionEnd="0.220:0.006"  positionRelativeTo="scene" startTime="2.50" endTime="3.50" />
+<animation id="key_7_eyecl_110" type="basicMove" object="eyecl_11" positionEnd="0.260:0.012"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_5_eyecl_112" type="basicMove" object="eyecl_11" positionEnd="0.260:0.006"  positionRelativeTo="scene" startTime="2.50" endTime="3.50" />
+
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.116;ease:easeOutExpo;" object="l_2"  startTime="3.80" endTime="4.80" description="" />
+<animation id="s_0_0_l_3" type="basicScale|scaleTo:0.083;ease:easeOutExpo;" object="l_3"  startTime="4.10" endTime="5.10" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.083;ease:easeOutExpo;" object="l_4"  startTime="4.40" endTime="5.40" description="" />
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.083;ease:easeOutExpo;" object="l_5"  startTime="4.70" endTime="5.70" description="" />
+<animation id="s_0_0_l_6" type="basicScale|scaleTo:0.053;ease:easeOutExpo;" object="l_6"  startTime="5.00" endTime="6.00" description="" />
+<animation id="s_0_0_l_7" type="basicScale|scaleTo:0.116;ease:easeOutExpo;" object="l_7"  startTime="5.30" endTime="6.30" description="" />
+<animation id="s_0_0_l_8" type="basicScale|scaleTo:0.083;ease:easeOutExpo;" object="l_8"  startTime="5.60" endTime="6.60" description="" />
+<animation id="o_0_0_l_9" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_9"  startTime="6.50" endTime="7.50" description="" />
+<animation id="m_0_0_l_9" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_9" positionEnd="0.146:0.323" startTime="6.50" endTime="7.50" description="" />
+<animation id="o_0_0_l_10" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_10"  startTime="7.00" endTime="8.00" description="" />
+<animation id="m_0_0_l_10" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_10" positionEnd="0.344:0.403" startTime="7.00" endTime="8.00" description="" />
+<animation id="o_0_0_l_11" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_11"  startTime="7.50" endTime="8.50" description="" />
+<animation id="m_0_0_l_11" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_11" positionEnd="0.616:0.434" startTime="7.50" endTime="8.50" description="" />
+<animation id="o_0_0_l_12" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_12"  startTime="8.00" endTime="9.00" description="" />
+<animation id="m_0_0_l_12" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_12" positionEnd="0.869:0.461" startTime="8.00" endTime="9.00" description="" />
+
+<animation id="disappear-character" type="basicMove|ease:easeInExpo" object="upperBody" positionEnd="-0.038:1.5" startTime="12" endTime="13" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="eyecl_10,eyecl_11,mouth_7,smilemouth_26,eye_5,eyeC,eye_4,head_3,body_2,upperBody,bg_0,l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8,l_9,l_10,l_11,l_12" positionRelativeTo="scene" startTime="12" endTime="13" />
+</igml>

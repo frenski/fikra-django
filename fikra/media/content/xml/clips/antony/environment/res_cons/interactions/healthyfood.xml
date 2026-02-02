@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="false"/>
+
+<object id="frame_2" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/frame.svg" action="link" editable="false" />
+
+<object id="plate_3" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/plate.svg" action="link" editable="false" />
+
+<object id="i1" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i1.svg" action="link" editable="false" />
+
+<object id="i2" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i2.svg" action="link" editable="false" />
+
+<object id="i3" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i3.svg" action="link" editable="false" />
+
+<object id="i4" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i4.svg" action="link" editable="false" />
+
+<object id="i5" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i5.svg" action="link" editable="false" />
+
+<object id="i6" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i6.svg" action="link" editable="false" />
+
+<object id="i7" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i7.svg" action="link" editable="false" />
+
+<object id="i8" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i8.svg" action="link" editable="false" />
+
+<object id="i9" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i9.svg" action="link" editable="false" />
+
+<object id="i10" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i10.svg" action="link" editable="false" />
+
+<object id="i11" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i11.svg" action="link" editable="false" />
+
+<object id="i12" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i12.svg" action="link" editable="false" />
+
+<object id="i13" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i13.svg" action="link" editable="false" />
+
+<object id="i14" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i14.svg" action="link" editable="false" />
+
+<object id="i15" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i15.svg" action="link" editable="false" />
+
+<object id="i16" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i16.svg" action="link" editable="false" />
+
+<object id="i17" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i17.svg" action="link" editable="false" />
+
+<object id="i18" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i18.svg" action="link" editable="false" />
+
+<object id="i19" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i19.svg" action="link" editable="false" />
+
+<object id="i20" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i20.svg" action="link" editable="false" />
+
+<object id="i21" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i21.svg" action="link" editable="false" />
+
+<object id="i22" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i22.svg" action="link" editable="false" />
+
+<object id="i23" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i23.svg" action="link" editable="false" />
+
+<object id="i24" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i24.svg" action="link" editable="false" />
+
+<object id="i25" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i25.svg" action="link" editable="false" />
+
+<object id="i26" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i26.svg" action="link" editable="false" />
+
+<object id="i27" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i27.svg" action="link" editable="false" />
+
+<object id="i28" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/i28.svg" action="link" editable="false" />
+
+<object id="text_31" type="text" text="kilograms of greenhouse gases
+per serving" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="1.2"/>
+
+<object id="range1" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/range.svg" action="link" editable="true" />
+
+<object id="slider1" type="image" src="graphics/general/environment/interactions/res_cons/healthy_dish/slider.svg" action="link" editable="true" />
+
+<object id="console1" type="text" text="0" size="55" align = "right" color="#AB1748" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0.3"/>
+
+<object id="reset1" type="shape" shapetype="rect" size="0.8,0.3" color="#F4F4F4" strokeWidth="0" action="link" editable="true"/>
+
+<object id="txt_36" type="text" text="RESET" size="55" align = "center" color="#0E0E0E" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0"/>
+
+<object id="txt_37" type="text" text="Create your most common meal and check how your food choices impact on the environment.  (pick 4 foods max)" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="2.3"/>
+
+
+<variable id='limiter' type="float" default='0'/>
+
+<variable id='temp2' type="expression"  default="" expression="max(15+{{limiter}},4)"/>
+
+<variable id='cap' type="expression" default="" expression="floor({{temp2}}/10)"/>
+
+<variable id='mod' type="expression" default="" expression="4-(3*{{cap}})"/>
+
+<variable id='temp' type="expression"  default="" expression="(7+{{limiter}}%{{mod}})/10"/>
+
+<variable id='range_width' type="float" default='0' reference ="range1.width"/>
+
+<variable id='sliderX' type='float' default='0' reference="slider1.position.x.rel"/>
+
+<variable id='sliderY' type='float' default='0' reference="slider1.position.y.rel"/>
+
+<variable id="score" type="float" default="0"/>
+
+<variable id="console1log" type="float" default="0" reference="console1.text"/>
+
+<variable id="txt_36log" type="float" default="0" reference="txt_36.text"/>
+
+<variable id='i1X' type='float' default='0' reference="i1.position.x.rel"/>
+
+<variable id='i2X' type='float' default='0' reference="i2.position.x.rel"/>
+
+<variable id='i3X' type='float' default='0' reference="i3.position.x.rel"/>
+
+<variable id='i4X' type='float' default='0' reference="i4.position.x.rel"/>
+
+<variable id='i5X' type='float' default='0' reference="i5.position.x.rel"/>
+
+<variable id='i6X' type='float' default='0' reference="i6.position.x.rel"/>
+
+<variable id='i7X' type='float' default='0' reference="i7.position.x.rel"/>
+
+<variable id='i8X' type='float' default='0' reference="i8.position.x.rel"/>
+
+<variable id='i9X' type='float' default='0' reference="i9.position.x.rel"/>
+
+<variable id='i10X' type='float' default='0' reference="i10.position.x.rel"/>
+
+<variable id='i11X' type='float' default='0' reference="i11.position.x.rel"/>
+
+<variable id='i12X' type='float' default='0' reference="i12.position.x.rel"/>
+
+<variable id='i13X' type='float' default='0' reference="i13.position.x.rel"/>
+
+<variable id='i14X' type='float' default='0' reference="i14.position.x.rel"/>
+
+<variable id='i15X' type='float' default='0' reference="i15.position.x.rel"/>
+
+<variable id='i16X' type='float' default='0' reference="i16.position.x.rel"/>
+
+<variable id='i17X' type='float' default='0' reference="i17.position.x.rel"/>
+
+<variable id='i18X' type='float' default='0' reference="i18.position.x.rel"/>
+
+<variable id='i19X' type='float' default='0' reference="i19.position.x.rel"/>
+
+<variable id='i20X' type='float' default='0' reference="i20.position.x.rel"/>
+
+<variable id='i21X' type='float' default='0' reference="i21.position.x.rel"/>
+
+<variable id='i22X' type='float' default='0' reference="i22.position.x.rel"/>
+
+<variable id='i23X' type='float' default='0' reference="i23.position.x.rel"/>
+
+<variable id='i24X' type='float' default='0' reference="i24.position.x.rel"/>
+
+<variable id='i25X' type='float' default='0' reference="i25.position.x.rel"/>
+
+<variable id='i26X' type='float' default='0' reference="i26.position.x.rel"/>
+
+<variable id='i27X' type='float' default='0' reference="i27.position.x.rel"/>
+
+<variable id='i28X' type='float' default='0' reference="i28.position.x.rel"/>
+
+<variable id='i1Y' type='float' default='0' reference="i1.position.y.rel"/>
+
+<variable id='i2Y' type='float' default='0' reference="i2.position.y.rel"/>
+
+<variable id='i3Y' type='float' default='0' reference="i3.position.y.rel"/>
+
+<variable id='i4Y' type='float' default='0' reference="i4.position.y.rel"/>
+
+<variable id='i5Y' type='float' default='0' reference="i5.position.y.rel"/>
+
+<variable id='i6Y' type='float' default='0' reference="i6.position.y.rel"/>
+
+<variable id='i7Y' type='float' default='0' reference="i7.position.y.rel"/>
+
+<variable id='i8Y' type='float' default='0' reference="i8.position.y.rel"/>
+
+<variable id='i9Y' type='float' default='0' reference="i9.position.y.rel"/>
+
+<variable id='i10Y' type='float' default='0' reference="i10.position.y.rel"/>
+
+<variable id='i11Y' type='float' default='0' reference="i11.position.y.rel"/>
+
+<variable id='i12Y' type='float' default='0' reference="i12.position.y.rel"/>
+
+<variable id='i13Y' type='float' default='0' reference="i13.position.y.rel"/>
+
+<variable id='i14Y' type='float' default='0' reference="i14.position.y.rel"/>
+
+<variable id='i15Y' type='float' default='0' reference="i15.position.y.rel"/>
+
+<variable id='i16Y' type='float' default='0' reference="i16.position.y.rel"/>
+
+<variable id='i17Y' type='float' default='0' reference="i17.position.y.rel"/>
+
+<variable id='i18Y' type='float' default='0' reference="i18.position.y.rel"/>
+
+<variable id='i19Y' type='float' default='0' reference="i19.position.y.rel"/>
+
+<variable id='i20Y' type='float' default='0' reference="i20.position.y.rel"/>
+
+<variable id='i21Y' type='float' default='0' reference="i21.position.y.rel"/>
+
+<variable id='i22Y' type='float' default='0' reference="i22.position.y.rel"/>
+
+<variable id='i23Y' type='float' default='0' reference="i23.position.y.rel"/>
+
+<variable id='i24Y' type='float' default='0' reference="i24.position.y.rel"/>
+
+<variable id='i25Y' type='float' default='0' reference="i25.position.y.rel"/>
+
+<variable id='i26Y' type='float' default='0' reference="i26.position.y.rel"/>
+
+<variable id='i27Y' type='float' default='0' reference="i27.position.y.rel"/>
+
+<variable id='i28Y' type='float' default='0' reference="i28.position.y.rel"/>
+
+<variable id="score" type="float" default="0"/>
+
+<variable id="reset1_button" type="float" default="0" reference="reset1"/>
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_frame_2" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="frame_2" positionStart="-0.755:0.445" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_plate_3" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="plate_3" positionStart="0.745:1.64" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i1" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i1" positionStart="0.10:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i2" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i2" positionStart="0.15:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i3" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i3" positionStart="0.20:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i4" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i4" positionStart="0.25:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i5" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i5" positionStart="0.30:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i6" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i6" positionStart="0.35:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i7" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i7" positionStart="0.40:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i8" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i8" positionStart="0.10:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i9" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="i9" positionStart="0.15:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i10" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i10" positionStart="0.20:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i11" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i11" positionStart="0.25:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i12" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i12" positionStart="0.30:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i13" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i13" positionStart="0.35:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i14" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i14" positionStart="0.40:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i15" type="appearFade|scaleTo:0.025;opacity:1;anchorPoint:0.5,0.5" object="i15" positionStart="0.10:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i16" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i16" positionStart="0.15:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i17" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i17" positionStart="0.20:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i18" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i18" positionStart="0.25:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i19" type="appearFade|scaleTo:0.025;opacity:1;anchorPoint:0.5,0.5" object="i19" positionStart="0.30:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i20" type="appearFade|scaleTo:0.025;opacity:1;anchorPoint:0.5,0.5" object="i20" positionStart="0.35:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i21" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i21" positionStart="0.40:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i22" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i22" positionStart="0.10:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i23" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i23" positionStart="0.15:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i24" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i24" positionStart="0.20:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i25" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i25" positionStart="0.25:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i26" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i26" positionStart="0.30:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i27" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i27" positionStart="0.35:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i28" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i28" positionStart="0.40:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_text_31" type="appearFade|scaleTo:0.35;opacity:1;anchorPoint:0.5,0.5" object="text_31" positionStart="0.78:0.31" positionRelativeTo="scene" startTime="4" endTime="7" />
+
+<animation id="appear_range1" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="range1" positionStart="0.75:0.398" positionRelativeTo="scene" startTime="4" endTime="7" />
+
+<animation id="appear_slider1" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="slider1" positionStart="0.56:0.398" positionRelativeTo="scene" startTime="4" endTime="7" />
+
+<animation id="appear_console1" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:1,0.5" object="console1" positionStart="0.78:0.2" positionRelativeTo="scene" startTime="4" endTime="7" />
+
+<animation id="appear_reset1" type="appearFade|scaleTo:0.2;opacity:1; anchorPoint:0.5,0.5;" object="reset1" positionStart="0.5:1.9" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+
+<animation id="appear_txt_36" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="txt_36" positionStart="0.5:1.905" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+
+<animation id="appear_txt_37" type="appearFade|scaleTo:0.6;opacity:1;anchorPoint:0.5,0.5" object="txt_37" positionStart="0.5:0.11" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+
+
+<animation id="key_6_bg_00" type="basicMove|ease:easeInOutExpo;" object="bg_0" positionStart="0.500:2.000"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_6_frame_20" type="basicMove|ease:easeInOutSine;" object="frame_2" positionStart="-0.755:0.445"  positionEnd="0.265:0.445"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+<animation id="key_6_frame_21" type="basicMove|ease:easeInOutSine;" object="frame_2" positionStart="0.265:0.445"  positionEnd="0.245:0.445"  positionRelativeTo="scene" startTime="1.50" endTime="1.60" />
+
+<animation id="key_1_plate_30" type="basicMove|ease:easeInOutSine;" object="plate_3" positionStart="0.745:1.640"  positionEnd="0.745:0.590"  positionRelativeTo="scene" startTime="1.50" endTime="2.50" />
+<animation id="key_7_plate_31" type="basicMove|ease:easeInOutSine;" object="plate_3" positionStart="0.745:0.590"  positionEnd="0.745:0.640"  positionRelativeTo="scene" startTime="2.50" endTime="2.70" />
+
+<animation id="key_3_i10" type="basicMove|ease:easeInOutSine;" object="i1" positionStart="0.100:1.300"  positionEnd="0.100:0.250"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_8_i11" type="basicMove|ease:easeInOutSine;" object="i1" positionStart="0.100:0.250"  positionEnd="0.100:0.300"  positionRelativeTo="scene" startTime="3.00" endTime="3.20" />
+
+<animation id="key_6_i20" type="basicMove|ease:easeInOutSine;" object="i2" positionStart="0.150:1.300"  positionEnd="0.150:0.250"  positionRelativeTo="scene" startTime="2.10" endTime="3.10" />
+<animation id="key_5_i21" type="basicMove|ease:easeInOutSine;" object="i2" positionStart="0.150:0.250"  positionEnd="0.150:0.300"  positionRelativeTo="scene" startTime="3.10" endTime="3.30" />
+
+<animation id="key_2_i30" type="basicMove|ease:easeInOutSine;" object="i3" positionStart="0.200:1.300"  positionEnd="0.200:0.250"  positionRelativeTo="scene" startTime="2.20" endTime="3.20" />
+<animation id="key_4_i31" type="basicMove|ease:easeInOutSine;" object="i3" positionStart="0.200:0.250"  positionEnd="0.200:0.300"  positionRelativeTo="scene" startTime="3.20" endTime="3.40" />
+
+<animation id="key_3_i40" type="basicMove|ease:easeInOutSine;" object="i4" positionStart="0.250:1.300"  positionEnd="0.250:0.250"  positionRelativeTo="scene" startTime="2.30" endTime="3.30" />
+<animation id="key_3_i41" type="basicMove|ease:easeInOutSine;" object="i4" positionStart="0.250:0.250"  positionEnd="0.250:0.300"  positionRelativeTo="scene" startTime="3.30" endTime="3.50" />
+
+<animation id="key_3_i50" type="basicMove|ease:easeInOutSine;" object="i5" positionStart="0.300:1.300"  positionEnd="0.300:0.250"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+<animation id="key_1_i51" type="basicMove|ease:easeInOutSine;" object="i5" positionStart="0.300:0.250"  positionEnd="0.300:0.300"  positionRelativeTo="scene" startTime="3.40" endTime="3.60" />
+
+<animation id="key_6_i60" type="basicMove|ease:easeInOutSine;" object="i6" positionStart="0.350:1.300"  positionEnd="0.350:0.250"  positionRelativeTo="scene" startTime="2.50" endTime="3.50" />
+<animation id="key_4_i61" type="basicMove|ease:easeInOutSine;" object="i6" positionStart="0.350:0.250"  positionEnd="0.350:0.300"  positionRelativeTo="scene" startTime="3.50" endTime="3.70" />
+
+<animation id="key_8_i70" type="basicMove|ease:easeInOutSine;" object="i7" positionStart="0.400:1.300"  positionEnd="0.400:0.250"  positionRelativeTo="scene" startTime="2.60" endTime="3.60" />
+<animation id="key_5_i71" type="basicMove|ease:easeInOutSine;" object="i7" positionStart="0.400:0.250"  positionEnd="0.400:0.300"  positionRelativeTo="scene" startTime="3.60" endTime="3.80" />
+
+<animation id="key_7_i80" type="basicMove|ease:easeInOutSine;" object="i8" positionStart="0.100:1.400"  positionEnd="0.100:0.350"  positionRelativeTo="scene" startTime="2.70" endTime="3.70" />
+<animation id="key_2_i81" type="basicMove|ease:easeInOutSine;" object="i8" positionStart="0.100:0.350"  positionEnd="0.100:0.400"  positionRelativeTo="scene" startTime="3.70" endTime="3.90" />
+
+<animation id="key_4_i90" type="basicMove|ease:easeInOutSine;" object="i9" positionStart="0.150:1.400"  positionEnd="0.150:0.350"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+<animation id="key_6_i91" type="basicMove|ease:easeInOutSine;" object="i9" positionStart="0.150:0.350"  positionEnd="0.150:0.400"  positionRelativeTo="scene" startTime="3.80" endTime="4.00" />
+
+<animation id="key_1_i100" type="basicMove|ease:easeInOutSine;" object="i10" positionStart="0.200:1.400"  positionEnd="0.200:0.350"  positionRelativeTo="scene" startTime="2.90" endTime="3.90" />
+<animation id="key_2_i101" type="basicMove|ease:easeInOutSine;" object="i10" positionStart="0.200:0.350"  positionEnd="0.200:0.400"  positionRelativeTo="scene" startTime="3.90" endTime="4.10" />
+
+<animation id="key_7_i110" type="basicMove|ease:easeInOutSine;" object="i11" positionStart="0.250:1.400"  positionEnd="0.250:0.350"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+<animation id="key_8_i111" type="basicMove|ease:easeInOutSine;" object="i11" positionStart="0.250:0.350"  positionEnd="0.250:0.400"  positionRelativeTo="scene" startTime="4.00" endTime="4.20" />
+
+<animation id="key_3_i120" type="basicMove|ease:easeInOutSine;" object="i12" positionStart="0.300:1.400"  positionEnd="0.300:0.350"  positionRelativeTo="scene" startTime="3.10" endTime="4.10" />
+<animation id="key_0_i121" type="basicMove|ease:easeInOutSine;" object="i12" positionStart="0.300:0.350"  positionEnd="0.300:0.400"  positionRelativeTo="scene" startTime="4.10" endTime="4.30" />
+
+<animation id="key_4_i130" type="basicMove|ease:easeInOutSine;" object="i13" positionStart="0.350:1.400"  positionEnd="0.350:0.350"  positionRelativeTo="scene" startTime="3.20" endTime="4.20" />
+<animation id="key_2_i131" type="basicMove|ease:easeInOutSine;" object="i13" positionStart="0.350:0.350"  positionEnd="0.350:0.400"  positionRelativeTo="scene" startTime="4.20" endTime="4.40" />
+
+<animation id="key_5_i140" type="basicMove|ease:easeInOutSine;" object="i14" positionStart="0.400:1.400"  positionEnd="0.400:0.350"  positionRelativeTo="scene" startTime="3.30" endTime="4.30" />
+<animation id="key_0_i141" type="basicMove|ease:easeInOutSine;" object="i14" positionStart="0.400:0.350"  positionEnd="0.400:0.400"  positionRelativeTo="scene" startTime="4.30" endTime="4.50" />
+
+<animation id="key_6_i150" type="basicMove|ease:easeInOutSine;" object="i15" positionStart="0.100:1.500"  positionEnd="0.100:0.450"  positionRelativeTo="scene" startTime="3.40" endTime="4.40" />
+<animation id="key_5_i151" type="basicMove|ease:easeInOutSine;" object="i15" positionStart="0.100:0.450"  positionEnd="0.100:0.500"  positionRelativeTo="scene" startTime="4.40" endTime="4.60" />
+
+<animation id="key_2_i160" type="basicMove|ease:easeInOutSine;" object="i16" positionStart="0.150:1.500"  positionEnd="0.150:0.450"  positionRelativeTo="scene" startTime="3.50" endTime="4.50" />
+<animation id="key_6_i161" type="basicMove|ease:easeInOutSine;" object="i16" positionStart="0.150:0.450"  positionEnd="0.150:0.500"  positionRelativeTo="scene" startTime="4.50" endTime="4.70" />
+
+<animation id="key_4_i170" type="basicMove|ease:easeInOutSine;" object="i17" positionStart="0.200:1.500"  positionEnd="0.200:0.450"  positionRelativeTo="scene" startTime="3.60" endTime="4.60" />
+<animation id="key_5_i171" type="basicMove|ease:easeInOutSine;" object="i17" positionStart="0.200:0.450"  positionEnd="0.200:0.500"  positionRelativeTo="scene" startTime="4.60" endTime="4.80" />
+
+<animation id="key_2_i180" type="basicMove|ease:easeInOutSine;" object="i18" positionStart="0.250:1.500"  positionEnd="0.250:0.450"  positionRelativeTo="scene" startTime="3.70" endTime="4.70" />
+<animation id="key_0_i181" type="basicMove|ease:easeInOutSine;" object="i18" positionStart="0.250:0.450"  positionEnd="0.250:0.500"  positionRelativeTo="scene" startTime="4.70" endTime="4.90" />
+
+<animation id="key_7_i190" type="basicMove|ease:easeInOutSine;" object="i19" positionStart="0.300:1.500"  positionEnd="0.300:0.450"  positionRelativeTo="scene" startTime="3.80" endTime="4.80" />
+<animation id="key_0_i191" type="basicMove|ease:easeInOutSine;" object="i19" positionStart="0.300:0.450"  positionEnd="0.300:0.500"  positionRelativeTo="scene" startTime="4.80" endTime="5.00" />
+
+<animation id="key_1_i200" type="basicMove|ease:easeInOutSine;" object="i20" positionStart="0.350:1.500"  positionEnd="0.350:0.450"  positionRelativeTo="scene" startTime="3.90" endTime="4.90" />
+<animation id="key_8_i201" type="basicMove|ease:easeInOutSine;" object="i20" positionStart="0.350:0.450"  positionEnd="0.350:0.500"  positionRelativeTo="scene" startTime="4.90" endTime="5.10" />
+
+<animation id="key_0_i210" type="basicMove|ease:easeInOutSine;" object="i21" positionStart="0.400:1.500"  positionEnd="0.400:0.450"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+<animation id="key_2_i211" type="basicMove|ease:easeInOutSine;" object="i21" positionStart="0.400:0.450"  positionEnd="0.400:0.500"  positionRelativeTo="scene" startTime="5.00" endTime="5.20" />
+
+<animation id="key_6_i220" type="basicMove|ease:easeInOutSine;" object="i22" positionStart="0.100:1.600"  positionEnd="0.100:0.550"  positionRelativeTo="scene" startTime="4.10" endTime="5.10" />
+<animation id="key_4_i221" type="basicMove|ease:easeInOutSine;" object="i22" positionStart="0.100:0.550"  positionEnd="0.100:0.600"  positionRelativeTo="scene" startTime="5.10" endTime="5.30" />
+
+<animation id="key_0_i230" type="basicMove|ease:easeInOutSine;" object="i23" positionStart="0.150:1.600"  positionEnd="0.150:0.550"  positionRelativeTo="scene" startTime="4.20" endTime="5.20" />
+<animation id="key_6_i231" type="basicMove|ease:easeInOutSine;" object="i23" positionStart="0.150:0.550"  positionEnd="0.150:0.600"  positionRelativeTo="scene" startTime="5.20" endTime="5.40" />
+
+<animation id="key_8_i240" type="basicMove|ease:easeInOutSine;" object="i24" positionStart="0.200:1.600"  positionEnd="0.200:0.550"  positionRelativeTo="scene" startTime="4.30" endTime="5.30" />
+<animation id="key_7_i241" type="basicMove|ease:easeInOutSine;" object="i24" positionStart="0.200:0.550"  positionEnd="0.200:0.600"  positionRelativeTo="scene" startTime="5.30" endTime="5.50" />
+
+<animation id="key_7_i250" type="basicMove|ease:easeInOutSine;" object="i25" positionStart="0.250:1.600"  positionEnd="0.250:0.550"  positionRelativeTo="scene" startTime="4.40" endTime="5.40" />
+<animation id="key_8_i251" type="basicMove|ease:easeInOutSine;" object="i25" positionStart="0.250:0.550"  positionEnd="0.250:0.600"  positionRelativeTo="scene" startTime="5.40" endTime="5.60" />
+
+<animation id="key_0_i260" type="basicMove|ease:easeInOutSine;" object="i26" positionStart="0.300:1.600"  positionEnd="0.300:0.550"  positionRelativeTo="scene" startTime="4.50" endTime="5.50" />
+<animation id="key_3_i261" type="basicMove|ease:easeInOutSine;" object="i26" positionStart="0.300:0.550"  positionEnd="0.300:0.600"  positionRelativeTo="scene" startTime="5.50" endTime="5.70" />
+
+<animation id="key_0_i270" type="basicMove|ease:easeInOutSine;" object="i27" positionStart="0.350:1.600"  positionEnd="0.350:0.550"  positionRelativeTo="scene" startTime="4.60" endTime="5.60" />
+<animation id="key_6_i271" type="basicMove|ease:easeInOutSine;" object="i27" positionStart="0.350:0.550"  positionEnd="0.350:0.600"  positionRelativeTo="scene" startTime="5.60" endTime="5.80" />
+
+<animation id="key_1_i280" type="basicMove|ease:easeInOutSine;" object="i28" positionStart="0.400:1.600"  positionEnd="0.400:0.550"  positionRelativeTo="scene" startTime="4.70" endTime="5.70" />
+<animation id="key_8_i281" type="basicMove|ease:easeInOutSine;" object="i28" positionStart="0.400:0.550"  positionEnd="0.400:0.600"  positionRelativeTo="scene" startTime="5.70" endTime="5.90" />
+
+<animation id="key_3_text_310" type="basicMove|ease:easeInOutSine;" object="text_31" positionStart="0.780:0.310"  positionEnd="0.780:0.310"  positionRelativeTo="scene" startTime="4.00" endTime="14.00" />
+
+
+
+
+
+<animation id="key_3_console10" type="basicMove" object="console1" positionStart="0.780:0.200"  positionEnd="0.780:0.200"  positionRelativeTo="scene" startTime="4.00" endTime="14.00" />
+
+<animation id="key_4_reset10" type="basicMove|ease:easeInOutSine;" object="reset1" positionStart="0.500:1.900"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="5.00" endTime="6.00" />
+<animation id="key_2_reset11" type="basicMove|ease:easeInOutSine;" object="reset1" positionStart="0.500:0.800"  positionEnd="0.500:0.900"  positionRelativeTo="scene" startTime="6.00" endTime="6.30" />
+
+<animation id="key_3_txt_360" type="basicMove|ease:easeInOutSine;" object="txt_36" positionStart="0.500:1.905"  positionEnd="0.500:0.805"  positionRelativeTo="scene" startTime="5.00" endTime="6.00" />
+<animation id="key_4_txt_361" type="basicMove|ease:easeInOutSine;" object="txt_36" positionStart="0.500:0.805"  positionEnd="0.500:0.905"  positionRelativeTo="scene" startTime="6.00" endTime="6.30" />
+
+<animation id="key_1_txt_370" type="basicMove" object="txt_37" positionStart="0.500:0.110"  positionEnd="0.500:0.110"  positionRelativeTo="scene" startTime="4.00" endTime="14.00" />
+
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="6"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i1" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+12']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i1X', 'expression', 'abs(0.71 - ((0.71+0.1)*floor({{temp}})))'] 		|setVar: ['i1Y', 'expression', 'abs(0.60 - ((0.60+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(12*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i2" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+10']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i2X', 'expression', 'abs(0.67 - ((0.67+0.15)*floor({{temp}})))'] 		|setVar: ['i2Y', 'expression', 'abs(0.59 - ((0.59+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(10*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i3" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+8']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i3X', 'expression', 'abs(0.76 - ((0.76+0.2)*floor({{temp}})))'] 		|setVar: ['i3Y', 'expression', 'abs(0.61 - ((0.61+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(8*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i4" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+11']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i4X', 'expression', 'abs(0.69 - ((0.69+0.25)*floor({{temp}})))'] 		|setVar: ['i4Y', 'expression', 'abs(0.64 - ((0.64+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(11*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i5" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+25']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i5X', 'expression', 'abs(0.85 - ((0.85+0.3)*floor({{temp}})))'] 		|setVar: ['i5Y', 'expression', 'abs(0.61 - ((0.61+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(25*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i6" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+18']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i6X', 'expression', 'abs(0.72 - ((0.72+0.35)*floor({{temp}})))'] 		|setVar: ['i6Y', 'expression', 'abs(0.59 - ((0.59+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(18*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i7" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+44']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i7X', 'expression', 'abs(0.71 - ((0.71+0.4)*floor({{temp}})))'] 		|setVar: ['i7Y', 'expression', 'abs(0.59 - ((0.59+0.3)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(44*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i8" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+60']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i8X', 'expression', 'abs(0.81 - ((0.81+0.1)*floor({{temp}})))'] 		|setVar: ['i8Y', 'expression', 'abs(0.60 - ((0.60+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(60*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i9" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+30']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i9X', 'expression', 'abs(0.80 - ((0.80+0.15)*floor({{temp}})))'] 		|setVar: ['i9Y', 'expression', 'abs(0.59 - ((0.59+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(30*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i10" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+72']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i10X', 'expression', 'abs(0.86 - ((0.86+0.2)*floor({{temp}})))'] 		|setVar: ['i10Y', 'expression', 'abs(0.63 - ((0.63+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(72*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i11" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+15']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i11X', 'expression', 'abs(0.68 - ((0.68+0.25)*floor({{temp}})))'] 		|setVar: ['i11Y', 'expression', 'abs(0.58 - ((0.58+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(15*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i12" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+6']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i12X', 'expression', 'abs(0.82 - ((0.82+0.3)*floor({{temp}})))'] 		|setVar: ['i12Y', 'expression', 'abs(0.60 - ((0.60+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(6*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i13" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+8']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i13X', 'expression', 'abs(0.85 - ((0.85+0.35)*floor({{temp}})))'] 		|setVar: ['i13Y', 'expression', 'abs(0.59 - ((0.59+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(8*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i14" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+12']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i14X', 'expression', 'abs(0.67 - ((0.67+0.4)*floor({{temp}})))'] 		|setVar: ['i14Y', 'expression', 'abs(0.61 - ((0.61+0.4)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(12*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i15" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+6']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i15X', 'expression', 'abs(0.81 - ((0.81+0.1)*floor({{temp}})))'] 		|setVar: ['i15Y', 'expression', 'abs(0.63 - ((0.63+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(6*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i16" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+38']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i16X', 'expression', 'abs(0.68 - ((0.68+0.15)*floor({{temp}})))'] 		|setVar: ['i16Y', 'expression', 'abs(0.61 - ((0.61+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(38*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i17" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+6']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i17X', 'expression', 'abs(0.89 - ((0.89+0.2)*floor({{temp}})))'] 		|setVar: ['i17Y', 'expression', 'abs(0.58 - ((0.58+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(6*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i18" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+5']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i18X', 'expression', 'abs(0.73 - ((0.73+0.25)*floor({{temp}})))'] 		|setVar: ['i18Y', 'expression', 'abs(0.60 - ((0.60+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(5*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i19" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+202']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i19X', 'expression', 'abs(0.88 - ((0.88+0.3)*floor({{temp}})))'] 		|setVar: ['i19Y', 'expression', 'abs(0.62 - ((0.62+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(202*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i20" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+202']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i20X', 'expression', 'abs(0.79 - ((0.79+0.35)*floor({{temp}})))'] 		|setVar: ['i20Y', 'expression', 'abs(0.58 - ((0.58+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(202*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i21" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+229']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i21X', 'expression', 'abs(0.68 - ((0.68+0.4)*floor({{temp}})))'] 		|setVar: ['i21Y', 'expression', 'abs(0.62 - ((0.62+0.5)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(229*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i22" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+352']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i22X', 'expression', 'abs(0.74 - ((0.74+0.1)*floor({{temp}})))'] 		|setVar: ['i22Y', 'expression', 'abs(0.60 - ((0.60+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(352*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i23" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+2000']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i23X', 'expression', 'abs(0.66 - ((0.66+0.15)*floor({{temp}})))'] 		|setVar: ['i23Y', 'expression', 'abs(0.61 - ((0.61+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(2000*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i24" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+497']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i24X', 'expression', 'abs(0.82 - ((0.82+0.2)*floor({{temp}})))'] 		|setVar: ['i24Y', 'expression', 'abs(0.60 - ((0.60+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(497*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i25" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+683']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i25X', 'expression', 'abs(0.82 - ((0.82+0.25)*floor({{temp}})))'] 		|setVar: ['i25Y', 'expression', 'abs(0.62 - ((0.62+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(683*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i26" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+1256']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i26X', 'expression', 'abs(0.77 - ((0.77+0.3)*floor({{temp}})))'] 		|setVar: ['i26Y', 'expression', 'abs(0.64 - ((0.64+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(1256*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i27" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+1582']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i27X', 'expression', 'abs(0.76 - ((0.76+0.35)*floor({{temp}})))'] 		|setVar: ['i27Y', 'expression', 'abs(0.62 - ((0.62+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(1582*floor({{temp}}))']"/>
+
+<interaction id = "enable-click" type = "enableClick" subtype = "basic" objects = "i28" startTime = "6" endTime = "12" actions = "onClick:setVar:['score','expression','{{score}}+656']		|setVar: ['limiter', 'expression', '({{limiter}}+1)']		|setVar: ['sliderX', 'expression', '0.56 + (  (({{score}}/1000)/11) - abs(  ((({{score}}/1000)/11)) * floor({{temp}}))  )'] 		|setVar: ['sliderY', 'expression', '0.398']		|setVar: ['i28X', 'expression', 'abs(0.65 - ((0.65+0.4)*floor({{temp}})))'] 		|setVar: ['i28Y', 'expression', 'abs(0.58 - ((0.58+0.6)*floor({{temp}})))']		|setVar: ['console1log', 'expression', '{{score}} - abs(656*floor({{temp}}))']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i1X', 'expression', '0.1']		 |setVar: ['i1Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i2X', 'expression', '0.15']		 |setVar: ['i2Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i3X', 'expression', '0.2']		 |setVar: ['i3Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i4X', 'expression', '0.25']		 |setVar: ['i4Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i5X', 'expression', '0.3']		 |setVar: ['i5Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i6X', 'expression', '0.35']		 |setVar: ['i6Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i7X', 'expression', '0.4']		 |setVar: ['i7Y', 'expression', '0.3'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i8X', 'expression', '0.1']		 |setVar: ['i8Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i9X', 'expression', '0.15']		 |setVar: ['i9Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i10X', 'expression', '0.2']		 |setVar: ['i10Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i11X', 'expression', '0.25']		 |setVar: ['i11Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i12X', 'expression', '0.3']		 |setVar: ['i12Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i13X', 'expression', '0.35']		 |setVar: ['i13Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i14X', 'expression', '0.4']		 |setVar: ['i14Y', 'expression', '0.4'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i15X', 'expression', '0.1']		 |setVar: ['i15Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i16X', 'expression', '0.15']		 |setVar: ['i16Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i17X', 'expression', '0.2']		 |setVar: ['i17Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i18X', 'expression', '0.25']		 |setVar: ['i18Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i19X', 'expression', '0.3']		 |setVar: ['i19Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i20X', 'expression', '0.35']		 |setVar: ['i20Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i21X', 'expression', '0.4']		 |setVar: ['i21Y', 'expression', '0.5'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i22X', 'expression', '0.1']		 |setVar: ['i22Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i23X', 'expression', '0.15']		 |setVar: ['i23Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i24X', 'expression', '0.2']		 |setVar: ['i24Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i25X', 'expression', '0.25']		 |setVar: ['i25Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i26X', 'expression', '0.3']		 |setVar: ['i26Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i27X', 'expression', '0.35']		 |setVar: ['i27Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+<interaction id = "enable-click2" type = "enableClick" subtype = "basic" objects = "reset1" startTime = "6" endTime = "12" 		actions = "onClick:setVar:['score','expression','{{score}}*0'] 		 |setVar: ['i28X', 'expression', '0.4']		 |setVar: ['i28Y', 'expression', '0.6'] 		 |setVar: ['limiter', 'expression', '0']		 |setVar: ['console1log', 'expression', '{{score}}']		 |setVar: ['sliderX', 'expression', '0.56']"/>
+
+
+
+
+ </igml>

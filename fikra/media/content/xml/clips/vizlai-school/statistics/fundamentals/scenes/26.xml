@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#333333" title="Оценки">
+
+	<!-- OBJECTS -->
+  <object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" editable="true" />
+  <object id="l_1" type="image" src="graphics/infographics/sample-distribution-skewed-left.svg" editable="true" />
+  <object id="l_2" type="text" text="Доходи на хората" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Bold" weight="300" editable="true" />
+
+  <object id="l_3" type="image" src="graphics/design-components/arrows/arrow-dashed-curved-white.svg" editable="true" />
+  <object id="l_4" type="text" text="мода" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+  <object id="l_5" type="image" src="graphics/design-components/arrows/arrow-dashed-curved-white.svg" editable="true" />
+  <object id="l_6" type="text" text="средна стойност" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+
+  <object id="line-up" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="3" path="M19.4,476V18" size="0,0,50,500" />
+  <object id="line-up2" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="3" path="M19.4,476V18" size="0,0,50,500" />
+
+
+	<!-- ANIMATIONS -->
+  <animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+  <animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.5" startTime="0.5" endTime="1.5" description="" />
+  <animation id="appear_l_1" type="appearFromSide|scaleTo:0.8;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.5:0.57" startTime="2" endTime="4" description=" appearing order: 1" />
+
+  <animation id="appear_l_2" type="appearFromSide|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.5:0.15" startTime="1" endTime="3" description=" appearing order: 2" />
+
+  <animation id="disappear_l_2" type="disappearFade|scaleTo:0.8;opacity:1;anchorPoint:0.5,0.5" object="l_2" startTime="5" endTime="6" description=" appearing order: 1" />
+
+  <animation id="draw-line-up" type="drawPathOfShapes|scaleTo:0.06;shapeType:rect;intervalGap:1" object="line-up" positionStart="0.32:0.27" positionRelativeTo="scene" startTime="6" endTime="7" />
+
+  <animation id="appear_l_3" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.287:0.231" startTime="7" endTime="8" description=" appearing order: 1" />
+  <animation id="r_0_0_l_3" type="basicRotate|angle:90" object="l_3" startTime="7" endTime="7" description=" appearing order: 1" />
+  <animation id="appear_l_4" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.16:0.16" startTime="8" endTime="9" description=" appearing order: 1" />
+
+  <animation id="draw-line-up2" type="drawPathOfShapes|scaleTo:0.06;shapeType:rect;intervalGap:1" object="line-up2" positionStart="0.4:0.27" positionRelativeTo="scene" startTime="9" endTime="10" />
+
+  <animation id="appear_l_5" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.52:0.28" startTime="11" endTime="12" description=" appearing order: 3" />
+  <animation id="r_0_0_l_5" type="basicRotate|angle:200" object="l_5" startTime="11" endTime="11" description=" appearing order: 3" />
+  <animation id="appear_l_6" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.75:0.21" startTime="12" endTime="13" description=" appearing order: 4" />
+
+
+  <animation id="disappear-all" type="disappearFade|ease:easeInExpo;cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,line-up,line-up2" startTime="30" endTime="31" description="" />
+
+
+</igml>

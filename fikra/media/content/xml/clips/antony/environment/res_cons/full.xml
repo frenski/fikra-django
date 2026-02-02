@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="fileinclude" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff" title="">
+
+<object id="sound_file" type="sound" src="audio/vo/environment/res_cons_water_pol.mp3" action="link:" />
+<include id="scene2"  src="xml/clips/antony/environment/res_cons/scenes/tshirt.xml" startTime="0" duration="1.33" /> 
+<include id="scene3"  src="xml/clips/antony/environment/res_cons/scenes/linear_system.xml" startTime="23" duration="1" /> 
+<include id="scene4"  src="xml/clips/antony/environment/res_cons/scenes/planet2.xml" startTime="34.5" duration="1" /> 
+<include id="scene5"  src="xml/clips/antony/environment/res_cons/scenes/planet.xml" startTime="35" duration="1" /> 
+<include id="scene6"  src="xml/clips/antony/environment/res_cons/scenes/middleclass.xml" startTime="51" duration="1" /> 
+<include id="scene7"  src="xml/clips/antony/environment/res_cons/scenes/area_chart.xml" startTime="68" duration="1" /> 
+<include id="scene8"  src="xml/clips/antony/environment/res_cons/scenes/planetcough.xml" startTime="74" duration="0.8" /> 
+<include id="scene9"  src="xml/clips/antony/environment/res_cons/scenes/tonsofjunk.xml" startTime="83" duration="1" /> 
+<include id="scene10"  src="xml/clips/antony/environment/res_cons/scenes/market.xml" startTime="106" duration="2" /> 
+<include id="scene11"  src="xml/clips/antony/environment/res_cons/scenes/worth.xml" startTime="125" duration="1" /> 
+<include id="scene12"  src="xml/clips/antony/environment/res_cons/scenes/water_junk.xml" startTime="138" duration="1" /> 
+<include id="scene13"  src="xml/clips/antony/environment/res_cons/scenes/batteryshirt.xml" startTime="148" duration="1.4" /> 
+<include id="scene14"  src="xml/clips/antony/environment/res_cons/scenes/jarwheel.xml" startTime="163" duration="2" /> 
+<include id="scene15"  src="xml/clips/antony/environment/res_cons/scenes/checklist.xml" startTime="192" duration="1.4" /> 
+<include id="scene16"  src="xml/clips/antony/environment/res_cons/scenes/awareofnature.xml" startTime="203" duration="1.0" /> 
+<include id="scene17"  src="xml/clips/antony/environment/res_cons/scenes/presentation1.xml" startTime="211" duration="0.8" /> 
+<include id="scene18"  src="xml/clips/antony/environment/res_cons/scenes/presentation2.xml" startTime="221" duration="0.9" /> 
+<include id="scene19"  src="xml/clips/antony/environment/res_cons/scenes/recycle.xml" startTime="226" duration="1.0" /> 
+<include id="scene20"  src="xml/clips/antony/environment/res_cons/scenes/localstore.xml" startTime="235" duration="1" /> 
+<include id="scene21"  src="xml/clips/antony/environment/res_cons/scenes/foodplan.xml" startTime="243" duration="0.9" /> 
+<include id="scene22"  src="xml/clips/antony/environment/res_cons/scenes/bike_monitor.xml" startTime="259" duration="2.5" /> 
+<include id="scene23"  src="xml/clips/antony/environment/res_cons/scenes/bottle_plant.xml" startTime="287" duration="2" /> 
+<include id="scene24"  src="xml/clips/antony/environment/res_cons/interactions/healthyfood.xml" startTime="312" duration="1" /> 
+
+<animation id="play-sound" type="playSound|loop:false" object="sound_file" startTime="0" endTime="320" />
+</igml>

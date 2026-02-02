@@ -1,0 +1,15 @@
+
+audio/vo/design_course/composition/comp.mp3
+1.5:250
+xml/clips/design_course/composition/
+
+titlecomp:0-1,dotted_comp:8.5-1,comp_create:8.5-1,comp_lines:10.5-1,leson1:23-1,hierarch_circles:26-1,text_weight:35-1,compare_erah:42.5-0.9,leson2:53-1,puffin:57-1,twit:65-1,leson3:72-1,text_kern:76-1,leson4:82.5-1,circles:86.5-1,leson5:107-1,fractals:110-1,goldenrat_exp:116-1,logos:125-0.8,golden:131-0.5,leson6:140.5-1,eyesight:144.5-1,leson7:157-1,symetry:162-1,spots:175-1,weights:185-1,leson8:190-1,comp:194-1,designer:201-1,arrange_trees:232-1,golden_int:264-1,weightfind:273-1,whitespace:283-1
+
+
+audio:audio/vo/design_course/composition/comp.mp3
+
+start:1.5:250
+
+xml/clips/design_course/composition/
+
+titlecomp:0-1,dotted_comp:8.5-1,comp_create:8.5-1,comp_lines:10.5-1,leson1:23-1,hierarch_circles:26-1,text_weight:35-1,compare_erah:42.5-0.9,leson2:53-1,puffin:57-1,twit:65-1,leson3:72-1,text_kern:76-1,leson4:82.5-1,circles:86.5-1,leson5:107-1,fractals:110-1,goldenrat_exp:116-1,logos:125-0.8,golden:131-0.5,leson6:140.5-1,eyesight:144.5-1,leson7:157-1,symetry:162-1,spots:175-1,weights:185-1,leson8:190-1,comp:194-1,designer:201-1,arrange_trees:232-1,golden_int:264-1,weightfind:273-1,whitespace:283-1

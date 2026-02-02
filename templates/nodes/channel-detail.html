@@ -1,0 +1,70 @@
+{% extends "games/channel-base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+
+{% block channel_main %}
+
+	<div class="channel-cover" style="background-image:url('{{ media_url }}{{ channel.cover_picture}}')">
+		<h3 class="channel-titletag"><span>{% trans "Interactive Courses" %}</span></h3>
+		<h2 class="channel-title">{{ channel.title}}</h2>
+		<h4 class="channel-subtitle">{{ channel.subtitle}}</h4>
+		<!-- <h4 class="channel-byowner">{% trans "by" %}</h4>
+		<div class="channel-owner">
+			<span class="metadata-extra-avatar metadata-extra-avatar-channel" style="background-image:url('{{ media_url }}{{ channel.owner.picture }}')"></span><br>
+			{{channel.owner.name}}
+		</div> -->
+	</div>
+
+	<div class="main clearfix">
+
+		<div class="channel-intro nodes-container clearfix">
+
+			<div class="channel-info clearfix">
+				<div class="channel-info-left">
+					<div class="channel-subsection channel-owner clearfix">
+						<h3 class="channel-subsection-title">{% trans "Creator" %}</h3>
+						<span title="{{channel.owner.name}}" class="metadata-extra-avatar metadata-extra-avatar-channel" style="background-image:url('{{ media_url }}{{ channel.owner.picture }}')"></span>
+					</div>
+					<div class="channel-subsection channel-contributors clearfix">
+						<h3 class="channel-subsection-title">{% trans "Contributors" %}</h3>
+						{% for contributor in contributors %}
+						<span title="{{contributor.name}}" class="metadata-extra-avatar metadata-extra-avatar-channel" style="background-image:url('{{ media_url }}{{ contributor.picture }}')"></span>
+						{% endfor %}
+					</div>
+				</div>
+
+				<div class="channel-info-right">
+					<div class="channel-subsection channel-about">
+						<h3 class="channel-subsection-title">{% trans "About" %}</h3>
+						{% autoescape off %}
+						<div class="paragraph-light">
+							{{channel.description|safe}}
+						</div>
+						{% endautoescape %}
+					</div>
+					<div class="channel-subsection channel-tags">
+						<h3 class="channel-subsection-title">{% trans "Tags" %}</h3>
+						{% for tag in tags %}
+						<span title="{{tag.word}}" class="channel-tag">{{tag.word}}</span>
+						{% endfor %}
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="channel-nodes nodes-container">
+			{% include "nodes/channel-snippet-subchannels.html" %}
+			{% include "nodes/channel-snippet-nodes.html" %}
+			<div class="clear"></div>
+		</div>
+
+
+    </div> <!-- #main -->
+
+	{% endblock %}

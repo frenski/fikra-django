@@ -1,0 +1,472 @@
+#logo {
+  width: auto;
+}
+
+#logo-vizipedia, .channel-logos-divider, #logo-channel {
+  display: block;
+  float: left;
+}
+
+#logo-vizipedia img, #logo-channel img {
+  max-width: 140px;
+  max-height: 50px;
+}
+
+.channel-logos-divider {
+  margin: 0 15px;
+  width: 1px;
+  background-color: #bbb;
+  height: 50px;
+}
+
+.channel-cover {
+  padding: 4em 2em 10em 2em;
+	background-size: 100% auto;
+	background-blend-mode: multiply;
+  background-color: #999;
+	text-align: left;
+}
+
+.channel-info {
+	box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.15);
+}
+
+.channel-title {
+	margin: 0.25em 0 1em 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	color: white;
+}
+
+.channel-titletag {
+	margin: 1em 0 1em 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.6em;
+	text-transform: uppercase;
+	color: white;
+}
+
+.channel-titletag span {
+	padding: 10px;
+	background-color: #915AFF;
+	border-radius: 10px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.channel-titletag span:hover {
+	background-color: #1A1A1A;
+  transition: all 0.3s ease;
+}
+
+.channel-titletag a {
+  text-decoration: none;
+}
+
+.channel-subtitle {
+	margin: 1em 0 0 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.8em;
+	color: white;
+}
+
+.channel-byowner {
+	margin: 0.2em 0 0.2em 0;
+	padding: 0;
+	font-size: 0.9em;
+	color: white;
+}
+
+.channel-sub-cover, .channel-sub-heading {
+  padding: 2% 5%;
+}
+
+.channel-sub-cover .channel-titletag {
+  margin: 0;
+}
+
+.channel-sub-heading {
+  background-color: black;
+  color: white;
+}
+
+.channel-sub-cover .channel-subtitle {
+  margin: -15px 0 0 95px;
+}
+
+.metadata-extra-avatar-channel {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 5px;
+}
+
+
+.channel-owner {
+	font-family: 'Quicksand', sans-serif;
+	color: white !important;
+}
+
+.channel-courses-title {
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+}
+
+.channel-section-title {
+	color: #999999;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.1em;
+}
+
+.channel-subsection-title {
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.channel-subsection-text {
+	color: #757575;
+	font-size: 0.9em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.channel-tag {
+	font-size: 0.9em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	color: #666666;
+	display: inline-block;
+	padding: 9px 14px;
+	border: 1px solid #B3B3B3;
+	border-radius: 20px;
+}
+
+.channel-nodes {
+	margin-top: 0;
+}
+
+.channel-intro {
+	margin-bottom: 0;
+}
+
+.channel-info {
+	width: calc(100% - 40px);
+	margin: -3em auto 0 auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.channel-info-left {
+	width: 30%;
+	margin-right: 10%;
+	float:left;
+}
+
+.channel-info-right {
+	width: 60%;
+	float:left;
+}
+
+.nodes-container {
+		margin: 0 auto 2em auto;
+}
+
+.node {
+  width: 95%;
+  background: white;
+  border-radius: 15px;
+  position: relative;
+}
+
+.node-image-container, .controlbar {
+  float: left;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.node-image {
+  padding-top: calc(100% - 20px);
+}
+
+.node-image-container {
+  overflow: visible;
+}
+
+.playstopbutton-container {
+  width: 50px;
+  top: calc(50% - 25px);
+  right: -35px;
+  z-index: 10;
+  display: block !important;
+}
+
+.playstopbutton-back {
+  top: 24px;
+  left: -15px;
+  transform: rotate(-90deg);
+}
+
+.metadata {
+  padding-left: 30px;
+}
+
+.metadata-engine-type {
+  position: inherit;
+  margin-bottom: 0;
+  color: #2F2F59;
+}
+
+.metadata-title {
+  margin-top: 10px;
+}
+
+.metadata-extra {
+  color: #9797AC;
+}
+
+.metadata-description {
+  color: #97A1AF;
+}
+
+.node-locked {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(247,247,249,0.8);
+  border-radius: 15px;
+  z-index: 100;
+}
+
+.node-locked-icon {
+  color: white;
+  padding: 24px;
+  text-align: center;
+  background-color: #915AFF;
+  font-size: 40px;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: calc(50% - 40px);
+  left: 20%;
+}
+
+.node-lock-conditions {
+  position: absolute;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  padding: 20px;
+  left: 0;
+  top: 0;
+  z-index: 101;
+  background: white;
+  overflow-x: scroll;
+  border-radius: 15px;
+  cursor: default;
+  display: none;
+}
+
+.node-lock-conditions-close {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #915AFF;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* Footer style */
+
+#channel-footer {
+  background-color: black;
+  padding: 30px 5%;
+}
+
+#channel-footer-content {
+  color: white;
+}
+
+.node.subchannel {
+  float: none;
+  width: 100%;
+}
+
+.node.subchannel .metadata-title {
+  font-size: 2.2em;
+  max-height: none;
+  height: auto;
+}
+
+.node.subchannel .metadata-description {
+  max-height: none;
+  font-size: 1.2em;
+}
+
+/* Common form styles */
+
+input {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.2em;
+}
+
+input[type="text"] {
+  background: white;
+  border: 1px solid #555;
+}
+
+input[type="submit"] {
+  background: #9B5CFE;
+  color: white;
+}
+
+@media only screen and (min-width: 480px) {
+  #logo {
+    width: auto;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  #logo {
+    width: auto;
+  }
+
+	.channel-title {
+		margin: 0.35em 0 0 0;
+		padding: 0;
+		font-size: 2.1em;
+		text-transform: uppercase;
+		color: white;
+	}
+
+	.channel-titletag {
+		margin: 3em 0 0 0;
+		padding: 0;
+		font-size: 0.75em;
+		text-transform: uppercase;
+		color: white;
+	}
+
+	.channel-subtitle {
+		margin: 1em 0 4em 0;
+		padding: 0;
+		font-size: 0.9em;
+		color: white;
+	}
+
+	.channel-info {
+		width: calc(80% - 40px);
+	}
+
+}
+
+@media only screen and (min-width: 840px) {
+
+    .node {
+      width: 47%;
+      margin: 1em 3% 1em 0;
+      float: left;
+    }
+
+    .metadata-description {
+      margin: 10px 0;
+      font-size: 0.8em;
+      max-height: calc(4vw - 20px);
+      overflow: scroll;
+    }
+
+    .metadata-title {
+      font-size: 0.8em;
+    }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  #logo {
+    width: auto;
+  }
+
+	.channel-title {
+		margin: 0.5em auto 0 auto;
+		padding: 0;
+		font-size: 2.4em;
+		text-transform: uppercase;
+		color: white;
+		width: 60%;
+	}
+
+	.channel-titletag {
+		margin: 4em auto 0 auto;
+		padding: 0;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		color: white;
+		width: 60%;
+	}
+
+	.channel-subtitle {
+		margin: 1em auto 4em auto;
+		padding: 0;
+		font-size: 0.9em;
+		color: white;
+		width: 60%;
+	}
+
+	.channel-info {
+		width: calc(60% - 40px);
+		margin: -3em auto 0 auto;
+		padding: 20px;
+		background-color: white;
+		border-radius: 20px;
+	}
+
+  .metadata-description {
+    font-size: 0.9em;
+    max-height: calc(7vw - 20px);
+  }
+
+  .metadata-title {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 1360px) {
+
+  .metadata-title {
+    font-size: 1.1em;
+    max-height: calc(9vw - 20px);
+  }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+  #logo {
+    width: auto;
+  }
+
+  .metadata-title {
+    font-size: 1.1em;
+    max-height: calc(9vw - 20px);
+  }
+
+}

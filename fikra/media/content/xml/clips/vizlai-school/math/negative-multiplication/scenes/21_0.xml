@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+
+  <object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg5.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/design-components/shapes/arc-thin.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/technology/devices/phone-cartoon-stick.svg" editable="true" description=""  />
+<object id="l_3" type="text" text="Брахмагупта" size="18" align="center" color="#6C6C6C" font="MontBlanc-Regular" weight="700" />
+<object id="l_4" type="text" text="7-ми век след Христа" size="16" align="center" color="#37B9F3" font="MontBlanc-Regular" weight="400" />
+<object id="l_5" type="text" text="Дълг, изваден от нула е богатство" size="36" align = "center" color="#231F20" width="400" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.3" />
+<object id="l_6" type="image" src="graphics/characters/real-people/raster/brahmagupta-avatar.png" editable="true" description=""  />
+<object id="l_8" type="shape" shapetype="rect" size="1,1" color="#FFFFFF" strokeWidth="0" editable="true" description=""  />
+
+
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.5:1.5" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:1.003;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.500:0.838" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.483;opacity:1;anchorPoint:0.52,0.9" object="l_2" positionStart="1.26:0.86" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="r_0_0_l_2" type="basicRotate|angle:15" object="l_2" startTime="0" endTime="0" description=" rotate order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.170;opacity:0;anchorPoint:0,0.5" object="l_3" positionStart="0.381:0.115" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.20;opacity:0;anchorPoint:0,0.5" object="l_4" positionStart="0.383:0.148" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0.198;opacity:0;anchorPoint:0.5,0.5" object="l_5" positionStart="0.444:0.340" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0.064;opacity:0;anchorPoint:0.5,0.5" object="l_6" positionStart="0.324:0.130" startTime="0" endTime="0" description=" appearing order: 6" />
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.5" startTime="0" endTime="1" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_1"  startTime="1" endTime="2" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_2" positionEnd="0.507:0.81" startTime="1.8" endTime="3" description="" />
+<animation id="r_0_1_l_2" type="basicRotate|angle:0;ease:easeOutExpo;" object="l_2" startTime="1.8" endTime="3" description="" />
+<animation id="m_0_1_l_2" type="basicMove|axis:xy;ease:easeInExpo;" object="l_2" positionEnd="-0.24:0.86" startTime="7" endTime="8" description="" />
+<animation id="r_0_2_l_2" type="basicRotate|angle:-15;ease:easeInExpo;" object="l_2" startTime="7" endTime="8" description="" />
+
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_3"  startTime="2.5" endTime="3.0" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_4"  startTime="2.5" endTime="3.0" description="" />
+<animation id="o_0_0_l_5" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_5"  startTime="2.5" endTime="3.0" description="" />
+<animation id="o_0_0_l_6" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_6"  startTime="2.5" endTime="3.0" description="" />
+
+<animation id="o_0_0_l_3" type="disappearFade|opacity:0;ease:easeOutExpo;" object="l_3"  startTime="6.9" endTime="7.3" description="" />
+<animation id="o_0_0_l_4" type="disappearFade|opacity:0;ease:easeOutExpo;" object="l_4"  startTime="6.9" endTime="7.3" description="" />
+<animation id="o_0_0_l_5" type="disappearFade|opacity:0;ease:easeOutExpo;" object="l_5"  startTime="6.9" endTime="7.3" description="" />
+<animation id="o_0_0_l_6" type="disappearFade|opacity:0;ease:easeOutExpo;" object="l_6"  startTime="6.9" endTime="7.3" description="" />
+
+<animation id="m_0_0_l_7" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_7" positionEnd="0.673:0.363" startTime="2.05" endTime="3.05" description="" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_2,l_3,l_4,l_5,l_6,l_8" positionRelativeTo="scene" startTime="8" endTime="8" />
+<animation id="disppear-scene2" type="disappearFade|cover:self" object="l_0,l_1" positionRelativeTo="scene" startTime="20" endTime="20" />
+
+
+
+</igml>

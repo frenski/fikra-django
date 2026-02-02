@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#7d18d7" strokeWidth="0" action="link" editable="true"/>
+
+<object id="bg_1" type="image" src="graphics/design/forms/lines/bg.svg" action="link" editable="true" />
+
+<object id="line1_2" type="image" src="graphics/design/forms/lines/line1.svg" action="link" editable="true" />
+
+<object id="line2_3" type="image" src="graphics/design/forms/lines/line2.svg" action="link" editable="true" />
+
+<object id="line3_4" type="image" src="graphics/design/forms/lines/line3.svg" action="link" editable="true" />
+
+<object id="line4_5" type="image" src="graphics/design/forms/lines/line4.svg" action="link" editable="true" />
+
+<object id="line5_6" type="image" src="graphics/design/forms/lines/line5.svg" action="link" editable="true" />
+
+<object id="line6_7" type="image" src="graphics/design/forms/lines/line6.svg" action="link" editable="true" />
+
+<object id="line7_8" type="image" src="graphics/design/forms/lines/line7.svg" action="link" editable="true" />
+
+<object id="line8_9" type="image" src="graphics/design/forms/lines/line8.svg" action="link" editable="true" />
+
+
+<!--
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bg_1" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_1" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+-->
+
+<animation id="appear_line1_2" type="appearFade|scaleTo:0.01,1.2;opacity:1;anchorPoint:0.5,0.5" object="line1_2" positionStart="0.493:0.27" positionRelativeTo="scene" startTime="1" endTime="2" />
+
+<animation id="appear_line2_3" type="appearFade|scaleTo:0.002,1.2;opacity:1;anchorPoint:0.5,0.5" object="line2_3" positionStart="0.496:0.34" positionRelativeTo="scene" startTime="1.4" endTime="2.4" />
+
+<animation id="appear_line3_4" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="line3_4" positionStart="0.3:0.3" positionRelativeTo="scene" startTime="1.8" endTime="2.8" />
+
+<animation id="appear_line4_5" type="appearFade|scaleTo:0.00165;opacity:1;anchorPoint:0.5,0.5" object="line4_5" positionStart="0.5:0.4" positionRelativeTo="scene" startTime="2.2" endTime="3.2" />
+
+<animation id="appear_line5_6" type="appearFade|scaleTo:0.0039;opacity:1;anchorPoint:0.5,0.5" object="line5_6" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="2.4" endTime="3.4" />
+
+<animation id="appear_line6_7" type="appearFade|scaleTo:0.0123;opacity:1;anchorPoint:0.5,0.5" object="line6_7" positionStart="0.49:0.613" positionRelativeTo="scene" startTime="2.6" endTime="3.6" />
+
+<animation id="appear_line7_8" type="appearFade|scaleTo:0.061;opacity:1;anchorPoint:0.5,0.5" object="line7_8" positionStart="0.489:0.745" positionRelativeTo="scene" startTime="2.8" endTime="3.8" />
+
+<animation id="appear_line8_9" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="line8_9" positionStart="0.498:0.898" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+
+
+
+
+
+
+<animation id="key_5_line1_20" type="basicRotate|angle:90.000;revertAnchor:false;" object="line1_2"  startTime="1.00" endTime="1.00" />
+
+<animation id="key_0_line2_30" type="basicRotate|angle:90.000;revertAnchor:false;" object="line2_3"  startTime="1.40" endTime="1.40" />
+
+<animation id="key_8_line3_40" type="basicRotate|angle:90.000;revertAnchor:false;" object="line3_4"  startTime="1.80" endTime="1.80" />
+
+<animation id="key_1_line4_50" type="basicRotate|angle:90.000;revertAnchor:false;" object="line4_5"  startTime="2.20" endTime="2.20" />
+
+<animation id="key_0_line5_60" type="basicRotate|angle:90.000;revertAnchor:false;" object="line5_6"  startTime="2.40" endTime="2.40" />
+
+<animation id="key_0_line6_70" type="basicRotate|angle:90.000;revertAnchor:false;" object="line6_7"  startTime="2.60" endTime="2.60" />
+
+<animation id="key_8_line7_80" type="basicRotate|angle:90.000;revertAnchor:false;" object="line7_8"  startTime="2.80" endTime="2.80" />
+
+<animation id="key_8_line8_90" type="basicRotate|angle:90.000;revertAnchor:false;" object="line8_9"  startTime="3.00" endTime="3.00" />
+
+
+
+<animation id="disppear-compcover" type="disappearFade" object="line8_9,line7_8,line6_7,line5_6,line4_5,line3_4,line2_3,line1_2,bg_1,bg_0" positionRelativeTo="scene" startTime="11" endTime="11" />
+
+ </igml>

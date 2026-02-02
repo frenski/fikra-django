@@ -1,0 +1,284 @@
+{% extends "nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% block title %} {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/home.css" %}">
+{% endblock %}
+
+{% block extra_header %}
+	{% if landing_page %}
+	{% endif %}
+{% endblock %}
+
+{% block article_main %}
+
+
+<section class="relative min-h-screen overflow-hidden bg-convrt-purple animate-reveal">
+	<div class="absolute inset-0">
+		<img src="{% static "img/background-wave.png" %}" alt="" class="w-full h-full object-cover">
+	</div>
+	<div class="absolute inset-0 opacity-10">
+		<div class="absolute top-20 left-10 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
+		<div class="absolute bottom-20 right-10 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+	</div>
+	<div class="container max-w-7xl mx-auto px-6 relative z-10 pt-32 pb-20">
+		<div class="grid lg:grid-cols-2 gap-12 items-center">
+			<div class="text-left" style="opacity: 1;">
+				<h1 class="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight" style="opacity: 1; transform: none;">{% trans "Vizipedia in classroom" %}</h1>
+				<p class="text-xl text-white/90 mb-8 leading-relaxed" style="opacity: 1; transform: none;">{% trans "Boost cognitive skills development and nurture the skills of the future with AI-powered game-based and project-based learning." %}</p>
+				<div style="opacity: 1; transform: none;">
+					<a href="{% url 'clients_signup' %}" class="inline-flex items-center gap-2 px-8 py-4 bg-white text-convrt-purple rounded-full font-semibold hover:bg-white/90 transition-all duration-300 shadow-lg hover:shadow-xl">{% trans "Try it now" %}<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+				</div>
+				<div class="grid grid-cols-3 gap-8 mt-12 pt-8" style="opacity: 1; transform: none;"><div>
+					<div class="text-4xl lg:text-5xl font-bold text-white mb-2">{% trans "1000+" %}</div>
+					<div class="text-white/80 text-lg">{% trans "Learning Games Created" %}</div>
+				</div>
+				<div>
+					<div class="text-4xl lg:text-5xl font-bold text-white mb-2">{% trans "95%" %}</div>
+					<div class="text-white/80 text-lg">{% trans "Satisfaction" %}</div>
+				</div>
+				<div>
+					<div class="text-4xl lg:text-5xl font-bold text-white mb-2">5</div>
+					<div class="text-white/80 text-lg">{% trans "Users from five continents" %}</div>
+				</div>
+			</div>
+		</div>
+		{% if featured_node %}
+		<div class="relative" style="opacity: 1; transform: none; margin-top: 40px; margin-bottom: 40px;">
+			<a href="{% url 'nodes_detail' slug=featured_node.node.slug %}" target="_blank">
+			<div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
+				<div class="absolute top-6 left-6 z-10 px-4 py-2 bg-convrt-dark-blue text-white rounded-full text-sm font-semibold">{{featured_node.title}}</div>
+				<div class="relative aspect-square bg-gradient-to-br from-teal-500 to-teal-600">
+					<video width="100%" loop="true" autoplay="autoplay" muted>
+						<source src="{{ media_url }}{{ featured_node.node.thumbnail_video}}" type="video/mp4" />
+					</video>
+					<div class="absolute bottom-4 right-4 w-14 h-14 bg-convrt-dark-blue rounded-full flex items-center justify-center shadow-lg">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad2 w-7 h-7 text-white"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg>
+					</div>
+				</div>
+				<div class="p-6">
+					<p class="text-sm text-gray-600 mb-2">
+						{% for key, item in engine_choices.items %}
+							{% if key == featured_node.node.engine %}
+									{{ item }}
+							{% endif %}
+						{% endfor %}
+					</p>
+					<h3 class="text-xl font-bold text-gray-900 mb-4">{{featured_node.node.title}}</h3><div class="flex items-center gap-3">
+						<div class="w-8 h-8 bg-convrt-purple/20 rounded-full flex items-center justify-center">
+							<div class="home-header-featured-avatar" style="background-image:url('{{ media_url }}{{ featured_node.node.owner.picture }}')"></div>
+						</div>
+						<span class="text-sm text-gray-600">{{featured_node.node.owner.name}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="absolute -top-4 -right-4 w-20 h-20 bg-white/20 rounded-full blur-xl animate-floating"></div>
+			<div class="absolute -bottom-6 -left-6 w-32 h-32 bg-white/10 rounded-full blur-2xl animate-floating" style="animation-delay: 1s;">
+			</div>
+		</div>
+		</a>
+	</div>
+	{% endif %}
+
+</div>
+</section>
+
+<section class="py-20 relative overflow-hidden animate-reveal" style="background-color: rgb(18, 24, 38);">
+	<div class="container max-w-7xl mx-auto px-6 relative z-10">
+		<h2 class="text-4xl font-bold text-white text-center mb-16 lg:text-3xl" style="opacity: 1; transform: none;">{% trans "Why Vizipedia in your classroom?" %}</h2>
+		<div class="grid lg:grid-cols-3 gap-12 items-start">
+			<div class="text-center" style="opacity: 1; transform: none;">{% trans "NO ART SKILLSNO CODE" %}
+				<div class="mb-8 flex justify-center">
+					<img src="{% static "img/icons/student-icon1.png" %}" alt="Feature 1" class="w-64 h-64 object-contain">
+				</div>
+				<h3 class="text-xl lg:text-2xl font-semibold text-white leading-relaxed whitespace-pre-line">{% trans "Learn like you play, play while you learn." %}</h3>
+		</div>
+		<div class="text-center" style="opacity: 1; transform: none;">
+			<div class="mb-8 flex justify-center">
+				<img src="{% static "img/icons/student-icon2.png" %}" alt="Feature 2" class="w-64 h-64 object-contain">
+			</div>
+			<h3 class="text-xl lg:text-2xl font-semibold text-white leading-relaxed whitespace-pre-line">{% trans "Turn homework or lesson into play - learn the fun way!" %}</h3>
+		</div>
+		<div class="text-center" style="opacity: 1; transform: none;">
+			<div class="mb-8 flex justify-center">
+				<img src="{% static "img/icons/student-icon3.png" %}" alt="Feature 3" class="w-64 h-64 object-contain"></div>
+				<h3 class="text-xl lg:text-2xl font-semibold text-white leading-relaxed whitespace-pre-line">{% trans "Transform your lesson into an adventure!" %}</h3>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="py-20 bg-gray-900 animate-reveal" id="product">
+	<div class="container-section">
+		<div class="text-center mb-16" style="opacity: 1; transform: none;">
+			<h2 class="heading-lg text-white mb-4">{% trans "Popular serious games created with Vizipedia" %}</h2>
+			<p class="body-xl text-white/70 max-w-3xl mx-auto">{% trans "See how educational institutions around the globe are transforming education with AI-powered game-based and project-based learning" %}</p></div>
+			<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+				{% for node in nodes %}
+
+				<a class="node-link" href="{% url 'nodes_detail' slug=node.slug %}">
+				<div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-convrt-purple/40 hover:-translate-y-2 min-h-[300px]" id="{{node.slug}}">
+
+				  <div class="node-image-container">
+				    <div class="node-image" style="background-image:url('{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}')" data-thumbnails="{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail2 %}{{ media_url }}{{ node.thumbnail2}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail3 %}{{ media_url }}{{ node.thumbnail3}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail4 %}{{ media_url }}{{ node.thumbnail4}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}">
+				    </div>
+				    {% if node.created_at > max_day_new %}
+				      <div class="node-new-tag">
+				        {% trans 'New' %}
+				      </div>
+				    {% endif %}
+				  </div>
+
+				  <div class="controlbar">
+
+				    {% translated_node_title node as langtitle %}
+				    <div class="metadata">
+				      <h2 class="metadata-title">{{ langtitle|truncatewords:9 }}</h2>
+				      <div class="metadata-extra">
+				        <div class="metadata-extra-user clearfix">
+				          <div class="metadata-extra-avatar" style="background-image:url('{{ media_url }}{{ node.owner.picture }}')"></div>
+				          <div class="metadata-extra-username">{{node.owner.name}}</div>
+				        </div>
+				        <div class="action-buttons">
+				          <ul class="action-buttons-items">
+				            <li class="action-buttons-first"><i class="fas fa-eye"></i> {{node.views}}</li>
+				            <li><i class="fas fa-heart"></i> {{node.likes}}</li>
+				            <!-- <li><i class="fas fa-share-alt"></i> {{node.shares}}</li> -->
+				          </ul>
+				        </div>
+				        <!-- <div class="metadata-extra-date">{{node.created_at|naturaltime}}</div> -->
+				      </div>
+				    </div>
+
+				  </div>
+				  </div>
+				</a>
+
+				{% endfor %}
+
+			</div>
+			<div class="text-center mt-12" style="opacity: 1; transform: none;">
+				<a href="{% url 'library' %}" class="button-outline inline-flex items-center group">{% trans "See Our Public Library" %}
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform group-hover:translate-x-1">
+						<path d="M5 12h14"></path>
+						<path d="m12 5 7 7-7 7"></path>
+					</svg>
+				</a>
+			</div>
+		</div>
+</section>
+
+
+<section class="py-20 relative overflow-hidden bg-white animate-reveal">
+	<div class="absolute top-10 right-20 w-32 h-32 bg-gradient-to-br from-purple-600 to-purple-800 transform rotate-45 rounded-lg animate-floating opacity-80" style="animation-delay: 1s;"></div>
+	<div class="absolute bottom-32 left-10 w-32 h-32 bg-gradient-to-br from-teal-500 to-teal-700 rounded-full animate-floating opacity-80" style="animation-delay: 2s;"></div>
+	<div class="container max-w-7xl mx-auto px-6 relative z-10">
+		<div class="space-y-0">
+			<div class="bg-white py-16 lg:py-24" style="opacity: 1; transform: none;">
+				<div class="container max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ">
+					<div class="bg-gray-200/50 rounded-2xl h-64 lg:h-96 flex items-center justify-center overflow-hidden">
+						<div class="text-gray-400 text-center p-8">
+							<img src="{% static "img/screenshot-vizipedia-studio.jpg" %}">
+						</div>
+					</div>
+					<div class="text-gray-900">
+						<div class="mb-3">
+							<span class="text-purple-600 text-xl font-bold">I.</span>
+						</div>
+						<h3 class="text-4xl lg:text-5xl font-bold mb-8 leading-tight tracking-tight">{% trans "Fast creation of learning games through AI: no coding and no art skills required" %}</h3>
+						<p class="text-gray-600 mb-8 text-lg font-medium">{% trans "This are the testimonials of our first testing" %}</p>
+						<div class="space-y-5">
+							<div class="flex gap-4">
+								<span class="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm">1</span>
+								<p class="text-gray-700 leading-relaxed text-lg pt-0.5">{% trans "Choose one of the game engines available on the platform." %}</p>
+							</div>
+							<div class="flex gap-4">
+								<span class="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm">2</span>
+								<p class="text-gray-700 leading-relaxed text-lg pt-0.5">{% trans "Put your prompt and the AI wizard will create the graphics, the storyline and integrate the learning elements." %}</p>
+							</div>
+							<div class="flex gap-4">
+								<span class="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm">3</span>
+								<p class="text-gray-700 leading-relaxed text-lg pt-0.5">{% trans "Edit everything and enhance the content with the support of our AI tools. Publish it and let everyone have fun and learn." %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bg-gray-100 py-16 lg:py-24" style="opacity: 1; transform: none;">
+				<div class="container max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center lg:flex-row-reverse">
+					<div class="text-gray-900">
+						<div class="mb-3">
+							<span class="text-purple-600 text-xl font-bold">II.</span>
+						</div>
+						<h3 class="text-4xl lg:text-5xl font-bold mb-8 leading-tight tracking-tight">{% trans "Learn through educational games from everywhere" %}</h3>
+						<p class="text-gray-700 leading-relaxed whitespace-pre-line text-lg">{% trans "Publish your educational games to the Vizipedia library and share it with whoever you want ... or embed it directly into your learning management system. From an iFrame, to a SCORM package, everything is possible." %}</p>
+					</div>
+					<div class="bg-gray-200/50 rounded-2xl h-64 lg:h-96 flex items-center justify-center overflow-hidden">
+						<div class="text-gray-400 text-center p-8">
+							<img src="{% static "img/screenshot-vizipedia-games.jpg" %}">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bg-white py-16 lg:py-24" style="opacity: 1; transform: none;">
+				<div class="container max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ">
+					<div class="bg-gray-200/50 rounded-2xl h-64 lg:h-96 flex items-center justify-center overflow-hidden">
+						<div class="text-gray-400 text-center p-8">
+							<img src="{% static "img/screenshot-vizipedia-stats.png" %}">
+						</div>
+					</div>
+					<div class="text-gray-900">
+						<div class="mb-3">
+							<span class="text-purple-600 text-xl font-bold">III.</span>
+						</div>
+						<h3 class="text-4xl lg:text-5xl font-bold mb-8 leading-tight tracking-tight">{% trans "Follow your learning journey or that of your students" %}</h3>
+						<p class="text-gray-700 leading-relaxed whitespace-pre-line text-lg">{% trans "Our system offers full LMS capabilities - from user and course management to analytics tools that allow you to follow the learning progress of each user and identify knowledge gaps." %}
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-20 bg-gradient-to-br from-teal-400 via-teal-500 to-teal-600 relative overflow-hidden animate-reveal">
+		<div class="container-section relative z-10">
+			<div class="grid lg:grid-cols-2 gap-12 items-center">
+				<div class="relative" style="opacity: 1; transform: none;">
+					<div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+						<img src="{% static "img/why-vizipedia2.png" %}" alt="Vizipedia platform visualization" class="w-full h-auto rounded-lg">
+						<div class="absolute -top-4 -right-4 w-6 h-6 bg-white/30 rounded-full animate-floating"></div>
+						<div class="absolute -bottom-3 -left-3 w-4 h-4 bg-white/20 rounded-full animate-floating" style="animation-delay: 1s;"></div>
+					</div>
+				</div>
+				<div class="text-left" style="opacity: 1; transform: none;">
+					<div class="inline-flex items-center px-4 py-2 rounded-full bg-white/20 text-white mb-8">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 mr-2">
+							<path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+							<path d="M20 3v4"></path>
+							<path d="M22 5h-4"></path>
+							<path d="M4 17v2"></path>
+							<path d="M5 18H3"></path>
+						</svg>
+						<span class="text-sm font-medium">{% trans "Ready to Transform Education?<" %}/span>
+					</div>
+					<h2 class="heading-hero text-upper text-white mb-6 leading-tight">{% trans "Together We Bring Education to the Era of AI" %}</h2>
+					<p class="text-xl text-white/90 mb-10 leading-relaxed font-inter">{% trans "Join educators and students from 5 contitents who have transformed their learning and teaching process, making it more effiecient and ready for the AI-era." %}</p>
+					<div class="flex flex-col sm:flex-row justify-start items-start gap-4">
+						<a href="{% url 'clients_signup' %}" target="_blank" rel="noopener noreferrer" class="bg-white text-teal-600 font-semibold py-4 px-8 rounded-full transition-all hover:bg-white/90 hover:shadow-xl hover:shadow-white/20 hover:scale-[1.02] active:scale-[0.98] flex items-center group text-lg" style="opacity: 1; transform: none;">{% trans "Join Today" %}
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-5 h-5 transition-transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+						</a>
+						<a href="#how-it-works" class="border-2 border-white/30 text-white font-medium py-4 px-8 rounded-full transition-all hover:bg-white/10 hover:border-white/50 text-lg" style="opacity: 1; transform: none;">{% trans "Watch Demo" %}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}

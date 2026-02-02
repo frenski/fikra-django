@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="fileinclude" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff" title="Статистика">
+
+<style src="styles/fonts/MontBlanc/montblanc.css" type="font" load="sync" name="MontBlanc-Regular" />
+
+<variable id="score_global" type="int" default="0" resetReplayParams="true" />
+<variable id="questions_total" type="int" default="10" resetReplayParams="true" />
+
+<object id="vo1" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part1.mp3" action="link:"/>
+<object id="vo2" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part4.mp3" action="link:"/>
+<object id="vo3" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part7.mp3" action="link:"/>
+<object id="vo4" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part10.mp3" action="link:"/>
+<object id="vo5" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part13.mp3" action="link:"/>
+<object id="vo6" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part16.mp3" action="link:"/>
+<object id="vo7" type="sound" src="audio/vo/vizlai-school/statistics/fundamentals/stat1-part19.mp3" action="link:"/>
+
+<include id="scene1"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/1.xml" startTime="0" duration="0.8" />
+<include id="scene2"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/2.xml" startTime="8" duration="0.8" />
+<include id="scene3"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/3.xml" startTime="16" duration="0.8" />
+<include id="scene4"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/4.xml" startTime="24" duration="0.8" />
+<include id="scene5"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/5.xml" startTime="32" duration="1.2" />
+<include id="intro1"  src="xml/clips/vizlai-school/intro/general.xml" startTime="39" duration="0.9" />
+<include id="intro2"  src="xml/clips/vizlai-school/statistics/intro.xml" startTime="47" duration="0.9" />
+<include id="int3"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/3.xml" startTime="55" duration="1.1" />
+<include id="scene6"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/6.xml" startTime="67" duration="0.9" />
+<include id="scene7"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/7.xml" startTime="76" duration="0.9" />
+<include id="scene8"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/8.xml" startTime="86" duration="0.8" />
+<include id="scene9"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/9.xml" startTime="90" duration="0.8" />
+<include id="scene10"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/10.xml" startTime="98" duration="0.8" />
+<include id="int4"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/4.xml" startTime="103" duration="1" />
+<include id="scene11"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/11.xml" startTime="115" duration="2" />
+<include id="scene13"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/13.xml" startTime="149" duration="1.7" />
+<include id="scene14"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/14.xml" startTime="170" duration="1.1" />
+<include id="scene15"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/15.xml" startTime="183" duration="1" />
+<include id="scene16"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/16.xml" startTime="226" duration="0.75" />
+<include id="scene17"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/17.xml" startTime="240" duration="0.75" />
+<include id="int5"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/5.xml" startTime="261" duration="1" />
+<include id="scene12"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/12.xml" startTime="282" duration="0.75" />
+<include id="int6"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/6.xml" startTime="300" duration="1" />
+<include id="scene19"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/19.xml" startTime="347" duration="1" />
+<include id="scene20"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/20.xml" startTime="363" duration="1" />
+<include id="scene21"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/21.xml" startTime="375" duration="1" />
+<include id="scene22"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/22.xml" startTime="385" duration="1" />
+<include id="int7"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/7.xml" startTime="399" duration="1" />
+<include id="scene23"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/23.xml" startTime="410" duration="1" />
+<include id="scene24"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/25.xml" startTime="420" duration="1.2" />
+<include id="int8"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/8.xml" startTime="445" duration="1" />
+<include id="scene26"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/26.xml" startTime="464" duration="2" />
+<include id="int13"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/13.xml" startTime="525" duration="1" />
+<include id="scene28"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/28.xml" startTime="543" duration="1" />
+<include id="scene27"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/27.xml" startTime="552" duration="0.9" />
+<include id="scene30"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/30.xml" startTime="563" duration="1" />
+<include id="scene31"  src="xml/clips/vizlai-school/statistics/fundamentals/scenes/31.xml" startTime="576" duration="1" />
+<include id="int14"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/14.xml" startTime="593" duration="1.2" />
+<include id="int9"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/9.xml" startTime="612" duration="1" />
+<include id="int10"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/10.xml" startTime="623" duration="1" />
+<include id="int11"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/11.xml" startTime="633" duration="1" />
+<include id="int12"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/12.xml" startTime="644" duration="1" />
+<include id="int16"  src="xml/clips/vizlai-school/statistics/fundamentals/interactions/16.xml" startTime="659" duration="1" />
+
+<animation id="play-vo1" type="playSound|loop:false" object="vo1" startTime="0" endTime="60" />
+<animation id="play-vo2" type="playSound|loop:false" object="vo2" startTime="65" endTime="280" />
+<animation id="play-vo3" type="playSound|loop:false" object="vo3" startTime="282" endTime="319" />
+<animation id="play-vo4" type="playSound|loop:false" object="vo4" startTime="321" endTime="404" />
+<animation id="play-vo5" type="playSound|loop:false" object="vo5" startTime="410" endTime="450" />
+<animation id="play-vo6" type="playSound|loop:false" object="vo6" startTime="455" endTime="535" />
+<animation id="play-vo7" type="playSound|loop:false" object="vo7" startTime="536" endTime="605" />
+
+</igml>

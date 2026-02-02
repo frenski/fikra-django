@@ -1,0 +1,148 @@
+{% extends "nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+
+{% block title %} {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extra_header %}
+	{% if landing_page %}
+	<div class="home-header">
+		<h1 class="home-header-title">{% trans "Browse Vizipedia open library of serious games created by our users!" %}</h1>
+		{% if featured_node %}
+			<div class="home-header-featured">
+				<a href="{% url 'nodes_detail' slug=featured_node.node.slug %}" target="_blank">
+					<div class="home-header-featured-tag">{{featured_node.title}}</div>
+					<div class="home-header-featured-info">
+						<span>
+							{% for key, item in engine_choices.items %}
+								{% if key == featured_node.node.engine %}
+										{{ item }}
+								{% endif %}
+							{% endfor %}
+						</span>
+						{{featured_node.node.title}}
+					</div>
+					<video width="100%" loop="true" autoplay="autoplay" muted>
+					  <source src="{{ media_url }}{{ featured_node.node.thumbnail_video}}" type="video/mp4" />
+					</video>
+				</a>
+				<div class="home-header-featured-meta clearfix">
+					<div class="home-header-featured-avatar" style="background-image:url('{{ media_url }}{{ featured_node.node.owner.picture }}')"></div>
+					<div class="home-header-featured-author">{{featured_node.node.owner.name}}</div>
+					<div class="home-header-featured-action-buttons">
+	          <ul class="action-buttons-items">
+	            <li class="action-buttons-first"><i class="fas fa-eye"></i> {{featured_node.node.views}}</li>
+	            <li><i class="fas fa-heart"></i> {{featured_node.node.likes}}</li>
+	          </ul>
+	        </div>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+	<div class="home-announcement">{% trans "Want to create your educational games and videos? We are launching our AI-powered tool. Contact us at info@vizl.ai for early access!" %}</div>
+	{% endif %}
+{% endblock %}
+
+{% block article_main %}
+
+	<!-- <div class="channeltags-block-container clearfix">
+		<div class="channels-block">
+			<h2 class="channels-block-title">{% trans 'Popular channels' %}</h2>
+			<ul class="channels-block-items">
+				{% for ch in channels %}
+					<li>
+						<a href="{% url 'channel_detail' slug=ch.slug %}">
+							<img src="{{ media_url }}{{ ch.thumbnail}}">
+							<span>{{ch.title|truncatewords:5}}</span>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="tags-block">
+			<h2 class="tags-block-title">{% trans 'Today’s most popular tags' %}</h2>
+			<div class="tags-block-tags">
+				<i class="fas fa-tag tags-block-tags-ico"></i>
+				{% for tag in tags %} &nbsp;  {{tag.word}}{% if forloop.last == False %},{% endif %} {% endfor %}
+			</div>
+		</div>
+	</div> -->
+
+
+	<div class="main-container">
+
+			<nav class="main-nav">
+				<ul class="main-nav-items">
+					<form name="node-filters" id="node-filters" class="clearfix" method="POST" action="{% url 'nodes_list' sort=sort %}">
+						{% csrf_token %}
+						<li class="main-nav-items-title">{% trans 'FILTER BY' %}</li>
+						<li class="node-filter node-filter-type">
+							<select name="int_type" multiple class="select-filter select-filter-type">
+								{% for intr in int_type_filts_all %}
+								<option value="{{intr.0}}" {% if intr.0 in int_type_filts %}selected="selected"{% endif %} class="selecttypebutton selecttypebutton-{{intr.1}}"></option>
+								{% endfor %}
+							</select>
+						</li>
+						<li class="node-filter node-filter-keyword">
+							<a id="main-nav-items-sbutton" href="#"><i class="fas fa-search"></i></a>
+							<input name="keyword" type="text" class="input-filter" value="{% for key in filt_keywords %}{{key}} {% endfor %}">
+						</li>
+						<li class="node-filter node-filter-cat">
+							<select name="category" class="select-filter select-filter-cat">
+								<option value="-1">{% trans 'All categories' %}</option>
+								{% for cat in categories %}
+								<option value="{{cat.pk}}" {% if cat.pk in filt_category %}selected{% endif %}>{{cat.title}}</option>
+								{% endfor %}
+							</select>
+						</li>
+					</form>
+				</ul>
+			</nav>
+
+			<div class="nav-sort">
+				<ul class="nav-sort-items">
+					<li class="nav-sort-items-first"><i class="fas fa-sort"></i></li>
+					<li class="nav-sort-items-first">
+						{% if sort == "recent" %}
+							{% trans 'Recent' %}
+						{% else %}
+							<a href="{% url 'nodes_list' sort='recent' %}">{% trans 'Recent' %}</a>
+						{% endif %}
+					</li>
+					<li class="nav-sort-items-first">
+						{% if sort == "most_views" %}
+							{% trans 'Most viewed' %}
+						{% else %}
+							<a href="{% url 'nodes_list' sort='most_views' %}">{% trans 'Most viewed' %}</a>
+						{% endif %}
+					</li>
+					<li>
+						{% if sort == "most_likes" %}
+							{% trans 'Most liked' %}
+						{% else %}
+							<a href="{% url 'nodes_list' sort='most_likes' %}">{% trans 'Most liked' %}</a>
+						{% endif %}
+					</li>
+				</ul>
+			</div>
+
+			<div class="nodes-container">
+
+				{% include page_template %}
+
+				{% block extrajs %}
+					{{ block.super }}
+    			<script src="https://code.jquery.com/jquery-latest.js"></script>
+    			<script src="{% static "el-pagination/js/el-pagination.js" %}"></script>
+    			<script>$.endlessPaginate();</script>
+				{% endblock %}
+			</div>
+
+
+     </div>
+
+		<div class="clear"></div>
+
+{% endblock %}

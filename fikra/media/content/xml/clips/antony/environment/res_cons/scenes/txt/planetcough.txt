@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+<object id="brightcircle_1" type="image" src="graphics/general/environment/res_cons/planet_cough/brightcircle.svg" action="link" editable="true" />
+
+<object id="darkcircle_2" type="image" src="graphics/general/environment/res_cons/planet_cough/darkcircle.svg" action="link" editable="true" />
+
+<object id="orangecircle_3" type="image" src="graphics/general/environment/res_cons/planet_cough/orangecircle.svg" action="link" editable="true" />
+
+<object id="pinkcircle_4" type="image" src="graphics/general/environment/res_cons/planet_cough/pinkcircle.svg" action="link" editable="true" />
+
+
+
+<object id="planet_7" type="image" src="graphics/general/environment/res_cons/planet_cough/planet.svg" action="link" editable="true" />
+
+<object id="planetcircle[6]_8" type="shape" shapetype="circle" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+<object id="planetshadow_9" type="image" src="graphics/general/environment/res_cons/planet_cough/planetshadow.svg" action="link" editable="true" />
+
+<object id="eye_10" type="image" src="graphics/general/environment/res_cons/planet_cough/eye.svg" action="link" editable="true" />
+
+<object id="eye_11" type="image" src="graphics/general/environment/res_cons/planet_cough/eye.svg" action="link" editable="true" />
+
+<object id="mouth_12" type="image" src="graphics/general/environment/res_cons/planet_cough/mouth.svg" action="link" editable="true" />
+
+<object id="planetcircle[6]_8" type="shape" shapetype="circle" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="eyemaskl[10]_15" type="shape" shapetype="circle" size="0.2,0.5" color="#ffffff" strokeWidth="0" action="link" editable="true"/>
+
+<object id="eyemaskr[9]_16" type="shape" shapetype="circle" size="0.2,0.5" color="#ffffff" strokeWidth="0" action="link" editable="true"/>
+
+
+
+
+
+<object id="smoke_19" type="image" src="graphics/general/environment/res_cons/planet_cough/cloud.svg" action="link" editable="true" />
+
+<object id="smoke_20" type="image" src="graphics/general/environment/res_cons/planet_cough/cloud.svg" action="link" editable="true" />
+
+<object id="smoke_21" type="image" src="graphics/general/environment/res_cons/planet_cough/cloud.svg" action="link" editable="true" />
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:1.8" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_brightcircle_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="brightcircle_1" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_darkcircle_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="darkcircle_2" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_orangecircle_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="orangecircle_3" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_pinkcircle_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="pinkcircle_4" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_planet_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="planet_7" positionStart="0.92:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planetcircle[6]_8" type="appearFade|scaleTo:0;opacity:1; anchorPoint:0.5,0.5;" object="planetcircle[6]_8" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planetshadow_9" type="appearFade|scaleTo:0.33;opacity:0;anchorPoint:0.5,0.5" object="planetshadow_9" positionStart="0.505:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eye_10" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="eye_10" positionStart="0.433:0.411" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eye_11" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="eye_11" positionStart="0.562:0.411" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_mouth_12" type="appearFade|scaleTo:0.1,0;opacity:1;anchorPoint:0.5,0.5" object="mouth_12" positionStart="0.495:0.614" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planetcircle[6]_8" type="appearFade|scaleTo:0;opacity:1; anchorPoint:0.5,0.5;" object="planetcircle[6]_8" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="1" endTime="1" />
+
+
+
+<animation id="appear_eyemaskl[10]_15" type="appearFade|scaleTo:0.06;opacity:1; anchorPoint:0.5,0.5;" object="eyemaskl[10]_15" positionStart="0.554:0.514" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyemaskr[9]_16" type="appearFade|scaleTo:0.06;opacity:1; anchorPoint:0.5,0.5;" object="eyemaskr[9]_16" positionStart="0.44:0.514" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_smoke_19" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,0.5" object="smoke_19" positionStart="0.662:0.569" positionRelativeTo="scene" startTime="3.5" endTime="6" />
+
+<animation id="appear_smoke_20" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="smoke_20" positionStart="0.605:0.296" positionRelativeTo="scene" startTime="3" endTime="6" />
+
+<animation id="appear_smoke_21" type="appearFade|scaleTo:0.19;opacity:1;anchorPoint:0.5,0.5" object="smoke_21" positionStart="0.369:0.674" positionRelativeTo="scene" startTime="3" endTime="6" />
+
+
+
+<animation id="key_8_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:1.800"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="0.00" endTime="2.00" />
+
+<animation id="key_6_brightcircle_10" type="basicScale|scaleTo:0.600;ease:easeInOutSine;" object="brightcircle_1"  startTime="1.30" endTime="2.30" />
+<animation id="key_3_brightcircle_11" type="basicScale|scaleTo:0.550;ease:easeInOutSine;" object="brightcircle_1"  startTime="2.30" endTime="2.50" />
+
+<animation id="key_3_darkcircle_20" type="basicScale|scaleTo:0.550;ease:easeInOutSine;" object="darkcircle_2"  startTime="1.40" endTime="2.40" />
+<animation id="key_3_darkcircle_21" type="basicScale|scaleTo:0.480;ease:easeInOutSine;" object="darkcircle_2"  startTime="2.40" endTime="2.60" />
+
+<animation id="key_5_orangecircle_30" type="basicScale|scaleTo:0.450;ease:easeInOutSine;" object="orangecircle_3"  startTime="1.50" endTime="2.50" />
+<animation id="key_1_orangecircle_31" type="basicScale|scaleTo:0.400;ease:easeInOutSine;" object="orangecircle_3"  startTime="2.50" endTime="2.70" />
+
+<animation id="key_6_pinkcircle_40" type="basicScale|scaleTo:0.400;ease:easeInOutSine;" object="pinkcircle_4"  startTime="1.60" endTime="2.60" />
+<animation id="key_7_pinkcircle_41" type="basicScale|scaleTo:0.350;ease:easeInOutSine;" object="pinkcircle_4"  startTime="2.60" endTime="2.80" />
+
+
+
+<animation id="key_1_planet_70" type="basicMove" object="planet_7" positionStart="0.920:0.500"  positionEnd="-0.080:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="24.00" />
+
+<animation id="mask_planetcircle[6]_80" type="maskObjectBasic" object="planetcircle[6]_8,planet_7"  startTime="0.00" endTime="24.00" />
+
+<animation id="key_7_planetshadow_90" type="basicOpacity|opacity:0" object="planetshadow_9"  startTime="2.00" endTime="2.00" />
+<animation id="key_1_planetshadow_91" type="basicOpacity|opacity:1" object="planetshadow_9"  startTime="2.00" endTime="4.00" />
+
+
+
+
+
+<animation id="key_3_mouth_120" type="basicScale|scaleTo:0.100,0.044;ease:easeInOutSine;" object="mouth_12"  startTime="4.00" endTime="6.00" />
+<animation id="key_0_mouth_121" type="basicScale|scaleTo:0.100,0.032;ease:easeInOutSine;" object="mouth_12"  startTime="6.00" endTime="6.80" />
+<animation id="key_4_mouth_122" type="basicScale|scaleTo:0.100,0.044;ease:easeInOutSine;" object="mouth_12"  startTime="6.80" endTime="9.00" />
+<animation id="key_8_mouth_123" type="basicScale|scaleTo:0.100,0.028;ease:easeInOutSine;" object="mouth_12"  startTime="9.00" endTime="13.00" />
+
+<animation id="key_0_planetcircle[6]_80" type="basicScale|scaleTo:0.320" object="planetcircle[6]_8"  startTime="1.00" endTime="2.00" />
+
+<animation id="key_5_planet_70" type="basicScale|scaleTo:2.000" object="planet_7"  startTime="1.00" endTime="2.00" />
+
+<animation id="mask_eyemaskl[10]_150" type="maskObjectBasic" object="eyemaskl[10]_15,eye_11"  startTime="-1.00" endTime="23.00" />
+
+<animation id="mask_eyemaskr[9]_160" type="maskObjectBasic" object="eyemaskr[9]_16,eye_10"  startTime="-1.00" endTime="23.00" />
+
+<animation id="key_7_eyemaskl[10]_150" type="basicMove|ease:easeInOutSine;" object="eyemaskl[10]_15" positionStart="0.554:0.514"  positionEnd="0.554:0.464"  positionRelativeTo="scene" startTime="2.80" endTime="6.80" />
+<animation id="key_7_eyemaskl[10]_151" type="basicMove|ease:easeInOutSine;" object="eyemaskl[10]_15" positionStart="0.554:0.464"  positionEnd="0.554:0.484"  positionRelativeTo="scene" startTime="6.80" endTime="12.80" />
+<animation id="key_6_eyemaskl[10]_152" type="basicMove|ease:easeInOutSine;" object="eyemaskl[10]_15" positionStart="0.554:0.484"  positionEnd="0.554:0.484"  positionRelativeTo="scene" startTime="12.80" endTime="16.80" />
+<animation id="key_1_eyemaskl[10]_153" type="basicMove|ease:easeInOutSine;" object="eyemaskl[10]_15" positionStart="0.554:0.484"  positionEnd="0.554:0.454"  positionRelativeTo="scene" startTime="16.80" endTime="21.80" />
+
+<animation id="key_6_eyemaskr[9]_160" type="basicMove|ease:easeInOutSine;" object="eyemaskr[9]_16" positionStart="0.440:0.514"  positionEnd="0.440:0.464"  positionRelativeTo="scene" startTime="2.80" endTime="6.80" />
+<animation id="key_1_eyemaskr[9]_161" type="basicMove|ease:easeInOutSine;" object="eyemaskr[9]_16" positionStart="0.440:0.464"  positionEnd="0.440:0.484"  positionRelativeTo="scene" startTime="6.80" endTime="12.80" />
+<animation id="key_6_eyemaskr[9]_162" type="basicMove|ease:easeInOutSine;" object="eyemaskr[9]_16" positionStart="0.440:0.484"  positionEnd="0.440:0.484"  positionRelativeTo="scene" startTime="12.80" endTime="16.80" />
+<animation id="key_6_eyemaskr[9]_163" type="basicMove|ease:easeInOutSine;" object="eyemaskr[9]_16" positionStart="0.440:0.484"  positionEnd="0.440:0.454"  positionRelativeTo="scene" startTime="16.80" endTime="21.80" />
+
+<animation id="key_2_smoke_190" type="basicMove|ease:easeInOutSine;" object="smoke_19" positionStart="0.662:0.569"  positionEnd="0.692:0.569"  positionRelativeTo="scene" startTime="3.50" endTime="7.50" />
+<animation id="key_1_smoke_191" type="basicMove|ease:easeInOutSine;" object="smoke_19" positionStart="0.692:0.569"  positionEnd="0.632:0.569"  positionRelativeTo="scene" startTime="7.50" endTime="11.50" />
+<animation id="key_4_smoke_192" type="basicMove|ease:easeInOutSine;" object="smoke_19" positionStart="0.632:0.569"  positionEnd="0.692:0.569"  positionRelativeTo="scene" startTime="11.50" endTime="15.50" />
+<animation id="key_3_smoke_193" type="basicMove|ease:easeInOutSine;" object="smoke_19" positionStart="0.692:0.569"  positionEnd="0.632:0.569"  positionRelativeTo="scene" startTime="15.50" endTime="19.50" />
+<animation id="key_1_smoke_194" type="basicMove|ease:easeInOutSine;" object="smoke_19" positionStart="0.632:0.569"  positionEnd="0.692:0.569"  positionRelativeTo="scene" startTime="19.50" endTime="23.50" />
+
+<animation id="key_7_smoke_200" type="basicMove|ease:easeInOutSine;" object="smoke_20" positionStart="0.605:0.296"  positionEnd="0.635:0.296"  positionRelativeTo="scene" startTime="3.00" endTime="7.00" />
+<animation id="key_8_smoke_201" type="basicMove|ease:easeInOutSine;" object="smoke_20" positionStart="0.635:0.296"  positionEnd="0.575:0.296"  positionRelativeTo="scene" startTime="7.00" endTime="11.00" />
+<animation id="key_6_smoke_202" type="basicMove|ease:easeInOutSine;" object="smoke_20" positionStart="0.575:0.296"  positionEnd="0.635:0.296"  positionRelativeTo="scene" startTime="11.00" endTime="15.00" />
+<animation id="key_7_smoke_203" type="basicMove|ease:easeInOutSine;" object="smoke_20" positionStart="0.635:0.296"  positionEnd="0.575:0.296"  positionRelativeTo="scene" startTime="15.00" endTime="19.00" />
+<animation id="key_7_smoke_204" type="basicMove|ease:easeInOutSine;" object="smoke_20" positionStart="0.575:0.296"  positionEnd="0.635:0.296"  positionRelativeTo="scene" startTime="19.00" endTime="23.00" />
+
+<animation id="key_5_smoke_210" type="basicMove|ease:easeInOutSine;" object="smoke_21" positionStart="0.369:0.674"  positionEnd="0.339:0.674"  positionRelativeTo="scene" startTime="3.00" endTime="7.00" />
+<animation id="key_7_smoke_211" type="basicMove|ease:easeInOutSine;" object="smoke_21" positionStart="0.339:0.674"  positionEnd="0.399:0.674"  positionRelativeTo="scene" startTime="7.00" endTime="11.00" />
+<animation id="key_0_smoke_212" type="basicMove|ease:easeInOutSine;" object="smoke_21" positionStart="0.399:0.674"  positionEnd="0.339:0.674"  positionRelativeTo="scene" startTime="11.00" endTime="15.00" />
+<animation id="key_3_smoke_213" type="basicMove|ease:easeInOutSine;" object="smoke_21" positionStart="0.339:0.674"  positionEnd="0.399:0.674"  positionRelativeTo="scene" startTime="15.00" endTime="19.00" />
+<animation id="key_7_smoke_214" type="basicMove|ease:easeInOutSine;" object="smoke_21" positionStart="0.399:0.674"  positionEnd="0.339:0.674"  positionRelativeTo="scene" startTime="19.00" endTime="23.00" />
+
+
+
+
+
+ </igml>

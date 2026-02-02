@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="U" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 600" style="enable-background:new 0 0 400 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{clip-path:url(#SVGID_5_);fill:#F96A81;}
+	.st3{clip-path:url(#SVGID_7_);fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M205.2,565.3c-97.1,3-138.5-44.9-137-48.6c17.4-43.6,31.4-90.7,144.9-89.3c113.3,1.4,118,63.6,118,63.6
+				S331.9,561.4,205.2,565.3z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<g>
+				
+					<radialGradient id="SVGID_3_" cx="53.008" cy="591.7129" r="104.7296" gradientTransform="matrix(1.542 0.1075 0.1255 -1.799 36.4302 1584.6042)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#3F0922"/>
+					<stop  offset="0.4022" style="stop-color:#420A21"/>
+					<stop  offset="0.7327" style="stop-color:#4C0E20"/>
+					<stop  offset="1" style="stop-color:#5B141D"/>
+				</radialGradient>
+				<path class="st1" d="M205.2,565.3c-96.7,9.1-181-46.3-178.8-49.7c24.5-38.7,70-100.5,183.5-99.2
+					c113.3,1.4,149.3,97.6,149.3,97.6C338.3,537.1,320.9,554.4,205.2,565.3z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_4_" d="M205.2,565.3c-97.1,3-138.5-44.9-137-48.6c17.4-43.6,31.4-90.7,144.9-89.3c113.3,1.4,118,63.6,118,63.6
+				S331.9,561.4,205.2,565.3z"/>
+		</defs>
+		<clipPath id="SVGID_5_">
+			<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st2" d="M208.7,522.2c72.7,0,81,51.2,81,51.2s-21.8,13-80.6,13s-81-11.9-81-11.9S150.7,522.2,208.7,522.2z"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_6_" d="M205.2,565.3c-97.1,3-138.5-44.9-137-48.6c17.4-43.6,31.4-90.7,144.9-89.3c113.3,1.4,118,63.6,118,63.6
+				S331.9,561.4,205.2,565.3z"/>
+		</defs>
+		<clipPath id="SVGID_7_">
+			<use xlink:href="#SVGID_6_"  style="overflow:visible;"/>
+		</clipPath>
+		<polygon class="st3" points="98.9,421.8 108.2,461.3 288.3,449.8 288.3,407.8 		"/>
+	</g>
+</g>
+</svg>

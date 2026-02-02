@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000"  title="Александър Греам Бел" description="" author="Yane Frenski" date="05/03/2022">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg6.svg" editable="true" description="" font="MontBlanc-Regular" />
+<object id="l_2" type="image" src="graphics/characters/real-people/raster/portrait-clipping-alexander-bell.png" editable="false" action="infoPopup" description="Александър Греъм Бел (Alexander Graham Bell, 1847–1922) е северноамерикански учен, изобретател на телефона и бизнесмен от шотландски произход" descriptionLink="https://bg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%8A%D1%80_%D0%91%D0%B5%D0%BB" title="Александър Греъм Бел" subtitle="учен и изобретател" graphCategory="person"  />
+<object id="l_3" type="shape" shapetype="rect" size="1,0.147" color="#231f20" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_1" type="shape" shapetype="path" color="none" stroke="#FFFFFF" strokeWidth="6" size="0,0,1400,325" path="M13,204.5c75.9-2.6,131.3-4,161.3-3.3c3.3,0.1,10.1,0.3,16.9-2.5c27.5-11.1,14.3-55.4,18.1-55.7c4.4-0.4,17.2,63.3,24.1,63c7.5-0.3,3.6-76.1,15.7-76.9c12.6-0.9,30.8,80.3,45.8,79.4c14.8-0.9,14-81.5,26.5-81.9c10.6-0.3,20.6,57.7,33.7,57.3c9.5-0.3,11.9-30.9,21.7-31.1c11.5-0.2,19.8,42.2,27.7,41.7c8.1-0.5,6.1-46.1,14.4-46.7c9.1-0.6,19.5,53.4,32.5,53.2c15.5-0.2,19.6-77.5,33.7-77.8c16-0.3,27.6,98.4,42.1,98.2c16.7-0.2,17.6-130.1,37.3-131c24.4-1.1,54.5,195.8,75.9,194.8c21.3-0.9,15.1-198.4,31.3-198.9c16.4-0.5,36.3,199.3,57.8,198.9c21.4-0.3,27-198.9,44.5-198.9c17.3-0.1,26,192.2,48.2,192.4c22,0.2,36.9-190.2,59-189.9c21.9,0.2,31.4,187.6,49.4,187.5c15.3-0.1,21.2-134.9,39.7-135.1c17.7-0.2,31.2,122.4,48.2,122c15.5-0.4,17.9-102.6,36.1-103.1c16.9-0.5,32.3,86.7,48.2,86c14.4-0.7,12.9-73.2,31.3-74.5c18-1.3,36.7,66.8,55.4,65.5c18.9-1.3,19-72.2,34.9-72.9c15.2-0.6,26.3,64,45.8,63.9c19.2-0.1,29.6-63.7,43.3-63c13.3,0.6,11,60.2,26.5,61.4c14.1,1.1,46.6-49.4,60.2-49.9" action="link:" editable="true" />
+
+<object id="l_4" type="text" text="Александър Греъм Бел" size="30" width="100" align = "center" color="#fda3e1"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.499:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:2;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="1:0.3" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.633;opacity:0;anchorPoint:0.5,0.5" object="l_2" positionStart="0.53:1.412" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.642;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.525:1.809" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.485;opacity:0;anchorPoint:0.5,0.5" object="l_4" positionStart="0.525:1.807" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.50" endTime="1.50" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.499:0.500" startTime="0.50" endTime="1.50" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="l_1"  startTime="4.00" endTime="5" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:linear;" object="l_1" positionEnd="0:0.3" startTime="4" endTime="11" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_2"  startTime="1.50" endTime="2.50" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_2" positionEnd="0.53:0.448" startTime="2.40" endTime="3.40" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="2.00" endTime="3.00" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_3" positionEnd="0.525:0.809" startTime="2.00" endTime="3.00" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_4"  startTime="2.50" endTime="3.50" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_4" positionEnd="0.525:0.807" startTime="2.50" endTime="3.50" description="" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4" positionRelativeTo="scene" startTime="9" endTime="10" />
+
+
+</igml>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#C4B102" strokeWidth="0" action="link" editable="false"/>
+<object id="watermark_1" type="image" src="graphics/design/interactions/compositing/whitespace/watermark.svg" action="link" editable="false" />
+
+<object id="rectangle_1" type="image" src="graphics/design/interactions/compositing/ballance_rect/rectangle.svg" action="link" editable="false" />
+
+<object id="equal_2" type="image" src="graphics/design/interactions/compositing/ballance_rect/equal.svg" action="link" editable="true" />
+
+	<object id="title-text" type="text" text="Try to balance visualy this forms:" size="20" align="center" color="#ffffff" font="Open Sans" wordWrap="true" wordWrapWidth="0.8" weight="300" />
+	
+	
+	<object id="testlineX1" type="shape" shapetype="rect" size="0.1,0.1" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" />
+	
+	<object id="testlineX2" type="shape" shapetype="rect" size="0.08,0.08" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" />
+	
+	<object id="textscore" type="text" text="  0" size="30" align="right" color="#302f35" width="20" font="Open Sans" weight="300" />	
+	<object id="textscore-ext" type="text" text="/100" size="30" align="right" color="#FFFFFF" width="20" font="Open Sans" weight="300" />
+	
+	<object id="compcover1" type="shape" shapetype="rect" size="0.02,0.05" color="#6966F3" strokeWidth="0" action="link:"/>
+	<object id="compcover2" type="shape" shapetype="rect" size="0.02,0.05" color="#6966F3" strokeWidth="0" action="link:"/>
+
+	<object id="textbut-compare" type="text" text="READY" size="15" align="center" color="#ffffff" width="20" font="Open Sans" weight="400" />
+	<object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#302f35" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+	
+	<object id="rect1" type="shape" shapetype="rect" size="0.01,0.002" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:"/>
+	<object id="rect2" type="shape" shapetype="rect" size="0.01,0.002" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:"/>
+	<object id="rect3" type="shape" shapetype="rect" size="0.002,0.01" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:"/>
+	<object id="rect4" type="shape" shapetype="rect" size="0.002,0.01" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:"/>
+
+	
+	<!-- VARIABLES -->
+	<variable id="tk_posX" type="array" default="[0,0]" />
+	<variable id="tk_posY" type="array" default="[0,0]" />
+	<variable id="tk_score" type="int" default="0" />
+	<variable id="random_x1" type="expression" default="" expression="random(0.30,0.50)" />
+	<variable id="random_y1" type="expression" default="" expression="random(0.20,0.50)" />
+	<variable id="random_x2" type="expression" default="" expression="random(0.50,0.70)" />
+	<variable id="random_y2" type="expression" default="" expression="random(0.50,0.80)" />
+	<variable id="original_pos1" type="array" default="[0,0]" reference="compcover1.position.x,compcover1.position.y" />
+	<variable id="original_pos2" type="array" default="[0,0]" reference="compcover2.position.x,compcover2.position.y" />
+
+	<variable id="pos_x_test1" type="float" default="0" reference="compcover1.position.x" />
+	<variable id="pos_x_test2" type="float" default="0" reference="compcover2.position.x" />
+	
+	<variable id="pos_y_test1" type="float" default="0" reference="compcover1.position.y" />
+	<variable id="pos_y_test2" type="float" default="0" reference="compcover2.position.y" />
+	
+	<variable id="pos_x_exp" type="expression" default="" expression="round(50 - 2*sum(abs({{tk_posX}} - [{{pos_x_test1}}, {{pos_x_test2}}])))" />
+	<variable id="pos_y_exp" type="expression" default="" expression="round(50 - 2*sum(abs({{tk_posY}} - [{{pos_y_test1}}, {{pos_y_test2}}])))"/>
+	
+	<variable id="pos_exp" type="expression" default="" expression="({{pos_x_exp}} +{{pos_y_exp}})"/>
+	
+	<!-- ANIMATIONS -->
+	
+	<animation id="titleappear" type="appearFromSide|direction:ttb;elastic:false;anchorPoint:0.5,0.5" object="title-text" startTime="1" endTime="2" positionStart="0.5:-0.22" positionEnd="0.5:0.1" positionRelativeTo="scene" />
+	
+	<animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="4" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="4" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.5:0.90" positionEnd="0.5:0.90" positionRelativeTo="scene" startTime="4" endTime="4.5" />
+	
+	<animation id="appear-textkernfull" type="appearFade|anchorPoint:0.5,0.5" object="textkernfull" startTime="1.5" endTime="2.5" positionStart="0.5:0.5" positionEnd="0.5:0.5" positionRelativeTo="scene" />
+	
+	<animation id="appear-compcover1" type="appearFade|scaleTo:0.02,0.02;anchorPoint:0.5,0.5" object="compcover1" positionStart="0.74:0.33" positionEnd="0.74:0.0.33" positionRelativeTo="scene" startTime="1.5" endTime="2.5" />
+	<animation id="appear-compcover2" type="appearFade|scaleTo:0.02,0.02;anchorPoint:0.5,0.5" object="compcover2" positionStart="0.55:0.685" positionEnd="0.55:0.685" positionRelativeTo="scene" startTime="1.5" endTime="2.5" />
+	
+
+	
+	<animation id="appear-testlineX1" type="appearFade|anchorPoint:0.5,0.5" object="testlineX1" startTime="3" endTime="3.5" positionStart="{{random_x1}}:{{random_y1}}" positionEnd="{{random_x1}}:{{random_y1}}" positionRelativeTo="scene" />
+	<animation id="appear-testlineX2" type="appearFade|anchorPoint:0.5,0.5" object="testlineX2" startTime="3.5" endTime="4" positionStart="{{random_x2}}:{{random_y2}}" positionEnd="{{random_x2}}:{{random_y2}}" positionRelativeTo="scene" />
+	
+	
+	
+	<animation id="disappear-button-compare" type="disappearFade" object="button-compare" positionRelativeTo="scene" startTime="5.6" endTime="6.5" />
+	
+	<animation id="disppear-compcover" type="disappearFade" object="compcover1,compcover2,compcover3,compcover4" positionRelativeTo="scene" startTime="5.6" endTime="6.5" />
+	
+	<animation id="fade-textkern" type="basicOpacity|opacity:0.5" object="testlineY1,testlineX1" positionRelativeTo="scene" startTime="5.6" endTime="6.5" />
+		<animation id="fade-textkern2" type="basicOpacity|opacity:0.5" object="testlineY2,testlineX2" positionRelativeTo="scene" startTime="5.6" endTime="6.5" />
+
+	<animation id="appear-score" type="appearFade|anchorPoint:1,0" object="textscore" positionStart="0.8:0.7" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="5.6" endTime="6.5" />
+	<animation id="appear-score-ext" type="appearFade|anchorPoint:0,0" object="textscore-ext" positionStart="0.85:0.7" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="5.6" endTime="6.5" />
+
+	<animation id="scorechange" type="textCounterBasic|start:0;end:{{pos_exp}};valtype:int" object="textscore" startTime="5.5" endTime="7" positionStart="center:center" positionEnd="center:top" positionRelativeTo="globe1" />
+
+	<!-- INTERACTIONS -->
+	<interaction id="enable-drag" type="enableDrag" subtype="basic|tint:AF00AF" objects="testlineX1,testlineX2" startTime="4.5" endTime="5" actions="onDragEnd:setVar:['tk_posX','active_object','position','x'] | setVar:['tk_posY','active_object','position','y']" />
+
+	<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="backbut-compare" startTime="4.5" endTime="5" actions="onClick:play" />
+	
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="4.5" actions="onInit:setVar:['tk_posX','object',['testlineX1','testlineX2'],'position','x']" />
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="4.5" actions="onInit:setVar:['tk_posY','object',['testlineX1','testlineX2'],'position','y']" />
+
+		
+		
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear_watermark_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_1" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rectangle_1" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="rectangle_1" positionStart="0.295:1.508" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_equal_2" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="equal_2" positionStart="0.462:0.551" positionRelativeTo="scene" startTime="1" endTime="2" />
+
+
+
+
+<animation id="key_3_watermark_10" type="basicMove|ease:easeOutQuad;" object="watermark_1" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="1.70" endTime="2.30" />
+
+
+<animation id="key_4_rectangle_10" type="basicMove|ease:easeInOutSine;" object="rectangle_1" positionStart="0.295:1.508"  positionEnd="0.295:0.308"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+<animation id="key_2_rectangle_11" type="basicMove|ease:easeInOutSine;" object="rectangle_1" positionStart="0.295:0.308"  positionEnd="0.295:0.508"  positionRelativeTo="scene" startTime="1.00" endTime="1.30" />
+
+
+
+
+ </igml>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

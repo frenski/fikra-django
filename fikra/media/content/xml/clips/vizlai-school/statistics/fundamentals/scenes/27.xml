@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#333333" title="Оценки">
+
+	<!-- OBJECTS -->
+  <object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" editable="true" />
+  <object id="outlier" type="shape" shapetype="rect" size="0.05,0.05" color="#FFD769" strokeWidth="0" action="link:"  editable="true" />
+	<object id="barchart-data-viz" type="data-viz" color="#1B1464,#FFD769,#FFD769,#FFD769" strokeWidth="0.01" dotRadius="0.01" fontResize="1.5" data="[['',' ',' ','','',''],['Data',3,5,7,11,14,12,9,5,12,3]]" font="MontBlanc-Bold" fontColor="#ffffff" sourceInfo="" hoverInfo="false" action="link:"/>
+
+  <object id="scatter-data-viz" type="data-viz" color="#1B1464,#FFD769,#FFD769,#FFD769" strokeWidth="0.01" dotRadius="0.01" fontResize="1.5" data="[['',' ',' ','','',''],['Data',0,0,0,0,0,0,0,0,0,0]]" font="MontBlanc-Bold" fontColor="#ffffff" sourceInfo="" hoverInfo="false" action="link:"/>
+
+  <object id="bell-curve" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="8" path="M126.8,17.3c-134.2,0-138.7,960.9-1.3,960.9C259.9,978.2,265.9,17.3,126.8,17.3z" size="0,0,250,1000" />
+  <object id="line-up" type="shape" shapetype="path" color="#FFD769" stroke="#FFD769" strokeWidth="4" path="M27.5,477.7c7.7-13.9-3.8-32.6-1-32c4.5,0.9,11.6-5.1,12-7c4-17,0.6,40.3,1,33c0.2-3.8,18.8-11,19-16c0.4-9.5-21.4-34.3-20-35c4.8-2.6,19.1,16.4,21,15c1.8-1.3,4.5-21.7,8-25c2.5-2.4,7.6,31.8,17,30c7.5-1.4,9.3-9.3,14-16c4.1-5.9-3.8-36.4-7-30l19,9c2.7,0.2,5.5,18.8,10,20c7.3,2,10.1-16.5,12-15c33,26,1.3-23.7,7-26c4.6-1.9,0.4-7.6,2-9c1.8-1.6,4.1,0.8,6-1c-11.2,10.5,1.5,16.3,16,6c2.8-2,6.5,4.5,6,2.4c-1.6-6-3.9-8.2-3-9.4c2.1-2.8,13.6,7.1,21,3c2.5-1.4-14-17-7-30c4.1-7.6,21.7,4.3,24,4c4.1-0.5,6.2,5.6,9,5c5.5-1.2-9.2-39.3-2-42c4.1-1.5,19,14.7,28,16c9,1.3,19.8-3.8,21-10c1.6-8.2-13.2-18.7-14-18c-1,0.9,8.2,11.3,25,11c6.3-0.1,22.6,5.2,24,0c1.9-6.9-17.2-19.9-18-30c-0.9-11.3,10.3-24.3,17-23c9.8,1.8,32.3,38.1,37,38c3.5-0.1-16.2-21.4-15-34c1.7-17.5-0.5-25.3,3-27c7.3-3.4,25.5,26,31,23c5.2-2.8-7.1-30.3-1-34c6.8-4.1,29.1,26.7,38,22c7.4-3.9-1.2-28.7,6-32c6.8-3.1,18.9,16.9,26,14c9.1-3.7,0.4-40.4,6-42c5.5-1.6,15.6,32.9,27,32c11.3-0.9,9.3-35.4,32-46c8-3.7,18-4,26-1c16,5.9,10.5,15.2,13,14c2.6-1.3,3.2-9.9,10-24c3.6-7.6,0.4-22.9,6-21c8.9,3.1,3.6,25.6,14,30c5.5,2.3,14-1,16-6c2.8-7-9-13.3-7-24c0.9-4.8,4.6-10.5,9-11c8.9-1.1,15,19.5,22,18c4.4-0.9,6.2-10,7-14c2.5-12.5-2.6-17.1,1-23c4.2-6.9,12.4-3,19-10c8.5-9.1,1.9-23.6,7-26c7.2-3.4,24.9,23.4,29,21c3.9-2.3-9.2-27.3-4-31c5.3-3.7,25.1,18.3,31,14c3.3-2.4-1-11.1,2-13c5.6-3.6,17,10.3,21.5,7.3c3.9-2.6-11.3-24.8-4-33c4.2-4.7,15-3.6,22,0c10.4,5.3,11.8,15.5,16,15c7.1-0.9-14.4-35.1-6-37c8.1-1.8,17.3,23.7,26,22c5.2-1,7.7-11.2,9-20" size="0,0,50,500" />
+  <object id="circle-curve" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="20" path="M246.8,5.2C114,7.1,12,116.5,6.3,236.8C0.1,368.4,110.4,491,249.8,491.4c144.7,0.5,256.7-130.8,244.5-265.2C483.5,108.6,379,3.2,246.8,5.2z" size="0,0,500,500" />
+
+	<!-- ANIMATIONS -->
+  <animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+  <animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.5" startTime="0.5" endTime="1.5" description="" />
+  <animation id="r_0_0_l_1" type="basicRotate|angle:-65" object="l_1" startTime="12" endTime="12" description=" appearing order: 1" />
+  <animation id="r_0_0_l_8" type="basicRotate|angle:-50" object="l_8" startTime="7" endTime="7" description=" appearing order: 1" />
+
+	<animation id="show-chart1" type="showChartBar|scaleTo:0.7,0.5;anchorPoint:0.5,0.5;animOverlap:0.2;" object="scatter-data-viz" positionStart="0.5:0.7" backgroundColor="#002841" positionRelativeTo="scene" startTime="7" endTime="12" />
+
+  <animation id="show-chart2" type="showChartBar|scaleTo:0.7,0.5;anchorPoint:0.5,0.5;animOverlap:0.2;" object="barchart-data-viz" positionStart="0.5:0.25" backgroundColor="#002841" positionRelativeTo="scene" startTime="1" endTime="6" />
+
+  <animation id="draw-bell-curve" type="drawPathOfShapes|scaleTo:0.1;shapeType:circle;intervalGap:2" object="bell-curve" positionStart="0.687:0.1" positionRelativeTo="scene" startTime="5" endTime="7" />
+
+  <animation id="draw-lineup" type="drawPathOfShapes|scaleTo:0.042;shapeType:rect;intervalGap:3" object="line-up" positionStart="0.15:0.51" positionRelativeTo="scene" startTime="9" endTime="11" />
+
+  <animation id="draw-circle" type="drawPathOfShapes|scaleTo:0.05;shapeType:rect;intervalGap:8" object="circle-curve" positionStart="0.305:0.575" positionRelativeTo="scene" startTime="11" endTime="13" />
+
+  <animation id="appear_outlier" type="appearFade|scaleTo:0.006;opacity:1;anchorPoint:0.5,0.5" object="outlier" positionStart="0.33:0.6" startTime="10" endTime="10.1" description=" appearing order: 0" />
+
+  <animation id="disappear-all" type="disappearFade|ease:easeInExpo;cover:self" object="l_0,number-big-circle,number-big,line-up,bell-curve,barchart-data-viz,scatter-data-viz,l_5,l_6,l_7,l_1,l_2,l_3,l_4,l_8,l_9,outlier,circle-curve" startTime="16" endTime="17" description="" />
+
+
+</igml>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="false"/>
+
+<object id="frame_2" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/frame.svg" action="link" editable="false" />
+
+<object id="plate_3" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/plate.svg" action="link" editable="false" />
+
+<object id="i1" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i1.svg" action="link" editable="false" />
+
+<object id="i2" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i2.svg" action="link" editable="false" />
+
+<object id="i3" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i3.svg" action="link" editable="false" />
+
+<object id="i4" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i4.svg" action="link" editable="false" />
+
+<object id="i5" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i5.svg" action="link" editable="false" />
+
+<object id="i6" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i6.svg" action="link" editable="false" />
+
+<object id="i7" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i7.svg" action="link" editable="false" />
+
+<object id="i8" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i8.svg" action="link" editable="false" />
+
+<object id="i9" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i9.svg" action="link" editable="false" />
+
+<object id="i10" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i10.svg" action="link" editable="false" />
+
+<object id="i11" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i11.svg" action="link" editable="false" />
+
+<object id="i12" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i12.svg" action="link" editable="false" />
+
+<object id="i13" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i13.svg" action="link" editable="false" />
+
+<object id="i14" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i14.svg" action="link" editable="false" />
+
+<object id="i15" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i15.svg" action="link" editable="false" />
+
+<object id="i16" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i16.svg" action="link" editable="false" />
+
+<object id="i17" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i17.svg" action="link" editable="false" />
+
+<object id="i18" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i18.svg" action="link" editable="false" />
+
+<object id="i19" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i19.svg" action="link" editable="false" />
+
+<object id="i20" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i20.svg" action="link" editable="false" />
+
+<object id="i21" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i21.svg" action="link" editable="false" />
+
+<object id="i22" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i22.svg" action="link" editable="false" />
+
+<object id="i23" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i23.svg" action="link" editable="false" />
+
+<object id="i24" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i24.svg" action="link" editable="false" />
+
+<object id="i25" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i25.svg" action="link" editable="false" />
+
+<object id="i26" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i26.svg" action="link" editable="false" />
+
+<object id="i27" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i27.svg" action="link" editable="false" />
+
+<object id="i28" type="image" src="graphics/general/enviroment/interactions/res_cons/healthy_dish/i28.svg" action="link" editable="false" />
+
+<object id="console" type="text" text="0" size="55" align = "center" color="#ffffff" width="55" font="Quicksand" wordWrap="true" wordWrapWidth="0"/>
+
+
+<object id="footprint" type="text" text="carbon footprint in kg" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0"/>
+<object id="title_txt" type="text" text="Check how do your food choices 
+impact on the environment?
+Create your most common meal" size="55" weight="900" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="1.6"/>
+
+
+
+	<object id="textbut-compare" type="text" text="RESET" size="15" align="center" color="#2E1059" width="20" font="Open Sans" weight="500" />
+	<object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#ffffff" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+	
+<variable id="score" type="float" default="0"/>
+
+<variable id="consolelog" type="float" default="0" reference="console.text"/>
+
+	
+	<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="backbut-compare" startTime="5" endTime="12.5" actions="onClick:setVar:['score','expression','{{score}}*0']|setVar:['consolelog','expression','{{score}}kg']" />
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_frame_2" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="frame_2" positionStart="-0.755:0.445" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_plate_3" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="plate_3" positionStart="0.745:1.64" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i1" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i1" positionStart="0.10:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i2" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i2" positionStart="0.15:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i3" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i3" positionStart="0.20:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i4" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i4" positionStart="0.25:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i5" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i5" positionStart="0.30:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i6" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i6" positionStart="0.35:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i7" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i7" positionStart="0.40:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i8" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i8" positionStart="0.10:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i9" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="i9" positionStart="0.15:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i10" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i10" positionStart="0.20:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i11" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i11" positionStart="0.25:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i12" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i12" positionStart="0.30:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i13" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i13" positionStart="0.35:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i14" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i14" positionStart="0.40:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i15" type="appearFade|scaleTo:0.025;opacity:1;anchorPoint:0.5,0.5" object="i15" positionStart="0.10:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i16" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i16" positionStart="0.15:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i17" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i17" positionStart="0.20:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i18" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i18" positionStart="0.25:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i19" type="appearFade|scaleTo:0.025;opacity:1;anchorPoint:0.5,0.5" object="i19" positionStart="0.30:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i20" type="appearFade|scaleTo:0.025;opacity:1;anchorPoint:0.5,0.5" object="i20" positionStart="0.35:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i21" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i21" positionStart="0.40:1.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i22" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i22" positionStart="0.10:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i23" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i23" positionStart="0.15:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i24" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i24" positionStart="0.20:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i25" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i25" positionStart="0.25:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i26" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i26" positionStart="0.30:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i27" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i27" positionStart="0.35:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_i28" type="appearFade|scaleTo:0.035;opacity:1;anchorPoint:0.5,0.5" object="i28" positionStart="0.40:1.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_console" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:0.5,0.5" object="console" positionStart="0.75:0.35" positionRelativeTo="scene" startTime="4" endTime="6" />
+
+<animation id="footprint" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="footprint" positionStart="0.75:0.25" positionRelativeTo="scene" startTime="5" endTime="7" />
+<animation id="appear_title_txt" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="title_txt" positionStart="0.5:-0.9" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+	<animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="1" endTime="2" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="1" endTime="2" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.5:0.92" positionEnd="0.5:0.95" positionRelativeTo="scene" startTime="1" endTime="2" />
+
+
+
+<animation id="key_1_bg_00" type="basicMove|ease:easeInOutExpo;" object="bg_0" positionStart="0.500:2.000"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_4_frame_20" type="basicMove|ease:easeInOutSine;" object="frame_2" positionStart="-0.755:0.445"  positionEnd="0.265:0.445"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+<animation id="key_0_frame_21" type="basicMove|ease:easeInOutSine;" object="frame_2" positionStart="0.265:0.445"  positionEnd="0.245:0.445"  positionRelativeTo="scene" startTime="1.50" endTime="1.60" />
+
+<animation id="key_1_plate_30" type="basicMove|ease:easeInOutSine;" object="plate_3" positionStart="0.745:1.640"  positionEnd="0.745:0.590"  positionRelativeTo="scene" startTime="1.50" endTime="2.50" />
+<animation id="key_8_plate_31" type="basicMove|ease:easeInOutSine;" object="plate_3" positionStart="0.745:0.590"  positionEnd="0.745:0.640"  positionRelativeTo="scene" startTime="2.50" endTime="2.70" />
+
+<animation id="key_0_i10" type="basicMove|ease:easeInOutSine;" object="i1" positionStart="0.100:1.300"  positionEnd="0.100:0.250"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_1_i11" type="basicMove|ease:easeInOutSine;" object="i1" positionStart="0.100:0.250"  positionEnd="0.100:0.300"  positionRelativeTo="scene" startTime="3.00" endTime="3.20" />
+
+<animation id="key_7_i20" type="basicMove|ease:easeInOutSine;" object="i2" positionStart="0.150:1.300"  positionEnd="0.150:0.250"  positionRelativeTo="scene" startTime="2.10" endTime="3.10" />
+<animation id="key_3_i21" type="basicMove|ease:easeInOutSine;" object="i2" positionStart="0.150:0.250"  positionEnd="0.150:0.300"  positionRelativeTo="scene" startTime="3.10" endTime="3.30" />
+
+<animation id="key_2_i30" type="basicMove|ease:easeInOutSine;" object="i3" positionStart="0.200:1.300"  positionEnd="0.200:0.250"  positionRelativeTo="scene" startTime="2.20" endTime="3.20" />
+<animation id="key_1_i31" type="basicMove|ease:easeInOutSine;" object="i3" positionStart="0.200:0.250"  positionEnd="0.200:0.300"  positionRelativeTo="scene" startTime="3.20" endTime="3.40" />
+
+<animation id="key_1_i40" type="basicMove|ease:easeInOutSine;" object="i4" positionStart="0.250:1.300"  positionEnd="0.250:0.250"  positionRelativeTo="scene" startTime="2.30" endTime="3.30" />
+<animation id="key_3_i41" type="basicMove|ease:easeInOutSine;" object="i4" positionStart="0.250:0.250"  positionEnd="0.250:0.300"  positionRelativeTo="scene" startTime="3.30" endTime="3.50" />
+
+<animation id="key_4_i50" type="basicMove|ease:easeInOutSine;" object="i5" positionStart="0.300:1.300"  positionEnd="0.300:0.250"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+<animation id="key_6_i51" type="basicMove|ease:easeInOutSine;" object="i5" positionStart="0.300:0.250"  positionEnd="0.300:0.300"  positionRelativeTo="scene" startTime="3.40" endTime="3.60" />
+
+<animation id="key_4_i60" type="basicMove|ease:easeInOutSine;" object="i6" positionStart="0.350:1.300"  positionEnd="0.350:0.250"  positionRelativeTo="scene" startTime="2.50" endTime="3.50" />
+<animation id="key_8_i61" type="basicMove|ease:easeInOutSine;" object="i6" positionStart="0.350:0.250"  positionEnd="0.350:0.300"  positionRelativeTo="scene" startTime="3.50" endTime="3.70" />
+
+<animation id="key_3_i70" type="basicMove|ease:easeInOutSine;" object="i7" positionStart="0.400:1.300"  positionEnd="0.400:0.250"  positionRelativeTo="scene" startTime="2.60" endTime="3.60" />
+<animation id="key_4_i71" type="basicMove|ease:easeInOutSine;" object="i7" positionStart="0.400:0.250"  positionEnd="0.400:0.300"  positionRelativeTo="scene" startTime="3.60" endTime="3.80" />
+
+<animation id="key_1_i80" type="basicMove|ease:easeInOutSine;" object="i8" positionStart="0.100:1.400"  positionEnd="0.100:0.350"  positionRelativeTo="scene" startTime="2.70" endTime="3.70" />
+<animation id="key_8_i81" type="basicMove|ease:easeInOutSine;" object="i8" positionStart="0.100:0.350"  positionEnd="0.100:0.400"  positionRelativeTo="scene" startTime="3.70" endTime="3.90" />
+
+<animation id="key_0_i90" type="basicMove|ease:easeInOutSine;" object="i9" positionStart="0.150:1.400"  positionEnd="0.150:0.350"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+<animation id="key_2_i91" type="basicMove|ease:easeInOutSine;" object="i9" positionStart="0.150:0.350"  positionEnd="0.150:0.400"  positionRelativeTo="scene" startTime="3.80" endTime="4.00" />
+
+<animation id="key_7_i100" type="basicMove|ease:easeInOutSine;" object="i10" positionStart="0.200:1.400"  positionEnd="0.200:0.350"  positionRelativeTo="scene" startTime="2.90" endTime="3.90" />
+<animation id="key_8_i101" type="basicMove|ease:easeInOutSine;" object="i10" positionStart="0.200:0.350"  positionEnd="0.200:0.400"  positionRelativeTo="scene" startTime="3.90" endTime="4.10" />
+
+<animation id="key_3_i110" type="basicMove|ease:easeInOutSine;" object="i11" positionStart="0.250:1.400"  positionEnd="0.250:0.350"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+<animation id="key_4_i111" type="basicMove|ease:easeInOutSine;" object="i11" positionStart="0.250:0.350"  positionEnd="0.250:0.400"  positionRelativeTo="scene" startTime="4.00" endTime="4.20" />
+
+<animation id="key_0_i120" type="basicMove|ease:easeInOutSine;" object="i12" positionStart="0.300:1.400"  positionEnd="0.300:0.350"  positionRelativeTo="scene" startTime="3.10" endTime="4.10" />
+<animation id="key_5_i121" type="basicMove|ease:easeInOutSine;" object="i12" positionStart="0.300:0.350"  positionEnd="0.300:0.400"  positionRelativeTo="scene" startTime="4.10" endTime="4.30" />
+
+<animation id="key_6_i130" type="basicMove|ease:easeInOutSine;" object="i13" positionStart="0.350:1.400"  positionEnd="0.350:0.350"  positionRelativeTo="scene" startTime="3.20" endTime="4.20" />
+<animation id="key_4_i131" type="basicMove|ease:easeInOutSine;" object="i13" positionStart="0.350:0.350"  positionEnd="0.350:0.400"  positionRelativeTo="scene" startTime="4.20" endTime="4.40" />
+
+<animation id="key_1_i140" type="basicMove|ease:easeInOutSine;" object="i14" positionStart="0.400:1.400"  positionEnd="0.400:0.350"  positionRelativeTo="scene" startTime="3.30" endTime="4.30" />
+<animation id="key_5_i141" type="basicMove|ease:easeInOutSine;" object="i14" positionStart="0.400:0.350"  positionEnd="0.400:0.400"  positionRelativeTo="scene" startTime="4.30" endTime="4.50" />
+
+<animation id="key_3_i150" type="basicMove|ease:easeInOutSine;" object="i15" positionStart="0.100:1.500"  positionEnd="0.100:0.450"  positionRelativeTo="scene" startTime="3.40" endTime="4.40" />
+<animation id="key_4_i151" type="basicMove|ease:easeInOutSine;" object="i15" positionStart="0.100:0.450"  positionEnd="0.100:0.500"  positionRelativeTo="scene" startTime="4.40" endTime="4.60" />
+
+<animation id="key_3_i160" type="basicMove|ease:easeInOutSine;" object="i16" positionStart="0.150:1.500"  positionEnd="0.150:0.450"  positionRelativeTo="scene" startTime="3.50" endTime="4.50" />
+<animation id="key_6_i161" type="basicMove|ease:easeInOutSine;" object="i16" positionStart="0.150:0.450"  positionEnd="0.150:0.500"  positionRelativeTo="scene" startTime="4.50" endTime="4.70" />
+
+<animation id="key_7_i170" type="basicMove|ease:easeInOutSine;" object="i17" positionStart="0.200:1.500"  positionEnd="0.200:0.450"  positionRelativeTo="scene" startTime="3.60" endTime="4.60" />
+<animation id="key_5_i171" type="basicMove|ease:easeInOutSine;" object="i17" positionStart="0.200:0.450"  positionEnd="0.200:0.500"  positionRelativeTo="scene" startTime="4.60" endTime="4.80" />
+
+<animation id="key_3_i180" type="basicMove|ease:easeInOutSine;" object="i18" positionStart="0.250:1.500"  positionEnd="0.250:0.450"  positionRelativeTo="scene" startTime="3.70" endTime="4.70" />
+<animation id="key_6_i181" type="basicMove|ease:easeInOutSine;" object="i18" positionStart="0.250:0.450"  positionEnd="0.250:0.500"  positionRelativeTo="scene" startTime="4.70" endTime="4.90" />
+
+<animation id="key_0_i190" type="basicMove|ease:easeInOutSine;" object="i19" positionStart="0.300:1.500"  positionEnd="0.300:0.450"  positionRelativeTo="scene" startTime="3.80" endTime="4.80" />
+<animation id="key_2_i191" type="basicMove|ease:easeInOutSine;" object="i19" positionStart="0.300:0.450"  positionEnd="0.300:0.500"  positionRelativeTo="scene" startTime="4.80" endTime="5.00" />
+
+<animation id="key_6_i200" type="basicMove|ease:easeInOutSine;" object="i20" positionStart="0.350:1.500"  positionEnd="0.350:0.450"  positionRelativeTo="scene" startTime="3.90" endTime="4.90" />
+<animation id="key_5_i201" type="basicMove|ease:easeInOutSine;" object="i20" positionStart="0.350:0.450"  positionEnd="0.350:0.500"  positionRelativeTo="scene" startTime="4.90" endTime="5.10" />
+
+<animation id="key_4_i210" type="basicMove|ease:easeInOutSine;" object="i21" positionStart="0.400:1.500"  positionEnd="0.400:0.450"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+<animation id="key_8_i211" type="basicMove|ease:easeInOutSine;" object="i21" positionStart="0.400:0.450"  positionEnd="0.400:0.500"  positionRelativeTo="scene" startTime="5.00" endTime="5.20" />
+
+<animation id="key_4_i220" type="basicMove|ease:easeInOutSine;" object="i22" positionStart="0.100:1.600"  positionEnd="0.100:0.550"  positionRelativeTo="scene" startTime="4.10" endTime="5.10" />
+<animation id="key_6_i221" type="basicMove|ease:easeInOutSine;" object="i22" positionStart="0.100:0.550"  positionEnd="0.100:0.600"  positionRelativeTo="scene" startTime="5.10" endTime="5.30" />
+
+<animation id="key_2_i230" type="basicMove|ease:easeInOutSine;" object="i23" positionStart="0.150:1.600"  positionEnd="0.150:0.550"  positionRelativeTo="scene" startTime="4.20" endTime="5.20" />
+<animation id="key_7_i231" type="basicMove|ease:easeInOutSine;" object="i23" positionStart="0.150:0.550"  positionEnd="0.150:0.600"  positionRelativeTo="scene" startTime="5.20" endTime="5.40" />
+
+<animation id="key_3_i240" type="basicMove|ease:easeInOutSine;" object="i24" positionStart="0.200:1.600"  positionEnd="0.200:0.550"  positionRelativeTo="scene" startTime="4.30" endTime="5.30" />
+<animation id="key_1_i241" type="basicMove|ease:easeInOutSine;" object="i24" positionStart="0.200:0.550"  positionEnd="0.200:0.600"  positionRelativeTo="scene" startTime="5.30" endTime="5.50" />
+
+<animation id="key_7_i250" type="basicMove|ease:easeInOutSine;" object="i25" positionStart="0.250:1.600"  positionEnd="0.250:0.550"  positionRelativeTo="scene" startTime="4.40" endTime="5.40" />
+<animation id="key_2_i251" type="basicMove|ease:easeInOutSine;" object="i25" positionStart="0.250:0.550"  positionEnd="0.250:0.600"  positionRelativeTo="scene" startTime="5.40" endTime="5.60" />
+
+<animation id="key_7_i260" type="basicMove|ease:easeInOutSine;" object="i26" positionStart="0.300:1.600"  positionEnd="0.300:0.550"  positionRelativeTo="scene" startTime="4.50" endTime="5.50" />
+<animation id="key_3_i261" type="basicMove|ease:easeInOutSine;" object="i26" positionStart="0.300:0.550"  positionEnd="0.300:0.600"  positionRelativeTo="scene" startTime="5.50" endTime="5.70" />
+
+<animation id="key_7_i270" type="basicMove|ease:easeInOutSine;" object="i27" positionStart="0.350:1.600"  positionEnd="0.350:0.550"  positionRelativeTo="scene" startTime="4.60" endTime="5.60" />
+<animation id="key_8_i271" type="basicMove|ease:easeInOutSine;" object="i27" positionStart="0.350:0.550"  positionEnd="0.350:0.600"  positionRelativeTo="scene" startTime="5.60" endTime="5.80" />
+
+<animation id="key_6_i280" type="basicMove|ease:easeInOutSine;" object="i28" positionStart="0.400:1.600"  positionEnd="0.400:0.550"  positionRelativeTo="scene" startTime="4.70" endTime="5.70" />
+<animation id="key_7_i281" type="basicMove|ease:easeInOutSine;" object="i28" positionStart="0.400:0.550"  positionEnd="0.400:0.600"  positionRelativeTo="scene" startTime="5.70" endTime="5.90" />
+
+
+
+<animation id="key_8_title_txt0" type="basicMove|ease:easeInOutSine;" object="title_txt" positionStart="0.500:-0.900"  positionEnd="0.500:0.100"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+
+
+<interaction id="enable-drag" type="enableDrag" subtype="basic" objects="i1" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+12']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i2" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+10']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i3" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+8']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i4" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+11']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i5" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+25']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i6" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+18']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i7" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+44']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i8" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+60']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i9" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+30']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i10" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+72']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i11" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+15']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i12" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+6']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i13" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+8']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i14" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+12']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i15" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+38']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i16" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+6']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i17" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+5']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i18" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+202']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i19" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+202']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i20" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+229']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i21" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+352']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i22" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+2820']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i23" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+497']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i24" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+683']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i25" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+1256']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i26" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+1582']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i27" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+656']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="enable-click" type="enableDrag" subtype="basic" objects="i28" startTime="0" endTime="12" actions="onDragEnd:setVar:['score','expression','{{score}}+432']|setVar:['consolelog','expression','{{score}}']"/>
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="7"/>
+
+
+
+ </igml>

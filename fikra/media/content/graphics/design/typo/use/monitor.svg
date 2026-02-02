@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 744.9 624.8" style="enable-background:new 0 0 744.9 624.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F1F1F5;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#E1E8E1;}
+	.st2{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#9D9D9D;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#D0DCD1;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#363636;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st6{fill:#6966F3;}
+	.st7{fill:none;}
+	.st8{fill:#363636;}
+	.st9{font-family:'MyriadPro-Bold';}
+	.st10{font-size:7.9061px;}
+	.st11{font-family:'MyriadPro-Regular';}
+</style>
+<g id="Layer_1">
+</g>
+<g id="Isolation_Mode">
+	<g>
+		<polygon class="st0" points="248.4,603.5 496.5,603.5 505.9,617.7 505.9,624.8 238.9,624.8 238.9,617.7 		"/>
+		<rect x="271.2" y="504.5" class="st1" width="202.6" height="99.1"/>
+		<polygon class="st2" points="333.2,603.5 271.2,541.5 271.2,504.5 473.7,504.5 473.7,603.5 		"/>
+		<path class="st3" d="M26.4,0h692c14.6,0,26.4,11.9,26.4,26.4v488.6c0,14.6-11.9,26.4-26.4,26.4h-692C11.9,541.5,0,529.6,0,515.1
+			V26.4C0,11.9,11.9,0,26.4,0z"/>
+		<path class="st4" d="M26.4,9.8h692c9.2,0,16.7,7.5,16.7,16.7v457.4H9.8V26.4C9.8,17.3,17.3,9.8,26.4,9.8z"/>
+		<rect x="37.8" y="43.1" class="st5" width="669.2" height="408.7"/>
+		<path class="st1" d="M9.8,483.8h725.3v31.2c0,9.2-7.5,16.7-16.7,16.7h-692c-9.2,0-16.7-7.5-16.7-16.7V483.8z"/>
+		<rect x="37.8" y="43.1" class="st6" width="669.2" height="36.2"/>
+		<rect x="157.3" y="59.3" class="st7" width="57.7" height="18.8"/>
+		<text transform="matrix(0.9964 0 0 1 157.3099 64.8813)" class="st8 st9 st10">Our logo</text>
+		<rect x="402.7" y="60.5" class="st7" width="57.7" height="18.8"/>
+		<text transform="matrix(0.9964 0 0 1 402.7396 66.1564)" class="st8 st11 st10">about us</text>
+		<rect x="460.5" y="60.5" class="st7" width="57.7" height="18.8"/>
+		<text transform="matrix(0.9964 0 0 1 460.4703 66.1564)" class="st8 st11 st10">products</text>
+		<rect x="518.2" y="60.5" class="st7" width="57.7" height="18.8"/>
+		<text transform="matrix(0.9964 0 0 1 518.2013 66.1564)" class="st8 st11 st10">blog</text>
+		<rect x="560.9" y="60.5" class="st7" width="57.7" height="18.8"/>
+		<text transform="matrix(0.9964 0 0 1 560.932 66.1564)" class="st8 st11 st10">contact</text>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#051930" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_1" type="image" src="graphics/design-components/ribbons/ribbon-right-yellow.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/design-components/ribbons/ribbon-right-red.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/design-components/ribbons/ribbon-right-pink.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/design-components/ribbons/ribbon-right-blue.svg" editable="true" description=""  />
+<object id="l_5" type="text" text="ХАРМОНИЯ" size="30" width="100" align = "center" color="#000000"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_6" type="text" text="МЕЛОДИЯ" size="30" width="100" align = "center" color="#000000"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_7" type="text" text="КЛЮЧ" size="30" width="100" align = "center" color="#000000"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_8" type="text" text="МЕТРУМ" size="30" width="100" align = "center" color="#000000"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_9" type="image" src="graphics/music/music-theory/music-tones-wave-flat.svg" editable="true" description=""  />
+<object id="l_10" type="image" src="graphics/music/music-theory/music-tones-meter-flat.svg" editable="true" description=""  />
+<object id="l_11" type="image" src="graphics/music/music-theory/music-notes-groupof3.svg" editable="true" description=""  />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.499:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFromSide|scaleTo:0.785;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.296:0.809" positionEnd="0.296:0.809" startTime="8" endTime="9" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFromSide|scaleTo:0.785;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.306:0.604" positionEnd="0.306:0.604" startTime="6" endTime="7" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFromSide|scaleTo:0.785;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.306:0.395" positionEnd="0.306:0.395" startTime="4" endTime="5" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFromSide|scaleTo:0.785;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.306:0.203" positionEnd="0.306:0.203" startTime="2" endTime="3" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFromSide|scaleTo:0.224;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.355:0.795" positionEnd="0.355:0.795" startTime="8.5" endTime="9.5" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFromSide|scaleTo:0.196;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.368:0.585" positionEnd="0.368:0.585" startTime="6.5" endTime="7.5" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFromSide|scaleTo:0.117;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.423:0.377" positionEnd="0.423:0.377" startTime="4.5" endTime="5.5" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFromSide|scaleTo:0.161;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.396:0.181" positionEnd="0.396:0.181" startTime="2.5" endTime="3.5" description=" appearing order: 8" />
+<animation id="appear_l_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.823:0.825" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_10" positionStart="0.800:0.491" startTime="0" endTime="0" description=" appearing order: 10" />
+<animation id="appear_l_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_11" positionStart="0.837:0.194" startTime="0" endTime="0" description=" appearing order: 11" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.25" endTime="1.25" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.499:0.500" startTime="0.35" endTime="1.35" description="" />
+<animation id="s_0_0_l_9" type="basicScale|scaleTo:0.246;ease:easeOutBounce;" object="l_9"  startTime="1.30" endTime="2.30" description="" />
+<animation id="s_0_0_l_10" type="basicScale|scaleTo:0.152;ease:easeOutBounce;" object="l_10"  startTime="1.60" endTime="2.60" description="" />
+<animation id="s_0_0_l_11" type="basicScale|scaleTo:0.134;ease:easeOutBounce;" object="l_11"  startTime="1.90" endTime="2.90" description="" />
+
+<animation id="disappear_all" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8,l_9,l_10,l_11"  startTime="5" endTime="6" description="" />
+
+</igml>

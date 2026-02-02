@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+		<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#62c58a" strokeWidth="0" stroke="#051930" editable="true" description="Shape: base" />
+		<object id="concept1" type="image" src="graphics/usercontent/fun_history_of_science_tech/25/concept1.svg" action="link:" description="Graphic: Content 1.0" editable="true" placeholderTags="NN, NNP, NNPS, NNS, PERSON, NORP, FAC, ORG, GPE, LOC, PRODUCT, WORK_OF_ART, LAW" descriptionVisual="vector, isolated in circle" />
+    <object id="concept2" type="image" src="graphics/usercontent/fun_history_of_science_tech/25/concept2.svg" action="link:" description="Graphic: Content 2.0" editable="true" placeholderTags="NN, NNP, NNPS, NNS, PERSON, NORP, FAC, ORG, GPE, LOC, PRODUCT, WORK_OF_ART, LAW" descriptionVisual="vector, isolated in circle" />
+		<object id="concept3" type="image" src="graphics/usercontent/fun_history_of_science_tech/25/concept3.svg" action="link:" description="Graphic: Content 3.0" editable="true" placeholderTags="NN, NNP, NNPS, NNS, PERSON, NORP, FAC, ORG, GPE, LOC, PRODUCT, WORK_OF_ART, LAW" descriptionVisual="vector, isolated in circle" />
+    <object id="concept4" type="image" src="graphics/usercontent/fun_history_of_science_tech/25/concept4.svg" action="link:" description="Graphic: Content 4.0" editable="true" placeholderTags="NN, NNP, NNPS, NNS, PERSON, NORP, FAC, ORG, GPE, LOC, PRODUCT, WORK_OF_ART, LAW" descriptionVisual="vector, isolated in circle" />
+
+    <object id="line1" type="shape" shapetype="path" color="#000000" stroke="#000000" strokeWidth="2" path="M0 0, L800 0" size="0,0,500,50" />
+
+		<object id="line_vert1" type="shape" shapetype="rect" size="0.005,0.1" color="#FFFFFF" strokeWidth="0" stroke="#FFFFFF" editable="true" description="Shape: base" />
+		<object id="line_vert2" type="shape" shapetype="rect" size="0.005,0.1" color="#FFFFFF" strokeWidth="0" stroke="#FFFFFF" editable="true" description="Shape: base" />
+		<object id="line_vert3" type="shape" shapetype="rect" size="0.005,0.1" color="#FFFFFF" strokeWidth="0" stroke="#FFFFFF" editable="true" description="Shape: base" />
+		<object id="line_vert4" type="shape" shapetype="rect" size="0.005,0.1" color="#FFFFFF" strokeWidth="0" stroke="#FFFFFF" editable="true" description="Shape: base" />
+
+		<object id="ind_circle1" type="shape" shapetype="circle" size="0.05" color="#FFFFFF" stroke="#FFFFFF" strokeWidth="10" />
+		<object id="ind_circle2" type="shape" shapetype="circle" size="0.05" color="#FFFFFF" stroke="#FFFFFF" strokeWidth="10" />
+		<object id="ind_circle3" type="shape" shapetype="circle" size="0.05" color="#FFFFFF" stroke="#FFFFFF" strokeWidth="10" />
+		<object id="ind_circle4" type="shape" shapetype="circle" size="0.05" color="#FFFFFF" stroke="#FFFFFF" strokeWidth="10" />
+
+		<object id="conctext1" type="text" text="1938: nuclear fission discovery" size="20" align="center" color="#000000" font="Open Sans" wordWrap="true" wordWrapWidth="0.3" weight="600" editable="true" />
+		<object id="conctext2" type="text" text="1940: first fission reaction in US" size="20" align="center" color="#000000" font="Open Sans" wordWrap="true" wordWrapWidth="0.3" weight="600" editable="true" />
+		<object id="conctext3" type="text" text="1941: launch of Manhattan Project" size="20" align="center" color="#000000" font="Open Sans" wordWrap="true" wordWrapWidth="0.3" weight="600" editable="true" />
+		<object id="conctext4" type="text" text="1944: trinity test" size="20" align="center" color="#000000" font="Open Sans" wordWrap="true" wordWrapWidth="0.3" weight="600" editable="true" />
+
+
+		<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.50:1.500" startTime="0" endTime="0" description="appearing order: 0" />
+		<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.05" endTime="1.25" description="" />
+		<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.50:0.500" startTime="0.15" endTime="1.25" description="" />
+
+		<animation id="ind_circle1appear" type="appearFade|scaleTo:0" object="ind_circle1" startTime="1.1" endTime="1.1" positionStart="0.2:0.5" positionEnd="0.2:0.5" />
+		<animation id="ind_circle2appear" type="appearFade|scaleTo:0" object="ind_circle2" startTime="1.1" endTime="1.1" positionStart="0.4:0.5" positionEnd="0.4:0.5" />
+		<animation id="ind_circle3appear" type="appearFade|scaleTo:0" object="ind_circle3" startTime="1.1" endTime="1.1" positionStart="0.6:0.5" positionEnd="0.6:0.5" />
+		<animation id="ind_circle4appear" type="appearFade|scaleTo:0" object="ind_circle4" startTime="1.1" endTime="1.1" positionStart="0.8:0.5" positionEnd="0.8:0.5" />
+
+    <animation id="draw-line1" type="drawPathOfShapes|scaleTo:1;shapeType:rect;intervalGap:10" object="line1" positionStart="-0.05:0.5" positionRelativeTo="scene" startTime="1" endTime="11" />
+
+    <animation id="concept1appear" type="appearFade|scaleTo:0" object="concept1" startTime="0" endTime="0" positionStart="0.2:0.7" positionEnd="0.2:0.7" />
+		<animation id="concept2appear" type="appearFade|scaleTo:0" object="concept2" startTime="0" endTime="0" positionStart="0.4:0.3" positionEnd="0.4:0.3" />
+		<animation id="concept3appear" type="appearFade|scaleTo:0" object="concept3" startTime="0" endTime="0" positionStart="0.6:0.7" positionEnd="0.6:0.7" />
+		<animation id="concept4appear" type="appearFade|scaleTo:0" object="concept4" startTime="0" endTime="0" positionStart="0.8:0.3" positionEnd="0.8:0.3" />
+
+		<animation id="ind_circle1scale" type="basicScale|scaleTo:0.025;ease:easeOutElastic" object="ind_circle1" startTime="2.5" endTime="3.5" />
+		<animation id="ind_circle2scale" type="basicScale|scaleTo:0.025;ease:easeOutElastic" object="ind_circle2" startTime="4" endTime="5" />
+		<animation id="ind_circle3scale" type="basicScale|scaleTo:0.025;ease:easeOutElastic" object="ind_circle3" startTime="5.5" endTime="6.5" />
+		<animation id="ind_circle4scale" type="basicScale|scaleTo:0.025;ease:easeOutElastic" object="ind_circle4" startTime="7" endTime="8" />
+
+		<animation id="linevert1appear" type="appearFade|scaleTo:0.005" object="line_vert1" startTime="2.1" endTime="2.6" positionStart="0.2:0.55" positionEnd="0.2:0.55" />
+		<animation id="linevert2appear" type="appearFade|scaleTo:0.005" object="line_vert2" startTime="3.6" endTime="4.1" positionStart="0.4:0.45" positionEnd="0.4:0.45" />
+		<animation id="linevert3appear" type="appearFade|scaleTo:0.005" object="line_vert3" startTime="5.1" endTime="5.6" positionStart="0.6:0.55" positionEnd="0.6:0.55" />
+		<animation id="linevert4appear" type="appearFade|scaleTo:0.005" object="line_vert4" startTime="6.6" endTime="7.1" positionStart="0.8:0.45" positionEnd="0.8:0.45" />
+
+		<animation id="concept1scale" type="basicScale|scaleTo:0.2;ease:easeOutElastic" object="concept1" startTime="2.5" endTime="3.5" />
+		<animation id="concept2scale" type="basicScale|scaleTo:0.2;ease:easeOutElastic" object="concept2" startTime="4" endTime="5" />
+		<animation id="concept3scale" type="basicScale|scaleTo:0.2;ease:easeOutElastic" object="concept3" startTime="5.5" endTime="6.5" />
+		<animation id="concept4scale" type="basicScale|scaleTo:0.2;ease:easeOutElastic" object="concept4" startTime="7" endTime="8" />
+
+		<animation id="ctext1appear" type="appearFade|scaleTo:0.2" object="conctext1" startTime="2.5" endTime="3.5" positionStart="0.2:0.85" positionEnd="0.2:0.85" />
+		<animation id="ctext2appear" type="appearFade|scaleTo:0.2" object="conctext2" startTime="4" endTime="5" positionStart="0.4:0.15" positionEnd="0.4:0.15" />
+		<animation id="ctext3appear" type="appearFade|scaleTo:0.2" object="conctext3" startTime="5.5" endTime="6.5" positionStart="0.6:0.85" positionEnd="0.6:0.85" />
+		<animation id="ctext1appear" type="appearFade|scaleTo:0.2" object="conctext4" startTime="7" endTime="8" positionStart="0.8:0.15" positionEnd="0.8:0.15" />
+
+		<animation id="disppear-lineup" type="disappearFade" object="line1,concept1,concept2,concept3,concept4,line_vert1,line_vert2,line_vert3,line_vert4,l_0,ind_circle1,ind_circle2,ind_circle3,ind_circle4,conctext1,conctext2,conctext3,conctext4" positionRelativeTo="scene" startTime="14" endTime="15" />
+
+
+</igml>

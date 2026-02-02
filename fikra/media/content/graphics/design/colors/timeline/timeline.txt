@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="image" src="graphics/design/colors/timeline/bg.svg" action="link" editable="true" />
+
+<object id="pic1_1" type="image" src="graphics/design/colors/timeline/pic1.png" action="link" editable="true" />
+
+<object id="pic2_2" type="image" src="graphics/design/colors/timeline/pic2.png" action="link" editable="true" />
+
+<object id="pic3_3" type="image" src="graphics/design/colors/timeline/pic3.png" action="link" editable="true" />
+
+<object id="pic4_4" type="image" src="graphics/design/colors/timeline/pic4.png" action="link" editable="true" />
+
+<object id="line_5" type="image" src="graphics/design/colors/timeline/line.svg" action="link" editable="true" />
+
+
+
+<object id="dot_7" type="image" src="graphics/design/colors/timeline/dot.svg" action="link" editable="true" />
+
+<object id="txt_8" type="text" text="1666" size="100" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0.3"/>
+
+<object id="txt_9" type="text" text="Isaac Newton developed in" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="1"/>
+
+
+
+
+
+
+
+
+
+<object id="dot_14" type="image" src="graphics/design/colors/timeline/dot.svg" action="link" editable="true" />
+
+<object id="dot_15" type="image" src="graphics/design/colors/timeline/dot.svg" action="link" editable="true" />
+
+<object id="dot_16" type="image" src="graphics/design/colors/timeline/dot.svg" action="link" editable="true" />
+
+<object id="txt_17" type="text" text="1740" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0.3"/>
+
+<object id="txt_18" type="text" text="1758" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0.3"/>
+
+<object id="txt_19" type="text" text="1772" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0.3"/>
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_pic1_1" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="pic1_1" positionStart="0.6:1.3" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_pic2_2" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="pic2_2" positionStart="1.2:0.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_pic3_3" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="pic3_3" positionStart="1.492:0.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_pic4_4" type="appearFade|scaleTo:0.28;opacity:1;anchorPoint:0.5,0.5" object="pic4_4" positionStart="1.805:0.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_5" type="appearFade|scaleTo:0.005,0;opacity:1;anchorPoint:0.5,1" object="line_5" positionStart="-0.01:0.754" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_dot_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="dot_7" positionStart="0.138:0.75" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="txt_8" positionStart="0.178:0.6" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="txt_9" positionStart="0.178:0.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+<animation id="appear_dot_14" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="dot_14" positionStart="0.09:0.75" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_dot_15" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="dot_15" positionStart="0.364:0.75	" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_dot_16" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="dot_16" positionStart="0.688:0.75" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt_17" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="txt_17" positionStart="0.12:0.68" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt_18" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="txt_18" positionStart="0.4:0.68" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt_19" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="txt_19" positionStart="0.73:0.68" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_8_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:1.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+<animation id="key_2_pic1_10" type="basicMove|ease:easeOutExpo;" object="pic1_1" positionStart="0.600:1.300"  positionEnd="0.600:0.400"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+
+<animation id="key_4_pic2_20" type="basicMove|ease:easeOutExpo;" object="pic2_2" positionStart="1.200:0.400"  positionEnd="0.200:0.400"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_3_pic3_30" type="basicMove|ease:easeOutExpo;" object="pic3_3" positionStart="1.492:0.400"  positionEnd="0.492:0.400"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_0_pic4_40" type="basicMove|ease:easeOutExpo;" object="pic4_4" positionStart="1.805:0.400"  positionEnd="0.805:0.400"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_7_line_50" type="basicRotate|angle:90.000;revertAnchor:false;" object="line_5"  startTime="0.00" endTime="0.00" />
+
+<animation id="key_8_line_50" type="basicScale|scaleTo:0.005,0.000" object="line_5"  startTime="0.70" endTime="1.70" />
+<animation id="key_4_line_51" type="basicScale|scaleTo:0.005,2.000" object="line_5"  startTime="1.70" endTime="2.70" />
+
+<animation id="key_7_dot_70" type="basicScale|scaleTo:0.000" object="dot_7"  startTime="2.00" endTime="2.00" />
+<animation id="key_6_dot_71" type="basicScale|scaleTo:0.100" object="dot_7"  startTime="2.00" endTime="2.20" />
+<animation id="key_5_dot_72" type="basicScale|scaleTo:0.060" object="dot_7"  startTime="2.20" endTime="2.30" />
+
+<animation id="key_3_txt_80" type="basicScale|scaleTo:0.000" object="txt_8"  startTime="2.40" endTime="2.40" />
+<animation id="key_0_txt_81" type="basicScale|scaleTo:0.300" object="txt_8"  startTime="2.40" endTime="2.60" />
+<animation id="key_6_txt_82" type="basicScale|scaleTo:0.200" object="txt_8"  startTime="2.60" endTime="2.70" />
+
+<animation id="key_4_txt_90" type="basicScale|scaleTo:0.000" object="txt_9"  startTime="2.20" endTime="2.20" />
+<animation id="key_5_txt_91" type="basicScale|scaleTo:0.300" object="txt_9"  startTime="2.20" endTime="2.40" />
+<animation id="key_1_txt_92" type="basicScale|scaleTo:0.200" object="txt_9"  startTime="2.40" endTime="2.50" />
+
+<animation id="key_6_pic1_10" type="basicMove|ease:easeOutExpo;" object="pic1_1" positionStart="0.600:0.400"  positionEnd="-0.400:0.400"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_7_txt_80" type="basicMove|ease:easeOutExpo;" object="txt_8" positionStart="0.178:0.600"  positionEnd="-0.822:0.600"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_6_txt_90" type="basicMove|ease:easeOutExpo;" object="txt_9" positionStart="0.178:0.450"  positionEnd="-0.822:0.450"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_4_dot_70" type="basicMove|ease:easeOutExpo;" object="dot_7" positionStart="0.138:0.750"  positionEnd="-0.862:0.750"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_1_dot_140" type="basicScale|scaleTo:0.000" object="dot_14"  startTime="7.10" endTime="7.10" />
+<animation id="key_1_dot_141" type="basicScale|scaleTo:0.060" object="dot_14"  startTime="7.10" endTime="7.30" />
+<animation id="key_3_dot_142" type="basicScale|scaleTo:0.020" object="dot_14"  startTime="7.30" endTime="7.40" />
+
+<animation id="key_4_dot_150" type="basicScale|scaleTo:0.000" object="dot_15"  startTime="7.20" endTime="7.20" />
+<animation id="key_5_dot_151" type="basicScale|scaleTo:0.060" object="dot_15"  startTime="7.20" endTime="7.40" />
+<animation id="key_1_dot_152" type="basicScale|scaleTo:0.020" object="dot_15"  startTime="7.40" endTime="7.50" />
+
+<animation id="key_0_dot_160" type="basicScale|scaleTo:0.000" object="dot_16"  startTime="7.30" endTime="7.30" />
+<animation id="key_1_dot_161" type="basicScale|scaleTo:0.060" object="dot_16"  startTime="7.30" endTime="7.50" />
+<animation id="key_4_dot_162" type="basicScale|scaleTo:0.020" object="dot_16"  startTime="7.50" endTime="7.60" />
+
+<animation id="key_6_txt_170" type="basicScale|scaleTo:0.000" object="txt_17"  startTime="7.30" endTime="7.30" />
+<animation id="key_5_txt_171" type="basicScale|scaleTo:0.200" object="txt_17"  startTime="7.30" endTime="7.50" />
+<animation id="key_8_txt_172" type="basicScale|scaleTo:0.100" object="txt_17"  startTime="7.50" endTime="7.60" />
+
+<animation id="key_0_txt_180" type="basicScale|scaleTo:0.000" object="txt_18"  startTime="7.50" endTime="7.50" />
+<animation id="key_4_txt_181" type="basicScale|scaleTo:0.200" object="txt_18"  startTime="7.50" endTime="7.70" />
+<animation id="key_4_txt_182" type="basicScale|scaleTo:0.100" object="txt_18"  startTime="7.70" endTime="7.80" />
+
+<animation id="key_8_txt_190" type="basicScale|scaleTo:0.000" object="txt_19"  startTime="7.70" endTime="7.70" />
+<animation id="key_1_txt_191" type="basicScale|scaleTo:0.200" object="txt_19"  startTime="7.70" endTime="7.90" />
+<animation id="key_1_txt_192" type="basicScale|scaleTo:0.100" object="txt_19"  startTime="7.90" endTime="8.00" />
+
+
+
+
+ </igml>

@@ -1,0 +1,141 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Challenge: negative multiplication in the language of math" description="Try this challenge: translate the natural language sentence into a math equation" author="Dimitar Mehandjiev" date="26/03/2022" preventEvents="1">
+
+<object type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/music1-piece15_3.mp3" id="vo1"/>
+<object type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/music1-piece15_2.mp3" id="vo0"/>
+<object id="vo-correct" type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/maths1-part8.mp3" action="link:"/>
+<object id="vo-wrong" type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/maths1-part9.mp3" action="link:"/>
+
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg4.svg" editable="true" description=""/>
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bubble-corner-black.svg" editable="true" description=""/>
+<object id="l_2" type="image" src="graphics/education/vizlai-school/generic/question-cartoon.svg" editable="true" description=""/>
+<object id="l_3" type="text" text="Напиши следното изречение с помощта на математиката:" size="20" align="center" color="#000000" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.8" weight="0" editable="true"/>
+<object id="l_4" type="text" text="Пламена е изгубила 3 суми от по 4 лева, което е равно на дълг от 12 лева" size="24" align="center" color="#282FA5" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.8" weight="100" editable="true" style="italic"/>
+
+<object id="l_9" type="image" src="graphics/education/vizlai-school/generic/score-bar-frame.svg" editable="true" description=""/>
+<object id="l_bar" type="image" src="graphics/education/vizlai-school/generic/score-bar.svg" editable="true" description=""/>
+<object id="l_bar_back" type="image" src="graphics/education/vizlai-school/generic/score-bar-back.svg" editable="true" description=""/>
+<object id="l_10" type="image" src="graphics/education/vizlai-school/generic/star-cartoon.svg" editable="true" description=""/>
+
+<object id="l_19" type="image" src="graphics/education/vizlai-school/generic/button-rounded-black.svg" editable="true" description=""/>
+<object id="l_20" type="text" text="Готово" size="20" align="center" color="#FFFFFF" width="20" font="MontBlanc-Regular" weight="300" hitArea="false"/>
+
+<object id="l_21" type="image" src="graphics/education/vizlai-school/generic/check-box.svg" editable="true" description=""/>
+<object id="l_22" type="text" text=" " size="48" align="center" color="#282FA5" width="40" font="MontBlanc-Regular" weight="700" hitArea="false"/>
+<object id="l_23" type="text" text="3" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" editable="true" description=""/>
+<object id="l_24" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication-blue.svg" editable="true" description=""/>
+<object id="l_25" type="image" src="graphics/education/vizlai-school/generic/check-box.svg" editable="true" description=""/>
+<object id="l_26" type="text" text=" " size="48" align="center" color="#282FA5" width="40" font="MontBlanc-Regular" weight="700" hitArea="false"/>
+<object id="l_27" type="text" text="4" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" editable="true" description=""/>
+<object id="l_28" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-blue.svg" editable="true" description=""/>
+<object id="l_29" type="image" src="graphics/education/vizlai-school/generic/check-box.svg" editable="true" description=""/>
+<object id="l_30" type="text" text=" " size="48" align="center" color="#282FA5" width="40" font="MontBlanc-Regular" weight="700" hitArea="false"/>
+<object id="l_31" type="text" text="12" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" editable="true" description=""/>
+
+<object id="l_feedback" type="text" text="Wrong" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700"/>
+<object id="l_feedback_long" type="text" text="You entered the correct answer" size="24" align="center" color="#282FA5" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.8" style="italic"/>
+
+<variable id="an_v1" type="string" default=" " reference="l_22.text" resetReplayParams="true"/>
+<variable id="an_v2" type="string" default=" " reference="l_26.text" resetReplayParams="true"/>
+<variable id="an_v3" type="string" default=" " reference="l_30.text" resetReplayParams="true"/>
+<variable id="an_exp1" type="int" default="0" resetReplayParams="true"/>
+<variable id="an_exp2" type="int" default="0" resetReplayParams="true"/>
+<variable id="an_exp3" type="int" default="0" resetReplayParams="true"/>
+<variable id="sign_neg" type="string" default="−" resetReplayParams="true"/>
+<variable id="sign_pos" type="string" default="+" resetReplayParams="true"/>
+
+<variable id="feedback" type="string" default="Wrong" reference="l_feedback.text" resetReplayParams="true"/>
+<variable id="feedback_wrong" type="string" default="Грешно" resetReplayParams="true"/>
+<variable id="feedback_correct" type="string" default="Правилно" resetReplayParams="true"/>
+<variable id="feedback_long" type="string" default="Correct answer" reference="l_feedback_long.text" resetReplayParams="true"/>
+<variable id="feedback_long_wrong" type="string" default="Правилнят отговор е: -3 * 4 = -12" resetReplayParams="true"/>
+<variable id="feedback_long_correct" type="string" default="Браво! Ти въведе правилния отговор!" resetReplayParams="true"/>
+
+<variable id="star_offset" type="float" default="0.478" resetReplayParams="true"/>
+<variable id="star_before" type="expression" expression="{{star_offset}} + ({{parent.score_global}}/{{parent.questions_total}})*0.5" resetReplayParams="true"/>
+<variable id="bar_before" type="expression" expression="({{parent.score_global}}/{{parent.questions_total}})*0.46" resetReplayParams="true"/>
+<variable id="star_after" type="float" default="0.478" resetReplayParams="true"/>
+<variable id="bar_after" type="float" default="0.02" resetReplayParams="true"/>
+
+<variable id="vo_wrong_vol" type="float" default="0"/>
+<variable id="vo_correct_vol" type="float" default="0"/>
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l_1" type="appearFade|scaleTo:0.420;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.074:0.069" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.092:0.085" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l_3" type="appearFade|scaleTo:0.75;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.500:0.3" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l_4" type="appearFade|scaleTo:0.75;opacity:0;anchorPoint:0.5,0.5" object="l_4" positionStart="0.500:0.43" startTime="0" endTime="0" description=" appearing order: 4"/>
+<animation id="appear_l_bar_back" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0,0.5" object="l_bar_back" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="appear_l_bar" type="appearFade|scaleTo:0.0,0.05;opacity:1;anchorPoint:0,0.5" object="l_bar" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="appear_l_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.701:0.101" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="appear_l_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_10" positionStart="{{star_before}}:0.093" startTime="0" endTime="0" description=" appearing order: 10"/>
+
+<animation id="appear_l_21" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_21" positionStart="0.170:0.650" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l_22" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_22" positionStart="0.160:0.648" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l_23" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_23" positionStart="0.231:0.652" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l_24" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_24" positionStart="0.320:0.623" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l_25" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_25" positionStart="0.404:0.650" startTime="0" endTime="0" description=" appearing order: 4"/>
+<animation id="appear_l_26" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_26" positionStart="0.394:0.648" startTime="0" endTime="0" description=" appearing order: 5"/>
+<animation id="appear_l_27" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_27" positionStart="0.499:0.652" startTime="0" endTime="0" description=" appearing order: 6"/>
+<animation id="appear_l_28" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_28" positionStart="0.624:0.651" startTime="0" endTime="0" description=" appearing order: 7"/>
+<animation id="appear_l_29" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_29" positionStart="0.715:0.650" startTime="0" endTime="0" description=" appearing order: 8"/>
+<animation id="appear_l_30" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_30" positionStart="0.705:0.648" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="appear_l_31" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_31" positionStart="0.804:0.652" startTime="0" endTime="0" description=" appearing order: 10"/>
+
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description=""/>
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1" startTime="1.20" endTime="2.63" description=""/>
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.093;ease:easeOutBounce;" object="l_2" startTime="1.40" endTime="2.40" description=""/>
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3" startTime="1.70" endTime="3.13" description=""/>
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_4" startTime="2.2" endTime="3.7" description=""/>
+
+<animation id="appear_l_19" type="appearFade|scaleTo:0.302;opacity:1;anchorPoint:0.5,0.5" object="l_19" positionStart="0.504:1.855" startTime="0" endTime="0" description=" appearing order: 8"/>
+<animation id="appear_l_20" type="appearFade|scaleTo:0.136;opacity:1;anchorPoint:0.5,0.5" object="l_20" positionStart="0.505:1.857" startTime="0" endTime="0" description=" appearing order: 9"/>
+
+<animation id="m_0_0_l_19" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_19" positionEnd="0.504:0.855" startTime="6.35" endTime="7.35" description=""/>
+<animation id="m_0_0_l_20" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_20" positionEnd="0.505:0.857" startTime="6.50" endTime="7.5" description=""/>
+
+<animation id="s_0_0_l_bar_back" type="basicScale|scaleTo:0.46;ease:easeOutBounce;" object="l_bar_back" startTime="7.8" endTime="8.2" description=""/>
+<animation id="s_0_0_l_bar" type="basicScale|scaleTo:{{bar_before}},0.05;ease:easeOutBounce;" object="l_bar" startTime="7.8" endTime="8.5" description=""/>
+<animation id="s_0_0_l_9" type="basicScale|scaleTo:0.486;ease:easeOutBounce;" object="l_9" startTime="7.5" endTime="8.2" description=""/>
+<animation id="s_0_0_l_10" type="basicScale|scaleTo:0.106;ease:easeOutBounce;" object="l_10" startTime="8" endTime="8.5" description=""/>
+<animation id="s_0_0_l_21" type="basicScale|scaleTo:0.049;ease:easeOutBounce;" object="l_21" startTime="3.25" endTime="4.25" description=""/>
+<animation id="s_0_0_l_22" type="basicScale|scaleTo:0.015;ease:easeOutBounce;" object="l_22" startTime="3.50" endTime="4.50" description=""/>
+<animation id="s_0_0_l_23" type="basicScale|scaleTo:0.060;ease:easeOutBounce;" object="l_23" startTime="3.75" endTime="4.75" description=""/>
+<animation id="s_0_0_l_24" type="basicScale|scaleTo:0.051;ease:easeOutBounce;" object="l_24" startTime="4.00" endTime="5.00" description=""/>
+<animation id="s_0_0_l_25" type="basicScale|scaleTo:0.049;ease:easeOutBounce;" object="l_25" startTime="4.25" endTime="5.25" description=""/>
+<animation id="s_0_0_l_26" type="basicScale|scaleTo:0.015;ease:easeOutBounce;" object="l_26" startTime="4.50" endTime="5.50" description=""/>
+<animation id="s_0_0_l_27" type="basicScale|scaleTo:0.069;ease:easeOutBounce;" object="l_27" startTime="4.75" endTime="5.75" description=""/>
+<animation id="s_0_0_l_28" type="basicScale|scaleTo:0.051;ease:easeOutBounce;" object="l_28" startTime="5.00" endTime="6.00" description=""/>
+<animation id="s_0_0_l_29" type="basicScale|scaleTo:0.049;ease:easeOutBounce;" object="l_29" startTime="5.25" endTime="6.25" description=""/>
+<animation id="s_0_0_l_30" type="basicScale|scaleTo:0.015;ease:easeOutBounce;" object="l_30" startTime="5.50" endTime="6.50" description=""/>
+<animation id="s_0_0_l_31" type="basicScale|scaleTo:0.128;ease:easeOutBounce;" object="l_31" startTime="5.75" endTime="6.75" description=""/>
+
+<animation id="play-vo-correct" type="playSound|loop:false;speed:1;volume:{{vo_correct_vol}}" object="vo-correct" startTime="9.1" endTime="15"/>
+<animation id="play-vo-wrong" type="playSound|loop:false;speed:1;volume:{{vo_wrong_vol}}" object="vo-wrong" startTime="9.1" endTime="16"/>
+
+<animation id="l_feedback_appear" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_feedback" positionStart="0.500:0.5" startTime="9" endTime="9.5" description=" appearing order: 0"/>
+
+<animation id="l_feedback_scale" type="basicScale|scaleTo:0.5;ease:easeOutBounce" object="l_feedback" startTime="9" endTime="10" description="show appear with bounce"/>
+
+<animation id="l_feedback_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_feedback" startTime="11" endTime="12" description="diappear with scale"/>
+
+<animation id="l_feedback_disappear2" type="basicOpacity|opacity:0;" object="l_feedback" startTime="11" endTime="12" description="diappear with opacity"/>
+
+<animation id="m_0_1_l_10" type="basicMove|ease:easeOutExpo;" object="l_10" positionEnd="{{star_after}}:0.093" startTime="11" endTime="12" description=""/>
+<animation id="m_0_1_l_bar" type="basicScale|scaleTo:{{bar_after}},0.05;ease:easeOutBounce;" object="l_bar" startTime="11" endTime="12" description=""/>
+
+<animation id="l_feedback_l_appear" type="appearFade|scaleTo:0.6;opacity:1;anchorPoint:0.5,0.5" object="l_feedback_long" positionStart="0.5:0.75" startTime="11.5" endTime="12.5" description="appear fade classic"/>
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_9,l_10,l_11,l_19,l_20,l_feedback_long,l_feedback,l_21,l_22,l_23,l_24,l_25,l_26,l_27,l_28,l_29,l_30,l_31,l_bar,l_bar_back" positionRelativeTo="scene" startTime="17" endTime="17"/>
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="8.5" endTime="onUserEvent"/>
+
+<interaction id="l_21_click" type="enableClick" subtype="basic" objects="l_21" startTime="8" endTime="9" actions="onClick::setVar::['an_v1', 'expression', '({{an_exp1}} == -1 | {{an_exp1}} == 0 ) ? {{sign_pos}} : {{sign_neg}} ']||setVar::['an_exp1', 'expression', '({{an_exp1}} == -1 | {{an_exp1}} == 0 ) ? 1 : -1 ']"/>
+
+<interaction id="l_25_click" type="enableClick" subtype="basic" objects="l_25" startTime="8" endTime="9" actions="onClick::setVar::['an_v2', 'expression', '({{an_exp2}} == -1 | {{an_exp2}} == 0 ) ? {{sign_pos}} : {{sign_neg}} ']||setVar::['an_exp2', 'expression', '({{an_exp2}} == -1 | {{an_exp2}} == 0 ) ? 1 : -1 ']"/>
+
+<interaction id="l_29_click" type="enableClick" subtype="basic" objects="l_29" startTime="8" endTime="9" actions="onClick::setVar::['an_v3', 'expression', '({{an_exp3}} == -1 | {{an_exp3}} == 0 ) ? {{sign_pos}} : {{sign_neg}} ']||setVar::['an_exp3', 'expression', '({{an_exp3}} == -1 | {{an_exp3}} == 0 ) ? 1 : -1 ']"/>
+
+<interaction id="ready-click" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_19" startTime="8" endTime="9" actions="onClick::play||setVar::['feedback','expression', ' ({{an_exp1}}==-1 &amp; {{an_exp2}}==1 &amp; {{an_exp3}}==-1) ? {{feedback_correct}}: {{feedback_wrong}}']||setVar::['feedback_long','expression', '({{an_exp1}}==-1 &amp; {{an_exp2}}==1 &amp; {{an_exp3}}==-1) ? {{feedback_long_correct}}: {{feedback_long_wrong}}']||setVar::['vo_wrong_vol','expression', '({{an_exp1}}==-1 &amp; {{an_exp2}}==1 &amp; {{an_exp3}}==-1) ? 0:1']||setVar::['vo_correct_vol','expression', '({{an_exp1}}==-1 &amp; {{an_exp2}}==1 &amp; {{an_exp3}}==-1) ? 1: 0']||setVar::['parent.score_global','expression','({{an_exp1}}==1 &amp; {{an_exp2}}==-1 &amp; {{an_exp3}}==-1) ? {{parent.score_global}} + 2 : {{parent.score_global}}']||setVar::['star_after','expression','{{star_offset}} + ({{parent.score_global}}/{{parent.questions_total}})*0.5']||setVar::['bar_after','expression',' ({{parent.score_global}}/{{parent.questions_total}})*0.46']"/>
+
+<animation type="playSound|loop:false" id="play-vo1" object="vo1" startTime="2" endTime="12.0"/></igml>

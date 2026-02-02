@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<igml>
+
+<block id="variables">
+  <variable id="ey_l_target_x1" type="expression" expression="{{eye_l_pos_x}}+({{eye_l_pos_x}})/20"/>
+  <variable id="ey_r_target_x1" type="expression" expression="{{eye_r_pos_x}}+({{eye_r_pos_x}})/20"/>
+  <variable id="ey_l_target_x2" type="expression" expression="{{eye_l_pos_x}}-({{eye_l_pos_x}})/20"/>
+  <variable id="ey_r_target_x2" type="expression" expression="{{eye_r_pos_x}}-({{eye_r_pos_x}})/20"/>
+  <variable id="ey_l_target_x3" type="expression" expression="{{eye_l_pos_x}}"/>
+  <variable id="ey_r_target_x3" type="expression" expression="{{eye_r_pos_x}}"/>
+</block>
+
+<block id="animations">
+
+  <animation id="key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{ey_l_target_x1}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="7.5" endTime="8.5"/>
+  <animation id="key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{ey_r_target_x1}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="7.5" endTime="8.5"/>
+  <animation id="key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{ey_r_target_x2}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="9" endTime="10"/>
+  <animation id="key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{ey_l_target_x2}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="9" endTime="10"/>
+  <animation id="key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{ey_l_target_x3}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="10.5" endTime="11.5"/>
+  <animation id="key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{ey_r_target_x3}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="10.5" endTime="11.5"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="2.2" endTime="2.4"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="2.2" endTime="2.4"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="2.4" endTime="2.6"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="2.4" endTime="2.6"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="6" endTime="6.2"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="6" endTime="6.2"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="6.2" endTime="6.4"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="6.2" endTime="6.4"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="7" endTime="7.2"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="7" endTime="7.2"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="7.2" endTime="7.4"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="7.2" endTime="7.4"/>
+
+  <animation id="scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="12" endTime="12.2"/>
+  <animation id="scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="12" endTime="12.2"/>
+  <animation id="scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="12.2" endTime="12.4"/>
+  <animation id="scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="12.2" endTime="12.4"/>
+
+  <animation id="mouth_act" type="basicMeshMove|targets:[[-0.05,0.45],[0.5,0.5],[1.05,0.45]]" object="mouth" startTime="3.2" endTime="3.9"/>
+
+  <animation id="mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="6" endTime="9"/>
+
+</block>
+
+</igml>

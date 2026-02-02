@@ -1,0 +1,19 @@
+{
+	"text_objects": {
+		"l_3": "Where do we mostly use negative numbers in real life? Can you guess?",
+		"l_5_t": "money, loans, depts",
+		"l_6_t": "measures like area and\n volume",
+		"l_7_t": "computers, software,\nIT",
+		"l_8_t": "Billie Eilish's lyrics",
+		"l_feedback": "Wrong"
+	},
+	"variable_objects": {
+		"feedback": "Wrong",
+		"feedback_wrong": "Wrong",
+		"feedback_correct": "Correct"
+	},
+	"meta_info": {
+		"title": "Guess: Where we use negative numbers",
+		"description": "A guessing exercices for where we use negative numbers"
+	}
+}

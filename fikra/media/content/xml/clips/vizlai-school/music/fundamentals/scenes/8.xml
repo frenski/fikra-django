@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000"  title="Музиката като цвят" description="" author="Yane Frenski" date="05/03/2022">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg14.svg" editable="true" description=""  />
+<object id="l_1" type="shape" shapetype="circle" size="1,1" color="#776ff3" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_2" type="shape" shapetype="circle" size="1,1" color="" strokeWidth="6" stroke="#ffffff" editable="true" description="" />
+<object id="l_3" type="image" src="graphics/nature/flowers/rose.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/music/symbols/musical-note4.svg" editable="true" description=""  />
+<object id="l_5" type="image" src="graphics/music/symbols/musical-note3.svg" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/music/symbols/musical-note2.svg" editable="true" description=""  />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.499" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.473:0.532" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.482:0.500" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.282;opacity:0;anchorPoint:0.5,1" object="l_3" positionStart="0.498:2" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.085;opacity:0;anchorPoint:0.5,0.5" object="l_4" positionStart="0.455:0.4" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0.072;opacity:0;anchorPoint:0.5,0.5" object="l_5" positionStart="0.561:0.5" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0.06;opacity:0;anchorPoint:0.5,0.5" object="l_6" positionStart="0.4:0.45" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0" endTime="1.00" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.499" startTime="1.00" endTime="2.00" description="" />
+<animation id="s_0_0_l_1" type="basicScale|scaleTo:0.723;ease:easeOutExpo;" object="l_1"  startTime="1.35" endTime="2.35" description="" />
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.723;ease:easeOutExpo;" object="l_2"  startTime="1.70" endTime="2.70" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="2.00" endTime="3.00" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_3" positionEnd="0.498:1" startTime="2.00" endTime="3.00" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_4"  startTime="3.00" endTime="4.00" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:linear;" object="l_4" positionEnd="0.455:-0.2" startTime="3.00" endTime="9.00" description="" />
+<animation id="o_0_0_l_5" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_5"  startTime="4.00" endTime="5.00" description="" />
+<animation id="m_0_0_l_5" type="basicMove|axis:xy;ease:linear;" object="l_5" positionEnd="0.561:-0.2" startTime="4.00" endTime="9.00" description="" />
+
+<animation id="o_0_0_l_6" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_6"  startTime="6" endTime="7" description="" />
+<animation id="m_0_0_l_6" type="basicMove|axis:xy;ease:linear;" object="l_6" positionEnd="0.35:-0.2" startTime="6" endTime="11" description="" />
+
+<animation id="rotate_l3" type="waveRotate|angle:-1;loops:4" object="l_3" startTime="3" endTime="10" />
+
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5" positionRelativeTo="scene" startTime="10" endTime="11" />
+
+</igml>

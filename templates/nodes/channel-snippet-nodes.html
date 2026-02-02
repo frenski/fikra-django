@@ -1,0 +1,92 @@
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% if nodes.count > 0 %}
+<h2 class="channel-section-title">{% trans "Activities" %}</h2>
+{% endif %}
+
+{% for node in nodes %}
+
+<a id="node-link{{node.pk}}" class="node-link {% if node.access is 3 %}node-link-locked{% endif %}" {% if node.access is not 3 %} href="{% url 'nodes_detail' slug=node.slug slug_channel=channel.slug %}" {% endif %} data-id="{{node.pk}}">
+<div class="node clearfix">
+
+  <div class="node-image-container">
+    <div class="node-image" style="background-image:url('{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}')" data-thumbnails="{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail2 %}{{ media_url }}{{ node.thumbnail2}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail3 %}{{ media_url }}{{ node.thumbnail3}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail4 %}{{ media_url }}{{ node.thumbnail4}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}">
+    </div>
+    <div class="playstopbutton-container">
+      <div class="playstopbutton-back">
+        <svg viewBox="0 0 120 32" preserveAspectRatio="xMinYMin meet">
+           <path  d="M102,22.8C91.6,12.4,81.2,1,63.5,0.8l0,0c-0.1,0-0.2,0-0.2,0c-0.1,0-0.2,0-0.2,0l0,0C45.3,1,35,12.4,24.5,22.8c-9,9-25,9-25,9H61h1.5H127C127,31.8,111,31.8,102,22.8z" style="stroke: none; fill:white;"></path>
+          </svg>
+      </div>
+      <div class="nodetypebutton nodetypebutton-{% if node.engine == 'explot' %}{% if node.interactivity > 1 %}intpiece{% else %}video{% endif %}{% elif node.engine == 'html_page' %}html_page{% elif node.engine == 'game_matching' or node.engine == 'game_mapconv' or node.engine == 'game_pointnclick' or node.engine == 'game_multchoice' or node.engine == 'game_occupation' or node.engine == 'game_endlessrunner' or node.engine == 'game_fallingcategoriser' %}game{% endif %}">&nbsp;</div>
+    </div>
+  </div>
+
+  <div class="controlbar">
+
+    <div class="metadata">
+      <h3 class="metadata-engine-type">
+        {% for key, item in engine_choices.items %}
+          {% if key == node.engine %}
+              {{ item }}
+          {% endif %}
+        {% endfor %}
+      </h3>
+      {% translated_node_title node as langtitle %}
+      <h2 class="metadata-title">{{langtitle|truncatewords:10}}</h2>
+      <div class="metadata-description">
+        {% translated_node_desc node as langdesc %}
+        {% autoescape off %}
+        {{langdesc|safe|truncatewords:25}}
+        {% endautoescape %}
+
+      </div>
+      <div class="metadata-extra">
+        <div class="metadata-extra-user">
+          <span class="metadata-extra-avatar" style="background-image:url('{{ media_url }}{{ node.owner.picture }}')"></span> {{node.owner.name}}
+        </div>
+        <!-- <div class="metadata-extra-date">{{node.created_at|naturaltime}}</div> -->
+        <div class="action-buttons">
+          <ul class="action-buttons-items">
+            <li class="action-buttons-first"><i class="fas fa-eye"></i> {{node.views}}</li>
+            <li><i class="fas fa-heart"></i> {{node.likes}}</li>
+            <!-- <li><i class="fas fa-share-alt"></i> {{node.shares}}</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  {% if node.access is 3 and not naccess_granted|dictkeyvalue:node.pk %}
+    <div class="node-locked" data-id="{{node.pk}}">
+      <div class="node-locked-icon"><i class="fas fa-lock"></i></div>
+    </div>
+    <div id="node-lock-conditions{{node.pk}}" class="node-lock-conditions">
+      <h4>{% trans "This content is still locked. How to unlock it?" %}</h4>
+      {% for cond in node.lockcondition_set.all %}
+      <form action="{% url 'node_unlock' node_id=node.pk %}" method="POST">
+        {% csrf_token %}
+        <p>{{ cond.condition }}<br>
+          <input type='hidden' name="condition_id" value="{{cond.pk}}"></input>
+          <input type="hidden" name="next_url" value="{{ request.path }}">
+          <input type='text' name="code" placeholder="code"></input>
+          <input type="submit" value="Submit" class=""></input>
+        </p>
+      </form>
+      {% endfor %}
+      {% if node.lockcondition_set.all|length is 0 %}
+        <p>{% trans "Please contact the content owner for unlock details" %}</p>
+      {% endif %}
+      <button class="node-lock-conditions-close">X</button>
+    </div>
+  {% endif %}
+
+
+ </div>
+</a>
+
+{% endfor %}

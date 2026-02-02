@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#BCF5F7" strokeWidth="0" action="link" editable="true"/>
+
+<object id="bg_1" type="shape" shapetype="rect" size="0.5,0.5" color="#CCCCCC" strokeWidth="0" action="link" editable="true"/>
+
+<object id="clouds_2" type="image" src="graphics/general/enviroment/climate_change/people/clouds.svg" action="link" editable="true" />
+
+<object id="blueguy_3" type="image" src="graphics/general/enviroment/climate_change/people/blueguy.svg" action="link" editable="true" />
+
+<object id="grayguy_4" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_5" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_6" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_7" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_8" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_9" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_10" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_11" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="grayguy_12" type="image" src="graphics/general/enviroment/climate_change/people/grayguy.svg" action="link" editable="true" />
+
+<object id="line_13" type="image" src="graphics/general/enviroment/climate_change/people/line.svg" action="link" editable="true" />
+
+<object id="dust_14" type="image" src="graphics/general/enviroment/climate_change/people/dust.svg" action="link" editable="true" />
+
+<object id="label15" type="shape" shapetype="rect" size="1,0.09" color="#2A2A51" strokeWidth="0" action="link" editable="true"/>
+
+<object id="txt_16" type="text" text="1 IN 10 PEOPLE BREATHE SAFE AIR" size="55" align = "center" color="#ffffff" width="55" font="Montserrat" wordWrap="true" wordWrapWidth="0"/>
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:1.9" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bg_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_1" positionStart="1.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_clouds_2" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="clouds_2" positionStart="0.057:0.207" positionRelativeTo="scene" startTime="0" endTime="3" />
+
+<animation id="appear_blueguy_3" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="blueguy_3" positionStart="0.165:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_4" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_4" positionStart="0.35:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_5" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_5" positionStart="0.434:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_6" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_6" positionStart="0.519:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_7" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_7" positionStart="0.6:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_8" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_8" positionStart="0.683:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_9" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_9" positionStart="0.76:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_10" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_10" positionStart="0.836:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_11" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_11" positionStart="0.917:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_grayguy_12" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="grayguy_12" positionStart="0.269:1.444" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_13" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5" object="line_13" positionStart="0.224:2.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_dust_14" type="appearFade|scaleTo:0.7;opacity:1;anchorPoint:0.5,0.5" object="dust_14" positionStart="0.605:0.203" positionRelativeTo="scene" startTime="3" endTime="11" />
+
+<animation id="appear_label15" type="appearFade|scaleTo:0.6;opacity:1; anchorPoint:0.5,0.5;" object="label15" positionStart="0.6:0.8" positionRelativeTo="scene" startTime="4" endTime="6.1" />
+
+<animation id="appear_txt_16" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="txt_16" positionStart="0.6:0.8" positionRelativeTo="scene" startTime="4" endTime="6.1" />
+
+
+
+<animation id="key_5_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:1.900"  positionEnd="0.500:0.700"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_8_bg_10" type="basicMove|ease:easeOutExpo;" object="bg_1" positionStart="1.500:0.500"  positionEnd="0.720:0.500"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+
+<animation id="key_0_clouds_20" type="basicMove" object="clouds_2" positionStart="0.057:0.207"  positionEnd="0.157:0.207"  positionRelativeTo="scene" startTime="0.00" endTime="20.00" />
+
+<animation id="key_5_blueguy_30" type="basicMove|ease:easeInOutSine;" object="blueguy_3" positionStart="0.165:1.444"  positionEnd="0.165:0.394"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_7_blueguy_31" type="basicMove|ease:easeInOutSine;" object="blueguy_3" positionStart="0.165:0.394"  positionEnd="0.165:0.444"  positionRelativeTo="scene" startTime="2.00" endTime="2.20" />
+
+<animation id="key_3_grayguy_40" type="basicMove|ease:easeInOutSine;" object="grayguy_4" positionStart="0.350:1.444"  positionEnd="0.350:0.394"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_2_grayguy_41" type="basicMove|ease:easeInOutSine;" object="grayguy_4" positionStart="0.350:0.394"  positionEnd="0.350:0.444"  positionRelativeTo="scene" startTime="3.00" endTime="3.20" />
+
+<animation id="key_8_grayguy_50" type="basicMove|ease:easeInOutSine;" object="grayguy_5" positionStart="0.434:1.444"  positionEnd="0.434:0.394"  positionRelativeTo="scene" startTime="2.10" endTime="3.10" />
+<animation id="key_2_grayguy_51" type="basicMove|ease:easeInOutSine;" object="grayguy_5" positionStart="0.434:0.394"  positionEnd="0.434:0.444"  positionRelativeTo="scene" startTime="3.10" endTime="3.30" />
+
+<animation id="key_5_grayguy_60" type="basicMove|ease:easeInOutSine;" object="grayguy_6" positionStart="0.519:1.444"  positionEnd="0.519:0.394"  positionRelativeTo="scene" startTime="2.20" endTime="3.20" />
+<animation id="key_1_grayguy_61" type="basicMove|ease:easeInOutSine;" object="grayguy_6" positionStart="0.519:0.394"  positionEnd="0.519:0.444"  positionRelativeTo="scene" startTime="3.20" endTime="3.40" />
+
+<animation id="key_4_grayguy_70" type="basicMove|ease:easeInOutSine;" object="grayguy_7" positionStart="0.600:1.444"  positionEnd="0.600:0.394"  positionRelativeTo="scene" startTime="2.30" endTime="3.30" />
+<animation id="key_3_grayguy_71" type="basicMove|ease:easeInOutSine;" object="grayguy_7" positionStart="0.600:0.394"  positionEnd="0.600:0.444"  positionRelativeTo="scene" startTime="3.30" endTime="3.50" />
+
+<animation id="key_5_grayguy_80" type="basicMove|ease:easeInOutSine;" object="grayguy_8" positionStart="0.683:1.444"  positionEnd="0.683:0.394"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+<animation id="key_4_grayguy_81" type="basicMove|ease:easeInOutSine;" object="grayguy_8" positionStart="0.683:0.394"  positionEnd="0.683:0.444"  positionRelativeTo="scene" startTime="3.40" endTime="3.60" />
+
+<animation id="key_6_grayguy_90" type="basicMove|ease:easeInOutSine;" object="grayguy_9" positionStart="0.760:1.444"  positionEnd="0.760:0.394"  positionRelativeTo="scene" startTime="2.50" endTime="3.50" />
+<animation id="key_5_grayguy_91" type="basicMove|ease:easeInOutSine;" object="grayguy_9" positionStart="0.760:0.394"  positionEnd="0.760:0.444"  positionRelativeTo="scene" startTime="3.50" endTime="3.70" />
+
+<animation id="key_8_grayguy_100" type="basicMove|ease:easeInOutSine;" object="grayguy_10" positionStart="0.836:1.444"  positionEnd="0.836:0.394"  positionRelativeTo="scene" startTime="2.60" endTime="3.60" />
+<animation id="key_5_grayguy_101" type="basicMove|ease:easeInOutSine;" object="grayguy_10" positionStart="0.836:0.394"  positionEnd="0.836:0.444"  positionRelativeTo="scene" startTime="3.60" endTime="3.80" />
+
+<animation id="key_7_grayguy_110" type="basicMove|ease:easeInOutSine;" object="grayguy_11" positionStart="0.917:1.444"  positionEnd="0.917:0.394"  positionRelativeTo="scene" startTime="2.70" endTime="3.70" />
+<animation id="key_5_grayguy_111" type="basicMove|ease:easeInOutSine;" object="grayguy_11" positionStart="0.917:0.394"  positionEnd="0.917:0.444"  positionRelativeTo="scene" startTime="3.70" endTime="3.90" />
+
+<animation id="key_0_grayguy_120" type="basicMove|ease:easeInOutSine;" object="grayguy_12" positionStart="0.269:1.444"  positionEnd="0.269:0.394"  positionRelativeTo="scene" startTime="1.90" endTime="2.90" />
+<animation id="key_3_grayguy_121" type="basicMove|ease:easeInOutSine;" object="grayguy_12" positionStart="0.269:0.394"  positionEnd="0.269:0.444"  positionRelativeTo="scene" startTime="2.90" endTime="3.10" />
+
+<animation id="key_1_line_130" type="basicMove|ease:easeInOutSine;" object="line_13" positionStart="0.224:2.500"  positionEnd="0.224:0.500"  positionRelativeTo="scene" startTime="2.50" endTime="3.50" />
+
+
+
+
+
+
+
+
+
+
+
+ </igml>

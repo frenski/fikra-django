@@ -1,0 +1,23 @@
+{% extends 'nodes/base.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% block title %} {% trans "Login" %}: {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/login.css" %}">
+{% endblock %}
+
+{% block article_main %}
+
+<div class="main-container login">
+  <h2>{% trans "Login" %}</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">{% trans "Sign in" %}</button>
+  </form>
+
+</div>
+
+{% endblock %}

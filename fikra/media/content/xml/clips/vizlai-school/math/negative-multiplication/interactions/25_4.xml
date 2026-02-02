@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Solve the equation!" description="Solve the equation" author="Dimitar Mehandjiev" date="27/03/2022">
+
+<style src="styles/fonts/MontBlanc/montblanc.css" type="font" load="sync" name="MontBlanc-Regular" />
+
+
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg4.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bubble-corner-black.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/education/vizlai-school/generic/question-cartoon.svg" editable="true" description=""  />
+<object id="l_3" type="text" text="Едно от уравненията долу е грешно. Можеш ли да познаеш кое?" size="20" align = "center" color="#000000" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.8" weight="0" editable="true" />
+
+<object id="l_5" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""  />
+<object id="l_7" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""  />
+<object id="l_8" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""  />
+
+<object id="l_5_t" type="text" text="-2 * 16 = -32" size="30" align="center" color="#000000" width="16" font="MontBlanc-Regular" weight="300" wordWrap="true" wordWrapWidth="0.5" hitArea="false" />
+<object id="l_6_t" type="text" text="3 * 55 = 165" size="30" align="center" color="#000000" weight="300" wordWrap="true" wordWrapWidth="0.5" font="MontBlanc-Regular" hitArea="false" />
+<object id="l_7_t" type="text" text="-4 * -14 = -56" size="30" align="center" color="#000000" width="20" font="MontBlanc-Regular" weight="300" wordWrap="true" wordWrapWidth="0.4" hitArea="false" />
+<object id="l_8_t" type="text" text="-6 * -25 = 150" size="30" align="center" color="#000000" width="20" font="MontBlanc-Regular" weight="300" wordWrap="true" wordWrapWidth="0.5" hitArea="false" />
+
+<object id="l_9" type="image" src="graphics/education/vizlai-school/generic/score-bar-frame.svg" editable="true" description=""  />
+<object id="l_bar" type="image" src="graphics/education/vizlai-school/generic/score-bar.svg" editable="true" description=""  />
+<object id="l_bar_back" type="image" src="graphics/education/vizlai-school/generic/score-bar-back.svg" editable="true" description=""  />
+<object id="l_10" type="image" src="graphics/characters/character-icons/icon-running-man.svg" editable="true" description=""  />
+
+<object id="l_21" type="image" src="graphics/education/vizlai-school/generic/button-rounded-black.svg" editable="true" description="" action="link|scene://xml/clips/vizlai-school/math/negative-multiplication/interactions/25_{{next_scene_id}}.xml" />
+<object id="l_22" type="text" text="Напред" size="50" align="center" color="#FFFFFF" width="20" font="MontBlanc-Regular" weight="300" hitArea="false" />
+
+<object id="l_feedback" type="text" text="Wrong" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700" />
+<variable id="feedback" type="string" default="Wrong" reference="l_feedback.text" resetReplayParams="true" />
+<variable id="feedback_wrong" type="string" default="Грешно" resetReplayParams="true" />
+<variable id="feedback_correct" type="string" default="Правилно" resetReplayParams="true" />
+
+<variable id="star_offset" type="float" default="0.478" resetReplayParams="true" />
+<variable id="star_before" type="expression" expression="{{star_offset}} + 0.2" resetReplayParams="true" />
+<variable id="bar_before" type="expression" expression="0.2" resetReplayParams="true" />
+<variable id="star_after" type="float" default="{{star_offset}} + 0.2" resetReplayParams="true" />
+<variable id="bar_after" type="float" default="0.2" resetReplayParams="true" />
+<variable id="next_scene_id" type="int" default="5" resetReplayParams="true" />
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:0.420;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.074:0.069" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.092:0.085" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0.75;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.500:0.343" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.290:0.550" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_5_t" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5_t" positionStart="0.290:0.525" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.713:0.550" startTime="0" endTime="0" description=" appearing order: 6" />
+<animation id="appear_l_6_t" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6_t" positionStart="0.713:0.525" startTime="0" endTime="0" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.290:0.691" startTime="0" endTime="0" description=" appearing order: 7" />
+<animation id="appear_l_7_t" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7_t" positionStart="0.290:0.68" startTime="0" endTime="0" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.712:0.691" startTime="0" endTime="0" description=" appearing order: 8" />
+<animation id="appear_l_8_t" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8_t" positionStart="0.712:0.68" startTime="0" endTime="0" description=" appearing order: 8" />
+<animation id="appear_l_bar_back" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0,0.5" object="l_bar_back" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_bar" type="appearFade|scaleTo:0.0,0.05;opacity:1;anchorPoint:0,0.5" object="l_bar" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_9" positionStart="0.701:0.101" startTime="0" endTime="0" description=" appearing order: 9" />
+<animation id="appear_l_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_10" positionStart="{{star_before}}:0.093" startTime="0" endTime="0" description=" appearing order: 10" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="1.20" endTime="2.63" description="" />
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.093;ease:easeOutBounce;" object="l_2"  startTime="1.40" endTime="2.40" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3"  startTime="1.70" endTime="3.13" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.25;ease:easeOutBounce;" object="l_4"  startTime="1.80" endTime="2.80" description="" />
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.365;ease:easeOutBounce;" object="l_5"  startTime="2.20" endTime="3.20" description="" />
+<animation id="s_0_0_l_5_t" type="basicScale|scaleTo:0.25;ease:easeOutBounce;" object="l_5_t"  startTime="2.20" endTime="3.20" description="" />
+<animation id="s_0_0_l_6" type="basicScale|scaleTo:0.369;ease:easeOutBounce;" object="l_6"  startTime="2.60" endTime="3.60" description="" />
+<animation id="s_0_0_l_6_t" type="basicScale|scaleTo:0.25;ease:easeOutBounce;" object="l_6_t"  startTime="2.60" endTime="3.60" description="" />
+<animation id="s_0_0_l_7" type="basicScale|scaleTo:0.365;ease:easeOutBounce;" object="l_7"  startTime="3.00" endTime="4.00" description="" />
+<animation id="s_0_0_l_7_t" type="basicScale|scaleTo:0.25;ease:easeOutBounce;" object="l_7_t"  startTime="3.00" endTime="4.00" description="" />
+<animation id="s_0_0_l_8" type="basicScale|scaleTo:0.365;ease:easeOutBounce;" object="l_8"  startTime="3.40" endTime="4.40" description="" />
+<animation id="s_0_0_l_8_t" type="basicScale|scaleTo:0.25;ease:easeOutBounce;" object="l_8_t"  startTime="3.40" endTime="4.40" description="" />
+<animation id="s_0_0_l_9" type="basicScale|scaleTo:0.486;ease:easeOutBounce;" object="l_9"  startTime="3.80" endTime="4.80" description="" />
+<animation id="s_0_0_l_bar_back" type="basicScale|scaleTo:0.46;ease:easeOutBounce;" object="l_bar_back"  startTime="3.80" endTime="4.80" description="" />
+<animation id="s_0_0_l_bar" type="basicScale|scaleTo:{{bar_before}},0.05;ease:easeOutBounce;" object="l_bar"  startTime="4.80" endTime="5.30" description="" />
+<animation id="s_0_0_l_10" type="basicScale|scaleTo:0.106;ease:easeOutBounce;" object="l_10"  startTime="4.50" endTime="5.30" description="" />
+
+
+<animation id="l_feedback_appear" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_feedback" positionStart="0.500:0.5" startTime="5.6" endTime="6.1" description=" appearing order: 0" />
+<animation id="l_feedback_scale" type="basicScale|scaleTo:0.5;ease:easeOutBounce" object="l_feedback" startTime="5.6" endTime="6.6" description="show appear with bounce" />
+<animation id="l_feedback_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_feedback" startTime="8" endTime="9" description="diappear with scale" />
+<animation id="l_feedback_disappear2" type="basicOpacity|opacity:0;" object="l_feedback" startTime="8" endTime="9" description="diappear with opacity" />
+
+<animation id="disppear-wronganswers" type="disappearFade" object="l_6,l_5,l_8,l_8_t,l_5_t,l_6_t" startTime="9" endTime="10" />
+
+<animation id="m_0_0_l_5" type="basicMove|axis:xy;ease:easeOutBounce;" object="l_7" positionEnd="0.500:0.620" startTime="10" endTime="11" description="" />
+
+<animation id="m_0_0_l_5_t" type="basicMove|axis:xy;ease:easeOutBounce;" object="l_7_t" positionEnd="0.500:0.595" startTime="10" endTime="11" description="" />
+
+<animation id="appear_l_21" type="appearFade|scaleTo:0.302;opacity:1;anchorPoint:0.5,0.5" object="l_21" positionStart="0.5:0.8" startTime="11" endTime="12" description=" appearing order: 8" />
+<animation id="appear_l_22" type="appearFade|scaleTo:0.18;opacity:1;anchorPoint:0.5,0.5" object="l_22" positionStart="0.5:0.8" startTime="11" endTime="12" description=" appearing order: 9" />
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="5.5" endTime="onUserEvent"/>
+
+<interaction id="ready-click3" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_7" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','{{feedback_correct}}']||setVar::['next_scene_id','expression', '6']" />
+
+<interaction id="ready-click2" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_6" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','{{feedback_wrong}}']||setVar::['next_scene_id','expression', '5']" />
+
+<interaction id="ready-click1" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_5" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','{{feedback_wrong}}']||setVar::['next_scene_id','expression', '5']" />
+
+<interaction id="ready-click4" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_8" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','{{feedback_wrong}}']||setVar::['next_scene_id','expression', '5']" />
+
+
+</igml>

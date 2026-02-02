@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#CCCCCC" strokeWidth="0" action="link" editable="true"/>
+
+<object id="shadow_1" type="image" src="graphics/general/environment/climate_change/sandstone/shadow.svg" action="link" editable="true" />
+
+<object id="bigstone_2" type="image" src="graphics/general/environment/climate_change/sandstone/bigstone.svg" action="link" editable="true" />
+
+<object id="smallstone_3" type="image" src="graphics/general/environment/climate_change/sandstone/smallstone.svg" action="link" editable="true" />
+
+<object id="line_4" type="image" src="graphics/general/environment/climate_change/sandstone/line.svg" action="link" editable="true" />
+
+<object id="arrowup_5" type="image" src="graphics/general/environment/climate_change/sandstone/arrowup.svg" action="link" editable="true" />
+
+<object id="arrowdown_6" type="image" src="graphics/general/environment/climate_change/sandstone/arrowdown.svg" action="link" editable="true" />
+
+<object id="label_7" type="image" src="graphics/general/environment/climate_change/sandstone/label.svg" action="link" editable="true" />
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shadow_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="shadow_1" positionStart="0.486:0.698" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bigstone_2" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="bigstone_2" positionStart="0.452:-0.617" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_smallstone_3" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="smallstone_3" positionStart="0.548:-0.481" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_4" type="appearFade|scaleTo:0.01,0;opacity:1;anchorPoint:0.5,0.5" object="line_4" positionStart="0.555:0.61" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_arrowup_5" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="arrowup_5" positionStart="0.555:0.49" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_arrowdown_6" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="arrowdown_6" positionStart="0.555:0.72" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_label_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="label_7" positionStart="0.5:0.851" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_4_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:1.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_2_shadow_10" type="basicScale|scaleTo:0.300;ease:easeOutQuart;" object="shadow_1"  startTime="1.30" endTime="1.50" />
+<animation id="key_0_shadow_11" type="basicScale|scaleTo:0.200;ease:easeOutQuart;" object="shadow_1"  startTime="1.50" endTime="1.70" />
+<animation id="key_1_shadow_12" type="basicScale|scaleTo:0.300;ease:easeOutQuart;" object="shadow_1"  startTime="1.70" endTime="1.90" />
+
+<animation id="key_6_bigstone_20" type="basicMove|ease:easeOutBounce;" object="bigstone_2" positionStart="0.452:-0.617"  positionEnd="0.452:0.483"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+<animation id="key_2_smallstone_30" type="basicMove|ease:easeOutBounce;" object="smallstone_3" positionStart="0.548:-0.481"  positionEnd="0.548:0.599"  positionRelativeTo="scene" startTime="1.40" endTime="2.40" />
+
+<animation id="key_4_line_40" type="basicScale|scaleTo:0.010,0.250" object="line_4"  startTime="3.00" endTime="4.00" />
+
+
+
+
+
+<animation id="key_1_label_70" type="basicScale|scaleTo:0.600;ease:easeInOutSine;" object="label_7"  startTime="3.00" endTime="3.70" />
+<animation id="key_2_label_71" type="basicScale|scaleTo:0.500;ease:easeInOutSine;" object="label_7"  startTime="3.70" endTime="3.90" />
+
+
+
+
+
+ </igml>

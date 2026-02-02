@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Negative numbers and giving money away" description="When we give away several times the same amount of money we can multiply it with a negative number." author="Dimitar Mehandjiev" date="21/03/2022">
+<object type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/music1-piece8_1.mp3" id="vo0"/>
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/tablet-blackboard.svg" editable="true" description=""/>
+<object id="l_1" type="image" src="graphics/education/vizlai-school/math/common/number-2.svg" editable="true" description=""/>
+<object id="l_2" type="image" src="graphics/education/vizlai-school/math/common/number-3.svg" editable="true" description=""/>
+<object id="l_3" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-lightblue.svg" editable="true" description=""/>
+<object id="l_4" type="image" src="graphics/education/vizlai-school/math/common/number-6.svg" editable="true" description=""/>
+<object id="l_5" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication.svg" editable="true" description=""/>
+<object id="l_6" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true" description=""/>
+<object id="l_7" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true" description=""/>
+<object id="l_8" type="image" src="graphics/education/vizlai-school/generic/plus-white.svg" editable="true" description=""/>
+<object id="l_9" type="image" src="graphics/finance/money/coin-one-falling.svg" editable="true" description=""/>
+<object id="l_10" type="image" src="graphics/finance/money/coin-two-falling.svg" editable="true" description=""/>
+<object id="l_11" type="image" src="graphics/finance/money/coin-one-falling.svg" editable="true" description=""/>
+<object id="l_12" type="image" src="graphics/finance/money/coin-two-falling.svg" editable="true" description=""/>
+<object id="l_13" type="image" src="graphics/characters/vizlai-school/teen1/avatar.svg" editable="true" description=""/>
+<object id="l_14" type="image" src="graphics/shopping/wallet-closed.svg" editable="true" description=""/>
+<animation id="appear_l_0" type="appearFade|scaleTo:0.579;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.679:1.625" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.535:0.534" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.662:0.536" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.725:0.535" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.820:0.533" startTime="0" endTime="0" description=" appearing order: 4"/>
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.585:0.517" startTime="0" endTime="0" description=" appearing order: 5"/>
+<animation id="appear_l_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.496:0.537" startTime="0" endTime="0" description=" appearing order: 6"/>
+<animation id="appear_l_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.626:0.536" startTime="0" endTime="0" description=" appearing order: 7"/>
+<animation id="appear_l_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.773:0.536" startTime="0" endTime="0" description=" appearing order: 8"/>
+<animation id="appear_l_9" type="appearFade|scaleTo:0.098;opacity:0;anchorPoint:0.5,0.5" object="l_9" positionStart="0.152:0.12" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="appear_l_10" type="appearFade|scaleTo:0.091;opacity:0;anchorPoint:0.5,0.5" object="l_10" positionStart="0.265:0.1" startTime="0" endTime="0" description=" appearing order: 10"/>
+<animation id="appear_l_11" type="appearFade|scaleTo:0.098;opacity:0;anchorPoint:0.5,0.5" object="l_11" positionStart="0.147:0.12" startTime="0" endTime="0" description=" appearing order: 11"/>
+<animation id="appear_l_12" type="appearFade|scaleTo:0.091;opacity:0;anchorPoint:0.5,0.5" object="l_12" positionStart="0.260:0.1" startTime="0" endTime="0" description=" appearing order: 12"/>
+<animation id="appear_l_13" type="appearFade|scaleTo:0.283;opacity:1;anchorPoint:0.5,0.5" object="l_13" positionStart="0.208:-0.4" startTime="0" endTime="0" description="character appear"/>
+<animation id="appear_l_14" type="appearFade|scaleTo:0.220;opacity:1;anchorPoint:0.5,0.5" object="l_14" positionStart="0.194:1.2" startTime="0" endTime="0" description=" appearing order: 14"/>
+
+<animation id="appear_l_13" type="basicMove|ease:easeOutExpo" object="l_13" positionEnd="0.208:0.216" startTime="0.1" endTime="1" description="Item folling from top"/>
+<animation id="appear_l_13" type="basicMove|ease:easeOutExpo" object="l_14" positionEnd="0.194:0.638" startTime="0.9" endTime="2" description="Item folling from top"/>
+
+<animation id="o_0_0_l_9" type="basicOpacity|opacity:1;" object="l_9" startTime="2.7" endTime="3" description=""/>
+<animation id="o_0_0_l_10" type="basicOpacity|opacity:1;" object="l_10" startTime="3" endTime="3.3" description=""/>
+<animation id="o_0_0_l_11" type="basicOpacity|opacity:1;" object="l_11" startTime="4.8" endTime="5.1" description=""/>
+<animation id="o_0_0_l_12" type="basicOpacity|opacity:1;" object="l_12" startTime="5" endTime="5.3" description=""/>
+
+<animation id="m_0_0_l_9" type="basicMove|axis:xy;ease:easeInSine;" object="l_9" positionEnd="0.152:0.498" startTime="2.75" endTime="3.75" description=""/>
+<animation id="m_0_0_l_10" type="basicMove|axis:xy;ease:easeInSine;" object="l_10" positionEnd="0.265:0.498" startTime="3" endTime="4" description=""/>
+<animation id="o_0_1_l_9" type="basicOpacity|opacity:0;" object="l_9" startTime="3.75" endTime="3.75" description=""/>
+<animation id="o_0_1_l_10" type="basicOpacity|opacity:0;" object="l_10" startTime="4" endTime="4" description=""/>
+
+<animation id="m_0_0_l_11" type="basicMove|axis:xy;ease:easeInSine;" object="l_11" positionEnd="0.147:0.498" startTime="4.75" endTime="5.75" description=""/>
+<animation id="m_0_0_l_12" type="basicMove|axis:xy;ease:easeInSine;" object="l_12" positionEnd="0.260:0.498" startTime="5" endTime="6" description=""/>
+<animation id="o_0_1_l_11" type="basicOpacity|opacity:0;" object="l_11" startTime="5.75" endTime="5.75" description=""/>
+<animation id="o_0_1_l_12" type="basicOpacity|opacity:0;" object="l_12" startTime="6" endTime="6" description=""/>
+
+
+<animation id="s_0_1_l_14" type="basicScale|scaleTo:0.245;ease:easeOutBounce" object="l_14" startTime="3.5" endTime="4" description=""/>
+<animation id="s_0_1_l_14" type="basicScale|scaleTo:0.27;ease:easeOutBounce" object="l_14" startTime="5.5" endTime="6" description=""/>
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.679:0.625" startTime="6.5" endTime="7.5" description=""/>
+
+<animation id="appear_l_6" type="basicScale|scaleTo:0.027;ease:easeOutBounce" object="l_6" startTime="7.5" endTime="8" description=" appearing order: 6"/>
+<animation id="appear_l_1" type="basicScale|scaleTo:0.047;ease:easeOutBounce" object="l_1" startTime="7.7" endTime="8.2" description=" appearing order: 6"/>
+<animation id="appear_l_5" type="basicScale|scaleTo:0.037;ease:easeOutBounce" object="l_5" startTime="7.9" endTime="8.4" description=" appearing order: 6"/>
+<animation id="appear_l_7" type="basicScale|scaleTo:0.027;ease:easeOutBounce" object="l_7" startTime="8.1" endTime="8.6" description=" appearing order: 6"/>
+<animation id="appear_l_2" type="basicScale|scaleTo:0.045;ease:easeOutBounce" object="l_2" startTime="8.3" endTime="8.8" description=" appearing order: 6"/>
+<animation id="appear_l_3" type="basicScale|scaleTo:0.05;ease:easeOutBounce" object="l_3" startTime="8.5" endTime="9" description=" appearing order: 6"/>
+<animation id="appear_l_8" type="basicScale|scaleTo:0.027;ease:easeOutBounce" object="l_8" startTime="8.7" endTime="9.2" description=" appearing order: 6"/>
+<animation id="appear_l_4" type="basicScale|scaleTo:0.050;ease:easeOutBounce" object="l_4" startTime="8.9" endTime="9.4" description=" appearing order: 6"/>
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8,l_9,l_10,l_11,l_12,l_13,l_14" positionRelativeTo="scene" startTime="12" endTime="12"/>
+
+
+<animation type="playSound|loop:false" id="play-vo0" object="vo0" startTime="0.0" endTime="12"/>
+</igml>

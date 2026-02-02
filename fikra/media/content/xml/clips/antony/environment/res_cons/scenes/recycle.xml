@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#99CE4D" strokeWidth="0" action="link" editable="true"/>
+
+<object id="bag_1" type="image" src="graphics/general/environment/res_cons/recycle/bag.svg" action="link" editable="true" />
+
+<object id="straw_2" type="image" src="graphics/general/environment/res_cons/recycle/straw.svg" action="link" editable="true" />
+
+<object id="trash_3" type="image" src="graphics/general/environment/res_cons/recycle/trash.svg" action="link" editable="true" />
+
+<object id="label_4" type="image" src="graphics/general/environment/res_cons/recycle/label.svg" action="link" editable="true" />
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:1.8" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bag_1" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="bag_1" positionStart="0.226:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_straw_2" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="straw_2" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_trash_3" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="trash_3" positionStart="0.76:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_label_4" type="appearFade|scaleTo:0.38;opacity:1;anchorPoint:0.5,0.5" object="label_4" positionStart="0.5:1.8" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_0_bg_00" type="basicMove|ease:easeOutSine;" object="bg_0" positionStart="0.500:1.800"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_6_bag_10" type="basicMove|ease:easeInOutSine;" object="bag_1" positionStart="0.226:1.500"  positionEnd="0.226:0.450"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_7_bag_11" type="basicMove|ease:easeInOutSine;" object="bag_1" positionStart="0.226:0.450"  positionEnd="0.226:0.500"  positionRelativeTo="scene" startTime="2.00" endTime="2.20" />
+
+<animation id="key_4_straw_20" type="basicMove|ease:easeInOutSine;" object="straw_2" positionStart="0.500:1.500"  positionEnd="0.500:0.450"  positionRelativeTo="scene" startTime="1.50" endTime="2.50" />
+<animation id="key_2_straw_21" type="basicMove|ease:easeInOutSine;" object="straw_2" positionStart="0.500:0.450"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="2.50" endTime="2.70" />
+
+<animation id="key_3_trash_30" type="basicMove|ease:easeInOutSine;" object="trash_3" positionStart="0.760:1.500"  positionEnd="0.760:0.450"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_6_trash_31" type="basicMove|ease:easeInOutSine;" object="trash_3" positionStart="0.760:0.450"  positionEnd="0.760:0.500"  positionRelativeTo="scene" startTime="3.00" endTime="3.20" />
+
+<animation id="key_3_label_40" type="basicMove|ease:easeOutExpo;" object="label_4" positionStart="0.500:1.800"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+
+
+
+<animation id="disppear-scene" type="disappearFade" object="label_4,trash_3,straw_2,bag_1,bg_0" positionRelativeTo="scene" startTime="12" endTime="12" />
+
+
+ </igml>

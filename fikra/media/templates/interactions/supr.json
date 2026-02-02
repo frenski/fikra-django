@@ -1,0 +1,102 @@
+{
+  "objects":{
+    "question_statement": {
+      "text":"Which one is bigger?"
+    },
+    "icon1": {
+      "src":"graphics/design-components/shapes/dot-purple-per20.svg"
+    },
+    "icon2": {
+      "src":"graphics/design-components/shapes/dot-purple-per40.svg"
+    },
+    "icon3": {
+      "src":"graphics/design-components/shapes/dot-purple-per60.svg"
+    },
+    "icon4": {
+      "src":"graphics/design-components/shapes/dot-purple-per80.svg"
+    },
+    "icon5": {
+      "src":"graphics/design-components/shapes/dot-purple-per100.svg"
+    },
+    "answer_text0": {
+      "text":"Item 3"
+    },
+    "answer_text1": {
+      "text":"Item 5"
+    },
+    "answer_text2": {
+      "text":"Item 1"
+    },
+    "answer_text3": {
+      "text":"Item 4"
+    },
+    "answer_text4": {
+      "text":"Item 2"
+    },
+    "cor_text0": {
+      "text":"Item 1"
+    },
+    "cor_text1": {
+      "text":"Item 2"
+    },
+    "cor_text2": {
+      "text":"Item 3"
+    },
+    "cor_text3": {
+      "text":"Item 4"
+    },
+    "cor_text4": {
+      "text":"Item 5"
+    },
+    "scale values": {
+      "text":" 10db          50db          100db         120db         250db"
+    }
+  },
+  "variables":{
+    "an_opt0": {
+      "default":"Item 1"
+    },
+    "an_opt1": {
+      "default":"Item 2"
+    },
+    "an_opt2": {
+      "default":"Item 3"
+    },
+    "an_opt3": {
+      "default":"Item 4"
+    },
+    "an_opt4": {
+      "default":"Item 5"
+    },
+    "an_txt0": {
+      "default":"Item 3"
+    },
+    "an_txt1": {
+      "default":"Item 5"
+    },
+    "an_txt2": {
+      "default":"Item 1"
+    },
+    "an_txt3": {
+      "default":"Item 4"
+    },
+    "an_txt4": {
+      "default":"Item 2"
+    },
+    "an_sel0": {
+      "default":"2"
+    },
+    "an_sel1": {
+      "default":"4"
+    },
+    "an_sel2": {
+      "default":"0"
+    },
+    "an_sel3": {
+      "default":"3"
+    },
+    "an_sel4": {
+      "default":"1"
+    }
+  }
+}

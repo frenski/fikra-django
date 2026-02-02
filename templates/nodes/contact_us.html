@@ -1,0 +1,29 @@
+{% extends "nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+
+{% block title %} {% trans "Contact Us" %}: {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/contactus.css" %}">
+{% endblock %}
+
+{% block article_main %}
+<div class="main-container contactus">
+
+	<h1 class="contactus-title">{% trans "Contact Us" %}</h1>
+
+	<div class="contactus-subtitle">
+
+		<p>{% trans "We appreciate your interest in Vizipedia." %}</p>
+		<p>{% trans "We would like to partner with organizations and companies with all shapes and sizes. Let us help you to build your idea’s full potencial, using more inviting, engaging and memorable way of interactive explainer videos." %}</p>
+		<p>{% trans "We would be happy to answer your questions. Feel free to say hello at <span>info@vizl.ai</span>" %}</p>
+
+	</div>
+
+
+</div>
+
+{% endblock %}

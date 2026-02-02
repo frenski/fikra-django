@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+<object id="rect_0" type="shape" shapetype="rect" size="0.5,1" color="#99CE4D" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,0.5" color="#11698C" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_2" type="shape" shapetype="rect" size="0.5,0.5" color="#E9F7B9" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#4CB2F2" strokeWidth="0" action="link" editable="true"/>
+
+<object id="bike_5" type="image" src="graphics/general/environment/res_cons/quatr_items/bike.svg" action="link" editable="true" />
+
+<object id="monitor_6" type="image" src="graphics/general/environment/res_cons/quatr_items/monitor.svg" action="link" editable="true" />
+
+<object id="notebook_7" type="image" src="graphics/general/environment/res_cons/quatr_items/notebook.svg" action="link" editable="true" />
+
+<object id="lightbulb_8" type="image" src="graphics/general/environment/res_cons/quatr_items/lightbulb.svg" action="link" editable="true" />
+
+
+
+<animation id="appear_rect_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_0" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.993:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_2" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_2" positionStart="-0.007:-1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="0.993:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bike_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="bike_5" positionStart="0.244:0.785" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_monitor_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="monitor_6" positionStart="0.755:0.785" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_notebook_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="notebook_7" positionStart="0.244:0.233" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_lightbulb_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="lightbulb_8" positionStart="0.75:0.233" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_8_rect_00" type="basicMove|ease:easeOutExpo;" object="rect_0" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_0_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.993:3.000"  positionEnd="0.993:0.400"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_7_rect_20" type="basicMove|ease:easeOutExpo;" object="rect_2" positionStart="-0.007:-1.500"  positionEnd="-0.007:-0.380"  positionRelativeTo="scene" startTime="0.90" endTime="1.40" />
+
+<animation id="key_6_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="0.993:3.000"  positionEnd="0.993:1.400"  positionRelativeTo="scene" startTime="1.20" endTime="1.70" />
+
+<animation id="key_2_notebook_70" type="basicScale|scaleTo:0.400;ease:easeInOutSine;" object="notebook_7"  startTime="2.00" endTime="2.30" />
+<animation id="key_2_notebook_71" type="basicScale|scaleTo:0.140;ease:easeInOutSine;" object="notebook_7"  startTime="2.30" endTime="2.40" />
+<animation id="key_8_notebook_72" type="basicScale|scaleTo:0.180;ease:easeInOutSine;" object="notebook_7"  startTime="2.40" endTime="2.40" />
+<animation id="key_7_notebook_73" type="basicScale|scaleTo:0.180;ease:easeInOutSine;" object="notebook_7"  startTime="2.40" endTime="122.00" />
+
+<animation id="key_1_lightbulb_80" type="basicScale|scaleTo:0.400;ease:easeInOutSine;" object="lightbulb_8"  startTime="2.20" endTime="2.50" />
+<animation id="key_0_lightbulb_81" type="basicScale|scaleTo:0.140;ease:easeInOutSine;" object="lightbulb_8"  startTime="2.50" endTime="2.60" />
+<animation id="key_3_lightbulb_82" type="basicScale|scaleTo:0.180;ease:easeInOutSine;" object="lightbulb_8"  startTime="2.60" endTime="2.60" />
+<animation id="key_5_lightbulb_83" type="basicScale|scaleTo:0.180;ease:easeInOutSine;" object="lightbulb_8"  startTime="2.60" endTime="122.20" />
+
+
+<animation id="key_4_bike_110" type="basicScale|scaleTo:0.270" object="bike_5"  startTime="4.10" endTime="5.40" />
+<animation id="key_7_bike_111" type="basicScale|scaleTo:0.180" object="bike_5"  startTime="5.40" endTime="6.80" />
+<animation id="key_5_bike_112" type="basicScale|scaleTo:0.180" object="bike_5"  startTime="6.80" endTime="7.30" />
+
+
+<animation id="key_1_monitor_120" type="basicScale|scaleTo:0.270" object="monitor_6"  startTime="13.50" endTime="14.80" />
+<animation id="key_0_monitor_121" type="basicScale|scaleTo:0.180" object="monitor_6"  startTime="14.80" endTime="15.50" />
+<animation id="key_6_monitor_122" type="basicScale|scaleTo:0.180" object="monitor_6"  startTime="15.50" endTime="16.30" />
+
+
+
+
+
+<animation id="disppear-scene" type="disappearFade" object="rect_0,rect_1,rect_2,rect_3,bike_5,monitor_6,notebook_7,lightbulb_8" positionRelativeTo="scene" startTime="30" endTime="30" />
+
+
+
+ </igml>

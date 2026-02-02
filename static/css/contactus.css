@@ -1,0 +1,63 @@
+.contactus {
+	color: white;
+	padding: 1.2em 5%;
+	margin: 0;
+	background-color: #241f51;
+  background-image: url('../img/contactus-back.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 40%;
+}
+
+.contactus-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.6em;
+  margin-top: 1.5em;
+}
+
+.contactus-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 1.6em 0;
+}
+
+.contactus-subtitle span {
+	color: #915aff;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .channel {
+    width: 47%;
+    margin: 1em 3% 1em 0;
+    float: left;
+  }
+
+  .contactus-subtitle {
+    max-width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .contactus-title {
+    margin-top: 2em;
+  }
+
+  .contactus-subtitle {
+    margin: 2em 0 4em 0;
+  }
+
+}
+
+@media only screen and (min-width: 1440) {
+
+}

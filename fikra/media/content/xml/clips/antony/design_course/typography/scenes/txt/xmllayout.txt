@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="rect0" type="shape" shapetype="rect" size="0.5,0.53" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect1" type="shape" shapetype="rect" size="0.5,0.5" color="#6966F3" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect2" type="shape" shapetype="rect" size="0.2,0.4" color="#3533AD" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect3" type="shape" shapetype="rect" size="0.2,0.4" color="#F5EE99" strokeWidth="0" action="link" editable="true"/>
+
+<object id="monitor_4" type="image" src="graphics/design/typo/layout1/monitor.svg" action="link" editable="true" />
+
+<object id="book_5" type="image" src="graphics/design/typo/layout1/book.svg" action="link" editable="true" />
+
+<object id="stop_6" type="image" src="graphics/design/typo/layout1/stop.svg" action="link" editable="true" />
+
+<object id="milk_7" type="image" src="graphics/design/typo/layout1/milk.svg" action="link" editable="true" />
+
+
+<animation id="appear_rect0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect0" positionStart="0.5:2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect1" positionStart="1.65:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect2" type="appearFade|scaleTo:0.5,0.6;opacity:1; anchorPoint:0.5,0.5;" object="rect2" positionStart="0.80:1.35" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect3" type="appearFade|scaleTo:0.3,0.6;opacity:1; anchorPoint:0.5,0.5;" object="rect3" positionStart="0.93:1.35" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_monitor_4" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="monitor_4" positionStart="0.283:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_book_5" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5:0.5" object="book_5" positionStart="1.2:0.279" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_stop_6" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="stop_6" positionStart="0.66:1.52" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_milk_7" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="milk_7" positionStart="0.891:1.52" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_8_rect00" type="basicMove|ease:easeOutExpo;" object="rect0" positionStart="0.500:2.000"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_2_rect10" type="basicMove|ease:easeOutExpo;" object="rect1" positionStart="1.650:0.500"  positionEnd="1.050:0.500"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_5_rect20" type="basicMove|ease:easeOutExpo;" object="rect2" positionStart="0.800:1.350"  positionEnd="0.800:0.850"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+
+<animation id="key_6_rect30" type="basicMove|ease:easeOutExpo;" object="rect3" positionStart="0.930:1.350"  positionEnd="0.930:0.850"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+
+<animation id="key_5_monitor_40" type="basicMove" object="monitor_4" positionStart="0.283:1.400"  positionEnd="0.283:0.400"  positionRelativeTo="scene" startTime="1.10" endTime="1.60" />
+<animation id="key_5_monitor_41" type="basicMove" object="monitor_4" positionStart="0.283:0.400"  positionEnd="0.283:0.550"  positionRelativeTo="scene" startTime="1.60" endTime="2.00" />
+<animation id="key_1_monitor_42" type="basicMove" object="monitor_4" positionStart="0.283:0.550"  positionEnd="0.283:0.550"  positionRelativeTo="scene" startTime="2.00" endTime="5.80" />
+
+<animation id="key_2_book_50" type="basicMove|ease:easeOutExpo;" object="book_5" positionStart="1.200:0.279"  positionEnd="0.780:0.279"  positionRelativeTo="scene" startTime="1.85" endTime="2.50" />
+
+<animation id="key_6_stop_60" type="basicMove" object="stop_6" positionStart="0.660:1.520"  positionEnd="0.660:0.720"  positionRelativeTo="scene" startTime="2.20" endTime="2.70" />
+<animation id="key_6_stop_61" type="basicMove" object="stop_6" positionStart="0.660:0.720"  positionEnd="0.660:0.770"  positionRelativeTo="scene" startTime="2.70" endTime="3.10" />
+<animation id="key_4_stop_62" type="basicMove" object="stop_6" positionStart="0.660:0.770"  positionEnd="0.660:0.770"  positionRelativeTo="scene" startTime="3.10" endTime="6.90" />
+
+<animation id="key_6_milk_70" type="basicMove|ease:easeOutExpo;" object="milk_7" positionStart="0.891:1.520"  positionEnd="0.891:0.720"  positionRelativeTo="scene" startTime="2.30" endTime="2.80" />
+<animation id="key_1_milk_71" type="basicMove|ease:easeOutExpo;" object="milk_7" positionStart="0.891:0.720"  positionEnd="0.891:0.770"  positionRelativeTo="scene" startTime="2.80" endTime="3.20" />
+<animation id="key_4_milk_72" type="basicMove|ease:easeOutExpo;" object="milk_7" positionStart="0.891:0.770"  positionEnd="0.891:0.770"  positionRelativeTo="scene" startTime="3.20" endTime="7.00" />
+
+
+
+
+ </igml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#ffd769" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_1" type="image" src="graphics/music/instruments/violin-flat-orange.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/music/instruments/synthesizer-blue.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/music/instruments/guitar-flat-pink.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/music/instruments/trumpet-flat-purple.svg" editable="true" description=""  />
+<object id="l_5" type="shape" shapetype="path" color="none" stroke="#000000" strokeWidth="10" size="0,0,3051,640" path="M3050,156.7c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-7.9-29.3-20.8-43.9-33.7-43.7c-12.6-0.8-25.3,12.6-33.5,40.4l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3L2090,156.7c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3c0,0-50.6-188.5-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2L1131,156.4c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-7.9-29.3-20.8-43.9-33.7-43.7c-12.6-0.8-25.3,12.6-33.5,40.4l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3L171,156.7c-15.3-56.9-49.6-58.6-65.8-3.3c0,0-36.4,103.1-105.2,103.1" editable="true" />
+<object id="l_6" type="shape" shapetype="path" color="none" stroke="#000000" strokeWidth="10" size="0,0,3051,640" path="M3050,156.7c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-7.9-29.3-20.8-43.9-33.7-43.7c-12.6-0.8-25.3,12.6-33.5,40.4l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3L2090,156.7c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3c0,0-50.6-188.5-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2L1131,156.4c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-7.9-29.3-20.8-43.9-33.7-43.7c-12.6-0.8-25.3,12.6-33.5,40.4l-57.4,195.2c-16.2,55.3-50.6,53.5-65.8-3.3l-50.6-188.5c-15.3-56.9-49.6-58.6-65.8-3.3l-57.4,195.4c-16.2,55.2-50.5,53.5-65.8-3.2l-50.9-189.1c-15.3-56.8-49.6-58.5-65.8-3.2l-57.4,195.4c-16.2,55.3-50.6,53.5-65.8-3.3L171,156.7c-15.3-56.9-49.6-58.6-65.8-3.3c0,0-36.4,103.1-105.2,103.1" editable="true" />
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.501:1.501" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.824:0.162" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.941;opacity:0;anchorPoint:0.5,0.5" object="l_2" positionStart="0.505:1.633" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.499:0.125" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.192:0.164" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:6,0.15;opacity:0;anchorPoint:0.5,0.5" object="l_5" positionStart="1:0.36" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:6,0.15;opacity:0;anchorPoint:0.5,0.5" object="l_6" positionStart="1.23:0.36" startTime="0" endTime="0" description=" appearing order: 5" />
+
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.60" endTime="1.60" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.501:0.501" startTime="0.60" endTime="1.60" description="" />
+<animation id="s_0_0_l_1" type="basicScale|scaleTo:0.184;ease:easeOutBounce;" object="l_1"  startTime="2.70" endTime="3.70" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_2"  startTime="1.20" endTime="2.20" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_2" positionEnd="0.505:0.633" startTime="1.20" endTime="2.20" description="" />
+<animation id="s_0_0_l_3" type="basicScale|scaleTo:0.074;ease:easeOutBounce;" object="l_3"  startTime="3.40" endTime="4.40" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.181;ease:easeOutBounce;" object="l_4"  startTime="4.10" endTime="5.10" description="" />
+
+<animation id="o_0_0_l_5" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_5"  startTime="5" endTime="6" description="" />
+<animation id="m_0_0_l_5" type="basicMove|axis:xy;ease:linear;" object="l_5" positionEnd="0.15:0.36" startTime="5" endTime="12" description="" />
+
+<animation id="o_0_0_l_6" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_6"  startTime="5" endTime="6" description="" />
+<animation id="m_0_0_l_6" type="basicMove|axis:xy;ease:linear;" object="l_6" positionEnd="0.39:0.36" startTime="5" endTime="12" description="" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_3,l_4,l_5" positionRelativeTo="scene" startTime="13" endTime="14" />
+
+
+</igml>

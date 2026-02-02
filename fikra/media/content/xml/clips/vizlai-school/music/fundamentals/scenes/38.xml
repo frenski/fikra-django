@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#448efb" strokeWidth="0" stroke="" editable="true" description="" />
+<object id="l_1" type="image" src="graphics/stillife/art-materials/art-instruments/tripod-flat-yellow.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/design-components/icons/man-head-flat-profile-white-brain.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/nature/leafs-plants/leaf-sea-flat.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/nature/leafs-plants/leaf-sea-flat.svg" editable="true" description=""  />
+<object id="l_5" type="image" src="graphics/nature/animals/flat-animals/fish-red-orange-flat.svg" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/nature/animal-icon/minimalistic-fish.svg" editable="true" description=""  />
+<object id="path_1" type="shape" shapetype="path" color="#22b573" stroke="#22b573" strokeWidth="9" size="0,0,1080,1080" path="M406.7,431.2c150.2-87.4,200.3,25.7,302.5,20.1c41.5-2.3,99.4-8.5,124-30.7" editable="true" />
+
+<object id="path_2" type="shape" shapetype="path" color="#22b573" stroke="#22b573" strokeWidth="9" size="0,0,1080,1080" path="M406.7,431.2c150.2-87.4,200.3,25.7,302.5,20.1c41.5-2.3,99.4-8.5,124-30.7" editable="true" />
+
+<object id="l_11" type="image" src="graphics/architecture/japanese-house.svg" editable="true" description=""  />
+<object id="l_12" type="image" src="graphics/music/symbols/musical-note4.svg" editable="true" description=""  />
+<object id="l_13" type="image" src="graphics/music/symbols/musical-note1.svg" editable="true" description=""  />
+<object id="l_14" type="image" src="graphics/design-components/icons/question_icon_01.svg" editable="true" description=""  />
+
+<animation id="appear_l_0" type="appearFromSide|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5;ease:easeOutExpo;" object="l_0" positionStart="-1.500:0.500" positionEnd="0.500:0.500" startTime="0" endTime="1" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFromShadowMask|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.316:0.507" startTime="1" endTime="2" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFromSide|scaleTo:0.306;opacity:1;direction:rtl;anchorPoint:0.5,0.5;ease:easeOutExpo;" object="l_2" positionStart="1.783:0.465" positionEnd="0.217:0.465" startTime="3" endTime="4" description=" appearing order: 2" />
+
+<animation id="draw-path" type="drawPathOfShapes|scaleTo:0.55;shapeType:circ;intervalGap:15" object="path_1" positionStart="0:0.025" positionRelativeTo="scene" startTime="5" endTime="7" />
+
+
+<animation id="appear_l_3" type="appearFade|scaleTo:0.030;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.747:0.332" startTime="9" endTime="10" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0.046;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.888:0.348" startTime="8.5" endTime="9.5" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0.093;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.816:0.339" startTime="7" endTime="8" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0.190;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.324:0.465" startTime="2" endTime="3" description=" appearing order: 6" />
+
+<animation id="appear_l_11" type="appearFromShadowMask|scaleTo:0.379;opacity:1;anchorPoint:0.5,0.5" object="l_11" positionStart="0.267:0.455" startTime="12" endTime="13" description=" appearing order: 1" />
+<animation id="appear_l_12" type="appearFade|scaleTo:0.048;opacity:1;anchorPoint:0.5,0.5" object="l_12" positionStart="0.450:0.163" startTime="13" endTime="14" description=" appearing order: 2" />
+<animation id="appear_l_13" type="appearFade|scaleTo:0.065;opacity:1;anchorPoint:0.5,0.5" object="l_13" positionStart="0.356:0.225" startTime="14" endTime="15" description=" appearing order: 3" />
+
+<animation id="m_l_12" type="basicMove" object="l_12" positionEnd="0.45:-0.3" startTime="13" endTime="19" />
+<animation id="m_l_13" type="basicMove" object="l_13" positionEnd="0.45:-0.3" startTime="14" endTime="20" />
+
+<animation id="draw-path2" type="drawPathOfShapes|scaleTo:0.55;shapeType:circ;intervalGap:15" object="path_2" positionStart="0:0.025" positionRelativeTo="scene" startTime="15" endTime="17" />
+
+<animation id="appear_l_14" type="appearFade|scaleTo:0.079;opacity:1;anchorPoint:0.5,0.5" object="l_14" positionStart="0.829:0.341" startTime="17" endTime="18" description=" appearing order: 4" />
+
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_1,l_3,l_4,l_5,l_6,path_1,path_2,l_11,l_12,l_13,l_14" positionRelativeTo="scene" startTime="11" endTime="12" />
+
+</igml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="True false interaction" description="Basic true/false interaction" author="Vizlai" date="07/02/2023" preventEvents="1">
+
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#EEEEF4" strokeWidth="0" action="link:"/>
+
+<object id="question_statement" type="text" text="Is it true that we need to connect with others?" size="32" align="center" color="#1E0F4A" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.6" weight="0" editable="true"/>
+<object id="icon1" type="image" src="graphics/education/vizlai-school/generic/correct1.svg" editable="false"/>
+<object id="icon2" type="image" src="graphics/education/vizlai-school/generic/wrong1.svg" editable="false"/>
+<object id="line-up" type="shape" shapetype="path" color="#1E0F4A" stroke="#1E0F4A" strokeWidth="2" path="M19.4,520V18" size="0,0,50,400"/>
+
+<object id="l_feedback" type="text" text="Wrong" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700"/>
+
+<variable id="correct" type="int" default="0"/>
+<variable id="feedback" type="string" default="Wrong" reference="l_feedback.text" resetReplayParams="true"/>
+<variable id="feedback_wrong" type="string" default="Wrong" resetReplayParams="true"/>
+<variable id="feedback_correct" type="string" default="Correct" resetReplayParams="true"/>
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_question_statement" type="appearFade|scaleTo:0.75;opacity:0;anchorPoint:0.5,0.5" object="question_statement" positionStart="0.500:-0.25" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_icon2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="icon2" positionStart="0.75:0.5" startTime="0" endTime="0" description=""/>
+<animation id="appear_icon1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="icon1" positionStart="0.25:0.5" startTime="0" endTime="0" description=""/>
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description=""/>
+
+<animation id="m_0_0_question_statement" type="basicMove|axis:xy;ease:easeOutExpo;" object="question_statement" positionEnd="0.500:0.15" startTime="1.7" endTime="3.15" description=""/>
+<animation id="o_0_0_question_statement" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="question_statement" startTime="1.70" endTime="3.15" description=""/>
+
+<animation id="s_0_0_icon2" type="basicScale|scaleTo:0.12;ease:easeOutBounce;" object="icon2" startTime="4.40" endTime="5.40" description=""/>
+<animation id="s_0_0_icon1" type="basicScale|scaleTo:0.12;ease:easeOutBounce;" object="icon1" startTime="3.40" endTime="4.40" description=""/>
+
+<animation id="draw-line-up" type="drawPathOfShapes|scaleTo:0.05;shapeType:rect;intervalGap:2" object="line-up" positionStart="0.48:0.31" positionRelativeTo="scene" startTime="2" endTime="2.8"/>
+
+
+<animation id="l_feedback_appear" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_feedback" positionStart="0.500:0.5" startTime="5.6" endTime="6.1" description=" appearing order: 0"/>
+<animation id="l_feedback_scale" type="basicScale|scaleTo:0.5;ease:easeOutBounce" object="l_feedback" startTime="5.6" endTime="6.6" description="show appear with bounce"/>
+<animation id="l_feedback_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_feedback" startTime="8" endTime="9" description="diappear with scale"/>
+<animation id="l_feedback_disappear2" type="basicOpacity|opacity:0;" object="l_feedback" startTime="8" endTime="9" description="diappear with opacity"/>
+
+<animation id="disppear-item1" type="disappearToCenter" object="icon2" positionRelativeTo="scene" startTime="9" endTime="10"/>
+<animation id="disppear-item2" type="disappearToCenter" object="icon1" positionRelativeTo="scene" startTime="9" endTime="10"/>
+<animation id="disppear-lineup" type="disappearFade" object="line-up" positionRelativeTo="scene" startTime="9" endTime="10"/>
+<animation id="disppear-text" type="disappearFade" object="question_statement" positionRelativeTo="scene" startTime="10" endTime="11"/>
+<animation id="disppear-back" type="disappearFade|cover:self" object="l_0" positionRelativeTo="scene" startTime="10" endTime="11"/>
+
+
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="5.5" endTime="onUserEvent"/>
+
+<interaction id="ready-click1" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="icon1" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','({{correct}}==0) ? {{feedback_correct}}:{{feedback_wrong}}']"/>
+<interaction id="ready-click2" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="icon2" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','({{correct}}==1) ? {{feedback_correct}}:{{feedback_wrong}}']"/>
+
+
+</igml>

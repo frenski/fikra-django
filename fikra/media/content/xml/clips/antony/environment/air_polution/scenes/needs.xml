@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,0.5" color="#58CB59" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#D7D719" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_5" type="shape" shapetype="rect" size="0.5,0.5" color="#20A6D0" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="glass_7" type="image" src="graphics/general/environment/climate_change/air_needs/glass.svg" action="link" editable="true" />
+
+<object id="noise_8" type="image" src="graphics/general/environment/climate_change/air_needs/noise.svg" action="link" editable="true" />
+
+<object id="branch_9" type="image" src="graphics/general/environment/climate_change/air_needs/branch.svg" action="link" editable="true" />
+
+<object id="shinyThing_10" type="image" src="graphics/general/environment/climate_change/air_needs/shine.svg" action="link" editable="true" />
+
+<object id="shinyThing_11" type="image" src="graphics/general/environment/climate_change/air_needs/shine.svg" action="link" editable="true" />
+
+<object id="shinyThing_12" type="image" src="graphics/general/environment/climate_change/air_needs/shine.svg" action="link" editable="true" />
+
+<object id="shinyThing_13" type="image" src="graphics/general/environment/climate_change/air_needs/shine.svg" action="link" editable="true" />
+
+
+
+
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="-0.50:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="-0.57:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_5" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_5" positionStart="-0.67:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_glass_7" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="glass_7" positionStart="0.15:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_noise_8" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="noise_8" positionStart="0.50:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_branch_9" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="branch_9" positionStart="0.85:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shinyThing_10" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="shinyThing_10" positionStart="0.17:0.44" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shinyThing_11" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="shinyThing_11" positionStart="0.15:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shinyThing_12" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="shinyThing_12" positionStart="0.08:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shinyThing_13" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="shinyThing_13" positionStart="0.20:0.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_0_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="-1.000:0.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_8_rect_10" type="basicMove" object="rect_1" positionStart="0.500:0.500"  positionEnd="0.600:0.500"  positionRelativeTo="scene" startTime="8.45" endTime="8.75" />
+<animation id="key_1_rect_11" type="basicMove" object="rect_1" positionStart="0.600:0.500"  positionEnd="-1.000:0.500"  positionRelativeTo="scene" startTime="8.75" endTime="9.15" />
+
+<animation id="key_6_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="-1.070:0.500"  positionEnd="0.180:0.500"  positionRelativeTo="scene" startTime="0.55" endTime="1.05" />
+
+<animation id="key_1_rect_30" type="basicMove" object="rect_3" positionStart="0.180:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="8.30" endTime="8.60" />
+<animation id="key_6_rect_31" type="basicMove" object="rect_3" positionStart="0.280:0.500"  positionEnd="-1.070:0.500"  positionRelativeTo="scene" startTime="8.60" endTime="9.00" />
+
+<animation id="key_7_rect_50" type="basicMove|ease:easeOutExpo;" object="rect_5" positionStart="-1.170:0.500"  positionEnd="-0.170:0.500"  positionRelativeTo="scene" startTime="0.80" endTime="1.30" />
+
+<animation id="key_7_rect_50" type="basicMove" object="rect_5" positionStart="-0.170:0.500"  positionEnd="-0.020:0.500"  positionRelativeTo="scene" startTime="8.10" endTime="8.40" />
+<animation id="key_2_rect_51" type="basicMove" object="rect_5" positionStart="-0.020:0.500"  positionEnd="-1.170:0.500"  positionRelativeTo="scene" startTime="8.40" endTime="8.80" />
+
+<animation id="key_1_glass_70" type="basicMove" object="glass_7" positionStart="0.150:1.300"  positionEnd="0.150:0.400"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_5_glass_71" type="basicMove" object="glass_7" positionStart="0.150:0.400"  positionEnd="0.150:0.450"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+<animation id="key_6_glass_72" type="basicMove" object="glass_7" positionStart="0.150:0.450"  positionEnd="0.150:0.450"  positionRelativeTo="scene" startTime="2.20" endTime="7.00" />
+<animation id="key_1_glass_73" type="basicMove" object="glass_7" positionStart="0.150:0.450"  positionEnd="0.150:0.350"  positionRelativeTo="scene" startTime="7.00" endTime="7.20" />
+<animation id="key_7_glass_74" type="basicMove" object="glass_7" positionStart="0.150:0.350"  positionEnd="0.150:1.300"  positionRelativeTo="scene" startTime="7.20" endTime="7.50" />
+
+<animation id="key_4_noise_80" type="basicMove" object="noise_8" positionStart="0.500:1.300"  positionEnd="0.500:0.400"  positionRelativeTo="scene" startTime="2.50" endTime="3.00" />
+<animation id="key_2_noise_81" type="basicMove" object="noise_8" positionStart="0.500:0.400"  positionEnd="0.500:0.450"  positionRelativeTo="scene" startTime="3.00" endTime="3.40" />
+<animation id="key_4_noise_82" type="basicMove" object="noise_8" positionStart="0.500:0.450"  positionEnd="0.500:0.450"  positionRelativeTo="scene" startTime="3.40" endTime="7.20" />
+<animation id="key_1_noise_83" type="basicMove" object="noise_8" positionStart="0.500:0.450"  positionEnd="0.500:0.350"  positionRelativeTo="scene" startTime="7.20" endTime="7.40" />
+<animation id="key_2_noise_84" type="basicMove" object="noise_8" positionStart="0.500:0.350"  positionEnd="0.500:1.300"  positionRelativeTo="scene" startTime="7.40" endTime="7.70" />
+
+<animation id="key_3_branch_90" type="basicMove" object="branch_9" positionStart="0.850:1.300"  positionEnd="0.850:0.400"  positionRelativeTo="scene" startTime="3.70" endTime="4.20" />
+<animation id="key_1_branch_91" type="basicMove" object="branch_9" positionStart="0.850:0.400"  positionEnd="0.850:0.450"  positionRelativeTo="scene" startTime="4.20" endTime="4.60" />
+<animation id="key_8_branch_92" type="basicMove" object="branch_9" positionStart="0.850:0.450"  positionEnd="0.850:0.450"  positionRelativeTo="scene" startTime="4.60" endTime="7.40" />
+<animation id="key_2_branch_93" type="basicMove" object="branch_9" positionStart="0.850:0.450"  positionEnd="0.850:0.350"  positionRelativeTo="scene" startTime="7.40" endTime="7.60" />
+<animation id="key_0_branch_94" type="basicMove" object="branch_9" positionStart="0.850:0.350"  positionEnd="0.850:1.300"  positionRelativeTo="scene" startTime="7.60" endTime="7.90" />
+
+<animation id="key_2_shinyThing_100" type="basicScale|scaleTo:0.090" object="shinyThing_10"  startTime="2.30" endTime="2.80" />
+<animation id="key_8_shinyThing_101" type="basicScale|scaleTo:0.102" object="shinyThing_10"  startTime="2.80" endTime="2.90" />
+<animation id="key_2_shinyThing_102" type="basicScale|scaleTo:0.000" object="shinyThing_10"  startTime="2.90" endTime="3.40" />
+
+<animation id="key_8_shinyThing_110" type="basicScale|scaleTo:0.090" object="shinyThing_11"  startTime="2.90" endTime="3.40" />
+<animation id="key_5_shinyThing_111" type="basicScale|scaleTo:0.102" object="shinyThing_11"  startTime="3.40" endTime="3.50" />
+<animation id="key_7_shinyThing_112" type="basicScale|scaleTo:0.000" object="shinyThing_11"  startTime="3.50" endTime="4.00" />
+
+<animation id="key_8_shinyThing_120" type="basicScale|scaleTo:0.090" object="shinyThing_12"  startTime="2.50" endTime="3.00" />
+<animation id="key_7_shinyThing_121" type="basicScale|scaleTo:0.102" object="shinyThing_12"  startTime="3.00" endTime="3.10" />
+<animation id="key_2_shinyThing_122" type="basicScale|scaleTo:0.000" object="shinyThing_12"  startTime="3.10" endTime="3.60" />
+
+<animation id="key_2_shinyThing_130" type="basicScale|scaleTo:0.090" object="shinyThing_13"  startTime="3.30" endTime="3.80" />
+<animation id="key_6_shinyThing_131" type="basicScale|scaleTo:0.102" object="shinyThing_13"  startTime="3.80" endTime="3.90" />
+<animation id="key_8_shinyThing_132" type="basicScale|scaleTo:0.000" object="shinyThing_13"  startTime="3.90" endTime="4.40" />
+
+
+
+
+
+<animation id="disppear-scene" type="disappearFade|cover:self" 
+object="shinyThing_13,shinyThing_12,shinyThing_11,shinyThing_10,branch_9,noise_8,glass_7,rect_5,rect_3,rect_1,Grid_0" positionRelativeTo="scene" startTime="14" endTime="15" />
+
+
+ </igml>

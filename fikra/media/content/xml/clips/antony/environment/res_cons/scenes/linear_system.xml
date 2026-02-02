@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+<object id="bg_1" type="shape" shapetype="rect" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+<object id="brightcircle_1" type="image" src="graphics/general/environment/res_cons/tshirt/brightcircle.svg" action="link" editable="true" />
+
+<object id="darkcircle_2" type="image" src="graphics/general/environment/res_cons/tshirt/darkcircle.svg" action="link" editable="true" />
+
+<object id="longarrow_4" type="image" src="graphics/general/environment/res_cons/planet_urban/longarrow.svg" action="link" editable="true" />
+
+<object id="planet_5" type="image" src="graphics/general/environment/res_cons/planet_urban/planet.svg" action="link" editable="true" />
+
+<object id="planetcircle[5]_6" type="shape" shapetype="circle" size="0.5,0.5" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+
+<object id="eye_8" type="image" src="graphics/general/environment/res_cons/planet_urban/eye.svg" action="link" editable="true" />
+
+<object id="eye_9" type="image" src="graphics/general/environment/res_cons/planet_urban/eye.svg" action="link" editable="true" />
+
+<object id="blink_10" type="image" src="graphics/general/environment/res_cons/planet_urban/blink.svg" action="link" editable="true" />
+
+<object id="blink_11" type="image" src="graphics/general/environment/res_cons/planet_urban/blink.svg" action="link" editable="true" />
+
+<object id="mouth_12" type="image" src="graphics/general/environment/res_cons/planet_urban/mouth.svg" action="link" editable="true" />
+
+<object id="forest_13" type="image" src="graphics/general/environment/res_cons/planet_urban/forest.svg" action="link" editable="true" />
+
+<object id="fabric_14" type="image" src="graphics/general/environment/res_cons/planet_urban/fabric.svg" action="link" editable="true" />
+
+<object id="superm_15" type="image" src="graphics/general/environment/res_cons/planet_urban/superm.svg" action="link" editable="true" />
+
+<object id="houses_16" type="image" src="graphics/general/environment/res_cons/planet_urban/houses.svg" action="link" editable="true" />
+
+<object id="nukeplant_17" type="image" src="graphics/general/environment/res_cons/planet_urban/nukeplant.svg" action="link" editable="true" />
+
+<object id="spurparrow_18" type="image" src="graphics/general/environment/res_cons/planet_urban/spurparrow.svg" action="link" editable="true" />
+
+<object id="spurparrow_19" type="image" src="graphics/general/environment/res_cons/planet_urban/spurparrow.svg" action="link" editable="true" />
+
+<object id="spurparrow_20" type="image" src="graphics/general/environment/res_cons/planet_urban/spurparrow.svg" action="link" editable="true" />
+
+<object id="spurparrow_21" type="image" src="graphics/general/environment/res_cons/planet_urban/spurparrow.svg" action="link" editable="true" />
+
+<object id="sgreenarrow_22" type="image" src="graphics/general/environment/res_cons/planet_urban/sgreenarrow.svg" action="link" editable="true" />
+
+<object id="sgreenarrow_23" type="image" src="graphics/general/environment/res_cons/planet_urban/sgreenarrow.svg" action="link" editable="true" />
+
+<object id="sgreenarrow_24" type="image" src="graphics/general/environment/res_cons/planet_urban/sgreenarrow.svg" action="link" editable="true" />
+
+<object id="sgreenarrow_25" type="image" src="graphics/general/environment/res_cons/planet_urban/sgreenarrow.svg" action="link" editable="true" />
+
+<object id="vulc_34" type="image" src="graphics/general/environment/res_cons/planet_urban/crisis.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+
+
+<animation id="appear_bg_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_1" positionStart="0.5:2.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_brightcircle_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="brightcircle_1" positionStart="0.5:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_darkcircle_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="darkcircle_2" positionStart="0.5:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_longarrow_4" type="appearFade|scaleTo:0.03,0;opacity:1;anchorPoint:0.5,0" object="longarrow_4" positionStart="0.181:0.821" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planet_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="planet_5" positionStart="0.92:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_planetcircle[5]_6" type="appearFade|scaleTo:0;opacity:1; anchorPoint:0.5,0.5;" object="planetcircle[5]_6" positionStart="0.5:0.265" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eye_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eye_8" positionStart="0.469:0.254" positionRelativeTo="scene" startTime="12" endTime="15" />
+
+<animation id="appear_eye_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eye_9" positionStart="0.534:0.255" positionRelativeTo="scene" startTime="12" endTime="15" />
+
+<animation id="appear_blink_10" type="appearFade|scaleTo:0.03,0;opacity:1;anchorPoint:0.5,0.5" object="blink_10" positionStart="0.469:0.254" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_blink_11" type="appearFade|scaleTo:0.03,0;opacity:1;anchorPoint:0.5,0.5" object="blink_11" positionStart="0.534:0.255" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_mouth_12" type="appearFade|scaleTo:0.06,0;opacity:1;anchorPoint:0.5,0.5" object="mouth_12" positionStart="0.503:0.339" positionRelativeTo="scene" startTime="12" endTime="15" />
+
+<animation id="appear_forest_13" type="appearFade|scaleTo:0.13;opacity:1;anchorPoint:0.5,0.5" object="forest_13" positionStart="-1.40:0.55" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_fabric_14" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,0.5" object="fabric_14" positionStart="-1.22:0.52" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_superm_15" type="appearFade|scaleTo:0.21;opacity:1;anchorPoint:0.5,0.5" object="superm_15" positionStart="-1.00:0.57" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_houses_16" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="houses_16" positionStart="-0.80:0.57" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_nukeplant_17" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,0.5" object="nukeplant_17" positionStart="-0.61:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_spurparrow_18" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="spurparrow_18" positionStart="0.17:0.32" positionRelativeTo="scene" startTime="12" endTime="13" />
+
+<animation id="appear_spurparrow_19" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="spurparrow_19" positionStart="0.322:0.276" positionRelativeTo="scene" startTime="13" endTime="14" />
+
+<animation id="appear_spurparrow_20" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="spurparrow_20" positionStart="0.679:0.284" positionRelativeTo="scene" startTime="13" endTime="15" />
+
+<animation id="appear_spurparrow_21" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="spurparrow_21" positionStart="0.809:0.321" positionRelativeTo="scene" startTime="14" endTime="16" />
+
+<animation id="appear_sgreenarrow_22" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="sgreenarrow_22" positionStart="0.372:0.547" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+
+<animation id="appear_sgreenarrow_23" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="sgreenarrow_23" positionStart="0.626:0.551" positionRelativeTo="scene" startTime="6" endTime="6.5" />
+
+<animation id="appear_sgreenarrow_24" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="sgreenarrow_24" positionStart="0.788:0.547" positionRelativeTo="scene" startTime="7" endTime="7.5" />
+
+<animation id="appear_sgreenarrow_25" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="sgreenarrow_25" positionStart="0.193:0.547" positionRelativeTo="scene" startTime="4" endTime="4.5" />
+
+
+
+<animation id="appear_vulc_34" type="appearFade|scaleTo:;opacity:0.5;anchorPoint:0.5,0.5" object="vulc_34" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="14" endTime="16" />
+
+
+
+
+
+
+
+
+<animation id="key_0_bg_10" type="basicMove|ease:easeInOutSine;" object="bg_1" positionStart="0.500:2.500"  positionEnd="0.500:0.700"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_1_brightcircle_10" type="basicScale|scaleTo:0.300;ease:easeInOutSine;" object="brightcircle_1"  startTime="11.00" endTime="12.00" />
+<animation id="key_6_brightcircle_11" type="basicScale|scaleTo:0.225;ease:easeInOutSine;" object="brightcircle_1"  startTime="12.00" endTime="12.20" />
+
+<animation id="key_4_darkcircle_20" type="basicScale|scaleTo:0.250;ease:easeInOutSine;" object="darkcircle_2"  startTime="11.20" endTime="12.20" />
+<animation id="key_2_darkcircle_21" type="basicScale|scaleTo:0.190;ease:easeInOutSine;" object="darkcircle_2"  startTime="12.20" endTime="12.40" />
+
+<animation id="key_2_longarrow_40" type="basicRotate|angle:-90.000;revertAnchor:false;" object="longarrow_4"  startTime="0.00" endTime="0.00" />
+
+<animation id="key_3_planet_50" type="basicMove" object="planet_5" positionStart="0.920:0.265"  positionEnd="-0.080:0.265"  positionRelativeTo="scene" startTime="11.00" endTime="35.00" />
+
+<animation id="mask_planetcircle[5]_60" type="maskObjectBasic" object="planetcircle[5]_6,planet_5"  startTime="11.00" endTime="36.00" />
+
+
+
+<animation id="key_3_eye_80" type="basicScale|scaleTo:0.020" object="eye_8"  startTime="12.00" endTime="12.00" />
+<animation id="key_7_eye_81" type="basicScale|scaleTo:0.000" object="eye_8"  startTime="12.00" endTime="15.00" />
+<animation id="key_5_eye_82" type="basicScale|scaleTo:0.000" object="eye_8"  startTime="15.00" endTime="15.20" />
+<animation id="key_3_eye_83" type="basicScale|scaleTo:0.000" object="eye_8"  startTime="15.20" endTime="18.00" />
+<animation id="key_1_eye_84" type="basicScale|scaleTo:0.020" object="eye_8"  startTime="18.00" endTime="18.20" />
+
+<animation id="key_3_eye_90" type="basicScale|scaleTo:0.020" object="eye_9"  startTime="12.00" endTime="12.00" />
+<animation id="key_8_eye_91" type="basicScale|scaleTo:0.000" object="eye_9"  startTime="12.00" endTime="15.00" />
+<animation id="key_2_eye_92" type="basicScale|scaleTo:0.000" object="eye_9"  startTime="15.00" endTime="15.20" />
+<animation id="key_1_eye_93" type="basicScale|scaleTo:0.000" object="eye_9"  startTime="15.20" endTime="18.00" />
+<animation id="key_5_eye_94" type="basicScale|scaleTo:0.020" object="eye_9"  startTime="18.00" endTime="18.20" />
+
+<animation id="key_4_blink_100" type="basicScale|scaleTo:0.020,0.000" object="blink_10"  startTime="13.00" endTime="14.00" />
+<animation id="key_4_blink_101" type="basicScale|scaleTo:0.020,0.020" object="blink_10"  startTime="14.00" endTime="15.00" />
+<animation id="key_6_blink_102" type="basicScale|scaleTo:0.020,0.020" object="blink_10"  startTime="15.00" endTime="15.20" />
+<animation id="key_3_blink_103" type="basicScale|scaleTo:0.020,0.020" object="blink_10"  startTime="15.20" endTime="18.00" />
+<animation id="key_1_blink_104" type="basicScale|scaleTo:0.020,0.000" object="blink_10"  startTime="18.00" endTime="18.20" />
+
+<animation id="key_8_blink_110" type="basicScale|scaleTo:0.020,0.000" object="blink_11"  startTime="13.00" endTime="14.00" />
+<animation id="key_7_blink_111" type="basicScale|scaleTo:0.020,0.020" object="blink_11"  startTime="14.00" endTime="15.00" />
+<animation id="key_1_blink_112" type="basicScale|scaleTo:0.020,0.020" object="blink_11"  startTime="15.00" endTime="15.20" />
+<animation id="key_6_blink_113" type="basicScale|scaleTo:0.020,0.020" object="blink_11"  startTime="15.20" endTime="18.00" />
+<animation id="key_0_blink_114" type="basicScale|scaleTo:0.020,0.000" object="blink_11"  startTime="18.00" endTime="18.20" />
+
+<animation id="key_3_mouth_120" type="basicScale|scaleTo:0.060,0.000" object="mouth_12"  startTime="12.00" endTime="13.00" />
+<animation id="key_3_mouth_121" type="basicScale|scaleTo:0.060,-0.032" object="mouth_12"  startTime="13.00" endTime="14.00" />
+
+<animation id="key_3_forest_130" type="basicMove|ease:easeInOutSine;" object="forest_13" positionStart="-1.400:0.550"  positionEnd="0.130:0.550"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+<animation id="key_5_forest_131" type="basicMove|ease:easeInOutSine;" object="forest_13" positionStart="0.130:0.550"  positionEnd="0.100:0.550"  positionRelativeTo="scene" startTime="3.00" endTime="3.20" />
+
+<animation id="key_1_fabric_140" type="basicMove|ease:easeInOutSine;" object="fabric_14" positionStart="-1.220:0.520"  positionEnd="0.310:0.520"  positionRelativeTo="scene" startTime="2.70" endTime="3.70" />
+<animation id="key_6_fabric_141" type="basicMove|ease:easeInOutSine;" object="fabric_14" positionStart="0.310:0.520"  positionEnd="0.280:0.520"  positionRelativeTo="scene" startTime="3.70" endTime="3.90" />
+
+<animation id="key_8_superm_150" type="basicMove|ease:easeInOutSine;" object="superm_15" positionStart="-1.000:0.570"  positionEnd="0.530:0.570"  positionRelativeTo="scene" startTime="3.50" endTime="4.50" />
+<animation id="key_5_superm_151" type="basicMove|ease:easeInOutSine;" object="superm_15" positionStart="0.530:0.570"  positionEnd="0.500:0.570"  positionRelativeTo="scene" startTime="4.50" endTime="4.70" />
+
+<animation id="key_7_houses_160" type="basicMove|ease:easeInOutSine;" object="houses_16" positionStart="-0.800:0.570"  positionEnd="0.730:0.570"  positionRelativeTo="scene" startTime="4.20" endTime="5.20" />
+<animation id="key_4_houses_161" type="basicMove|ease:easeInOutSine;" object="houses_16" positionStart="0.730:0.570"  positionEnd="0.700:0.570"  positionRelativeTo="scene" startTime="5.20" endTime="5.40" />
+
+<animation id="key_2_nukeplant_170" type="basicMove|ease:easeInOutSine;" object="nukeplant_17" positionStart="-0.610:0.540"  positionEnd="0.920:0.540"  positionRelativeTo="scene" startTime="4.90" endTime="5.90" />
+<animation id="key_5_nukeplant_171" type="basicMove|ease:easeInOutSine;" object="nukeplant_17" positionStart="0.920:0.540"  positionEnd="0.890:0.540"  positionRelativeTo="scene" startTime="5.90" endTime="6.10" />
+
+<animation id="key_7_spurparrow_180" type="basicRotate|angle:-145.000;revertAnchor:false;" object="spurparrow_18"  startTime="12.00" endTime="14.00" />
+
+<animation id="key_3_spurparrow_190" type="basicRotate|angle:-145.000;revertAnchor:false;" object="spurparrow_19"  startTime="13.00" endTime="15.00" />
+
+<animation id="key_2_spurparrow_200" type="basicRotate|angle:-225.000;revertAnchor:false;" object="spurparrow_20"  startTime="13.00" endTime="15.00" />
+
+<animation id="key_6_spurparrow_210" type="basicRotate|angle:-225.000;revertAnchor:false;" object="spurparrow_21"  startTime="14.00" endTime="16.00" />
+
+<animation id="key_8_sgreenarrow_220" type="basicRotate|angle:-90.000;revertAnchor:false;;ease:easeOutExpo;" object="sgreenarrow_22"  startTime="5.00" endTime="7.00" />
+
+<animation id="key_8_sgreenarrow_230" type="basicRotate|angle:-90.000;revertAnchor:false;;ease:easeOutExpo;" object="sgreenarrow_23"  startTime="6.00" endTime="8.00" />
+
+<animation id="key_3_sgreenarrow_240" type="basicRotate|angle:-90.000;revertAnchor:false;;ease:easeOutExpo;" object="sgreenarrow_24"  startTime="7.00" endTime="9.00" />
+
+<animation id="key_7_sgreenarrow_250" type="basicRotate|angle:-90.000;revertAnchor:false;;ease:easeOutExpo;" object="sgreenarrow_25"  startTime="4.00" endTime="6.00" />
+
+<animation id="key_4_planetcircle[5]_60" type="basicScale|scaleTo:0.160" object="planetcircle[5]_6"  startTime="12.00" endTime="13.00" />
+
+<animation id="key_1_planet_50" type="basicScale|scaleTo:1.000" object="planet_5"  startTime="12.00" endTime="13.00" />
+
+<animation id="key_5_longarrow_40" type="basicScale|scaleTo:0.030,1.000" object="longarrow_4"  startTime="7.00" endTime="8.00" />
+
+<animation id="key_7_vulc_340" type="basicScale|scaleTo:1.000;ease:easeInOutSine;" object="vulc_34"  startTime="14.00" endTime="19.00" />
+
+<animation id="key_4_vulc_340" type="basicOpacity|opacity:0.5;ease:easeInOutSine;" object="vulc_34"  startTime="15.00" endTime="16.00" />
+<animation id="key_8_vulc_341" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="vulc_34"  startTime="16.00" endTime="18.00" />
+
+<animation id="disppear-scene" type="disappearFade" object="sgreenarrow_22,sgreenarrow_25,sgreenarrow_24,sgreenarrow_23,spurparrow_21,spurparrow_20,spurparrow_19,spurparrow_18,nukeplant_17,houses_16,superm_15,fabric_14,forest_13,mouth_12,blink_11,blink_10,eye_9,eye_8,planetshadow_7,planetcircle[5]_6,planet_5,longarrow_4,darkcircle_2,brightcircle_1,bg_1" positionRelativeTo="scene" startTime="36" endTime="37" />
+
+
+
+ </igml>

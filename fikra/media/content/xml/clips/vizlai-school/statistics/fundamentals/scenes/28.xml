@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#333333" title="Оценки">
+
+	<!-- OBJECTS -->
+  <object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg0.svg" editable="true" />
+  <object id="l_1" type="image" src="graphics/design-components/arrows/arrow-solid-curved-white.svg" editable="true" />
+  <object id="l_2" type="text" text="отдалечена стойност" size="60" align="center" color="#FFFFFF" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+	<object id="barchart-data-viz" type="data-viz" color="#1B1464,#FFD769,#FFD769,#FFD769" strokeWidth="0.01" dotRadius="0.01" fontResize="1.5" data="[['Оценки','0','10','20','30','40','50','60','70','80','90','100'],['Students','10','20','30','40','50','50','40','30','20','50','10']]" font="MontBlanc-Bold" fontColor="#ffffff" sourceInfo="" hoverInfo="false" action="link:"/>
+
+  <object id="bell-curve" type="shape" shapetype="path" color="#F33B79" stroke="#F33B79" strokeWidth="5" path="M71.2,594.7C162.1,593,167.1,1.4,69.8,3.2C-20.3,4.9-10.3,596.2,71.2,594.7z" size="0,0,467.8,401.7" />
+
+
+	<!-- ANIMATIONS -->
+  <animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+  <animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.5" startTime="0.5" endTime="1.5" description="" />
+  <animation id="appear_l_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.68:0.172" startTime="8" endTime="9" description=" appearing order: 1" />
+  <animation id="r_0_0_l_1" type="basicRotate|angle:-95" object="l_1" startTime="3" endTime="3" description=" appearing order: 1" />
+  <animation id="appear_l_2" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.47:0.082" startTime="8" endTime="9" description=" appearing order: 1" />
+
+	<animation id="show-chart1" type="showChartBar|scaleTo:0.75;anchorPoint:0.5,0.5;animOverlap:0.2;" object="barchart-data-viz" positionStart="0.55:0.5" backgroundColor="#002841" positionRelativeTo="scene" startTime="1" endTime="6" />
+
+  <animation id="draw-bell-curve" type="drawPathOfShapes|scaleTo:0.55;shapeType:circle;intervalGap:1" object="bell-curve" positionStart="0.73:0.18" positionRelativeTo="scene" startTime="6" endTime="8" />
+
+
+  <animation id="disappear-all" type="disappearFade|ease:easeInExpo;cover:self" object="l_0,number-big-circle,number-big,line-up,bell-curve,barchart-data-viz,l_1,l_2,l_5,l_6,l_7" startTime="20" endTime="21" description="" />
+
+
+</igml>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg__0" type="shape" shapetype="rect" size="0.5,0.5" color="#bcf5f7" strokeWidth="0" action="link" editable="true"/>
+
+<object id="water1_1" type="image" src="graphics/general/enviroment/poluted_waters/water1.svg" action="link" editable="true" />
+
+<object id="water2_2" type="image" src="graphics/general/enviroment/poluted_waters/water2.svg" action="link" editable="true" />
+
+<object id="polution_3" type="image" src="graphics/general/enviroment/poluted_waters/polution.svg" action="link" editable="true" />
+
+<object id="guy1_4" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_5" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_6" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_7" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_8" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_9" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_10" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_11" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_12" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_13" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="overlay_14" type="image" src="graphics/general/enviroment/poluted_waters/overlay.svg" action="link" editable="true" />
+
+<object id="guy2_15" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_16" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_17" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_18" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_19" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_20" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+
+<animation id="appear_bg__0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg__0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_water1_1" type="appearFade|scaleTo:1.2;opacity:1;anchorPoint:0.5,0.5" object="water1_1" positionStart="0.495:0.898" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_water2_2" type="appearFade|scaleTo:1.2;opacity:1;anchorPoint:0.5,0.5" object="water2_2" positionStart="0.495:0.898" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear_polution_3" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="polution_3" positionStart="0.719:0.792" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_guy1_4" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_4" positionStart="0.529:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_5" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_5" positionStart="0.612:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_6" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_6" positionStart="0.698:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_7" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_7" positionStart="0.864:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_8" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_8" positionStart="0.783:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_9" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_9" positionStart="0.945:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_10" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_10" positionStart="0.41:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_11" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_11" positionStart="0.326:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_12" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_12" positionStart="0.248:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_13" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_13" positionStart="0.164:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_overlay_14" type="appearFade|scaleTo:1;opacity:0.7;anchorPoint:0.5,0.5" object="overlay_14" positionStart="1.952:0.496" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy2_15" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy2_15" positionStart="0.529:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__16" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_16" positionStart="0.698:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__17" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_17" positionStart="0.612:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__18" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_18" positionStart="0.783:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__19" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_19" positionStart="0.864:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__20" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_20" positionStart="0.945:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg__0" type="shape" shapetype="rect" size="0.5,0.5" color="#bcf5f7" strokeWidth="0" action="link" editable="true"/>
+
+<object id="water1_1" type="image" src="graphics/general/enviroment/poluted_waters/water1.svg" action="link" editable="true" />
+
+<object id="water2_2" type="image" src="graphics/general/enviroment/poluted_waters/water2.svg" action="link" editable="true" />
+
+<object id="polution_3" type="image" src="graphics/general/enviroment/poluted_waters/polution.svg" action="link" editable="true" />
+
+<object id="guy1_4" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_5" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_6" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_7" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_8" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_9" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_10" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_11" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_12" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="guy1_13" type="image" src="graphics/general/enviroment/poluted_waters/guy1.svg" action="link" editable="true" />
+
+<object id="overlay_14" type="image" src="graphics/general/enviroment/poluted_waters/overlay.svg" action="link" editable="true" />
+
+<object id="guy2_15" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_16" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_17" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_18" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_19" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+<object id="_20" type="image" src="graphics/general/enviroment/poluted_waters/guy2.svg" action="link" editable="true" />
+
+
+<animation id="appear_bg__0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg__0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_water1_1" type="appearFade|scaleTo:1.2;opacity:1;anchorPoint:0.5,0.5" object="water1_1" positionStart="0.495:0.898" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_water2_2" type="appearFade|scaleTo:1.2;opacity:1;anchorPoint:0.5,0.5" object="water2_2" positionStart="0.495:0.898" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear_polution_3" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="polution_3" positionStart="0.719:0.792" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_guy1_4" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_4" positionStart="0.529:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_5" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_5" positionStart="0.612:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_6" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_6" positionStart="0.698:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_7" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_7" positionStart="0.864:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_8" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_8" positionStart="0.783:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_9" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_9" positionStart="0.945:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_10" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_10" positionStart="0.41:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_11" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_11" positionStart="0.326:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_12" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_12" positionStart="0.248:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy1_13" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy1_13" positionStart="0.164:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_overlay_14" type="appearFade|scaleTo:1;opacity:0.7;anchorPoint:0.5,0.5" object="overlay_14" positionStart="1.952:0.496" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_guy2_15" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="guy2_15" positionStart="0.529:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__16" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_16" positionStart="0.698:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__17" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_17" positionStart="0.612:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__18" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_18" positionStart="0.783:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__19" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_19" positionStart="0.864:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear__20" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="_20" positionStart="0.945:0.5" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+
+
+
+
+
+
+
+
+<animation id="key_6_polution_30" type="basicMove|ease:easeInOutQuart;" object="polution_3" positionStart="0.719:0.792"  positionEnd="0.719:0.272"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_4_overlay_140" type="basicMove|ease:easeInOutQuart;" object="overlay_14" positionStart="1.952:0.496"  positionEnd="0.952:0.496"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </igml>

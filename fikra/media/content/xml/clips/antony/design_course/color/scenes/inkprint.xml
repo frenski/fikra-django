@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="image" src="graphics/design/colors/inkprint/bg.svg" action="link" editable="true" />
+
+<object id="red_4" type="image" src="graphics/design/colors/inkprint/red.svg" action="link" editable="true" />
+
+<object id="yellow_5" type="image" src="graphics/design/colors/inkprint/yellow.svg" action="link" editable="true" />
+
+<object id="blue_6" type="image" src="graphics/design/colors/inkprint/blue.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+<object id="backprint_3" type="image" src="graphics/design/colors/inkprint/backprint.svg" action="link" editable="true" />
+
+<object id="paper_4" type="image" src="graphics/design/colors/inkprint/paper.svg" action="link" editable="true" />
+
+<object id="printbody_5" type="image" src="graphics/design/colors/inkprint/printbody.svg" action="link" editable="true" />
+
+
+
+<object id="platform_6" type="image" src="graphics/design/colors/inkprint/platform.svg" action="link" editable="true" />
+
+<object id="label_13" type="image" src="graphics/design/colors/inkprint/label.svg" action="link" editable="true" />
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_red_4" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="red_4" positionStart="0.745:1.6" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_yellow_5" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="yellow_5" positionStart="0.743:1.6" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_blue_6" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,1" object="blue_6" positionStart="0.743:1.6" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+<animation id="appear_backprint_3" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="backprint_3" positionStart="0.32:1.24" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_paper_4" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="paper_4" positionStart="0.32:0.82" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_printbody_5" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="printbody_5" positionStart="0.31:1.38" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_platform_6" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="platform_6" positionStart="0.5:1.215" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_label_13" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="label_13" positionStart="0.312:0.898" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_2_red_40" type="basicMove|ease:easeInOutQuad;" object="red_4" positionStart="0.745:1.600"  positionEnd="0.745:0.700"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_2_red_40" type="basicMove|ease:easeInOutQuad;" object="red_4" positionStart="0.745:1.600"  positionEnd="0.745:0.700"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_0_yellow_50" type="basicMove|ease:easeInOutQuad;" object="yellow_5" positionStart="0.743:1.600"  positionEnd="0.743:0.700"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_5_blue_60" type="basicMove|ease:easeInOutQuad;" object="blue_6" positionStart="0.743:1.600"  positionEnd="0.743:0.700"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+
+
+<animation id="key_6_blue_60" type="basicRotate|angle:25.000;revertAnchor:false;" object="blue_6"  startTime="8.00" endTime="9.00" />
+
+<animation id="key_8_yellow_50" type="basicRotate|angle:1.000;revertAnchor:false;" object="yellow_5"  startTime="8.00" endTime="9.00" />
+
+<animation id="key_6_red_40" type="basicRotate|angle:-25.000;revertAnchor:false;" object="red_4"  startTime="8.00" endTime="9.00" />
+
+
+<animation id="key_6_blue_60" type="basicRotate|angle:0.000;revertAnchor:false;" object="blue_6"  startTime="16.00" endTime="18.00" />
+
+<animation id="key_8_yellow_50" type="basicRotate|angle:0.000;revertAnchor:false;" object="yellow_5"  startTime="16.00" endTime="18.00" />
+
+<animation id="key_6_red_40" type="basicRotate|angle:0.000;revertAnchor:false;" object="red_4"  startTime="16.00" endTime="18.00" />
+
+
+
+<animation id="key_3_backprint_30" type="basicMove|ease:easeInOutQuad;" object="backprint_3" positionStart="0.320:1.240"  positionEnd="0.320:0.540"  positionRelativeTo="scene" startTime="1.00" endTime="1.50" />
+
+<animation id="key_8_paper_40" type="basicMove|ease:easeOutQuad;" object="paper_4" positionStart="0.320:0.820"  positionEnd="0.320:0.420"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+
+<animation id="key_5_printbody_50" type="basicMove|ease:easeOutQuad;" object="printbody_5" positionStart="0.310:1.380"  positionEnd="0.310:0.680"  positionRelativeTo="scene" startTime="1.00" endTime="1.50" />
+
+<animation id="key_6_paper_40" type="basicScale|scaleTo:0.200,0.000" object="paper_4"  startTime="2.00" endTime="2.00" />
+<animation id="key_8_paper_41" type="basicScale|scaleTo:0.200,0.500" object="paper_4"  startTime="2.00" endTime="2.40" />
+
+<animation id="key_7_platform_60" type="basicMove|ease:easeInOutQuad;" object="platform_6" positionStart="0.500:1.215"  positionEnd="0.500:0.925"  positionRelativeTo="scene" startTime="0.30" endTime="0.90" />
+
+<animation id="key_2_label_130" type="basicScale|scaleTo:0.000" object="label_13"  startTime="5.00" endTime="5.00" />
+<animation id="key_8_label_131" type="basicScale|scaleTo:0.400" object="label_13"  startTime="5.00" endTime="5.50" />
+
+<animation id="disppear-scene" type="disappearFade" object="label_13,platform_6,printbody_5,paper_4,backprint_3,blue_6,yellow_5,red_4,red_4,hls4_5,bg_0" positionRelativeTo="scene" startTime="25" endTime="25" />
+
+
+ </igml>

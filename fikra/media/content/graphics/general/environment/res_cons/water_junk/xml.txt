@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="background">
+
+
+
+<object id="Grid_0" type="image" src="graphics/general/grid.svg" action="link" editable="false" />
+
+<object id="bg_1" type="shape" shapetype="rect" size="0.5,0.5" color="#CFF5FF" strokeWidth="0" action="link" editable="true"/>
+
+<object id="cloud_2" type="image" src="graphics/general/enviroment/res_cons/water_junk/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_3" type="image" src="graphics/general/enviroment/res_cons/water_junk/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_4" type="image" src="graphics/general/enviroment/res_cons/water_junk/cloud.svg" action="link" editable="true" />
+
+<object id="background_5" type="image" src="graphics/general/enviroment/res_cons/water_junk/background.svg" action="link" editable="true" />
+
+<object id="junk_6" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk1.svg" action="link" editable="true" />
+
+<object id="junk_7" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk2.svg" action="link" editable="true" />
+
+<object id="junk_8" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk3.svg" action="link" editable="true" />
+
+<object id="junk_9" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk4.svg" action="link" editable="true" />
+
+<object id="junk_10" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk5.svg" action="link" editable="true" />
+
+<object id="junk_11" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk6.svg" action="link" editable="true" />
+
+<object id="junk_12" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk7.svg" action="link" editable="true" />
+
+<object id="junk_13" type="image" src="graphics/general/enviroment/res_cons/water_junk/junk8.svg" action="link" editable="true" />
+
+
+
+<animation id="appear_Grid_0" type="appearFade|scaleTo:1;opacity:0.8;anchorPoint:0.5,0.5" object="Grid_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0.001" endTime="0.002" />
+
+<animation id="appear_bg_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_1" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_2" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="cloud_2" positionStart="0.604:0.155" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_3" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="cloud_3" positionStart="0.418:0.281" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_4" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="cloud_4" positionStart="0.161:0.231" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_background_5" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="background_5" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_junk_6" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_6" positionStart="0.441:0.686" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_7" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_7" positionStart="0.143:0.708" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_8" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_8" positionStart="0.371:0.814" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_9" type="appearFade|scaleTo:0.07;opacity:1;anchorPoint:0.5,0.5" object="junk_9" positionStart="0.56:0.885" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_10" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_10" positionStart="0.055:0.853" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_11" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_11" positionStart="0.276:0.898" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_12" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_12" positionStart="0.131:0.903" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+<animation id="appear_junk_13" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="junk_13" positionStart="0.262:0.794" positionRelativeTo="scene" startTime="0" endTime="2" />
+
+
+
+
+
+
+
+<animation id="key_5_cloud_20" type="basicMove" object="cloud_2" positionStart="0.604:0.155"  positionEnd="0.904:0.155"  positionRelativeTo="scene" startTime="0.00" endTime="20.00" />
+
+<animation id="key_8_cloud_30" type="basicMove" object="cloud_3" positionStart="0.418:0.281"  positionEnd="0.918:0.281"  positionRelativeTo="scene" startTime="0.00" endTime="20.00" />
+
+<animation id="key_3_cloud_40" type="basicMove" object="cloud_4" positionStart="0.161:0.231"  positionEnd="0.561:0.231"  positionRelativeTo="scene" startTime="0.00" endTime="21.00" />
+
+
+
+<animation id="key_3_junk_60" type="followEllipsePath|radius1:0;radius2:-0.01;startAngle:0.000;loops:40;" object="junk_6" positionStart="0.441:0.676"  positionEnd="0.441:0.696"  positionRelativeTo="scene" startTime="0.70" endTime="100.70" />
+
+<animation id="key_1_junk_70" type="followEllipsePath|radius1:0;radius2:-0.01;startAngle:0.000;loops:40;" object="junk_7" positionStart="0.143:0.698"  positionEnd="0.143:0.718"  positionRelativeTo="scene" startTime="0.70" endTime="100.70" />
+
+<animation id="key_0_junk_80" type="followEllipsePath|radius1:0;radius2:-0.02;startAngle:0.000;loops:40;" object="junk_8" positionStart="0.371:0.794"  positionEnd="0.371:0.834"  positionRelativeTo="scene" startTime="0.60" endTime="100.60" />
+
+<animation id="key_2_junk_90" type="followEllipsePath|radius1:0;radius2:-0.022;startAngle:0.000;loops:40;" object="junk_9" positionStart="0.560:0.863"  positionEnd="0.560:0.907"  positionRelativeTo="scene" startTime="0.50" endTime="100.50" />
+
+<animation id="key_2_junk_100" type="followEllipsePath|radius1:0;radius2:-0.02;startAngle:0.000;loops:40;" object="junk_10" positionStart="0.055:0.833"  positionEnd="0.055:0.873"  positionRelativeTo="scene" startTime="0.40" endTime="100.40" />
+
+<animation id="key_0_junk_110" type="followEllipsePath|radius1:0;radius2:-0.02;startAngle:0.000;loops:40;" object="junk_11" positionStart="0.276:0.878"  positionEnd="0.276:0.918"  positionRelativeTo="scene" startTime="0.30" endTime="100.30" />
+
+<animation id="key_6_junk_120" type="followEllipsePath|radius1:0;radius2:-0.018;startAngle:0.000;loops:40;" object="junk_12" positionStart="0.131:0.885"  positionEnd="0.131:0.921"  positionRelativeTo="scene" startTime="0.10" endTime="100.10" />
+
+<animation id="key_2_junk_130" type="followEllipsePath|radius1:0;radius2:-0.02;startAngle:0.000;loops:40;" object="junk_13" positionStart="0.262:0.774"  positionEnd="0.262:0.814"  positionRelativeTo="scene" startTime="0.20" endTime="100.20" />
+
+
+
+
+
+	<object id="testlineX1" type="shape" shapetype="rect" size="0.003,1" color="#00ffff" stroke="#ffffff" strokeWidth="0" action="link:" />
+	<object id="testlineY1" type="shape" shapetype="rect" size="1,0.003" color="#ff00ff" stroke="#ffffff" strokeWidth="0" action="link:" />
+	
+		<object id="test-textX_x" type="text" text="x" size="20" align="center" color="#b2fcff" font="Open Sans" wordWrap="true" wordWrapWidth="0.8" weight="300" />
+			<object id="test-textY_y" type="text" text="y" size="20" align="center" color="#f8c1ff" font="Open Sans" wordWrap="true" wordWrapWidth="0.8" weight="300" />
+	
+	<object id="test_circle" type="shape" shapetype="circle" size="0.01" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" />
+	<variable id="textValueX" type="array" default="[0,0]" reference="test-textX_x.text" />
+	<variable id="textValueY" type="array" default="[0,0]" reference="test-textY_y.text" />
+	
+
+	<variable id="tk_posX" type="array" default="[0,0]"  />
+	<variable id="tk_posY" type="array" default="[0,0]"  />
+			
+	<variable id="circX" type="array" default="0" reference="test_circle.position.x" />
+	<variable id="circY" type="array" default="0" reference="test_circle.position.y" />
+		
+				
+	<variable id="textX_x" type="float" default="0" reference="test-textX_x.position.x" />
+			
+	<variable id="textY_y" type="float" default="0" reference="test-textY_y.position.y" />
+	
+	
+					
+	<variable id="textX_y" type="float" default="0" reference="test-textX_x.position.y" />
+			
+	<variable id="textY_x" type="float" default="0" reference="test-textY_y.position.x" />
+	
+	
+
+	
+	<variable id="lineX" type="float" default="0" reference="testlineX1.position.x" />
+	<variable id="lineY" type="float" default="0" reference="testlineY1.position.y" />
+
+
+	
+	<animation id="appear-testlineY1" type="appearFade|anchorPoint:0.5,0.5;opacity:0.5" object="testlineY1" startTime="0" endTime="0" positionStart="0.5:0.3" positionEnd="0.5:0.3" positionRelativeTo="scene" />
+	<animation id="appear-testlineX1" type="appearFade|anchorPoint:0.5,0.5;opacity:0.5" object="testlineX1" startTime="0" endTime="0" positionStart="0.3:0.5" positionEnd="0.3:0.5" positionRelativeTo="scene" />
+	<animation id="appear-testcircle" type="appearFade|anchorPoint:0.5,0.5;opacity:0.25" object="test_circle" startTime="0" endTime="0" positionStart="0.3:0.5" positionEnd="0.3:0.5" positionRelativeTo="scene" />
+	
+	
+	<interaction id="enable-drag" type="enableDrag" subtype="basic|direction:x;tint:AF00AF" objects="test_circle" startTime="0" endTime="12" actions="onDragEnd:setVar:['textValueX','expression','round((({{lineY}}*1/236))*1000)/1000']|setVar:['textY_y','active_object','position','y']|setVar:['textY_x','expression','0.1']|setVar:['lineX','active_object','position','x']" />
+		
+	<interaction id="enable-drag2" type="enableDrag" subtype="basic|direction:y;tint:AF00AF" objects="test_circle" startTime="0" endTime="12" actions="onDragEnd:setVar:['textValueY','expression','round((({{lineX}}*1/420))*1000)/1000']|setVar:['textX_x','active_object','position','x']|setVar:['textX_y','expression','0.1']|setVar:['lineY','active_object','position','y']" />
+	
+	<animation id="titleappear" type="appearFade|anchorPoint:5.5,-1;scaleTo:0.01" object="test-textX_x" startTime="0" endTime="0" positionStart="0.5:0.5" positionEnd="0.5:0.5" positionRelativeTo="scene" />
+	<animation id="titleappear2" type="appearFade|anchorPoint:0,1;scaleTo:0.01" object="test-textY_y" startTime="0" endTime="0" positionStart="0.5:0.5" positionEnd="0.5:0.5" positionRelativeTo="scene" />
+	
+
+	
+
+ </igml>

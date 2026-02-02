@@ -1,0 +1,316 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Character anim - base" description="The character" author="Me" date="11/08/2024">
+<object id="cont_dummy" type="shape" shapetype="rect" size="0.5,0.5" color="#1a0e43" strokeWidth="0" editable="false" description="Shape: base"/>
+<object id="body_base" type="image" src="graphics/{{assets_root}}5_body_base.svg" action="link" editable="true" description="Graphic: Character 1.body"/>
+<object id="eye_l" type="image" src="graphics/{{assets_root}}5_eye_left.svg" action="link" editable="true" description="Graphic: Character 1.eye"/>
+<object id="eye_r" type="image" src="graphics/{{assets_root}}5_eye_right.svg" action="link" editable="true" description="Graphic: Character 1.eye"/>
+<object id="mouth" type="image" mesh_points="0:0.5,0.5:0.5,1:0.5" src="graphics/{{assets_root}}5_mouth.svg" action="link" editable="true" description="Graphic: Character 1.mouth"/>
+<object id="eyebrow_l" type="image" src="graphics/{{assets_root}}5_eyebrow_left.svg" action="link" editable="true" description="Graphic: Character 1.eyebrow"/>
+<object id="eyebrow_r" type="image" src="graphics/{{assets_root}}5_eyebrow_right.svg" action="link" editable="true" description="Graphic: Character 1.eyebrow"/>
+<object id="avatar_back" type="image" src="graphics/characters/vizlai-school/generic/avatar-back.svg" action="link" editable="true" description="Shape: Basic"/>
+<object id="avatar_back_shadow" type="image" src="graphics/characters/vizlai-school/generic/avatar-back-shadow.svg" action="link" editable="true" description="Shape: Basic"/>
+
+<container id="upperBody" objects="cont_dummy,body_base,eye_l,eye_r,mouth,eyebrow_l,eyebrow_r" action="link:" editable="true" placeholderTags="PERSON" anchorRoot="cont_dummy" descriptionVisual="portrait, vector, isolated in circle"/>
+
+<insertblock id="objects">
+</insertblock>
+
+<variable id="assets_root" type="string" default=""/>
+
+<variable id="mouth_pos_x" type="float" default="0.258"/>
+<variable id="mouth_pos_y" type="float" default="0.352"/>
+<variable id="eye_l_pos_x" type="float" default="0.164"/>
+<variable id="eye_l_pos_y" type="float" default="0.194"/>
+<variable id="eye_r_pos_x" type="float" default="0.383"/>
+<variable id="eye_r_pos_y" type="float" default="0.194"/>
+<variable id="eyebrow_l_pos_x" type="float" default="0.164"/>
+<variable id="eyebrow_l_pos_y" type="float" default="0.117"/>
+<variable id="eyebrow_r_pos_x" type="float" default="0.383"/>
+<variable id="eyebrow_r_pos_y" type="float" default="0.117"/>
+<variable id="eye_l_scale_x" type="float" default="0.031"/>
+<variable id="eye_l_scale_y" type="float" default="0.061"/>
+<variable id="eye_r_scale_x" type="float" default="0.031"/>
+<variable id="eye_r_scale_y" type="float" default="0.061"/>
+<variable id="eyebrow_l_scale_x" type="float" default="0.094"/>
+<variable id="eyebrow_l_scale_y" type="float" default="0.031"/>
+<variable id="eyebrow_r_scale_x" type="float" default="0.094"/>
+<variable id="eyebrow_r_scale_y" type="float" default="0.031"/>
+<variable id="mouth_scale_x" type="float" default="0.156"/>
+<variable id="mouth_scale_y" type="float" default="0.062"/>
+
+<insertblock id="variables">
+
+<variable id="idle_ey_l_target_x1" type="expression" expression="{{eye_l_pos_x}}+({{eye_l_pos_x}})/20"/>
+<variable id="idle_ey_r_target_x1" type="expression" expression="{{eye_r_pos_x}}+({{eye_r_pos_x}})/20"/>
+<variable id="idle_ey_l_target_x2" type="expression" expression="{{eye_l_pos_x}}-({{eye_l_pos_x}})/20"/>
+<variable id="idle_ey_r_target_x2" type="expression" expression="{{eye_r_pos_x}}-({{eye_r_pos_x}})/20"/>
+<variable id="idle_ey_l_target_x3" type="expression" expression="{{eye_l_pos_x}}"/>
+<variable id="idle_ey_r_target_x3" type="expression" expression="{{eye_r_pos_x}}"/>
+<variable id="smile_ey_l_target_x1" type="expression" expression="{{eye_l_pos_x}}+({{eye_l_pos_x}})/20"/>
+<variable id="smile_ey_r_target_x1" type="expression" expression="{{eye_r_pos_x}}+({{eye_r_pos_x}})/20"/>
+<variable id="smile_ey_l_target_x2" type="expression" expression="{{eye_l_pos_x}}-({{eye_l_pos_x}})/20"/>
+<variable id="smile_ey_r_target_x2" type="expression" expression="{{eye_r_pos_x}}-({{eye_r_pos_x}})/20"/>
+<variable id="smile_ey_l_target_x3" type="expression" expression="{{eye_l_pos_x}}"/>
+<variable id="smile_ey_r_target_x3" type="expression" expression="{{eye_r_pos_x}}"/>
+<variable id="sad_eb_l_target_y1" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/6"/>
+<variable id="sad_eb_r_target_y1" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/6"/>
+<variable id="sad_eb_l_target_y2" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/5"/>
+<variable id="sad_eb_r_target_y2" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/5"/>
+<variable id="sad_eb_l_target_y3" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/9"/>
+<variable id="sad_eb_r_target_y3" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/9"/>
+<variable id="sad_ey_l_target_y1" type="expression" expression="{{eye_l_pos_y}}-({{eyebrow_l_pos_y}})/8"/>
+<variable id="sad_ey_r_target_y1" type="expression" expression="{{eye_r_pos_y}}-({{eyebrow_r_pos_y}})/8"/>
+<variable id="sad_ey_l_target_y2" type="expression" expression="{{eye_l_pos_y}}+({{eyebrow_l_pos_y}})/8"/>
+<variable id="sad_ey_r_target_y2" type="expression" expression="{{eye_r_pos_y}}+({{eyebrow_r_pos_y}})/8"/>
+<variable id="sad_ey_l_target_y3" type="expression" expression="{{eye_l_pos_y}}+({{eyebrow_l_pos_y}})/14"/>
+<variable id="sad_ey_r_target_y3" type="expression" expression="{{eye_r_pos_y}}+({{eyebrow_r_pos_y}})/14"/>
+<variable id="angry_eb_l_target_y1" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/6"/>
+<variable id="angry_eb_r_target_y1" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/6"/>
+<variable id="angry_eb_l_target_y2" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/5"/>
+<variable id="angry_eb_r_target_y2" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/5"/>
+<variable id="angry_eb_l_target_y3" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/9"/>
+<variable id="angry_eb_r_target_y3" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/9"/>
+<variable id="angry_ey_l_target_y1" type="expression" expression="{{eye_l_pos_y}}-({{eyebrow_l_pos_y}})/8"/>
+<variable id="angry_ey_r_target_y1" type="expression" expression="{{eye_r_pos_y}}-({{eyebrow_r_pos_y}})/8"/>
+<variable id="angry_ey_l_target_y2" type="expression" expression="{{eye_l_pos_y}}+({{eyebrow_l_pos_y}})/8"/>
+<variable id="angry_ey_r_target_y2" type="expression" expression="{{eye_r_pos_y}}+({{eyebrow_r_pos_y}})/8"/>
+<variable id="angry_ey_l_target_y3" type="expression" expression="{{eye_l_pos_y}}+({{eyebrow_l_pos_y}})/14"/>
+<variable id="angry_ey_r_target_y3" type="expression" expression="{{eye_r_pos_y}}+({{eyebrow_r_pos_y}})/14"/>
+<variable id="surprised_eb_l_target_y1" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/6"/>
+<variable id="surprised_eb_r_target_y1" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/6"/>
+<variable id="surprised_eb_l_target_y2" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/2"/>
+<variable id="surprised_eb_r_target_y2" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/2"/>
+<variable id="surprised_eb_l_target_y3" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/4"/>
+<variable id="surprised_eb_r_target_y3" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/4"/>
+<variable id="surprised_ey_l_target_y1" type="expression" expression="{{eye_l_pos_y}}+({{eyebrow_l_pos_y}})/8"/>
+<variable id="surprised_ey_r_target_y1" type="expression" expression="{{eye_r_pos_y}}+({{eyebrow_r_pos_y}})/8"/>
+<variable id="surprised_ey_l_target_y2" type="expression" expression="{{eye_l_pos_y}}-({{eyebrow_l_pos_y}})/8"/>
+<variable id="surprised_ey_r_target_y2" type="expression" expression="{{eye_r_pos_y}}-({{eyebrow_r_pos_y}})/8"/>
+<variable id="surprised_ey_l_target_y3" type="expression" expression="{{eye_l_pos_y}}-({{eyebrow_l_pos_y}})/14"/>
+<variable id="surprised_ey_r_target_y3" type="expression" expression="{{eye_r_pos_y}}-({{eyebrow_r_pos_y}})/14"/>
+<variable id="wonder_eb_l_target_y1" type="expression" expression="{{eyebrow_l_pos_y}}+({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/6"/>
+<variable id="wonder_eb_r_target_y1" type="expression" expression="{{eyebrow_r_pos_y}}+({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/6"/>
+<variable id="wonder_eb_l_target_y2" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/5"/>
+<variable id="wonder_eb_r_target_y2" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/5"/>
+<variable id="wonder_eb_l_target_y3" type="expression" expression="{{eyebrow_l_pos_y}}-({{eye_l_pos_y}}-{{eyebrow_l_pos_y}})/9"/>
+<variable id="wonder_eb_r_target_y3" type="expression" expression="{{eyebrow_r_pos_y}}-({{eye_r_pos_y}}-{{eyebrow_r_pos_y}})/9"/>
+<variable id="wonder_ey_l_target_x1" type="expression" expression="{{eye_l_pos_x}}+({{eye_l_pos_x}})/14"/>
+<variable id="wonder_ey_r_target_x1" type="expression" expression="{{eye_r_pos_x}}+({{eye_r_pos_x}})/14"/>
+<variable id="wonder_ey_l_target_x2" type="expression" expression="{{eye_l_pos_x}}-({{eye_l_pos_x}})/14"/>
+<variable id="wonder_ey_r_target_x2" type="expression" expression="{{eye_r_pos_x}}-({{eye_r_pos_x}})/14"/>
+<variable id="wonder_ey_l_target_x3" type="expression" expression="{{eye_l_pos_x}}"/>
+<variable id="wonder_ey_r_target_x3" type="expression" expression="{{eye_r_pos_x}}"/></insertblock>
+
+<insertblock id="animations">
+
+<animation id="appear_appear_avatar_back_shadow" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="avatar_back_shadow" positionStart="0.52:0.52" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_avatar_back" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="avatar_back" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear-upperb" type="appearFade|opacity:0" object="upperBody" positionStart="0.5:0.5" positionEnd="0.5:0.5" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_body_base" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="body_base" positionStart="0.25:0.25" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_eye_l" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eye_l" positionStart="{{eye_l_pos_x}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_eye_r" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eye_r" positionStart="{{eye_r_pos_x}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_mouth" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="mouth" positionStart="{{mouth_pos_x}}:{{mouth_pos_y}}" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_eyebrow_l" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eyebrow_l" positionStart="{{eyebrow_l_pos_x}}:{{eyebrow_l_pos_y}}" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_appear_eyebrow_r" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="eyebrow_r" positionStart="{{eyebrow_r_pos_x}}:{{eyebrow_r_pos_y}}" positionRelativeTo="scene" startTime="0.0" endTime="0.0"/>
+<animation id="appear_scale_eye_l00" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="0.0" endTime="0.0"/>
+<animation id="appear_scale_eye_r00" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="0.0" endTime="0.0"/>
+<animation id="appear_scale_eyebrow_l00" type="basicScale|scaleTo:{{eyebrow_l_scale_x}},{{eyebrow_l_scale_y}}" object="eyebrow_l" startTime="0.0" endTime="0.0"/>
+<animation id="appear_scale_eyebrow_r00" type="basicScale|scaleTo:{{eyebrow_r_scale_x}},{{eyebrow_r_scale_y}}" object="eyebrow_r" startTime="0.0" endTime="0.0"/>
+<animation id="appear_scale_mouth00" type="basicScale|scaleTo:{{mouth_scale_x}},{{mouth_scale_y}}" object="mouth" startTime="0.0" endTime="0.0"/>
+<animation id="appear_upperb_scale" type="basicScale|scaleTo:0.6" object="upperBody" startTime="0.0" endTime="0.0"/>
+<animation id="appear_upperb_m0" type="basicMove" object="upperBody" positionStart="0.5:0.7" positionEnd="0.5:0.7" startTime="0.0" endTime="0.0"/>
+<animation id="appear_upperb_m1" type="basicMove|ease:easeOutExpo" object="upperBody" positionStart="0.5:0.7" positionEnd="0.5:0.5" startTime="0.5" endTime="1.5"/>
+<animation id="appear_upperb_o0" type="basicOpacity|opacity:1" object="upperBody" startTime="0.5" endTime="1.5"/>
+<animation id="appear_abs_s0" type="basicScale|scaleTo:0.6;ease:easeOutExpo" object="avatar_back_shadow" startTime="0.2" endTime="1.0"/>
+<animation id="appear_abs_o0" type="basicOpacity|opacity:1" object="avatar_back_shadow" startTime="0.2" endTime="0.6"/>
+<animation id="appear_ab_s0" type="basicScale|scaleTo:0.6;ease:easeOutExpo" object="avatar_back" startTime="0.4" endTime="1.4"/>
+<animation id="appear_ab_o0" type="basicOpacity|opacity:1" object="avatar_back" startTime="0.4" endTime="0.8"/>
+<animation id="idle_key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{idle_ey_l_target_x1}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="9.0" endTime="10.0"/>
+<animation id="idle_key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{idle_ey_r_target_x1}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="9.0" endTime="10.0"/>
+<animation id="idle_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{idle_ey_r_target_x2}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="10.5" endTime="11.5"/>
+<animation id="idle_key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{idle_ey_l_target_x2}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="10.5" endTime="11.5"/>
+<animation id="idle_key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{idle_ey_l_target_x3}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="12.0" endTime="13.0"/>
+<animation id="idle_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{idle_ey_r_target_x3}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="12.0" endTime="13.0"/>
+<animation id="idle_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="3.7" endTime="3.9"/>
+<animation id="idle_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="3.7" endTime="3.9"/>
+<animation id="idle_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="3.9" endTime="4.1"/>
+<animation id="idle_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="3.9" endTime="4.1"/>
+<animation id="idle_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="7.5" endTime="7.7"/>
+<animation id="idle_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="7.5" endTime="7.7"/>
+<animation id="idle_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="7.7" endTime="7.9"/>
+<animation id="idle_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="7.7" endTime="7.9"/>
+<animation id="idle_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="8.5" endTime="8.7"/>
+<animation id="idle_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="8.5" endTime="8.7"/>
+<animation id="idle_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="8.7" endTime="8.9"/>
+<animation id="idle_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="8.7" endTime="8.9"/>
+<animation id="idle_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="13.5" endTime="13.7"/>
+<animation id="idle_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="13.5" endTime="13.7"/>
+<animation id="idle_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="13.7" endTime="13.9"/>
+<animation id="idle_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="13.7" endTime="13.9"/>
+<animation id="idle_mouth_act" type="basicMeshMove|targets:[[-0.05,0.45],[0.5,0.5],[1.05,0.45]]" object="mouth" startTime="4.7" endTime="5.4"/>
+<animation id="idle_mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="7.5" endTime="10.5"/>
+<animation id="smile_key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{smile_ey_l_target_x1}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="21.4" endTime="22.4"/>
+<animation id="smile_key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{smile_ey_r_target_x1}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="21.4" endTime="22.4"/>
+<animation id="smile_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{smile_ey_r_target_x2}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="22.9" endTime="23.9"/>
+<animation id="smile_key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{smile_ey_l_target_x2}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="22.9" endTime="23.9"/>
+<animation id="smile_key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{smile_ey_l_target_x3}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="24.4" endTime="25.4"/>
+<animation id="smile_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{smile_ey_r_target_x3}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="24.4" endTime="25.4"/>
+<animation id="smile_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="16.1" endTime="16.3"/>
+<animation id="smile_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="16.1" endTime="16.3"/>
+<animation id="smile_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="16.3" endTime="16.5"/>
+<animation id="smile_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="16.3" endTime="16.5"/>
+<animation id="smile_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="19.9" endTime="20.1"/>
+<animation id="smile_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="19.9" endTime="20.1"/>
+<animation id="smile_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="20.1" endTime="20.3"/>
+<animation id="smile_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="20.1" endTime="20.3"/>
+<animation id="smile_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="20.9" endTime="21.1"/>
+<animation id="smile_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="20.9" endTime="21.1"/>
+<animation id="smile_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="21.1" endTime="21.3"/>
+<animation id="smile_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="21.1" endTime="21.3"/>
+<animation id="smile_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="25.9" endTime="26.1"/>
+<animation id="smile_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="25.9" endTime="26.1"/>
+<animation id="smile_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="26.1" endTime="26.3"/>
+<animation id="smile_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="26.1" endTime="26.3"/>
+<animation id="smile_mouth_act" type="basicMeshMove|targets:[[-0.05,0.45],[0.5,0.5],[1.05,0.45]]" object="mouth" startTime="17.1" endTime="17.8"/>
+<animation id="smile_mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="19.9" endTime="22.9"/>
+<animation id="sad_key_3_eyebrow_l_100" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{sad_eb_l_target_y1}}" positionRelativeTo="scene" startTime="27.8" endTime="28.6"/>
+<animation id="sad_key_1_eyebrow_l_102" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{sad_eb_l_target_y2}}" positionRelativeTo="scene" startTime="29.8" endTime="30.8"/>
+<animation id="sad_key_7_eyebrow_r_110" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{sad_eb_r_target_y1}}" positionRelativeTo="scene" startTime="27.8" endTime="28.6"/>
+<animation id="sad_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{sad_eb_r_target_y2}}" positionRelativeTo="scene" startTime="29.8" endTime="30.8"/>
+<animation id="sad_key_5_eyebrow_l_112" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{sad_eb_l_target_y3}}" positionRelativeTo="scene" startTime="31.5" endTime="33.3"/>
+<animation id="sad_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{sad_eb_r_target_y3}}" positionRelativeTo="scene" startTime="31.5" endTime="33.3"/>
+<animation id="sad_key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{sad_ey_l_target_y1}}" positionRelativeTo="scene" startTime="27.8" endTime="28.6"/>
+<animation id="sad_key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{sad_ey_l_target_y2}}" positionRelativeTo="scene" startTime="29.8" endTime="30.8"/>
+<animation id="sad_key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{sad_ey_r_target_y1}}" positionRelativeTo="scene" startTime="27.8" endTime="28.6"/>
+<animation id="sad_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{sad_ey_r_target_y2}}" positionRelativeTo="scene" startTime="29.8" endTime="30.8"/>
+<animation id="sad_key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{sad_ey_l_target_y3}}" positionRelativeTo="scene" startTime="31.5" endTime="33.3"/>
+<animation id="sad_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{sad_ey_r_target_y3}}" positionRelativeTo="scene" startTime="31.5" endTime="33.3"/>
+<animation id="sad_ey_l_target_r1" type="basicRotate|angle:-20" object="eyebrow_l" startTime="30.3" endTime="32.8"/>
+<animation id="sad_ey_r_target_r1" type="basicRotate|angle:20" object="eyebrow_r" startTime="30.3" endTime="32.8"/>
+<animation id="sad_ey_l_target_r2" type="basicRotate|angle:0" object="eyebrow_l" startTime="35.3" endTime="36.3"/>
+<animation id="sad_ey_r_target_r2" type="basicRotate|angle:0" object="eyebrow_r" startTime="35.3" endTime="36.3"/>
+<animation id="sad_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="28.5" endTime="29.0"/>
+<animation id="sad_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="28.5" endTime="29.0"/>
+<animation id="sad_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="29.0" endTime="29.5"/>
+<animation id="sad_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="29.0" endTime="29.5"/>
+<animation id="sad_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="32.3" endTime="32.5"/>
+<animation id="sad_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="32.3" endTime="32.5"/>
+<animation id="sad_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="32.5" endTime="32.7"/>
+<animation id="sad_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="32.5" endTime="32.7"/>
+<animation id="sad_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="33.3" endTime="33.5"/>
+<animation id="sad_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="33.3" endTime="33.5"/>
+<animation id="sad_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="33.5" endTime="33.7"/>
+<animation id="sad_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="33.5" endTime="33.7"/>
+<animation id="sad_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="35.3" endTime="35.5"/>
+<animation id="sad_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="35.3" endTime="35.5"/>
+<animation id="sad_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="35.5" endTime="35.7"/>
+<animation id="sad_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="35.5" endTime="35.7"/>
+<animation id="sad_mouth_act" type="basicMeshMove|targets:[[0,1],[0.5,0.5],[1,1]]" object="mouth" startTime="29.5" endTime="30.2"/>
+<animation id="sad_mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="35.3" endTime="36.3"/>
+<animation id="angry_key_3_eyebrow_l_100" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{angry_eb_l_target_y1}}" positionRelativeTo="scene" startTime="37.8" endTime="38.599999999999994"/>
+<animation id="angry_key_1_eyebrow_l_102" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{angry_eb_l_target_y2}}" positionRelativeTo="scene" startTime="39.8" endTime="40.8"/>
+<animation id="angry_key_7_eyebrow_r_110" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{angry_eb_r_target_y1}}" positionRelativeTo="scene" startTime="37.8" endTime="38.599999999999994"/>
+<animation id="angry_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{angry_eb_r_target_y2}}" positionRelativeTo="scene" startTime="39.8" endTime="40.8"/>
+<animation id="angry_key_5_eyebrow_l_112" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{angry_eb_l_target_y3}}" positionRelativeTo="scene" startTime="41.5" endTime="43.3"/>
+<animation id="angry_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{angry_eb_r_target_y3}}" positionRelativeTo="scene" startTime="41.5" endTime="43.3"/>
+<animation id="angry_key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{angry_ey_l_target_y1}}" positionRelativeTo="scene" startTime="37.8" endTime="38.599999999999994"/>
+<animation id="angry_key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{angry_ey_l_target_y2}}" positionRelativeTo="scene" startTime="39.8" endTime="40.8"/>
+<animation id="angry_key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{angry_ey_r_target_y1}}" positionRelativeTo="scene" startTime="37.8" endTime="38.599999999999994"/>
+<animation id="angry_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{angry_ey_r_target_y2}}" positionRelativeTo="scene" startTime="39.8" endTime="40.8"/>
+<animation id="angry_key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{angry_ey_l_target_y3}}" positionRelativeTo="scene" startTime="41.5" endTime="43.3"/>
+<animation id="angry_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{angry_ey_r_target_y3}}" positionRelativeTo="scene" startTime="41.5" endTime="43.3"/>
+<animation id="angry_ey_l_target_r1" type="basicRotate|angle:20" object="eyebrow_l" startTime="39.8" endTime="41.3"/>
+<animation id="angry_ey_r_target_r1" type="basicRotate|angle:-20" object="eyebrow_r" startTime="39.8" endTime="41.3"/>
+<animation id="angry_ey_l_target_r2" type="basicRotate|angle:0" object="eyebrow_l" startTime="45.3" endTime="46.3"/>
+<animation id="angry_ey_r_target_r2" type="basicRotate|angle:0" object="eyebrow_r" startTime="45.3" endTime="46.3"/>
+<animation id="angry_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="38.5" endTime="39.0"/>
+<animation id="angry_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="38.5" endTime="39.0"/>
+<animation id="angry_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="39.0" endTime="39.5"/>
+<animation id="angry_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="39.0" endTime="39.5"/>
+<animation id="angry_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="42.3" endTime="42.5"/>
+<animation id="angry_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="42.3" endTime="42.5"/>
+<animation id="angry_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="42.5" endTime="42.699999999999996"/>
+<animation id="angry_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="42.5" endTime="42.699999999999996"/>
+<animation id="angry_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="43.3" endTime="43.5"/>
+<animation id="angry_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="43.3" endTime="43.5"/>
+<animation id="angry_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="43.5" endTime="43.699999999999996"/>
+<animation id="angry_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="43.5" endTime="43.699999999999996"/>
+<animation id="angry_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="45.3" endTime="45.5"/>
+<animation id="angry_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="45.3" endTime="45.5"/>
+<animation id="angry_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="45.5" endTime="45.699999999999996"/>
+<animation id="angry_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="45.5" endTime="45.699999999999996"/>
+<animation id="angry_mouth_act" type="basicMeshMove|targets:[[0,1],[0.5,0.5],[1,1]]" object="mouth" startTime="39.5" endTime="40.199999999999996"/>
+<animation id="angry_mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="45.3" endTime="46.3"/>
+<animation id="surprised_key_3_eyebrow_l_100" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{surprised_eb_l_target_y1}}" positionRelativeTo="scene" startTime="47.8" endTime="48.599999999999994"/>
+<animation id="surprised_key_1_eyebrow_l_102" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{surprised_eb_l_target_y2}}" positionRelativeTo="scene" startTime="49.8" endTime="50.8"/>
+<animation id="surprised_key_7_eyebrow_r_110" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{surprised_eb_r_target_y1}}" positionRelativeTo="scene" startTime="47.8" endTime="48.599999999999994"/>
+<animation id="surprised_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{surprised_eb_r_target_y2}}" positionRelativeTo="scene" startTime="49.8" endTime="50.8"/>
+<animation id="surprised_key_5_eyebrow_l_112" type="basicMove" object="eyebrow_l" positionEnd="{{eyebrow_l_pos_x}}:{{surprised_eb_l_target_y3}}" positionRelativeTo="scene" startTime="51.5" endTime="53.3"/>
+<animation id="surprised_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{surprised_eb_r_target_y3}}" positionRelativeTo="scene" startTime="51.5" endTime="53.3"/>
+<animation id="surprised_key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{surprised_ey_l_target_y1}}" positionRelativeTo="scene" startTime="47.8" endTime="48.599999999999994"/>
+<animation id="surprised_key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{surprised_ey_l_target_y2}}" positionRelativeTo="scene" startTime="49.8" endTime="50.8"/>
+<animation id="surprised_key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{surprised_ey_r_target_y1}}" positionRelativeTo="scene" startTime="47.8" endTime="48.599999999999994"/>
+<animation id="surprised_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{surprised_ey_r_target_y2}}" positionRelativeTo="scene" startTime="49.8" endTime="50.8"/>
+<animation id="surprised_key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{eye_l_pos_x}}:{{surprised_ey_l_target_y3}}" positionRelativeTo="scene" startTime="51.5" endTime="53.3"/>
+<animation id="surprised_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{eye_r_pos_x}}:{{surprised_ey_r_target_y3}}" positionRelativeTo="scene" startTime="51.5" endTime="53.3"/>
+<animation id="surprised_ey_l_target_r1" type="basicRotate|angle:-10" object="eyebrow_l" startTime="50.3" endTime="52.8"/>
+<animation id="surprised_ey_r_target_r1" type="basicRotate|angle:10" object="eyebrow_r" startTime="50.3" endTime="52.8"/>
+<animation id="surprised_ey_l_target_r2" type="basicRotate|angle:0" object="eyebrow_l" startTime="55.3" endTime="56.3"/>
+<animation id="surprised_ey_r_target_r2" type="basicRotate|angle:0" object="eyebrow_r" startTime="55.3" endTime="56.3"/>
+<animation id="surprised_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="48.5" endTime="49.0"/>
+<animation id="surprised_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="48.5" endTime="49.0"/>
+<animation id="surprised_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="49.0" endTime="49.5"/>
+<animation id="surprised_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="49.0" endTime="49.5"/>
+<animation id="surprised_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="52.3" endTime="52.5"/>
+<animation id="surprised_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="52.3" endTime="52.5"/>
+<animation id="surprised_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="52.5" endTime="52.699999999999996"/>
+<animation id="surprised_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="52.5" endTime="52.699999999999996"/>
+<animation id="surprised_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="53.3" endTime="53.5"/>
+<animation id="surprised_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="53.3" endTime="53.5"/>
+<animation id="surprised_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="53.5" endTime="53.699999999999996"/>
+<animation id="surprised_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="53.5" endTime="53.699999999999996"/>
+<animation id="surprised_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="55.3" endTime="55.5"/>
+<animation id="surprised_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="55.3" endTime="55.5"/>
+<animation id="surprised_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="55.5" endTime="55.699999999999996"/>
+<animation id="surprised_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="55.5" endTime="55.699999999999996"/>
+<animation id="surprised_mouth_act" type="basicMeshMove|targets:[[0.25,0.6],[0.5,0.5],[0.75,0.6]]" object="mouth" startTime="49.5" endTime="50.199999999999996"/>
+<animation id="surprised_mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="55.3" endTime="56.3"/>
+<animation id="wonder_key_7_eyebrow_r_110" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{wonder_eb_r_target_y1}}" positionRelativeTo="scene" startTime="57.8" endTime="58.599999999999994"/>
+<animation id="wonder_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{wonder_eb_r_target_y2}}" positionRelativeTo="scene" startTime="59.8" endTime="60.8"/>
+<animation id="wonder_key_5_eyebrow_r_112" type="basicMove" object="eyebrow_r" positionEnd="{{eyebrow_r_pos_x}}:{{wonder_eb_r_target_y3}}" positionRelativeTo="scene" startTime="61.5" endTime="63.3"/>
+<animation id="wonder_key_3_eye_l_100" type="basicMove" object="eye_l" positionEnd="{{wonder_ey_l_target_x1}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="60.8" endTime="61.8"/>
+<animation id="wonder_key_7_eye_r_110" type="basicMove" object="eye_r" positionEnd="{{wonder_ey_r_target_x1}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="60.8" endTime="61.8"/>
+<animation id="wonder_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{wonder_ey_r_target_x2}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="62.3" endTime="63.3"/>
+<animation id="wonder_key_1_eye_l_102" type="basicMove" object="eye_l" positionEnd="{{wonder_ey_l_target_x2}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="62.3" endTime="63.3"/>
+<animation id="wonder_key_5_eye_l_112" type="basicMove" object="eye_l" positionEnd="{{wonder_ey_l_target_x3}}:{{eye_l_pos_y}}" positionRelativeTo="scene" startTime="63.8" endTime="64.8"/>
+<animation id="wonder_key_5_eye_r_112" type="basicMove" object="eye_r" positionEnd="{{wonder_ey_r_target_x3}}:{{eye_r_pos_y}}" positionRelativeTo="scene" startTime="63.8" endTime="64.8"/>
+<animation id="wonder_ey_l_target_r1" type="basicRotate|angle:5" object="eyebrow_l" startTime="59.8" endTime="61.3"/>
+<animation id="wonder_ey_r_target_r1" type="basicRotate|angle:-10" object="eyebrow_r" startTime="59.8" endTime="61.3"/>
+<animation id="wonder_ey_l_target_r2" type="basicRotate|angle:0" object="eyebrow_l" startTime="65.3" endTime="66.3"/>
+<animation id="wonder_ey_r_target_r2" type="basicRotate|angle:0" object="eyebrow_r" startTime="65.3" endTime="66.3"/>
+<animation id="wonder_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005" object="eye_l" startTime="58.5" endTime="59.0"/>
+<animation id="wonder_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005" object="eye_r" startTime="58.5" endTime="59.0"/>
+<animation id="wonder_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}}" object="eye_l" startTime="59.0" endTime="59.5"/>
+<animation id="wonder_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}}" object="eye_r" startTime="59.0" endTime="59.5"/>
+<animation id="wonder_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="62.3" endTime="62.5"/>
+<animation id="wonder_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="62.3" endTime="62.5"/>
+<animation id="wonder_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="62.5" endTime="62.699999999999996"/>
+<animation id="wonder_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="62.5" endTime="62.699999999999996"/>
+<animation id="wonder_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="63.3" endTime="63.5"/>
+<animation id="wonder_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="63.3" endTime="63.5"/>
+<animation id="wonder_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="63.5" endTime="63.699999999999996"/>
+<animation id="wonder_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="63.5" endTime="63.699999999999996"/>
+<animation id="wonder_scale_eye_l0" type="basicScale|scaleTo:{{eye_l_scale_x}},0.005;ease:easeOutExpo" object="eye_l" startTime="65.3" endTime="65.5"/>
+<animation id="wonder_scale_eye_r0" type="basicScale|scaleTo:{{eye_r_scale_x}},0.005;ease:easeOutExpo" object="eye_r" startTime="65.3" endTime="65.5"/>
+<animation id="wonder_scale_eye_l1" type="basicScale|scaleTo:{{eye_l_scale_x}},{{eye_l_scale_y}};ease:easeOutExpo" object="eye_l" startTime="65.5" endTime="65.7"/>
+<animation id="wonder_scale_eye_r1" type="basicScale|scaleTo:{{eye_r_scale_x}},{{eye_r_scale_y}};ease:easeOutExpo" object="eye_r" startTime="65.5" endTime="65.7"/>
+<animation id="wonder_mouth_act" type="basicMeshMove|targets:[[0.2,0.5],[0.5,0.5],[0.8,0.5]]" object="mouth" startTime="59.5" endTime="60.199999999999996"/>
+<animation id="wonder_mouth_unact" type="basicMeshMove|targets:[[0,0.5],[0.5,0.5],[1,0.5]]" object="mouth" startTime="65.3" endTime="66.3"/></insertblock>
+
+<animCheckpoint label="appear" time="0.0"/>
+<animCheckpoint label="idle" time="3.7"/>
+<animCheckpoint label="smile" time="16.1"/>
+<animCheckpoint label="sad" time="27.8"/>
+<animCheckpoint label="angry" time="37.8"/>
+<animCheckpoint label="surprised" time="47.8"/>
+<animCheckpoint label="wonder" time="57.8"/>
+</igml>

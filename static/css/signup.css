@@ -1,0 +1,27 @@
+.signup-form ul, .signup-form .helptext {
+  font-size: 0.8em;
+  text-align: left;
+  font-style: italic;
+  color: var(--gray300);
+}
+
+.signup-form p {
+  text-align: left;
+}
+
+.signup-form ul {
+  padding: 0 0 0 1em;
+}
+
+.signup-form input {
+  border: 1px solid var(--gray300);
+}
+
+ul.errorlist, .signup-form-message {
+  color: #B157F7;
+}
+
+*:required {
+  background-color: #f7ecff;
+  border: 1px solid #B157F7 !important;
+}

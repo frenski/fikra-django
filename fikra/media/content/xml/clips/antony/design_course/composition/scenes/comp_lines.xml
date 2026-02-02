@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+
+
+<object id="line_0" type="image" src="graphics/design/composition/dotted_comp/line.svg" action="link" editable="false" />
+
+<object id="line_1" type="image" src="graphics/design/composition/dotted_comp/line.svg" action="link" editable="false" />
+
+<object id="line_2" type="image" src="graphics/design/composition/dotted_comp/line.svg" action="link" editable="false" />
+
+<object id="line_3" type="image" src="graphics/design/composition/dotted_comp/line.svg" action="link" editable="false" />
+
+
+
+
+
+
+<animation id="appear_line_0" type="appearFade|scaleTo:0.005;opacity:1;anchorPoint:0.5,0.5" object="line_0" positionStart="-0.733:0.492" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_1" type="appearFade|scaleTo:0.005;opacity:1;anchorPoint:0.5,0.5" object="line_1" positionStart="1.72:0.492" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_2" type="appearFade|scaleTo:0.005;opacity:1;anchorPoint:0.5,0.5" object="line_2" positionStart="0.502:-0.756" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_3" type="appearFade|scaleTo:0.005;opacity:1;anchorPoint:0.5,0.5" object="line_3" positionStart="0.502:1.782" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+<animation id="key_8_line_00" type="basicMove|ease:easeInOutSine;" object="line_0" positionStart="-0.733:0.492"  positionEnd="0.267:0.492"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+
+<animation id="key_3_line_10" type="basicMove|ease:easeInOutSine;" object="line_1" positionStart="1.720:0.492"  positionEnd="0.720:0.492"  positionRelativeTo="scene" startTime="0.80" endTime="1.80" />
+
+<animation id="key_3_line_20" type="basicRotate|angle:90.000;revertAnchor:false;" object="line_2"  startTime="0.00" endTime="0.00" />
+
+<animation id="key_5_line_30" type="basicRotate|angle:90.000;revertAnchor:false;" object="line_3"  startTime="0.00" endTime="0.00" />
+
+<animation id="key_7_line_20" type="basicMove|ease:easeInOutSine;" object="line_2" positionStart="0.502:-0.756"  positionEnd="0.502:0.244"  positionRelativeTo="scene" startTime="1.20" endTime="2.20" />
+
+<animation id="key_1_line_30" type="basicMove|ease:easeInOutSine;" object="line_3" positionStart="0.502:1.782"  positionEnd="0.502:0.782"  positionRelativeTo="scene" startTime="1.60" endTime="2.60" />
+
+
+<animation id="disppear-typewriter" type="disappearFade" object="line_0,line_1,line_2,line_3" positionRelativeTo="scene" startTime="15" endTime="15" />
+
+
+
+
+
+ </igml>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="rect_0" type="shape" shapetype="rect" size="0.5,1" color="#1d1538" strokeWidth="0" action="link" editable="false"/>
+
+
+
+
+
+<object id="watermar_3" type="image" src="graphics/design/interactions/color/distance/watermark.svg" action="link" editable="false" />
+
+<object id="circle_4" type="image" src="graphics/design/interactions/color/distance/circle.svg" action="link" editable="false" />
+
+<object id="land0" type="image" src="graphics/design/interactions/color/distance/land1.svg" action="link" editable="false" />
+
+<object id="land1" type="image" src="graphics/design/interactions/color/distance/land2.svg" action="link" editable="false" />
+
+<object id="land2" type="image" src="graphics/design/interactions/color/distance/land3.svg" action="link" editable="false" />
+
+<object id="circle1_8" type="image" src="graphics/design/interactions/color/distance/circle1.svg" action="link" editable="false" />
+
+<object id="circle2_9" type="image" src="graphics/design/interactions/color/distance/circle2.svg" action="link" editable="false" />
+
+<object id="circle3_10" type="image" src="graphics/design/interactions/color/distance/circle3.svg" action="link" editable="false" />
+
+<object id="circle4_11" type="image" src="graphics/design/interactions/color/distance/circle4.svg" action="link" editable="false" />
+
+<object id="circle5_12" type="image" src="graphics/design/interactions/color/distance/circle5.svg" action="link" editable="false" />
+
+<object id="circle6_13" type="image" src="graphics/design/interactions/color/distance/circle6.svg" action="link" editable="false" />
+
+
+<animation id="appear_rect_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_0" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_watermar_3" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermar_3" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle_4" positionStart="0.481:0.47" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_land1_5" type="appearFade|scaleTo:0.18;opacity:1;anchorPoint:0.5,0.5" object="land0" positionStart="0.539:0.47" positionRelativeTo="scene" startTime="2.1" endTime="3.904" />
+
+<animation id="appear_land2_6" type="appearFade|scaleTo:0.18;opacity:1;anchorPoint:0.5,0.5" object="land1" positionStart="0.424:0.532" positionRelativeTo="scene" startTime="2.2" endTime="4" />
+
+<animation id="appear_land3_7" type="appearFade|scaleTo:0.26;opacity:1;anchorPoint:0.5,0.5" object="land2" positionStart="0.497:0.623" positionRelativeTo="scene" startTime="2.3" endTime="4.1" />
+
+<animation id="appear_circle1_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle1_8" positionStart="0.72:0.344" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle2_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle2_9" positionStart="0.809:0.343" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle3_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle3_10" positionStart="0.898:0.344" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle4_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle4_11" positionStart="0.722:0.513" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle5_12" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle5_12" positionStart="0.812:0.513" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle6_13" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle6_13" positionStart="0.9:0.509" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<variable id="land_id" type="int" default="0" />
+<variable id="marker_pos_x" type="float" default="0" reference="marker.position.x" />
+<variable id="marker_pos_y" type="float" default="0" reference="marker.position.y" />
+<variable id="marker_w" type="float" default="0" reference="marker.width" />
+<variable id="marker_h" type="float" default="0" reference="marker.height" />
+<variable id="marker_r" type="float" default="0" reference="marker.rotation" />
+<variable id="land0_tint" type="int" default="0xFFFFFF" reference="land0.tint" />
+<variable id="land1_tint" type="int" default="0xFFFFFF" reference="land1.tint" />
+<variable id="land2_tint" type="int" default="0xFFFFFF" reference="land2.tint" />
+
+
+<interaction id="enable-click-l1" type="enableClick" subtype="basic" objects="land0" startTime="7.9" endTime="8.1" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['marker_w','active_object','width']|setVar:['marker_h','active_object','height']|setVar:['marker_r','active_object','rotation']|setVar:['land_id',0]" />
+
+<interaction id="enable-click-l2" type="enableClick" subtype="basic" objects="land1" startTime="7.9" endTime="8.1" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['marker_w','active_object','width']|setVar:['marker_h','active_object','height']|setVar:['marker_r','active_object','rotation']|setVar:['land_id',1]" />
+
+<interaction id="enable-click-l3" type="enableClick" subtype="basic" objects="land2" startTime="7.9" endTime="8.1" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['marker_w','active_object','width']|setVar:['marker_h','active_object','height']|setVar:['marker_r','active_object','rotation']|setVar:['land_id',2]" />
+
+
+
+
+<interaction id="enable-click-c1" type="enableClick" subtype="basic" objects="circle1_8" startTime="7.9" endTime="8.1" actions="onClick:setVar:['land{{land_id}}_tint','0x046353']" />
+
+<interaction id="enable-click-c2" type="enableClick" subtype="basic" objects="circle2_9" startTime="7.9" endTime="8.1" actions="onClick:setVar:['land{{land_id}}_tint','0x068c79']" />
+
+<interaction id="enable-click-c3" type="enableClick" subtype="basic" objects="circle3_10" startTime="7.9" endTime="8.1" actions="onClick:setVar:['land{{land_id}}_tint','0x2ebca4']" />
+
+<interaction id="enable-click-c4" type="enableClick" subtype="basic" objects="circle4_11" startTime="7.9" endTime="8.1" actions="onClick:setVar:['land{{land_id}}_tint','0x00dbc0']" />
+
+<interaction id="enable-click-c5" type="enableClick" subtype="basic" objects="circle5_12" startTime="7.9" endTime="8.1" actions="onClick:setVar:['land{{land_id}}_tint','0x79e2d3']" />
+
+<interaction id="enable-click-c6" type="enableClick" subtype="basic" objects="circle6_13" startTime="7.9" endTime="8.1" actions="onClick:setVar:['land{{land_id}}_tint','0xbbf9ee']" />
+
+
+
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="7.9" />
+
+
+<animation id="key_2_rect_00" type="basicMove|ease:easeOutExpo;" object="rect_0" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_0_rect_00" type="basicMove" object="rect_0" positionStart="0.500:1.500"  positionEnd="0.500:3.000"  positionRelativeTo="scene" startTime="12.70" endTime="13.00" />
+
+
+
+<animation id="key_8_watermar_30" type="basicMove|ease:easeOutQuad;" object="watermar_3" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="1.70" endTime="2.30" />
+
+<animation id="key_4_ circle_40" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle_4"  startTime="0.00" endTime="1.00" />
+<animation id="key_4_ circle_41" type="basicScale|scaleTo:0.360;ease:easeInOutSine;" object="circle_4"  startTime="1.00" endTime="1.50" />
+<animation id="key_2_ circle_42" type="basicScale|scaleTo:0.300;ease:easeInOutSine;" object="circle_4"  startTime="1.50" endTime="2.00" />
+
+
+
+
+
+<animation id="key_6_ circle1_80" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle1_8"  startTime="1.50" endTime="2.50" />
+<animation id="key_5_ circle1_81" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle1_8"  startTime="2.50" endTime="2.80" />
+<animation id="key_7_ circle1_82" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle1_8"  startTime="2.80" endTime="3.50" />
+
+<animation id="key_4_ circle2_90" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle2_9"  startTime="2.00" endTime="3.00" />
+<animation id="key_0_ circle2_91" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle2_9"  startTime="3.00" endTime="3.30" />
+<animation id="key_3_ circle2_92" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle2_9"  startTime="3.30" endTime="4.00" />
+
+<animation id="key_0_ circle3_100" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle3_10"  startTime="2.50" endTime="3.50" />
+<animation id="key_5_ circle3_101" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle3_10"  startTime="3.50" endTime="3.80" />
+<animation id="key_1_ circle3_102" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle3_10"  startTime="3.80" endTime="4.50" />
+
+<animation id="key_8_ circle4_110" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle4_11"  startTime="3.00" endTime="4.00" />
+<animation id="key_7_ circle4_111" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle4_11"  startTime="4.00" endTime="4.30" />
+<animation id="key_2_ circle4_112" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle4_11"  startTime="4.30" endTime="5.00" />
+
+<animation id="key_4_ circle5_120" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle5_12"  startTime="3.50" endTime="4.50" />
+<animation id="key_6_ circle5_121" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle5_12"  startTime="4.50" endTime="4.80" />
+<animation id="key_3_ circle5_122" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle5_12"  startTime="4.80" endTime="5.50" />
+
+<animation id="key_6_ circle6_130" type="basicScale|scaleTo:0.000;ease:easeInOutSine;" object="circle6_13"  startTime="4.00" endTime="5.00" />
+<animation id="key_3_ circle6_131" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="circle6_13"  startTime="5.00" endTime="5.30" />
+<animation id="key_6_ circle6_132" type="basicScale|scaleTo:0.070;ease:easeInOutSine;" object="circle6_13"  startTime="5.30" endTime="6.00" />
+																										
+																										
+
+
+
+ </igml>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

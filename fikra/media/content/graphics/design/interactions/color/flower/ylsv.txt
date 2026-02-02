@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="rect_0" type="shape" shapetype="rect" size="0.5,1" color="#ffffff" strokeWidth="0" action="link" editable="false"/>
+
+<object id="watermark_1" type="image" src="graphics/design/interactions/color/flower/watermark.svg" action="link" editable="false" />
+
+<object id="circle_2" type="image" src="graphics/design/interactions/color/flower/circle.svg" action="link" editable="false" />
+
+<object id="trunk_3" type="image" src="graphics/design/interactions/color/flower/trunk.svg" action="link" editable="false" />
+
+<object id="blackleaf_4" type="image" src="graphics/design/interactions/color/flower/blackleaf.svg" action="link" editable="false" />
+
+<object id="leaf3_5" type="image" src="graphics/design/interactions/color/flower/leaf3.svg" action="link" editable="false" />
+
+<object id="leaf3_6" type="image" src="graphics/design/interactions/color/flower/leaf3.svg" action="link" editable="false" />
+
+<object id="leaf2_7" type="image" src="graphics/design/interactions/color/flower/leaf2.svg" action="link" editable="false" />
+
+<object id="leaf2_8" type="image" src="graphics/design/interactions/color/flower/leaf2_2.svg" action="link" editable="false" />
+
+<object id="leaf1_9" type="image" src="graphics/design/interactions/color/flower/leaf1.svg" action="link" editable="false" />
+
+<object id="bl_10" type="image" src="graphics/design/interactions/color/flower/bl.svg" action="link" editable="false" />
+
+<object id="cy_11" type="image" src="graphics/design/interactions/color/flower/cy.svg" action="link" editable="false" />
+
+<object id="gr_12" type="image" src="graphics/design/interactions/color/flower/gr.svg" action="link" editable="false" />
+
+<object id="ma_13" type="image" src="graphics/design/interactions/color/flower/ma.svg" action="link" editable="false" />
+
+<object id="or_14" type="image" src="graphics/design/interactions/color/flower/or.svg" action="link" editable="false" />
+
+<object id="pu_15" type="image" src="graphics/design/interactions/color/flower/pu.svg" action="link" editable="false" />
+
+<object id="re_16" type="image" src="graphics/design/interactions/color/flower/re.svg" action="link" editable="false" />
+
+<object id="ye_17" type="image" src="graphics/design/interactions/color/flower/ye.svg" action="link" editable="false" />
+
+<object id="blackleaf_18" type="image" src="graphics/design/interactions/color/flower/blackleaf.svg" action="link" editable="false" />
+
+
+
+
+  <object id="textbut-compare" type="text" text="Ready" size="20" align="center" color="#6966F3" width="20" font="Open Sans" weight="300" />
+  <object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#ffffff" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+
+
+
+
+	
+<!--
+<variable id="set_fill" type="array" default="['hsl',35,70,50]" expression="['hsl',0,70,50]" />
+<variable id="set_fill" type="array" default="['hsl',35,70,50]" />
+	
+	<variable id="leaf1_9_fill" type="array" default="['hsl',0,70,50]" reference="leaf1_9.fill"/>
+	
+	<variable id="ind_circle_fill1" type="array" default="['hsl',0,70,50]" reference="indiccircle2.fill" />
+-->
+
+<animation id="appear_rect_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_0" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_watermark_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_1" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="circle_2" positionStart="0.25:0.466" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_trunk_3" type="appearFade|scaleTo:0.015,0;opacity:1;anchorPoint:0.5,1" object="trunk_3" positionStart="0.248:0.78" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_blackleaf_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:1,1" object="blackleaf_4" positionStart="0.245:0.704" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leaf3_5" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:1,1" object="leaf3_5" positionStart="0.248:0.495" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leaf3_6" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:1,1" object="leaf3_6" positionStart="0.245:0.495" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_leaf2_7" type="appearFade|scaleTo:0.06;opacity:1;anchorPoint:0.5,0.5" object="leaf2_7" positionStart="0.217:0.455" positionRelativeTo="scene" startTime="2.6" endTime="3.1" />
+
+<animation id="appear_leaf2_8" type="appearFade|scaleTo:0.06;opacity:1;anchorPoint:0.5,0.5" object="leaf2_8" positionStart="0.277:0.455" positionRelativeTo="scene" startTime="2.6" endTime="3.1" />
+
+<animation id="appear_leaf1_9" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="leaf1_9" positionStart="0.246:0.385" positionRelativeTo="scene" startTime="3" endTime="3.2" />
+
+<animation id="appear_bl_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="bl_10" positionStart="0.578:0.597" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cy_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cy_11" positionStart="0.674:0.597" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_gr_12" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="gr_12" positionStart="0.762:0.597" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_ma_13" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="ma_13" positionStart="0.578:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_or_14" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="or_14" positionStart="0.855:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_pu_15" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="pu_15" positionStart="0.762:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_re_16" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="re_16" positionStart="0.671:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_ye_17" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="ye_17" positionStart="0.852:0.597" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_blackleaf_18" type="appearFade|scaleTo:0;opacity:1;anchorPoint:1,1" object="blackleaf_18" positionStart="0.247:0.7" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="3" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+  <animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="3" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+  <animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.68:0.75" positionEnd="0.68:0.75" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_8_rect_00" type="basicMove|ease:easeOutExpo;" object="rect_0" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_6_watermark_10" type="basicMove|ease:easeOutQuad;" object="watermark_1" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="5.00" endTime="5.60" />
+
+<animation id="key_2_circle_20" type="basicScale|scaleTo:0.400;ease:easeInOutQuad;" object="circle_2"  startTime="0.30" endTime="0.80" />
+<animation id="key_3_circle_21" type="basicScale|scaleTo:0.350;ease:easeInOutQuad;" object="circle_2"  startTime="0.80" endTime="1.10" />
+
+<animation id="key_1_trunk_30" type="basicScale|scaleTo:0.015,0.000;ease:easeInQuad;" object="trunk_3"  startTime="0.60" endTime="0.90" />
+<animation id="key_8_trunk_31" type="basicScale|scaleTo:0.015,0.300;ease:easeInQuad;" object="trunk_3"  startTime="0.90" endTime="2.20" />
+
+
+
+
+
+<animation id="key_4_leaf3_60" type="basicRotate|angle:90.000;revertAnchor:false;" object="leaf3_6"  startTime="0.00" endTime="0.00" />
+
+
+
+
+
+<animation id="key_5_leaf1_90" type="basicMove|ease:easeOutExpo;" object="leaf1_9" positionStart="0.246:0.385"  positionEnd="0.246:0.285"  positionRelativeTo="scene" startTime="3.00" endTime="3.50" />
+
+<animation id="key_7_bl_100" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="bl_10"  startTime="4.80" endTime="5.30" />
+<animation id="key_8_bl_101" type="basicScale|scaleTo:0.080;ease:easeInOutCubic;" object="bl_10"  startTime="5.30" endTime="5.50" />
+
+<animation id="key_5_cy_110" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="cy_11"  startTime="5.00" endTime="5.50" />
+<animation id="key_4_cy_111" type="basicScale|scaleTo:0.080;ease:easeInOutCubic;" object="cy_11"  startTime="5.50" endTime="5.70" />
+
+<animation id="key_8_gr_120" type="basicScale|scaleTo:0.100;ease:easeInOutQuad;" object="gr_12"  startTime="5.20" endTime="5.70" />
+<animation id="key_1_gr_121" type="basicScale|scaleTo:0.080;ease:easeInOutQuad;" object="gr_12"  startTime="5.70" endTime="5.90" />
+
+<animation id="key_6_ma_130" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="ma_13"  startTime="4.00" endTime="4.50" />
+<animation id="key_5_ma_131" type="basicScale|scaleTo:0.080;ease:easeInOutCubic;" object="ma_13"  startTime="4.50" endTime="4.70" />
+
+<animation id="key_6_or_140" type="basicScale|scaleTo:0.100;ease:easeInOutQuad;" object="or_14"  startTime="4.60" endTime="5.10" />
+<animation id="key_6_or_141" type="basicScale|scaleTo:0.080;ease:easeInOutQuad;" object="or_14"  startTime="5.10" endTime="5.30" />
+
+<animation id="key_6_pu_150" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="pu_15"  startTime="4.40" endTime="4.90" />
+<animation id="key_3_pu_151" type="basicScale|scaleTo:0.080;ease:easeInOutCubic;" object="pu_15"  startTime="4.90" endTime="5.10" />
+
+<animation id="key_4_re_160" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="re_16"  startTime="4.20" endTime="4.70" />
+<animation id="key_5_re_161" type="basicScale|scaleTo:0.080;ease:easeInOutCubic;" object="re_16"  startTime="4.70" endTime="4.90" />
+
+<animation id="key_5_ye_170" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="ye_17"  startTime="5.40" endTime="5.90" />
+<animation id="key_3_ye_171" type="basicScale|scaleTo:0.080;ease:easeInOutCubic;" object="ye_17"  startTime="5.90" endTime="6.10" />
+
+<animation id="key_8_blackleaf_180" type="basicRotate|angle:90.000;revertAnchor:false;" object="blackleaf_18"  startTime="0.00" endTime="0.00" />
+
+<animation id="key_2_blackleaf_180" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="blackleaf_18"  startTime="1.20" endTime="1.70" />
+<animation id="key_1_blackleaf_181" type="basicScale|scaleTo:0.050;ease:easeOutExpo;" object="blackleaf_18"  startTime="1.70" endTime="2.10" />
+
+<animation id="key_0_blackleaf_40" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="blackleaf_4"  startTime="1.30" endTime="1.80" />
+<animation id="key_8_blackleaf_41" type="basicScale|scaleTo:0.050;ease:easeOutExpo;" object="blackleaf_4"  startTime="1.80" endTime="2.20" />
+
+<animation id="key_7_leaf3_50" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="leaf3_5"  startTime="1.80" endTime="2.30" />
+<animation id="key_6_leaf3_51" type="basicScale|scaleTo:0.080;ease:easeOutExpo;" object="leaf3_5"  startTime="2.30" endTime="2.70" />
+
+<animation id="key_7_leaf3_60" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="leaf3_6"  startTime="1.90" endTime="2.40" />
+<animation id="key_2_leaf3_61" type="basicScale|scaleTo:0.080;ease:easeOutExpo;" object="leaf3_6"  startTime="2.40" endTime="2.80" />
+
+<animation id="key_6_leaf2_80" type="basicMove|ease:easeOutExpo;" object="leaf2_8" positionStart="0.277:0.455"  positionEnd="0.277:0.377"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+<animation id="key_5_leaf2_70" type="basicMove|ease:easeOutExpo;" object="leaf2_7" positionStart="0.215:0.455"  positionEnd="0.215:0.377"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;" objects="backbut-compare" startTime="6" endTime="6" actions="onClick:play" />
+
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="6" />
+
+<interaction id="enable-click" type="enableClick"  subtype="basic|tintClick:E5D400;" objects="leaf1_9" startTime="6" endTime="6.02" actions="onClick:pause"/>
+
+
+
+
+
+
+ </igml>
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

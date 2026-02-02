@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="image" src="graphics/design/titles/titles_template_forms/bg.svg" action="link" editable="true" />
+
+<object id="line_1" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+
+<object id="line_2" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+
+<object id="line_3" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+
+<object id="line_4" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+
+<object id="line_5" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+
+<object id="line_6" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+ab
+<object id="line_7" type="image" src="graphics/design/titles/titles_template_forms/line.svg" action="link" editable="true" />
+
+
+
+<object id="txt_9" type="text" text="3" size="100" align = "center" color="#ffffff" width="100" font="Arial" wordWrap="false" wordWrapWidth=""/>
+
+<object id="txt_10" type="text" text="Space" size="150" align = "center" color="#ffffff" width="100" font="Open Sans" wordWrap="false" wordWrapWidth=""/>
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:1.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_1" type="appearFade|scaleTo:0.0,0.0;opacity:1;anchorPoint:0.0,0.5" object="line_1" positionStart="0.0:0.52" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_2" type="appearFade|scaleTo:0.0,0.0;opacity:0.5;anchorPoint:0.0,0.5" object="line_2" positionStart="0.0:0.1250.05" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_3" type="appearFade|scaleTo:0.0,0.0;opacity:0.5;anchorPoint:0.0,0.5" object="line_3" positionStart="0.0:0.250.05" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_4" type="appearFade|scaleTo:0.0,0.0;opacity:0.5;anchorPoint:0.0,0.5" object="line_4" positionStart="0.0:0.3750.05" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_5" type="appearFade|scaleTo:0.0,0.0;opacity:0.5;anchorPoint:0.0,0.5" object="line_5" positionStart="0.0:0.685" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_6" type="appearFade|scaleTo:0.0,0.0;opacity:0.5;anchorPoint:0.0,0.5" object="line_6" positionStart="0.0:0.81" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_7" type="appearFade|scaleTo:0.0,0.0;opacity:0.5;anchorPoint:0.0,0.5" object="line_7" positionStart="0.0:0.935" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_txt_9" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:0.5,0.5" object="txt_9" positionStart="-0.5:0.450" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt_10" type="appearFade|scaleTo:0.30;opacity:1;anchorPoint:0.5,0.5" object="txt_10" positionStart="0.38:1.25" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_0_bg_00" type="basicMove" object="bg_0" positionStart="0.500:1.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="0.30" />
+
+<animation id="key_4_line_10" type="basicScale|scaleTo:0.000,0.020" object="line_1"  startTime="0.90" endTime="1.00" />
+<animation id="key_8_line_11" type="basicScale|scaleTo:0.300,0.020" object="line_1"  startTime="1.00" endTime="1.10" />
+<animation id="key_6_line_12" type="basicScale|scaleTo:0.200,0.020" object="line_1"  startTime="1.10" endTime="1.30" />
+<animation id="key_1_line_13" type="basicScale|scaleTo:0.200,0.020" object="line_1"  startTime="1.30" endTime="5.80" />
+<animation id="key_3_line_14" type="basicScale|scaleTo:0.300,0.020" object="line_1"  startTime="5.80" endTime="6.00" />
+<animation id="key_5_line_15" type="basicScale|scaleTo:0.000,0.020" object="line_1"  startTime="6.00" endTime="6.20" />
+
+<animation id="key_6_line_20" type="basicScale|scaleTo:0.000,0.020" object="line_2"  startTime="0.20" endTime="0.30" />
+<animation id="key_3_line_21" type="basicScale|scaleTo:0.150,0.020" object="line_2"  startTime="0.30" endTime="0.40" />
+<animation id="key_8_line_22" type="basicScale|scaleTo:0.100,0.020" object="line_2"  startTime="0.40" endTime="0.60" />
+<animation id="key_6_line_23" type="basicScale|scaleTo:0.100,0.020" object="line_2"  startTime="0.60" endTime="5.10" />
+<animation id="key_7_line_24" type="basicScale|scaleTo:0.000,0.020" object="line_2"  startTime="5.10" endTime="5.30" />
+
+<animation id="key_0_line_30" type="basicScale|scaleTo:0.000,0.020" object="line_3"  startTime="0.30" endTime="0.40" />
+<animation id="key_7_line_31" type="basicScale|scaleTo:0.150,0.020" object="line_3"  startTime="0.40" endTime="0.50" />
+<animation id="key_3_line_32" type="basicScale|scaleTo:0.100,0.020" object="line_3"  startTime="0.50" endTime="0.70" />
+<animation id="key_5_line_33" type="basicScale|scaleTo:0.100,0.020" object="line_3"  startTime="0.70" endTime="5.20" />
+<animation id="key_1_line_34" type="basicScale|scaleTo:0.000,0.020" object="line_3"  startTime="5.20" endTime="5.40" />
+
+<animation id="key_0_line_40" type="basicScale|scaleTo:0.000,0.020" object="line_4"  startTime="0.40" endTime="0.50" />
+<animation id="key_5_line_41" type="basicScale|scaleTo:0.150,0.020" object="line_4"  startTime="0.50" endTime="0.60" />
+<animation id="key_4_line_42" type="basicScale|scaleTo:0.100,0.020" object="line_4"  startTime="0.60" endTime="0.80" />
+<animation id="key_8_line_43" type="basicScale|scaleTo:0.100,0.020" object="line_4"  startTime="0.80" endTime="5.30" />
+<animation id="key_4_line_44" type="basicScale|scaleTo:0.000,0.020" object="line_4"  startTime="5.30" endTime="5.50" />
+
+<animation id="key_0_line_50" type="basicScale|scaleTo:0.000,0.020" object="line_5"  startTime="1.20" endTime="1.30" />
+<animation id="key_3_line_51" type="basicScale|scaleTo:0.150,0.020" object="line_5"  startTime="1.30" endTime="1.40" />
+<animation id="key_3_line_52" type="basicScale|scaleTo:0.100,0.020" object="line_5"  startTime="1.40" endTime="1.60" />
+<animation id="key_5_line_53" type="basicScale|scaleTo:0.100,0.020" object="line_5"  startTime="1.60" endTime="6.10" />
+<animation id="key_6_line_54" type="basicScale|scaleTo:0.000,0.020" object="line_5"  startTime="6.10" endTime="6.30" />
+
+<animation id="key_2_line_60" type="basicScale|scaleTo:0.000,0.020" object="line_6"  startTime="1.30" endTime="1.40" />
+<animation id="key_6_line_61" type="basicScale|scaleTo:0.150,0.020" object="line_6"  startTime="1.40" endTime="1.50" />
+<animation id="key_8_line_62" type="basicScale|scaleTo:0.100,0.020" object="line_6"  startTime="1.50" endTime="1.70" />
+<animation id="key_7_line_63" type="basicScale|scaleTo:0.100,0.020" object="line_6"  startTime="1.70" endTime="6.20" />
+<animation id="key_0_line_64" type="basicScale|scaleTo:0.000,0.020" object="line_6"  startTime="6.20" endTime="6.40" />
+
+<animation id="key_6_line_70" type="basicScale|scaleTo:0.000,0.020" object="line_7"  startTime="1.40" endTime="1.50" />
+<animation id="key_4_line_71" type="basicScale|scaleTo:0.150,0.020" object="line_7"  startTime="1.50" endTime="1.60" />
+<animation id="key_8_line_72" type="basicScale|scaleTo:0.100,0.020" object="line_7"  startTime="1.60" endTime="1.80" />
+<animation id="key_2_line_73" type="basicScale|scaleTo:0.100,0.020" object="line_7"  startTime="1.80" endTime="6.30" />
+<animation id="key_8_line_74" type="basicScale|scaleTo:0.000,0.020" object="line_7"  startTime="6.30" endTime="6.50" />
+
+
+
+<animation id="key_2_txt_90" type="basicMove" object="txt_9" positionStart="-0.500:0.450"  positionEnd="0.260:0.450"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_2_txt_91" type="basicMove" object="txt_9" positionStart="0.260:0.450"  positionEnd="0.200:0.450"  positionRelativeTo="scene" startTime="1.80" endTime="2.00" />
+
+<animation id="key_8_txt_100" type="basicMove" object="txt_10" positionStart="0.38:1.250"  positionEnd="0.38:0.450"  positionRelativeTo="scene" startTime="1.80" endTime="2.40" />
+<animation id="key_2_txt_101" type="basicMove" object="txt_10" positionStart="0.38:0.450"  positionEnd="0.38:0.500"  positionRelativeTo="scene" startTime="2.40" endTime="2.60" />
+
+
+
+
+	<animation id="disppear-title" type="disappearFade" object="txt_9,txt_10,line_7,line_6,line_5,line_3,line_2,line_1,bg_0" positionRelativeTo="scene" startTime="6" endTime="6" />
+
+ </igml>

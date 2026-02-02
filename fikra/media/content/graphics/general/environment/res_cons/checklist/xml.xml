@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,1" color="#4CB2F2" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#FF8B78" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="jar_5" type="image" src="graphics/general/enviroment/res_cons/checklist/jar.svg" action="link" editable="true" />
+
+
+
+<object id="folder_7" type="image" src="graphics/general/enviroment/res_cons/checklist/folder5.svg" action="link" editable="true" />
+
+<object id="folder_8" type="image" src="graphics/general/enviroment/res_cons/checklist/folder4.svg" action="link" editable="true" />
+
+<object id="folder_9" type="image" src="graphics/general/enviroment/res_cons/checklist/folder3.svg" action="link" editable="true" />
+
+<object id="folder_10" type="image" src="graphics/general/enviroment/res_cons/checklist/folder2.svg" action="link" editable="true" />
+
+<object id="folder_11" type="image" src="graphics/general/enviroment/res_cons/checklist/folder1.svg" action="link" editable="true" />
+
+<object id="list_24" type="image" src="graphics/general/enviroment/res_cons/checklist/list.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="txt3_22" type="image" src="graphics/general/enviroment/res_cons/checklist/txt1.svg" action="link" editable="true" />
+
+<object id="txt4_23" type="image" src="graphics/general/enviroment/res_cons/checklist/txt2.svg" action="link" editable="true" />
+
+<object id="txt5_24" type="image" src="graphics/general/enviroment/res_cons/checklist/txt3.svg" action="link" editable="true" />
+
+<object id="check_25" type="image" src="graphics/general/enviroment/res_cons/checklist/check.svg" action="link" editable="true" />
+
+<object id="check_26" type="image" src="graphics/general/enviroment/res_cons/checklist/check.svg" action="link" editable="true" />
+
+<object id="check_27" type="image" src="graphics/general/enviroment/res_cons/checklist/check.svg" action="link" editable="true" />
+
+<object id="check_21" type="image" src="graphics/general/enviroment/res_cons/checklist/check.svg" action="link" editable="true" />
+
+<object id="text6_22" type="image" src="graphics/general/enviroment/res_cons/checklist/txt4.svg" action="link" editable="true" />
+
+
+
+
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="-0.6:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_jar_5" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="jar_5" positionStart="0.164:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_folder_7" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_7" positionStart="0.74:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_8" type="appearFade|scaleTo:0.38;opacity:1;anchorPoint:0.5,0.5" object="folder_8" positionStart="0.69:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_9" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_9" positionStart="0.689:1.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_10" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_10" positionStart="0.672:1.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_11" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_11" positionStart="0.65:1.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_list_24" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="list_24" positionStart="0.617:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_txt3_22" type="appearFade|scaleTo:0.23;opacity:1;anchorPoint:0.5,0.5" object="txt3_22" positionStart="1.803:0.445" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt4_23" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="txt4_23" positionStart="1.79:0.559" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_txt5_24" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="txt5_24" positionStart="1.793:0.67" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_check_25" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:0.5,0.5" object="check_25" positionStart="0.506:0.445" positionRelativeTo="scene" startTime="4" endTime="5.3" />
+
+<animation id="appear_check_26" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:0.5,0.5" object="check_26" positionStart="0.506:0.547" positionRelativeTo="scene" startTime="5" endTime="6.3" />
+
+<animation id="appear_check_27" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:0.5,0.5" object="check_27" positionStart="0.506:0.661" positionRelativeTo="scene" startTime="6" endTime="7.3" />
+
+<animation id="appear_check_21" type="appearFade|scaleTo:0.03;opacity:1;anchorPoint:0.5,0.5" object="check_21" positionStart="0.506:0.763" positionRelativeTo="scene" startTime="7" endTime="8.3" />
+
+<animation id="appear_text6_22" type="appearFade|scaleTo:0.11;opacity:1;anchorPoint:0.5,0.5" object="text6_22" positionStart="1.793:0.763" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_0_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_0_rect_10" type="basicMove" object="rect_1" positionStart="0.500:1.500"  positionEnd="0.500:3.000"  positionRelativeTo="scene" startTime="14.70" endTime="15.00" />
+
+<animation id="key_6_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="-1.100:0.500"  positionEnd="-0.175:0.500"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_6_rect_30" type="basicMove" object="rect_3" positionStart="0.020:0.500"  positionEnd="0.100:0.500"  positionRelativeTo="scene" startTime="15.30" endTime="15.60" />
+<animation id="key_0_rect_31" type="basicMove" object="rect_3" positionStart="0.100:0.500"  positionEnd="-1.100:0.500"  positionRelativeTo="scene" startTime="15.60" endTime="16.00" />
+
+<animation id="key_0_jar_50" type="basicMove|ease:easeInOutSine;" object="jar_5" positionStart="0.164:1.400"  positionEnd="0.164:0.440"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_2_jar_51" type="basicMove|ease:easeInOutSine;" object="jar_5" positionStart="0.164:0.440"  positionEnd="0.164:0.500"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+
+
+
+<animation id="key_5_folder_70" type="basicMove|ease:easeInOutSine;" object="folder_7" positionStart="0.740:1.400"  positionEnd="0.740:0.392"  positionRelativeTo="scene" startTime="1.75" endTime="2.25" />
+<animation id="key_8_folder_71" type="basicMove|ease:easeInOutSine;" object="folder_7" positionStart="0.740:0.392"  positionEnd="0.740:0.500"  positionRelativeTo="scene" startTime="2.25" endTime="2.65" />
+
+<animation id="key_6_folder_80" type="basicMove|ease:easeInOutSine;" object="folder_8" positionStart="0.690:1.400"  positionEnd="0.690:0.392"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_8_folder_81" type="basicMove|ease:easeInOutSine;" object="folder_8" positionStart="0.690:0.392"  positionEnd="0.690:0.500"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+
+<animation id="key_1_folder_90" type="basicMove|ease:easeInOutSine;" object="folder_9" positionStart="0.689:1.450"  positionEnd="0.689:0.442"  positionRelativeTo="scene" startTime="1.65" endTime="2.15" />
+<animation id="key_1_folder_91" type="basicMove|ease:easeInOutSine;" object="folder_9" positionStart="0.689:0.442"  positionEnd="0.689:0.550"  positionRelativeTo="scene" startTime="2.15" endTime="2.55" />
+
+<animation id="key_4_folder_100" type="basicMove|ease:easeInOutSine;" object="folder_10" positionStart="0.672:1.450"  positionEnd="0.672:0.442"  positionRelativeTo="scene" startTime="1.60" endTime="2.10" />
+<animation id="key_6_folder_101" type="basicMove|ease:easeInOutSine;" object="folder_10" positionStart="0.672:0.442"  positionEnd="0.672:0.550"  positionRelativeTo="scene" startTime="2.10" endTime="2.50" />
+
+<animation id="key_0_folder_110" type="basicMove|ease:easeInOutSine;" object="folder_11" positionStart="0.650:1.450"  positionEnd="0.650:0.442"  positionRelativeTo="scene" startTime="1.55" endTime="2.05" />
+<animation id="key_2_folder_111" type="basicMove|ease:easeInOutSine;" object="folder_11" positionStart="0.650:0.442"  positionEnd="0.650:0.550"  positionRelativeTo="scene" startTime="2.05" endTime="2.45" />
+
+<animation id="key_3_list_240" type="basicMove|ease:easeInOutSine;" object="list_24" positionStart="0.617:1.400"  positionEnd="0.617:0.392"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_0_list_241" type="basicMove|ease:easeInOutSine;" object="list_24" positionStart="0.617:0.392"  positionEnd="0.617:0.500"  positionRelativeTo="scene" startTime="2.00" endTime="2.40" />
+
+
+
+
+
+<animation id="key_5_txt3_220" type="basicMove|ease:easeOutSine;" object="txt3_22" positionStart="1.803:0.445"  positionEnd="0.643:0.445"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+
+<animation id="key_5_txt4_230" type="basicMove|ease:easeOutSine;" object="txt4_23" positionStart="1.790:0.559"  positionEnd="0.630:0.559"  positionRelativeTo="scene" startTime="5.00" endTime="6.00" />
+
+<animation id="key_1_txt5_240" type="basicMove|ease:easeOutSine;" object="txt5_24" positionStart="1.793:0.670"  positionEnd="0.633:0.670"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+
+<animation id="key_4_check_250" type="basicRotate|angle:80.000;revertAnchor:false;;ease:easeOutBounce;" object="check_25"  startTime="4.00" endTime="4.80" />
+<animation id="key_5_check_251" type="basicRotate|angle:0.000;revertAnchor:false;;ease:easeOutBounce;" object="check_25"  startTime="4.80" endTime="6.00" />
+
+<animation id="key_7_check_260" type="basicRotate|angle:80.000;revertAnchor:false;;ease:easeOutBounce;" object="check_26"  startTime="5.00" endTime="5.80" />
+<animation id="key_4_check_261" type="basicRotate|angle:0.000;revertAnchor:false;;ease:easeOutBounce;" object="check_26"  startTime="5.80" endTime="7.00" />
+
+<animation id="key_7_check_270" type="basicRotate|angle:80.000;revertAnchor:false;;ease:easeOutBounce;" object="check_27"  startTime="6.00" endTime="6.80" />
+<animation id="key_8_check_271" type="basicRotate|angle:0.000;revertAnchor:false;;ease:easeOutBounce;" object="check_27"  startTime="6.80" endTime="8.00" />
+
+<animation id="key_5_check_210" type="basicRotate|angle:80.000;revertAnchor:false;;ease:easeOutBounce;" object="check_21"  startTime="7.00" endTime="7.80" />
+<animation id="key_3_check_211" type="basicRotate|angle:0.000;revertAnchor:false;;ease:easeOutBounce;" object="check_21"  startTime="7.80" endTime="9.00" />
+
+<animation id="key_7_text6_220" type="basicMove|ease:easeOutSine;" object="text6_22" positionStart="1.793:0.763"  positionEnd="0.613:0.763"  positionRelativeTo="scene" startTime="7.00" endTime="8.00" />
+
+
+
+
+
+
+ </igml>

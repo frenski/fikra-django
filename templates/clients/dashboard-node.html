@@ -1,0 +1,258 @@
+{% extends 'nodes/base.html' %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/dashboard.css" %}">
+{% endblock %}
+
+{% block title %} {% trans "Dashboard" %}: {{node.title}} : {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+
+{% block article_main %}
+
+  {% if profile %}
+    <div class="dashboard-cover" style="background-image:url('{{ media_url }}{{ profile.cover_picture}}')">&nbsp;</div>
+
+    <div class="dashboard-profile">
+
+      <div id="profile-static">
+        <div id="profile-edit-but"><i class="fas fa-edit"></i></div>
+        <span class="dashboard-profile-picture" style="background-image:url('{{ media_url }}{{ profile.picture }}')"></span>
+        <h1 class="dashboard-profile-name">{{profile.name}}</h1>
+        <h2 class="dashboard-profile-info">{{profile.city}}, {{profile.country}} <br> <a href="{{profile.website}}" target="_blank">{{profile.website}}</a> </h2>
+        <h3 class="dashboard-profile-membersince">{% trans "Member since: " %}{{user.date_joined|naturaltime}}</h3>
+        <!-- <h4>{% trans "Balance: " %} ${{balance}}</h4> -->
+        <h4>{% trans "Plan: " %}</h4>
+        {% for subsc in subscriptions %}
+          <h5>{{subsc.offering.name}}</h5>
+          <div class='dashboard-profile-membersince'>
+            {% for key, val in subsc.perks_tracker.items %}
+            {{key|underscore_to_space}}: {{val}}<br>
+            {% endfor %}
+          </div>
+        {% endfor %}
+        {% if not subscriptions %}
+            <h5>{% trans "None " %}</h5>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="main-container dashboard">
+
+        <section class="dashboard-nodes clearfix">
+
+        <p><a href="{% url 'clients_dashboard' %}">{% trans "Dashboard" %}</a> &nbsp; > &nbsp; {% if node %} {% translated_node_title node %} {% endif %}</p>
+
+        {% if node %}
+
+          {% if not access_allowed %}
+            <p class="paragraph-light">{% trans "You don't have access to this resource" %}</p>
+          {% else %}
+          <div class="clearfix dashboard-node-stats-wrapper">
+            <div class="clearfix dashboard-node-stats-info">
+              <h2 class="dashboard-nodes-title dashboard-section-title"></h2>
+              <div class="node clearfix">
+
+                  <div class="node-image-container">
+                    <div class="node-image" style="background-image:url('{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}')" data-thumbnails="{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail2 %}{{ media_url }}{{ node.thumbnail2}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail3 %}{{ media_url }}{{ node.thumbnail3}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail4 %}{{ media_url }}{{ node.thumbnail4}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}">
+                    </div>
+                    <div class="playstopbutton-container">
+                      <div class="nodetypebutton nodetypebutton-{% if node.engine == 'explot' %}{% if node.interactivity > 1 %}intpiece{% else %}video{% endif %}{% elif node.engine == 'game_matching' or node.engine == 'game_mapconv' or node.engine == 'game_pointnclick' or node.engine == 'game_multchoice' or node.engine == 'game_occupation' or node.engine == 'game_endlessrunner' or node.engine == 'game_fallingcategoriser' %}game{% endif %}">&nbsp;</div>
+                    </div>
+                  </div>
+
+                  <div class="controlbar">
+
+                    <div class="metadata">
+                      <h3 class="metadata-engine-type">
+                        {% for key, item in engine_choices.items %}
+                          {% if key == node.engine %}
+                              {{ item }}
+                          {% endif %}
+                        {% endfor %}
+                      </h3>
+
+                      <h2 class="metadata-title">{% translated_node_title node %}</h2>
+                      <div class="metadata-description">
+
+                      </div>
+                      <div class="metadata-extra">
+                        <!-- <div class="metadata-extra-date">6 years, 7 months ago</div> -->
+                        <div class="action-buttons">
+                          <ul class="action-buttons-items">
+                            <li class="action-buttons-first"><i class="fas fa-eye"></i> {{node.views}}</li>
+                            <li><i class="fas fa-heart"></i> 2</li>
+                            <!-- <li><i class="fas fa-share-alt"></i> 0</li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="node-actions">
+                    <a href="{% url 'nodes_detail' slug=node.slug %}" class="dashboard-action-but">{% trans "Preview" %}</a><br>
+                    <a href="{% url 'editor_node' node_id=node.pk %}" class="dashboard-action-but">{% trans "Edit" %}</a>
+                  </div>
+
+                 </div>
+            </div>
+
+            <div class="dashboard-node-stats-stats">
+              <div class="dashboard-node-stats-tabs">
+                <h3 id="dashboard-node-tabbut-ovr" class="dashboard-node-stats-tab dashboard-node-stats-tab-selected">{% trans "Overview" %}</h3>
+                <h3 id="dashboard-node-tabbut-useract" class="dashboard-node-stats-tab">{% trans "User Activity Stats" %}</h3>
+                <div class="date-picker-container">
+                  <div class="date-field" id="dateField">
+                      <span id="dateFieldText">{% trans "Last 30 Days" %}</span>
+                      <span class="dropdown-arrow" id="dropdownArrow">▼</span>
+                  </div>
+
+                  <div class="date-dropdown" id="dateDropdown">
+                      <div class="dropdown-content">
+                          <div class="date-row">
+                              <div class="date-input-group">
+                                  <label for="startDate">{% trans "Start Date" %}</label>
+                                  <input type="date" id="startDate">
+                              </div>
+                              <div class="date-input-group">
+                                  <label for="endDate">{% trans "End Date" %}</label>
+                                  <input type="date" id="endDate">
+                              </div>
+                          </div>
+                          <div class="button-row">
+                              <button class="btn btn-cancel" id="cancelBtn">{% trans "Cancel" %}</button>
+                              <button class="btn btn-apply" id="applyBtn">{% trans "Apply" %}</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="current-params">
+                    <h3>{% trans "Current URL Parameters:" %}</h3>
+                    <p id="currentParams">{% trans "None" %}</p>
+                </div>
+              </div>
+              </div>
+              <div class="dashboard-node-stats-content-wrapper">
+                <div id="dashboard-node-stats-overview">
+                  <div id="stats-ovr-totalplayed" class="dashboard-node-stats-ovr-block">
+                    <h4>{% trans "Total games played" %}</h4>
+                    <h2>{{stat_totalplayed}}</h2>
+                    <div class="chart-container">
+                       <canvas id="viewsChart"></canvas>
+                   </div>
+                  </div>
+                  <div id="stats-ovr-totalcomplete" class="dashboard-node-stats-ovr-block">
+                    <h4>{% trans "Total games completed" %}</h4>
+                    <h2>{{stat_completed}}</h2>
+                    <div class="chart-container">
+                       <canvas id="completionsChart"></canvas>
+                   </div>
+                  </div>
+                  <div id="stats-ovr-timespent" class="dashboard-node-stats-ovr-block">
+                    <h4>{% trans "Average time spent" %}</h4>
+                    <h2>{{stat_timespent}}</h2>
+                    <div class="chart-container">
+                       <canvas id="timespentChart"></canvas>
+                   </div>
+                  </div>
+                  <div id="stats-ovr-successrat" class="dashboard-node-stats-ovr-block">
+                    <h4>{% trans "Challenge success ratio" %}</h4>
+                    <h2>{{stat_challengsuc}}</h2>
+                  </div>
+                  <div id="stats-ovr-rating" class="dashboard-node-stats-ovr-block">
+                    <h4>{% trans "Rating" %}</h4>
+                    <h2>{{stat_rating}}</h2>
+                  </div>
+                  <div id="stats-ovr-feedback" class="dashboard-node-stats-ovr-block">
+                    <h4>{% trans "Feedback" %}</h4>
+                    <h2>{{stat_feedback}}</h2>
+                  </div>
+                </div>
+                <div id="dashboard-node-stats-useract" style="display: none;">
+                  <h4>{% trans "Recent User Activity" %}</h4>
+                  <table border="0">
+                  <tr>
+                    <th>{% trans "User" %}</th>
+                    <th>{% trans "Start Time" %}</th>
+                    <th>{% trans "End Time" %}</th>
+                    <th>{% trans "Time Spent" %}</th>
+                    <th>{% trans "Completed" %}</th>
+                  </tr>
+                  {% for log in logs_list %}
+                  <tr>
+                    <td>
+                      {% if log.user.name %}
+                        <img class="avatarimg" src="{{ media_url }}{{ log.user.picture }}" onerror="this.src='/static/img/default-avatar.png'" /> <span>{{log.user.name}}</span>
+                      {% else %}
+                        <img class="avatarimg" src="/static/img/default-avatar.png" /> <span>{% trans "Anonymous" %}</span>
+                      {% endif %}
+                    </td>
+                    <td>{{log.created_at}}</td>
+                    <td>{{log.finished_at}}</td>
+                    <td>{{log.usage_time_h}}</td>
+                    <td>
+                      {% if log.completed %}
+                        {% trans "Yes" %}
+                      {% else %}
+                        {% trans "No" %}
+                      {% endif %}
+                    </td>
+                  </tr>
+                  {% endfor %}
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {% endif %}
+
+        {% else %}
+        <p class="paragraph-light">{% trans "This project doesn't exist" %}</p>
+        {% endif %}
+
+      </section>
+
+    </div>
+
+    <div id="dialog-wrapper" style="display: none;">
+
+      <div id="dialog-del" style="display: none;">
+        <div class="dialog-actions">
+          <a href="#" class="dialog-action" id="dialog-actions-cancel">{% trans "Cancel" %}</a>
+          <a href="#" class="dialog-action" id="dialog-actions-execute">{% trans "Delete" %}</a>
+        </div>
+      </div>
+
+    </div>
+
+
+  {% else %}
+    <div class="main-container dashboard">
+      <p>{% trans "You don't have a profile" %}</p>
+    </div>
+  {% endif %}
+
+{% endblock %}
+
+{% block extrajs %}
+{% if profile_form %}
+{{ profile_form.media }}
+{% endif %}
+<script type="text/javascript">
+{% autoescape off %}
+  const daily_data_visit = {{daily_data_visit}};
+  const daily_data_complete = {{daily_data_complete}};
+  const daily_data_time = {{daily_data_time}};
+{% endautoescape %}
+  const time_stat_label = "{{time_stat_label}}";
+</script>
+<!-- <script src="{% static "js/dashboard.js" %}"></script> -->
+<script src="{% static "js/vendor/chart.js" %}">"></script>
+<script src="{% static "js/dashboard-stats.js" %}"></script>
+{% endblock %}

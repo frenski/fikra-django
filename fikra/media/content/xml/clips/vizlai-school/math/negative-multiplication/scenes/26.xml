@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Numbers multiplication - wrap up" description="These simple table shows the correct multiplicaton of positive and negative numbers" author="Dimitar Mehandjiev" date="26/03/2022">
+  <style src="styles/fonts/MontBlanc/montblanc.css" type="font" load="sync" name="MontBlanc-Regular"/>
+
+<object type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/music1-piece21_3.mp3" id="vo0"/><object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg1.svg" editable="true" description=""/>
+<object id="l_3" type="text" text="Нека обобщим всичко дотук:" size="20" align="center" color="#000000" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="0.8" weight="0" editable="true"/>
+
+<object id="l1_0" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""/>
+<object id="l1_1" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication-black.svg" editable="true" description=""/>
+<object id="l1_2" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""/>
+<object id="l1_3" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-black.svg" editable="true" description=""/>
+<object id="l1_4" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""/>
+
+<object id="l2_0" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""/>
+<object id="l2_1" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication-black.svg" editable="true" description=""/>
+<object id="l2_2" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""/>
+<object id="l2_3" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-black.svg" editable="true" description=""/>
+<object id="l2_4" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""/>
+
+<object id="l3_0" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""/>
+<object id="l3_1" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication-black.svg" editable="true" description=""/>
+<object id="l3_2" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""/>
+<object id="l3_3" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-black.svg" editable="true" description=""/>
+<object id="l3_4" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""/>
+
+<object id="l4_0" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""/>
+<object id="l4_1" type="image" src="graphics/education/vizlai-school/math/common/sign-multiplication-black.svg" editable="true" description=""/>
+<object id="l4_2" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-minus.svg" editable="true" description=""/>
+<object id="l4_3" type="image" src="graphics/education/vizlai-school/math/common/sign-equal-black.svg" editable="true" description=""/>
+<object id="l4_4" type="image" src="graphics/education/vizlai-school/generic/circle-shadow-plus.svg" editable="true" description=""/>
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l_3" type="appearFade|scaleTo:0.7;opacity:0;anchorPoint:0.5,0.5" object="l_3" positionStart="0.500:0.28" startTime="0" endTime="0" description=" appearing order: 3"/>
+
+<animation id="appear_l1_0" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_0" positionStart="0.332:0.387" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l1_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_1" positionStart="0.412:0.374" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l1_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_2" positionStart="0.493:0.387" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l1_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_3" positionStart="0.581:0.386" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l1_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l1_4" positionStart="0.675:0.389" startTime="0" endTime="0" description=" appearing order: 4"/>
+
+<animation id="appear_l2_0" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l2_0" positionStart="0.332:0.487" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l2_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l2_1" positionStart="0.412:0.474" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l2_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l2_2" positionStart="0.493:0.487" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l2_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l2_3" positionStart="0.581:0.486" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l2_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l2_4" positionStart="0.675:0.489" startTime="0" endTime="0" description=" appearing order: 4"/>
+
+<animation id="appear_l3_0" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l3_0" positionStart="0.332:0.587" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l3_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l3_1" positionStart="0.412:0.574" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l3_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l3_2" positionStart="0.493:0.587" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l3_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l3_3" positionStart="0.581:0.586" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l3_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l3_4" positionStart="0.675:0.589" startTime="0" endTime="0" description=" appearing order: 4"/>
+
+<animation id="appear_l4_0" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l4_0" positionStart="0.332:0.687" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l4_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l4_1" positionStart="0.412:0.674" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l4_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l4_2" positionStart="0.493:0.687" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l4_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l4_3" positionStart="0.581:0.686" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l4_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l4_4" positionStart="0.675:0.689" startTime="0" endTime="0" description=" appearing order: 4"/>
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description=""/>
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_3" startTime="1.70" endTime="3.13" description=""/>
+
+<animation id="s_0_0_l1_0" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l1_0" startTime="3.20" endTime="4.20" description=""/>
+<animation id="s_0_0_l1_1" type="basicScale|scaleTo:0.021;ease:easeOutBounce;" object="l1_1" startTime="3.40" endTime="4.40" description=""/>
+<animation id="s_0_0_l1_2" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l1_2" startTime="3.60" endTime="4.60" description=""/>
+<animation id="s_0_0_l1_3" type="basicScale|scaleTo:0.035;ease:easeOutBounce;" object="l1_3" startTime="3.80" endTime="4.80" description=""/>
+<animation id="s_0_0_l1_4" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l1_4" startTime="4.00" endTime="5.00" description=""/>
+
+<animation id="s_0_0_l2_0" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l2_0" startTime="5.20" endTime="6.20" description=""/>
+<animation id="s_0_0_l2_1" type="basicScale|scaleTo:0.021;ease:easeOutBounce;" object="l2_1" startTime="5.40" endTime="6.40" description=""/>
+<animation id="s_0_0_l2_2" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l2_2" startTime="5.60" endTime="6.60" description=""/>
+<animation id="s_0_0_l2_3" type="basicScale|scaleTo:0.035;ease:easeOutBounce;" object="l2_3" startTime="5.80" endTime="6.80" description=""/>
+<animation id="s_0_0_l2_4" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l2_4" startTime="6.00" endTime="7.00" description=""/>
+
+<animation id="s_0_0_l3_0" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l3_0" startTime="7.20" endTime="8.20" description=""/>
+<animation id="s_0_0_l3_1" type="basicScale|scaleTo:0.021;ease:easeOutBounce;" object="l3_1" startTime="7.40" endTime="8.40" description=""/>
+<animation id="s_0_0_l3_2" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l3_2" startTime="7.60" endTime="8.60" description=""/>
+<animation id="s_0_0_l3_3" type="basicScale|scaleTo:0.035;ease:easeOutBounce;" object="l3_3" startTime="7.80" endTime="8.80" description=""/>
+<animation id="s_0_0_l3_4" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l3_4" startTime="8.00" endTime="9.00" description=""/>
+
+<animation id="s_0_0_l4_0" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l4_0" startTime="9.20" endTime="10.20" description=""/>
+<animation id="s_0_0_l4_1" type="basicScale|scaleTo:0.021;ease:easeOutBounce;" object="l4_1" startTime="9.40" endTime="10.40" description=""/>
+<animation id="s_0_0_l4_2" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l4_2" startTime="9.60" endTime="10.60" description=""/>
+<animation id="s_0_0_l4_3" type="basicScale|scaleTo:0.035;ease:easeOutBounce;" object="l4_3" startTime="9.80" endTime="10.80" description=""/>
+<animation id="s_0_0_l4_4" type="basicScale|scaleTo:0.092;ease:easeOutBounce;" object="l4_4" startTime="10.00" endTime="11.00" description=""/>
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_3,l1_0,l1_1,l1_2,l1_3,l1_4,l2_0,l2_1,l2_2,l2_3,l2_4,l3_0,l3_1,l3_2,l3_3,l3_4,l4_0,l4_1,l4_2,l4_3,l4_4" positionRelativeTo="scene" startTime="16" endTime="16"/>
+
+<animation type="playSound|loop:false" id="play-vo0" object="vo0" startTime="0.0" endTime="16"/>
+</igml>

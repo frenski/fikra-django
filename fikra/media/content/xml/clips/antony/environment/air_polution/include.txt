@@ -1,0 +1,18 @@
+audio:audio/vo/environment/air_polution2.mp3
+
+start at  0:200
+
+xml/clips/environment/air_polution/
+
+vocal:0-1,needs:10-1,sources:20-1,oneyearless:30-1,map_casulties:47-1,people:57-1,areachart:70-1,disease:80-1,hair:98-1,kid_adult:110-1,organs:120-1
+
+
+recent
+
+audio:audio/vo/environment/air_polution2.mp3
+
+start at  0:200
+
+xml/clips/environment/air_polution/
+
+vocal:0-1.1,needs:9-1,sources:20-1,oneyearless:30-1,map_casulties:47-1,people:55-1,areachart:68-1,hair:74-0.8,disease:90-1,kid_adult:103-1,organs:109-0.8,

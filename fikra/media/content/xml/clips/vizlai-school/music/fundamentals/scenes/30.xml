@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Струнни и духови инструменти" description="" author="Yane Frenski" date="05/03/2022">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg4.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/music/music-instruments/edication-videos/violin-salmon.svg" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/music/music-instruments/edication-videos/trumpet-blue.svg" editable="true" description=""  />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:-1.501" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:1.853;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.861:2.369" startTime="0" endTime="0" description=" appearing order: 1" />
+
+<animation id="appear_l_3" type="appearFromSide|scaleTo:0.55;opacity:1;anchorPoint:0.5,0.5;direction:rtl" object="l_3" positionStart="1.27:0.715" positionEnd="0.34:0.715" startTime="2" endTime="3" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFromSide|scaleTo:0.6;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.44:0.223" positionEnd="0.44:0.223" startTime="3" endTime="4" description=" appearing order: 4" />
+
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.40" endTime="1.40" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.501" startTime="0.35" endTime="1.35" description="" />
+<animation id="rotateTo_l_1" type="basicRotate|angle:-30.168;revertAnchor:false;ease:linear;" object="l_1"  startTime="0" endTime="0" description="instant rotation of a layer after appear" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="0.80" endTime="1.80" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_1" positionEnd="0.861:1.369" startTime="0.70" endTime="1.70" description="" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_3,l_4" positionRelativeTo="scene" startTime="8" endTime="9" />
+
+</igml>

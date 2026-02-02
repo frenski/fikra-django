@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="image" src="graphics/design/colors/cmyk/bg.svg" action="link" editable="true" />
+
+<object id="backprint_3" type="image" src="graphics/design/colors/cmyk/backprint.svg" action="link" editable="true" />
+
+<object id="paper_4" type="image" src="graphics/design/colors/cmyk/paper.svg" action="link" editable="true" />
+
+<object id="printbody_5" type="image" src="graphics/design/colors/cmyk/printbody.svg" action="link" editable="true" />
+
+
+
+<object id="txt_8" type="text" text="CMYK" size="155" align = "center" color="#000000" width="55" font="Quicksand" wordWrap="true" wordWrapWidth="0.3"/>
+
+<object id="platform_6" type="image" src="graphics/design/colors/cmyk/platform.svg" action="link" editable="true" />
+
+<object id="label_7" type="image" src="graphics/design/colors/cmyk/label.svg" action="link" editable="true" />
+
+<object id="cyan_8" type="image" src="graphics/design/colors/cmyk/cyan.svg" action="link" editable="true" />
+
+<object id="magenta_9" type="image" src="graphics/design/colors/cmyk/magenta.svg" action="link" editable="true" />
+
+<object id="yellow_10" type="image" src="graphics/design/colors/cmyk/yellow.svg" action="link" editable="true" />
+
+<object id="black_11" type="image" src="graphics/design/colors/cmyk/black.svg" action="link" editable="true" />
+
+<object id="pallete_12" type="image" src="graphics/design/colors/cmyk/pallete.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:0.502" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_backprint_3" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="backprint_3" positionStart="0.32:1.14" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_paper_4" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0.5,0.5" object="paper_4" positionStart="0.32:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_printbody_5" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="printbody_5" positionStart="0.315:1.28" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_txt_8" type="appearFade|scaleTo:0.18;opacity:1;anchorPoint:0.5,0.5" object="txt_8" positionStart="0.71:0.1" positionRelativeTo="scene" startTime="8.3" endTime="8.8" />
+
+<animation id="appear_platform_6" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="platform_6" positionStart="0.5:1.215" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_label_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="label_7" positionStart="0.315:0.903" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cyan_8" type="appearFade|scaleTo:0.08;opacity:0.8;anchorPoint:0.5,0.5" object="cyan_8" positionStart="0.720:0.6" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_magenta_9" type="appearFade|scaleTo:0.08;opacity:0.8;anchorPoint:0.5,0.5" object="magenta_9" positionStart="0.720:0.6" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_yellow_10" type="appearFade|scaleTo:0.08;opacity:0.8;anchorPoint:0.5,0.5" object="yellow_10" positionStart="0.720:0.6" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_black_11" type="appearFade|scaleTo:0.08;opacity:0.8;anchorPoint:0.5,0.5" object="black_11" positionStart="0.720:0.6" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_pallete_12" type="appearFade|scaleTo:0.19;opacity:1;anchorPoint:0.5,0.5" object="pallete_12" positionStart="0.708:1.185" positionRelativeTo="scene" startTime="16" endTime="19.5" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_7_backprint_30" type="basicMove|ease:easeOutExpo;" object="backprint_3" positionStart="0.320:1.140"  positionEnd="0.320:0.540"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+<animation id="key_6_paper_40" type="basicMove" object="paper_4" positionStart="0.320:0.620"  positionEnd="0.320:0.420"  positionRelativeTo="scene" startTime="7.40" endTime="8.40" />
+
+<animation id="key_7_printbody_50" type="basicMove|ease:easeOutExpo;" object="printbody_5" positionStart="0.315:1.280"  positionEnd="0.315:0.680"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+<animation id="key_3_paper_40" type="basicScale|scaleTo:0.150,0.000" object="paper_4"  startTime="7.00" endTime="7.00" />
+<animation id="key_3_paper_41" type="basicScale|scaleTo:0.150,0.300" object="paper_4"  startTime="7.00" endTime="7.40" />
+
+<animation id="key_7_txt_80" type="basicMove" object="txt_8" positionStart="0.710:0.100"  positionEnd="0.710:0.100"  positionRelativeTo="scene" startTime="8.30" endTime="18.30" />
+
+<animation id="key_4_platform_60" type="basicMove|ease:easeOutExpo;" object="platform_6" positionStart="0.500:1.215"  positionEnd="0.500:0.925"  positionRelativeTo="scene" startTime="0.00" endTime="0.50" />
+
+<animation id="key_3_label_70" type="basicScale|scaleTo:0.400" object="label_7"  startTime="2.00" endTime="2.40" />
+<animation id="key_2_label_71" type="basicScale|scaleTo:0.300" object="label_7"  startTime="2.40" endTime="2.60" />
+
+<animation id="key_0_cyan_80" type="basicMove|ease:easeOutExpo;" object="cyan_8" positionStart="0.720:0.600"  positionEnd="0.720:0.300"  positionRelativeTo="scene" startTime="4.00" endTime="5.80" />
+<animation id="key_3_cyan_81" type="basicMove|ease:easeOutExpo;" object="cyan_8" positionStart="0.720:0.300"  positionEnd="0.570:0.300"  positionRelativeTo="scene" startTime="5.80" endTime="7.00" />
+
+<animation id="key_1_magenta_90" type="basicMove|ease:easeOutExpo;" object="magenta_9" positionStart="0.720:0.600"  positionEnd="0.720:0.300"  positionRelativeTo="scene" startTime="4.00" endTime="5.80" />
+<animation id="key_1_magenta_91" type="basicMove|ease:easeOutExpo;" object="magenta_9" positionStart="0.720:0.300"  positionEnd="0.670:0.300"  positionRelativeTo="scene" startTime="5.80" endTime="7.00" />
+
+<animation id="key_8_yellow_100" type="basicMove|ease:easeOutExpo;" object="yellow_10" positionStart="0.720:0.600"  positionEnd="0.720:0.300"  positionRelativeTo="scene" startTime="4.00" endTime="5.80" />
+<animation id="key_2_yellow_101" type="basicMove|ease:easeOutExpo;" object="yellow_10" positionStart="0.720:0.300"  positionEnd="0.770:0.300"  positionRelativeTo="scene" startTime="5.80" endTime="7.00" />
+
+<animation id="key_1_black_110" type="basicMove|ease:easeOutExpo;" object="black_11" positionStart="0.720:0.600"  positionEnd="0.720:0.300"  positionRelativeTo="scene" startTime="4.00" endTime="5.80" />
+<animation id="key_5_black_111" type="basicMove|ease:easeOutExpo;" object="black_11" positionStart="0.720:0.300"  positionEnd="0.870:0.300"  positionRelativeTo="scene" startTime="5.80" endTime="7.00" />
+
+<animation id="key_8_pallete_120" type="basicMove|ease:easeOutExpo;" object="pallete_12" positionStart="0.708:1.185"  positionEnd="0.708:0.385"  positionRelativeTo="scene" startTime="16.00" endTime="17.00" />
+
+<animation id="key_7_cyan_80" type="basicScale|scaleTo:0.120" object="cyan_8"  startTime="11.00" endTime="11.50" />
+<animation id="key_7_cyan_81" type="basicScale|scaleTo:0.080" object="cyan_8"  startTime="11.50" endTime="11.80" />
+
+<animation id="key_1_magenta_90" type="basicScale|scaleTo:0.120" object="magenta_9"  startTime="12.00" endTime="12.50" />
+<animation id="key_2_magenta_91" type="basicScale|scaleTo:0.080" object="magenta_9"  startTime="12.50" endTime="12.80" />
+
+<animation id="key_5_yellow_100" type="basicScale|scaleTo:0.120" object="yellow_10"  startTime="13.00" endTime="13.50" />
+<animation id="key_3_yellow_101" type="basicScale|scaleTo:0.080" object="yellow_10"  startTime="13.50" endTime="13.80" />
+
+<animation id="key_7_black_110" type="basicScale|scaleTo:0.120" object="black_11"  startTime="14.00" endTime="14.50" />
+<animation id="key_2_black_111" type="basicScale|scaleTo:0.080" object="black_11"  startTime="14.50" endTime="14.80" />
+
+<animation id="key_0_cyan_80" type="basicMove|ease:easeOutExpo;" object="cyan_8" positionStart="0.584:0.300"  positionEnd="0.664:0.400"  positionRelativeTo="scene" startTime="15.00" endTime="15.50" />
+
+<animation id="key_8_magenta_90" type="basicMove|ease:easeOutExpo;" object="magenta_9" positionStart="0.670:0.300"  positionEnd="0.700:0.380"  positionRelativeTo="scene" startTime="15.10" endTime="15.60" />
+
+<animation id="key_7_yellow_100" type="basicMove|ease:easeOutExpo;" object="yellow_10" positionStart="0.770:0.300"  positionEnd="0.760:0.400"  positionRelativeTo="scene" startTime="15.20" endTime="15.70" />
+
+<animation id="key_2_black_110" type="basicMove|ease:easeOutExpo;" object="black_11" positionStart="0.868:0.300"  positionEnd="0.718:0.420"  positionRelativeTo="scene" startTime="15.30" endTime="15.80" />
+
+
+
+
+ </igml>

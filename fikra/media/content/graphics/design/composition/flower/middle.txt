@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+
+<object id="trunk_3" type="image" src="graphics/design/composition/flower/trunk.svg" editable="false" />
+
+<object id="blackleaf_4" type="image" src="graphics/design/composition/flower/blackleaf.svg" editable="false" />
+
+<object id="leaf0" type="image" src="graphics/design/composition/flower/leaf3.svg" editable="false" />
+
+<object id="leaf1" type="image" src="graphics/design/composition/flower/leaf3.svg" editable="false" />
+
+<object id="leaf2" type="image" src="graphics/design/composition/flower/leaf2.svg" editable="false" />
+
+<object id="leaf3" type="image" src="graphics/design/composition/flower/leaf2_2.svg" editable="false" />
+
+<object id="leaf4" type="image" src="graphics/design/composition/flower/leaf1.svg" editable="false" />
+
+
+
+<object id="blackleaf_18" type="image" src="graphics/design/composition/flower/blackleaf.svg" editable="false" />
+
+
+
+<animation id="appear_trunk_3" type="appearFade|scaleTo:0.015,0;opacity:1;anchorPoint:0.5,1" object="trunk_3" positionStart="0.5:0.78" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_blackleaf_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:1,1" object="blackleaf_4" positionStart="0.49:0.704" positionRelativeTo="scene" startTime="0" endTime="0" />
+																													
+<animation id="appear_leaf0" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:1,1" object="leaf0" positionStart="0.498:0.478" positionRelativeTo="scene" startTime="1" endTime="1" />
+																															
+<animation id="appear_leaf1" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:1,1" object="leaf1" positionStart="0.502:0.478" positionRelativeTo="scene" startTime="1" endTime="1" />
+																													
+<animation id="appear_leaf2" type="appearFade|scaleTo:0.06;opacity:0;anchorPoint:1,1" object="leaf2" positionStart="0.497:0.509" positionRelativeTo="scene" startTime="0.6" endTime="0.6" />
+																														
+<animation id="appear_leaf3" type="appearFade|scaleTo:0.06;opacity:0;anchorPoint:1,1" object="leaf3" positionStart="0.563:0.509" positionRelativeTo="scene" startTime="0.6" endTime="0.6" />
+																													
+<animation id="appear_leaf4" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:1,1" object="leaf4" positionStart="0.524:0.340" positionRelativeTo="scene" startTime="0.8" endTime="0.8" />
+
+<animation id="appear_blackleaf_18" type="appearFade|scaleTo:0;opacity:1;anchorPoint:1,1" object="blackleaf_18" positionStart="0.51:0.7" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_1_trunk_30" type="basicScale|scaleTo:0.015,0.000;ease:easeInQuad;" object="trunk_3"  startTime="0.60" endTime="0.90" />
+<animation id="key_8_trunk_31" type="basicScale|scaleTo:0.015,0.300;ease:easeInQuad;" object="trunk_3"  startTime="0.90" endTime="2.20" />
+
+<animation id="key_5_leaf2_00" type="basicOpacity|opacity:0" object="leaf2"  startTime="0.00" endTime="0.20" />
+<animation id="key_6_leaf2_01" type="basicOpacity|opacity:1" object="leaf2"  startTime="2.90" endTime="3.00" />
+
+<animation id="key_5_leaf3_00" type="basicOpacity|opacity:0" object="leaf3"  startTime="0.00" endTime="0.20" />
+<animation id="key_6_leaf3_01" type="basicOpacity|opacity:1" object="leaf3"  startTime="2.90" endTime="3.00" />
+
+<animation id="key_5_leaf4_00" type="basicOpacity|opacity:0" object="leaf4"  startTime="0.00" endTime="0.20" />
+<animation id="key_6_leaf4_01" type="basicOpacity|opacity:1" object="leaf4"  startTime="3" endTime="3.20" />
+
+<animation id="key_4_leaf10" type="basicRotate|angle:90.000;revertAnchor:false;" object="leaf1"  startTime="0.00" endTime="0.00" />
+
+																								
+<animation id="key_5_leaf40" type="basicMove|ease:easeOutExpo;" object="leaf4" positionStart="0.524:0.340"  positionEnd="0.524:0.317"  positionRelativeTo="scene" startTime="3.00" endTime="3.70" />
+
+<animation id="key_8_blackleaf_180" type="basicRotate|angle:90.000;revertAnchor:false;" object="blackleaf_18"  startTime="0.00" endTime="0.00" />
+
+<animation id="key_2_blackleaf_180" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="blackleaf_18"  startTime="1.20" endTime="1.70" />
+<animation id="key_1_blackleaf_181" type="basicScale|scaleTo:0.050;ease:easeOutExpo;" object="blackleaf_18"  startTime="1.70" endTime="2.10" />
+
+<animation id="key_0_blackleaf_40" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="blackleaf_4"  startTime="1.30" endTime="1.80" />
+<animation id="key_8_blackleaf_41" type="basicScale|scaleTo:0.050;ease:easeOutExpo;" object="blackleaf_4"  startTime="1.80" endTime="2.20" />
+
+<animation id="key_7_leaf00" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="leaf0"  startTime="1.80" endTime="2.30" />
+<animation id="key_6_leaf01" type="basicScale|scaleTo:0.080;ease:easeOutExpo;" object="leaf0"  startTime="2.30" endTime="2.70" />
+
+<animation id="key_7_leaf10" type="basicScale|scaleTo:0.000;ease:easeOutExpo;" object="leaf1"  startTime="1.90" endTime="2.40" />
+<animation id="key_2_leaf11" type="basicScale|scaleTo:0.080;ease:easeOutExpo;" object="leaf1"  startTime="2.40" endTime="2.80" />
+																														
+<animation id="key_6_leaf30" type="basicMove|ease:easeOutExpo;" object="leaf3" positionStart="0.563:0.509"  positionEnd="0.563:0.427"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+<animation id="key_5_leaf20" type="basicMove|ease:easeOutExpo;" object="leaf2" positionStart="0.497:0.509"  positionEnd="0.497:0.429"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+
+
+ </igml>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

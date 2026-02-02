@@ -1,0 +1,24 @@
+{
+  "objects":{
+    "question_statement": {
+      "text":"Which one is bigger?"
+    },
+    "icon1": {
+      "src":"graphics/education/vizlai-school/generic/wrong1.png"
+    },
+    "icon2": {
+      "src":"graphics/education/vizlai-school/generic/correct1.png"
+    },
+    "answer1": {
+      "text":"Answer 1"
+    },
+    "answer2": {
+      "text":"Answer 2"
+    }
+  },
+  "variables":{
+    "correct": {
+      "default": 0
+    }
+  }
+}

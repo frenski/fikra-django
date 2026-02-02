@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/math/negative-multiplication/08/SVG/l_4.svg" editable="true" description=""  />
+<object id="l_11" type="image" src="graphics/education/vizlai-school/math/negative-multiplication/08/SVG/l_14.svg" editable="true" description=""  />
+<object id="l_12" type="image" src="graphics/education/vizlai-school/math/negative-multiplication/08/SVG/l_13.svg" editable="true" description=""  />
+<object id="l_13" type="image" src="graphics/education/vizlai-school/math/negative-multiplication/08/SVG/l_12.svg" editable="true" description=""  />
+<animation id="appear_l_0" type="appearFade|scaleTo:0.172;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.689:0.713" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_11" type="appearFade|scaleTo:0.011;opacity:0;anchorPoint:0.5,0.5" object="l_11" positionStart="0.655:0.736" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_12" type="appearFade|scaleTo:0.020;opacity:0;anchorPoint:0.5,0.5" object="l_12" positionStart="0.689:0.735" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_13" type="appearFade|scaleTo:0.011;opacity:0;anchorPoint:0.5,0.5" object="l_13" positionStart="0.724:0.740" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="1.25" endTime="1.65" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_0" positionEnd="0.689:0.713" startTime="1.35" endTime="1.65" description="" />
+
+<animation id="o_0_0_l_11" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_11"  startTime="1.50" endTime="2.0" description="" />
+<animation id="o_0_1_l_11" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="l_11"  startTime="2.20" endTime="2.7" description="" />
+<animation id="m_0_0_l_11" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_11" positionEnd="0.655:0.796" startTime="1.70" endTime="2.70" description="" />
+<animation id="o_0_0_l_12" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_12"  startTime="1.75" endTime="2.25" description="" />
+<animation id="o_0_1_l_12" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="l_12"  startTime="2.55" endTime="3.05" description="" />
+<animation id="m_0_0_l_12" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_12" positionEnd="0.689:0.815" startTime="2.05" endTime="3.05" description="" />
+<animation id="o_0_0_l_13" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_13"  startTime="2.00" endTime="2.50" description="" />
+<animation id="o_0_1_l_13" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="l_13"  startTime="2.90" endTime="3.40" description="" />
+<animation id="m_0_0_l_13" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_13" positionEnd="0.724:0.800" startTime="2.40" endTime="3.40" description="" />
+
+<animation id="m_0_2_l_11" type="basicMove|axis:xy;ease:linear;" object="l_11" positionEnd="0.655:0.736" startTime="2.90" endTime="2.95" description="" />
+<animation id="m_0_3_l_11" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_11" positionEnd="0.655:0.796" startTime="3" endTime="4" description="" />
+<animation id="o_0_2_l_11" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_11"  startTime="3.0" endTime="3.5" description="" />
+<animation id="o_0_3_l_11" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="l_11"  startTime="3.5" endTime="4.0" description="" />
+
+<animation id="m_0_2_l_12" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_12" positionEnd="0.689:0.735" startTime="3.15" endTime="3.20" description="" />
+<animation id="m_0_3_l_12" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_12" positionEnd="0.689:0.815" startTime="3.30" endTime="4.30" description="" />
+<animation id="o_0_2_l_12" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_12"  startTime="3.3" endTime="3.8" description="" />
+<animation id="o_0_3_l_12" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="l_12"  startTime="3.8" endTime="4.3" description="" />
+
+<animation id="m_0_2_l_12" type="basicMove|axis:xy;ease:linear;" object="l_13" positionEnd="0.724:0.740" startTime="3.4" endTime="3.5" description="" />
+<animation id="m_0_3_l_13" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_13" positionEnd="0.724:0.800" startTime="3.50" endTime="4.50" description="" />
+<animation id="o_0_2_l_13" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_13"  startTime="3.50" endTime="4.0" description="" />
+<animation id="o_0_3_l_13" type="basicOpacity|opacity:0;ease:easeInOutSine;" object="l_13"  startTime="4.0" endTime="4.50" description="" />
+
+
+</igml>

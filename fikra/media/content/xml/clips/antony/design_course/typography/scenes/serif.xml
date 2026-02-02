@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff">
+
+
+
+<object id="bg_0" type="image" src="graphics/design/typo/serif/bg.svg" action="link" editable="true" />
+
+<object id="capital_1" type="image" src="graphics/design/typo/serif/capital.svg" action="link" editable="true" />
+
+<object id="r_2" type="image" src="graphics/design/typo/serif/r.svg" action="link" editable="true" />
+
+<object id="word1_3" type="image" src="graphics/design/typo/serif/word1.svg" action="link" editable="true" />
+
+<object id="word2_4" type="image" src="graphics/design/typo/serif/word2.svg" action="link" editable="true" />
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="1" />
+
+<animation id="appear_capital_1" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="capital_1" positionStart="0.50:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_r_2" type="appearFade|scaleTo:0.12;opacity:1;anchorPoint:0.5,0.5" object="r_2" positionStart="0.53:1.36" positionRelativeTo="scene" startTime="1" endTime="5" />
+
+<animation id="appear_word1_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="word1_3" positionStart="0.51:0.66" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_word2_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="word2_4" positionStart="0.51:0.66" positionRelativeTo="scene" startTime="8" endTime="13" />
+
+
+
+
+
+<animation id="key_4_capital_10" type="basicMove" object="capital_1" positionStart="0.500:1.300"  positionEnd="0.500:0.400"  positionRelativeTo="scene" startTime="1.25" endTime="2.00" />
+<animation id="key_2_capital_11" type="basicMove" object="capital_1" positionStart="0.500:0.400"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="2.00" endTime="2.25" />
+<animation id="key_4_capital_12" type="basicMove" object="capital_1" positionStart="0.500:0.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="2.25" endTime="6.00" />
+<animation id="key_3_capital_13" type="basicMove" object="capital_1" positionStart="0.500:0.500"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="6.00" endTime="6.25" />
+<animation id="key_7_capital_14" type="basicMove" object="capital_1" positionStart="0.500:0.600"  positionEnd="0.500:0.200"  positionRelativeTo="scene" startTime="6.25" endTime="6.50" />
+<animation id="key_7_capital_15" type="basicMove" object="capital_1" positionStart="0.500:0.200"  positionEnd="0.500:0.300"  positionRelativeTo="scene" startTime="6.50" endTime="6.75" />
+
+<animation id="key_7_r_20" type="basicMove" object="r_2" positionStart="0.530:1.360"  positionEnd="0.530:0.460"  positionRelativeTo="scene" startTime="1.25" endTime="2.00" />
+<animation id="key_0_r_21" type="basicMove" object="r_2" positionStart="0.530:0.460"  positionEnd="0.530:0.560"  positionRelativeTo="scene" startTime="2.00" endTime="2.25" />
+<animation id="key_4_r_22" type="basicMove" object="r_2" positionStart="0.530:0.560"  positionEnd="0.530:0.560"  positionRelativeTo="scene" startTime="2.25" endTime="6.00" />
+<animation id="key_0_r_23" type="basicMove" object="r_2" positionStart="0.530:0.560"  positionEnd="0.530:0.660"  positionRelativeTo="scene" startTime="6.00" endTime="6.25" />
+<animation id="key_8_r_24" type="basicMove" object="r_2" positionStart="0.530:0.660"  positionEnd="0.530:0.260"  positionRelativeTo="scene" startTime="6.25" endTime="6.50" />
+<animation id="key_7_r_25" type="basicMove" object="r_2" positionStart="0.530:0.260"  positionEnd="0.530:0.360"  positionRelativeTo="scene" startTime="6.50" endTime="6.75" />
+
+<animation id="key_8_word1_30" type="basicScale|scaleTo:0.000" object="word1_3"  startTime="6.00" endTime="6.30" />
+<animation id="key_7_word1_31" type="basicScale|scaleTo:0.200" object="word1_3"  startTime="6.30" endTime="6.45" />
+
+<animation id="key_2_word2_40" type="basicScale|scaleTo:0.000" object="word2_4"  startTime="8.00" endTime="8.30" />
+<animation id="key_3_word2_41" type="basicScale|scaleTo:0.200" object="word2_4"  startTime="8.30" endTime="8.45" />
+
+	<animation id="disppear-serif" type="disappearFade" object="capital_1,r_2,word1_3,word2_4" positionRelativeTo="scene" startTime="12" endTime="12" />
+	
+
+
+ </igml>

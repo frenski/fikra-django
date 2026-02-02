@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+
+	<style src="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" external="true" />
+
+	<!-- OBJECTS -->
+	<object id="watermark_1" type="image" src="graphics/design/interactions/compositing/weightfind/watermark.svg" />
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#ffffff" strokeWidth="0" action="link" editable="false"/>
+
+  <object id="title-text" type="text" text="Where is the focus point in composition?" size="24" align="center" color="#1D1538" font="Open Sans" wordWrap="true" wordWrapWidth="0.8" weight="300" />
+
+  <object id="bordercircle" type="shape" shapetype="circle" size="0.6" color="" stroke="#2A2A51" strokeWidth="4" />
+
+  <object id="sq1" type="shape" shapetype="rect" size="0.01,0.01" color="#FAF6CC" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq2" type="shape" shapetype="rect" size="0.01,0.01" color="#E5D400" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq3" type="shape" shapetype="rect" size="0.01,0.01" color="#EFE566" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq4" type="shape" shapetype="rect" size="0.01,0.01" color="#D8CBAD" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq5" type="shape" shapetype="rect" size="0.01,0.01" color="#FAF6CC" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq6" type="shape" shapetype="rect" size="0.01,0.01" color="#F5EE99" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq7" type="shape" shapetype="rect" size="0.01,0.01" color="#C5B284" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq8" type="shape" shapetype="rect" size="0.01,0.01" color="#E6E3DC" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq9" type="shape" shapetype="rect" size="0.01,0.01" color="#E6E3DC" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq10" type="shape" shapetype="rect" size="0.01,0.01" color="#B9B5AA" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq11" type="shape" shapetype="rect" size="0.01,0.01" color="#F5E8DD" stroke="#ffffff" strokeWidth="0" />
+  <object id="sq12" type="shape" shapetype="rect" size="0.01,0.01" color="#CEC7BA" stroke="#ffffff" strokeWidth="0" />
+
+  <object id="sq-marker" type="shape" shapetype="rect" size="0.1,0.1" color="#2A2A51" stroke="" strokeWidth="0" />
+
+  <object id="textscore" type="text" text="  0" size="30" align="right" color="#302F35" width="20" font="Open Sans" weight="300" />
+  <object id="textscore-ext" type="text" text="/100" size="30" align="right" color="#403D54" width="20" font="Open Sans" weight="300" />
+
+  <object id="textbut-compare" type="text" text="READY" size="16" align="center" color="#FFFFFF" width="20" font="Open Sans" weight="800" />
+  <object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#2A2A51" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+
+
+	<!-- VARIABLES -->
+	<variable id="tk_pos" type="array" default="[0,0]" />
+	<variable id="tk_score" type="int" default="0" />
+	<variable id="marker_pos_x" type="float" default="0" reference="sq-marker.position.x" />
+	<variable id="marker_pos_y" type="float" default="0" reference="sq-marker.position.y" />
+  <variable id="score_selected" type="int" default="0" />
+
+	<!-- ANIMATIONS -->
+
+	<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:2.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="key_0_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:2.000"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+
+<animation id="appear_watermark_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_1" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+  <animation id="titleappear" type="appearFromSide|direction:ttb;elastic:false;anchorPoint:0.5,0.5" object="title-text" startTime="1" endTime="2" positionStart="0.5:0.12" positionEnd="0.5:0.12" positionRelativeTo="scene" />
+
+	<animation id="appear-bordercircle" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.32" object="bordercircle" startTime="1" endTime="2" positionStart="0.5:0.5" positionEnd="0.5:0.5" positionRelativeTo="scene" />
+
+  <animation id="appear-sq1" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq1" startTime="1" endTime="2" positionStart="0.5:0.35" positionEnd="0.5:0.35" positionRelativeTo="scene" />
+  <animation id="appear-sq2" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq2" startTime="1.2" endTime="2.2" positionStart="0.452:0.43" positionEnd="0.452:0.43" positionRelativeTo="scene" />
+  <animation id="appear-sq3" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq3" startTime="1.4" endTime="2.4" positionStart="0.5:0.43" positionEnd="0.5:0.43" positionRelativeTo="scene" />
+  <animation id="appear-sq4" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq4" startTime="1.6" endTime="2.6" positionStart="0.548:0.43" positionEnd="0.548:0.43" positionRelativeTo="scene" />
+  <animation id="appear-sq5" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq5" startTime="1.8" endTime="2.8" positionStart="0.405:0.51" positionEnd="0.405:0.51" positionRelativeTo="scene" />
+  <animation id="appear-sq6" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq6" startTime="2" endTime="3" positionStart="0.452:0.51" positionEnd="0.452:0.51" positionRelativeTo="scene" />
+  <animation id="appear-sq7" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq7" startTime="2.2" endTime="3.2" positionStart="0.548:0.51" positionEnd="0.548:0.51" positionRelativeTo="scene" />
+  <animation id="appear-sq8" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq8" startTime="2.4" endTime="3.4" positionStart="0.595:0.51" positionEnd="0.595:0.51" positionRelativeTo="scene" />
+  <animation id="appear-sq9" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq9" startTime="2.6" endTime="3.6" positionStart="0.452:0.59" positionEnd="0.452:0.59" positionRelativeTo="scene" />
+  <animation id="appear-sq10" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq10" startTime="2.8" endTime="3.8" positionStart="0.5:0.59" positionEnd="0.5:0.59" positionRelativeTo="scene" />
+  <animation id="appear-sq11" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq11" startTime="3" endTime="4" positionStart="0.548:0.59" positionEnd="0.548:0.59" positionRelativeTo="scene" />
+  <animation id="appear-sq12" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.04" object="sq12" startTime="3.2" endTime="4.2" positionStart="0.5:0.67" positionEnd="0.5:0.67" positionRelativeTo="scene" />
+
+  <animation id="appear-sq-marker" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.045;opacity:0.3" object="sq-marker" startTime="1" endTime="2" positionStart="-0.2:-0.2" positionEnd="-0.2:-0.2" positionRelativeTo="scene" />
+
+  <animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="3" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+  <animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="3" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+  <animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.5:0.9" positionEnd="0.5:0.9" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+
+  <animation id="disappear-button-compare" type="disappearFade" object="button-compare" startTime="5" endTime="6" positionRelativeTo="scene" />
+
+  <animation id="disappear-button-compare" type="disappearFade" object="sq1,sq3,sq4,sq5,sq6,sq7,sq8,sq9,sq10,sq11,sq12,bordercircle,sq-marker" startTime="6" endTime="7" />
+
+  <animation id="move-sq2" type="basicMove|ease:easeOutElastic" object="sq2" positionStart="0.452:0.43" positionEnd="0.5:0.5" startTime="7" endTime="8" />
+
+  <animation id="move-sq2" type="basicScale|scaleTo:0.1" object="sq2"  startTime="8" endTime="9" />
+
+  <animation id="appear-score" type="appearFade|anchorPoint:1,0" object="textscore" positionStart="0.44:0.75" positionEnd="0.48:0.75" positionRelativeTo="scene" startTime="8.5" endTime="9" />
+  <animation id="appear-score-ext" type="appearFade|anchorPoint:0,0" object="textscore-ext" positionStart="0.48:0.75" positionEnd="0.48:0.75" positionRelativeTo="scene" startTime="8.5" endTime="9" />
+
+  <animation id="scorechange" type="textCounterBasic|start:0;end:{{score_selected}};valtype:int" object="textscore" startTime="9" endTime="9.5" positionRelativeTo="scene" />
+
+
+	<!-- INTERACTIONS -->
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq1" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',10]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq2" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',100]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq3" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',50]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq4" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',20]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq5" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',0]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq6" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',5]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq7" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',50]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq8" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',5]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq9" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',5]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq10" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',20]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq11" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',10]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="sq12" startTime="4.5" endTime="4.6" actions="onClick:setVar:['marker_pos_x','active_object','position','x']|setVar:['marker_pos_y','active_object','position','y']|setVar:['score_selected',20]" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="backbut-compare" startTime="4.5" endTime="4.6" actions="onClick:play" />
+
+
+<animation id="key_5_watermark_10" type="basicMove|ease:easeOutQuad;" object="watermark_1" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="1.70" endTime="2.30" />
+
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="4.5" />
+
+<animation id="disppear-wf" type="disappearFade" object="watermark_1,bg_0,title-text,bordercircle,sq1,sq2,sq3,sq4,sq5,sq6,sq7,sq8,sq9,sq10,sq11,sq12,sq-marker,textbut-compare,button-compare,textscore,textscore-ext" positionRelativeTo="scene" startTime="12" endTime="12" />
+
+
+
+</igml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff">
+
+
+<container id="containerBalls" objects="line_4,ball_1,ball_2,ball_3" anchorRoot="line_4" editable="false" action="link:"   />
+
+<animation id="appear_containerBalls" type="appearFade|anchorPoint:0.0,0.0" object="containerBalls" positionStart="0.502:0.709" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+<object id="ball_1" type="image" src="graphics/design/composition/weights/ball.svg" action="link" editable="false" />
+
+<animation id="appear_ball_1" type="appearFade|scaleTo:0.14;opacity:1;anchorPoint:0.5:0.5" object="ball_1" positionStart="-0.15:-0.08" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<object id="ball_2" type="image" src="graphics/design/composition/weights/ball.svg" action="link" editable="true" />
+
+<animation id="appear_ball_2" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:" object="ball_2" positionStart="0.18:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<object id="ball_3" type="image" src="graphics/design/composition/weights/ball.svg" action="link" editable="false" />
+
+<animation id="appear_ball_3" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:" object="ball_3" positionStart="0.13:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<object id="line_4" type="image" src="graphics/design/composition/weights/line.svg" action="link" editable="true" />
+
+<animation id="appear_line_4" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5:0.5" object="line_4" positionStart="0.00:0.04" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<object id="base_5" type="image" src="graphics/design/composition/weights/base.svg" action="link" editable="false" />
+
+<animation id="appear_base_5" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5:0.5" object="base_5" positionStart="0.503:0.784" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<object id="shape_6" type="image" src="graphics/design/composition/weights/shape.svg" action="link" editable="true" />
+
+<animation id="appear_shape_6" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5:0.5" object="shape_6" positionStart="0.5:0.911" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_8_containerBalls0" type="basicRotate|angle:10.000;anchorPoint:;revertAnchor:false;" object="containerBalls"  startTime="1.40" endTime="2.50" />
+<animation id="key_6_containerBalls1" type="basicRotate|angle:-10.000;anchorPoint:;revertAnchor:false;" object="containerBalls"  startTime="2.50" endTime="4.00" />
+<animation id="key_3_containerBalls2" type="basicRotate|angle:0.000;anchorPoint:;revertAnchor:false;" object="containerBalls"  startTime="4.00" endTime="5.00" />
+
+<animation id="ball_2_bg_00" type="basicMove" object="ball_2" positionStart="0.180:0.010"  positionEnd="0.220:0.010"  positionRelativeTo="scene" startTime="1.2" endTime="2.40" />
+<animation id="ball_2_bg_01" type="basicMove" object="ball_2" positionStart="0.220:0.010"  positionEnd="0.160:0.010"  positionRelativeTo="scene" startTime="2.40" endTime="3.39" />
+<animation id="ball_2_bg_01" type="basicMove" object="ball_2" positionStart="0.160:0.010"  positionEnd="0.180:0.010"  positionRelativeTo="scene" startTime="3.39" endTime="5" />
+
+
+
+<animation id="ball_3_bg_00" type="basicMove" object="ball_3" positionStart="0.13:0"  positionEnd="0.15:0"  positionRelativeTo="scene" startTime="1.3" endTime="2.50" />
+<animation id="ball_3_bg_01" type="basicMove" object="ball_3" positionStart="0.15:0"  positionEnd="0.110:0.000"  positionRelativeTo="scene" startTime="2.50" endTime="3.59" />
+<animation id="ball_3_bg_01" type="basicMove" object="ball_3" positionStart="0.110:0.000"  positionEnd="0.13:0"  positionRelativeTo="scene" startTime="3.59" endTime="5" />
+
+
+
+
+
+
+
+
+</igml>

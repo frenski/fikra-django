@@ -1,0 +1,219 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff">
+
+<object id="ball_1" type="image" src="graphics/design/composition/weights/ball.svg" action="link" editable="true" />
+<object id="ball_2" type="image" src="graphics/design/composition/weights/ball.svg" action="link" editable="true" />
+<object id="ball_3" type="image" src="graphics/design/composition/weights/ball.svg" action="link" editable="true" />
+<object id="line_4" type="image" src="graphics/design/composition/weights/line.svg" action="link" editable="true" />
+<object id="base_5" type="image" src="graphics/design/composition/weights/base.svg" action="link" editable="false" />
+<object id="shape_6" type="image" src="graphics/design/composition/weights/shape.svg" action="link" editable="true" />
+
+<container id="containerBalls" objects="line_4,ball_1,ball_2,ball_3" anchorRoot="line_4" editable="false" action="link:"   />
+
+<animation id="appear_containerBalls" type="appearFade|anchorPoint:0.0,0.0" object="containerBalls" positionStart="0.502:0.709" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<animation id="key_8_containerBalls0" type="basicRotate|angle:10.000;revertAnchor:false;" object="containerBalls"  startTime="1.40" endTime="2.50" />
+<animation id="key_6_containerBalls1" type="basicRotate|angle:-10.000;revertAnchor:false;" object="containerBalls"  startTime="2.50" endTime="4.00" />
+<animation id="key_3_containerBalls2" type="basicRotate|angle:0.000;revertAnchor:false;" object="containerBalls"  startTime="4.00" endTime="5.00" />
+
+
+
+
+
+
+<animation id="appear_ball_1" type="appearFade|scaleTo:0.14;opacity:1;anchorPoint:0.5:0.5" object="ball_1" positionStart="-0.15:-0.08" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+<animation id="appear_ball_2" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="ball_2" positionStart="0.18:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<animation id="ball_2_bg_00" type="basicMove" object="ball_2" positionStart="0.180:0.010"  positionEnd="0.220:0.010"  positionRelativeTo="scene" startTime="1.2" endTime="2.40" />
+<animation id="ball_2_bg_01" type="basicMove" object="ball_2" positionStart="0.220:0.010"  positionEnd="0.160:0.010"  positionRelativeTo="scene" startTime="2.40" endTime="3.39" />
+<animation id="ball_2_bg_01" type="basicMove" object="ball_2" positionStart="0.160:0.010"  positionEnd="0.180:0.010"  positionRelativeTo="scene" startTime="3.39" endTime="5" />
+
+
+
+<animation id="appear_ball_3" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="ball_3" positionStart="0.13:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="ball_3_bg_00" type="basicMove" object="ball_3" positionStart="0.13:0"  positionEnd="0.15:0"  positionRelativeTo="scene" startTime="1.3" endTime="2.50" />
+<animation id="ball_3_bg_01" type="basicMove" object="ball_3" positionStart="0.15:0"  positionEnd="0.110:0.000"  positionRelativeTo="scene" startTime="2.50" endTime="3.59" />
+<animation id="ball_3_bg_01" type="basicMove" object="ball_3" positionStart="0.110:0.000"  positionEnd="0.13:0"  positionRelativeTo="scene" startTime="3.59" endTime="5" />
+
+<animation id="appear_line_4" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5:0.5" object="line_4" positionStart="0.00:0.04" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_base_5" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5:0.5" object="base_5" positionStart="0.503:0.784" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_shape_6" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5:0.5" object="shape_6" positionStart="0.5:0.911" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+</igml>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>inlinepan1,inlinepan2,inlinepan3,line1,line2,line3,line4,line5,line6,outline1,outline2,outline3,outline4,outline5,outline6,panels1,panels2,panels3,panels4,panels5,panels6,panels7
+graphics/design/composition/comp/
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+<object id="fume_0" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_0" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_0" positionStart="0.471:0.439" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_1_fume_00" type="basicScale|scaleTo:0.15" object="fume_0" positionStart="0.621:0.589"  positionEnd="0.641:0.609"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+<animation id="key_1_fume_01" type="basicScale|scaleTo:0.17" object="fume_0" positionStart="0.641:0.609"  positionEnd="0.471:0.439"  positionRelativeTo="scene" startTime="0.80" endTime="0.90" />
+<animation id="key_1_fume_02" type="basicScale|scaleTo:0" object="fume_0" positionStart="0.471:0.439"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="0.90" endTime="1.40" />
+
+<object id="fume_1" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_1" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_1" positionStart="0.45:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_1_fume_10" type="basicScale|scaleTo:0.15" object="fume_1" positionStart="0.600:0.650"  positionEnd="0.620:0.670"  positionRelativeTo="scene" startTime="0.90" endTime="1.40" />
+<animation id="key_7_fume_11" type="basicScale|scaleTo:0.17" object="fume_1" positionStart="0.620:0.670"  positionEnd="0.450:0.500"  positionRelativeTo="scene" startTime="1.40" endTime="1.50" />
+<animation id="key_1_fume_12" type="basicScale|scaleTo:0" object="fume_1" positionStart="0.450:0.500"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+
+<object id="fume_2" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_2" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_2" positionStart="0.383:0.418" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_7_fume_20" type="basicScale|scaleTo:0.15" object="fume_2" positionStart="0.533:0.568"  positionEnd="0.553:0.588"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_3_fume_21" type="basicScale|scaleTo:0.17" object="fume_2" positionStart="0.553:0.588"  positionEnd="0.383:0.418"  positionRelativeTo="scene" startTime="2.00" endTime="2.10" />
+<animation id="key_1_fume_22" type="basicScale|scaleTo:0" object="fume_2" positionStart="0.383:0.418"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="2.10" endTime="2.60" />
+
+<object id="fume_3" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_3" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_3" positionStart="0.5:0.6" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_6_fume_30" type="basicScale|scaleTo:0.15" object="fume_3" positionStart="0.650:0.750"  positionEnd="0.670:0.770"  positionRelativeTo="scene" startTime="2.10" endTime="2.60" />
+<animation id="key_4_fume_31" type="basicScale|scaleTo:0.17" object="fume_3" positionStart="0.670:0.770"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="2.60" endTime="2.70" />
+<animation id="key_6_fume_32" type="basicScale|scaleTo:0" object="fume_3" positionStart="0.500:0.600"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="2.70" endTime="3.20" />
+
+<object id="fume_4" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_4" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_4" positionStart="0.67:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_0_fume_40" type="basicScale|scaleTo:0.15" object="fume_4" positionStart="0.820:0.690"  positionEnd="0.840:0.710"  positionRelativeTo="scene" startTime="1.90" endTime="2.40" />
+<animation id="key_7_fume_41" type="basicScale|scaleTo:0.17" object="fume_4" positionStart="0.840:0.710"  positionEnd="0.670:0.540"  positionRelativeTo="scene" startTime="2.40" endTime="2.50" />
+<animation id="key_6_fume_42" type="basicScale|scaleTo:0" object="fume_4" positionStart="0.670:0.540"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="2.50" endTime="3.00" />
+
+<object id="fume_5" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_5" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_5" positionStart="0.65:0.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_1_fume_50" type="basicScale|scaleTo:0.15" object="fume_5" positionStart="0.800:0.750"  positionEnd="0.820:0.770"  positionRelativeTo="scene" startTime="2.50" endTime="3.00" />
+<animation id="key_4_fume_51" type="basicScale|scaleTo:0.17" object="fume_5" positionStart="0.820:0.770"  positionEnd="0.650:0.600"  positionRelativeTo="scene" startTime="3.00" endTime="3.10" />
+<animation id="key_6_fume_52" type="basicScale|scaleTo:0" object="fume_5" positionStart="0.650:0.600"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="3.10" endTime="3.60" />
+
+<object id="fume_6" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_6" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_6" positionStart="0.58:0.52" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_1_fume_60" type="basicScale|scaleTo:0.15" object="fume_6" positionStart="0.730:0.670"  positionEnd="0.750:0.690"  positionRelativeTo="scene" startTime="3.10" endTime="3.60" />
+<animation id="key_8_fume_61" type="basicScale|scaleTo:0.17" object="fume_6" positionStart="0.750:0.690"  positionEnd="0.580:0.520"  positionRelativeTo="scene" startTime="3.60" endTime="3.70" />
+<animation id="key_3_fume_62" type="basicScale|scaleTo:0" object="fume_6" positionStart="0.580:0.520"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="3.70" endTime="4.20" />
+
+<object id="fume_7" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_7" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_7" positionStart="0.60:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_4_fume_70" type="basicScale|scaleTo:0.15" object="fume_7" positionStart="0.750:0.650"  positionEnd="0.770:0.670"  positionRelativeTo="scene" startTime="3.50" endTime="4.00" />
+<animation id="key_7_fume_71" type="basicScale|scaleTo:0.17" object="fume_7" positionStart="0.770:0.670"  positionEnd="0.600:0.500"  positionRelativeTo="scene" startTime="4.00" endTime="4.10" />
+<animation id="key_7_fume_72" type="basicScale|scaleTo:0" object="fume_7" positionStart="0.600:0.500"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="4.10" endTime="4.60" />
+
+<object id="fume_8" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_8" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_8" positionStart="0.67:0.44" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_6_fume_80" type="basicScale|scaleTo:0.15" object="fume_8" positionStart="0.820:0.590"  positionEnd="0.840:0.610"  positionRelativeTo="scene" startTime="3.10" endTime="3.60" />
+<animation id="key_6_fume_81" type="basicScale|scaleTo:0.17" object="fume_8" positionStart="0.840:0.610"  positionEnd="0.670:0.440"  positionRelativeTo="scene" startTime="3.60" endTime="3.70" />
+<animation id="key_8_fume_82" type="basicScale|scaleTo:0" object="fume_8" positionStart="0.670:0.440"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="3.70" endTime="4.20" />
+
+<object id="fume_9" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_9" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_9" positionStart="0.65:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_8_fume_90" type="basicScale|scaleTo:0.15" object="fume_9" positionStart="0.800:0.650"  positionEnd="0.820:0.670"  positionRelativeTo="scene" startTime="3.70" endTime="4.20" />
+<animation id="key_8_fume_91" type="basicScale|scaleTo:0.17" object="fume_9" positionStart="0.820:0.670"  positionEnd="0.650:0.500"  positionRelativeTo="scene" startTime="4.20" endTime="4.30" />
+<animation id="key_8_fume_92" type="basicScale|scaleTo:0" object="fume_9" positionStart="0.650:0.500"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="4.30" endTime="4.80" />
+
+<object id="fume_10" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_10" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_10" positionStart="0.58:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_3_fume_100" type="basicScale|scaleTo:0.15" object="fume_10" positionStart="0.730:0.570"  positionEnd="0.750:0.590"  positionRelativeTo="scene" startTime="4.30" endTime="4.80" />
+<animation id="key_4_fume_101" type="basicScale|scaleTo:0.17" object="fume_10" positionStart="0.750:0.590"  positionEnd="0.580:0.420"  positionRelativeTo="scene" startTime="4.80" endTime="4.90" />
+<animation id="key_3_fume_102" type="basicScale|scaleTo:0" object="fume_10" positionStart="0.580:0.420"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="4.90" endTime="5.40" />
+
+<object id="fume_11" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_11" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_11" positionStart="0.70:0.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_2_fume_110" type="basicScale|scaleTo:0.15" object="fume_11" positionStart="0.850:0.750"  positionEnd="0.870:0.770"  positionRelativeTo="scene" startTime="4.90" endTime="5.40" />
+<animation id="key_5_fume_111" type="basicScale|scaleTo:0.17" object="fume_11" positionStart="0.870:0.770"  positionEnd="0.700:0.600"  positionRelativeTo="scene" startTime="5.40" endTime="5.50" />
+<animation id="key_3_fume_112" type="basicScale|scaleTo:0" object="fume_11" positionStart="0.700:0.600"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+
+<object id="fume_12" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_12" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_12" positionStart="0.471:0.439" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_6_fume_120" type="basicScale|scaleTo:0.3" object="fume_12" positionStart="0.771:0.739"  positionEnd="0.811:0.779"  positionRelativeTo="scene" startTime="1.20" endTime="3.20" />
+<animation id="key_4_fume_121" type="basicScale|scaleTo:0.34" object="fume_12" positionStart="0.811:0.779"  positionEnd="0.471:0.439"  positionRelativeTo="scene" startTime="3.20" endTime="3.60" />
+<animation id="key_1_fume_122" type="basicScale|scaleTo:0" object="fume_12" positionStart="0.471:0.439"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="3.60" endTime="5.60" />
+
+<object id="fume_13" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_13" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_13" positionStart="0.45:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_2_fume_130" type="basicScale|scaleTo:0.3" object="fume_13" positionStart="0.750:0.800"  positionEnd="0.790:0.840"  positionRelativeTo="scene" startTime="1.80" endTime="3.80" />
+<animation id="key_2_fume_131" type="basicScale|scaleTo:0.34" object="fume_13" positionStart="0.790:0.840"  positionEnd="0.450:0.500"  positionRelativeTo="scene" startTime="3.80" endTime="4.20" />
+<animation id="key_2_fume_132" type="basicScale|scaleTo:0" object="fume_13" positionStart="0.450:0.500"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="4.20" endTime="6.20" />
+
+<object id="fume_14" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_14" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_14" positionStart="0.383:0.418" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_3_fume_140" type="basicScale|scaleTo:0.3" object="fume_14" positionStart="0.683:0.718"  positionEnd="0.723:0.758"  positionRelativeTo="scene" startTime="2.40" endTime="4.40" />
+<animation id="key_6_fume_141" type="basicScale|scaleTo:0.34" object="fume_14" positionStart="0.723:0.758"  positionEnd="0.383:0.418"  positionRelativeTo="scene" startTime="4.40" endTime="4.80" />
+<animation id="key_5_fume_142" type="basicScale|scaleTo:0" object="fume_14" positionStart="0.383:0.418"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="4.80" endTime="6.80" />
+
+<object id="fume_15" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_15" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_15" positionStart="0.5:0.6" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_1_fume_150" type="basicScale|scaleTo:0.3" object="fume_15" positionStart="0.800:0.900"  positionEnd="0.840:0.940"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_7_fume_151" type="basicScale|scaleTo:0.34" object="fume_15" positionStart="0.840:0.940"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="5.00" endTime="5.40" />
+<animation id="key_1_fume_152" type="basicScale|scaleTo:0" object="fume_15" positionStart="0.500:0.600"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="5.40" endTime="7.40" />
+
+<object id="fume_16" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_16" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_16" positionStart="0.57:0.44" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_1_fume_160" type="basicScale|scaleTo:0.3" object="fume_16" positionStart="0.870:0.740"  positionEnd="0.910:0.780"  positionRelativeTo="scene" startTime="2.70" endTime="4.20" />
+<animation id="key_4_fume_161" type="basicScale|scaleTo:0.34" object="fume_16" positionStart="0.910:0.780"  positionEnd="0.570:0.440"  positionRelativeTo="scene" startTime="4.20" endTime="4.50" />
+<animation id="key_2_fume_162" type="basicScale|scaleTo:0" object="fume_16" positionStart="0.570:0.440"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="4.50" endTime="6.00" />
+
+<object id="fume_17" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="true" />
+
+<animation id="appear_fume_17" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_17" positionStart="0.55:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_2_fume_170" type="basicScale|scaleTo:0.3" object="fume_17" positionStart="0.850:0.800"  positionEnd="0.890:0.840"  positionRelativeTo="scene" startTime="3.30" endTime="4.80" />
+<animation id="key_4_fume_171" type="basicScale|scaleTo:0.34" object="fume_17" positionStart="0.890:0.840"  positionEnd="0.550:0.500"  positionRelativeTo="scene" startTime="4.80" endTime="5.10" />
+<animation id="key_6_fume_172" type="basicScale|scaleTo:0" object="fume_17" positionStart="0.550:0.500"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="5.10" endTime="6.60" />
+
+<object id="fume_18" type="image" src="graphics/general/characters/envi/fume.svg" action="link" editable="false" />
+
+<animation id="appear_fume_18" type="appearFade|scaleTo:0.0; opacity:1; anchorPoint:" object="fume_18" positionStart="0.48:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="key_2_fume_180" type="basicScale|scaleTo:0.3" object="fume_18" positionStart="0.780:0.720"  positionEnd="0.820:0.760"  positionRelativeTo="scene" startTime="3.90" endTime="5.40" />
+<animation id="key_3_fume_181" type="basicScale|scaleTo:0.34" object="fume_18" positionStart="0.820:0.760"  positionEnd="0.480:0.420"  positionRelativeTo="scene" startTime="5.40" endTime="5.70" />
+<animation id="key_4_fume_182" type="basicScale|scaleTo:0" object="fume_18" positionStart="0.480:0.420"  positionEnd="NaN:NaN"  positionRelativeTo="scene" startTime="5.70" endTime="7.20" />
+
+
+
+</igml>

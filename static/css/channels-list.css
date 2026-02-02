@@ -1,0 +1,125 @@
+.channels-list {
+	color: white;
+	padding: 1.2em 5%;
+	margin: 0;
+	background-color: #241f51;
+  background-image: url('../img/channels-list-back.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 40%;
+}
+
+.channels-list-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.6em;
+  margin-top: 1.5em;
+}
+
+.channels-list-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 1.6em 0;
+}
+
+.channels-container {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.channel {
+	box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.25);
+}
+
+.channel .channel-image {
+  padding-top: 70%;
+  text-align: center;
+}
+
+.channel .channel-image-container {
+	position: relative;
+}
+
+.channel .channel-image-container:before {
+	content:"";
+	color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #241f51;
+	z-index: 1000;
+	opacity: 0.5;
+	transition: opacity 0.3s linear;
+}
+
+.channel .channel-image-container:hover::before {
+	opacity: 0;
+	transition: opacity 0.3s linear;
+}
+
+.channel .controlbar {
+	display: table;
+  background-color: #241f51;
+  background-image: url('../img/icons/ico-play-channel.png');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 10%;
+  color: white;
+}
+
+.channel .metadata {
+  padding: 5%;
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.channel .metadata .metadata-title {
+  padding: 0;
+  margin: 0;
+  color: white;
+  max-width: 75%;
+  height: auto !important;
+}
+
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .channel {
+    width: 47%;
+    margin: 1em 3% 1em 0;
+    float: left;
+  }
+
+  .channels-list-subtitle {
+    max-width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .channels-list-title {
+    margin-top: 2em;
+  }
+  .channel {
+		width: 30%;
+		margin: 1em 3% 1em 0;
+		float: left;
+	}
+  .channels-list-subtitle {
+    margin: 2em 0 4em 0;
+  }
+
+}
+
+@media only screen and (min-width: 1440) {
+
+}

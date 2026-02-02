@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+<object id="rect_0" type="shape" shapetype="rect" size="0.5,1" color="#FCD3D0" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,0.5" color="#FF8B78" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_2" type="shape" shapetype="rect" size="0.5,0.5" color="#E9F7B9" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#11698C" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_4" type="shape" shapetype="rect" size="0.5,0.5" color="#99CE4D" strokeWidth="0" action="link" editable="true"/>
+
+<object id="rect_5" type="shape" shapetype="rect" size="0.5,0.5" color="#4CB2F2" strokeWidth="0" action="link" editable="true"/>
+
+<object id="waterbottle_7" type="image" src="graphics/general/environment/res_cons/six_items/waterbottle.svg" action="link" editable="true" />
+
+<object id="plant_8" type="image" src="graphics/general/environment/res_cons/six_items/plant.svg" action="link" editable="true" />
+
+<object id="notebook_9" type="image" src="graphics/general/environment/res_cons/six_items/notebook.svg" action="link" editable="true" />
+
+<object id="lightbulb_10" type="image" src="graphics/general/environment/res_cons/six_items/lightbulb.svg" action="link" editable="true" />
+
+<object id="bike_11" type="image" src="graphics/general/environment/res_cons/six_items/bike.svg" action="link" editable="true" />
+
+<object id="monitor_12" type="image" src="graphics/general/environment/res_cons/six_items/monitor.svg" action="link" editable="true" />
+
+
+
+
+
+
+<animation id="appear_rect_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_0" positionStart="-0.002:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.993:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_2" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_2" positionStart="-0.007:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="0.993:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_4" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_4" positionStart="-0.007:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_5" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_5" positionStart="0.993:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_waterbottle_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="waterbottle_7" positionStart="0.244:0.16" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_plant_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="plant_8" positionStart="0.755:0.16" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_notebook_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="notebook_9" positionStart="0.244:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_lightbulb_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="lightbulb_10" positionStart="0.755:0.54" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bike_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="bike_11" positionStart="0.244:0.85" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_monitor_12" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="monitor_12" positionStart="0.755:0.85" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_2_rect_00" type="basicMove|ease:easeOutExpo;" object="rect_0" positionStart="-0.002:3.000"  positionEnd="-0.002:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_6_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.993:3.000"  positionEnd="0.993:0.400"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_6_rect_20" type="basicMove|ease:easeOutExpo;" object="rect_2" positionStart="-0.007:3.000"  positionEnd="-0.007:1.250"  positionRelativeTo="scene" startTime="0.90" endTime="1.40" />
+
+<animation id="key_3_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="0.993:3.000"  positionEnd="0.993:1.250"  positionRelativeTo="scene" startTime="1.20" endTime="1.70" />
+
+<animation id="key_3_rect_40" type="basicMove|ease:easeOutExpo;" object="rect_4" positionStart="-0.007:3.000"  positionEnd="-0.007:1.587"  positionRelativeTo="scene" startTime="1.40" endTime="1.90" />
+
+<animation id="key_2_rect_50" type="basicMove|ease:easeOutExpo;" object="rect_5" positionStart="0.993:3.000"  positionEnd="0.993:1.587"  positionRelativeTo="scene" startTime="1.60" endTime="2.10" />
+
+<animation id="key_3_waterbottle_70" type="basicScale|scaleTo:0.15" object="waterbottle_7"  startTime="4.10" endTime="5.40" />
+<animation id="key_8_waterbottle_71" type="basicScale|scaleTo:0.070" object="waterbottle_7"  startTime="5.40" endTime="6.80" />
+<animation id="key_7_waterbottle_72" type="basicScale|scaleTo:0.090" object="waterbottle_7"  startTime="6.80" endTime="7.30" />
+
+
+<animation id="key_8_plant_80" type="basicScale|scaleTo:0.15" object="plant_8"  startTime="18.50" endTime="19.80" />
+<animation id="key_0_plant_81" type="basicScale|scaleTo:0.090" object="plant_8"  startTime="19.80" endTime="20.50" />
+<animation id="key_1_plant_82" type="basicScale|scaleTo:0.120" object="plant_8"  startTime="20.50" endTime="21.30" />
+
+
+	
+<animation id="key_3_notebook_90" type="basicScale|scaleTo:0.200" object="notebook_9"  startTime="3.30" endTime="3.60" />
+<animation id="key_8_notebook_91" type="basicScale|scaleTo:0.120" object="notebook_9"  startTime="3.60" endTime="3.70" />
+<animation id="key_1_notebook_92" type="basicScale|scaleTo:0.120" object="notebook_9"  startTime="3.70" endTime="3.70" />
+<animation id="key_1_notebook_93" type="basicScale|scaleTo:0.140" object="notebook_9"  startTime="3.70" endTime="123.30" />
+
+<animation id="key_8_lightbulb_100" type="basicScale|scaleTo:0.200" object="lightbulb_10"  startTime="3.70" endTime="4.00" />
+<animation id="key_4_lightbulb_101" type="basicScale|scaleTo:0.120" object="lightbulb_10"  startTime="4.00" endTime="4.10" />
+<animation id="key_3_lightbulb_102" type="basicScale|scaleTo:0.120" object="lightbulb_10"  startTime="4.10" endTime="4.10" />
+<animation id="key_4_lightbulb_103" type="basicScale|scaleTo:0.140" object="lightbulb_10"  startTime="4.10" endTime="123.70" />
+
+<animation id="key_4_bike_110" type="basicScale|scaleTo:0.220" object="bike_11"  startTime="4.10" endTime="4.40" />
+<animation id="key_7_bike_111" type="basicScale|scaleTo:0.180" object="bike_11"  startTime="4.40" endTime="4.50" />
+<animation id="key_5_bike_112" type="basicScale|scaleTo:0.180" object="bike_11"  startTime="4.50" endTime="4.50" />
+<animation id="key_7_bike_113" type="basicScale|scaleTo:0.200" object="bike_11"  startTime="4.50" endTime="124.10" />
+
+<animation id="key_1_monitor_120" type="basicScale|scaleTo:0.220" object="monitor_12"  startTime="4.50" endTime="4.80" />
+<animation id="key_0_monitor_121" type="basicScale|scaleTo:0.180" object="monitor_12"  startTime="4.80" endTime="4.90" />
+<animation id="key_6_monitor_122" type="basicScale|scaleTo:0.180" object="monitor_12"  startTime="4.90" endTime="4.90" />
+<animation id="key_2_monitor_123" type="basicScale|scaleTo:0.200" object="monitor_12"  startTime="4.90" endTime="124.50" />
+
+
+
+<animation id="disppear-scene" type="disappearFade" object="rect_0,rect_1,rect_2,rect_3,waterbottle_7,plant_8,notebook_9,lightbulb_10,bike_11,monitor_12" positionRelativeTo="scene" startTime="40" endTime="40" />
+
+
+
+ </igml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#E6E6E6" strokeWidth="0" action="link" editable="false"/>
+
+<object id="text1_1" type="image" src="graphics/design/composition/text_weitght/text1.svg" action="link" editable="false" />
+
+<object id="text2_2" type="image" src="graphics/design/composition/text_weitght/text2.svg" action="link" editable="false" />
+
+<object id="line_3" type="image" src="graphics/design/composition/text_weitght/line.svg" action="link" editable="false" />
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_text1_1" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="text1_1" positionStart="-1.288:0.526" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_text2_2" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="text2_2" positionStart="1.676:0.533" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_line_3" type="appearFade|scaleTo:0.006,0;opacity:1;anchorPoint:0.5,0.5" object="line_3" positionStart="0.476:0.538" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_2_bg_00" type="basicMove|ease:easeInOutSine;" object="bg_0" positionStart="0.500:2.000"  positionEnd="0.500:0.400"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_6_text1_10" type="basicMove|ease:easeInOutSine;" object="text1_1" positionStart="-1.288:0.526"  positionEnd="0.288:0.526"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+
+<animation id="key_3_text2_20" type="basicMove|ease:easeInOutSine;" object="text2_2" positionStart="1.676:0.533"  positionEnd="0.676:0.533"  positionRelativeTo="scene" startTime="0.80" endTime="1.80" />
+
+<animation id="key_1_line_30" type="basicScale|scaleTo:0.006,0.700;ease:easeInOutSine;" object="line_3"  startTime="0.50" endTime="1.20" />
+<animation id="key_3_line_31" type="basicScale|scaleTo:0.006,0.500;ease:easeInOutSine;" object="line_3"  startTime="1.20" endTime="1.50" />
+
+
+<animation id="disppear-typewriter" type="disappearFade" object="line_3,text2_2,text1_1,bg_0" positionRelativeTo="scene" startTime="14" endTime="14" />
+
+
+ </igml>

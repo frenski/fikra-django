@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Музиката за едни, и музиката за други" description="" author="Yane Frenski" date="05/03/2022">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg13.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/music/splash-vs-music.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/characters/real-people/raster/profile-picture-circle-beethoven.png" editable="true" description=""  />
+<object id="l_4" type="image" src="graphics/characters/real-people/raster/profile-picture-circle-mozart.png" editable="true" description=""  />
+<object id="l_5" type="image" src="graphics/characters/real-people/raster/profile-picture-circle-debussy.png" editable="true" description=""  />
+<object id="l_6" type="image" src="graphics/characters/real-people/raster/profile-picture-circle-postmalone.png" editable="true" description=""  />
+<object id="l_7" type="image" src="graphics/characters/real-people/raster/profile-picture-circle-cardi-b.png" editable="true" description=""  />
+<object id="l_8" type="image" src="graphics/characters/real-people/raster/profile-picture-circle-taylor-swift.png" editable="true" description=""  />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:-1.501" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:1.853;opacity:0;anchorPoint:0.5,0.5" object="l_1" positionStart="0.861:2.369" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.500:0.500" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.142:0.350" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.407:0.154" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.731:0.162" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="appear_l_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.287:0.814" startTime="0" endTime="0" description=" appearing order: 6" />
+<animation id="appear_l_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.606:0.831" startTime="0" endTime="0" description=" appearing order: 7" />
+<animation id="appear_l_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.861:0.653" startTime="0" endTime="0" description=" appearing order: 8" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.40" endTime="1.40" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.501" startTime="0.35" endTime="1.35" description="" />
+<animation id="rotateTo_l_1" type="basicRotate|angle:-30.168;revertAnchor:false;ease:linear;" object="l_1"  startTime="0" endTime="0" description="instant rotation of a layer after appear" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_1"  startTime="0.80" endTime="1.80" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_1" positionEnd="0.861:1.369" startTime="0.70" endTime="1.70" description="" />
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.406;ease:easeOutBounce;" object="l_2"  startTime="7.60" endTime="8.60" description="" />
+<animation id="s_0_0_l_3" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_3"  startTime="2.80" endTime="3.80" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_4"  startTime="3.60" endTime="4.60" description="" />
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_5"  startTime="4.40" endTime="5.40" description="" />
+<animation id="s_0_0_l_6" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_6"  startTime="5.20" endTime="6.20" description="" />
+<animation id="s_0_0_l_7" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_7"  startTime="6.00" endTime="7.00" description="" />
+<animation id="s_0_0_l_8" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_8"  startTime="6.80" endTime="7.80" description="" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8" positionRelativeTo="scene" startTime="10" endTime="11" />
+
+</igml>

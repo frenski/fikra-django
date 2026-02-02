@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,1" color="#4CB2F2" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#FF8B78" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="jar_5" type="image" src="graphics/general/enviroment/res_cons/checklist/jar.svg" action="link" editable="true" />
+
+
+
+<object id="folder_7" type="image" src="graphics/general/enviroment/res_cons/checklist/folder5.svg" action="link" editable="true" />
+
+<object id="folder_8" type="image" src="graphics/general/enviroment/res_cons/checklist/folder4.svg" action="link" editable="true" />
+
+<object id="folder_9" type="image" src="graphics/general/enviroment/res_cons/checklist/folder3.svg" action="link" editable="true" />
+
+<object id="folder_10" type="image" src="graphics/general/enviroment/res_cons/checklist/folder2.svg" action="link" editable="true" />
+
+<object id="folder_11" type="image" src="graphics/general/enviroment/res_cons/checklist/folder1.svg" action="link" editable="true" />
+
+<object id="list_12" type="image" src="graphics/general/enviroment/res_cons/checklist/list.svg" action="link" editable="true" />
+
+
+
+
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="-0.6:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_jar_5" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="jar_5" positionStart="0.164:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_folder_7" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_7" positionStart="0.74:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_8" type="appearFade|scaleTo:0.38;opacity:1;anchorPoint:0.5,0.5" object="folder_8" positionStart="0.69:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_9" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_9" positionStart="0.689:1.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_10" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_10" positionStart="0.672:1.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_folder_11" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="folder_11" positionStart="0.65:1.45" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_list_12" type="appearFade|scaleTo:0.33;opacity:1;anchorPoint:0.5,0.5" object="list_12" positionStart="0.617:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_5_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_4_rect_10" type="basicMove" object="rect_1" positionStart="0.500:1.500"  positionEnd="0.500:3.000"  positionRelativeTo="scene" startTime="14.70" endTime="15.00" />
+
+<animation id="key_0_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="-1.100:0.500"  positionEnd="-0.175:0.500"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_2_rect_30" type="basicMove" object="rect_3" positionStart="0.020:0.500"  positionEnd="0.100:0.500"  positionRelativeTo="scene" startTime="15.30" endTime="15.60" />
+<animation id="key_5_rect_31" type="basicMove" object="rect_3" positionStart="0.100:0.500"  positionEnd="-1.100:0.500"  positionRelativeTo="scene" startTime="15.60" endTime="16.00" />
+
+<animation id="key_1_jar_50" type="basicMove|ease:easeInOutSine;" object="jar_5" positionStart="0.164:1.400"  positionEnd="0.164:0.440"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_0_jar_51" type="basicMove|ease:easeInOutSine;" object="jar_5" positionStart="0.164:0.440"  positionEnd="0.164:0.500"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+
+
+
+<animation id="key_8_folder_70" type="basicMove|ease:easeInOutSine;" object="folder_7" positionStart="0.740:1.400"  positionEnd="0.740:0.392"  positionRelativeTo="scene" startTime="1.75" endTime="2.25" />
+<animation id="key_6_folder_71" type="basicMove|ease:easeInOutSine;" object="folder_7" positionStart="0.740:0.392"  positionEnd="0.740:0.500"  positionRelativeTo="scene" startTime="2.25" endTime="2.65" />
+
+<animation id="key_5_folder_80" type="basicMove|ease:easeInOutSine;" object="folder_8" positionStart="0.690:1.400"  positionEnd="0.690:0.392"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_3_folder_81" type="basicMove|ease:easeInOutSine;" object="folder_8" positionStart="0.690:0.392"  positionEnd="0.690:0.500"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+
+<animation id="key_8_folder_90" type="basicMove|ease:easeInOutSine;" object="folder_9" positionStart="0.689:1.450"  positionEnd="0.689:0.442"  positionRelativeTo="scene" startTime="1.65" endTime="2.15" />
+<animation id="key_8_folder_91" type="basicMove|ease:easeInOutSine;" object="folder_9" positionStart="0.689:0.442"  positionEnd="0.689:0.550"  positionRelativeTo="scene" startTime="2.15" endTime="2.55" />
+
+<animation id="key_6_folder_100" type="basicMove|ease:easeInOutSine;" object="folder_10" positionStart="0.672:1.450"  positionEnd="0.672:0.442"  positionRelativeTo="scene" startTime="1.60" endTime="2.10" />
+<animation id="key_4_folder_101" type="basicMove|ease:easeInOutSine;" object="folder_10" positionStart="0.672:0.442"  positionEnd="0.672:0.550"  positionRelativeTo="scene" startTime="2.10" endTime="2.50" />
+
+<animation id="key_1_folder_110" type="basicMove|ease:easeInOutSine;" object="folder_11" positionStart="0.650:1.450"  positionEnd="0.650:0.442"  positionRelativeTo="scene" startTime="1.55" endTime="2.05" />
+<animation id="key_3_folder_111" type="basicMove|ease:easeInOutSine;" object="folder_11" positionStart="0.650:0.442"  positionEnd="0.650:0.550"  positionRelativeTo="scene" startTime="2.05" endTime="2.45" />
+
+<animation id="key_6_list_120" type="basicMove|ease:easeInOutSine;" object="list_12" positionStart="0.617:1.400"  positionEnd="0.617:0.392"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_8_list_121" type="basicMove|ease:easeInOutSine;" object="list_12" positionStart="0.617:0.392"  positionEnd="0.617:0.500"  positionRelativeTo="scene" startTime="2.00" endTime="2.40" />
+
+
+
+
+
+
+ </igml>

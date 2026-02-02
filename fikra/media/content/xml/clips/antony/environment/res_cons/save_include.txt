@@ -1,0 +1,7 @@
+audio:audio/vo/environment/res_cons_water_pol.mp3
+
+start at  0:300
+
+xml/clips/environment/res_cons/
+
+tshirt:0-1.33,linear_system:23-1,planet:31-1,middleclass:60-1,area_chart:68-1,planetcough:74-0.8,tonsofjunk:83-1,market:106-2,worth:126-1,water_junk:138-1,batteryshirt:148-1.4,jarwheel:163-2,checklist:192-1.4,awareofnature:203-1.2,presentation1:213-0.8,presentation2:223-1.1,recycle:224-1.2,localstore:232-1,foodplan:246-1,quatr_items:252-1.4,six_items:266-1

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#1D1538">
+
+	<style src="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" external="true" />
+
+	<!-- OBJECTS -->
+	<object id="bg" type="image" src="graphics/design/interactions/color/intcol1/bg.svg" />
+	<object id="colcircle" type="image" src="graphics/design/interactions/color/intcol1/wheel.svg" />
+	<object id="dragcircle1" type="image" src="graphics/design/interactions/color/intcol1/controller.svg" />
+	<object id="watermark_1" type="image" src="graphics/design/interactions/color/intcol1/watermark.svg" />
+	<object id="indiccircle1" type="shape" shapetype="circle" size="0.3" color="#C45F1A" stroke="#FFFFFF" strokeWidth="80" />
+	<object id="indiccircle2" type="shape" shapetype="circle" size="0.3" color="#FF0000" stroke="#FFFFFF" strokeWidth="80" />
+  <object id="indiccircle3" type="shape" shapetype="circle" size="0.3" color="#116C99" stroke="#FFFFFF" strokeWidth="80" />
+
+  <object id="title-text" type="text" text="Find the complementary colour:" size="20" align="center" color="#ffffff" font="Open Sans" wordWrap="true" wordWrapWidth="0.8" weight="300" />
+
+  <object id="textscore" type="text" text="  0" size="30" align="right" color="#FFFFFF" width="20" font="Open Sans" weight="300" />
+  <object id="textscore-ext" type="text" text="/100" size="30" align="right" color="#BDBDF4" width="20" font="Open Sans" weight="300" />
+
+  <object id="textbut-compare" type="text" text="Ready" size="20" align="center" color="#6966F3" width="20" font="Open Sans" weight="300" />
+  <object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#ffffff" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+
+
+	<!-- VARIABLES -->
+	<variable id="tk_pos" type="array" default="[0,0]" />
+	<variable id="tk_score" type="int" default="0" />
+	<variable id="ind_circle_fill1" type="array" default="['hsl',0,70,50]" reference="indiccircle2.fill" />
+  <variable id="sat_selected" type="float" default="0" />
+  <variable id="sat_oposite" type="float" default="24" />
+	<variable id="sat_match" type="expression" default="" expression="100 - round(abs(180 - abs({{sat_selected}} - {{sat_oposite}}))/1.8)" />
+
+	<!-- ANIMATIONS -->
+
+		
+		
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+<animation id="appear_watermark_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_1" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+	<animation id="appear-iconexercise2" type="basicMove|ease:easeOutElastic" object="icon-exercise" startTime="0" endTime="1" positionStart="-0.1:-0.1" positionEnd="0:0" positionRelativeTo="scene" />
+
+  <animation id="titleappear" type="appearFromSide|direction:ttb;elastic:false;anchorPoint:0.5,0.5" object="title-text" startTime="1" endTime="2" positionStart="0.5:0.12" positionEnd="0.5:0.12" positionRelativeTo="scene" />
+
+  <animation id="appear-colcircle" type="appearBackRotate|scaleTo:0.36;rotations:3" object="colcircle" startTime="2" endTime="3" positionStart="0.35:0.55" positionEnd="0.35:0.55" positionRelativeTo="scene" />
+
+	<animation id="appear-dragcircle1" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.05" object="dragcircle1" startTime="3" endTime="4" positionStart="0.35:0.82" positionEnd="0.35:0.82" positionRelativeTo="scene" />
+
+	<animation id="appear-indiccircle1" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.1" object="indiccircle1" startTime="2" endTime="3" positionStart="0.62:0.33" positionEnd="0.62:0.33" positionRelativeTo="scene" />
+
+  <animation id="appear-indiccircle2" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.1" object="indiccircle2" startTime="2" endTime="3" positionStart="0.75:0.33" positionEnd="0.75:0.33" positionRelativeTo="scene" />
+
+  <animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="3" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+  <animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="3" endTime="4" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+  <animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.68:0.75" positionEnd="0.68:0.75" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+  <animation id="appear-indiccircle3" type="appearFade|anchorPoint:0.5,0.5;scaleTo:0.1" object="indiccircle3" startTime="4.5" endTime="5.5" positionStart="0.75:0.33" positionEnd="0.75:0.33" positionRelativeTo="scene" />
+
+  <animation id="appear-indiccircle3" type="basicMove" object="indiccircle3" startTime="4.5" endTime="5.5" positionStart="0.75:0.33" positionEnd="0.878:0.33" positionRelativeTo="scene" />
+
+  <animation id="disappear-button-compare" type="disappearFade" object="button-compare" startTime="4.1" endTime="4.8" positionRelativeTo="scene" />
+
+  <animation id="appear-score" type="appearFade|anchorPoint:1,0" object="textscore" positionStart="0.73:0.5" positionEnd="0.73:0.5" positionRelativeTo="scene" startTime="5.5" endTime="6" />
+  <animation id="appear-score-ext" type="appearFade|anchorPoint:0,0" object="textscore-ext" positionStart="0.73:0.5" positionEnd="0.73:0.5" positionRelativeTo="scene" startTime="5.5" endTime="6" />
+<animation id="key_5_watermark_10" type="basicMove|ease:easeOutQuad;" object="watermark_1" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+  <animation id="scorechange" type="textCounterBasic|start:0;end:{{sat_match}};valtype:int" object="textscore" startTime="6" endTime="6.5" positionRelativeTo="scene" />
+
+
+	<!-- INTERACTIONS -->
+
+	<interaction id="enable-drag" type="enableDrag" subtype="basic|tint:AF00AF;limit:pathCircle,0.3,0.35,0.55" objects="dragcircle1" startTime="4" endTime="4.5" actions="onDragMove:setVar:['ind_circle_fill1','drag_param','angle',1]||onDragEnd:setVar:['sat_selected','drag_param','angle']" />
+
+  <interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="backbut-compare" startTime="4" endTime="4.5" actions="onClick:play" />
+
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="4" />
+
+
+</igml>

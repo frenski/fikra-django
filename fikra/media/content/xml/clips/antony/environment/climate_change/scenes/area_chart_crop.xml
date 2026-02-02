@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#682A53">
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,1" color="#2E1059" strokeWidth="0" action="link" editable="true"/>
+
+	<!-- OBJECTS -->
+	<object id="areachart-data-viz" type="data-viz" color="#9792F7,#7001DD" strokeWidth="0.01" dotRadius="0.01" data="[['levels','350000','300000','250000','200000','150000','100000','50000','1950','0'],['Demand of using the planet’s resources',1.8,3,2.4,2.6,2.2,2.8,1.8,4.2]]" font="Lato" fontColor="#ffffff" sourceInfo="Source: UNEP" action="link:"/>
+	
+	<!-- ANIMATIONS -->
+	
+	<!-- backgrounds -->
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+	<animation id="show-chart1" type="showChartArea|scaleTo:0.75;anchorPoint:0.5,0.5;animOverlap:0.6;addDots:true" object="areachart-data-viz" positionStart="center:center" positionEnd="center:center"  positionRelativeTo="scene" startTime="0" endTime="6" />
+
+
+<object id="txt_16" type="text" text="CARBON DIOXIDE LEVELS"  size="155" align = "center" weight="900" color="#ffffff" width="55" font="Montserrat" wordWrap="false" wordWrapWidth="0" />
+
+<animation id="key_2_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+
+<animation id="appear_txt_15" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="txt_16" positionStart="0.5:0.10" positionRelativeTo="scene" startTime="2" endTime="3" />
+<animation id="key_1_txt_150" type="basicScale|scaleTo:0.8" object="txt_16"  startTime="3.00" endTime="3.40" />
+<animation id="key_8_txt_151" type="basicScale|scaleTo:0.700" object="txt_16"  startTime="3.40" endTime="3.80" />
+<animation id="key_0_txt_152" type="basicScale|scaleTo:0.700" object="txt_16"  startTime="3.80" endTime="3.90" />
+
+
+
+ <animation id="disppear-compcover" type="disappearFade" object="txt_16,rect_1,areachart-data-viz" positionRelativeTo="scene" startTime="9" endTime="9" />
+
+
+</igml>

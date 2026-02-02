@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#333333" title="USA Demographics: Religion">
+
+	<!-- OBJECTS -->
+	<object id="piechart-data-viz" type="data-viz" color="#FFFFFF,#F4B21F,#5F0BB1,#24c1a9,#f442d7,#8cd153,#ddc64f,#db4a78,#dba04a" colorDir="col" strokeWidth="0.01" dotRadius="0.01" data="[['Religion','Protestant','Roman Catholic','No religion','Judaism','Buddhism','Hinduism','Islam','Mormon'],['',1523,1241,1180,450,321,320,161,159]]" font="Lato" fontColor="#ffffff" sourceInfo="Source: USAGov" action="link:"/>
+	
+	<!-- ANIMATIONS -->
+	
+	<!-- backgrounds -->
+
+	<animation id="show-chart1" type="showChartPie|scaleTo:0.75;anchorPoint:0.5,0.5;animOverlap:0.3;startAngle:-90" object="piechart-data-viz" positionStart="center:center" positionEnd="center:center" backgroundTransition="backgroundExpandTop|cover:all" backgroundColor="#002841" positionRelativeTo="scene" startTime="0" endTime="12" />
+
+	<animation id="scale-chart1" type="basicScale|scaleTo:0.8;ease:easeOutExpo" object="piechart-data-viz" positionStart="center:center" positionEnd="center-center" positionRelativeTo="scene" startTime="12" endTime="12.5" />
+
+	<animation id="scale-chart2" type="basicScale|scaleTo:0;ease:easeOutExpo" object="piechart-data-viz" positionStart="center:center" positionEnd="center-center" positionRelativeTo="scene" startTime="12.4" endTime="12.8" />
+	
+	<animation id="alpha-chart2" type="basicOpacity|toOpacity:0" object="piechart-data-viz" positionStart="center:center" positionEnd="center-center" positionRelativeTo="scene" startTime="12" endTime="12.5" />
+
+</igml>

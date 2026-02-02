@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+<object id="panels1_1" type="image" src="graphics/design/composition/comp/panels1.svg" action="link" editable="false" />
+
+<object id="panels2_2" type="image" src="graphics/design/composition/comp/panels2.svg" action="link" editable="false" />
+
+<object id="panels3_3" type="image" src="graphics/design/composition/comp/panels3.svg" action="link" editable="false" />
+
+<object id="panels4_4" type="image" src="graphics/design/composition/comp/panels4.svg" action="link" editable="false" />
+
+<object id="panels5_5" type="image" src="graphics/design/composition/comp/panels5.svg" action="link" editable="false" />
+
+<object id="panels6_6" type="image" src="graphics/design/composition/comp/panels6.svg" action="link" editable="false" />
+
+<object id="inlinepan2_7" type="image" src="graphics/design/composition/comp/inlinepan2.svg" action="link" editable="false" />
+
+<object id="inlinepan1_8" type="image" src="graphics/design/composition/comp/inlinepan1.svg" action="link" editable="false" />
+
+<object id="inlinepan3_9" type="image" src="graphics/design/composition/comp/inlinepan3.svg" action="link" editable="false" />
+
+<object id="inlinepan3_10" type="image" src="graphics/design/composition/comp/inlinepan3.svg" action="link" editable="false" />
+
+<object id="inlinepan3_11" type="image" src="graphics/design/composition/comp/inlinepan3.svg" action="link" editable="false" />
+
+<object id="inlinepan4_12" type="image" src="graphics/design/composition/comp/inlinepan4.svg" action="link" editable="false" />
+
+
+<animation id="appear_panels1_1" type="appearFade|scaleTo:0.455;opacity:1;anchorPoint:0.5,0.5" object="panels1_1" positionStart="0.492:-0.23" positionRelativeTo="scene" startTime="1" endTime="1" />
+
+<animation id="appear_panels2_2" type="appearFade|scaleTo:0.145;opacity:1;anchorPoint:0.5,0.5" object="panels2_2" positionStart="-0.16:0.44" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_panels3_3" type="appearFade|scaleTo:0.30;opacity:1;anchorPoint:0.5,0.5" object="panels3_3" positionStart="1.370:0.44" positionRelativeTo="scene" startTime="0.2" endTime="0.2" />
+
+<animation id="appear_panels4_4" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="panels4_4" positionStart="0.34:1.19" positionRelativeTo="scene" startTime="0.4" endTime="0.4" />
+
+<animation id="appear_panels5_5" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="panels5_5" positionStart="0.50:1.19" positionRelativeTo="scene" startTime="0.6" endTime="0.6" />
+
+<animation id="appear_panels6_6" type="appearFade|scaleTo:0.14;opacity:1;anchorPoint:0.5,0.5" object="panels6_6" positionStart="0.65:1.19" positionRelativeTo="scene" startTime="0.8" endTime="0.8" />
+
+<animation id="appear_inlinepan2_7" type="appearFade|scaleTo:0.13;opacity:1;anchorPoint:0.5,0.5" object="inlinepan2_7" positionStart="1.31:0.44" positionRelativeTo="scene" startTime="0.2" endTime="0.2" />
+
+<animation id="appear_inlinepan1_8" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="inlinepan1_8" positionStart="1.14:0.48" positionRelativeTo="scene" startTime="0.2" endTime="0.2" />
+
+<animation id="appear_inlinepan3_9" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="inlinepan3_9" positionStart="0.65:1.19" positionRelativeTo="scene" startTime="0.8" endTime="0.8" />
+
+<animation id="appear_inlinepan3_10" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="inlinepan3_10" positionStart="0.34:1.19" positionRelativeTo="scene" startTime="0.4" endTime="0.4" />
+
+<animation id="appear_inlinepan3_11" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="inlinepan3_11" positionStart="0.50:1.19" positionRelativeTo="scene" startTime="0.6" endTime="0.6" />
+
+<animation id="appear_inlinepan4_12" type="appearFade|scaleTo:0.123;opacity:1;anchorPoint:0.5,0.5" object="inlinepan4_12" positionStart="-0.16:0.43" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+<animation id="key_8_panels1_10" type="basicMove|ease:easeOutExpo;" object="panels1_1" positionStart="0.492:-0.230"  positionEnd="0.492:0.270"  positionRelativeTo="scene" startTime="3.00" endTime="4.30" />
+
+<animation id="key_8_panels2_20" type="basicMove|ease:easeOutExpo;" object="panels2_2" positionStart="-0.160:0.440"  positionEnd="0.340:0.440"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+<animation id="key_4_panels3_30" type="basicMove|ease:easeOutExpo;" object="panels3_3" positionStart="1.370:0.440"  positionEnd="0.570:0.440"  positionRelativeTo="scene" startTime="2.20" endTime="3.20" />
+
+<animation id="key_1_panels4_40" type="basicMove|ease:easeOutExpo;" object="panels4_4" positionStart="0.340:1.190"  positionEnd="0.340:0.690"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+
+<animation id="key_7_panels5_50" type="basicMove|ease:easeOutExpo;" object="panels5_5" positionStart="0.500:1.190"  positionEnd="0.500:0.690"  positionRelativeTo="scene" startTime="2.60" endTime="3.60" />
+
+<animation id="key_4_panels6_60" type="basicMove|ease:easeOutExpo;" object="panels6_6" positionStart="0.650:1.190"  positionEnd="0.650:0.690"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+<animation id="key_6_inlinepan2_70" type="basicMove|ease:easeOutExpo;" object="inlinepan2_7" positionStart="1.310:0.440"  positionEnd="0.510:0.440"  positionRelativeTo="scene" startTime="2.20" endTime="3.20" />
+
+<animation id="key_3_inlinepan1_80" type="basicMove|ease:easeOutExpo;" object="inlinepan1_8" positionStart="1.140:0.480"  positionEnd="0.640:0.480"  positionRelativeTo="scene" startTime="2.20" endTime="3.20" />
+
+<animation id="key_1_inlinepan3_90" type="basicMove|ease:easeOutExpo;" object="inlinepan3_9" positionStart="0.650:1.190"  positionEnd="0.650:0.690"  positionRelativeTo="scene" startTime="2.80" endTime="3.80" />
+
+<animation id="key_1_inlinepan3_100" type="basicMove|ease:easeOutExpo;" object="inlinepan3_10" positionStart="0.340:1.190"  positionEnd="0.340:0.690"  positionRelativeTo="scene" startTime="2.40" endTime="3.40" />
+
+<animation id="key_3_inlinepan3_110" type="basicMove|ease:easeOutExpo;" object="inlinepan3_11" positionStart="0.500:1.190"  positionEnd="0.500:0.690"  positionRelativeTo="scene" startTime="2.60" endTime="3.60" />
+
+<animation id="key_4_inlinepan4_120" type="basicMove|ease:easeOutExpo;" object="inlinepan4_12" positionStart="-0.160:0.430"  positionEnd="0.340:0.430"  positionRelativeTo="scene" startTime="2.00" endTime="3.00" />
+
+
+
+	<animation id="disppear-typewriter" type="disappearFade" object="inlinepan4_12,inlinepan3_11,inlinepan3_10,inlinepan3_9,inlinepan1_8,inlinepan2_7,panels6_6,panels5_5,panels4_4,panels3_3,panels2_2,panels1_1,bg_0" positionRelativeTo="scene" startTime="15" endTime="15" />
+
+
+
+
+ </igml>

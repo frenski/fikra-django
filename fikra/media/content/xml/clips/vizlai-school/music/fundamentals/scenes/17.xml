@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Защо този тон?" description="" author="Yane Frenski" date="05/03/2022">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg14.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/design-components/text-ballons/comic-bubble.svg" editable="true" description=""  />
+<object id="l_2" type="image" src="graphics/education/vizlai-school/generic/question-cartoon.svg" editable="true" description=""  />
+<object id="l_3" type="text" text="100 " size="60" width="100" align = "center" color="#ffffff"  font="Open Sans" wordWrap="false"  wordWrapWidth="" weight="0" editable="true" description="" />
+<object id="l_4" type="image" src="graphics/music/symbols/musical-note1.svg" editable="true" description=""  />
+<object id="l_5" type="image" src="graphics/music/symbols/musical-note4.svg" editable="true" description=""  />
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.444:0.446" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.294:0.444" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.518:0.517" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.536:0.403" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.480:0.426" startTime="0" endTime="0" description=" appearing order: 5" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.25" endTime="1.25" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description="" />
+<animation id="s_0_0_l_1" type="basicScale|scaleTo:0.754;ease:easeOutBounce;" object="l_1"  startTime="1.40" endTime="2.40" description="" />
+<animation id="s_0_0_l_2" type="basicScale|scaleTo:0.207;ease:easeOutBounce;" object="l_2"  startTime="1.60" endTime="2.60" description="" />
+<animation id="s_0_0_l_3" type="basicScale|scaleTo:0.230;ease:easeOutBounce;" object="l_3"  startTime="1.80" endTime="2.80" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.026;ease:easeOutBounce;" object="l_4"  startTime="2.00" endTime="3.00" description="" />
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.050;ease:easeOutBounce;" object="l_5"  startTime="2.20" endTime="3.20" description="" />
+
+<animation id="sinewave_x_ok_sign" type="waveScale|loops:2;axis:x;returnToStart:true;scaleTo:0.02" object="l_2"  positionRelativeTo="scene" startTime="3.5" endTime="7" />
+<animation id="sinewave_y_ok_sign" type="waveScale|loops:2;axis:y;returnToStart:true;scaleTo:0.02" object="l_2"  positionRelativeTo="scene" startTime="3.5" endTime="7" />
+
+
+<animation id="disappear_all" type="disappearToCenter" object="l_1,l_2,l_3,l_4,l_5"  startTime="6" endTime="7" description="" />
+
+<animation id="disappear_0" type="disappearFade|cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5"  startTime="7" endTime="9" description="" />
+
+</igml>

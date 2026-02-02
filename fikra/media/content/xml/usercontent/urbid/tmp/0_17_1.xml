@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+
+<!-- <include id="s1" src="xml/clips/vizlai-school/math/negative-multiplication/8.xml" startTime="3" duration="1" /> -->
+
+<object id="l_0" type="shape" shapetype="rect" size="1,1" color="#EEEEF4" strokeWidth="0" action="link:"/>
+
+<object id="question_statement" type="text" text="What is it to join a group that works for the community?" size="48" align="center" color="#000000" width="500" font="MontBlanc-Regular" wordWrap="true" wordWrapWidth="1.2" weight="0" editable="true"/>
+
+<object id="l_5" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""/>
+<object id="l_6" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""/>
+<object id="l_7" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""/>
+<object id="l_8" type="image" src="graphics/education/vizlai-school/generic/multi-choice-block.svg" editable="true" description=""/>
+
+<object id="answer1" type="text" text="    Concept   " size="40" align="center" color="#000000" width="20" font="MontBlanc-Regular" weight="300" hitArea="false"/>
+<object id="answer2" type="text" text="       1      " size="40" align="center" color="#000000" weight="20" font="MontBlanc-Regular" hitArea="false"/>
+<object id="answer3" type="text" text="     What     " size="40" align="center" color="#000000" width="20" font="MontBlanc-Regular" weight="300" hitArea="false"/>
+<object id="answer4" type="text" text="Just Something" size="40" align="center" color="#000000" width="20" font="MontBlanc-Regular" weight="300" hitArea="false"/>
+
+<object id="l_feedback" type="text" text="Wrong" size="120" align="center" color="#000000" width="40" font="MontBlanc-Regular" weight="700"/>
+
+<variable id="correct" type="int" default="1"/>
+<variable id="feedback" type="string" default="Wrong" reference="l_feedback.text" resetReplayParams="true"/>
+<variable id="feedback_wrong" type="string" default="Wrong" resetReplayParams="true"/>
+<variable id="feedback_correct" type="string" default="Correct" resetReplayParams="true"/>
+
+<variable id="wrong_scale_to" type="float" default="0" resetReplayParams="true"/>
+<variable id="correct_scale_to" type="float" default="0.5" resetReplayParams="true"/>
+
+<variable id="an_scale_to1" type="expression" expression="({{correct}}==0) ? {{correct_scale_to}}:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="an_scale_to2" type="expression" expression="({{correct}}==1) ? {{correct_scale_to}}:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="an_scale_to3" type="expression" expression="({{correct}}==2) ? {{correct_scale_to}}:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="an_scale_to4" type="expression" expression="({{correct}}==3) ? {{correct_scale_to}}:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="antext_scale_to1" type="expression" expression="({{correct}}==0) ? {{correct_scale_to}}*0.65:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="antext_scale_to2" type="expression" expression="({{correct}}==1) ? {{correct_scale_to}}*0.65:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="antext_scale_to3" type="expression" expression="({{correct}}==2) ? {{correct_scale_to}}*0.65:{{wrong_scale_to}}" resetReplayParams="true"/>
+<variable id="antext_scale_to4" type="expression" expression="({{correct}}==3) ? {{correct_scale_to}}*0.65:{{wrong_scale_to}}" resetReplayParams="true"/>
+
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_question_statement" type="appearFade|scaleTo:0.75;opacity:0;anchorPoint:0.5,0.5" object="question_statement" positionStart="0.500:0.25" startTime="0" endTime="0" description=" appearing order: 3"/>
+
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.290:0.550" startTime="0" endTime="0" description=" appearing order: 5"/>
+<animation id="appear_answer1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="answer1" positionStart="0.290:0.525" startTime="0" endTime="0" description=" appearing order: 5"/>
+<animation id="appear_l_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_6" positionStart="0.713:0.550" startTime="0" endTime="0" description=" appearing order: 6"/>
+<animation id="appear_answer2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="answer2" positionStart="0.713:0.525" startTime="0" endTime="0" description=" appearing order: 6"/>
+<animation id="appear_l_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_7" positionStart="0.290:0.691" startTime="0" endTime="0" description=" appearing order: 7"/>
+<animation id="appear_answer3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="answer3" positionStart="0.290:0.68" startTime="0" endTime="0" description=" appearing order: 7"/>
+<animation id="appear_l_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_8" positionStart="0.712:0.691" startTime="0" endTime="0" description=" appearing order: 8"/>
+<animation id="appear_answer4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="answer4" positionStart="0.712:0.68" startTime="0" endTime="0" description=" appearing order: 8"/>
+<animation id="appear_l_bar_back" type="appearFade|scaleTo:0.0;opacity:1;anchorPoint:0,0.5" object="l_bar_back" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="appear_l_bar" type="appearFade|scaleTo:0.0,0.05;opacity:1;anchorPoint:0,0.5" object="l_bar" positionStart="0.47:0.098" startTime="0" endTime="0" description=" appearing order: 9"/>
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description=""/>
+<animation id="o_0_0_question_statement" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="question_statement" startTime="1.70" endTime="3.13" description=""/>
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.365;ease:easeOutBounce;" object="l_5" startTime="2.20" endTime="3.20" description=""/>
+<animation id="s_0_0_answer1" type="basicScale|scaleTo:0.2;ease:easeOutBounce;" object="answer1" startTime="2.20" endTime="3.20" description=""/>
+<animation id="s_0_0_l_6" type="basicScale|scaleTo:0.369;ease:easeOutBounce;" object="l_6" startTime="2.60" endTime="3.60" description=""/>
+<animation id="s_0_0_answer2" type="basicScale|scaleTo:0.2;ease:easeOutBounce;" object="answer2" startTime="2.60" endTime="3.60" description=""/>
+<animation id="s_0_0_l_7" type="basicScale|scaleTo:0.365;ease:easeOutBounce;" object="l_7" startTime="3.00" endTime="4.00" description=""/>
+<animation id="s_0_0_answer3" type="basicScale|scaleTo:0.2;ease:easeOutBounce;" object="answer3" startTime="3.00" endTime="4.00" description=""/>
+<animation id="s_0_0_l_8" type="basicScale|scaleTo:0.365;ease:easeOutBounce;" object="l_8" startTime="3.40" endTime="4.40" description=""/>
+<animation id="s_0_0_answer4" type="basicScale|scaleTo:0.2;ease:easeOutBounce;" object="answer4" startTime="3.40" endTime="4.40" description=""/>
+
+<animation id="l_feedback_appear" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_feedback" positionStart="0.500:0.5" startTime="5.6" endTime="6.1" description=" appearing order: 0"/>
+<animation id="l_feedback_scale" type="basicScale|scaleTo:0.5;ease:easeOutBounce" object="l_feedback" startTime="5.6" endTime="6.6" description="show appear with bounce"/>
+<animation id="l_feedback_disappear1" type="basicScale|scaleTo:0.1;ease:easeInExpo" object="l_feedback" startTime="8" endTime="9" description="diappear with scale"/>
+<animation id="l_feedback_disappear2" type="basicOpacity|opacity:0;" object="l_feedback" startTime="8" endTime="9" description="diappear with opacity"/>
+
+<animation id="s_0_0_a1" type="basicScale|scaleTo:{{an_scale_to1}};ease:easeOutBounce;" object="l_5" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_a2" type="basicScale|scaleTo:{{an_scale_to2}};ease:easeOutBounce;" object="l_6" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_a3" type="basicScale|scaleTo:{{an_scale_to3}};ease:easeOutBounce;" object="l_7" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_a4" type="basicScale|scaleTo:{{an_scale_to4}};ease:easeOutBounce;" object="l_8" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_at1" type="basicScale|scaleTo:{{antext_scale_to1}};ease:easeOutBounce;" object="answer1" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_at2" type="basicScale|scaleTo:{{antext_scale_to2}};ease:easeOutBounce;" object="answer2" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_at3" type="basicScale|scaleTo:{{antext_scale_to3}};ease:easeOutBounce;" object="answer3" startTime="9" endTime="10" description=""/>
+<animation id="s_0_0_at4" type="basicScale|scaleTo:{{antext_scale_to4}};ease:easeOutBounce;" object="answer4" startTime="9" endTime="10" description=""/>
+
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,question_statement,l_5,l_6,l_7,l_8,answer4,answer3,answer2,answer1" positionRelativeTo="scene" startTime="15" endTime="16"/>
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="5.5" endTime="onUserEvent"/>
+
+<interaction id="ready-click1" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_5" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','({{correct}}==0) ? {{feedback_correct}}:{{feedback_wrong}}']||setVar::['an_scale_to1','expression','({{correct}}==0) ? {{correct_scale_to}}:{{wrong_scale_to}}']"/>
+
+<interaction id="ready-click2" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_6" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','({{correct}}==1) ? {{feedback_correct}}:{{feedback_wrong}}']||setVar::['an_scale_to2','expression','({{correct}}==1) ? {{correct_scale_to}}:{{wrong_scale_to}}']"/>
+
+<interaction id="ready-click3" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_7" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','({{correct}}==2) ? {{feedback_correct}}:{{feedback_wrong}}']||setVar::['an_scale_to3','expression','({{correct}}==2) ? {{correct_scale_to}}:{{wrong_scale_to}}']"/>
+
+<interaction id="ready-click4" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="l_8" startTime="5.4" endTime="5.6" actions="onClick::play||setVar::['feedback','expression','({{correct}}==3) ? {{feedback_correct}}:{{feedback_wrong}}']||setVar::['an_scale_to4','expression','({{correct}}==3) ? {{correct_scale_to}}:{{wrong_scale_to}}']"/>
+
+
+</igml>

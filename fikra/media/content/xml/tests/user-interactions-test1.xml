@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#00ff00
+">
+
+	<!-- OBJECTS -->
+
+	<!-- body -->
+	<object id="body" type="image" src="graphics/general/characters/CONQUIST_Pixi/body.svg" action="link" editable="false" />
+	<object id="torso" type="image" src="graphics/general/characters/CONQUIST_Pixi/torso.svg" action="link" editable="false" />
+	<object id="sun" type="image" src="graphics/tests/sun-basic.svg" action="infoPopup" description="The Sun is the star at the center of the Solar System and is the main source of energy for life on Earth." descriptionLink="https://en.wikipedia.org/wiki/Sun" relatedNodes="the-sun-science" title="The Sun" subtitle="Star" graphCategory="astronomy"/>
+
+	<!-- head -->
+    <object id="head" type="image" src="graphics/general/characters/CONQUIST_Pixi/head.svg" action="link" editable="false" />
+    <object id="eye-r" type="image" src="graphics/general/characters/CONQUIST_Pixi/eye.svg" action="link" editable="false" />
+    <object id="eye-l" type="image" src="graphics/general/characters/CONQUIST_Pixi/eye.svg" action="link" editable="false" />
+    <object id="eyebrow-r" type="image" src="graphics/general/characters/CONQUIST_Pixi/eyebrow.svg" action="link" editable="false" />
+    <object id="eyebrow-l" type="image" src="graphics/general/characters/CONQUIST_Pixi/eyebrow.svg" action="link" editable="false" />
+	<object id="hair" type="image" src="graphics/general/characters/CONQUIST_Pixi/hair.svg" action="link" editable="false" />
+	<object id="backhair" type="image" src="graphics/general/characters/CONQUIST_Pixi/backhair.svg" action="link" editable="false" />
+	<object id="nose" type="image" src="graphics/general/characters/CONQUIST_Pixi/nose.svg" action="link" editable="false" />
+	<object id="mouth" type="image" src="graphics/general/characters/CONQUIST_Pixi/basicMouth.svg" action="link" editable="false" />
+	<object id="hat" type="image" src="graphics/general/characters/CONQUIST_Pixi/helm.svg" action="link" editable="false" />
+	<object id="beard" type="image" src="graphics/general/characters/CONQUIST_Pixi/beard.svg" action="link" editable="false" />
+	<object id="mustache" type="image" src="graphics/general/characters/CONQUIST_Pixi/mustache.svg" action="link" editable="false" />
+
+
+	<!-- arms -->
+    <object id="arm-upper-r" type="image" src="graphics/general/characters/CONQUIST_Pixi/arm-upper.svg" action="link" editable="false" />
+    <object id="arm-lower-r" type="image" src="graphics/general/characters/CONQUIST_Pixi/arm-lower.svg" action="link" editable="false" />
+    <object id="hand-r" type="image" src="graphics/general/characters/CONQUIST_Pixi/handr.svg" action="link" editable="false" />
+    <object id="arm-upper-l" type="image" src="graphics/general/characters/CONQUIST_Pixi/arm-upper.svg" action="link" editable="false" />
+    <object id="arm-lower-l" type="image" src="graphics/general/characters/CONQUIST_Pixi/arm-lower.svg" action="link" editable="false" />
+    <object id="hand-l" type="image" src="graphics/general/characters/CONQUIST_Pixi/handl.svg" action="link" editable="false" />
+	<object id="characterscontroller-ar" type="shape" shapetype="circle" size="0.01" color="#7c204f" stroke="#000000" strokeWidth="0" action="link" editable="true" />
+	<object id="characterscontroller-al" type="shape" shapetype="circle" size="0.01" color="#d10054" stroke="#000000" strokeWidth="0" action="link" editable="true" />
+
+	<!-- legs -->
+	<object id="characterscontroller-l" type="shape" shapetype="circle" size="0.01" color="#b3ecec" stroke="#000000" strokeWidth="0" action="link" editable="true" opacity="0" />
+    <object id="leg-upper-l" type="image" src="graphics/general/characters/CORTES_PIXI/leg-upper.svg" action="link" editable="false" />
+    <object id="leg-lower-l" type="image" src="graphics/general/characters/CORTES_PIXI/leg-lower.svg" action="link" editable="false" />
+    <object id="foot-l" type="image" src="graphics/general/characters/CORTES_PIXI/foot.svg" action="link" editable="false" />
+    <object id="characterscontroller-r" type="shape" shapetype="circle" size="0.01" color="#7c204f" stroke="#000000" strokeWidth="0" action="link" editable="true" />
+	<object id="leg-upper-r" type="image" src="graphics/general/characters/CORTES_PIXI/leg-upper.svg" action="link" editable="false" />
+    <object id="leg-lower-r" type="image" src="graphics/general/characters/CORTES_PIXI/leg-lower.svg" action="link" editable="false" />
+    <object id="foot-r" type="image" src="graphics/general/characters/CORTES_PIXI/foot.svg" action="link" editable="false" />
+
+	<!-- accessories -->
+	<object id="gun" type="image" src="graphics/general/characters/CORTES_PIXI/gun.svg" action="link" editable="false" />
+
+
+	<!-- CONTAINERS -->
+	<container id="fullBody" objects="upperBody,lowerBody" action="infoPopup" description="Hernán Cortés was a Spanish Conquistador who led an expedition that caused the fall of the Aztec Empire." descriptionLink="https://en.wikipedia.org/wiki/Hernán_Cortés" relatedNodes="hernan-cortes-general" title="Hernan Cortes" subtitle="1st and 3rd Governor of New Spain" graphCategory="person" />
+	<container id="upperBody" objects="arm-upper-r,arm-lower-r,hand-gun,characterscontroller-ar,arm-upper-l,arm-lower-l,hand-l,characterscontroller-al,body,fullHead" anchorRoot="body" action="link"/>
+	<container id="fullHead" anchorRoot="head" objects="head,nose,backhair,hair,mustache,beard,eye-r,eye-l,eyebrow-r,eyebrow-l,mouth,hat" action="link"/>
+	<container id="lowerBody" objects="torso,characterscontroller-r,characterscontroller-l,leg-lower-r,leg-upper-r,foot-r,leg-lower-l,leg-upper-l,foot-l" anchorRoot="torso" action="link"/>
+	<container id="hand-gun" objects="hand-r,gun" action="link"/>
+
+
+	<!-- ANIMATIONS -->
+
+	<!-- Adding environmental graphics to the stage -->
+	<animation id="sunappear" type="appearFade|scaleTo:0.1;opacity:0.8" object="sun" startTime="0.1" endTime="2" positionStart="0.9:0.1" positionEnd="center:center" positionRelativeTo="scene" />
+	<animation id="sunrotates" type="basicRotate|angle:720" object="sun" startTime="0.1" endTime="10" positionRelativeTo="scene" />
+
+	<!-- Adding to stage/containers -->
+
+	<animation id="appear-fullb" type="appearFade|anchorPoint:0.5,0.5" object="fullBody" positionStart="0.2:0.5" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <!-- master controller ^ object above ^ -->
+    <animation id="appear-upperb" type="appearFade" object="upperBody" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-lowerb" type="appearFade" object="lowerBody" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+	<animation id="appear-hand-gun" type="appearFade" object="hand-gun" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-all-r1" type="appearFade|scaleTo:0.017;anchorPoint:0,0" object="arm-upper-r" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-all-r2" type="appearFade|scaleTo:0.012;anchorPoint:0,0" object="arm-lower-r" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+<!--	<animation id="appear-gun" type="appearFade|scaleTo:0.02" object="gun" positionStart="0.02:0.03" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />-->
+	<animation id="appear-all-r2" type="appearFade|scaleTo:0.014;anchorPoint:0,0" object="hand-r" positionStart="0.02:0.02" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-body" type="appearFade|scaleTo:0.038;anchorPoint:0,0" object="body" positionStart="0.02:0" positionEnd="0.02:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+	    	<!-- head container-->
+	<animation id="appear-fullHead" type="appearFade|anchorPoint:0.5,0.5" object="fullHead" positionStart="0:0.028" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+        	<!-- head parts-->
+    <animation id="appear-backhair" type="appearFade|scaleTo:0.049;anchorPoint:0.5,0.5" object="backhair" positionStart="0.037:-0.068" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-head" type="appearFade|scaleTo:0.03;anchorPoint:0,0" object="head" positionStart="0.026:-0.10" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-hair" type="appearFade|scaleTo:0.034;anchorPoint:0,0" object="hair" positionStart="0.021:-0.108" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-eye-r" type="appearFade|scaleTo:0.003;anchorPoint:0,0" object="eye-r" positionStart="0.043:-0.0718" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-eye-l" type="appearFade|scaleTo:0.003;anchorPoint:0,0" object="eye-l" positionStart="0.052:-0.0718" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-eyebrow-r" type="appearFade|scaleTo:0.006;anchorPoint:0.5,0.5" object="eyebrow-r" positionStart="0.043:-0.0768" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-eyebrow-l" type="appearFade|scaleTo:-0.006;anchorPoint:0.5,0.5" object="eyebrow-l" positionStart="0.054:-0.0768" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-nose" type="appearFade|scaleTo:0.005;anchorPoint:0.5,0.5" object="nose" positionStart="0.051:-0.0579" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-mouth" type="appearFade|scaleTo:0.005;anchorPoint:0.5,0.5" object="mouth" positionStart="0.05:-0.0418" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-mustache" type="appearFade|scaleTo:0.015;anchorPoint:0.5,0.5" object="mustache" positionStart="0.05:-0.043" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-beard" type="appearFade|scaleTo:0.03;anchorPoint:0.5,1" object="beard" positionStart="0.041:0.000" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-hat" type="appearFade|scaleTo:0.063;anchorPoint:0.5,0" object="hat" positionStart="0.0275:-0.147" positionEnd="0:0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+	<animation id="appear-all-l1" type="appearFade|scaleTo:0.017;anchorPoint:0,0" object="arm-upper-l" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-all-l2" type="appearFade|scaleTo:0.012;anchorPoint:0,0" object="arm-lower-l" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-all-l2" type="appearFade|scaleTo:0.014;anchorPoint:0,0" object="hand-l" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-controller-al" type="appearFade|scaleTo:0.025;opacity:0.5" object="characterscontroller-al" positionStart="0.05:0.07" positionEnd="0.05:0.07" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-controller-ar" type="appearFade|scaleTo:0.025;opacity:0.5" object="characterscontroller-ar" positionStart="0.04:0.07" positionEnd="0.04:0.07" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-rdown1" type="appearFade|scaleTo:0.01" object="leg-lower-r" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-rup1" type="appearFade|scaleTo:0.016" object="leg-upper-r" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-all-r2" type="appearFade|scaleTo:0.015" object="foot-r" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-ldown1" type="appearFade|scaleTo:0.01" object="leg-lower-l" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-lup1" type="appearFade|scaleTo:0.016" object="leg-upper-l" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-all-l2" type="appearFade|scaleTo:0.015" object="foot-l" positionStart="0:0" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-controller-l" type="appearFade|scaleTo:0.025;opacity:0.5" object="characterscontroller-r" positionStart="0.05:0.16" positionEnd="0.05:0.16" positionRelativeTo="scene" startTime="0" endTime="0" />
+    <animation id="appear-controller-r" type="appearFade|scaleTo:0.025;opacity:0.5" object="characterscontroller-l" positionStart="0:0.16" positionEnd="0:0.16" positionRelativeTo="scene" startTime="0" endTime="0" />
+	<animation id="appear-torso" type="appearFade|scaleTo:0.043;anchorPoint:0,0" object="torso" positionStart="0.03:0.01" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+	<!-- Inverse kinematics -->
+	<animation id="characters-arm-r" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.5,0.1],[0.45,0.1],[0.5,0.1]];jointPoints:[[0.5,0.9],[1.5,0.55],[0.5,0.1],[0.1,-0.2]];clockwise:false" positionRelativeTo="scene" startTime="0.1" endTime="120" object="arm-upper-r,arm-lower-r,hand-r,body,characterscontroller-ar" />
+	<animation id="characters-arm-l" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.5,0.1],[0.45,0.1],[0.5,0.1]];jointPoints:[[0.5,0.9],[1.5,0.55],[0.5,0.1],[-0.1,-0.2]];clockwise:false" positionRelativeTo="scene" startTime="0.1" endTime="120" object="arm-upper-l,arm-lower-l,hand-l,body,characterscontroller-al" />
+
+
+
+
+
+
+	<animation id="characters-leg-l" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.5,0.1],[0.5,0.1],[0.28,1.7]];jointPoints:[[0.5,0.9],[1.0,1.3],[0.5,0.7],[-0.2,-0.1]];clockwise:true" positionRelativeTo="scene" startTime="0" endTime="120" object="leg-upper-r,leg-lower-r,foot-r,torso,characterscontroller-l" />
+    <animation id="characters-leg-r" type="inverseKinematics|controller:4;root:3;anchorPoints:[[0.5,0.1],[0.5,0.1],[0.28,1.7]];jointPoints:[[0.5,0.9],[1.0,1.3],[0.5,0.7],[-0.4,-0.1]];clockwise:true" positionRelativeTo="scene" startTime="0" endTime="120" object="leg-upper-l,leg-lower-l,foot-l,torso,characterscontroller-r" />
+
+<!-- Head rotate -->
+
+<animation id="rotate-head1" type="basicRotate|angle:10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="1" endTime="3" description="rotating head" />
+<animation id="rotate-head2" type="basicRotate|angle:-10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="3" endTime="5" description="rotating head" />
+<animation id="rotate-head3" type="basicRotate|angle:10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="5" endTime="7" description="rotating head" />
+<animation id="rotate-head4" type="basicRotate|angle:-10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="7" endTime="9" description="rotating head" />
+<animation id="rotate-head5" type="basicRotate|angle:10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="9" endTime="11" description="rotating head" />
+<animation id="rotate-head6" type="basicRotate|angle:-10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="11" endTime="13" description="rotating head" />
+<animation id="rotate-head1" type="basicRotate|angle:10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="13" endTime="15" description="rotating head" />
+<animation id="rotate-head2" type="basicRotate|angle:-10;ease:linear" object="fullHead" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="15" endTime="17" description="rotating head" />
+
+
+<!--
+    referance
+
+
+	<animation id="characters-leg-l" type="inverseKinematics|controller:4;root:3;anchorPoints:[upper],[lower],[foot]];jointPoints:[[?],[foot],[lower],[upper]];clockwise:true" positionRelativeTo="scene" startTime="0" endTime="120" object="leg-upper-r,leg-lower-r,foot-r,torso,characterscontroller-l" />
+-->
+
+
+
+	<!-- arms controllers -->
+
+	<animation id="arm-r-basic-move1" type="basicMove" object="characterscontroller-ar" positionStart="0.04:0.07" positionEnd="0.062:-0.039" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+	<animation id="arm-l-basic-move1" type="basicMove" object="characterscontroller-al" positionStart="0.05:0.07" positionEnd="-0.02:0.02" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+
+	<animation id="fullBodyWalk" type="basicMove" object="fullBody" positionStart="0.2:0.5" positionEnd="0.95:0.5" positionRelativeTo="scene" startTime="1.2" endTime="10" />
+
+	<!-- body move -->
+
+<!--
+
+	<animation id="fullBody-basic-move" type="basicMove" object="fullBody" positionStart="0:0" positionEnd="0.5:0.5" positionRelativeTo="scene" startTime="0.5" endTime="1" />
+
+
+<animation id="rotate-body" type="basicRotate|angle:45;ease:linear;anchorPoint:0.5,0.6;revertAnchor:false" object="upperBody" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="5" description="rotating body" />
+  <animation id="rotate-torso" type="basicRotate|angle:45;ease:linear;anchorPoint:0.34,0.32;revertAnchor:false" object="torso" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="0" endTime="5" description="rotating torso" />
+
+
+<animation id="rotate-body2" type="basicRotate|angle:0;ease:linear;anchorPoint:0.5,0.6;revertAnchor:false" object="upperBody" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="5" endTime="10" description="rotating body" />
+  <animation id="rotate-torso2" type="basicRotate|angle:0;ease:linear;anchorPoint:0.34,0.32;revertAnchor:false" object="torso" positionStart="center:center" positionEnd="center:center" positionRelativeTo="scene" startTime="5" endTime="10" description="rotating torso" />
+
+
+
+
+-->
+
+	<!-- legs controllers -->
+	<animation id="controllermovetest-r" type="followEllipsePath|radius1:0.03;radius2:0.015;startAngle:0;loops:45" object="characterscontroller-r" startTime="1" endTime="60" positionStart="0.02:0.095" positionEnd="0.01:0.095" positionRelativeTo="scene" />
+
+    <animation id="controllermovetest-l" type="followEllipsePath|radius1:0.03;radius2:0.015;startAngle:0;loops:45" object="characterscontroller-l" startTime="1.7" endTime="60.7" positionStart="0.04:0.095" positionEnd="0.02:0.095" positionRelativeTo="scene" />
+
+
+</igml>

@@ -1,0 +1,32 @@
+{
+  "objects":{
+    "question_statement": {
+      "text": "Quess the correct number"
+    },
+    "middle_icon": {
+      "src": "graphics/design-components/signs/question-in-circle-purple.svg"
+    }
+  },
+  "variables":{
+    "sc_min": {
+      "default": "1",
+      "type": "int"
+    },
+    "sc_max": {
+      "default": "",
+      "type": "int"
+    },
+    "num_correct": {
+      "default": "5",
+      "type": "int"
+    },
+    "num_selected": {
+      "default": "1",
+      "type": "int"
+    },
+    "num_indicator": {
+      "default": "1",
+      "type": "int"
+    }
+  }
+}

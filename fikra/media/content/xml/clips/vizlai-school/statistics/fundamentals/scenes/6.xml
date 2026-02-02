@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg6.svg" editable="true" description=""  />
+
+<object id="l_1" type="image" src="graphics/Geography/maps/panoramic_map_01.svg" action="link" editable="true"  />
+
+<object id="l_2" type="image" src="graphics/design-components/shapes/half-sphere-shadow.svg" editable="true" description=""  />
+<object id="l_3" type="image" src="graphics/documents/calendar-basic-empty.svg" editable="true" description=""  />
+<object id="l_4" type="text" text="0" size="50" align="center" color="#000000" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+<object id="l_5" type="text" text="2020" size="60" align="center" color="#000000" width="16" font="MontBlanc-Regular" weight="300" editable="true" />
+<object id="mask_0" type="shape" shapetype="circle" size="0.255,0.5" color="#ff0000" strokeWidth="1" action="link" editable="true"  />
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="1" description=" appearing order: 0" />
+<animation id="appear_l_1" type="appearFade|scaleTo:2.9;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="0.507:0.55" startTime="0.5" endTime="1.5" description=" appearing order: 1" />
+<animation id="appear_l_2" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="0.368:0.537" startTime="0.5" endTime="1.5" description=" appearing order: 2" />
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.525:0.356" startTime="1" endTime="1" description=" appearing order: 3" />
+<animation id="appear_l_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.11:0.698" startTime="1" endTime="1" description=" appearing order: 4" />
+<animation id="appear_l_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_5" positionStart="0.512:0.425" startTime="1" endTime="1" description=" appearing order: 5" />
+
+<animation id="appear_mask_0" type="appearFade|opacity:1;anchorPoint:0.5,0.5" object="mask_0" positionStart="0.498:0.536" positionEnd="0.498:0.536" startTime="0.5" endTime="1.5" />
+
+<animation id="set_mask_0" type="maskObjectBasic" object="mask_0,l_1" startTime="0" endTime="14" description="no description"/>
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description="" />
+<animation id="s_0_0_l_3" type="basicScale|scaleTo:0.431;ease:easeOutExpo;" object="l_3"  startTime="2.05" endTime="3.05" description="" />
+<animation id="s_0_0_l_5" type="basicScale|scaleTo:0.349;ease:easeOutExpo;" object="l_5"  startTime="2.40" endTime="3.40" description="" />
+<animation id="s_0_0_l_4" type="basicScale|scaleTo:0.04;ease:easeOutExpo;" object="l_4"  startTime="2.75" endTime="3.75" description="" />
+
+<animation id="change-number-txt" type="textCounterBasic|start:25;end:25000000000000000000;valtype:int" object="l_4" startTime="3.5" endTime="7.5" positionStart="center:center" positionEnd="center:top" positionRelativeTo="scene" />
+
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease" object="l_1" positionEnd="-0.5:0.55" startTime="1" endTime="13" description="" />
+
+<animation id="disappear-all" type="disappearFade|ease:easeInExpo;cover:self" object="l_0,l_1,l_2,l_3,l_4,l_5,mask_0"  startTime="14" endTime="15" description="" />
+
+
+</igml>

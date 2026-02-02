@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg4.svg" editable="true" description=""  />
+<object id="l_1" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description=""  />
+
+<object id="arrow-up" type="image" src="graphics/design-components/signs/arrow/arrow_up.svg" editable="true" />
+<object id="arrow-back" type="shape" shapetype="circle" size="0.1" color="#776ff3" stroke="#000000" strokeWidth="0" action="link:" editable="true" />
+
+<object id="chart1-back" type="shape" shapetype="circle" size="0.4" color="#000000" stroke="#000000" strokeWidth="0" action="link:" editable="true" />
+
+
+
+<object id="piechart-data-viz" type="data-viz" color="#000000,#776FF3,#E8BE0F,#F33B79,#FDA3E1" colorDir="col" strokeWidth="0.01" dotRadius="0.01" data="[['1','2','3','4','5'],['',65,8,15,12]]" font="Lato" fontColor="#000000" sourceInfo="Source: Wikipedia" hoverInfo="false" action="link:"/>
+
+<object id="barchart-data-viz" type="data-viz" color="#1B1464,#F33B79,#FDA3E1,#F33B79" strokeWidth="0.02" dotRadius="0.01" data="[['Time',' ',' ',' '],['Value',7,4,11]]" font="Lato" fontColor="#000000" sourceInfo="Source: UNEP" hoverInfo="false" action="link:"/>
+
+<object id="areachart-data-viz" type="data-viz" color="#1B1464,#776FF3,#E8BE0F,#F33B79,#FDA3E1" strokeWidth="0.01" dotRadius="0.01" data="[['Time','1960','1970','1980','1990','2000'],['Annual mean temperature increase',5,8,4,5,3],['Annual Arctic ice extent decrease',4,7,2,4,3],['Annual Arctic ice extent decrease 2',2,5,2,3,2]]" font="Lato" fontColor="#FFD769" sourceInfo="Source: UNEP" hoverInfo="false" action="link:"/>
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description="" />
+
+<animation id="show-chart1-back" type="appearFade|scaleTo:0.37;opacity:0.2;anchorPoint:0.5,0.5" object="chart1-back" positionStart="0.76:0.26" startTime="1" endTime="2" description=" appearing order: 0" />
+<animation id="show-chart1" type="showChartPie|scaleTo:0.4;anchorPoint:0.5,0.5;animOverlap:0.3;startAngle:-180;maxFractNum:0;addPercentage:false" object="piechart-data-viz" positionStart="center:center" positionEnd="center:center" startTime="2" endTime="6" />
+<animation id="move-chart1" type="basicMove|ease:easeOutExpo" object="piechart-data-viz" positionStart="center:center" positionEnd="0.75:0.27" positionRelativeTo="scene" startTime="1" endTime="2" />
+
+<animation id="show-chart2" type="showChartBar|scaleTo:0.4;anchorPoint:0.5,0.5;animOverlap:0.2" object="barchart-data-viz" positionStart="center:center" positionEnd="center:center" startTime="4" endTime="8" />
+<animation id="move-chart2" type="basicMove|ease:easeOutExpo" object="barchart-data-viz" positionStart="center:center" positionEnd="0.27:0.27" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="show-chart3" type="showChartArea|scaleTo:0.75,0.5;anchorPoint:0.5,0.5;animOverlap:0.6;addDots:false;" object="areachart-data-viz" positionStart="center:center" positionEnd="center:center" startTime="6" endTime="10" />
+<animation id="move-chart3" type="basicMove|ease:easeOutExpo" object="areachart-data-viz" positionStart="center:center" positionEnd="0.55:0.7" positionRelativeTo="scene" startTime="5" endTime="6" />
+
+<animation id="s_all" type="basicScale|scaleTo:0.0;ease:easeOutExpo;" object="piechart-data-viz,barchart-data-viz,areachart-data-viz,chart1-back"  startTime="10.0" endTime="11.0" description="" />
+<animation id="b_all" type="basicMove|ease:easeOutExpo;" object="piechart-data-viz,barchart-data-viz,areachart-data-viz,chart1-back" positionEnd="0.5:0.5" startTime="10.0" endTime="11.0" description="" />
+
+<animation id="appear_arrow_up" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,1" object="arrow-up" positionStart="0.5:0.5" startTime="9" endTime="9" description="" />
+<animation id="appear_arrow_back" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="arrow-back" positionStart="0.500:0.500" startTime="9" endTime="9" description="" />
+
+<animation id="r_arrow_up" type="basicRotate|angle:45" object="arrow-up" startTime="9" endTime="9" description="" />
+
+<animation id="s_arrow" type="basicScale|scaleTo:0.15;ease:easeOutExpo;" object="arrow-up"  startTime="10.5" endTime="11.5" description="" />
+<animation id="s_arrowb" type="basicScale|scaleTo:0.15;ease:easeOutExpo;" object="arrow-back"  startTime="10.0" endTime="11.0" description="" />
+
+<animation id="rotate_arrow_w" type="waveRotate|angle:-5" object="arrow-up" startTime="11" endTime="20" />
+
+
+
+<animation id="disappear-all" type="disappearFade|ease:easeInExpo;cover:self" object="l_0,l_1,chart1-back,piechart-data-viz,barchart-data-viz,areachart-data-viz,wave1,wave2,wave3,wave4,arrow-up,arrow-back" startTime="20" endTime="21" description="" />
+
+</igml>

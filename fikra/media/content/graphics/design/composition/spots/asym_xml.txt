@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#,#">
+
+
+
+<object id="Grid_0" type="image" src="graphics/general/grid.svg" action="link" editable="false" />
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,1" color="#93DDF9" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#CCCCCC" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="water_5" type="shape" shapetype="rect" size="0.5,1" color="#4CB2F2" strokeWidth="0" action="link" editable="true"/>
+
+<object id="spot_6" type="image" src="graphics/design/composition/spots/spota.svg" action="link" editable="true" />
+
+<object id="ice_7" type="image" src="graphics/design/composition/spots/mountain.svg" action="link" editable="true" />
+
+
+<animation id="appear_Grid_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="Grid_0" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="-0.6:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_water_5" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="water_5" positionStart="1:3.75" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_spot_6" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="spot_6" positionStart="0.248:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_ice_7" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="ice_7" positionStart="0.755:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_3_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_3_rect_10" type="basicMove" object="rect_1" positionStart="0.500:1.500"  positionEnd="0.500:3.000"  positionRelativeTo="scene" startTime="6.70" endTime="7.00" />
+
+<animation id="key_7_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="-1.100:0.500"  positionEnd="0.000:0.500"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_2_rect_30" type="basicMove" object="rect_3" positionStart="0.020:0.500"  positionEnd="0.100:0.500"  positionRelativeTo="scene" startTime="7.30" endTime="7.60" />
+<animation id="key_3_rect_31" type="basicMove" object="rect_3" positionStart="0.100:0.500"  positionEnd="-1.100:0.500"  positionRelativeTo="scene" startTime="7.60" endTime="8.00" />
+
+<animation id="key_3_water_50" type="basicMove|ease:easeInOutSine;" object="water_5" positionStart="1.000:3.750"  positionEnd="1.000:2.250"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_6_water_51" type="basicMove|ease:easeInOutSine;" object="water_5" positionStart="1.000:2.250"  positionEnd="1.000:2.250"  positionRelativeTo="scene" startTime="2.00" endTime="7.20" />
+<animation id="key_6_water_52" type="basicMove|ease:easeInOutSine;" object="water_5" positionStart="1.000:2.250"  positionEnd="1.000:3.750"  positionRelativeTo="scene" startTime="7.20" endTime="7.60" />
+
+<animation id="key_8_spot_60" type="basicMove|ease:easeInOutSine;" object="spot_6" positionStart="0.248:1.400"  positionEnd="0.248:0.400"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_4_spot_61" type="basicMove|ease:easeInOutSine;" object="spot_6" positionStart="0.248:0.400"  positionEnd="0.248:0.450"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+<animation id="key_1_spot_62" type="basicMove|ease:easeInOutSine;" object="spot_6" positionStart="0.248:0.450"  positionEnd="0.248:0.450"  positionRelativeTo="scene" startTime="2.20" endTime="6.00" />
+<animation id="key_3_spot_63" type="basicMove|ease:easeInOutSine;" object="spot_6" positionStart="0.248:0.450"  positionEnd="0.248:0.350"  positionRelativeTo="scene" startTime="6.00" endTime="6.20" />
+<animation id="key_7_spot_64" type="basicMove|ease:easeInOutSine;" object="spot_6" positionStart="0.248:0.350"  positionEnd="0.248:1.400"  positionRelativeTo="scene" startTime="6.20" endTime="6.50" />
+
+<animation id="key_1_ice_70" type="basicMove|ease:easeInOutSine;" object="ice_7" positionStart="0.755:1.400"  positionEnd="0.755:0.400"  positionRelativeTo="scene" startTime="1.80" endTime="2.30" />
+<animation id="key_7_ice_71" type="basicMove|ease:easeInOutSine;" object="ice_7" positionStart="0.755:0.400"  positionEnd="0.755:0.450"  positionRelativeTo="scene" startTime="2.30" endTime="2.70" />
+<animation id="key_5_ice_72" type="basicMove|ease:easeInOutSine;" object="ice_7" positionStart="0.755:0.450"  positionEnd="0.755:0.450"  positionRelativeTo="scene" startTime="2.70" endTime="6.50" />
+<animation id="key_6_ice_73" type="basicMove|ease:easeInOutSine;" object="ice_7" positionStart="0.755:0.450"  positionEnd="0.755:0.350"  positionRelativeTo="scene" startTime="6.50" endTime="6.70" />
+<animation id="key_5_ice_74" type="basicMove|ease:easeInOutSine;" object="ice_7" positionStart="0.755:0.350"  positionEnd="0.755:1.400"  positionRelativeTo="scene" startTime="6.70" endTime="7.00" />
+
+
+
+
+ </igml>

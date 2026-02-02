@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+ <container id="fullBody" objects="armr_4,arml_5,body_6,backhair_2,body_5,neck_6,earr_7,earl_8,face_9,hair_2,mouth_10,nose_11,eyer_12,eyel_13,eyebr_17,eyebl_18,eyebr_17,eyebl_18,eyebr_17,eyebl_18,sidehair_14,fronthair_15,eyer_12,eyel_13,eyebr_17,eyebl_18,mouth_10,mouth_10,eyer_12,eyel_13,eyebr_17,eyebl_18,nose_11,earr_7,earl_8,hair_2,backhair_2,fronthair_15,sidehair_14," editable="true" action="link:"   />
+
+
+
+<object id="bg_1" type="image" src="graphics/general/enviroment/climate_change/kid/background.svg" action="link" editable="true" />
+
+<object id="armr_4" type="image" src="graphics/general/characters/bulgarian/simpleton/male/armr.svg" action="link" editable="true" />
+
+<object id="arml_5" type="image" src="graphics/general/characters/bulgarian/simpleton/male/arml.svg" action="link" editable="true" />
+
+<object id="body_6" type="image" src="graphics/general/enviroment/climate_change/kid/body.svg" action="link" editable="true" />
+
+<object id="backhair_2" type="image" src="graphics/general/characters/bulgarian/simpleton/male/backhair.svg" action="link" editable="true" />
+
+<object id="body_5" type="image" src="graphics/general/enviroment/climate_change/kid/book.svg" action="link" editable="true" />
+
+<object id="neck_6" type="image" src="graphics/general/characters/bulgarian/simpleton/male/neck.svg" action="link" editable="true" />
+
+<object id="earr_7" type="image" src="graphics/general/enviroment/climate_change/kid/earr.svg" action="link" editable="true" />
+
+<object id="earl_8" type="image" src="graphics/general/enviroment/climate_change/kid/earl.svg" action="link" editable="true" />
+
+<object id="face_9" type="image" src="graphics/general/enviroment/climate_change/kid/face.svg" action="link" editable="true" />
+
+<object id="hair_2" type="image" src="graphics/general/enviroment/climate_change/kid/hair.svg" action="link" editable="true" />
+
+<object id="mouth_10" type="image" src="graphics/general/enviroment/climate_change/kid/mouth.svg" action="link" editable="true" />
+
+<object id="nose_11" type="image" src="graphics/general/enviroment/climate_change/kid/nose.svg" action="link" editable="true" />
+
+<object id="eyer_12" type="image" src="graphics/general/enviroment/climate_change/kid/eyer.svg" action="link" editable="true" />
+
+<object id="eyel_13" type="image" src="graphics/general/enviroment/climate_change/kid/eyel.svg" action="link" editable="true" />
+
+<object id="eyebr_17" type="image" src="graphics/general/enviroment/climate_change/kid/eyebr.svg" action="link" editable="true" />
+
+<object id="eyebl_18" type="image" src="graphics/general/enviroment/climate_change/kid/eyebl.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+
+
+<object id="sidehair_14" type="image" src="graphics/general/characters/bulgarian/simpleton/male/sidehair.svg" action="link" editable="true" />
+
+<object id="fronthair_15" type="image" src="graphics/general/enviroment/climate_change/kid/hair.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<object id="body_5" type="image" src="graphics/general/enviroment/climate_change/kid/book.svg" action="link" editable="true" />
+
+
+
+<animation id="appear_bg_1" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="bg_1" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_armr_4" type="appearFade|scaleTo:0.12;opacity:0;anchorPoint:0.5,0.5" object="armr_4" positionStart="-0.01:0.39" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_arml_5" type="appearFade|scaleTo:0.12;opacity:0;anchorPoint:0.5,0.5" object="arml_5" positionStart="-0.02:0.08" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_body_6" type="appearFade|scaleTo:0.34;opacity:1;anchorPoint:0.5:0.5" object="body_6" positionStart="-0.02:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<!-- fullBody_41# --><animation id="appear_fullBody_41" type="appearFade|anchorPoint:0.0,0.0" object="fullBody_41" positionStart="0.0:0.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<!-- fullBody# --><animation id="appear_fullBody" type="appearFade|anchorPoint:0.0,0.0" object="fullBody" positionStart="0.0:0.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<!-- fullBody# --><animation id="appear_fullBody" type="appearFade|anchorPoint:0.0,0.0" object="fullBody" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+<animation id="appear_backhair_2" type="appearFade|scaleTo:0.3;opacity:0;anchorPoint:0.5,0.5" object="backhair_2" positionStart="-0.02:-0.21" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_body_5" type="appearFade|scaleTo:0.32;opacity:1;anchorPoint:0.5,0.5" object="body_5" positionStart="-0.02:0.33" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<!-- fullBody_41# --><animation id="appear_fullBody_41" type="appearFade|anchorPoint:0.0,0.0" object="fullBody_41" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+<animation id="appear_neck_6" type="appearFade|scaleTo:0.1;opacity:0;anchorPoint:0.5,0.5" object="neck_6" positionStart="-0.02:0.03" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_earr_7" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="earr_7" positionStart="-0.12:-0.14" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_earl_8" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="earl_8" positionStart="0.08:-0.13" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_face_9" type="appearFade|scaleTo:0.24;opacity:1;anchorPoint:0.5,0.5" object="face_9" positionStart="-0.02:-0.14" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_hair_2" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="hair_2" positionStart="-0.01:-0.28" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_mouth_10" type="appearFade|scaleTo:0.04,0.02;opacity:1;anchorPoint:0.5,0.5" object="mouth_10" positionStart="-0.02:-0.01" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_nose_11" type="appearFade|scaleTo:0.04;opacity:1;anchorPoint:0.5,0.5" object="nose_11" positionStart="-0.02:-0.06" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyer_12" type="appearFade|scaleTo:0.02,0.03;opacity:1;anchorPoint:0.5,1" object="eyer_12" positionStart="-0.06:-0.11" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyel_13" type="appearFade|scaleTo:0.02,0.03;opacity:1;anchorPoint:0.5,1" object="eyel_13" positionStart="0.02:-0.11" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyebr_17" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="eyebr_17" positionStart="0.02:-0.18" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eyebl_18" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="eyebl_18" positionStart="-0.06:-0.18" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+<animation id="appear_sidehair_14" type="appearFade|scaleTo:0.03;opacity:0;anchorPoint:0.5,0.5" object="sidehair_14" positionStart="0.07:-0.29" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_fronthair_15" type="appearFade|scaleTo:0.25;opacity:0;anchorPoint:0.5,0.5" object="fronthair_15" positionStart="0.02:-0.41" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="appear_body_5" type="appearFade|scaleTo:0.32;opacity:1;anchorPoint:0.5,0.5" object="body_5" positionStart="-0.02:0.33" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_2_backhair_20" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.210"  positionEnd="-0.040:-0.210"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_2_backhair_21" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.040:-0.210"  positionEnd="-0.040:-0.210"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_8_backhair_22" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.040:-0.210"  positionEnd="-0.010:-0.210"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_5_backhair_23" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.010:-0.210"  positionEnd="-0.020:-0.210"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_5_backhair_24" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.210"  positionEnd="-0.020:-0.210"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_6_backhair_25" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.210"  positionEnd="-0.040:-0.210"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_4_backhair_26" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.040:-0.210"  positionEnd="-0.040:-0.210"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_3_backhair_27" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.040:-0.210"  positionEnd="-0.010:-0.210"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_1_backhair_28" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.010:-0.210"  positionEnd="-0.020:-0.210"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+
+
+
+
+<animation id="key_8_earr_70" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.140"  positionEnd="-0.140:-0.140"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_3_earr_71" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.140:-0.140"  positionEnd="-0.140:-0.140"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_2_earr_72" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.140:-0.140"  positionEnd="-0.110:-0.140"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_0_earr_73" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.110:-0.140"  positionEnd="-0.120:-0.140"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_6_earr_74" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.140"  positionEnd="-0.120:-0.140"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_2_earr_75" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.140"  positionEnd="-0.140:-0.140"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_4_earr_76" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.140:-0.140"  positionEnd="-0.140:-0.140"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_5_earr_77" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.140:-0.140"  positionEnd="-0.110:-0.140"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_7_earr_78" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.110:-0.140"  positionEnd="-0.120:-0.140"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_7_earl_80" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.130"  positionEnd="0.060:-0.130"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_0_earl_81" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.060:-0.130"  positionEnd="0.060:-0.130"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_3_earl_82" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.060:-0.130"  positionEnd="0.090:-0.130"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_2_earl_83" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.090:-0.130"  positionEnd="0.080:-0.130"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_7_earl_84" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.130"  positionEnd="0.080:-0.130"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_7_earl_85" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.130"  positionEnd="0.060:-0.130"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_8_earl_86" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.060:-0.130"  positionEnd="0.060:-0.130"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_4_earl_87" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.060:-0.130"  positionEnd="0.090:-0.130"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_3_earl_88" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.090:-0.130"  positionEnd="0.080:-0.130"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+
+
+<animation id="key_4_hair_20" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.280"  positionEnd="0.000:-0.280"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_0_hair_21" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="0.000:-0.280"  positionEnd="0.000:-0.280"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_8_hair_22" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="0.000:-0.280"  positionEnd="-0.015:-0.280"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_1_hair_23" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.015:-0.280"  positionEnd="-0.010:-0.280"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_4_hair_24" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.280"  positionEnd="-0.010:-0.280"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_4_hair_25" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.280"  positionEnd="0.000:-0.280"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_7_hair_26" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="0.000:-0.280"  positionEnd="0.000:-0.280"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_1_hair_27" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="0.000:-0.280"  positionEnd="-0.015:-0.280"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_3_hair_28" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.015:-0.280"  positionEnd="-0.010:-0.280"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_5_mouth_100" type="basicScale|scaleTo:0.027,0.006;ease:easeInOutSine;" object="mouth_10"  startTime="6.00" endTime="6.50" />
+<animation id="key_4_mouth_101" type="basicScale|scaleTo:0.027,0.027;ease:easeInOutSine;" object="mouth_10"  startTime="6.50" endTime="7.00" />
+<animation id="key_2_mouth_102" type="basicScale|scaleTo:0.027,0.018;ease:easeInOutSine;" object="mouth_10"  startTime="7.00" endTime="7.30" />
+<animation id="key_0_mouth_103" type="basicScale|scaleTo:0.027,0.018;ease:easeInOutSine;" object="mouth_10"  startTime="7.30" endTime="12.00" />
+<animation id="key_0_mouth_104" type="basicScale|scaleTo:0.027,-0.006;ease:easeInOutSine;" object="mouth_10"  startTime="12.00" endTime="12.50" />
+<animation id="key_0_mouth_105" type="basicScale|scaleTo:0.027,-0.027;ease:easeInOutSine;" object="mouth_10"  startTime="12.50" endTime="14.00" />
+<animation id="key_2_mouth_106" type="basicScale|scaleTo:0.027,-0.018;ease:easeInOutSine;" object="mouth_10"  startTime="14.00" endTime="14.30" />
+
+<animation id="key_8_nose_110" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="0.000:-0.060"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_0_nose_111" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="0.000:-0.060"  positionEnd="0.000:-0.060"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_3_nose_112" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="0.000:-0.060"  positionEnd="-0.030:-0.060"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_6_nose_113" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.030:-0.060"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_0_nose_114" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_2_nose_115" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="0.000:-0.060"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_7_nose_116" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="0.000:-0.060"  positionEnd="0.000:-0.060"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_8_nose_117" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="0.000:-0.060"  positionEnd="-0.030:-0.060"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_5_nose_118" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.030:-0.060"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_2_eyer_120" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyer_12"  startTime="1.00" endTime="1.25" />
+<animation id="key_6_eyer_121" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyer_12"  startTime="1.25" endTime="1.60" />
+<animation id="key_1_eyer_122" type="basicScale|scaleTo:0.020,0.030;ease:easeInOutSine;" object="eyer_12"  startTime="1.60" endTime="2.00" />
+<animation id="key_4_eyer_123" type="basicScale|scaleTo:0.020,0.030;ease:easeInOutSine;" object="eyer_12"  startTime="2.00" endTime="4.00" />
+<animation id="key_7_eyer_124" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyer_12"  startTime="4.00" endTime="4.25" />
+<animation id="key_7_eyer_125" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyer_12"  startTime="4.25" endTime="4.60" />
+<animation id="key_2_eyer_126" type="basicScale|scaleTo:0.020,0.030;ease:easeInOutSine;" object="eyer_12"  startTime="4.60" endTime="5.00" />
+
+<animation id="key_6_eyel_130" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyel_13"  startTime="1.00" endTime="1.25" />
+<animation id="key_3_eyel_131" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyel_13"  startTime="1.25" endTime="1.60" />
+<animation id="key_7_eyel_132" type="basicScale|scaleTo:0.020,0.030;ease:easeInOutSine;" object="eyel_13"  startTime="1.60" endTime="2.00" />
+<animation id="key_2_eyel_133" type="basicScale|scaleTo:0.020,0.030;ease:easeInOutSine;" object="eyel_13"  startTime="2.00" endTime="4.00" />
+<animation id="key_3_eyel_134" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyel_13"  startTime="4.00" endTime="4.25" />
+<animation id="key_1_eyel_135" type="basicScale|scaleTo:0.020,0.010;ease:easeInOutSine;" object="eyel_13"  startTime="4.25" endTime="4.60" />
+<animation id="key_4_eyel_136" type="basicScale|scaleTo:0.020,0.030;ease:easeInOutSine;" object="eyel_13"  startTime="4.60" endTime="5.00" />
+
+
+
+
+
+<animation id="key_8_eyebr_170" type="basicRotate|angle:33.000;revertAnchor:false;" object="eyebr_17"  startTime="4.00" endTime="5.00" />
+
+<animation id="key_4_eyebl_180" type="basicRotate|angle:-33.000;revertAnchor:false;" object="eyebl_18"  startTime="4.00" endTime="5.00" />
+
+<animation id="key_7_eyebr_170" type="basicRotate|angle:-33.000;revertAnchor:false;" object="eyebr_17"  startTime="10.00" endTime="11.00" />
+
+<animation id="key_6_eyebl_180" type="basicRotate|angle:33.000;revertAnchor:false;" object="eyebl_18"  startTime="10.00" endTime="11.00" />
+
+<animation id="key_1_sidehair_140" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.070:-0.290"  positionEnd="0.090:-0.290"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_4_sidehair_141" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.090:-0.290"  positionEnd="0.090:-0.290"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_7_sidehair_142" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.090:-0.290"  positionEnd="0.069:-0.290"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_7_sidehair_143" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.069:-0.290"  positionEnd="0.070:-0.290"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_7_sidehair_144" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.070:-0.290"  positionEnd="0.070:-0.290"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_4_sidehair_145" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.070:-0.290"  positionEnd="0.090:-0.290"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_0_sidehair_146" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.090:-0.290"  positionEnd="0.090:-0.290"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_6_sidehair_147" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.090:-0.290"  positionEnd="0.069:-0.290"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_7_sidehair_148" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.069:-0.290"  positionEnd="0.070:-0.290"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_0_fronthair_150" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.410"  positionEnd="0.030:-0.410"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_0_fronthair_151" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.030:-0.410"  positionEnd="0.030:-0.410"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_0_fronthair_152" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.030:-0.410"  positionEnd="0.015:-0.410"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_3_fronthair_153" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.015:-0.410"  positionEnd="0.020:-0.410"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_7_fronthair_154" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.410"  positionEnd="0.020:-0.410"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_5_fronthair_155" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.410"  positionEnd="0.030:-0.410"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_7_fronthair_156" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.030:-0.410"  positionEnd="0.030:-0.410"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_3_fronthair_157" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.030:-0.410"  positionEnd="0.015:-0.410"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_1_fronthair_158" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.015:-0.410"  positionEnd="0.020:-0.410"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_4_eyer_120" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.110"  positionEnd="-0.040:-0.110"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_2_eyer_121" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.040:-0.110"  positionEnd="-0.040:-0.110"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_0_eyer_122" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.040:-0.110"  positionEnd="-0.070:-0.110"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_2_eyer_123" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.070:-0.110"  positionEnd="-0.060:-0.110"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_8_eyer_124" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.110"  positionEnd="-0.060:-0.110"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_0_eyer_125" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.110"  positionEnd="-0.040:-0.110"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_1_eyer_126" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.040:-0.110"  positionEnd="-0.040:-0.110"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_5_eyer_127" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.040:-0.110"  positionEnd="-0.070:-0.110"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_3_eyer_128" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.070:-0.110"  positionEnd="-0.060:-0.110"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_5_eyel_130" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.110"  positionEnd="0.040:-0.110"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_8_eyel_131" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.040:-0.110"  positionEnd="0.040:-0.110"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_6_eyel_132" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.040:-0.110"  positionEnd="0.010:-0.110"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_1_eyel_133" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.010:-0.110"  positionEnd="0.020:-0.110"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_2_eyel_134" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.110"  positionEnd="0.020:-0.110"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_3_eyel_135" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.110"  positionEnd="0.040:-0.110"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_6_eyel_136" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.040:-0.110"  positionEnd="0.040:-0.110"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_6_eyel_137" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.040:-0.110"  positionEnd="0.010:-0.110"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_0_eyel_138" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.010:-0.110"  positionEnd="0.020:-0.110"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_2_eyebr_170" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.180"  positionEnd="0.040:-0.180"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_4_eyebr_171" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.040:-0.180"  positionEnd="0.040:-0.180"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_8_eyebr_172" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.040:-0.180"  positionEnd="0.010:-0.180"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_6_eyebr_173" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.010:-0.180"  positionEnd="0.020:-0.180"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_3_eyebr_174" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.180"  positionEnd="0.020:-0.180"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_6_eyebr_175" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.180"  positionEnd="0.040:-0.180"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_8_eyebr_176" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.040:-0.180"  positionEnd="0.040:-0.180"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_4_eyebr_177" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.040:-0.180"  positionEnd="0.010:-0.180"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_3_eyebr_178" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.010:-0.180"  positionEnd="0.020:-0.180"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_3_eyebl_180" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.180"  positionEnd="-0.040:-0.180"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_4_eyebl_181" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.040:-0.180"  positionEnd="-0.040:-0.180"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_2_eyebl_182" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.040:-0.180"  positionEnd="-0.070:-0.180"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_6_eyebl_183" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.070:-0.180"  positionEnd="-0.060:-0.180"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_2_eyebl_184" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.180"  positionEnd="-0.060:-0.180"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_6_eyebl_185" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.180"  positionEnd="-0.040:-0.180"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_6_eyebl_186" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.040:-0.180"  positionEnd="-0.040:-0.180"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_7_eyebl_187" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.040:-0.180"  positionEnd="-0.070:-0.180"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_6_eyebl_188" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.070:-0.180"  positionEnd="-0.060:-0.180"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_4_mouth_100" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.010"  positionEnd="0.000:-0.010"  positionRelativeTo="scene" startTime="1.00" endTime="3.00" />
+<animation id="key_7_mouth_101" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="0.000:-0.010"  positionEnd="0.000:-0.010"  positionRelativeTo="scene" startTime="3.00" endTime="5.00" />
+<animation id="key_6_mouth_102" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="0.000:-0.010"  positionEnd="-0.030:-0.010"  positionRelativeTo="scene" startTime="5.00" endTime="5.50" />
+<animation id="key_8_mouth_103" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.030:-0.010"  positionEnd="-0.020:-0.010"  positionRelativeTo="scene" startTime="5.50" endTime="6.00" />
+<animation id="key_1_mouth_104" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.010"  positionEnd="-0.020:-0.010"  positionRelativeTo="scene" startTime="6.00" endTime="6.10" />
+<animation id="key_0_mouth_105" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.010"  positionEnd="0.000:-0.010"  positionRelativeTo="scene" startTime="6.10" endTime="6.80" />
+<animation id="key_7_mouth_106" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="0.000:-0.010"  positionEnd="0.000:-0.010"  positionRelativeTo="scene" startTime="6.80" endTime="7.50" />
+<animation id="key_6_mouth_107" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="0.000:-0.010"  positionEnd="-0.030:-0.010"  positionRelativeTo="scene" startTime="7.50" endTime="8.00" />
+<animation id="key_6_mouth_108" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.030:-0.010"  positionEnd="-0.020:-0.010"  positionRelativeTo="scene" startTime="8.00" endTime="8.30" />
+
+<animation id="key_3_mouth_100" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.010"  positionEnd="-0.020:0.010"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_7_mouth_101" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:0.010"  positionEnd="-0.020:0.010"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_0_mouth_102" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:0.010"  positionEnd="-0.020:-0.020"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_8_mouth_103" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.020"  positionEnd="-0.020:-0.010"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_5_mouth_104" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.010"  positionEnd="-0.020:-0.010"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_7_mouth_105" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.010"  positionEnd="-0.020:0.010"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_2_mouth_106" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:0.010"  positionEnd="-0.020:0.010"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_6_mouth_107" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:0.010"  positionEnd="-0.020:-0.020"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_3_mouth_108" type="basicMove|ease:easeInOutSine;" object="mouth_10" positionStart="-0.020:-0.020"  positionEnd="-0.020:-0.010"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_6_eyer_120" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.110"  positionEnd="-0.060:-0.090"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_4_eyer_121" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.090"  positionEnd="-0.060:-0.090"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_1_eyer_122" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.090"  positionEnd="-0.060:-0.120"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_5_eyer_123" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.120"  positionEnd="-0.060:-0.110"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_5_eyer_124" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.110"  positionEnd="-0.060:-0.110"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_5_eyer_125" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.110"  positionEnd="-0.060:-0.090"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_8_eyer_126" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.090"  positionEnd="-0.060:-0.090"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_7_eyer_127" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.090"  positionEnd="-0.060:-0.120"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_8_eyer_128" type="basicMove|ease:easeInOutSine;" object="eyer_12" positionStart="-0.060:-0.120"  positionEnd="-0.060:-0.110"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_1_eyel_130" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.110"  positionEnd="0.020:-0.090"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_7_eyel_131" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.090"  positionEnd="0.020:-0.090"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_7_eyel_132" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.090"  positionEnd="0.020:-0.120"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_4_eyel_133" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.120"  positionEnd="0.020:-0.110"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_7_eyel_134" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.110"  positionEnd="0.020:-0.110"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_4_eyel_135" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.110"  positionEnd="0.020:-0.090"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_0_eyel_136" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.090"  positionEnd="0.020:-0.090"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_6_eyel_137" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.090"  positionEnd="0.020:-0.120"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_4_eyel_138" type="basicMove|ease:easeInOutSine;" object="eyel_13" positionStart="0.020:-0.120"  positionEnd="0.020:-0.110"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_2_eyebr_170" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.180"  positionEnd="0.020:-0.160"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_5_eyebr_171" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.160"  positionEnd="0.020:-0.160"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_0_eyebr_172" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.160"  positionEnd="0.020:-0.190"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_0_eyebr_173" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.190"  positionEnd="0.020:-0.180"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_1_eyebr_174" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.180"  positionEnd="0.020:-0.180"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_1_eyebr_175" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.180"  positionEnd="0.020:-0.160"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_7_eyebr_176" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.160"  positionEnd="0.020:-0.160"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_0_eyebr_177" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.160"  positionEnd="0.020:-0.190"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_1_eyebr_178" type="basicMove|ease:easeInOutSine;" object="eyebr_17" positionStart="0.020:-0.190"  positionEnd="0.020:-0.180"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_6_eyebl_180" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.180"  positionEnd="-0.060:-0.160"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_4_eyebl_181" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.160"  positionEnd="-0.060:-0.160"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_7_eyebl_182" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.160"  positionEnd="-0.060:-0.190"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_3_eyebl_183" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.190"  positionEnd="-0.060:-0.180"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_2_eyebl_184" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.180"  positionEnd="-0.060:-0.180"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_7_eyebl_185" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.180"  positionEnd="-0.060:-0.160"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_0_eyebl_186" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.160"  positionEnd="-0.060:-0.160"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_5_eyebl_187" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.160"  positionEnd="-0.060:-0.190"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_4_eyebl_188" type="basicMove|ease:easeInOutSine;" object="eyebl_18" positionStart="-0.060:-0.190"  positionEnd="-0.060:-0.180"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_3_nose_110" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.080"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_5_nose_111" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_2_nose_112" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="-0.020:-0.090"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_5_nose_113" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.090"  positionEnd="-0.020:-0.080"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_6_nose_114" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.080"  positionEnd="-0.020:-0.080"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_0_nose_115" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.080"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_7_nose_116" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="-0.020:-0.060"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_8_nose_117" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.060"  positionEnd="-0.020:-0.090"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_7_nose_118" type="basicMove|ease:easeInOutSine;" object="nose_11" positionStart="-0.020:-0.090"  positionEnd="-0.020:-0.080"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_1_earr_70" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.140"  positionEnd="-0.120:-0.160"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_5_earr_71" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.160"  positionEnd="-0.120:-0.160"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_8_earr_72" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.160"  positionEnd="-0.120:-0.130"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_1_earr_73" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.130"  positionEnd="-0.120:-0.140"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_1_earr_74" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.140"  positionEnd="-0.120:-0.140"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_7_earr_75" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.140"  positionEnd="-0.120:-0.160"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_4_earr_76" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.160"  positionEnd="-0.120:-0.160"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_5_earr_77" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.160"  positionEnd="-0.120:-0.130"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_4_earr_78" type="basicMove|ease:easeInOutSine;" object="earr_7" positionStart="-0.120:-0.130"  positionEnd="-0.120:-0.140"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_2_earl_80" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.130"  positionEnd="0.080:-0.150"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_6_earl_81" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.150"  positionEnd="0.080:-0.150"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_1_earl_82" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.150"  positionEnd="0.080:-0.120"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_3_earl_83" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.120"  positionEnd="0.080:-0.130"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_5_earl_84" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.130"  positionEnd="0.080:-0.130"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_8_earl_85" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.130"  positionEnd="0.080:-0.150"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_4_earl_86" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.150"  positionEnd="0.080:-0.150"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_3_earl_87" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.150"  positionEnd="0.080:-0.120"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_3_earl_88" type="basicMove|ease:easeInOutSine;" object="earl_8" positionStart="0.080:-0.120"  positionEnd="0.080:-0.130"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_5_hair_20" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.280"  positionEnd="-0.010:-0.270"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_0_hair_21" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.270"  positionEnd="-0.010:-0.270"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_4_hair_22" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.270"  positionEnd="-0.010:-0.285"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_0_hair_23" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.285"  positionEnd="-0.010:-0.280"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_0_hair_24" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.280"  positionEnd="-0.010:-0.280"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_0_hair_25" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.280"  positionEnd="-0.010:-0.270"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_5_hair_26" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.270"  positionEnd="-0.010:-0.270"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_1_hair_27" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.270"  positionEnd="-0.010:-0.285"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_7_hair_28" type="basicMove|ease:easeInOutSine;" object="hair_2" positionStart="-0.010:-0.285"  positionEnd="-0.010:-0.280"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_5_backhair_20" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.210"  positionEnd="-0.020:-0.230"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_1_backhair_21" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.230"  positionEnd="-0.020:-0.230"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_5_backhair_22" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.230"  positionEnd="-0.020:-0.200"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_6_backhair_23" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.200"  positionEnd="-0.020:-0.210"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_5_backhair_24" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.210"  positionEnd="-0.020:-0.210"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_6_backhair_25" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.210"  positionEnd="-0.020:-0.230"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_4_backhair_26" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.230"  positionEnd="-0.020:-0.230"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_4_backhair_27" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.230"  positionEnd="-0.020:-0.200"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_8_backhair_28" type="basicMove|ease:easeInOutSine;" object="backhair_2" positionStart="-0.020:-0.200"  positionEnd="-0.020:-0.210"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_6_fronthair_150" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.410"  positionEnd="0.020:-0.400"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_5_fronthair_151" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.400"  positionEnd="0.020:-0.400"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_4_fronthair_152" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.400"  positionEnd="0.020:-0.415"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_8_fronthair_153" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.415"  positionEnd="0.020:-0.410"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_8_fronthair_154" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.410"  positionEnd="0.020:-0.410"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_3_fronthair_155" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.410"  positionEnd="0.020:-0.400"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_2_fronthair_156" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.400"  positionEnd="0.020:-0.400"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_3_fronthair_157" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.400"  positionEnd="0.020:-0.415"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_3_fronthair_158" type="basicMove|ease:easeInOutSine;" object="fronthair_15" positionStart="0.020:-0.415"  positionEnd="0.020:-0.410"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+<animation id="key_5_sidehair_140" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.290"  positionEnd="0.080:-0.270"  positionRelativeTo="scene" startTime="9.00" endTime="11.00" />
+<animation id="key_0_sidehair_141" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.270"  positionEnd="0.080:-0.270"  positionRelativeTo="scene" startTime="11.00" endTime="13.00" />
+<animation id="key_5_sidehair_142" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.270"  positionEnd="0.080:-0.291"  positionRelativeTo="scene" startTime="13.00" endTime="13.50" />
+<animation id="key_6_sidehair_143" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.291"  positionEnd="0.080:-0.290"  positionRelativeTo="scene" startTime="13.50" endTime="14.00" />
+<animation id="key_4_sidehair_144" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.290"  positionEnd="0.080:-0.290"  positionRelativeTo="scene" startTime="14.00" endTime="14.10" />
+<animation id="key_1_sidehair_145" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.290"  positionEnd="0.080:-0.270"  positionRelativeTo="scene" startTime="14.10" endTime="14.80" />
+<animation id="key_7_sidehair_146" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.270"  positionEnd="0.080:-0.270"  positionRelativeTo="scene" startTime="14.80" endTime="15.50" />
+<animation id="key_4_sidehair_147" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.270"  positionEnd="0.080:-0.291"  positionRelativeTo="scene" startTime="15.50" endTime="16.00" />
+<animation id="key_2_sidehair_148" type="basicMove|ease:easeInOutSine;" object="sidehair_14" positionStart="0.080:-0.291"  positionEnd="0.080:-0.290"  positionRelativeTo="scene" startTime="16.00" endTime="16.30" />
+
+
+
+<animation id="key_7_fullBody0" type="basicScale|scaleTo:0.200" object="fullBody"  startTime="0.00" endTime="0.01" />
+
+<animation id="key_6_body_50" type="basicMove|ease:easeInOutSine;" object="body_5" positionStart="-0.020:0.330"  positionEnd="0.020:0.180"  positionRelativeTo="scene" startTime="0.80" endTime="1.60" />
+<animation id="key_1_body_51" type="basicMove|ease:easeInOutSine;" object="body_5" positionStart="0.020:0.180"  positionEnd="0.020:0.180"  positionRelativeTo="scene" startTime="1.60" endTime="4.80" />
+<animation id="key_3_body_52" type="basicMove|ease:easeInOutSine;" object="body_5" positionStart="0.020:0.180"  positionEnd="-0.020:0.180"  positionRelativeTo="scene" startTime="4.80" endTime="5.80" />
+<animation id="key_1_body_53" type="basicMove|ease:easeInOutSine;" object="body_5" positionStart="-0.020:0.180"  positionEnd="-0.020:0.180"  positionRelativeTo="scene" startTime="5.80" endTime="10.20" />
+<animation id="key_7_body_54" type="basicMove|ease:easeInOutSine;" object="body_5" positionStart="-0.020:0.180"  positionEnd="-0.020:0.060"  positionRelativeTo="scene" startTime="10.20" endTime="13.00" />
+<animation id="key_6_body_55" type="basicMove|ease:easeInOutSine;" object="body_5" positionStart="-0.020:0.060"  positionEnd="-0.020:0.340"  positionRelativeTo="scene" startTime="13.00" endTime="13.40" />
+
+
+
+
+
+ </igml>

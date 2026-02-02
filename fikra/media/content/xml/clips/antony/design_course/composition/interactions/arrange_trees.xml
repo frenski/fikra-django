@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,1" color="#ffffff" strokeWidth="0" action="link" editable="false"/>
+	
+	<object id="compcover1" type="shape" shapetype="rect" size="0.02,0.02" color="#302f35" strokeWidth="0" action="link:"/>
+	<object id="compcover2" type="shape" shapetype="rect" size="0.02,0.02" color="#302f35" strokeWidth="0" action="link:"/>
+
+	<object id="compcover3" type="shape" shapetype="rect" size="0.02,0.02" color="#302f35" strokeWidth="0" action="link:"/>
+
+
+
+
+<object id="watermark_3" type="image" src="graphics/design/interactions/compositing/arrange_trees/watermark.svg" action="link" editable="false" />
+
+<object id="sun_4" type="image" src="graphics/design/interactions/compositing/arrange_trees/sun.svg" action="link" editable="false" />
+
+<object id="land2_5" type="image" src="graphics/design/interactions/compositing/arrange_trees/land2.svg" action="link" editable="false" />
+
+<object id="land1_6" type="image" src="graphics/design/interactions/compositing/arrange_trees/land1.svg" action="link" editable="false" />
+
+<object id="tree2_7" type="image" src="graphics/design/interactions/compositing/arrange_trees/tree2.svg" action="link" editable="false" />
+
+<object id="tree1_8" type="image" src="graphics/design/interactions/compositing/arrange_trees/tree1.svg" action="link" editable="false" />
+
+<object id="golden_rat_9" type="image" src="graphics/design/interactions/compositing/arrange_trees/golden_rat.svg" action="link" editable="false" />
+<object id="frame" type="image" src="graphics/design/interactions/compositing/arrange_trees/frame.svg" action="link" editable="false" />
+
+	<object id="title-text" type="text" text="Drag objects to create perfect
+golden ratio composition:" size="20" align="center" color="#000000" font="Open Sans" wordWrap="true" wordWrapWidth="0.8" weight="300" />
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<variable id="pos_x_exp" type="expression" default="" expression="round(50 - 2*sum(abs({{tk_posX}} - [{{pos_x_test1}}, {{pos_x_test2}},{{pos_x_test3}}])))" />
+	<variable id="pos_y_exp" type="expression" default="" expression="round(50 - 2*sum(abs({{tk_posY}} - [{{pos_y_test1}}, {{pos_y_test2}},{{pos_x_test3}}]])))"/>
+	
+	<variable id="pos_exp" type="expression" default="" expression="({{pos_x_exp}} +{{pos_y_exp}})"/>
+	
+<object id="textscore" type="text" text="  0" size="30" align="right" color="#302f35" width="20" font="Open Sans" weight="300" />	
+	<object id="textscore-ext" type="text" text="/100" size="30" align="right" color="#068C79" width="20" font="Open Sans" weight="300" />
+
+	<object id="textbut-compare" type="text" text="READY" size="15" align="center" color="#ffffff" width="20" font="Open Sans" weight="400" />
+	<object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#302f35" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+	
+
+
+	
+	<!-- VARIABLES -->
+	<variable id="tk_posX" type="array" default="[0,0,0]" />
+	<variable id="tk_posY" type="array" default="[0,0,0]" />
+	<variable id="tk_score" type="int" default="0" />
+	<variable id="random_x1" type="expression" default="" expression="random(0.30,0.50)" />
+	<variable id="random_y1" type="expression" default="" expression="random(0.20,0.50)" />
+	<variable id="random_x2" type="expression" default="" expression="random(0.50,0.70)" />
+	<variable id="random_y2" type="expression" default="" expression="random(0.50,0.80)" />
+	
+	<variable id="original_pos1" type="array" default="[0,0]" reference="compcover1.position.x,compcover1.position.y" />
+	<variable id="original_pos2" type="array" default="[0,0]" reference="compcover2.position.x,compcover2.position.y" />
+
+	<variable id="pos_x_test1" type="float" default="0" reference="compcover1.position.x" />
+	<variable id="pos_x_test2" type="float" default="0" reference="compcover2.position.x" />
+	<variable id="pos_x_test3" type="float" default="0" reference="compcover3.position.x" />
+	
+	<variable id="pos_y_test1" type="float" default="0" reference="compcover1.position.y" />
+	<variable id="pos_y_test2" type="float" default="0" reference="compcover2.position.y" />
+	<variable id="pos_y_test3" type="float" default="0" reference="compcover3.position.y" />
+	
+		<variable id="pos_x_exp" type="expression" default="" expression="max(0, 50 - round(sum(abs({{tk_posX}} - [{{pos_x_test1}},{{pos_x_test2}},{{pos_x_test3}}]))-0.5))" />
+		<variable id="pos_y_exp" type="expression" default="" expression="max(0, 50 - round(sum(abs({{tk_posY}} - [{{pos_y_test1}},{{pos_y_test2}},{{pos_y_test3}}]))-0.5))"/>
+	
+		<variable id="pos_exp" type="expression" default="" expression="{{pos_x_exp}} +{{pos_y_exp}}"/>
+	
+		<animation id="appear-compcover1" type="appearFade|scaleTo:0.015;anchorPoint:0.5,0.5;opacity:0;" object="compcover1" positionStart="0.351:0.48" positionEnd="0.351:0.48" positionRelativeTo="scene" startTime="3" endTime="3.5" />
+	<animation id="appear-compcover2" type="appearFade|scaleTo:0.015;anchorPoint:0.5,0.5;opacity:0;" object="compcover2" positionStart="0.189:0.515" positionEnd="0.189:0.515" positionRelativeTo="scene" startTime="3" endTime="3.5" />
+		<animation id="appear-compcover3" type="appearFade|scaleTo:0.015;anchorPoint:0.5,0.5;opacity:0;" object="compcover3" positionStart="0.225:0.37" positionEnd="0.225:0.37" positionRelativeTo="scene" startTime="3" endTime="3.5" />
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="4.5"  />
+	
+
+	<animation id="appear-score" type="appearFade|anchorPoint:1,0" object="textscore" positionStart="0.8:0.7" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="8" endTime="9.5" />
+	<animation id="appear-score-ext" type="appearFade|anchorPoint:0,0" object="textscore-ext" positionStart="0.85:0.7" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="8.6" endTime="9.5" />
+
+	<animation id="scorechange" type="textCounterBasic|start:0;end:{{pos_exp}};valtype:int" object="textscore" startTime="8.5" endTime="10" positionStart="center:center" positionEnd="center:top" positionRelativeTo="globe1" />
+
+	<!-- INTERACTIONS -->
+	<interaction id="enable-drag" type="enableDrag" subtype="basic|direction:x;tint:AF00AF" objects="tree1_8,tree2_7,sun_4" startTime="4.5" endTime="10" actions="onDragEnd:setVar:['tk_posX','active_object','position','x']" />
+	<interaction id="enable-drag" type="enableDrag" subtype="basic|direction:y;tint:AF00AF" objects="tree1_8,tree2_7,sun_4" startTime="4.5" endTime="10" actions="onDragEnd:setVar:['tk_posY','active_object','position','y']" />
+
+	<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:E5D400;tintOver:E5D400" objects="backbut-compare" startTime="4.5" endTime="10" actions="onClick:play" />
+
+	
+	<animation id="titleappear" type="appearFromSide|direction:ttb;elastic:false;anchorPoint:0.5,0.5" object="title-text" startTime="1" endTime="2" positionStart="0.5:-0.22" positionEnd="0.5:0.1" positionRelativeTo="scene" />
+
+
+<animation id="appear_watermark_3" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_3" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_sun_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="sun_4" positionStart="0.865:0.244" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_land2_5" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="land2_5" positionStart="0.255:1.242" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_land1_6" type="appearFade|scaleTo:0.3;opacity:1;anchorPoint:0.5,0.5" object="land1_6" positionStart="0.354:1.232" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_tree2_7" type="appearFade|scaleTo:0.09;opacity:1;anchorPoint:0.5,0.5" object="tree2_7" positionStart="0.62:1.202" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_tree1_8" type="appearFade|scaleTo:0.17;opacity:1;anchorPoint:0.5,0.5" object="tree1_8" positionStart="0.804:1.202" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_golden_rat_9" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="golden_rat_9" positionStart="0.304:0.523" positionRelativeTo="scene" startTime="5.5" endTime="6" />
+<animation id="app-frame" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="frame" positionStart="0.304:0.523" positionRelativeTo="scene" startTime="2" endTime="3" />
+
+
+
+	<animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="3" endTime="3.5" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="3" endTime="3.5" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.5:0.90" positionEnd="0.5:0.90" positionRelativeTo="scene" startTime="3" endTime="3.5" />
+	
+<animation id="key_0_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+
+
+<animation id="key_6_watermark_30" type="basicMove|ease:easeOutQuad;" object="watermark_3" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="1.70" endTime="2.30" />
+
+<animation id="key_3_sun_40" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="sun_4"  startTime="2.00" endTime="3.00" />
+<animation id="key_2_sun_41" type="basicScale|scaleTo:0.060;ease:easeInOutSine;" object="sun_4"  startTime="3.00" endTime="3.30" />
+
+<animation id="key_3_land2_50" type="basicMove|ease:easeInOutQuad;" object="land2_5" positionStart="0.255:1.242"  positionEnd="0.255:0.542"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+<animation id="key_4_land2_51" type="basicMove|ease:easeInOutQuad;" object="land2_5" positionStart="0.255:0.542"  positionEnd="0.255:0.642"  positionRelativeTo="scene" startTime="1.50" endTime="1.80" />
+
+<animation id="key_5_land1_60" type="basicMove|ease:easeInOutQuad;" object="land1_6" positionStart="0.354:1.232"  positionEnd="0.354:0.532"  positionRelativeTo="scene" startTime="0.70" endTime="1.70" />
+<animation id="key_8_land1_61" type="basicMove|ease:easeInOutQuad;" object="land1_6" positionStart="0.354:0.532"  positionEnd="0.354:0.636"  positionRelativeTo="scene" startTime="1.70" endTime="2.00" />
+
+<animation id="key_0_tree2_70" type="basicMove|ease:easeInOutQuad;" object="tree2_7" positionStart="0.620:1.202"  positionEnd="0.620:0.502"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_1_tree2_71" type="basicMove|ease:easeInOutQuad;" object="tree2_7" positionStart="0.620:0.502"  positionEnd="0.620:0.602"  positionRelativeTo="scene" startTime="2.00" endTime="2.30" />
+
+<animation id="key_0_tree1_80" type="basicMove|ease:easeInOutQuad;" object="tree1_8" positionStart="0.804:1.202"  positionEnd="0.804:0.502"  positionRelativeTo="scene" startTime="1.10" endTime="2.10" />
+<animation id="key_2_tree1_81" type="basicMove|ease:easeInOutQuad;" object="tree1_8" positionStart="0.804:0.502"  positionEnd="0.804:0.602"  positionRelativeTo="scene" startTime="2.10" endTime="2.40" />
+
+
+<animation id="key_2_tree1_81" type="basicMove|ease:easeInOutQuad;" object="tree1_8" positionStart="0.804:0.602"  positionEnd="0.351:0.48"  positionRelativeTo="scene" startTime="5.10" endTime="6.40" />
+
+<animation id="key_4_tree2_23" type="basicMove|ease:easeInOutQuad;" object="tree2_7" positionStart="0.620:0.602"  positionEnd="0.189:0.515"  positionRelativeTo="scene" startTime="6" endTime="7" />
+
+
+<animation id="key_1_sun_12" type="basicMove|ease:easeInOutQuad;" object="sun_4" positionStart="0.620:0.602"  positionEnd="0.225:0.37"  positionRelativeTo="scene" startTime="7" endTime="8" />
+
+
+	<animation id="disppear-compcover" type="disappearFade" object="sun_4,tree2_7,tree1_8,land2_5,land1_6,golden_rat_9,frame,watermark_3,title-text,compcover1,compcover2,compcover3,textscore,textscore-ext" positionRelativeTo="scene" startTime="15.6" endTime="16.5" />
+
+
+
+
+ </igml>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

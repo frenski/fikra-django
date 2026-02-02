@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml backgroundColor="#ffffff" height="100%" id="fileinclude" overflow="visible" title="" version="0.1" width="100%">
+
+<object action="link:" id="sound_file" src="audio/vo/environment/air_polution2.mp3" type="sound"/>
+<include duration="1.1" id="scene2" src="xml/clips/antony/environment/air_polution/scenes/vocal.xml" startTime="0"/> 
+<include duration="1" id="scene3" src="xml/clips/antony/environment/air_polution/scenes/needs.xml" startTime="9"/> 
+<include duration="1" id="scene4" src="xml/clips/antony/environment/air_polution/scenes/sources.xml" startTime="20"/> 
+<include duration="1" id="scene5" src="xml/clips/antony/environment/air_polution/scenes/oneyearless.xml" startTime="30"/> 
+<include duration="1" id="scene6" src="xml/clips/antony/environment/air_polution/scenes/map_casulties.xml" startTime="47"/> 
+<include duration="1" id="scene7" src="xml/clips/antony/environment/air_polution/scenes/people.xml" startTime="55"/> 
+<include duration="1" id="scene8" src="xml/clips/antony/environment/air_polution/scenes/areachart.xml" startTime="68"/> 
+<include duration="0.8" id="scene9" src="xml/clips/antony/environment/air_polution/scenes/hair.xml" startTime="74"/> 
+<include duration="1" id="scene10" src="xml/clips/antony/environment/air_polution/scenes/disease.xml" startTime="90"/> 
+<include duration="1" id="scene11" src="xml/clips/antony/environment/air_polution/scenes/kid_adult.xml" startTime="103"/> 
+<include duration="0.8" id="scene12" src="xml/clips/antony/environment/air_polution/scenes/organs.xml" startTime="109"/> 
+
+<animation endTime="200" id="play-sound" object="sound_file" startTime="0" type="playSound|loop:false"/>
+</igml>

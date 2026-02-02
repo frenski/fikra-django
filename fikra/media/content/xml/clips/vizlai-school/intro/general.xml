@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  --><!DOCTYPE IGML><igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Welcome to Vizipedia" description="The original Vizipedia intro" author="Dilyana Assenovska" date="01/03/2022">
+<object type="sound" src="audio/vo/vizlai-school/math/negative-multiplication/music1-piece1_0.mp3" id="vo0"/><object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description=""/>
+<object id="l_1" type="image" src="graphics/education/vizlai-school/intro-general/l_4.svg" editable="true" description=""/>
+<object id="l_2" type="image" src="graphics/education/vizlai-school/intro-general/l_3.svg" editable="true" description=""/>
+<object id="l_3" type="image" src="graphics/education/vizlai-school/intro-general/l_2.svg" editable="true" description=""/>
+<object id="l_4" type="image" src="graphics/education/vizlai-school/intro-general/l_1.svg" editable="true" description=""/>
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:1;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.501" startTime="0" endTime="0" description=" appearing order: 0"/>
+<animation id="appear_l_1" type="appearFade|scaleTo:0.274;opacity:1;anchorPoint:0.5,0.5" object="l_1" positionStart="-0.500:0.667" startTime="0" endTime="0" description=" appearing order: 1"/>
+<animation id="appear_l_2" type="appearFade|scaleTo:0.340;opacity:1;anchorPoint:0.5,0.5" object="l_2" positionStart="-0.503:0.496" startTime="0" endTime="0" description=" appearing order: 2"/>
+<animation id="appear_l_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="l_3" positionStart="0.512:0.497" startTime="0" endTime="0" description=" appearing order: 3"/>
+<animation id="appear_l_4" type="appearFade|scaleTo:0.067;opacity:1;anchorPoint:0.5,0.5" object="l_4" positionStart="0.797:1.407" startTime="0" endTime="0" description=" appearing order: 4"/>
+
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutSine;" object="l_0" positionEnd="0.5:0.5" startTime="0.35" endTime="1.05" description=""/>
+<animation id="s_0_0_l_3" type="basicScale|scaleTo:0.083;ease:easeOutBounce;" object="l_3" startTime="1.2" endTime="2.2" description=""/>
+
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:easeOutSine;" object="l_1" positionEnd="0.500:0.667" startTime="2.5" endTime="4" description=""/>
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutSine;" object="l_2" positionEnd="0.503:0.496" startTime="2.5" endTime="4" description=""/>
+<animation id="r_0_0_l_2" type="basicRotate|angle:360;ease:easeOutSine;" object="l_2" startTime="2.5" endTime="4" description=""/>
+
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutSine;" object="l_4" positionEnd="0.528:0.584" startTime="4" endTime="5" description=""/>
+
+<animation id="s_0_0_l_1" type="basicScale|scaleTo:0.25;" object="l_1" positionEnd="0.500:0.501" startTime="6" endTime="6.5" description=""/>
+<animation id="m_0_1_l_2" type="basicMove|axis:xy;ease:easeOutSine;" object="l_2" positionEnd="0.513:0.476" startTime="6" endTime="6.5" description=""/>
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutSine;" object="l_3" positionEnd="0.522:0.477" startTime="6" endTime="6.5" description=""/>
+<animation id="m_0_1_l_4" type="basicMove|axis:xy;ease:easeOutSine;" object="l_4" positionEnd="0.538:0.564" startTime="6" endTime="6.5" description=""/>
+
+<animation id="s_0_1_l_1" type="basicScale|scaleTo:0.2;" object="l_1" positionEnd="0.500:0.501" startTime="6.7" endTime="7.5" description=""/>
+<animation id="m_0_1_l_1" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_1" positionEnd="1.400:0.667" startTime="6.7" endTime="7.5" description=""/>
+<animation id="m_0_2_l_2" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_2" positionEnd="1.413:0.376" startTime="6.7" endTime="7.5" description=""/>
+<animation id="m_0_1_l_3" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_3" positionEnd="1.422:0.377" startTime="6.7" endTime="7.5" description=""/>
+<animation id="m_0_2_l_4" type="basicMove|axis:xy;ease:easeInOutSine;" object="l_4" positionEnd="1.438:0.464" startTime="6.7" endTime="7.5" description=""/>
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_1,l_2,l_3,l_4" positionRelativeTo="scene" startTime="7.5" endTime="7.5"/>
+
+
+
+<animation type="playSound|loop:false" id="play-vo0" object="vo0" startTime="0.0" endTime="7.5"/></igml>

@@ -1,0 +1,19 @@
+
+cortes rig
+
+remove legs
+
+hide hat, mustache, beard, backhair
+
+body_6 pos 0.25:0.3 scaleTo 0.15
+eye-r_22 pos -0.163:-0.22
+eye-l_23 pos -0.13:-0.22
+hair_21 pos -0.1375:-0.28 scaleTo 0.1
+eyebrow-r_24 pos -0.163:-0.25
+eyebrow-l_25 pos -0.13:-0.24
+nose_26 pos -0.146:-0.18 scaleTo 0.015
+mouth_27 pos -0.146:-0.15 scaleTo 0.015
+for now the ears are added to the head - head scaleTo 1.00
+joints  arm-upper_6 [0.5,0.9],[1.5,0.75],[0.5,0.1],[-0.33,-0.25]
+joinds arm-upper_1 [0.5,0.9],[1.5,0.75],[0.5,0.1],[0.33,-0.25]
+

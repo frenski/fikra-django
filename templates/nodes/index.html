@@ -1,0 +1,442 @@
+{% extends "nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% block title %} {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/home.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/individual.css" %}">
+{% endblock %}
+
+{% block extra_header %}
+	{% if landing_page %}
+	{% endif %}
+{% endblock %}
+
+{% block article_main %}
+
+
+<section class="relative min-h-screen flex items-center overflow-hidden pt-20">
+	<div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('{% static "img/b2c-back.png" %}');"></div>
+	<div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30"></div>
+	<div class="container mx-auto px-4 relative z-10">
+		<div class="max-w-2xl">
+			<div class="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-8">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-vizi-yellow"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>
+				<span class="text-primary-foreground text-sm font-medium">{% trans "AI-Powered Learning Games" %}</span>
+			</div>
+			<h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground mb-6 leading-tight">{% trans "Learn Through" %}<br>
+				<span class="relative inline-block">{% trans "Play" %}
+					<svg class="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" fill="none">
+					<path d="M2 10C50 2 150 2 198 10" stroke="hsl(var(--vizi-yellow))" stroke-width="4" stroke-linecap="round"></path>
+				</svg>
+			</span></h1>
+			<p class="text-lg md:text-xl text-primary-foreground/90 mb-4 max-w-xl leading-relaxed">{% trans "Create quiz games, trivia challenges, and learning adventures. No coding, no design skills, just AI and your imagination." %}</p>
+			<p class="text-base md:text-lg text-primary-foreground/70 mb-10 max-w-xl leading-relaxed">{% trans "Whether you're cramming for exams, hosting game night, learning a new language, or just curious, Vizipedia transforms any topic into an interactive game, making education addictive." %}</p>
+			<div class="flex flex-col sm:flex-row items-start gap-4">
+				<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 bg-primary-foreground text-primary hover:bg-primary-foreground/90 rounded-full px-8 py-6 text-lg font-bold shadow-strong transition-all hover:scale-105">{% trans "Start Creating for Free" %}</button>
+			</div>
+				<div class="mt-16 flex flex-wrap items-start gap-8 text-primary-foreground/60">
+					<div class="flex items-center gap-2">
+						<span class="text-2xl font-bold text-primary-foreground">5K+</span>
+						<span class="text-sm">{% trans "Games Created" %}</span>
+					</div>
+					<div class="w-px h-8 bg-primary-foreground/20">
+					</div>
+					<div class="flex items-center gap-2">
+						<span class="text-2xl font-bold text-primary-foreground">10K+</span>
+						<span class="text-sm">{% trans "Active Learners" %}</span>
+					</div>
+					<div class="w-px h-8 bg-primary-foreground/20"></div>
+					<div class="flex items-center gap-2">
+						<span class="text-2xl font-bold text-primary-foreground">4.9★</span>
+						<span class="text-sm">{% trans "User Rating" %}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="absolute bottom-0 left-0 right-0" style="bottom: -1px;">
+			<svg viewBox="0 0 1440 120" fill="none" class="w-full h-auto"><path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="hsl(var(--background))"></path></svg>
+		</div>
+</section>
+
+
+<section class="py-20 md:py-32 bg-background" id="about">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-16">
+			<span class="inline-block text-muted-foreground text-sm font-semibold uppercase tracking-widest mb-4">{% trans "Why Vizipedia" %}</span>
+			<h2 class="text-3xl md:text-5xl font-extrabold text-foreground mb-4">{% trans "Turn Learning Into Your" %} <span class="gradient-text">{% trans "Next Favorite Game" %}</span></h2>
+			<p class="text-muted-foreground text-lg max-w-2xl mx-auto">{% trans "Homework feeling impossible? Planning a trivia night? Want to finally understand cryptocurrency? Learning doesn't need to be boring." %}</p>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+			<div class="group bg-card rounded-3xl p-8 shadow-soft card-hover border border-border" style="animation-delay: 0s;">
+				<div class="w-14 h-14  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform overflow-hidden">
+					<img src="{% static "img/icons/icon-illu-brain.png" %}" alt="Study Smarter" class="w-14 h-14 object-cover rounded-2xl">
+				</div>
+				<h3 class="text-xl font-bold text-card-foreground mb-3">{% trans "Study Smarter" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Explore biology, chemistry, physics and more through interactive games." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft card-hover border border-border" style="animation-delay: 0.1s;">
+				<div class="w-14 h-14  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform overflow-hidden">
+					<img src="{% static "img/icons/icon-illu-hat.png" %}" alt="Host Game Nights" class="w-14 h-14 object-cover rounded-2xl">
+				</div>
+				<h3 class="text-xl font-bold text-card-foreground mb-3">{% trans "Host Game Nights" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Challenge yourself with advanced trivia across multiple subjects." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft card-hover border border-border" style="animation-delay: 0.2s;">
+				<div class="w-14 h-14  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform overflow-hidden">
+					<img src="{% static "img/icons/icon-illu-book.png" %}" alt="Master Hard Topics" class="w-14 h-14 object-cover rounded-2xl">
+				</div>
+				<h3 class="text-xl font-bold text-card-foreground mb-3">{% trans "Master Hard Topics" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Boost cognitive skills with engaging memory and puzzle games." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft card-hover border border-border" style="animation-delay: 0.3s;">
+				<div class="w-14 h-14  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform overflow-hidden">
+					<img src="{% static "img/icons/icon-illu-langs.png" %}" alt="Learn Language" class="w-14 h-14 object-cover rounded-2xl">
+				</div>
+				<h3 class="text-xl font-bold text-card-foreground mb-3">{% trans "Learn Language" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Master new languages through fun vocabulary and grammar games." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft card-hover border border-border" style="animation-delay: 0.4s;">
+				<div class="w-14 h-14  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform overflow-hidden">
+					<img src="{% static "img/icons/icon-illu-trophie.png" %}" alt="Challenge Friends" class="w-14 h-14 object-cover rounded-2xl">
+				</div>
+				<h3 class="text-xl font-bold text-card-foreground mb-3">{% trans "Challenge Friends" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Compete with friends and classmates in multiplayer learning games." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft card-hover border border-border" style="animation-delay: 0.5s;">
+				<div class="w-14 h-14  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform overflow-hidden">
+					<img src="{% static "img/icons/icon-illu-blackboard.png" %}" alt="Professional Training" class="w-14 h-14 object-cover rounded-2xl">
+				</div>
+				<h3 class="text-xl font-bold text-card-foreground mb-3">{% trans "Professional Training" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Create custom training games for corporate and professional education." %}</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="py-20 md:py-32 bg-[#1a1f2e]" id="how-it-works">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-16">
+			<span class="inline-block text-gray-400 text-sm font-semibold uppercase tracking-widest mb-4">{% trans "How It Works</span>
+			<h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4">{% trans "Create Your First Game" %}
+				<span class="gradient-text">{% trans "in Minutes" %}</span>
+			</h2>
+			<p class="text-gray-400 text-lg max-w-2xl mx-auto">{% trans "No design skills needed. Just describe what you want to learn." %}</p>
+		</div>
+		<div class="relative max-w-6xl mx-auto">
+			<div class="hidden lg:block absolute top-12 left-0 right-0 z-0">
+				<div class="flex items-center justify-center px-24">
+					<div class="flex-1 h-1 bg-gradient-to-r from-purple-500 via-emerald-400 to-pink-500 rounded-full opacity-60">
+					</div>
+				</div>
+			</div>
+			<div class="lg:hidden absolute left-12 top-12 bottom-12 w-1 z-0">
+				<div class="h-full bg-gradient-to-b from-purple-500 via-emerald-400 to-pink-500 rounded-full opacity-60">
+				</div>
+			</div>
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+				<div class="relative pt-6 pl-6 lg:pl-0">
+					<div class="absolute -top-0 left-6 lg:left-6 w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-lg z-10 shadow-lg" style="top: -20px;">01</div>
+					<div class="hidden lg:flex absolute -right-4 top-6 z-10">
+						<div class="w-2 h-2 bg-gray-500 rounded-full"></div>
+					</div>
+					<div class="bg-[#232838] rounded-2xl p-8 pt-12 border border-gray-700/50 h-full ml-6 lg:ml-0">
+						<h3 class="text-xl font-bold text-white mb-3">{% trans "Choose a Game Engine And Topic" %}</h3>
+						<p class="text-gray-400 leading-relaxed">{% trans "Pick from trivia, flashcards, matching games, word puzzles, and more" %}</p>
+					</div>
+				</div>
+				<div class="relative pt-6 pl-6 lg:pl-0">
+					<div class="absolute -top-0 left-6 lg:left-6 w-12 h-12 bg-emerald-400 rounded-full flex items-center justify-center text-white font-bold text-lg z-10 shadow-lg" style="top: -20px;">02</div>
+					<div class="hidden lg:flex absolute -right-4 top-6 z-10">
+						<div class="w-2 h-2 bg-gray-500 rounded-full">
+						</div>
+					</div>
+					<div class="bg-[#232838] rounded-2xl p-8 pt-12 border border-gray-700/50 h-full ml-6 lg:ml-0">
+						<h3 class="text-xl font-bold text-white mb-3">{% trans "AI generates" %}</h3>
+						<p class="text-gray-400 leading-relaxed">{% trans "questions, graphics, storylines, and difficulty levels - your complete game in seconds" %}</p>
+					</div>
+				</div>
+				<div class="relative pt-6 pl-6 lg:pl-0">
+					<div class="absolute -top-0 left-6 lg:left-6 w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg z-10 shadow-lg" style="top: -20px;">03</div>
+					<div class="bg-[#232838] rounded-2xl p-8 pt-12 border border-gray-700/50 h-full ml-6 lg:ml-0">
+						<h3 class="text-xl font-bold text-white mb-3">{% trans "Share it instantly with friends or classmates" %}</h3>
+						<p class="text-gray-400 leading-relaxed">{% trans "on WhatsApp, track scores, and build your game library" %}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="py-20 md:py-32 bg-background" id="games">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-12">
+			<span class="inline-block text-muted-foreground text-sm font-semibold uppercase tracking-widest mb-4">{% trans "Game Library" %}</span>
+			<h2 class="text-3xl md:text-5xl font-extrabold text-foreground mb-4">{% trans "Discover Games" %} <span class="gradient-text">{% trans "Made by Users" %}</span></h2>
+			<p class="text-muted-foreground text-lg max-w-2xl mx-auto">{% trans "Explore thousands of games created by educators and learners worldwide." %}</p>
+		</div>
+		<div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
+			<button class="px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold transition-all bg-muted text-muted-foreground hover:bg-secondary hover:text-secondary-foreground">{% trans "Exam Prep Heroes" %}</button>
+			<button class="px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold transition-all bg-muted text-muted-foreground hover:bg-secondary hover:text-secondary-foreground">{% trans "Language Adventures" %}</button>
+			<button class="px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold transition-all bg-primary text-primary-foreground shadow-purple">{% trans "Career Builders" %}</button>
+			<button class="px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold transition-all bg-muted text-muted-foreground hover:bg-secondary hover:text-secondary-foreground">{% trans "Pop Culture Trivia" %}</button>
+			<button class="px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold transition-all bg-muted text-muted-foreground hover:bg-secondary hover:text-secondary-foreground">{% trans "Brain Training" %}</button>
+			<button class="px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold transition-all bg-muted text-muted-foreground hover:bg-secondary hover:text-secondary-foreground">{% trans "Random Fun" %}</button>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></div>
+		<div class="text-center mt-12">
+			<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-full px-8 bg-[#7529D4] hover:bg-[#6020b0] text-white">{% trans "View More Games" %}</button>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="py-20 md:py-32 bg-[#e8edf4]">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-16">
+			<span class="inline-block text-muted-foreground text-sm font-semibold uppercase tracking-widest mb-4">{% trans "For Players" %}</span>
+			<h2 class="text-3xl md:text-5xl font-extrabold text-foreground mb-4">{% trans "Choose Your " %}<span class="gradient-text">{% trans "Play Style" %}</span></h2>
+			<p class="text-muted-foreground text-lg max-w-2xl mx-auto">{% trans "Whether you prefer focused solo learning or collaborative team experiences, we have the perfect game mode for you." %}</p>
+		</div>
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+			<div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+				<div class="h-56 overflow-hidden">
+					<img src="{% static "img/engines-thmb/sample-game-solo.png" %}" alt="Solo Adventure" class="w-full h-full object-cover"></div>
+					<div class="p-6">
+						<div class="flex items-center gap-3 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-5 h-5 text-[#6b7c99]"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><h3 class="text-xl font-bold text-[#1a2233]">{% trans "Solo Adventure" %}</h3>
+						</div>
+						<p class="text-[#6b7c99] text-sm mb-4 ml-8">{% trans "Play at your own pace" %}</p><p class="text-[#4a5568] mb-4 leading-relaxed">{% trans "Embark on a personal learning journey where you can focus, reflect, and master concepts at your own speed." %}</p><span class="inline-block bg-[#e8edf4] text-[#1a2233] px-4 py-2 rounded-full text-sm font-medium mb-6">{% trans "Self-Paced Learning" %}</span>
+						<div><p class="text-[#1a2233] font-medium mb-3">{% trans "What you'll learn:" %}</p>
+							<div class="space-y-3">
+								<div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe w-5 h-5 text-[#6b7c99]"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg><span class="text-[#4a5568]">{% trans "Critical thinking &amp; problem solving" %}</span></div>
+								<div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-5 h-5 text-[#6b7c99]"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg><span class="text-[#4a5568]">{% trans "Personal goal setting & achievement" %}</span></div><div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-5 h-5 text-[#6b7c99]"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg><span class="text-[#4a5568]">{% trans "Deep subject mastery" %}</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+					<div class="h-56 overflow-hidden">
+						<img src="{% static "img/engines-thmb/sample-game-multi.png" %}" alt="Team Challenge" class="w-full h-full object-cover">
+					</div>
+					<div class="p-6">
+						<div class="flex items-center gap-3 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-5 h-5 text-[#6b7c99]"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+							<h3 class="text-xl font-bold text-[#1a2233]">{% trans "Team Challenge" %}</h3>
+						</div>
+						<p class="text-[#6b7c99] text-sm mb-4 ml-8">{% trans "Compete &amp; collaborate with friends" %}</p>
+						<p class="text-[#4a5568] mb-4 leading-relaxed">{% trans "Join forces with colleagues or compete against friends in engaging multiplayer experiences that build teamwork." %}</p><span class="inline-block bg-[#e8edf4] text-[#1a2233] px-4 py-2 rounded-full text-sm font-medium mb-6">{% trans "Collaborative Learning" %}</span>
+						<div>
+							<p class="text-[#1a2233] font-medium mb-3">{% trans "What you'll learn:" %}</p>
+							<div class="space-y-3">
+								<div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-5 h-5 text-[#6b7c99]"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span class="text-[#4a5568]">{% trans "Team communication &amp; coordination" %}</span>
+								</div>
+								<div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb w-5 h-5 text-[#6b7c99]"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg><span class="text-[#4a5568]">{% trans "Shared problem solving strategies" %}</span>
+								</div>
+								<div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy w-5 h-5 text-[#6b7c99]"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg><span class="text-[#4a5568]">{% trans "Competitive drive &amp; motivation" %}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<section class="py-20 md:py-32 bg-background" id="library">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-16">
+			<span class="inline-block text-muted-foreground text-sm font-semibold uppercase tracking-widest mb-4">{% trans "For Creators" %}</span>
+			<h2 class="text-3xl md:text-5xl font-extrabold text-foreground mb-4">{% trans "Choose Your" %} <span class="gradient-text">Game Type</span></h2>
+			<p class="text-muted-foreground text-lg max-w-2xl mx-auto">{% trans "From immersive RPGs to quick quizzes – find the perfect game format for any learning goal." %}</p>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+			<div class="group bg-card rounded-3xl p-8 shadow-soft border border-border card-hover cursor-pointer">
+				<img src="{% static "img/engines-thmb/game_sample_pointnclick.png" %}" alt="Point &amp; Click Adventure" class="w-24 h-24 rounded-xl object-cover mb-6 group-hover:scale-110 transition-all">
+				<h3 class="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">{% trans "Point &amp; Click Adventure" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Interactive story-driven experiences with exploration and discovery." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft border border-border card-hover cursor-pointer">
+				<img src="{% static "img/engines-thmb/game_sample_endlessrunner.png" %}" alt="Endless Runner" class="w-24 h-24 rounded-xl object-cover mb-6 group-hover:scale-110 transition-all">
+				<h3 class="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">{% trans "Endless Runner" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Fast-paced action games that test reflexes and quick thinking." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft border border-border card-hover cursor-pointer">
+				<img src="{% static "img/engines-thmb/game_sample_occupation.png" %}" alt="Area Conquest" class="w-24 h-24 rounded-xl object-cover mb-6 group-hover:scale-110 transition-all">
+				<h3 class="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">{% trans "Area Conquest" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Strategic territory-based games with progression and challenges." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft border border-border card-hover cursor-pointer">
+				<img src="{% static "img/engines-thmb/game_sample_mapconv.png" %}" alt="Conversation &amp; Map" class="w-24 h-24 rounded-xl object-cover mb-6 group-hover:scale-110 transition-all">
+				<h3 class="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">{% trans "Conversation &amp; Map" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Dialogue-driven adventures with interactive map exploration." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft border border-border card-hover cursor-pointer">
+				<img src="{% static "img/engines-thmb/game_sample_swipedivider.png" %}" alt="Flying Objects" class="w-24 h-24 rounded-xl object-cover mb-6 group-hover:scale-110 transition-all">
+				<h3 class="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">{% trans "Flying Objects" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Dynamic aerial games with obstacles and collectibles." %}</p>
+			</div>
+			<div class="group bg-card rounded-3xl p-8 shadow-soft border border-border card-hover cursor-pointer">
+				<img src="{% static "img/engines-thmb/game_sample_quizchallenge.png" %}" alt="Quiz Challenge" class="w-24 h-24 rounded-xl object-cover mb-6 group-hover:scale-110 transition-all">
+				<h3 class="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">{% trans "Quiz Challenge" %}</h3>
+				<p class="text-muted-foreground leading-relaxed">{% trans "Classic quiz format with timers, scoring, and leaderboards." %}</p>
+			</div>
+		</div>
+		<div class="text-center mt-12">
+			<button class="bg-[#7328D2] hover:bg-[#5e20a8] text-white font-semibold py-3 px-8 rounded-full transition-colors">{% trans "View All" %}</button>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="py-20 md:py-32 bg-[#e8edf4]">
+	<div class="container mx-auto px-4">
+		<div class="text-center mb-16">
+			<span class="inline-block text-muted-foreground text-sm font-semibold uppercase tracking-widest mb-4">{% trans "Testimonials" %}</span>
+			<h2 class="text-3xl md:text-5xl font-extrabold text-foreground mb-4">{% trans "Why Users" %} <span class="gradient-text">{% trans "Love Vizi" %}</span></h2>
+			<p class="text-muted-foreground text-lg max-w-2xl mx-auto">{% trans "Join thousands of happy learners and educators who have transformed their learning experience." %}</p>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
+			<div class="bg-card rounded-3xl p-8 shadow-soft border border-border card-hover">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-10 h-10 text-primary/20 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+				<p class="text-card-foreground text-lg leading-relaxed mb-6">{% trans "\"Vizipedia transformed my classroom! Students are actually excited about quizzes now. The AI-generated games save me hours of prep time.\"" %}</p>
+				<div class="flex gap-1 mb-6">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+				</div>
+				<div class="flex items-center gap-4">
+					<img src="https://api.dicebear.com/7.x/avataaars/svg?seed=sarah" alt="Sarah Johnson" class="w-12 h-12 rounded-full">
+					<div>
+						<h4 class="font-bold text-card-foreground">{% trans "Sarah Johnson" %}</h4>
+						<p class="text-sm text-muted-foreground">{% trans "High School Teacher" %}</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg-card rounded-3xl p-8 shadow-soft border border-border card-hover">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-10 h-10 text-primary/20 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+				<p class="text-card-foreground text-lg leading-relaxed mb-6">{% trans " \"I used Vizipedia to study for my finals and aced them all. Turning my notes into games made studying actually fun for once!\"" %}</p>
+				<div class="flex gap-1 mb-6">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+					</svg>
+				</div>
+				<div class="flex items-center gap-4">
+					<img src="https://api.dicebear.com/7.x/avataaars/svg?seed=marcus" alt="Marcus Chen" class="w-12 h-12 rounded-full">
+					<div><h4 class="font-bold text-card-foreground">{% trans "Marcus Chen" %}</h4>
+						<p class="text-sm text-muted-foreground">{% trans "College Student" %}</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg-card rounded-3xl p-8 shadow-soft border border-border card-hover">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-10 h-10 text-primary/20 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+				</svg>
+				<p class="text-card-foreground text-lg leading-relaxed mb-6">{% trans " \"We use Vizipedia for employee onboarding and training. Engagement is through the roof compared to traditional methods.\"" %}</p>
+				<div class="flex gap-1 mb-6">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+					</svg>
+				</div>
+				<div class="flex items-center gap-4">
+					<img src="https://api.dicebear.com/7.x/avataaars/svg?seed=emily" alt="Emily Rodriguez" class="w-12 h-12 rounded-full">
+					<div>
+						<h4 class="font-bold text-card-foreground">{% trans "Emily Rodriguez" %}</h4>
+						<p class="text-sm text-muted-foreground">{% trans "Corporate Trainer" %}</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg-card rounded-3xl p-8 shadow-soft border border-border card-hover">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-10 h-10 text-primary/20 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+				<p class="text-card-foreground text-lg leading-relaxed mb-6">{% trans "\"My kids beg to \'play school\' now! Vizipedia made homework something they actually look forward to. Worth every penny.\"" %}</p>
+				<div class="flex gap-1 mb-6">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-accent"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+					</svg>
+				</div>
+				<div class="flex items-center gap-4">
+					<img src="https://api.dicebear.com/7.x/avataaars/svg?seed=david" alt="David Kim" class="w-12 h-12 rounded-full">
+					<div>
+						<h4 class="font-bold text-card-foreground">{% trans "David Kim" %}</h4>
+						<p class="text-sm text-muted-foreground">{% trans "Parent" %}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="py-24 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="relative rounded-[2.5rem] overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-primary via-pink to-secondary"></div>
+      <div class="absolute top-10 left-10 w-32 h-32 bg-primary-foreground/10 rounded-full blur-2xl"></div>
+      <div class="absolute bottom-10 right-10 w-40 h-40 bg-primary-foreground/10 rounded-full blur-2xl"></div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles absolute top-8 right-12 w-8 h-8 text-primary-foreground/30 animate-bounce-soft">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+        <path d="M20 3v4"></path>
+        <path d="M22 5h-4"></path>
+        <path d="M4 17v2"></path>
+        <path d="M5 18H3"></path>
+      </svg>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles absolute bottom-12 left-16 w-6 h-6 text-primary-foreground/30 animate-bounce-soft" style="animation-delay: 1s;">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+        <path d="M20 3v4"></path>
+        <path d="M22 5h-4"></path>
+        <path d="M4 17v2"></path>
+        <path d="M5 18H3"></path>
+      </svg>
+
+      <div class="relative z-10 py-16 px-8 md:px-16 text-center text-primary-foreground">
+        <h2 class="text-4xl md:text-5xl font-bold font-heading mb-4">
+          {% trans "Start Creating for Free" %}
+        </h2>
+
+        <p class="text-xl opacity-90 max-w-xl mx-auto mb-8">
+          {% trans "Create your first game in a 14-day trial." %}
+        </p>
+
+        <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 text-lg px-10 py-7 rounded-2xl bg-primary-foreground text-primary hover:bg-primary-foreground/90 transition-all duration-300 hover:scale-105 shadow-xl">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket w-5 h-5 mr-2">
+            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+          </svg>
+          {% trans "Get Started for Free" %}
+        </button>
+
+        <p class="mt-6 text-sm opacity-75">
+          {% trans "Join 10,000+ learners already playing" %}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}

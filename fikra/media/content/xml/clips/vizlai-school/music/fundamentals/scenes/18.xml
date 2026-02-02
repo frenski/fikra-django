@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description=""  />
+
+<object id="path_1" type="shape" shapetype="path" color="#FFFFFF" stroke="#FFFFFF" strokeWidth="6" size="0,0,1080,1080" path="M448.7,717.4v-73.7c0-39.8-12.5-73.9-38.4-104.2c-23.8-27.9-36.9-63.5-36.9-100.2c0-85.1,69.3-154.4,154.4-154.4c81.3,0,148.9,63.5,154.1,144.5c0.8,12.4,3.9,22.7,10.1,33.4l36,62.3l-38.5,21.3v39.4c0,18.1-11.6,33.4-30.3,40l-23.4,8.2c-23.5,8.2-34,17.1-34.1,28.6l-0.1,54.8" editable="true" />
+
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.500:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.25" endTime="1.25" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.500:0.500" startTime="0.35" endTime="1.35" description="" />
+
+<animation id="draw-path" type="drawPathOfShapes|scaleTo:0.6;shapeType:circ;intervalGap:8" object="path_1" positionStart="0:0" positionRelativeTo="scene" startTime="1" endTime="5" />
+
+
+<animation id="disappear_all" type="disappearFade|cover:self" object="l_0,path_1"  startTime="6" endTime="7" description="" />
+
+</igml>

@@ -1,0 +1,7 @@
+audio:audio/vo/environment/climate_change.mp3
+
+start at  0:300
+
+xml/clips/environment/climate_change/
+
+planet:0-1,last_years:13-0.9,closeplanet:22-1,disasters:31-1,poles:39-1,poles:47-1,rises:54-1,heatcos:64-1,planetbite:74-1,map:81-1,foodwaterair:90-1,crops:97-0.85,area_chart_sea:106-1,map_casulties:114-1,energy_cut:124-1,imported_eu:131-1,kid:137-0.8,worker:150-1,desolve:157-1

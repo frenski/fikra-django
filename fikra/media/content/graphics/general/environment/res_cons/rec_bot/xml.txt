@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="rect_0" type="shape" shapetype="rect" size="0.5,1" color="#e9f7b9" strokeWidth="0" action="link" editable="true"/>
+
+
+
+
+
+
+
+
+
+
+
+<object id="bottle_7" type="image" src="graphics/general/enviroment/preventive_actions/bottle.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="watericon_10" type="image" src="graphics/general/enviroment/preventive_actions/res_cons/rec_bot/watericon.svg" action="link" editable="true" />
+
+<object id="bottleicon_11" type="image" src="graphics/general/enviroment/preventive_actions/res_cons/rec_bot/bottleicon.svg" action="link" editable="true" />
+
+<object id="recycleicon_12" type="image" src="graphics/general/enviroment/preventive_actions/res_cons/rec_bot/recycleicon.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+<object id="txt_16" type="text" text="REDUCE" size="55" align = "center" color="#99ce4d" width="55" font="Calibri" wordWrap="true" wordWrapWidth="0"/>
+
+<object id="txt_17" type="text" text="REUSE" size="55" align = "center" color="#99ce4d" width="55" font="Calibri" wordWrap="true" wordWrapWidth="0"/>
+
+<object id="txt_18" type="text" text="RECYCLE" size="55" align = "center" color="#99ce4d" width="55" font="Calibri" wordWrap="true" wordWrapWidth="0"/>
+
+<object id="shadow_19" type="image" src="graphics/general/enviroment/preventive_actions/res_cons/rec_bot/shadow.svg" action="link" editable="true" />
+
+
+
+
+
+
+
+
+
+<animation id="appear_rect_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_0" positionStart="0.5:3" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+
+
+<animation id="appear_bottle_7" type="appearFade|scaleTo:0.11;opacity:1;anchorPoint:0.5,0.5" object="bottle_7" positionStart="-0.83:0.51" positionRelativeTo="scene" startTime="1" endTime="1.1" />
+
+
+
+
+
+<animation id="appear_watericon_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="watericon_10" positionStart="0.57:0.33" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bottleicon_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="bottleicon_11" positionStart="0.57:0.51" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_recycleicon_12" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="recycleicon_12" positionStart="0.57:0.69" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+<animation id="appear_txt_16" type="appearFade|scaleTo:0.16;opacity:1;anchorPoint:0.5,0.5" object="txt_16" positionStart="0.71:0.33" positionRelativeTo="scene" startTime="3" endTime="4" />
+
+<animation id="appear_txt_17" type="appearFade|scaleTo:0.16;opacity:1;anchorPoint:0.5,0.5" object="txt_17" positionStart="0.71:0.50" positionRelativeTo="scene" startTime="4" endTime="5" />
+
+<animation id="appear_txt_18" type="appearFade|scaleTo:0.16;opacity:1;anchorPoint:0.5,0.5" object="txt_18" positionStart="0.71:0.67" positionRelativeTo="scene" startTime="5" endTime="6" />
+
+<animation id="appear_shadow_19" type="appearFade|scaleTo:0.15,0.03;opacity:0.5;anchorPoint:0.5,0.5" object="shadow_19" positionStart="-0.83:0.76" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+
+
+
+
+<animation id="key_5_rect_00" type="basicMove|ease:easeOutExpo;" object="rect_0" positionStart="0.500:3.000"  positionEnd="0.500:1.700"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_5_bottle_70" type="basicMove|ease:easeOutCubic;" object="bottle_7" positionStart="-0.830:0.510"  positionEnd="0.436:0.510"  positionRelativeTo="scene" startTime="1.00" endTime="1.60" />
+
+<animation id="key_3_0" type="basicMove" object="" positionStart="2.070:0.530"  positionEnd="1.070:0.530"  positionRelativeTo="scene" startTime="2.00" endTime="2.70" />
+
+
+
+<animation id="key_5_watericon_100" type="basicScale|scaleTo:0.140;ease:easeInOutCubic;" object="watericon_10"  startTime="2.00" endTime="2.50" />
+<animation id="key_2_watericon_101" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="watericon_10"  startTime="2.50" endTime="2.80" />
+
+<animation id="key_1_bottleicon_110" type="basicScale|scaleTo:0.140;ease:easeInOutCubic;" object="bottleicon_11"  startTime="2.10" endTime="2.60" />
+<animation id="key_6_bottleicon_111" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="bottleicon_11"  startTime="2.60" endTime="2.90" />
+
+<animation id="key_4_recycleicon_120" type="basicScale|scaleTo:0.140;ease:easeInOutCubic;" object="recycleicon_12"  startTime="2.20" endTime="2.70" />
+<animation id="key_4_recycleicon_121" type="basicScale|scaleTo:0.100;ease:easeInOutCubic;" object="recycleicon_12"  startTime="2.70" endTime="3.00" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<animation id="key_0_shadow_190" type="basicMove|ease:easeOutCubic;" object="shadow_19" positionStart="-0.830:0.760"  positionEnd="0.436:0.760"  positionRelativeTo="scene" startTime="1.00" endTime="1.60" />
+
+
+
+
+
+
+
+
+
+ </igml>

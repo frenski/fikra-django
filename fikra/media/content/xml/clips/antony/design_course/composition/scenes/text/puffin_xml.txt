@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="bg.svg_0" type="image" src="graphics/design/composition/puffin/bg.svg" action="link" editable="true" />
+
+<object id="smallpic.svg_1" type="image" src="graphics/design/composition/puffin/smallpic.svg" action="link" editable="true" />
+
+<object id="smallpic.jpg_2" type="image" src="graphics/design/composition/puffin/smallpic.jpg" action="link" editable="true" />
+
+<object id="bigpic.svg_3" type="image" src="graphics/design/composition/puffin/bigpic.svg" action="link" editable="true" />
+
+<object id="bigpic.jpg_4" type="image" src="graphics/design/composition/puffin/bigpic.jpg" action="link" editable="true" />
+
+<object id="arrow.svg_5" type="image" src="graphics/design/composition/puffin/arrow.svg" action="link" editable="true" />
+
+<object id="square_6" type="image" src="graphics/design/composition/puffin/square.svg" action="link" editable="true" />
+
+
+
+
+
+
+<animation id="appear_bg.svg_0" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5:0.5" object="bg.svg_0" positionStart="0.50:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_smallpic.svg_1" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5:0.5" object="smallpic.svg_1" positionStart="-0.17:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_smallpic.jpg_2" type="appearFade|scaleTo:0.23;opacity:1;anchorPoint:0.5:0.5" object="smallpic.jpg_2" positionStart="-0.17:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bigpic.svg_3" type="appearFade|scaleTo:0.35;opacity:1;anchorPoint:0.5:0.5" object="bigpic.svg_3" positionStart="-0.17:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bigpic.jpg_4" type="appearFade|scaleTo:0.32;opacity:1;anchorPoint:0.5:0.5" object="bigpic.jpg_4" positionStart="-0.17:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_arrow.svg_5" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5:0.5" object="arrow.svg_5" positionStart="0.39:0.52" positionRelativeTo="scene" startTime="5" endTime="6" />
+
+<animation id="appear_square_6" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5:0.5" object="square_6" positionStart="0.28:0.52" positionRelativeTo="scene" startTime="2" endTime="4" />
+
+
+
+
+
+
+
+
+
+<animation id="key_1_smallpic.svg_10" type="basicMove|ease:easeOutExpo;" object="smallpic.svg_1" positionStart="-0.170:0.500"  positionEnd="-0.170:0.500"  positionRelativeTo="scene" startTime="1.00" endTime="1.97" />
+<animation id="key_3_smallpic.svg_11" type="basicMove|ease:easeOutExpo;" object="smallpic.svg_1" positionStart="-0.170:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="1.97" endTime="2.85" />
+<animation id="key_0_smallpic.svg_12" type="basicMove|ease:easeOutExpo;" object="smallpic.svg_1" positionStart="0.280:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="2.85" endTime="4.00" />
+<animation id="key_7_smallpic.svg_13" type="basicMove|ease:easeOutExpo;" object="smallpic.svg_1" positionStart="0.280:0.500"  positionEnd="0.730:0.500"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+
+<animation id="key_3_smallpic.jpg_20" type="basicMove|ease:easeOutExpo;" object="smallpic.jpg_2" positionStart="-0.170:0.500"  positionEnd="-0.170:0.500"  positionRelativeTo="scene" startTime="1.00" endTime="1.97" />
+<animation id="key_7_smallpic.jpg_21" type="basicMove|ease:easeOutExpo;" object="smallpic.jpg_2" positionStart="-0.170:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="1.97" endTime="2.85" />
+<animation id="key_0_smallpic.jpg_22" type="basicMove|ease:easeOutExpo;" object="smallpic.jpg_2" positionStart="0.280:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="2.85" endTime="4.00" />
+<animation id="key_2_smallpic.jpg_23" type="basicMove|ease:easeOutExpo;" object="smallpic.jpg_2" positionStart="0.280:0.500"  positionEnd="0.730:0.500"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+
+<animation id="key_4_bigpic.svg_30" type="basicMove|ease:easeOutExpo;" object="bigpic.svg_3" positionStart="-0.170:0.500"  positionEnd="-0.170:0.500"  positionRelativeTo="scene" startTime="1.00" endTime="1.97" />
+<animation id="key_2_bigpic.svg_31" type="basicMove|ease:easeOutExpo;" object="bigpic.svg_3" positionStart="-0.170:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="1.97" endTime="2.85" />
+
+<animation id="key_4_bigpic.jpg_40" type="basicMove|ease:easeOutExpo;" object="bigpic.jpg_4" positionStart="-0.170:0.500"  positionEnd="-0.170:0.500"  positionRelativeTo="scene" startTime="1.00" endTime="1.97" />
+<animation id="key_3_bigpic.jpg_41" type="basicMove|ease:easeOutExpo;" object="bigpic.jpg_4" positionStart="-0.170:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="1.97" endTime="2.85" />
+
+<animation id="key_7_arrow.svg_50" type="basicMove|ease:easeOutElastic;" object="arrow.svg_5" positionStart="0.390:0.520"  positionEnd="0.527:0.520"  positionRelativeTo="scene" startTime="5.00" endTime="6.00" />
+
+<animation id="key_4_square_60" type="basicMove" object="square_6" positionStart="0.280:0.520"  positionEnd="0.280:0.520"  positionRelativeTo="scene" startTime="2.00" endTime="2.97" />
+<animation id="key_0_square_61" type="basicMove" object="square_6" positionStart="0.280:0.520"  positionEnd="0.280:0.520"  positionRelativeTo="scene" startTime="2.97" endTime="3.85" />
+
+<animation id="key_5_bigpic.jpg_40" type="basicOpacity|opacity:1" object="bigpic.jpg_4"  startTime="4.00" endTime="5.97" />
+<animation id="key_2_bigpic.jpg_41" type="basicOpacity|opacity:0.3" object="bigpic.jpg_4"  startTime="5.97" endTime="6.85" />
+
+
+
+
+
+
+ </igml>

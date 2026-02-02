@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#000000" title="Музикални вълни" description="" author="Yane Frenski" date="05/03/2022">
+<style src="https://fonts.googleapis.com/css?family=Open Sans" type="font" external="true" load="sync" />
+<object id="l_0" type="image" src="graphics/education/vizlai-school/generic/bg3.svg" editable="true" description="" font="MontBlanc-Regular" />
+<object id="path_1" type="shape" shapetype="path" color="#4a299b" stroke="#4a299b" strokeWidth="0" size="0,0,1080,1080" path="M1080,507.7c-12.5-21.5-27.1-42.4-43.9-62.4l-3.7-4.4c-18.1-21.6-58.8-24.2-81.5-5.2l-45.6,38.1c-24.6,20.6-69.4,15.5-84.7-9.7l-94.9-155.8c-18-29.6-74-30-92.8-0.7l-72.4,113.1c-20.8,32.4-84.5,27.5-95.9-7.5l-58.5-179.2c-12.6-38.5-85.5-39.1-99.2-0.8l-87.7,245.7c-11.3,31.6-66.8,38.8-91.6,11.8c-20.5-22.2-64.5-22.1-84.6,0.3v0c-18.4,20.4-32.8,42.5-43,65.5V1080h1080V507.7z" editable="true" />
+
+<object id="path_2" type="shape" shapetype="path" color="#776ff3" stroke="#776ff3" strokeWidth="0" size="0,0,1080,1080" path="M1080,507.7c-12.5-21.5-27.1-42.4-43.9-62.4l-3.7-4.4c-18.1-21.6-58.8-24.2-81.5-5.2l-45.6,38.1c-24.6,20.6-69.4,15.5-84.7-9.7l-94.9-155.8c-18-29.6-74-30-92.8-0.7l-72.4,113.1c-20.8,32.4-84.5,27.5-95.9-7.5l-58.5-179.2c-12.6-38.5-85.5-39.1-99.2-0.8l-87.7,245.7c-11.3,31.6-66.8,38.8-91.6,11.8c-20.5-22.2-64.5-22.1-84.6,0.3v0c-18.4,20.4-32.8,42.5-43,65.5V1080h1080V507.7z" editable="true" />
+
+<object id="path_3" type="shape" shapetype="path" color="#448efb" stroke="#448efb" strokeWidth="0" size="0,0,1080,1080" path="M1080,507.7c-12.5-21.5-27.1-42.4-43.9-62.4l-3.7-4.4c-18.1-21.6-58.8-24.2-81.5-5.2l-45.6,38.1c-24.6,20.6-69.4,15.5-84.7-9.7l-94.9-155.8c-18-29.6-74-30-92.8-0.7l-72.4,113.1c-20.8,32.4-84.5,27.5-95.9-7.5l-58.5-179.2c-12.6-38.5-85.5-39.1-99.2-0.8l-87.7,245.7c-11.3,31.6-66.8,38.8-91.6,11.8c-20.5-22.2-64.5-22.1-84.6,0.3v0c-18.4,20.4-32.8,42.5-43,65.5V1080h1080V507.7z" editable="true" />
+
+<object id="path_4" type="shape" shapetype="path" color="#6bf8a7" stroke="#6bf8a7" strokeWidth="0" size="0,0,1080,1080" path="M1022.9,738.6c-19.1-29.5-62-30.4-82.3-1.7l-71.8,101.6c-20.3,28.7-63.2,27.8-82.3-1.7l-63.2-98c-9.8-15.2-26-22.8-42.1-22.7c-15.7-0.4-31.6,6.5-41.8,21l-71.7,101.5c-20.3,28.7-63.2,27.8-82.3-1.7l-63.2-98c-19.1-29.6-62-30.5-82.3-1.7L268,838.6c-20.3,28.7-63.2,27.8-82.3-1.7l-63.6-98.3c-19.1-29.5-62-30.4-82.3-1.7L0.2,793.1h0.3V1080c169.5,0.1,990.7-0.2,1080,0V827.5L1022.9,738.6z" editable="true" />
+
+<object id="star_1" type="shape" shapetype="circle" size="0.02" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" editable="true" />
+<object id="star_2" type="shape" shapetype="circle" size="0.02" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" editable="true" />
+<object id="star_3" type="shape" shapetype="circle" size="0.02" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" editable="true" />
+<object id="star_4" type="shape" shapetype="circle" size="0.02" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" editable="true" />
+<object id="star_5" type="shape" shapetype="circle" size="0.02" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" editable="true" />
+<object id="star_6" type="shape" shapetype="circle" size="0.02" color="#ffffff" stroke="#ffffff" strokeWidth="0" action="link:" editable="true" />
+
+<animation id="appear_l_0" type="appearFade|scaleTo:1.000;opacity:0;anchorPoint:0.5,0.5" object="l_0" positionStart="0.5:1.500" startTime="0" endTime="0" description=" appearing order: 0" />
+<animation id="appear_l_path_1" type="appearFade|scaleTo:1;opacity:0;anchorPoint:0.5,0" object="path_1" positionStart="0.5:1.500" startTime="0" endTime="0" description=" appearing order: 1" />
+<animation id="appear_l_path_2" type="appearFade|scaleTo:1;opacity:0;anchorPoint:0.5,0" object="path_2" positionStart="0.5:1.500" startTime="0" endTime="0" description=" appearing order: 2" />
+<animation id="appear_l_path_3" type="appearFade|scaleTo:1;opacity:0;anchorPoint:0.5,0" object="path_3" positionStart="0.5:1.500" startTime="0" endTime="0" description=" appearing order: 3" />
+<animation id="appear_l_path_4" type="appearFade|scaleTo:1;opacity:0;anchorPoint:0.5,0" object="path_4" positionStart="0.5:1.500" startTime="0" endTime="0" description=" appearing order: 4" />
+<animation id="o_0_0_l_0" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="l_0"  startTime="0.50" endTime="1.50" description="" />
+<animation id="m_0_0_l_0" type="basicMove|axis:xy;ease:easeOutExpo;" object="l_0" positionEnd="0.5:0.500" startTime="0.50" endTime="1.50" description="" />
+<animation id="o_0_0_l_1" type="basicOpacity|opacity:1;ease:easeOutExpo;" object="path_1"  startTime="3" endTime="4" description="" />
+<animation id="m_0_0_l_1" type="basicMove|axis:xy;ease:linear;" object="path_1" positionEnd="0.5:0.06" startTime="3" endTime="4" description="" />
+<animation id="o_0_0_l_2" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="path_2"  startTime="4" endTime="5" description="" />
+<animation id="m_0_0_l_2" type="basicMove|axis:xy;ease:easeOutExpo;" object="path_2" positionEnd="0.5:0.14" startTime="4" endTime="5" description="" />
+<animation id="o_0_0_l_3" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="path_3"  startTime="5" endTime="6" description="" />
+<animation id="m_0_0_l_3" type="basicMove|axis:xy;ease:easeOutExpo;" object="path_3" positionEnd="0.5:0.27" startTime="5.00" endTime="6.00" description="" />
+<animation id="o_0_0_l_4" type="basicOpacity|opacity:1;ease:easeInOutSine;" object="path_4"  startTime="6" endTime="7" description="" />
+<animation id="m_0_0_l_4" type="basicMove|axis:xy;ease:easeOutExpo;" object="path_4" positionEnd="0.5:0.1" startTime="6" endTime="7" description="" />
+
+<animation id="appear_star_1" type="appearFade|scaleTo:0.015;opacity:1;anchorPoint:0.5,0.5;ease:easeOutBounce" object="star_1" positionStart="0.1:0.1" startTime="1" endTime="2" description="appearing order: 5" />
+<animation id="appear_star_2" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5;ease:easeOutBounce" object="star_2" positionStart="0.4:0.12" startTime="1.5" endTime="2.5" description="appearing order: 5" />
+<animation id="appear_star_3" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5;ease:easeOutBounce" object="star_3" positionStart="0.63:0.17" startTime="2" endTime="3" description="appearing order: 5" />
+<animation id="appear_star_4" type="appearFade|scaleTo:0.01;opacity:1;anchorPoint:0.5,0.5;ease:easeOutBounce" object="star_4" positionStart="0.89:0.07" startTime="2.5" endTime="3.5" description="appearing order: 5" />
+<animation id="appear_star_5" type="appearFade|scaleTo:0.017;opacity:1;anchorPoint:0.5,0.5;ease:easeOutBounce" object="star_5" positionStart="0.8:0.25" startTime="3" endTime="4" description="appearing order: 5" />
+<animation id="appear_star_6" type="appearFade|scaleTo:0.006;opacity:1;anchorPoint:0.5,0.5;ease:easeOutBounce" object="star_6" positionStart="0.2:0.27" startTime="3.5" endTime="4.5" description="appearing order: 6" />
+
+<animation id="disppear-scene" type="disappearFade|cover:self" object="l_0,path_1,path_2,path_3,path_4,star_1,star_2,star_3,star_4,star_5,star_6" positionRelativeTo="scene" startTime="10" endTime="11" />
+
+
+</igml>

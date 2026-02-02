@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+<object id="rect_0" type="shape" shapetype="rect" size="0.5,1" color="#6966F3" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_2" type="shape" shapetype="rect" size="0.5,0.5" color="#E5D400" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="jar_4" type="image" src="graphics/design/typo/use/jar.svg" action="link" editable="true" />
+
+<object id="bread_5" type="image" src="graphics/design/typo/use/bread.svg" action="link" editable="true" />
+
+<object id="monitor_6" type="image" src="graphics/design/typo/use/monitor.svg" action="link" editable="true" />
+
+<object id="cat_7" type="image" src="graphics/design/typo/use/cat.svg" action="link" editable="true" />
+
+<object id="heart_8" type="image" src="graphics/design/typo/use/heart.svg" action="link" editable="true" />
+
+
+<animation id="appear_rect_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_0" positionStart="0.5:3.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_2" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_2" positionStart="-0.6:0.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_jar_4" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="jar_4" positionStart="0.157:1.2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bread_5" type="appearFade|scaleTo:0.2;opacity:1;anchorPoint:0.5,0.5" object="bread_5" positionStart="0.35:1.2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_monitor_6" type="appearFade|scaleTo:0.35;opacity:1;anchorPoint:0.5,0.5" object="monitor_6" positionStart="0.75:1.4" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cat_7" type="appearFade|scaleTo:0.137;opacity:1;anchorPoint:0.5,0.5" object="cat_7" positionStart="0.75:1.361" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_heart_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="heart_8" positionStart="0.705:0.585" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_5_rect_00" type="basicMove|ease:easeOutExpo;" object="rect_0" positionStart="0.500:3.000"  positionEnd="0.500:1.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_8_rect_00" type="basicMove" object="rect_0" positionStart="0.500:1.500"  positionEnd="0.500:3.000"  positionRelativeTo="scene" startTime="9.70" endTime="10.00" />
+
+<animation id="key_3_rect_20" type="basicMove|ease:easeOutExpo;" object="rect_2" positionStart="-1.100:0.500"  positionEnd="0.000:0.500"  positionRelativeTo="scene" startTime="0.60" endTime="1.10" />
+
+<animation id="key_4_rect_20" type="basicMove" object="rect_2" positionStart="0.020:0.500"  positionEnd="0.100:0.500"  positionRelativeTo="scene" startTime="10.30" endTime="10.60" />
+<animation id="key_1_rect_21" type="basicMove" object="rect_2" positionStart="0.100:0.500"  positionEnd="-1.100:0.500"  positionRelativeTo="scene" startTime="10.60" endTime="11.00" />
+
+<animation id="key_4_jar_40" type="basicMove" object="jar_4" positionStart="0.157:1.200"  positionEnd="0.157:0.400"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_2_jar_41" type="basicMove" object="jar_4" positionStart="0.157:0.400"  positionEnd="0.157:0.450"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+<animation id="key_1_jar_42" type="basicMove" object="jar_4" positionStart="0.157:0.450"  positionEnd="0.157:0.450"  positionRelativeTo="scene" startTime="2.20" endTime="11.00" />
+<animation id="key_1_jar_43" type="basicMove" object="jar_4" positionStart="0.157:0.450"  positionEnd="0.157:0.350"  positionRelativeTo="scene" startTime="11.00" endTime="11.20" />
+<animation id="key_5_jar_44" type="basicMove" object="jar_4" positionStart="0.157:0.350"  positionEnd="0.157:1.200"  positionRelativeTo="scene" startTime="11.20" endTime="11.50" />
+
+<animation id="key_0_bread_50" type="basicMove" object="bread_5" positionStart="0.350:1.200"  positionEnd="0.350:0.400"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_3_bread_51" type="basicMove" object="bread_5" positionStart="0.350:0.400"  positionEnd="0.350:0.450"  positionRelativeTo="scene" startTime="2.00" endTime="2.40" />
+<animation id="key_0_bread_52" type="basicMove" object="bread_5" positionStart="0.350:0.450"  positionEnd="0.350:0.450"  positionRelativeTo="scene" startTime="2.40" endTime="11.20" />
+<animation id="key_1_bread_53" type="basicMove" object="bread_5" positionStart="0.350:0.450"  positionEnd="0.350:0.350"  positionRelativeTo="scene" startTime="11.20" endTime="11.40" />
+<animation id="key_8_bread_54" type="basicMove" object="bread_5" positionStart="0.350:0.350"  positionEnd="0.350:1.200"  positionRelativeTo="scene" startTime="11.40" endTime="11.70" />
+
+<animation id="key_1_monitor_60" type="basicMove" object="monitor_6" positionStart="0.750:1.400"  positionEnd="0.750:0.440"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_7_monitor_61" type="basicMove" object="monitor_6" positionStart="0.750:0.440"  positionEnd="0.750:0.500"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+<animation id="key_4_monitor_62" type="basicMove" object="monitor_6" positionStart="0.750:0.500"  positionEnd="0.750:0.500"  positionRelativeTo="scene" startTime="2.60" endTime="11.40" />
+<animation id="key_4_monitor_63" type="basicMove" object="monitor_6" positionStart="0.750:0.500"  positionEnd="0.750:0.380"  positionRelativeTo="scene" startTime="11.40" endTime="11.60" />
+<animation id="key_8_monitor_64" type="basicMove" object="monitor_6" positionStart="0.750:0.380"  positionEnd="0.750:1.400"  positionRelativeTo="scene" startTime="11.60" endTime="11.90" />
+
+<animation id="key_5_cat_70" type="basicMove" object="cat_7" positionStart="0.750:1.361"  positionEnd="0.750:0.401"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_1_cat_71" type="basicMove" object="cat_7" positionStart="0.750:0.401"  positionEnd="0.750:0.461"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+<animation id="key_7_cat_72" type="basicMove" object="cat_7" positionStart="0.750:0.461"  positionEnd="0.750:0.461"  positionRelativeTo="scene" startTime="2.60" endTime="11.40" />
+<animation id="key_6_cat_73" type="basicMove" object="cat_7" positionStart="0.750:0.461"  positionEnd="0.750:0.341"  positionRelativeTo="scene" startTime="11.40" endTime="11.60" />
+<animation id="key_5_cat_74" type="basicMove" object="cat_7" positionStart="0.750:0.341"  positionEnd="0.750:1.361"  positionRelativeTo="scene" startTime="11.60" endTime="11.90" />
+
+<animation id="key_6_heart_80" type="basicScale|scaleTo:0.060" object="heart_8"  startTime="2.50" endTime="2.89" />
+<animation id="key_0_heart_81" type="basicScale|scaleTo:0.021" object="heart_8"  startTime="2.89" endTime="3.02" />
+<animation id="key_5_heart_82" type="basicScale|scaleTo:0.027" object="heart_8"  startTime="3.02" endTime="3.02" />
+<animation id="key_8_heart_83" type="basicScale|scaleTo:0.027" object="heart_8"  startTime="3.02" endTime="11.50" />
+<animation id="key_0_heart_84" type="basicScale|scaleTo:0.075" object="heart_8"  startTime="11.50" endTime="12.00" />
+<animation id="key_3_heart_85" type="basicScale|scaleTo:0.000" object="heart_8"  startTime="12.00" endTime="12.30" />
+
+
+
+
+ </igml>

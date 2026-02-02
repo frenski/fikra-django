@@ -1,0 +1,299 @@
+{% extends "nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% block title %} {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/home.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/business.css" %}">
+{% endblock %}
+
+{% block extra_header %}
+	{% if landing_page %}
+	{% endif %}
+{% endblock %}
+
+{% block article_main %}
+
+
+<section class="relative min-h-screen overflow-hidden bg-convrt-purple animate-reveal">
+	<div class="absolute inset-0">
+		<img src="{% static "img/background-wave-mint.png" %}" alt="" class="w-full h-full object-cover">
+	</div>
+	<div class="absolute inset-0 opacity-10">
+		<div class="absolute top-20 left-10 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
+		<div class="absolute bottom-20 right-10 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+	</div>
+	<div class="container max-w-7xl mx-auto px-6 relative z-10 pt-32 pb-20">
+		<div class="grid lg:grid-cols-2 gap-12 items-center">
+			<div class="text-left" style="opacity: 1;">
+				<h1 class="text-5xl lg:text-6xl font-bold mb-6 leading-tight" style="opacity: 1; transform: none;">{% trans "Vizipedia in the Commercial World" %}</h1>
+				<p class="text-xl mb-8 leading-relaxed" style="opacity: 1; transform: none; margin-bottom:10px;">{% trans "Apply our game-based learning and engagement activities to corporate business operations" %}</p>
+				<ul style="list-style: disc; margin: 10px; padding: 0 10px;">
+					<li>{% trans "To make your employees more engaged, smarter and efficient in the challenging for humans AI-era" %}</li>
+					<li>{% trans "To acquire and retain customers through fun & engaging content for your marketing campaigns" %}</li>
+					<li>{% trans "To design tailored interactive content that support your CSR and ESG initiatives" %}</li>
+				</ul>
+				<div style="opacity: 1; transform: none; margin-top: 20px;">
+					<a href="{% url 'clients_signup' %}" class="inline-flex items-center gap-2 px-8 py-4 bg-white rounded-full font-semibold hover:bg-white/90 transition-all duration-300 shadow-lg hover:shadow-xl">{% trans "Try for free" %}<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+				</div>
+				<div class="grid grid-cols-3 gap-8 mt-12 pt-8" style="opacity: 1; transform: none;"><div>
+					<div class="text-4xl lg:text-5xl font-bold mb-2">{% trans "10K+" %}</div>
+					<div class="text-lg">{% trans "Active Users" %}</div>
+				</div>
+				<div>
+					<div class="text-4xl lg:text-5xl font-bold mb-2">{% trans "500+" %}</div>
+					<div class="text-lg">{% trans "Learning Games" %}</div>
+				</div>
+				<div>
+					<div class="text-4xl lg:text-5xl font-bold mb-2">{% trans "95%" %}</div>
+					<div class="text-lg">{% trans "Satisfaction" %}</div>
+				</div>
+			</div>
+		</div>
+		{% if featured_node %}
+		<div class="relative" style="opacity: 1; transform: none; margin-top: 40px; margin-bottom: 40px;">
+			<a href="{% url 'nodes_detail' slug=featured_node.node.slug %}" target="_blank">
+			<div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
+				<div class="absolute top-6 left-6 z-10 px-4 py-2 bg-convrt-dark-blue text-white rounded-full text-sm font-semibold">{{featured_node.title}}</div>
+				<div class="relative aspect-square bg-gradient-to-br from-teal-500 to-teal-600">
+					<video width="100%" loop="true" autoplay="autoplay" muted>
+						<source src="{{ media_url }}{{ featured_node.node.thumbnail_video}}" type="video/mp4" />
+					</video>
+					<div class="absolute bottom-4 right-4 w-14 h-14 bg-convrt-dark-blue rounded-full flex items-center justify-center shadow-lg">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad2 w-7 h-7 text-white"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg>
+					</div>
+				</div>
+				<div class="p-6">
+					<p class="text-sm text-gray-600 mb-2">
+						{% for key, item in engine_choices.items %}
+							{% if key == featured_node.node.engine %}
+									{{ item }}
+							{% endif %}
+						{% endfor %}
+					</p>
+					<h3 class="text-xl font-bold text-gray-900 mb-4">{{featured_node.node.title}}</h3><div class="flex items-center gap-3">
+						<div class="w-8 h-8 bg-convrt-purple/20 rounded-full flex items-center justify-center">
+							<div class="home-header-featured-avatar" style="background-image:url('{{ media_url }}{{ featured_node.node.owner.picture }}')"></div>
+						</div>
+						<span class="text-sm text-gray-600">{{featured_node.node.owner.name}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="absolute -top-4 -right-4 w-20 h-20 bg-white/20 rounded-full blur-xl animate-floating"></div>
+			<div class="absolute -bottom-6 -left-6 w-32 h-32 bg-white/10 rounded-full blur-2xl animate-floating" style="animation-delay: 1s;">
+			</div>
+		</div>
+		</a>
+	</div>
+	{% endif %}
+
+</div>
+</section>
+
+
+<section class="py-20 bg-white animate-reveal">
+	<div class="container max-w-7xl mx-auto px-6">
+		<div class="text-center mb-16" style="opacity: 1; transform: none;">
+			<h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{% trans "Enrich Your Corporate World" %}</h2>
+			<p class="text-xl text-gray-600 max-w-2xl mx-auto">{% trans "Powerful features designed to engage, educate, and elevate your team" %}</p></div>
+			<div class="space-y-12">
+				<div class="group" style="opacity: 1; transform: none;">
+					<div class="bg-gray-50 rounded-3xl p-8 lg:p-12 hover:shadow-lg transition-all duration-300 border border-gray-200">
+						<div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+							<div class="">
+								<div class="flex items-center gap-4 mb-6">
+									<div class="flex items-center justify-center w-16 h-16 bg-purple-100 rounded-2xl transition-transform duration-300">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-8 h-8 text-purple-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path>
+										</svg>
+									</div>
+									<span class="text-5xl font-bold text-gray-200">01</span>
+								</div>
+								<h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">{% trans "Game-based learning to improve your employees skills development" %}</h3>
+								<div class="space-y-4 mb-6">
+									<ul class="standard-list">
+										<li>{% trans "Transform team learning with immersive, game-based training experiences." %}</li>
+										<li>{% trans "Boost engagement, retention, and real-world skill application." %}</li>
+										<li>{% trans "Enable faster learning and continuous skill development in an AI-driven era." %}</li>
+										<li>{% trans "Convert learning objectives into interactive challenges and simulations." %}</li>
+										<li>{% trans "Motivate employees with rewarding progress systems and hands-on experiences." %}</li>
+										<li>{% trans "Strengthen core competencies while enabling rapid adaptation to new technologies." %}</li>
+									</ul>
+								</div>
+							</div>
+							<div class="">
+								<div class="relative text-center">
+									<img class="rounded-3xl" src="{% static "img/business-gbl-trainings.png" %}" alt="" class="w-full h-full object-cover">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="group" style="opacity: 1; transform: none;">
+						<div class="bg-gray-50 rounded-3xl p-8 lg:p-12 hover:shadow-lg transition-all duration-300 border border-gray-200">
+							<div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+								<div class="lg:order-2">
+									<div class="flex items-center gap-4 mb-6">
+										<div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-2xl transition-transform duration-300">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket w-8 h-8 text-blue-600"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
+										</div><span class="text-5xl font-bold text-gray-200">02</span>
+									</div>
+									<h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">{% trans "Create engaging marketing tools with gamification through AI in no time" %}</h3>
+									<ul class="standard-list">
+										<li>{% trans "Elevate brand presence with AI-powered, game-based marketing tools." %}</li>
+										<li>{% trans "Captivate audiences and drive deeper interaction through interactive experiences." %}</li>
+										<li>{% trans "Create mini-games and personalised content powered by user data." %}</li>
+										<li>{% trans "Produce compelling promotional material in minutes without design or coding skills." %}</li>
+										<li>{% trans "Deliver playful, memorable experiences that build emotional connections with customers." %}</li>
+										<li>{% trans "Increase engagement, boost conversions, and strengthen your digital presence." %}</li>
+									</ul>
+								</div>
+								<div class="lg:order-1">
+									<div class="relative text-center">
+										<img class="rounded-3xl" src="{% static "img/business-marketing.png" %}" alt="" class="w-full h-full object-cover">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="group" style="opacity: 1; transform: none;">
+						<div class="bg-gray-50 rounded-3xl p-8 lg:p-12 hover:shadow-lg transition-all duration-300 border border-gray-200">
+							<div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+								<div class="">
+									<div class="flex items-center gap-4 mb-6">
+										<div class="flex items-center justify-center w-16 h-16 bg-teal-100 rounded-2xl transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-8 h-8 text-teal-600"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div><span class="text-5xl font-bold text-gray-200">03</span></div>
+										<h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">{% trans "Use games and gamification to facilitate team building and engagement" %}</h3>
+										<ul class="standard-list">
+											<li>{% trans "Strengthen collaboration, communication, and morale through game-driven team-building." %}</li>
+								      <li>{% trans "Encourage active participation with cooperative challenges and friendly competitions." %}</li>
+								      <li>{% trans "Use gamified engagement activities to help teams bond and build trust." %}</li>
+								      <li>{% trans "Maintain long-term motivation through clear goals, rewards, and real-time feedback." %}</li>
+								      <li>{% trans "Transform ordinary interactions into energizing, memorable experiences." %}</li>
+								      <li>{% trans "Reinforce a positive, connected workplace culture." %}</li>
+										</ul>
+									</div>
+									<div class="">
+										<div class="relative text-center">
+											<img class="rounded-3xl" src="{% static "img/business-team-engagement.png" %}" alt="" class="w-full h-full object-cover">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+	<section class="py-20 bg-gray-900 animate-reveal" id="product">
+		<div class="container-section">
+			<div class="text-center mb-16" style="opacity: 1; transform: none;">
+				<h2 class="heading-lg text-white mb-4">{% trans "Popular business games created with Vizipedia" %}</h2>
+				<p class="body-xl text-white/70 max-w-3xl mx-auto">{% trans "See how companies across industries are transforming their process with AI-powered game-based approach" %}</p></div>
+				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+					{% for node in nodes %}
+
+					<a class="node-link" href="{% url 'nodes_detail' slug=node.slug %}">
+					<div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-convrt-purple/40 hover:-translate-y-2 min-h-[300px]" id="{{node.slug}}">
+
+					  <div class="node-image-container">
+					    <div class="node-image" style="background-image:url('{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}')" data-thumbnails="{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail2 %}{{ media_url }}{{ node.thumbnail2}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail3 %}{{ media_url }}{{ node.thumbnail3}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %},{% if node.thumbnail4 %}{{ media_url }}{{ node.thumbnail4}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}">
+					    </div>
+					    {% if node.created_at > max_day_new %}
+					      <div class="node-new-tag">
+					        {% trans 'New' %}
+					      </div>
+					    {% endif %}
+					  </div>
+
+					  <div class="controlbar">
+
+					    {% translated_node_title node as langtitle %}
+					    <div class="metadata">
+					      <h2 class="metadata-title">{{ langtitle|truncatewords:9 }}</h2>
+					      <div class="metadata-extra">
+					        <div class="metadata-extra-user clearfix">
+					          <div class="metadata-extra-avatar" style="background-image:url('{{ media_url }}{{ node.owner.picture }}')"></div>
+					          <div class="metadata-extra-username">{{node.owner.name}}</div>
+					        </div>
+					        <div class="action-buttons">
+					          <ul class="action-buttons-items">
+					            <li class="action-buttons-first"><i class="fas fa-eye"></i> {{node.views}}</li>
+					            <li><i class="fas fa-heart"></i> {{node.likes}}</li>
+					            <!-- <li><i class="fas fa-share-alt"></i> {{node.shares}}</li> -->
+					          </ul>
+					        </div>
+					        <!-- <div class="metadata-extra-date">{{node.created_at|naturaltime}}</div> -->
+					      </div>
+					    </div>
+
+					  </div>
+					  </div>
+					</a>
+
+					{% endfor %}
+
+				</div>
+				<div class="text-center mt-12" style="opacity: 1; transform: none;">
+					<a href="{% url 'library' %}" class="button-outline inline-flex items-center group">{% trans "See Our Public Library" %}
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform group-hover:translate-x-1">
+							<path d="M5 12h14"></path>
+							<path d="m12 5 7 7-7 7"></path>
+						</svg>
+					</a>
+				</div>
+			</div>
+	</section>
+
+<section class="py-20 bg-[#121826] relative overflow-hidden animate-reveal">
+	<div class="absolute inset-0 overflow-hidden">
+		<div class="absolute top-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl"></div>
+		<div class="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+		<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-teal-500/5 rounded-full blur-3xl"></div>
+	</div>
+	<div class="container max-w-7xl mx-auto px-6 relative z-10">
+		<div class="text-center mb-16" style="opacity: 1; transform: none;">
+			<div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-6">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-purple-400"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg><span class="text-sm text-white/80 font-medium">{% trans "Why Choose Vizipedia" %}</span>
+			</div>
+			<h2 class="text-4xl lg:text-5xl font-bold text-white mb-4">{% trans "Why Vizipedia in your workspace?" %}</h2>
+			<p class="text-xl text-white/60 max-w-2xl mx-auto">{% trans "Unlock the full potential of your team with our innovative platform" %}</p>
+		</div>
+		<div class="grid lg:grid-cols-3 gap-8">
+			<div class="group relative" style="opacity: 1; transform: none;">
+				<div class="relative bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-500 hover:transform hover:-translate-y-2 h-full">
+					<div class="bg-purple-500/10 rounded-2xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+						<img src="{% static "img/icons/3dicon-brain.png" %}" alt="Brain" class="w-14 h-14">
+					</div>
+					<h3 class="text-2xl font-bold text-white mb-4">{% trans "Enhanced Learning Experience" %}</h3>
+					<p class="text-white/70 leading-relaxed">{% trans "Transform traditional training into engaging experiences. Our platform combines interactive elements with proven learning methodologies to boost retention and engagement across your workforce." %}</p>
+				</div>
+			</div>
+			<div class="group relative" style="opacity: 1; transform: none;">
+				<div class="relative bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-500 hover:transform hover:-translate-y-2 h-full">
+					<div class="bg-blue-500/10 rounded-2xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+						<img src="{% static "img/icons/3dicon-gear.png" %}" alt="Gear" class="w-14 h-14">
+					</div>
+					<h3 class="text-2xl font-bold text-white mb-4">{% trans "Increased Productivity" %}</h3>
+					<p class="text-white/70 leading-relaxed">{% trans "Drive measurable results through gamified workflows. Employees stay motivated and focused, completing training faster while maintaining higher quality standards and better knowledge retention." %}</p>
+				</div>
+			</div>
+			<div class="group relative" style="opacity: 1; transform: none;">
+				<div class="relative bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-500 hover:transform hover:-translate-y-2 h-full">
+					<div class="bg-teal-500/10 rounded-2xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+						<img src="{% static "img/icons/3dicon-data.png" %}" alt="Data Analytics" class="w-14 h-14">
+					</div>
+					<h3 class="text-2xl font-bold text-white mb-4">{% trans "Data-Driven Insights" %}</h3>
+					<p class="text-white/70 leading-relaxed">{% trans "Track progress and performance in real-time. Access comprehensive analytics to understand learning patterns, identify skill gaps, and optimize your training programs for maximum impact." %}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% endblock %}

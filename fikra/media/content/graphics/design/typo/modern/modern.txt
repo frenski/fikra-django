@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="">
+
+
+
+
+
+<object id="rect_1" type="shape" shapetype="rect" size="0.5,0.5" color="#6966F3" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_3" type="shape" shapetype="rect" size="0.5,0.5" color="#3533AD" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="rect_5" type="shape" shapetype="rect" size="0.5,0.5" color="#6966F3" strokeWidth="0" action="link" editable="true"/>
+
+
+
+<object id="glasses_7" type="image" src="graphics/design/typo/modern/glasses.svg" action="link" editable="true" />
+
+<object id="tablet_8" type="image" src="graphics/design/typo/modern/tablet.svg" action="link" editable="true" />
+
+<object id="eye_9" type="image" src="graphics/design/typo/cases/eye.svg" action="link" editable="true" />
+
+<object id="shadow_10" type="image" src="graphics/design/typo/cases/shadow.svg" action="link" editable="true" />
+
+
+
+<object id="shadow_12" type="image" src="graphics/design/typo/cases/shadow.svg" action="link" editable="true" />
+
+
+
+<object id="shadow_14" type="image" src="graphics/design/typo/cases/shadow.svg" action="link" editable="true" />
+
+
+
+<object id="shine_16" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_17" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_18" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_19" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_20" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_21" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_22" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="shine_23" type="image" src="graphics/design/typo/cases/shine2.svg" action="link" editable="true" />
+
+<object id="heart_0" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="heart_1" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="heart_2" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="heart_3" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="heart_4" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="heart_5" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="heart_6" type="image" src="graphics/design/typo/cases/heart.svg" action="link" editable="true" />
+
+
+
+
+
+<object id="monitor_45" type="image" src="graphics/design/typo/modern/monitor.svg" action="link" editable="true" />
+
+<object id="paper_46" type="image" src="graphics/design/typo/modern/paper.svg" action="link" editable="true" />
+
+<object id="jar_47" type="image" src="graphics/design/typo/modern/jar.svg" action="link" editable="true" />
+
+
+
+
+<animation id="appear_rect_1" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_1" positionStart="-0.50:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_3" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_3" positionStart="-0.57:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_rect_5" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="rect_5" positionStart="-0.67:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="appear_glasses_7" type="appearFade|scaleTo:0.19;opacity:1;anchorPoint:0.5,0.5" object="glasses_7" positionStart="0.15:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_tablet_8" type="appearFade|scaleTo:0.18;opacity:1;anchorPoint:0.5,0.5" object="tablet_8" positionStart="0.50:1.30" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_eye_9" type="appearFade|scaleTo:0.09;opacity:1;anchorPoint:0.5,0.5" object="eye_9" positionStart="0.56:1.04" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shadow_10" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="shadow_10" positionStart="0.15:1.60" positionRelativeTo="scene" startTime="1" endTime="3" />
+
+
+
+<animation id="appear_shadow_12" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="shadow_12" positionStart="0.50:1.60" positionRelativeTo="scene" startTime="1.2" endTime="3.2" />
+
+
+
+<animation id="appear_shadow_14" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="shadow_14" positionStart="0.795:1.60" positionRelativeTo="scene" startTime="1.4" endTime="3.4" />
+
+
+
+<animation id="appear_shine_16" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_16" positionStart="0.17:0.52" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_17" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_17" positionStart="0.11:0.62" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_18" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_18" positionStart="0.20:0.44" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_19" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_19" positionStart="0.18:0.50" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_20" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_20" positionStart="0.11:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_21" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_21" positionStart="0.23:0.60" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_22" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5:0.5" object="shine_22" positionStart="0.21:0.61" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_shine_23" type="appearFade|scaleTo:0.00;opacity:1;anchorPoint:0.5,0.5" object="shine_23" positionStart="0.11:0.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_heart_0" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_0" positionStart="0.51:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_heart_1" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_1" positionStart="0.59:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_heart_2" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_2" positionStart="0.62:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_heart_3" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_3" positionStart="0.57:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_heart_4" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_4" positionStart="0.64:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_heart_5" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_5" positionStart="0.55:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_heart_6" type="appearFade|scaleTo:0.05;opacity:0;anchorPoint:0.5,0.5" object="heart_6" positionStart="0.66:0.32" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="appear_monitor_45" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="monitor_45" positionStart="0.774:1.13" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_paper_46" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="paper_46" positionStart="0.926:1.35" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_jar_47" type="appearFade|scaleTo:0.08;opacity:1;anchorPoint:0.5,0.5" object="jar_47" positionStart="0.795:1.40" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_5_rect_10" type="basicMove|ease:easeOutExpo;" object="rect_1" positionStart="-1.000:0.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.30" endTime="0.80" />
+
+<animation id="key_0_rect_10" type="basicMove" object="rect_1" positionStart="0.500:0.500"  positionEnd="0.600:0.500"  positionRelativeTo="scene" startTime="11.85" endTime="12.15" />
+<animation id="key_4_rect_11" type="basicMove" object="rect_1" positionStart="0.600:0.500"  positionEnd="-1.000:0.500"  positionRelativeTo="scene" startTime="12.15" endTime="12.55" />
+
+<animation id="key_7_rect_30" type="basicMove|ease:easeOutExpo;" object="rect_3" positionStart="-1.070:0.500"  positionEnd="0.180:0.500"  positionRelativeTo="scene" startTime="0.55" endTime="1.05" />
+
+<animation id="key_1_rect_30" type="basicMove" object="rect_3" positionStart="0.180:0.500"  positionEnd="0.280:0.500"  positionRelativeTo="scene" startTime="11.70" endTime="12.00" />
+<animation id="key_6_rect_31" type="basicMove" object="rect_3" positionStart="0.280:0.500"  positionEnd="-1.070:0.500"  positionRelativeTo="scene" startTime="12.00" endTime="12.40" />
+
+<animation id="key_1_rect_50" type="basicMove|ease:easeOutExpo;" object="rect_5" positionStart="-1.170:0.500"  positionEnd="-0.170:0.500"  positionRelativeTo="scene" startTime="0.80" endTime="1.30" />
+
+<animation id="key_5_rect_50" type="basicMove" object="rect_5" positionStart="-0.170:0.500"  positionEnd="-0.020:0.500"  positionRelativeTo="scene" startTime="11.55" endTime="11.85" />
+<animation id="key_6_rect_51" type="basicMove" object="rect_5" positionStart="-0.020:0.500"  positionEnd="-1.170:0.500"  positionRelativeTo="scene" startTime="11.85" endTime="12.25" />
+
+<animation id="key_6_glasses_70" type="basicMove" object="glasses_7" positionStart="0.150:1.300"  positionEnd="0.150:0.500"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_6_glasses_71" type="basicMove" object="glasses_7" positionStart="0.150:0.500"  positionEnd="0.150:0.550"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+<animation id="key_3_glasses_72" type="basicMove" object="glasses_7" positionStart="0.150:0.550"  positionEnd="0.150:0.520"  positionRelativeTo="scene" startTime="2.20" endTime="3.00" />
+<animation id="key_7_glasses_73" type="basicMove" object="glasses_7" positionStart="0.150:0.520"  positionEnd="0.150:0.600"  positionRelativeTo="scene" startTime="3.00" endTime="4.00" />
+<animation id="key_1_glasses_74" type="basicMove" object="glasses_7" positionStart="0.150:0.600"  positionEnd="0.150:0.520"  positionRelativeTo="scene" startTime="4.00" endTime="5.00" />
+<animation id="key_7_glasses_75" type="basicMove" object="glasses_7" positionStart="0.150:0.520"  positionEnd="0.150:0.600"  positionRelativeTo="scene" startTime="5.00" endTime="6.00" />
+<animation id="key_5_glasses_76" type="basicMove" object="glasses_7" positionStart="0.150:0.600"  positionEnd="0.150:0.520"  positionRelativeTo="scene" startTime="6.00" endTime="7.00" />
+<animation id="key_6_glasses_77" type="basicMove" object="glasses_7" positionStart="0.150:0.520"  positionEnd="0.150:0.600"  positionRelativeTo="scene" startTime="7.00" endTime="8.00" />
+<animation id="key_3_glasses_78" type="basicMove" object="glasses_7" positionStart="0.150:0.600"  positionEnd="0.150:0.520"  positionRelativeTo="scene" startTime="8.00" endTime="9.00" />
+<animation id="key_7_glasses_79" type="basicMove" object="glasses_7" positionStart="0.150:0.520"  positionEnd="0.150:0.600"  positionRelativeTo="scene" startTime="9.00" endTime="10.00" />
+<animation id="key_1_glasses_710" type="basicMove" object="glasses_7" positionStart="0.150:0.600"  positionEnd="0.150:0.550"  positionRelativeTo="scene" startTime="10.00" endTime="11.00" />
+<animation id="key_8_glasses_711" type="basicMove" object="glasses_7" positionStart="0.150:0.550"  positionEnd="0.150:0.450"  positionRelativeTo="scene" startTime="11.00" endTime="11.20" />
+<animation id="key_0_glasses_712" type="basicMove" object="glasses_7" positionStart="0.150:0.450"  positionEnd="0.150:1.300"  positionRelativeTo="scene" startTime="11.20" endTime="11.50" />
+
+<animation id="key_1_tablet_80" type="basicMove" object="tablet_8" positionStart="0.500:1.300"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_8_tablet_81" type="basicMove" object="tablet_8" positionStart="0.500:0.500"  positionEnd="0.500:0.550"  positionRelativeTo="scene" startTime="2.00" endTime="2.40" />
+<animation id="key_0_tablet_82" type="basicMove" object="tablet_8" positionStart="0.500:0.550"  positionEnd="0.500:0.520"  positionRelativeTo="scene" startTime="2.40" endTime="3.20" />
+<animation id="key_8_tablet_83" type="basicMove" object="tablet_8" positionStart="0.500:0.520"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="3.20" endTime="4.20" />
+<animation id="key_0_tablet_84" type="basicMove" object="tablet_8" positionStart="0.500:0.600"  positionEnd="0.500:0.520"  positionRelativeTo="scene" startTime="4.20" endTime="5.20" />
+<animation id="key_7_tablet_85" type="basicMove" object="tablet_8" positionStart="0.500:0.520"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="5.20" endTime="6.20" />
+<animation id="key_2_tablet_86" type="basicMove" object="tablet_8" positionStart="0.500:0.600"  positionEnd="0.500:0.520"  positionRelativeTo="scene" startTime="6.20" endTime="7.20" />
+<animation id="key_7_tablet_87" type="basicMove" object="tablet_8" positionStart="0.500:0.520"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="7.20" endTime="8.20" />
+<animation id="key_3_tablet_88" type="basicMove" object="tablet_8" positionStart="0.500:0.600"  positionEnd="0.500:0.520"  positionRelativeTo="scene" startTime="8.20" endTime="9.20" />
+<animation id="key_1_tablet_89" type="basicMove" object="tablet_8" positionStart="0.500:0.520"  positionEnd="0.500:0.600"  positionRelativeTo="scene" startTime="9.20" endTime="10.20" />
+<animation id="key_3_tablet_810" type="basicMove" object="tablet_8" positionStart="0.500:0.600"  positionEnd="0.500:0.550"  positionRelativeTo="scene" startTime="10.20" endTime="11.20" />
+<animation id="key_4_tablet_811" type="basicMove" object="tablet_8" positionStart="0.500:0.550"  positionEnd="0.500:0.450"  positionRelativeTo="scene" startTime="11.20" endTime="11.40" />
+<animation id="key_3_tablet_812" type="basicMove" object="tablet_8" positionStart="0.500:0.450"  positionEnd="0.500:1.300"  positionRelativeTo="scene" startTime="11.40" endTime="11.70" />
+
+<animation id="key_7_eye_90" type="basicMove" object="eye_9" positionStart="0.560:1.040"  positionEnd="0.560:0.240"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_3_eye_91" type="basicMove" object="eye_9" positionStart="0.560:0.240"  positionEnd="0.560:0.290"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+<animation id="key_7_eye_92" type="basicMove" object="eye_9" positionStart="0.560:0.290"  positionEnd="0.560:0.260"  positionRelativeTo="scene" startTime="2.60" endTime="3.40" />
+<animation id="key_1_eye_93" type="basicMove" object="eye_9" positionStart="0.560:0.260"  positionEnd="0.560:0.340"  positionRelativeTo="scene" startTime="3.40" endTime="4.40" />
+<animation id="key_4_eye_94" type="basicMove" object="eye_9" positionStart="0.560:0.340"  positionEnd="0.560:0.260"  positionRelativeTo="scene" startTime="4.40" endTime="5.40" />
+<animation id="key_8_eye_95" type="basicMove" object="eye_9" positionStart="0.560:0.260"  positionEnd="0.560:0.340"  positionRelativeTo="scene" startTime="5.40" endTime="6.40" />
+<animation id="key_0_eye_96" type="basicMove" object="eye_9" positionStart="0.560:0.340"  positionEnd="0.560:0.260"  positionRelativeTo="scene" startTime="6.40" endTime="7.40" />
+<animation id="key_2_eye_97" type="basicMove" object="eye_9" positionStart="0.560:0.260"  positionEnd="0.560:0.340"  positionRelativeTo="scene" startTime="7.40" endTime="8.40" />
+<animation id="key_8_eye_98" type="basicMove" object="eye_9" positionStart="0.560:0.340"  positionEnd="0.560:0.260"  positionRelativeTo="scene" startTime="8.40" endTime="9.40" />
+<animation id="key_6_eye_99" type="basicMove" object="eye_9" positionStart="0.560:0.260"  positionEnd="0.560:0.340"  positionRelativeTo="scene" startTime="9.40" endTime="10.40" />
+<animation id="key_7_eye_910" type="basicMove" object="eye_9" positionStart="0.560:0.340"  positionEnd="0.560:0.290"  positionRelativeTo="scene" startTime="10.40" endTime="11.40" />
+<animation id="key_1_eye_911" type="basicMove" object="eye_9" positionStart="0.560:0.290"  positionEnd="0.560:0.190"  positionRelativeTo="scene" startTime="11.40" endTime="11.60" />
+<animation id="key_5_eye_912" type="basicMove" object="eye_9" positionStart="0.560:0.190"  positionEnd="0.560:1.040"  positionRelativeTo="scene" startTime="11.60" endTime="11.90" />
+
+<animation id="key_4_shadow_100" type="basicMove" object="shadow_10" positionStart="0.150:1.600"  positionEnd="0.150:0.800"  positionRelativeTo="scene" startTime="1.30" endTime="1.80" />
+<animation id="key_3_shadow_101" type="basicMove" object="shadow_10" positionStart="0.150:0.800"  positionEnd="0.150:0.850"  positionRelativeTo="scene" startTime="1.80" endTime="2.20" />
+<animation id="key_5_shadow_102" type="basicMove" object="shadow_10" positionStart="0.150:0.850"  positionEnd="0.150:0.850"  positionRelativeTo="scene" startTime="2.20" endTime="11.00" />
+<animation id="key_8_shadow_103" type="basicMove" object="shadow_10" positionStart="0.150:0.850"  positionEnd="0.150:0.750"  positionRelativeTo="scene" startTime="11.00" endTime="11.20" />
+<animation id="key_8_shadow_104" type="basicMove" object="shadow_10" positionStart="0.150:0.750"  positionEnd="0.150:1.600"  positionRelativeTo="scene" startTime="11.20" endTime="11.50" />
+
+<animation id="key_3_shadow_100" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="3.30" endTime="3.80" />
+<animation id="key_2_shadow_101" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="3.80" endTime="4.20" />
+<animation id="key_8_shadow_102" type="basicScale|scaleTo:0.050" object="shadow_10"  startTime="4.20" endTime="5.00" />
+<animation id="key_3_shadow_103" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="5.00" endTime="6.00" />
+<animation id="key_0_shadow_104" type="basicScale|scaleTo:0.050" object="shadow_10"  startTime="6.00" endTime="7.00" />
+<animation id="key_5_shadow_105" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="7.00" endTime="8.00" />
+<animation id="key_5_shadow_106" type="basicScale|scaleTo:0.050" object="shadow_10"  startTime="8.00" endTime="9.00" />
+<animation id="key_7_shadow_107" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="9.00" endTime="10.00" />
+<animation id="key_1_shadow_108" type="basicScale|scaleTo:0.050" object="shadow_10"  startTime="10.00" endTime="11.00" />
+<animation id="key_1_shadow_109" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="11.00" endTime="12.00" />
+<animation id="key_6_shadow_1010" type="basicScale|scaleTo:0.050" object="shadow_10"  startTime="12.00" endTime="13.00" />
+<animation id="key_1_shadow_1011" type="basicScale|scaleTo:0.100" object="shadow_10"  startTime="13.00" endTime="13.20" />
+<animation id="key_0_shadow_1012" type="basicScale|scaleTo:0.050" object="shadow_10"  startTime="13.20" endTime="13.50" />
+
+<animation id="key_0_shadow_120" type="basicMove" object="shadow_12" positionStart="0.500:1.600"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="1.50" endTime="2.00" />
+<animation id="key_7_shadow_121" type="basicMove" object="shadow_12" positionStart="0.500:0.800"  positionEnd="0.500:0.850"  positionRelativeTo="scene" startTime="2.00" endTime="2.40" />
+<animation id="key_6_shadow_122" type="basicMove" object="shadow_12" positionStart="0.500:0.850"  positionEnd="0.500:0.850"  positionRelativeTo="scene" startTime="2.40" endTime="11.20" />
+<animation id="key_0_shadow_123" type="basicMove" object="shadow_12" positionStart="0.500:0.850"  positionEnd="0.500:0.750"  positionRelativeTo="scene" startTime="11.20" endTime="11.40" />
+<animation id="key_5_shadow_124" type="basicMove" object="shadow_12" positionStart="0.500:0.750"  positionEnd="0.500:1.600"  positionRelativeTo="scene" startTime="11.40" endTime="11.70" />
+
+<animation id="key_2_shadow_120" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="3.46" endTime="4.06" />
+<animation id="key_0_shadow_121" type="basicScale|scaleTo:0.075" object="shadow_12"  startTime="4.06" endTime="4.54" />
+<animation id="key_5_shadow_122" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="4.54" endTime="5.50" />
+<animation id="key_1_shadow_123" type="basicScale|scaleTo:0.075" object="shadow_12"  startTime="5.50" endTime="6.70" />
+<animation id="key_2_shadow_124" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="6.70" endTime="7.90" />
+<animation id="key_2_shadow_125" type="basicScale|scaleTo:0.075" object="shadow_12"  startTime="7.90" endTime="9.10" />
+<animation id="key_8_shadow_126" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="9.10" endTime="10.30" />
+<animation id="key_5_shadow_127" type="basicScale|scaleTo:0.075" object="shadow_12"  startTime="10.30" endTime="11.50" />
+<animation id="key_7_shadow_128" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="11.50" endTime="12.70" />
+<animation id="key_1_shadow_129" type="basicScale|scaleTo:0.075" object="shadow_12"  startTime="12.70" endTime="13.90" />
+<animation id="key_6_shadow_1210" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="13.90" endTime="15.10" />
+<animation id="key_3_shadow_1211" type="basicScale|scaleTo:0.075" object="shadow_12"  startTime="15.10" endTime="15.34" />
+<animation id="key_7_shadow_1212" type="basicScale|scaleTo:0.150" object="shadow_12"  startTime="15.34" endTime="15.70" />
+
+<animation id="key_3_shadow_140" type="basicMove" object="shadow_14" positionStart="0.795:1.600"  positionEnd="0.795:0.800"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_8_shadow_141" type="basicMove" object="shadow_14" positionStart="0.795:0.800"  positionEnd="0.795:0.850"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+<animation id="key_1_shadow_142" type="basicMove" object="shadow_14" positionStart="0.795:0.850"  positionEnd="0.795:0.850"  positionRelativeTo="scene" startTime="2.60" endTime="11.40" />
+<animation id="key_7_shadow_143" type="basicMove" object="shadow_14" positionStart="0.795:0.850"  positionEnd="0.795:0.750"  positionRelativeTo="scene" startTime="11.40" endTime="11.60" />
+<animation id="key_3_shadow_144" type="basicMove" object="shadow_14" positionStart="0.795:0.750"  positionEnd="0.795:1.600"  positionRelativeTo="scene" startTime="11.60" endTime="11.90" />
+
+<animation id="key_7_shadow_140" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="3.70" endTime="4.20" />
+<animation id="key_6_shadow_141" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="4.20" endTime="4.60" />
+<animation id="key_1_shadow_142" type="basicScale|scaleTo:0.050" object="shadow_14"  startTime="4.60" endTime="5.40" />
+<animation id="key_6_shadow_143" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="5.40" endTime="6.40" />
+<animation id="key_5_shadow_144" type="basicScale|scaleTo:0.050" object="shadow_14"  startTime="6.40" endTime="7.40" />
+<animation id="key_7_shadow_145" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="7.40" endTime="8.40" />
+<animation id="key_1_shadow_146" type="basicScale|scaleTo:0.050" object="shadow_14"  startTime="8.40" endTime="9.40" />
+<animation id="key_3_shadow_147" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="9.40" endTime="10.40" />
+<animation id="key_4_shadow_148" type="basicScale|scaleTo:0.050" object="shadow_14"  startTime="10.40" endTime="11.40" />
+<animation id="key_6_shadow_149" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="11.40" endTime="12.40" />
+<animation id="key_4_shadow_1410" type="basicScale|scaleTo:0.050" object="shadow_14"  startTime="12.40" endTime="13.40" />
+<animation id="key_6_shadow_1411" type="basicScale|scaleTo:0.100" object="shadow_14"  startTime="13.40" endTime="13.60" />
+<animation id="key_3_shadow_1412" type="basicScale|scaleTo:0.050" object="shadow_14"  startTime="13.60" endTime="13.90" />
+
+<animation id="key_3_shine_160" type="basicScale|scaleTo:0.030" object="shine_16"  startTime="7.10" endTime="7.60" />
+<animation id="key_7_shine_161" type="basicScale|scaleTo:0.034" object="shine_16"  startTime="7.60" endTime="7.70" />
+<animation id="key_4_shine_162" type="basicScale|scaleTo:0.000" object="shine_16"  startTime="7.70" endTime="8.20" />
+
+<animation id="key_7_shine_170" type="basicScale|scaleTo:0.030" object="shine_17"  startTime="7.80" endTime="8.30" />
+<animation id="key_4_shine_171" type="basicScale|scaleTo:0.034" object="shine_17"  startTime="8.30" endTime="8.40" />
+<animation id="key_0_shine_172" type="basicScale|scaleTo:0.000" object="shine_17"  startTime="8.40" endTime="8.90" />
+
+<animation id="key_4_shine_180" type="basicScale|scaleTo:0.030" object="shine_18"  startTime="1.80" endTime="2.30" />
+<animation id="key_2_shine_181" type="basicScale|scaleTo:0.034" object="shine_18"  startTime="2.30" endTime="2.40" />
+<animation id="key_2_shine_182" type="basicScale|scaleTo:0.000" object="shine_18"  startTime="2.40" endTime="2.90" />
+
+<animation id="key_1_shine_190" type="basicScale|scaleTo:0.030" object="shine_19"  startTime="2.40" endTime="2.90" />
+<animation id="key_1_shine_191" type="basicScale|scaleTo:0.034" object="shine_19"  startTime="2.90" endTime="3.00" />
+<animation id="key_7_shine_192" type="basicScale|scaleTo:0.000" object="shine_19"  startTime="3.00" endTime="3.50" />
+
+<animation id="key_4_shine_200" type="basicScale|scaleTo:0.030" object="shine_20"  startTime="3.00" endTime="3.50" />
+<animation id="key_2_shine_201" type="basicScale|scaleTo:0.034" object="shine_20"  startTime="3.50" endTime="3.60" />
+<animation id="key_0_shine_202" type="basicScale|scaleTo:0.000" object="shine_20"  startTime="3.60" endTime="4.10" />
+
+<animation id="key_7_shine_210" type="basicScale|scaleTo:0.030" object="shine_21"  startTime="3.60" endTime="4.10" />
+<animation id="key_2_shine_211" type="basicScale|scaleTo:0.034" object="shine_21"  startTime="4.10" endTime="4.20" />
+<animation id="key_8_shine_212" type="basicScale|scaleTo:0.000" object="shine_21"  startTime="4.20" endTime="4.70" />
+
+<animation id="key_4_shine_220" type="basicScale|scaleTo:0.030" object="shine_22"  startTime="5.80" endTime="6.30" />
+<animation id="key_0_shine_221" type="basicScale|scaleTo:0.034" object="shine_22"  startTime="6.30" endTime="6.40" />
+<animation id="key_2_shine_222" type="basicScale|scaleTo:0.000" object="shine_22"  startTime="6.40" endTime="6.90" />
+
+<animation id="key_7_shine_230" type="basicScale|scaleTo:0.030" object="shine_23"  startTime="6.60" endTime="7.10" />
+<animation id="key_7_shine_231" type="basicScale|scaleTo:0.034" object="shine_23"  startTime="7.10" endTime="7.20" />
+<animation id="key_0_shine_232" type="basicScale|scaleTo:0.000" object="shine_23"  startTime="7.20" endTime="7.70" />
+
+<animation id="key_0_heart_00" type="basicMove|ease:easeOutExpo;" object="heart_0" positionStart="0.510:0.320"  positionEnd="0.510:0.130"  positionRelativeTo="scene" startTime="4.20" endTime="5.46" />
+
+<animation id="key_3_heart_00" type="basicOpacity|opacity:0" object="heart_0"  startTime="2.75" endTime="2.75" />
+<animation id="key_0_heart_01" type="basicOpacity|opacity:1" object="heart_0"  startTime="2.75" endTime="3.60" />
+
+<animation id="key_3_heart_00" type="basicOpacity|opacity:1" object="heart_0"  startTime="3.65" endTime="3.65" />
+<animation id="key_7_heart_01" type="basicOpacity|opacity:0" object="heart_0"  startTime="3.65" endTime="4.50" />
+
+<animation id="key_0_heart_10" type="basicMove|ease:easeOutExpo;" object="heart_1" positionStart="0.590:0.320"  positionEnd="0.590:0.130"  positionRelativeTo="scene" startTime="3.80" endTime="5.06" />
+
+<animation id="key_4_heart_10" type="basicOpacity|opacity:0" object="heart_1"  startTime="3.15" endTime="3.15" />
+<animation id="key_5_heart_11" type="basicOpacity|opacity:1" object="heart_1"  startTime="3.15" endTime="4.00" />
+
+<animation id="key_2_heart_10" type="basicOpacity|opacity:1" object="heart_1"  startTime="4.45" endTime="4.45" />
+<animation id="key_2_heart_11" type="basicOpacity|opacity:0" object="heart_1"  startTime="4.45" endTime="5.30" />
+
+<animation id="key_5_heart_20" type="basicMove|ease:easeOutExpo;" object="heart_2" positionStart="0.620:0.320"  positionEnd="0.620:0.130"  positionRelativeTo="scene" startTime="4.60" endTime="5.86" />
+
+<animation id="key_1_heart_20" type="basicOpacity|opacity:0" object="heart_2"  startTime="3.95" endTime="3.95" />
+<animation id="key_8_heart_21" type="basicOpacity|opacity:1" object="heart_2"  startTime="3.95" endTime="4.80" />
+
+<animation id="key_0_heart_20" type="basicOpacity|opacity:1" object="heart_2"  startTime="5.25" endTime="5.25" />
+<animation id="key_5_heart_21" type="basicOpacity|opacity:0" object="heart_2"  startTime="5.25" endTime="6.10" />
+
+<animation id="key_3_heart_30" type="basicMove|ease:easeOutExpo;" object="heart_3" positionStart="0.570:0.320"  positionEnd="0.570:0.130"  positionRelativeTo="scene" startTime="5.40" endTime="6.66" />
+
+<animation id="key_1_heart_30" type="basicOpacity|opacity:0" object="heart_3"  startTime="4.75" endTime="4.75" />
+<animation id="key_4_heart_31" type="basicOpacity|opacity:1" object="heart_3"  startTime="4.75" endTime="5.60" />
+
+<animation id="key_7_heart_30" type="basicOpacity|opacity:1" object="heart_3"  startTime="6.05" endTime="6.05" />
+<animation id="key_2_heart_31" type="basicOpacity|opacity:0" object="heart_3"  startTime="6.05" endTime="6.90" />
+
+<animation id="key_8_heart_40" type="basicMove|ease:easeOutExpo;" object="heart_4" positionStart="0.640:0.320"  positionEnd="0.640:0.130"  positionRelativeTo="scene" startTime="6.20" endTime="7.46" />
+
+<animation id="key_6_heart_40" type="basicOpacity|opacity:0" object="heart_4"  startTime="5.55" endTime="5.55" />
+<animation id="key_4_heart_41" type="basicOpacity|opacity:1" object="heart_4"  startTime="5.55" endTime="6.40" />
+
+<animation id="key_7_heart_40" type="basicOpacity|opacity:1" object="heart_4"  startTime="6.85" endTime="6.85" />
+<animation id="key_4_heart_41" type="basicOpacity|opacity:0" object="heart_4"  startTime="6.85" endTime="7.70" />
+
+<animation id="key_8_heart_50" type="basicMove|ease:easeOutExpo;" object="heart_5" positionStart="0.550:0.320"  positionEnd="0.550:0.130"  positionRelativeTo="scene" startTime="7.00" endTime="8.26" />
+
+<animation id="key_5_heart_50" type="basicOpacity|opacity:0" object="heart_5"  startTime="6.35" endTime="6.35" />
+<animation id="key_8_heart_51" type="basicOpacity|opacity:1" object="heart_5"  startTime="6.35" endTime="7.20" />
+
+<animation id="key_1_heart_50" type="basicOpacity|opacity:1" object="heart_5"  startTime="7.65" endTime="7.65" />
+<animation id="key_3_heart_51" type="basicOpacity|opacity:0" object="heart_5"  startTime="7.65" endTime="8.50" />
+
+<animation id="key_7_heart_60" type="basicMove|ease:easeOutExpo;" object="heart_6" positionStart="0.660:0.320"  positionEnd="0.660:0.130"  positionRelativeTo="scene" startTime="7.80" endTime="9.06" />
+
+<animation id="key_7_heart_60" type="basicOpacity|opacity:0" object="heart_6"  startTime="7.15" endTime="7.15" />
+<animation id="key_4_heart_61" type="basicOpacity|opacity:1" object="heart_6"  startTime="7.15" endTime="8.00" />
+
+<animation id="key_4_heart_60" type="basicOpacity|opacity:1" object="heart_6"  startTime="8.45" endTime="8.45" />
+<animation id="key_7_heart_61" type="basicOpacity|opacity:0" object="heart_6"  startTime="8.45" endTime="9.30" />
+
+<animation id="key_0_monitor_450" type="basicMove" object="monitor_45" positionStart="0.774:1.130"  positionEnd="0.774:0.330"  positionRelativeTo="scene" startTime="1.60" endTime="2.10" />
+<animation id="key_8_monitor_451" type="basicMove" object="monitor_45" positionStart="0.774:0.330"  positionEnd="0.774:0.380"  positionRelativeTo="scene" startTime="2.10" endTime="2.50" />
+<animation id="key_2_monitor_452" type="basicMove" object="monitor_45" positionStart="0.774:0.380"  positionEnd="0.774:0.350"  positionRelativeTo="scene" startTime="2.50" endTime="3.30" />
+<animation id="key_1_monitor_453" type="basicMove" object="monitor_45" positionStart="0.774:0.350"  positionEnd="0.774:0.430"  positionRelativeTo="scene" startTime="3.30" endTime="4.30" />
+<animation id="key_6_monitor_454" type="basicMove" object="monitor_45" positionStart="0.774:0.430"  positionEnd="0.774:0.350"  positionRelativeTo="scene" startTime="4.30" endTime="5.30" />
+<animation id="key_5_monitor_455" type="basicMove" object="monitor_45" positionStart="0.774:0.350"  positionEnd="0.774:0.430"  positionRelativeTo="scene" startTime="5.30" endTime="6.30" />
+<animation id="key_8_monitor_456" type="basicMove" object="monitor_45" positionStart="0.774:0.430"  positionEnd="0.774:0.350"  positionRelativeTo="scene" startTime="6.30" endTime="7.30" />
+<animation id="key_2_monitor_457" type="basicMove" object="monitor_45" positionStart="0.774:0.350"  positionEnd="0.774:0.430"  positionRelativeTo="scene" startTime="7.30" endTime="8.30" />
+<animation id="key_3_monitor_458" type="basicMove" object="monitor_45" positionStart="0.774:0.430"  positionEnd="0.774:0.350"  positionRelativeTo="scene" startTime="8.30" endTime="9.30" />
+<animation id="key_0_monitor_459" type="basicMove" object="monitor_45" positionStart="0.774:0.350"  positionEnd="0.774:0.430"  positionRelativeTo="scene" startTime="9.30" endTime="10.30" />
+<animation id="key_2_monitor_4510" type="basicMove" object="monitor_45" positionStart="0.774:0.430"  positionEnd="0.774:0.380"  positionRelativeTo="scene" startTime="10.30" endTime="11.30" />
+<animation id="key_2_monitor_4511" type="basicMove" object="monitor_45" positionStart="0.774:0.380"  positionEnd="0.774:0.280"  positionRelativeTo="scene" startTime="11.30" endTime="11.50" />
+<animation id="key_8_monitor_4512" type="basicMove" object="monitor_45" positionStart="0.774:0.280"  positionEnd="0.774:1.130"  positionRelativeTo="scene" startTime="11.50" endTime="11.80" />
+
+<animation id="key_0_paper_460" type="basicMove" object="paper_46" positionStart="0.926:1.350"  positionEnd="0.926:0.390"  positionRelativeTo="scene" startTime="1.70" endTime="2.20" />
+<animation id="key_0_paper_461" type="basicMove" object="paper_46" positionStart="0.926:0.390"  positionEnd="0.926:0.450"  positionRelativeTo="scene" startTime="2.20" endTime="2.60" />
+<animation id="key_3_paper_462" type="basicMove" object="paper_46" positionStart="0.926:0.450"  positionEnd="0.926:0.414"  positionRelativeTo="scene" startTime="2.60" endTime="3.40" />
+<animation id="key_6_paper_463" type="basicMove" object="paper_46" positionStart="0.926:0.414"  positionEnd="0.926:0.510"  positionRelativeTo="scene" startTime="3.40" endTime="4.40" />
+<animation id="key_2_paper_464" type="basicMove" object="paper_46" positionStart="0.926:0.510"  positionEnd="0.926:0.414"  positionRelativeTo="scene" startTime="4.40" endTime="5.40" />
+<animation id="key_2_paper_465" type="basicMove" object="paper_46" positionStart="0.926:0.414"  positionEnd="0.926:0.510"  positionRelativeTo="scene" startTime="5.40" endTime="6.40" />
+<animation id="key_0_paper_466" type="basicMove" object="paper_46" positionStart="0.926:0.510"  positionEnd="0.926:0.414"  positionRelativeTo="scene" startTime="6.40" endTime="7.40" />
+<animation id="key_0_paper_467" type="basicMove" object="paper_46" positionStart="0.926:0.414"  positionEnd="0.926:0.510"  positionRelativeTo="scene" startTime="7.40" endTime="8.40" />
+<animation id="key_7_paper_468" type="basicMove" object="paper_46" positionStart="0.926:0.510"  positionEnd="0.926:0.414"  positionRelativeTo="scene" startTime="8.40" endTime="9.40" />
+<animation id="key_7_paper_469" type="basicMove" object="paper_46" positionStart="0.926:0.414"  positionEnd="0.926:0.510"  positionRelativeTo="scene" startTime="9.40" endTime="10.40" />
+<animation id="key_1_paper_4610" type="basicMove" object="paper_46" positionStart="0.926:0.510"  positionEnd="0.926:0.450"  positionRelativeTo="scene" startTime="10.40" endTime="11.40" />
+<animation id="key_4_paper_4611" type="basicMove" object="paper_46" positionStart="0.926:0.450"  positionEnd="0.926:0.330"  positionRelativeTo="scene" startTime="11.40" endTime="11.60" />
+<animation id="key_1_paper_4612" type="basicMove" object="paper_46" positionStart="0.926:0.330"  positionEnd="0.926:1.350"  positionRelativeTo="scene" startTime="11.60" endTime="11.90" />
+
+<animation id="key_6_jar_470" type="basicMove" object="jar_47" positionStart="0.795:1.400"  positionEnd="0.795:0.600"  positionRelativeTo="scene" startTime="1.80" endTime="2.30" />
+<animation id="key_6_jar_471" type="basicMove" object="jar_47" positionStart="0.795:0.600"  positionEnd="0.795:0.650"  positionRelativeTo="scene" startTime="2.30" endTime="2.70" />
+<animation id="key_3_jar_472" type="basicMove" object="jar_47" positionStart="0.795:0.650"  positionEnd="0.795:0.620"  positionRelativeTo="scene" startTime="2.70" endTime="3.50" />
+<animation id="key_1_jar_473" type="basicMove" object="jar_47" positionStart="0.795:0.620"  positionEnd="0.795:0.700"  positionRelativeTo="scene" startTime="3.50" endTime="4.50" />
+<animation id="key_7_jar_474" type="basicMove" object="jar_47" positionStart="0.795:0.700"  positionEnd="0.795:0.620"  positionRelativeTo="scene" startTime="4.50" endTime="5.50" />
+<animation id="key_0_jar_475" type="basicMove" object="jar_47" positionStart="0.795:0.620"  positionEnd="0.795:0.700"  positionRelativeTo="scene" startTime="5.50" endTime="6.50" />
+<animation id="key_3_jar_476" type="basicMove" object="jar_47" positionStart="0.795:0.700"  positionEnd="0.795:0.620"  positionRelativeTo="scene" startTime="6.50" endTime="7.50" />
+<animation id="key_5_jar_477" type="basicMove" object="jar_47" positionStart="0.795:0.620"  positionEnd="0.795:0.700"  positionRelativeTo="scene" startTime="7.50" endTime="8.50" />
+<animation id="key_8_jar_478" type="basicMove" object="jar_47" positionStart="0.795:0.700"  positionEnd="0.795:0.620"  positionRelativeTo="scene" startTime="8.50" endTime="9.50" />
+<animation id="key_8_jar_479" type="basicMove" object="jar_47" positionStart="0.795:0.620"  positionEnd="0.795:0.700"  positionRelativeTo="scene" startTime="9.50" endTime="10.50" />
+<animation id="key_4_jar_4710" type="basicMove" object="jar_47" positionStart="0.795:0.700"  positionEnd="0.795:0.650"  positionRelativeTo="scene" startTime="10.50" endTime="11.50" />
+<animation id="key_2_jar_4711" type="basicMove" object="jar_47" positionStart="0.795:0.650"  positionEnd="0.795:0.550"  positionRelativeTo="scene" startTime="11.50" endTime="11.70" />
+<animation id="key_2_jar_4712" type="basicMove" object="jar_47" positionStart="0.795:0.550"  positionEnd="0.795:1.400"  positionRelativeTo="scene" startTime="11.70" endTime="12.00" />
+
+
+
+
+ </igml>

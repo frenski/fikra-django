@@ -1,0 +1,7 @@
+audio:audio/vo/design_course/color/color.mp3
+
+start at  1.5:300
+
+xml/clips/design_course/color/
+
+titlecol:0-1,designer2:4-1,leson1:11-1,timeline:15-1.6,leson2:36-1,colorwheel:40-1,moods:47-1,ternary:58-1,scheme1:83-0.8,compli:91-1,scheme2:100-1,analogus:110-1,paint:120-1,colorwheel4:135-2,leson3:169-1,colchar:173-1,leson4:184-1,monitorprint:188-1,rgb:194-1,hls:208-0.5,cmyk:224-0.7,spot_label:238-0.4,careful:242-1,alltypes:252-1,inkprint:259-1,outro:279-1,guess1:284-1,guess2:294-1,guess3:304-1,numcols:314-1,flower:324-1,dist:334-1,

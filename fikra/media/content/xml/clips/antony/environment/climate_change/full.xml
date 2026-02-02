@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="fileinclude" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff" title="">
+
+<object id="sound_file" type="sound" src="audio/vo/environment/climate_change.mp3" action="link:" />
+<include id="scene2"  src="xml/clips/antony/environment/climate_change/scenes/planet.xml" startTime="0" duration="1.1" /> 
+<include id="scene3"  src="xml/clips/antony/environment/climate_change/scenes/last_years.xml" startTime="13" duration="0.9" /> 
+<include id="scene4"  src="xml/clips/antony/environment/climate_change/scenes/closeplanet.xml" startTime="22" duration="1" /> 
+<include id="scene5"  src="xml/clips/antony/environment/climate_change/scenes/disasters.xml" startTime="31" duration="1" /> 
+<include id="scene6"  src="xml/clips/antony/environment/climate_change/scenes/iceberg.xml" startTime="39" duration="1" /> 
+<include id="scene7"  src="xml/clips/antony/environment/climate_change/scenes/poles.xml" startTime="47" duration="1" /> 
+<include id="scene8"  src="xml/clips/antony/environment/climate_change/scenes/rises.xml" startTime="54" duration="1" /> 
+<include id="scene9"  src="xml/clips/antony/environment/climate_change/scenes/heatcos.xml" startTime="64" duration="1" /> 
+<include id="scene10"  src="xml/clips/antony/environment/climate_change/scenes/planetbite.xml" startTime="74" duration="1" /> 
+<include id="scene11"  src="xml/clips/antony/environment/climate_change/scenes/map.xml" startTime="81" duration="1" /> 
+<include id="scene12"  src="xml/clips/antony/environment/climate_change/scenes/foodwaterair.xml" startTime="90" duration="1" /> 
+<include id="scene13"  src="xml/clips/antony/environment/climate_change/scenes/crops.xml" startTime="97" duration="0.85" /> 
+<include id="scene14"  src="xml/clips/antony/environment/climate_change/scenes/area_chart_sea.xml" startTime="106" duration="1" /> 
+<include id="scene15"  src="xml/clips/antony/environment/climate_change/scenes/map_casulties.xml" startTime="114" duration="1" /> 
+<include id="scene16"  src="xml/clips/antony/environment/climate_change/scenes/energy_cut.xml" startTime="124" duration="1" /> 
+<include id="scene17"  src="xml/clips/antony/environment/climate_change/scenes/imported_eu.xml" startTime="131" duration="1" /> 
+<include id="scene18"  src="xml/clips/antony/environment/climate_change/scenes/kid.xml" startTime="138" duration="0.8" /> 
+<include id="scene19"  src="xml/clips/antony/environment/climate_change/scenes/worker.xml" startTime="150" duration="1" /> 
+<include id="scene20"  src="xml/clips/antony/environment/climate_change/scenes/desolve.xml" startTime="157" duration="1" /> 
+
+<animation id="play-sound" type="playSound|loop:false" object="sound_file" startTime="0" endTime="300" />
+</igml>

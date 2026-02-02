@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#ffffff">
+
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#B33B70" strokeWidth="0" action="link" editable="true"/>
+
+<object id="circle_1" type="image" src="graphics/general/environment/climate_change/organs/circle.svg" action="link" editable="true" />
+
+<object id="circle_2" type="image" src="graphics/general/environment/climate_change/organs/circle.svg" action="link" editable="true" />
+
+<object id="circle_3" type="image" src="graphics/general/environment/climate_change/organs/circle.svg" action="link" editable="true" />
+
+<object id="brain_4" type="image" src="graphics/general/environment/climate_change/organs/brain.svg" action="link" editable="true" />
+
+<object id="lungs_5" type="image" src="graphics/general/environment/climate_change/organs/lungs.svg" action="link" editable="true" />
+
+<object id="heart_6" type="image" src="graphics/general/environment/climate_change/organs/heart.svg" action="link" editable="true" />
+
+<object id="clouds_7" type="image" src="graphics/general/environment/climate_change/organs/clouds.svg" action="link" editable="true" />
+
+<object id="particles_8" type="image" src="graphics/general/environment/climate_change/organs/particles.svg" action="link" editable="true" />
+
+<object id="smog_17" type="image" src="graphics/general/environment/climate_change/cars/smog.svg" action="link" editable="true" />
+
+<object id="rect"  type="shape" shapetype="rect" size="0.5,0.5" color="#d3d3d3" strokeWidth="0" action="link" editable="true"/>
+
+<object id="cloud_1" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_2" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_3" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_4" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_5" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_6" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_7" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_8" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_9" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_10" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_11" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_12" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<object id="cloud_13" type="image" src="graphics/general/environment/climate_change/lastyears/cloud.svg" action="link" editable="true" />
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:0.8; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:2" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_1" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="circle_1" positionStart="0.20:1.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_2" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="circle_2" positionStart="0.5:1.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_circle_3" type="appearFade|scaleTo:0.25;opacity:1;anchorPoint:0.5,0.5" object="circle_3" positionStart="0.80:1.42" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_brain_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="brain_4" positionStart="0.20:0.42" positionRelativeTo="scene" startTime="3" endTime="3" />
+
+<animation id="appear_lungs_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="lungs_5" positionStart="0.5:0.373" positionRelativeTo="scene" startTime="3.2" endTime="3.2" />
+
+<animation id="appear_heart_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="heart_6" positionStart="0.80:0.42" positionRelativeTo="scene" startTime="3.4" endTime="3.4" />
+
+<animation id="appear_clouds_7" type="appearFade|scaleTo:0.9;opacity:0;anchorPoint:0.5,0.5" object="clouds_7" positionStart="0.498:0.147" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_particles_8" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="particles_8" positionStart="0.5:05" positionRelativeTo="scene" startTime="6" endTime="7" />
+
+<animation id="appear_smog_17" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="smog_17" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="10" endTime="15" />
+
+<animation id="arect" type="appearFade|scaleTo:1;opacity:1;anchorPoint:0.5,0.5" object="rect" positionStart="0.5:0.5" positionRelativeTo="scene" startTime="10" endTime="20" />
+
+<animation id="appear_cloud_1" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_1" positionStart="0.47:0.10" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_2" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_2" positionStart="0.54:0.14" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_3" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_3" positionStart="0.47:0.19" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_4" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_4" positionStart="0.57:0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_5" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_5" positionStart="0.61:0.15" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_6" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_6" positionStart="0.64:0.23" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_7" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_7" positionStart="0.32:0.16" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_8" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_8" positionStart="0.39:0.14" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_9" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_9" positionStart="0.42:0.09" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_10" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_10" positionStart="0.79:0.22" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_11" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_11" positionStart="0.70:0.14" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_12" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_12" positionStart="0.69:0.20" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_cloud_13" type="appearFade|scaleTo:0;opacity:1;anchorPoint:0.5,0.5" object="cloud_13" positionStart="0.75:0.21" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+<animation id="key_1_cloud_10" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="4.00" endTime="5.00" />
+<animation id="key_5_cloud_11" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="5.00" endTime="6.00" />
+<animation id="key_5_cloud_12" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="6.00" endTime="7.00" />
+<animation id="key_3_cloud_13" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="7.00" endTime="8.00" />
+<animation id="key_4_cloud_14" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="8.00" endTime="9.00" />
+<animation id="key_7_cloud_15" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="9.00" endTime="10.00" />
+<animation id="key_8_cloud_16" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="10.00" endTime="11.00" />
+<animation id="key_2_cloud_17" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="11.00" endTime="12.00" />
+<animation id="key_1_cloud_18" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="12.00" endTime="13.00" />
+<animation id="key_7_cloud_19" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="13.00" endTime="14.00" />
+<animation id="key_6_cloud_110" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="14.00" endTime="15.00" />
+<animation id="key_6_cloud_111" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="15.00" endTime="16.00" />
+<animation id="key_1_cloud_112" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="16.00" endTime="17.00" />
+<animation id="key_1_cloud_113" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="17.00" endTime="18.00" />
+<animation id="key_7_cloud_114" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="18.00" endTime="19.00" />
+<animation id="key_5_cloud_115" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="19.00" endTime="20.00" />
+<animation id="key_8_cloud_116" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="20.00" endTime="21.00" />
+<animation id="key_5_cloud_117" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="21.00" endTime="22.00" />
+<animation id="key_7_cloud_118" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="22.00" endTime="23.00" />
+<animation id="key_0_cloud_119" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="23.00" endTime="24.00" />
+<animation id="key_0_cloud_120" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="24.00" endTime="25.00" />
+<animation id="key_5_cloud_121" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="25.00" endTime="26.00" />
+<animation id="key_3_cloud_122" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="26.00" endTime="27.00" />
+<animation id="key_1_cloud_123" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="27.00" endTime="28.00" />
+<animation id="key_2_cloud_124" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="28.00" endTime="29.00" />
+<animation id="key_0_cloud_125" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_1"  startTime="29.00" endTime="30.00" />
+<animation id="key_4_cloud_126" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_1"  startTime="30.00" endTime="31.00" />
+
+<animation id="key_5_cloud_20" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="4.50" endTime="5.50" />
+<animation id="key_3_cloud_21" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="5.50" endTime="6.50" />
+<animation id="key_5_cloud_22" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="6.50" endTime="7.50" />
+<animation id="key_6_cloud_23" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="7.50" endTime="8.50" />
+<animation id="key_0_cloud_24" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="8.50" endTime="9.50" />
+<animation id="key_0_cloud_25" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="9.50" endTime="10.50" />
+<animation id="key_3_cloud_26" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="10.50" endTime="11.50" />
+<animation id="key_8_cloud_27" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="11.50" endTime="12.50" />
+<animation id="key_0_cloud_28" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="12.50" endTime="13.50" />
+<animation id="key_3_cloud_29" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="13.50" endTime="14.50" />
+<animation id="key_4_cloud_210" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="14.50" endTime="15.50" />
+<animation id="key_0_cloud_211" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="15.50" endTime="16.50" />
+<animation id="key_2_cloud_212" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="16.50" endTime="17.50" />
+<animation id="key_0_cloud_213" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="17.50" endTime="18.50" />
+<animation id="key_0_cloud_214" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="18.50" endTime="19.50" />
+<animation id="key_5_cloud_215" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="19.50" endTime="20.50" />
+<animation id="key_7_cloud_216" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="20.50" endTime="21.50" />
+<animation id="key_3_cloud_217" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="21.50" endTime="22.50" />
+<animation id="key_3_cloud_218" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="22.50" endTime="23.50" />
+<animation id="key_3_cloud_219" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="23.50" endTime="24.50" />
+<animation id="key_3_cloud_220" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="24.50" endTime="25.50" />
+<animation id="key_7_cloud_221" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="25.50" endTime="26.50" />
+<animation id="key_2_cloud_222" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="26.50" endTime="27.50" />
+<animation id="key_0_cloud_223" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="27.50" endTime="28.50" />
+<animation id="key_2_cloud_224" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="28.50" endTime="29.50" />
+<animation id="key_5_cloud_225" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_2"  startTime="29.50" endTime="30.50" />
+<animation id="key_5_cloud_226" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_2"  startTime="30.50" endTime="31.50" />
+
+<animation id="key_6_cloud_30" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="5.00" endTime="6.00" />
+<animation id="key_4_cloud_31" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="6.00" endTime="7.00" />
+<animation id="key_6_cloud_32" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="7.00" endTime="8.00" />
+<animation id="key_5_cloud_33" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="8.00" endTime="9.00" />
+<animation id="key_8_cloud_34" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="9.00" endTime="10.00" />
+<animation id="key_6_cloud_35" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="10.00" endTime="11.00" />
+<animation id="key_3_cloud_36" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="11.00" endTime="12.00" />
+<animation id="key_5_cloud_37" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="12.00" endTime="13.00" />
+<animation id="key_1_cloud_38" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="13.00" endTime="14.00" />
+<animation id="key_8_cloud_39" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="14.00" endTime="15.00" />
+<animation id="key_4_cloud_310" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="15.00" endTime="16.00" />
+<animation id="key_5_cloud_311" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="16.00" endTime="17.00" />
+<animation id="key_0_cloud_312" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="17.00" endTime="18.00" />
+<animation id="key_6_cloud_313" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="18.00" endTime="19.00" />
+<animation id="key_3_cloud_314" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="19.00" endTime="20.00" />
+<animation id="key_0_cloud_315" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="20.00" endTime="21.00" />
+<animation id="key_3_cloud_316" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="21.00" endTime="22.00" />
+<animation id="key_8_cloud_317" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="22.00" endTime="23.00" />
+<animation id="key_3_cloud_318" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="23.00" endTime="24.00" />
+<animation id="key_0_cloud_319" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="24.00" endTime="25.00" />
+<animation id="key_2_cloud_320" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="25.00" endTime="26.00" />
+<animation id="key_5_cloud_321" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="26.00" endTime="27.00" />
+<animation id="key_8_cloud_322" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="27.00" endTime="28.00" />
+<animation id="key_2_cloud_323" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="28.00" endTime="29.00" />
+<animation id="key_2_cloud_324" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="29.00" endTime="30.00" />
+<animation id="key_3_cloud_325" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_3"  startTime="30.00" endTime="31.00" />
+<animation id="key_5_cloud_326" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_3"  startTime="31.00" endTime="32.00" />
+
+<animation id="key_3_cloud_40" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="5.50" endTime="6.50" />
+<animation id="key_1_cloud_41" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="6.50" endTime="7.50" />
+<animation id="key_3_cloud_42" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="7.50" endTime="8.50" />
+<animation id="key_8_cloud_43" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="8.50" endTime="9.50" />
+<animation id="key_1_cloud_44" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="9.50" endTime="10.50" />
+<animation id="key_7_cloud_45" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="10.50" endTime="11.50" />
+<animation id="key_2_cloud_46" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="11.50" endTime="12.50" />
+<animation id="key_2_cloud_47" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="12.50" endTime="13.50" />
+<animation id="key_6_cloud_48" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="13.50" endTime="14.50" />
+<animation id="key_0_cloud_49" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="14.50" endTime="15.50" />
+<animation id="key_0_cloud_410" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="15.50" endTime="16.50" />
+<animation id="key_3_cloud_411" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="16.50" endTime="17.50" />
+<animation id="key_5_cloud_412" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="17.50" endTime="18.50" />
+<animation id="key_4_cloud_413" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="18.50" endTime="19.50" />
+<animation id="key_3_cloud_414" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="19.50" endTime="20.50" />
+<animation id="key_8_cloud_415" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="20.50" endTime="21.50" />
+<animation id="key_8_cloud_416" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="21.50" endTime="22.50" />
+<animation id="key_0_cloud_417" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="22.50" endTime="23.50" />
+<animation id="key_0_cloud_418" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="23.50" endTime="24.50" />
+<animation id="key_7_cloud_419" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="24.50" endTime="25.50" />
+<animation id="key_2_cloud_420" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="25.50" endTime="26.50" />
+<animation id="key_7_cloud_421" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="26.50" endTime="27.50" />
+<animation id="key_4_cloud_422" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="27.50" endTime="28.50" />
+<animation id="key_0_cloud_423" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="28.50" endTime="29.50" />
+<animation id="key_6_cloud_424" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="29.50" endTime="30.50" />
+<animation id="key_2_cloud_425" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_4"  startTime="30.50" endTime="31.50" />
+<animation id="key_8_cloud_426" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_4"  startTime="31.50" endTime="32.50" />
+
+<animation id="key_1_cloud_50" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="6.00" endTime="7.00" />
+<animation id="key_4_cloud_51" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="7.00" endTime="8.00" />
+<animation id="key_4_cloud_52" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="8.00" endTime="9.00" />
+<animation id="key_3_cloud_53" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="9.00" endTime="10.00" />
+<animation id="key_2_cloud_54" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="10.00" endTime="11.00" />
+<animation id="key_7_cloud_55" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="11.00" endTime="12.00" />
+<animation id="key_8_cloud_56" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="12.00" endTime="13.00" />
+<animation id="key_8_cloud_57" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="13.00" endTime="14.00" />
+<animation id="key_0_cloud_58" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="14.00" endTime="15.00" />
+<animation id="key_4_cloud_59" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="15.00" endTime="16.00" />
+<animation id="key_2_cloud_510" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="16.00" endTime="17.00" />
+<animation id="key_4_cloud_511" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="17.00" endTime="18.00" />
+<animation id="key_2_cloud_512" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="18.00" endTime="19.00" />
+<animation id="key_2_cloud_513" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="19.00" endTime="20.00" />
+<animation id="key_2_cloud_514" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="20.00" endTime="21.00" />
+<animation id="key_0_cloud_515" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="21.00" endTime="22.00" />
+<animation id="key_1_cloud_516" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="22.00" endTime="23.00" />
+<animation id="key_5_cloud_517" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="23.00" endTime="24.00" />
+<animation id="key_2_cloud_518" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="24.00" endTime="25.00" />
+<animation id="key_8_cloud_519" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="25.00" endTime="26.00" />
+<animation id="key_2_cloud_520" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="26.00" endTime="27.00" />
+<animation id="key_4_cloud_521" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="27.00" endTime="28.00" />
+<animation id="key_7_cloud_522" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="28.00" endTime="29.00" />
+<animation id="key_2_cloud_523" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="29.00" endTime="30.00" />
+<animation id="key_6_cloud_524" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="30.00" endTime="31.00" />
+<animation id="key_4_cloud_525" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_5"  startTime="31.00" endTime="32.00" />
+<animation id="key_0_cloud_526" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_5"  startTime="32.00" endTime="33.00" />
+
+<animation id="key_0_cloud_60" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="6.50" endTime="7.50" />
+<animation id="key_7_cloud_61" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="7.50" endTime="8.50" />
+<animation id="key_1_cloud_62" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="8.50" endTime="9.50" />
+<animation id="key_3_cloud_63" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="9.50" endTime="10.50" />
+<animation id="key_7_cloud_64" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="10.50" endTime="11.50" />
+<animation id="key_0_cloud_65" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="11.50" endTime="12.50" />
+<animation id="key_0_cloud_66" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="12.50" endTime="13.50" />
+<animation id="key_7_cloud_67" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="13.50" endTime="14.50" />
+<animation id="key_7_cloud_68" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="14.50" endTime="15.50" />
+<animation id="key_8_cloud_69" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="15.50" endTime="16.50" />
+<animation id="key_4_cloud_610" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="16.50" endTime="17.50" />
+<animation id="key_0_cloud_611" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="17.50" endTime="18.50" />
+<animation id="key_4_cloud_612" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="18.50" endTime="19.50" />
+<animation id="key_1_cloud_613" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="19.50" endTime="20.50" />
+<animation id="key_2_cloud_614" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="20.50" endTime="21.50" />
+<animation id="key_6_cloud_615" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="21.50" endTime="22.50" />
+<animation id="key_1_cloud_616" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="22.50" endTime="23.50" />
+<animation id="key_7_cloud_617" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="23.50" endTime="24.50" />
+<animation id="key_5_cloud_618" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="24.50" endTime="25.50" />
+<animation id="key_3_cloud_619" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="25.50" endTime="26.50" />
+<animation id="key_1_cloud_620" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="26.50" endTime="27.50" />
+<animation id="key_5_cloud_621" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="27.50" endTime="28.50" />
+<animation id="key_3_cloud_622" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="28.50" endTime="29.50" />
+<animation id="key_7_cloud_623" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="29.50" endTime="30.50" />
+<animation id="key_0_cloud_624" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="30.50" endTime="31.50" />
+<animation id="key_3_cloud_625" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_6"  startTime="31.50" endTime="32.50" />
+<animation id="key_7_cloud_626" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_6"  startTime="32.50" endTime="33.50" />
+
+<animation id="key_3_cloud_70" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="7.00" endTime="8.00" />
+<animation id="key_1_cloud_71" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="8.00" endTime="9.00" />
+<animation id="key_6_cloud_72" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="9.00" endTime="10.00" />
+<animation id="key_5_cloud_73" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="10.00" endTime="11.00" />
+<animation id="key_3_cloud_74" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="11.00" endTime="12.00" />
+<animation id="key_0_cloud_75" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="12.00" endTime="13.00" />
+<animation id="key_1_cloud_76" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="13.00" endTime="14.00" />
+<animation id="key_6_cloud_77" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="14.00" endTime="15.00" />
+<animation id="key_5_cloud_78" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="15.00" endTime="16.00" />
+<animation id="key_6_cloud_79" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="16.00" endTime="17.00" />
+<animation id="key_0_cloud_710" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="17.00" endTime="18.00" />
+<animation id="key_4_cloud_711" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="18.00" endTime="19.00" />
+<animation id="key_6_cloud_712" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="19.00" endTime="20.00" />
+<animation id="key_2_cloud_713" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="20.00" endTime="21.00" />
+<animation id="key_6_cloud_714" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="21.00" endTime="22.00" />
+<animation id="key_7_cloud_715" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="22.00" endTime="23.00" />
+<animation id="key_8_cloud_716" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="23.00" endTime="24.00" />
+<animation id="key_0_cloud_717" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="24.00" endTime="25.00" />
+<animation id="key_7_cloud_718" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="25.00" endTime="26.00" />
+<animation id="key_3_cloud_719" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="26.00" endTime="27.00" />
+<animation id="key_0_cloud_720" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="27.00" endTime="28.00" />
+<animation id="key_0_cloud_721" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="28.00" endTime="29.00" />
+<animation id="key_5_cloud_722" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="29.00" endTime="30.00" />
+<animation id="key_6_cloud_723" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="30.00" endTime="31.00" />
+<animation id="key_7_cloud_724" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="31.00" endTime="32.00" />
+<animation id="key_1_cloud_725" type="basicScale|scaleTo:0.044;ease:easeInOutSine;" object="cloud_7"  startTime="32.00" endTime="33.00" />
+<animation id="key_7_cloud_726" type="basicScale|scaleTo:0.110;ease:easeInOutSine;" object="cloud_7"  startTime="33.00" endTime="34.00" />
+
+<animation id="key_2_cloud_80" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="7.50" endTime="8.50" />
+<animation id="key_8_cloud_81" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="8.50" endTime="9.50" />
+<animation id="key_7_cloud_82" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="9.50" endTime="10.50" />
+<animation id="key_3_cloud_83" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="10.50" endTime="11.50" />
+<animation id="key_6_cloud_84" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="11.50" endTime="12.50" />
+<animation id="key_2_cloud_85" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="12.50" endTime="13.50" />
+<animation id="key_6_cloud_86" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="13.50" endTime="14.50" />
+<animation id="key_0_cloud_87" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="14.50" endTime="15.50" />
+<animation id="key_3_cloud_88" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="15.50" endTime="16.50" />
+<animation id="key_7_cloud_89" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="16.50" endTime="17.50" />
+<animation id="key_5_cloud_810" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="17.50" endTime="18.50" />
+<animation id="key_0_cloud_811" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="18.50" endTime="19.50" />
+<animation id="key_3_cloud_812" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="19.50" endTime="20.50" />
+<animation id="key_8_cloud_813" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="20.50" endTime="21.50" />
+<animation id="key_5_cloud_814" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="21.50" endTime="22.50" />
+<animation id="key_3_cloud_815" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="22.50" endTime="23.50" />
+<animation id="key_1_cloud_816" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="23.50" endTime="24.50" />
+<animation id="key_6_cloud_817" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="24.50" endTime="25.50" />
+<animation id="key_3_cloud_818" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="25.50" endTime="26.50" />
+<animation id="key_5_cloud_819" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="26.50" endTime="27.50" />
+<animation id="key_7_cloud_820" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="27.50" endTime="28.50" />
+<animation id="key_0_cloud_821" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="28.50" endTime="29.50" />
+<animation id="key_0_cloud_822" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="29.50" endTime="30.50" />
+<animation id="key_6_cloud_823" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="30.50" endTime="31.50" />
+<animation id="key_1_cloud_824" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="31.50" endTime="32.50" />
+<animation id="key_2_cloud_825" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_8"  startTime="32.50" endTime="33.50" />
+<animation id="key_8_cloud_826" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_8"  startTime="33.50" endTime="34.50" />
+
+<animation id="key_6_cloud_90" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="8.00" endTime="9.00" />
+<animation id="key_4_cloud_91" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="9.00" endTime="10.00" />
+<animation id="key_4_cloud_92" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="10.00" endTime="11.00" />
+<animation id="key_8_cloud_93" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="11.00" endTime="12.00" />
+<animation id="key_8_cloud_94" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="12.00" endTime="13.00" />
+<animation id="key_0_cloud_95" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="13.00" endTime="14.00" />
+<animation id="key_0_cloud_96" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="14.00" endTime="15.00" />
+<animation id="key_0_cloud_97" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="15.00" endTime="16.00" />
+<animation id="key_8_cloud_98" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="16.00" endTime="17.00" />
+<animation id="key_7_cloud_99" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="17.00" endTime="18.00" />
+<animation id="key_0_cloud_910" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="18.00" endTime="19.00" />
+<animation id="key_6_cloud_911" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="19.00" endTime="20.00" />
+<animation id="key_6_cloud_912" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="20.00" endTime="21.00" />
+<animation id="key_3_cloud_913" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="21.00" endTime="22.00" />
+<animation id="key_4_cloud_914" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="22.00" endTime="23.00" />
+<animation id="key_4_cloud_915" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="23.00" endTime="24.00" />
+<animation id="key_2_cloud_916" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="24.00" endTime="25.00" />
+<animation id="key_5_cloud_917" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="25.00" endTime="26.00" />
+<animation id="key_0_cloud_918" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="26.00" endTime="27.00" />
+<animation id="key_5_cloud_919" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="27.00" endTime="28.00" />
+<animation id="key_8_cloud_920" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="28.00" endTime="29.00" />
+<animation id="key_2_cloud_921" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="29.00" endTime="30.00" />
+<animation id="key_6_cloud_922" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="30.00" endTime="31.00" />
+<animation id="key_1_cloud_923" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="31.00" endTime="32.00" />
+<animation id="key_4_cloud_924" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="32.00" endTime="33.00" />
+<animation id="key_2_cloud_925" type="basicScale|scaleTo:0.036;ease:easeInOutSine;" object="cloud_9"  startTime="33.00" endTime="34.00" />
+<animation id="key_7_cloud_926" type="basicScale|scaleTo:0.090;ease:easeInOutSine;" object="cloud_9"  startTime="34.00" endTime="35.00" />
+
+<animation id="key_3_cloud_100" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="8.50" endTime="9.50" />
+<animation id="key_6_cloud_101" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="9.50" endTime="10.50" />
+<animation id="key_5_cloud_102" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="10.50" endTime="11.50" />
+<animation id="key_2_cloud_103" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="11.50" endTime="12.50" />
+<animation id="key_6_cloud_104" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="12.50" endTime="13.50" />
+<animation id="key_8_cloud_105" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="13.50" endTime="14.50" />
+<animation id="key_0_cloud_106" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="14.50" endTime="15.50" />
+<animation id="key_8_cloud_107" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="15.50" endTime="16.50" />
+<animation id="key_1_cloud_108" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="16.50" endTime="17.50" />
+<animation id="key_5_cloud_109" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="17.50" endTime="18.50" />
+<animation id="key_6_cloud_1010" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="18.50" endTime="19.50" />
+<animation id="key_8_cloud_1011" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="19.50" endTime="20.50" />
+<animation id="key_4_cloud_1012" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="20.50" endTime="21.50" />
+<animation id="key_3_cloud_1013" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="21.50" endTime="22.50" />
+<animation id="key_2_cloud_1014" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="22.50" endTime="23.50" />
+<animation id="key_0_cloud_1015" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="23.50" endTime="24.50" />
+<animation id="key_2_cloud_1016" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="24.50" endTime="25.50" />
+<animation id="key_7_cloud_1017" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="25.50" endTime="26.50" />
+<animation id="key_7_cloud_1018" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="26.50" endTime="27.50" />
+<animation id="key_3_cloud_1019" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="27.50" endTime="28.50" />
+<animation id="key_8_cloud_1020" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="28.50" endTime="29.50" />
+<animation id="key_1_cloud_1021" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="29.50" endTime="30.50" />
+<animation id="key_5_cloud_1022" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="30.50" endTime="31.50" />
+<animation id="key_7_cloud_1023" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="31.50" endTime="32.50" />
+<animation id="key_0_cloud_1024" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="32.50" endTime="33.50" />
+<animation id="key_2_cloud_1025" type="basicScale|scaleTo:0.040;ease:easeInOutSine;" object="cloud_10"  startTime="33.50" endTime="34.50" />
+<animation id="key_2_cloud_1026" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="cloud_10"  startTime="34.50" endTime="35.50" />
+
+<animation id="key_1_cloud_110" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="9.00" endTime="10.00" />
+<animation id="key_2_cloud_111" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="10.00" endTime="11.00" />
+<animation id="key_5_cloud_112" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="11.00" endTime="12.00" />
+<animation id="key_4_cloud_113" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="12.00" endTime="13.00" />
+<animation id="key_4_cloud_114" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="13.00" endTime="14.00" />
+<animation id="key_2_cloud_115" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="14.00" endTime="15.00" />
+<animation id="key_0_cloud_116" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="15.00" endTime="16.00" />
+<animation id="key_3_cloud_117" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="16.00" endTime="17.00" />
+<animation id="key_2_cloud_118" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="17.00" endTime="18.00" />
+<animation id="key_5_cloud_119" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="18.00" endTime="19.00" />
+<animation id="key_7_cloud_1110" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="19.00" endTime="20.00" />
+<animation id="key_8_cloud_1111" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="20.00" endTime="21.00" />
+<animation id="key_0_cloud_1112" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="21.00" endTime="22.00" />
+<animation id="key_2_cloud_1113" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="22.00" endTime="23.00" />
+<animation id="key_8_cloud_1114" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="23.00" endTime="24.00" />
+<animation id="key_5_cloud_1115" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="24.00" endTime="25.00" />
+<animation id="key_7_cloud_1116" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="25.00" endTime="26.00" />
+<animation id="key_7_cloud_1117" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="26.00" endTime="27.00" />
+<animation id="key_7_cloud_1118" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="27.00" endTime="28.00" />
+<animation id="key_6_cloud_1119" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="28.00" endTime="29.00" />
+<animation id="key_7_cloud_1120" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="29.00" endTime="30.00" />
+<animation id="key_4_cloud_1121" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="30.00" endTime="31.00" />
+<animation id="key_7_cloud_1122" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="31.00" endTime="32.00" />
+<animation id="key_3_cloud_1123" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="32.00" endTime="33.00" />
+<animation id="key_0_cloud_1124" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="33.00" endTime="34.00" />
+<animation id="key_5_cloud_1125" type="basicScale|scaleTo:0.042;ease:easeInOutSine;" object="cloud_11"  startTime="34.00" endTime="35.00" />
+<animation id="key_4_cloud_1126" type="basicScale|scaleTo:0.105;ease:easeInOutSine;" object="cloud_11"  startTime="35.00" endTime="36.00" />
+
+<animation id="key_4_cloud_120" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="9.50" endTime="10.50" />
+<animation id="key_2_cloud_121" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="10.50" endTime="11.50" />
+<animation id="key_3_cloud_122" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="11.50" endTime="12.50" />
+<animation id="key_2_cloud_123" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="12.50" endTime="13.50" />
+<animation id="key_2_cloud_124" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="13.50" endTime="14.50" />
+<animation id="key_0_cloud_125" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="14.50" endTime="15.50" />
+<animation id="key_0_cloud_126" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="15.50" endTime="16.50" />
+<animation id="key_7_cloud_127" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="16.50" endTime="17.50" />
+<animation id="key_7_cloud_128" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="17.50" endTime="18.50" />
+<animation id="key_4_cloud_129" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="18.50" endTime="19.50" />
+<animation id="key_0_cloud_1210" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="19.50" endTime="20.50" />
+<animation id="key_2_cloud_1211" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="20.50" endTime="21.50" />
+<animation id="key_1_cloud_1212" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="21.50" endTime="22.50" />
+<animation id="key_5_cloud_1213" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="22.50" endTime="23.50" />
+<animation id="key_4_cloud_1214" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="23.50" endTime="24.50" />
+<animation id="key_5_cloud_1215" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="24.50" endTime="25.50" />
+<animation id="key_5_cloud_1216" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="25.50" endTime="26.50" />
+<animation id="key_4_cloud_1217" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="26.50" endTime="27.50" />
+<animation id="key_4_cloud_1218" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="27.50" endTime="28.50" />
+<animation id="key_1_cloud_1219" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="28.50" endTime="29.50" />
+<animation id="key_1_cloud_1220" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="29.50" endTime="30.50" />
+<animation id="key_0_cloud_1221" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="30.50" endTime="31.50" />
+<animation id="key_5_cloud_1222" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="31.50" endTime="32.50" />
+<animation id="key_2_cloud_1223" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="32.50" endTime="33.50" />
+<animation id="key_2_cloud_1224" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="33.50" endTime="34.50" />
+<animation id="key_4_cloud_1225" type="basicScale|scaleTo:0.048;ease:easeInOutSine;" object="cloud_12"  startTime="34.50" endTime="35.50" />
+<animation id="key_3_cloud_1226" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="cloud_12"  startTime="35.50" endTime="36.50" />
+
+<animation id="key_6_cloud_130" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="10.00" endTime="11.00" />
+<animation id="key_0_cloud_131" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="11.00" endTime="12.00" />
+<animation id="key_2_cloud_132" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="12.00" endTime="13.00" />
+<animation id="key_3_cloud_133" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="13.00" endTime="14.00" />
+<animation id="key_4_cloud_134" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="14.00" endTime="15.00" />
+<animation id="key_7_cloud_135" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="15.00" endTime="16.00" />
+<animation id="key_4_cloud_136" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="16.00" endTime="17.00" />
+<animation id="key_7_cloud_137" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="17.00" endTime="18.00" />
+<animation id="key_8_cloud_138" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="18.00" endTime="19.00" />
+<animation id="key_2_cloud_139" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="19.00" endTime="20.00" />
+<animation id="key_8_cloud_1310" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="20.00" endTime="21.00" />
+<animation id="key_7_cloud_1311" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="21.00" endTime="22.00" />
+<animation id="key_1_cloud_1312" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="22.00" endTime="23.00" />
+<animation id="key_1_cloud_1313" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="23.00" endTime="24.00" />
+<animation id="key_2_cloud_1314" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="24.00" endTime="25.00" />
+<animation id="key_0_cloud_1315" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="25.00" endTime="26.00" />
+<animation id="key_8_cloud_1316" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="26.00" endTime="27.00" />
+<animation id="key_0_cloud_1317" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="27.00" endTime="28.00" />
+<animation id="key_3_cloud_1318" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="28.00" endTime="29.00" />
+<animation id="key_7_cloud_1319" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="29.00" endTime="30.00" />
+<animation id="key_4_cloud_1320" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="30.00" endTime="31.00" />
+<animation id="key_0_cloud_1321" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="31.00" endTime="32.00" />
+<animation id="key_7_cloud_1322" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="32.00" endTime="33.00" />
+<animation id="key_2_cloud_1323" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="33.00" endTime="34.00" />
+<animation id="key_0_cloud_1324" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="34.00" endTime="35.00" />
+<animation id="key_4_cloud_1325" type="basicScale|scaleTo:0.046;ease:easeInOutSine;" object="cloud_13"  startTime="35.00" endTime="36.00" />
+<animation id="key_3_cloud_1326" type="basicScale|scaleTo:0.115;ease:easeInOutSine;" object="cloud_13"  startTime="36.00" endTime="37.00" />
+
+
+<animation id="key_0_bg_00" type="basicMove|ease:easeOutExpo;" object="bg_0" positionStart="0.500:2.000"  positionEnd="0.500:0.800"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+<animation id="key_5_circle_10" type="basicMove|ease:easeInOutSine;" object="circle_1" positionStart="0.200:1.420"  positionEnd="0.200:0.370"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+<animation id="key_5_circle_11" type="basicMove|ease:easeInOutSine;" object="circle_1" positionStart="0.200:0.370"  positionEnd="0.200:0.420"  positionRelativeTo="scene" startTime="2.00" endTime="2.20" />
+
+<animation id="key_4_circle_20" type="basicMove|ease:easeInOutSine;" object="circle_2" positionStart="0.500:1.420"  positionEnd="0.500:0.370"  positionRelativeTo="scene" startTime="1.30" endTime="2.30" />
+<animation id="key_0_circle_21" type="basicMove|ease:easeInOutSine;" object="circle_2" positionStart="0.500:0.370"  positionEnd="0.500:0.420"  positionRelativeTo="scene" startTime="2.30" endTime="2.50" />
+
+<animation id="key_2_circle_30" type="basicMove|ease:easeInOutSine;" object="circle_3" positionStart="0.800:1.420"  positionEnd="0.800:0.370"  positionRelativeTo="scene" startTime="1.60" endTime="2.60" />
+<animation id="key_2_circle_31" type="basicMove|ease:easeInOutSine;" object="circle_3" positionStart="0.800:0.370"  positionEnd="0.800:0.420"  positionRelativeTo="scene" startTime="2.60" endTime="2.80" />
+
+<animation id="key_7_brain_40" type="basicScale|scaleTo:0.170;ease:easeInOutSine;" object="brain_4"  startTime="3.00" endTime="4.00" />
+<animation id="key_0_brain_41" type="basicScale|scaleTo:0.150;ease:easeInOutSine;" object="brain_4"  startTime="4.00" endTime="4.20" />
+
+<animation id="key_6_lungs_50" type="basicScale|scaleTo:0.180;ease:easeInOutSine;" object="lungs_5"  startTime="3.20" endTime="4.20" />
+<animation id="key_1_lungs_51" type="basicScale|scaleTo:0.160;ease:easeInOutSine;" object="lungs_5"  startTime="4.20" endTime="4.40" />
+
+<animation id="key_0_heart_60" type="basicScale|scaleTo:0.120;ease:easeInOutSine;" object="heart_6"  startTime="3.40" endTime="4.40" />
+<animation id="key_2_heart_61" type="basicScale|scaleTo:0.100;ease:easeInOutSine;" object="heart_6"  startTime="4.40" endTime="4.60" />
+
+<animation id="key_7_clouds_70" type="basicOpacity|opacity:0" object="clouds_7"  startTime="5.00" endTime="5.00" />
+<animation id="key_6_clouds_71" type="basicOpacity|opacity:0.99" object="clouds_7"  startTime="5.00" endTime="8.00" />
+
+
+
+<object id="txt_3" type="text" text="thanks for watching" size="155" align = "center" color="#000000" width="55" font="Calibri" wordWrap="false" wordWrapWidth=""/>
+
+
+
+
+<animation id="appear_txt_3" type="appearFade|scaleTo:0.4;opacity:1;anchorPoint:0.5,0.5" object="txt_3" positionStart="0.5:1.464" positionRelativeTo="scene" startTime="18" endTime="20.5" />
+
+
+
+<animation id="key_3_txt_30" type="basicMove|ease:easeInOutCubic;" object="txt_3" positionStart="0.500:1.464"  positionEnd="0.500:0.264"  positionRelativeTo="scene" startTime="20" endTime="21.00" />
+<animation id="key_2_txt_31" type="basicMove|ease:easeInOutCubic;" object="txt_3" positionStart="0.500:0.264"  positionEnd="0.500:0.464"  positionRelativeTo="scene" startTime="21.00" endTime="22.20" />
+
+
+
+
+ </igml>

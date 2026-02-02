@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+
+
+<igml version="0.1" id="scene1" width="100%" height="100%" overflow="visible" backgroundColor="#D6436D">
+
+
+<object id="bg_0" type="shape" shapetype="rect" size="0.5,0.5" color="#302F35" strokeWidth="0" action="link" editable="false"/>
+
+
+
+
+<animation id="appear_bg_0" type="appearFade|scaleTo:1;opacity:1; anchorPoint:0.5,0.5;" object="bg_0" positionStart="0.5:2.5" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+
+
+
+<animation id="key_2_bg_00" type="basicMove|ease:easeOutSine;" object="bg_0" positionStart="0.500:1.500"  positionEnd="0.500:0.500"  positionRelativeTo="scene" startTime="0.00" endTime="1.00" />
+
+
+<object id="watermark_1" type="image" src="graphics/design/interactions/forms/rooster/watermark.svg" action="link" editable="false" />
+
+<object id="bigbox_2" type="image" src="graphics/design/interactions/forms/rooster/bigbox.svg" action="link" editable="false" />
+
+<object id="smallbox_3" type="image" src="graphics/design/interactions/forms/rooster/smallbox.svg" action="link" editable="false" />
+
+<object id="smallbox_4" type="image" src="graphics/design/interactions/forms/rooster/smallbox.svg" action="link" editable="false" />
+
+<object id="smallbox_5" type="image" src="graphics/design/interactions/forms/rooster/smallbox.svg" action="link" editable="false" />
+
+<object id="header_6" type="image" src="graphics/design/interactions/forms/rooster/beard.svg" action="link" editable="false" />
+
+<object id="sub_7" type="image" src="graphics/design/interactions/forms/rooster/beak1.svg" action="link" editable="false" />
+rooster
+<object id="para_8" type="image" src="graphics/design/interactions/forms/rooster/beak2.svg" action="link" editable="false" />
+
+<object id="arrow-dwn_9" type="image" src="graphics/design/interactions/forms/rooster/arrow-dwn.svg" action="link" editable="false" />
+
+<object id="arrow-up_10" type="image" src="graphics/design/interactions/forms/rooster/arrow-up.svg" action="link" editable="false" />
+
+<object id="arrow-dwn_11" type="image" src="graphics/design/interactions/forms/rooster/arrow-dwn.svg" action="link" editable="false" />
+
+<object id="arrow-up_12" type="image" src="graphics/design/interactions/forms/rooster/arrow-up.svg" action="link" editable="false" />
+
+<object id="arrow-dwn_13" type="image" src="graphics/design/interactions/forms/rooster/arrow-dwn.svg" action="link" editable="false" />
+
+<object id="arrow-up_14" type="image" src="graphics/design/interactions/forms/rooster/arrow-up.svg" action="link" editable="false" />
+
+<object id="header_15" type="image" src="graphics/design/interactions/forms/rooster/beard.svg" action="link" editable="false" />
+
+<object id="sub_16" type="image" src="graphics/design/interactions/forms/rooster/beak1.svg" action="link" editable="false" />
+
+<object id="para_17" type="image" src="graphics/design/interactions/forms/rooster/beak2.svg" action="link" editable="false" />
+
+<object id="title-text" type="text" text="Draw a rooster using only shapes with position and scale:" size="15" align="center" color="#ffffff" font="Open Sans" wordWrap="false" wordWrapWidth="0" weight="500" />
+
+
+		
+		
+	<object id="textbut-compare" type="text" text="COMPARE" size="15" align="center" color="#000000" width="20" font="Open Sans" weight="500" />
+	<object id="backbut-compare" type="shape" shapetype="rect" size="0.18,0.06" color="#ffffff" strokeWidth="0" action="link:"/>
+	<container id="button-compare" objects="backbut-compare,textbut-compare" anchorRoot="backbut-compare" action="link:"/>
+	
+	<object id="HDcover" type="shape" shapetype="rect" size="0.02,0.05" color="#000000" strokeWidth="0" action="link:"/>
+	<object id="SBcover" type="shape" shapetype="rect" size="0.02,0.05" color="#000000" strokeWidth="0" action="link:"/>
+	<object id="Parcover" type="shape" shapetype="rect" size="0.02,0.05" color="#000000" strokeWidth="0" action="link:"/>
+
+	
+	<!-- VARIABLES -->
+	
+	
+	
+	
+	<variable id="hd_posX" type="array" default="[0,0]" />
+	<variable id="hd_posY" type="array" default="[0,0]" />
+	<variable id="sb_posX" type="array" default="[0,0]" />
+	<variable id="sb_posY" type="array" default="[0,0]" />
+	<variable id="pr_posX" type="array" default="[0,0]" />
+	<variable id="pr_posY" type="array" default="[0,0]" />
+	
+	<variable id="tk_scl_header" type="array" default="[0,0]" />
+	<variable id="hd_scl_score" type="int" default="53" />
+		<variable id="sb_scl_score" type="int" default="50" />
+		<variable id="pr_scl_score" type="int" default="17" />
+
+	
+	
+	<variable id="tk_posX" type="array" default="[0,0]" />
+	<variable id="tk_posY" type="array" default="[0,0]" />
+	<variable id="tk_scl" type="array" default="[0,0]" />
+	<variable id="tk_score" type="int" default="0" />
+	<variable id="random_x1" type="expression" default="" expression="random(0.21,0.33)" />
+	<variable id="random_y1" type="expression" default="" expression="random(0.23,0.75)" />
+	<variable id="random_x2" type="expression" default="" expression="random(0.21,0.33)" />
+	<variable id="random_y2" type="expression" default="" expression="random(0.23,0.75)" />
+	<variable id="random_x3" type="expression" default="" expression="random(0.21,0.33)" />
+	<variable id="random_y3" type="expression" default="" expression="random(0.23,0.75)" />
+
+	
+	<variable id="original_pos1" type="array" default="[0,0]" reference="HDcover.position.x,HDcover.position.y" />
+	<variable id="original_pos2" type="array" default="[0,0]" reference="SBcover.position.x,SBcover.position.y" />
+	<variable id="original_pos3" type="array" default="[0,0]" reference="Parcover.position.x,Parcover.position.y" />
+
+	<variable id="pos_x_test1" type="float" default="0" reference="HDcover.position.x" />
+	<variable id="pos_x_test2" type="float" default="0" reference="SBcover.position.x" />
+	<variable id="pos_x_test3" type="float" default="0" reference="Parcover.position.x" />
+	
+	<variable id="pos_y_test1" type="float" default="0" reference="HDcover.position.y" />
+	<variable id="pos_y_test2" type="float" default="0" reference="SBcover.position.y" />
+	<variable id="pos_y_test3" type="float" default="0" reference="Parcover.position.y" />
+
+	
+	
+
+		
+<variable id="header_6_scaleX" type="float" default="1" reference="header_6.scale.x" />
+<variable id="header_6_scaleY" type="float" default="1" reference="header_6.scale.y" />
+
+	
+<variable id="sub_7_scaleX" type="float" default="1" reference="sub_7.scale.x" />
+<variable id="sub_7_scaleY" type="float" default="1" reference="sub_7.scale.y" />
+
+
+<variable id="para_8_scaleX" type="float" default="1" reference="para_8.scale.x" />
+<variable id="para_8_scaleY" type="float" default="1" reference="para_8.scale.y" />
+
+
+
+<variable id="pos_x_exp" type="expression" default="" expression="round(25 - 2*sum(abs({{tk_posX}} - [{{pos_x_test1}}, {{pos_x_test2}}, {{pos_x_test3}}])))" />
+	<variable id="pos_y_exp" type="expression" default="" expression="round(25 - 2*sum(abs({{tk_posY}} - [{{pos_y_test1}}, {{pos_y_test2}},{{pos_y_test3}}])))"/>
+	
+	<variable id="scl_exp" type="expression" default="" expression="round(50 - 2*sum(abs({{tk_scl}} - [ {{hd_scl_score}},{{sb_scl_score}},{{pr_scl_score}}])))" />
+	
+
+
+	
+	<variable id="score_exp" type="expression" default="" expression="({{pos_x_exp}} +{{pos_y_exp}}+ {{scl_exp}})"/>
+	
+	
+
+
+<animation id="titleappear" type="appearFromSide|direction:ttb;elastic:false;anchorPoint:0.5,0.5" object="title-text" startTime="1" endTime="2" positionStart="0.5:-0.22" positionEnd="0.5:0.08" positionRelativeTo="scene" />
+
+
+	<animation id="appear-compcover1" type="appearFade|scaleTo:0.005,0.005;anchorPoint:0.5,0.5;opacity:0;" object="HDcover" positionStart="0.245:0.43" positionEnd="0.32:0.0.191" positionRelativeTo="scene" startTime="1" endTime="1" />
+	<animation id="appear-compcover2" type="appearFade|scaleTo:0.005,0.005;anchorPoint:0.5,0.5;opacity:0;" object="SBcover" positionStart="0.245:0.50" positionEnd="0.56:0.755" positionRelativeTo="scene" startTime="1" endTime="1" />
+	<animation id="appear-compcover2" type="appearFade|scaleTo:0.005,0.005;anchorPoint:0.5,0.5;opacity:0;" object="Parcover" positionStart="0.245:0.60" positionEnd="0.56:0.755" positionRelativeTo="scene" startTime="1" endTime="1" />
+
+<animation id="appear_watermark_1" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_1" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_bigbox_2" type="appearFade|scaleTo:0.5;opacity:1;anchorPoint:0.5,0.5" object="bigbox_2" positionStart="1.402:0.483" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+<animation id="appear_smallbox_3" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="smallbox_3" positionStart="0.65:0.481" positionRelativeTo="scene" startTime="0.4" endTime="0.9" />
+	<animation id="appear-score-txtPt2" type="appearFade|anchorPoint:0,0;opacity:0;" object="txtPt2" positionStart="0.7:0.461" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+	<animation id="appear-score-txtPt2" type="appearFade|anchorPoint:0,0;opacity:0;" object="txtSb2" positionStart="0.66:0.461" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_smallbox_4" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="smallbox_4" positionStart="0.65:0.687" positionRelativeTo="scene" startTime="0.3" endTime="0.8" />
+<animation id="appear-score-txtPt1" type="appearFade|anchorPoint:0,0;opacity:0;" object="txtPt1" positionStart="0.7:0.667" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+<animation id="appear-score-txtPr3" type="appearFade|anchorPoint:0,0;opacity:0;" object="txtPr3" positionStart="0.66:0.667" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_smallbox_5" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="smallbox_5" positionStart="0.65:0.275" positionRelativeTo="scene" startTime="0.5" endTime="1" />
+	<animation id="appear-score-txtPt3" type="appearFade|anchorPoint:0,0;opacity:0;" object="txtPt3" positionStart="0.7:0.25" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+	<animation id="appear-score-txtHd1" type="appearFade|anchorPoint:0,0;opacity:0;" object="txtHd1" positionStart="0.66:0.25" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+
+<animation id="appear_header_6" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="header_6" positionStart="{{random_x1}}:0.477" positionRelativeTo="scene"  startTime="1" endTime="1.4" />
+
+<animation id="appear_sub_7" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="sub_7" positionStart="{{random_x2}}:0.553" positionRelativeTo="scene"  startTime="1" endTime="1.4" />
+
+<animation id="appear_para_8" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="para_8" positionStart="{{random_x3}}:0.659" positionRelativeTo="scene" startTime="1" endTime="1.4" />
+
+<animation id="appear_arrow-dwn_9" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-dwn_9" positionStart="0.920:0.293" positionRelativeTo="scene" startTime="1.1" endTime="1.6" />
+
+<animation id="appear_arrow-up_10" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-up_10" positionStart="0.920:0.244" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_arrow-dwn_11" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-dwn_11" positionStart="0.920:0.513" positionRelativeTo="scene" startTime="1.3" endTime="1.8" />
+
+<animation id="appear_arrow-up_12" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-up_12" positionStart="0.920:0.46" positionRelativeTo="scene" startTime="1.2" endTime="1.7" />
+
+<animation id="appear_arrow-dwn_13" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-dwn_13" positionStart="0.920:0.714" positionRelativeTo="scene" startTime="1.5" endTime="2" />
+
+<animation id="appear_arrow-up_14" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-up_14" positionStart="0.920:0.669" positionRelativeTo="scene" startTime="1.4" endTime="1.9" />
+
+<animation id="appear_header_15" type="appearFade|scaleTo:0.030;opacity:1;anchorPoint:0.5,0.5" object="header_15" positionStart="0.85:0.278" positionRelativeTo="scene" startTime="0.6" endTime="1.1" />
+
+<animation id="appear_sub_16" type="appearFade|scaleTo:0.06;opacity:1;anchorPoint:0.5,0.5" object="sub_16" positionStart="0.85:0.483" positionRelativeTo="scene" startTime="0.8" endTime="1.3" />
+
+<animation id="appear_para_17" type="appearFade|scaleTo:0.06;opacity:1;anchorPoint:0.5,0.5" object="para_17" positionStart="0.85:0.687" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="key_8_watermark_10" type="basicMove|ease:easeInOutQuad;" object="watermark_1" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="1.50" endTime="2" />
+
+<animation id="key_6_bigbox_20" type="basicMove|ease:easeOutExpo;" object="bigbox_2" positionStart="1.402:0.483"  positionEnd="0.352:0.483"  positionRelativeTo="scene" startTime="0.20" endTime="1.20" />
+
+<animation id="key_0_smallbox_30" type="basicMove|ease:easeOutQuad;" object="smallbox_3" positionStart="0.650:0.481"  positionEnd="0.850:0.481"  positionRelativeTo="scene" startTime="0.40" endTime="1.40" />
+
+<animation id="key_2_smallbox_40" type="basicMove|ease:easeOutQuad;" object="smallbox_4" positionStart="0.650:0.687"  positionEnd="0.850:0.687"  positionRelativeTo="scene" startTime="0.30" endTime="1.30" />
+
+<animation id="key_1_smallbox_50" type="basicMove|ease:easeOutQuad;" object="smallbox_5" positionStart="0.650:0.275"  positionEnd="0.850:0.275"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+
+<animation id="key_0_header_60" type="basicMove|ease:easeOutQuad;" object="header_6" positionStart="{{random_x1}}:0.477"  positionEnd="{{random_x1}}:{{random_y1}}"  positionRelativeTo="scene" startTime="0.60" endTime="1.60" />
+
+<animation id="key_3_sub_70" type="basicMove|ease:easeOutQuad;" object="sub_7" positionStart="{{random_x2}}:0.553"  positionEnd="{{random_x2}}:{{random_y2}}"  positionRelativeTo="scene" startTime="0.80" endTime="1.80" />
+
+<animation id="key_2_para_80" type="basicMove|ease:easeOutQuad;" object="para_8" positionStart="{{random_x3}}:0.659"  positionEnd="{{random_x3}}:{{random_y3}}"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+
+	
+
+	<animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="1" endTime="2" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="1" endTime="2" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.5:0.90" positionEnd="0.5:0.90" positionRelativeTo="scene" startTime="1" endTime="2" />
+	
+
+
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-up_10" startTime="2" endTime="2.2" actions="onClick:setVar:['header_6_scaleX','expression','{{header_6_scaleX}} + 0.01']|setVar:['header_6_scaleY','expression','{{header_6_scaleY}} + 0.01']" />
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_9" startTime="2" endTime="2.2" actions="onClick:setVar:['header_6_scaleX','expression','{{header_6_scaleX}} - 0.01']|setVar:['header_6_scaleY','expression','{{header_6_scaleY}} - 0.01']"  />
+ 	
+	
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-up_12" startTime="2" endTime="2.2" actions="onClick:setVar:['sub_7_scaleX','expression','{{sub_7_scaleX}} + 0.01']|setVar:['sub_7_scaleY','expression','{{sub_7_scaleY}} + 0.01']" />
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_11" startTime="2" endTime="2.2" actions="onClick:setVar:['sub_7_scaleX','expression','{{sub_7_scaleX}} - 0.01']|setVar:['sub_7_scaleY','expression','{{sub_7_scaleY}} - 0.01']"  />
+ 	
+	
+	
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-up_14" startTime="2" endTime="2.2" actions="onClick:setVar:['para_8_scaleX','expression','{{para_8_scaleX}} + 0.01']|setVar:['para_8_scaleY','expression','{{para_8_scaleY}} + 0.01']"  />
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_13" startTime="2" endTime="2.2" actions="onClick:setVar:['para_8_scaleX','expression','{{para_8_scaleX}} - 0.01']|setVar:['para_8_scaleY','expression','{{para_8_scaleY}} - 0.01']"  />
+ 	
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_13" startTime="2" endTime="2.2" actions="onClick:setVar:['para_8_scaleX','expression','{{para_8_scaleX}} - 0.01']|setVar:['para_8_scaleY','expression','{{para_8_scaleY}} - 0.01']"  />
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" />
+
+	
+<interaction id="enable-drag" type="enableDrag" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="header_6" startTime="2" endTime="2.2" actions="onDragEnd:setVar:['hd_posX','active_object','position','x']|['hd_posY','active_object','position','y']" />
+<interaction id="enable-drag2" type="enableDrag" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="sub_7" startTime="2" endTime="2.2" actions="onDragEnd:setVar:['sb_posX','active_object','position','x']|['sb_posY','active_object','position','y']" />
+<interaction id="enable-drag3" type="enableDrag" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="para_8" startTime="2" endTime="2.2" actions="onDragEnd:setVar:['pr_posX','active_object','position','x']|['pr_posY','active_object','position','y']" />
+	
+	
+	
+	<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="backbut-compare" startTime="2" endTime="2.5" actions="onClick:play" />
+
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" actions="onInit:setVar:['tk_posX','object',['hd_posX','sb_posX','pr_posX'],'position','x']" />
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" actions="onInit:setVar:['tk_posY','object',['hd_posY','sb_posY','pr_posY'],'position','y']" />
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" actions="onInit:setVar:['tk_scl','object',['header_6_scaleX','sub_7_scaleX','para_8_scaleX'],'scale','x']" />
+
+	
+	
+<animation id="movehd" type="basicMove|ease:easeOutQuad" object="header_6" positionStart="{{hd_posX}}:{{hd_posY}}" positionEnd="0.245:0.43" positionRelativeTo="scene" startTime="2.6" endTime="3.1" />
+
+<animation id="movesd" type="basicMove|ease:easeOutQuad" object="sub_7" positionStart="{{sb_posX}}:{{sb_posY}}" positionEnd="0.245:0.50" positionRelativeTo="scene" startTime="2.8" endTime="3.3" />
+
+<animation id="movespr" type="basicMove|ease:easeOutQuad" object="para_8" positionStart="{{pr_posX}}:{{pr_posY}}" positionEnd="0.245:0.6" positionRelativeTo="scene" startTime="3" endTime="3.5" />
+
+	
+	
+
+<object id="watermark_11" type="image" src="graphics/design/interactions/forms/rooster/watermark.svg" action="link" editable="false" />
+
+
+<object id="smallbox_31" type="image" src="graphics/design/interactions/forms/rooster/smallbox.svg" action="link" editable="false" />
+
+<object id="smallbox_41" type="image" src="graphics/design/interactions/forms/rooster/smallbox.svg" action="link" editable="false" />
+
+<object id="smallbox_51" type="image" src="graphics/design/interactions/forms/rooster/smallbox.svg" action="link" editable="false" />
+
+
+<object id="header_61" type="image" src="graphics/design/interactions/forms/rooster/roost2.svg" action="link" editable="false" />
+<object id="para_81" type="image" src="graphics/design/interactions/forms/rooster/eye.svg" action="link" editable="false" />
+
+<object id="sub_71" type="image" src="graphics/design/interactions/forms/rooster/head.svg" action="link" editable="false" />
+
+
+<object id="arrow-dwn_91" type="image" src="graphics/design/interactions/forms/rooster/arrow-dwn.svg" action="link" editable="false" />
+
+<object id="arrow-up_101" type="image" src="graphics/design/interactions/forms/rooster/arrow-up.svg" action="link" editable="false" />
+
+<object id="arrow-dwn_111" type="image" src="graphics/design/interactions/forms/rooster/arrow-dwn.svg" action="link" editable="false" />
+
+<object id="arrow-up_121" type="image" src="graphics/design/interactions/forms/rooster/arrow-up.svg" action="link" editable="false" />
+
+<object id="arrow-dwn_131" type="image" src="graphics/design/interactions/forms/rooster/arrow-dwn.svg" action="link" editable="false" />
+
+<object id="arrow-up_141" type="image" src="graphics/design/interactions/forms/rooster/arrow-up.svg" action="link" editable="false" />
+
+<object id="header_151" type="image" src="graphics/design/interactions/forms/rooster/roost2.svg" action="link" editable="false" />
+
+<object id="sub_161" type="image" src="graphics/design/interactions/forms/rooster/head.svg" action="link" editable="false" />
+
+<object id="para_171" type="image" src="graphics/design/interactions/forms/rooster/eye.svg" action="link" editable="false" />
+
+
+
+	<object id="txtHd11" type="text" text="40" size="20" align="right" color="#FFFFFF" width="20" font="Open Sans" weight="800" />
+	<object id="txtSb21" type="text" text="36" size="20" align="right" color="#FFFFFF" width="20" font="Open Sans" weight="800" />
+	<object id="txtPr31" type="text" text="39" size="20" align="right" color="#FFFFFF" width="20" font="Open Sans" weight="800" />
+
+		
+	
+
+	<object id="HDcover1" type="shape" shapetype="rect" size="0.02,0.05" color="#000000" strokeWidth="0" action="link:"/>
+	<object id="SBcover1" type="shape" shapetype="rect" size="0.02,0.05" color="#000000" strokeWidth="0" action="link:"/>
+	<object id="Parcover1" type="shape" shapetype="rect" size="0.02,0.05" color="#000000" strokeWidth="0" action="link:"/>
+
+	
+	<!-- VARIABLES -->
+	
+	
+	
+	
+	<variable id="hd_posX1" type="array" default="[0,0]" />
+	<variable id="hd_posY1" type="array" default="[0,0]" />
+	<variable id="sb_posX1" type="array" default="[0,0]" />
+	<variable id="sb_posY1" type="array" default="[0,0]" />
+	<variable id="pr_posX1" type="array" default="[0,0]" />
+	<variable id="pr_posY1" type="array" default="[0,0]" />
+	<variable id="hd_posX12" type="array" default="[0,0]" />
+	<variable id="hd_posY12" type="array" default="[0,0]" />
+	<variable id="tk_scl_header1" type="array" default="[0,0]" />
+	<variable id="hd_scl_score1" type="int" default="53" />
+		<variable id="sb_scl_score1" type="int" default="50" />
+		<variable id="pr_scl_score1" type="int" default="17" />
+
+	
+	
+	<variable id="tk_posX1" type="array" default="[0,0]" />
+	<variable id="tk_posY1" type="array" default="[0,0]" />
+	<variable id="tk_scl1" type="array" default="[0,0]" />
+	<variable id="tk_score1" type="int" default="0" />
+	<variable id="random_x11" type="expression" default="" expression="random(0.21,0.33)" />
+	<variable id="random_y11" type="expression" default="" expression="random(0.23,0.75)" />
+	<variable id="random_x21" type="expression" default="" expression="random(0.21,0.33)" />
+	<variable id="random_y21" type="expression" default="" expression="random(0.23,0.75)" />
+	<variable id="random_x31" type="expression" default="" expression="random(0.21,0.33)" />
+	<variable id="random_y31" type="expression" default="" expression="random(0.23,0.75)" />
+	
+	
+	
+	
+	<variable id="original_pos11" type="array" default="[0,0]" reference="HDcover1.position.x,HDcover1.position.y" />
+	<variable id="original_pos21" type="array" default="[0,0]" reference="SBcover1.position.x,SBcover1.position.y" />
+	<variable id="original_pos31" type="array" default="[0,0]" reference="Parcover1.position.x,Parcover1.position.y" />
+
+	<variable id="pos_x_test11" type="float" default="0" reference="HDcover1.position.x" />
+	<variable id="pos_x_test21" type="float" default="0" reference="SBcover1.position.x" />
+	<variable id="pos_x_test31" type="float" default="0" reference="Parcover1.position.x" />
+	
+	<variable id="pos_y_test11" type="float" default="0" reference="HDcover1.position.y" />
+	<variable id="pos_y_test21" type="float" default="0" reference="SBcover1.position.y" />
+	<variable id="pos_y_test31" type="float" default="0" reference="Parcover1.position.y" />
+
+	
+	
+
+		
+<variable id="header_61_scaleX1" type="float" default="1" reference="header_61.scale.x" />
+<variable id="header_61_scaleY1" type="float" default="1" reference="header_61.scale.y" />
+
+
+	
+<variable id="sub_71_scaleX1" type="float" default="1" reference="sub_71.scale.x" />
+<variable id="sub_71_scaleY1" type="float" default="1" reference="sub_71.scale.y" />
+
+
+<variable id="para_81_scaleX1" type="float" default="1" reference="para_81.scale.x" />
+<variable id="para_81_scaleY1" type="float" default="1" reference="para_81.scale.y" />
+
+<variable id="txtScHd11" type="float" default="1" reference="txtHd11.text" />
+
+<variable id="txtScSb21" type="float" default="1" reference="txtSb21.text" />
+
+<variable id="txtScPr31" type="float" default="1" reference="txtPr31.text" />
+
+
+
+<variable id="pos_x_exp1" type="expression" default="" expression="round(25 - 2*sum(abs({{tk_posX1}} - [{{pos_x_test11}}, {{pos_x_test21}}, {{pos_x_test31}}])))" />
+	<variable id="pos_y_exp1" type="expression" default="" expression="round(25 - 2*sum(abs({{tk_posY1}} - [{{pos_y_test11}}, {{pos_y_test21}},{{pos_y_test31}}])))"/>
+	
+	<variable id="scl_exp1" type="expression" default="" expression="round(50 - 2*sum(abs({{tk_scl1}} - [ {{hd_scl_score1}},{{sb_scl_score1}},{{pr_scl_score1}}])))" />
+	
+
+
+	
+	<variable id="score_exp1" type="expression" default="" expression="({{pos_x_exp1}} +{{pos_y_exp1}}+ {{scl_exp1}})"/>
+	
+	
+
+	<animation id="appear-compcover11" type="appearFade|scaleTo:0.005,0.005;anchorPoint:0.5,0.5;opacity:0;" object="HDcover1" positionStart="0.245:0.43" positionEnd="0.32:0.0.191" positionRelativeTo="scene" startTime="1" endTime="1" />
+	<animation id="appear-compcover21" type="appearFade|scaleTo:0.005,0.005;anchorPoint:0.5,0.5;opacity:0;" object="SBcover1" positionStart="0.245:0.50" positionEnd="0.56:0.755" positionRelativeTo="scene" startTime="1" endTime="1" />
+	<animation id="appear-compcover21" type="appearFade|scaleTo:0.005,0.005;anchorPoint:0.5,0.5;opacity:0;" object="Parcover1" positionStart="0.245:0.60" positionEnd="0.56:0.755" positionRelativeTo="scene" startTime="1" endTime="1" />
+
+<animation id="appear_watermark_11" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="watermark_11" positionStart="0.0000:0.00" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+
+<animation id="appear_smallbox_31" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="smallbox_31" positionStart="0.65:0.481" positionRelativeTo="scene" startTime="0.4" endTime="0.9" />
+	<animation id="appear-score-txtPt21" type="appearFade|anchorPoint:0,0" object="txtPt2" positionStart="0.7:0.461" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+	<animation id="appear-score-txtPt21" type="appearFade|anchorPoint:0,0" object="txtSb2" positionStart="0.66:0.461" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_smallbox_41" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="smallbox_41" positionStart="0.65:0.687" positionRelativeTo="scene" startTime="0.3" endTime="0.8" />
+<animation id="appear-score-txtPt11" type="appearFade|anchorPoint:0,0" object="txtPt1" positionStart="0.7:0.667" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+<animation id="appear-score-txtPr31" type="appearFade|anchorPoint:0,0" object="txtPr3" positionStart="0.66:0.667" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_smallbox_51" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="smallbox_51" positionStart="0.65:0.275" positionRelativeTo="scene" startTime="0.5" endTime="1" />
+	<animation id="appear-score-txtPt31" type="appearFade|anchorPoint:0,0" object="txtPt3" positionStart="0.7:0.25" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+	<animation id="appear-score-txtHd11" type="appearFade|anchorPoint:0,0" object="txtHd1" positionStart="0.66:0.25" positionEnd="0.8:0.7" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+
+<animation id="appear_header_61" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="header_61" positionStart="{{random_x12}}:0.477" positionRelativeTo="scene" startTime="1.4" endTime="1.8" />
+
+<animation id="appear_sub_7" type="appearFade|scaleTo:0.15;opacity:1;anchorPoint:0.5,0.5" object="sub_71" positionStart="{{random_x2}}:0.553" positionRelativeTo="scene"  startTime="1.4" endTime="1.8" />
+<animation id="appear_para_8" type="appearFade|scaleTo:0.1;opacity:1;anchorPoint:0.5,0.5" object="para_81" positionStart="{{random_x3}}:0.659" positionRelativeTo="scene"  startTime="1.4" endTime="1.8" />
+
+<animation id="appear_arrow-dwn_9" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-dwn_91" positionStart="0.775:0.293" positionRelativeTo="scene" startTime="1.1" endTime="1.6" />
+
+<animation id="appear_arrow-up_10" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-up_101" positionStart="0.775:0.244" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_arrow-dwn_11" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-dwn_111" positionStart="0.775:0.513" positionRelativeTo="scene" startTime="1.3" endTime="1.8" />
+
+<animation id="appear_arrow-up_12" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-up_121" positionStart="0.775:0.46" positionRelativeTo="scene" startTime="1.2" endTime="1.7" />
+
+<animation id="appear_arrow-dwn_13" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-dwn_131" positionStart="0.775:0.714" positionRelativeTo="scene" startTime="1.5" endTime="2" />
+
+<animation id="appear_arrow-up_14" type="appearFade|scaleTo:0.02;opacity:1;anchorPoint:0.5,0.5" object="arrow-up_141" positionStart="0.775:0.669" positionRelativeTo="scene" startTime="1.4" endTime="1.9" />
+
+
+<animation id="appear_header_15" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="header_151" positionStart="0.7:0.269" positionRelativeTo="scene" startTime="0.6" endTime="1.1" />
+<animation id="appear_para_171" type="appearFade|scaleTo:0.05;opacity:1;anchorPoint:0.5,0.5" object="para_171" positionStart="0.7:0.687" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+<animation id="appear_sub_161" type="appearFade|scaleTo:0.045;opacity:1;anchorPoint:0.5,0.5" object="sub_161" positionStart="0.7:0.483" positionRelativeTo="scene" startTime="0.8" endTime="1.3" />
+
+
+
+
+
+<animation id="key_8_watermark_101" type="basicMove|ease:easeInOutQuad;" object="watermark_11" positionStart="0.000:0.000"  positionEnd="0.065:0.132"  positionRelativeTo="scene" startTime="1.50" endTime="2" />
+
+
+<animation id="key_0_smallbox_30" type="basicMove|ease:easeOutQuad;" object="smallbox_31" positionStart="0.650:0.481"  positionEnd="0.700:0.481"  positionRelativeTo="scene" startTime="0.40" endTime="1.40" />
+
+<animation id="key_2_smallbox_40" type="basicMove|ease:easeOutQuad;" object="smallbox_41" positionStart="0.650:0.687"  positionEnd="0.700:0.687"  positionRelativeTo="scene" startTime="0.30" endTime="1.30" />
+
+<animation id="key_1_smallbox_50" type="basicMove|ease:easeOutQuad;" object="smallbox_51" positionStart="0.650:0.275"  positionEnd="0.700:0.275"  positionRelativeTo="scene" startTime="0.50" endTime="1.50" />
+
+<animation id="key_0_header_60" type="basicMove|ease:easeOutQuad;" object="header_61" positionStart="{{random_x11}}:0.477"  positionEnd="{{random_x11}}:{{random_y11}}"  positionRelativeTo="scene" startTime="0.60" endTime="1.60" />
+
+<animation id="key_3_sub_70" type="basicMove|ease:easeOutQuad;" object="sub_71" positionStart="{{random_x21}}:0.553"  positionEnd="{{random_x21}}:{{random_y21}}"  positionRelativeTo="scene" startTime="0.80" endTime="1.80" />
+
+<animation id="key_2_para_80" type="basicMove|ease:easeOutQuad;" object="para_81" positionStart="{{random_x31}}:0.659"  positionEnd="{{random_x31}}:{{random_y31}}"  positionRelativeTo="scene" startTime="1.00" endTime="2.00" />
+
+
+	
+
+	<animation id="appear-backbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="backbut-compare" startTime="1" endTime="2" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-textbut-compare" type="appearFade|anchorPoint:0.5,0.5" object="textbut-compare" startTime="1" endTime="2" positionStart="0:0" positionEnd="0:0" positionRelativeTo="scene" />
+	<animation id="appear-button-compare" type="appearFade|anchorPoint:0,0" object="button-compare" positionStart="0.5:0.92" positionEnd="0.5:0.90" positionRelativeTo="scene" startTime="1" endTime="2" />
+
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-up_101" startTime="2" endTime="2.2" actions="onClick:setVar:['header_61_scaleX1','expression','{{header_61_scaleX1}} + 0.01']|setVar:['header_61_scaleY1','expression','{{header_61_scaleY1}} + 0.01']|setVar:['txtScHd1','expression','{{txtScHd1}}+1']" />
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_91" startTime="2" endTime="2.2" actions="onClick:setVar:['header_61_scaleX1','expression','{{header_61_scaleX1}} - 0.01']|setVar:['header_61_scaleY1','expression','{{header_61_scaleY1}} - 0.01']|setVar:['txtScHd1','expression','{{txtScHd1}}-1']"  />
+ 	
+	
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-up_121" startTime="2" endTime="2.2" actions="onClick:setVar:['sub_71_scaleX1','expression','{{sub_71_scaleX1}} + 0.01']|setVar:['sub_71_scaleY1','expression','{{sub_71_scaleY1}} + 0.01']|setVar:['txtScSb2','expression','{{txtScSb2}}+1']" />
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_111" startTime="2" endTime="2.2" actions="onClick:setVar:['sub_71_scaleX1','expression','{{sub_71_scaleX1}} - 0.01']|setVar:['sub_71_scaleY1','expression','{{sub_71_scaleY1}} - 0.01']|setVar:['txtScSb2','expression','{{txtScSb2}}-1']"  />
+ 	
+	
+	
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-up_141" startTime="2" endTime="2.2" actions="onClick:setVar:['para_81_scaleX1','expression','{{para_81_scaleX1}} + 0.01']|setVar:['para_81_scaleY1','expression','{{para_81_scaleY1}} + 0.01']|setVar:['txtScPr3','expression','{{txtScPr3}}+1']"  />
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_131" startTime="2" endTime="2.2" actions="onClick:setVar:['para_81_scaleX1','expression','{{para_81_scaleX1}} - 0.01']|setVar:['para_81_scaleY1','expression','{{para_81_scaleY1}} - 0.01']|setVar:['txtScPr3','expression','{{txtScPr3}}-1']"  />
+ 	
+
+<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="arrow-dwn_131" startTime="2" endTime="2.2" actions="onClick:setVar:['para_81_scaleX1','expression','{{para_81_scaleX1}} - 0.01']|setVar:['para_81_scaleY1','expression','{{para_81_scaleY1}} - 0.01']|setVar:['txtScPr3','expression','{{txtScPr3}}-1']"  />
+
+<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" />
+
+	
+<interaction id="enable-drag" type="enableDrag" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="header_61" startTime="2" endTime="2.2" actions="onDragEnd:setVar:['hd_posX1','active_object','position','x']|['hd_posY1','active_object','position','y']" />
+
+<interaction id="enable-drag2" type="enableDrag" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="sub_71" startTime="2" endTime="2.2" actions="onDragEnd:setVar:['sb_posX1','active_object','position','x']|['sb_posY1','active_object','position','y']" />
+<interaction id="enable-drag3" type="enableDrag" subtype="basic|tintClick:783ada;tintOver:E5D400" objects="para_81" startTime="2" endTime="2.2" actions="onDragEnd:setVar:['pr_posX1','active_object','position','x']|['pr_posY1','active_object','position','y']" />
+	
+	
+	
+	<interaction id="enable-click" type="enableClick" subtype="basic|tintClick:e5d400;tintOver:e5d400" objects="backbut-compare" startTime="2" endTime="2.5" actions="onClick:play" />
+
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" actions="onInit:setVar:['tk_posX1','object',['hd_posX1','sb_posX1','pr_posX1'],'position','x']" />
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" actions="onInit:setVar:['tk_posY1','object',['hd_posY1','sb_posY1','pr_posY1'],'position','y']" />
+	<interaction id="pause-play" type="playControl" subtype="pause" startTime="2" actions="onInit:setVar:['tk_scl1','object',['header_61_scaleX1','sub_7_scaleX1','para_8_scaleX1'],'scale','x']" />
+
+
+	
+	
+
+	
+<animation id="movehd" type="basicMove|ease:easeOutQuad" object="header_61" positionStart="{{hd_posX1}}:{{hd_posY1}}" positionEnd="0.245:0.43" positionRelativeTo="scene" startTime="2.6" endTime="3.1" />
+
+<animation id="movesd" type="basicMove|ease:easeOutQuad" object="sub_71" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.394:0.5" positionRelativeTo="scene" startTime="4.8" endTime="5.3" />
+<animation id="scl" type="basicScale|ease:easeOutQuad;scaleTo:0.2" object="sub_71" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.394:0.5" positionRelativeTo="scene" startTime="3.8" endTime="4.3" />
+
+<animation id="movespr" type="basicMove|ease:easeOutQuad" object="para_81" positionStart="{{pr_posX1}}:{{pr_posY1}}" positionEnd="0.355:0.323" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+<animation id="scl" type="basicScale|ease:easeOutQuad;scaleTo:0.02" object="para_81" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.34:0.331" positionRelativeTo="scene" startTime="3.8" endTime="4.3" />
+
+
+<animation id="movespr" type="basicMove|ease:easeOutQuad" object="header_61" positionStart="{{pr_posX1}}:{{pr_posY1}}" positionEnd="0.384:0.303" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+<animation id="scl" type="basicScale|ease:easeOutQuad;scaleTo:0.15" object="header_61" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.34:0.331" positionRelativeTo="scene" startTime="3.8" endTime="4.3" />
+
+
+<animation id="movespr" type="basicMove|ease:easeOutQuad" object="header_6" positionStart="{{pr_posX1}}:{{pr_posY1}}" positionEnd="0.348:0.43" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+<animation id="scl" type="basicScale|ease:easeOutQuad;scaleTo:0.08" object="header_6" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.34:0.331" positionRelativeTo="scene" startTime="3.8" endTime="4.3" />
+
+	
+<animation id="movespr" type="basicMove|ease:easeOutQuad" object="sub_7" positionStart="{{pr_posX1}}:{{pr_posY1}}" positionEnd="0.305:0.356" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+<animation id="scl" type="basicScale|ease:easeOutQuad;scaleTo:0.05" object="sub_7" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.34:0.331" positionRelativeTo="scene" startTime="3.8" endTime="4.3" />
+
+
+	
+<animation id="movespr" type="basicMove|ease:easeOutQuad" object="para_8" positionStart="{{pr_posX1}}:{{pr_posY1}}" positionEnd="0.304:0.319" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+<animation id="scl" type="basicScale|ease:easeOutQuad;scaleTo:0.05" object="para_8" positionStart="{{sb_posX1}}:{{sb_posY1}}" positionEnd="0.304:0.356" positionRelativeTo="scene" startTime="3.8" endTime="4.3" />
+
+	
+
+	
+	
+ </igml>
+ 
+ 
+ 

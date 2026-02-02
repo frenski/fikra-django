@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Explot  0.1, IGML Autopilot . IGML Version: 0.1 Build 001)  -->
+<!DOCTYPE IGML>
+
+<igml version="0.1" id="scene1" width="1920" height="1080" overflow="visible" backgroundColor="#333333">
+
+	<!-- OBJECTS -->
+	<object id="rect1" type="shape" shapetype="rect" size="0.05,0.05" color="#f77872" strokeWidth="0" action="link:"/>
+	<object id="rect2" type="shape" shapetype="rect" size="0.05,0.05" color="#cf0920" strokeWidth="0" action="link:"/>
+	<object id="rect3" type="shape" shapetype="rect" size="0.05,0.05" color="#510202" strokeWidth="0" action="link:"/>
+
+	<object id="ico-deaths" type="image" src="graphics/infographics/ico-deaths1.svg" action="link:"/>
+	<object id="ico-country" type="image" src="graphics/infographics/ico-country1.svg" adPosition="icon-country-spanish-colonization-of-the-americas-explained-in-the-best-possible-way" action="link:"/>
+	<object id="ico-migrants" type="image" src="graphics/geography/political/ico-migrants-spain.svg" action="link:"/>
+
+	<object id="number-migrants" type="text" text="0.00" size="50" align="center" color="#510202" width="20" font="Lato"/>
+	<object id="number-deaths" type="text" text="000" size="50" align="center" color="#510202" width="20" font="Lato"/>
+	<object id="number-country" type="text" text="00" size="50" align="center" color="#cf0920" width="20" font="Lato"/>
+
+	<object id="text-migrants" type="text" text="Milion migrants fled from Spain to the Americas" size="20" align="center" color="#ffffff" width="20" wordWrap="true" wordWrapWidth="0.3" font="Lato"/>
+	<object id="text-deaths" type="text" text="Milion deaths of native Americans" size="20" align="center" color="#ffffff" width="20" wordWrap="true" wordWrapWidth="0.3" font="Lato"/>
+	<object id="text-country" type="text" text="new countries established" size="20" align="center" color="#ffffff" width="20" wordWrap="true" wordWrapWidth="0.3" font="Lato"/>
+
+
+	<!-- ANIMATIONS -->
+
+
+	<!-- backgrounds -->
+
+	<animation id="appear-rect1" type="appearFade|scaleTo:0.333,0.01;anchorPoint:1,1" object="rect1" positionStart="0.333:1" positionEnd="0.0" positionRelativeTo="scene" startTime="0" endTime="0" />
+
+	<animation id="scale-rect1" type="basicScale|scaleTo:0.333,1;ease:easeOutExpo" object="rect1" positionRelativeTo="scene" startTime="0" endTime="0.5" />
+
+	<animation id="appear-rect2" type="appearFade|scaleTo:0.333,0.01;anchorPoint:1,1" object="rect2" positionStart="0.666:1" positionEnd="0.0" positionRelativeTo="scene" startTime="0.5" endTime="0.5" />
+
+	<animation id="scale-rect2" type="basicScale|scaleTo:0.333,1;ease:easeOutExpo" object="rect2" positionRelativeTo="scene" startTime="0.5" endTime="1" />
+
+	<animation id="appear-rect3" type="appearFade|scaleTo:0.333,0.01;anchorPoint:1,1" object="rect3" positionStart="1:1" positionEnd="0.0" positionRelativeTo="scene" startTime="1" endTime="1" />
+
+	<animation id="scale-rect3" type="basicScale|scaleTo:0.333,1;ease:easeOutExpo" object="rect3" positionRelativeTo="scene" startTime="1" endTime="1.5" />
+
+	<!-- icons, numbers, texts -->
+
+	<!-- 1. migrants -->
+	<animation id="appear-ico-migrants" type="appearFade|scaleTo:0.15" object="ico-migrants" positionStart="0.16665:0.5" positionEnd="0.0" positionRelativeTo="scene" startTime="1.5" endTime="2" />
+	<animation id="move-ico-migrants" type="basicMove|ease:easeOutExpo" object="ico-migrants" positionStart="0.16665:0.5" positionEnd="0.16665:0.25" positionRelativeTo="scene" startTime="1.5" endTime="2" />
+	<animation id="appear-number-migrants" type="appearFade|scaleTo:0.15" object="number-migrants" positionStart="0.16665:0.5" positionEnd="0:0" positionRelativeTo="scene" startTime="2" endTime="2.5" />
+	<animation id="change-number-migrants" type="textCounterBasic|start:0;end:1.86;valtype:float;floatLimit:2" object="number-migrants" startTime="2" endTime="4" positionStart="center:center" positionEnd="center:top" positionRelativeTo="scene" />
+	<animation id="appear-text-migrants" type="appearFade" object="text-migrants" positionStart="0.16665:0.7" positionEnd="0:0" positionRelativeTo="scene" startTime="4" endTime="4.5" />
+
+	<!-- 2. casualties -->
+	<animation id="appear-ico-deaths" type="appearFade|scaleTo:0.15" object="ico-deaths" positionStart="0.5:0.5" positionEnd="0.0" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+	<animation id="move-ico-deaths" type="basicMove|ease:easeOutExpo" object="ico-deaths" positionStart="0.5:0.5" positionEnd="0.5:0.25" positionRelativeTo="scene" startTime="5" endTime="5.5" />
+	<animation id="appear-number-deaths" type="appearFade|scaleTo:0.15" object="number-deaths" positionStart="0.5:0.5" positionEnd="0:0" positionRelativeTo="scene" startTime="5.5" endTime="6" />
+	<animation id="change-number-deaths" type="textCounterBasic|start:0;end:130;valtype:int" object="number-deaths" startTime="5.5" endTime="7.5" positionStart="center:center" positionEnd="center:top" positionRelativeTo="scene" />
+	<animation id="appear-text-deaths" type="appearFade" object="text-deaths" positionStart="0.5:0.7" positionEnd="0:0" positionRelativeTo="scene" startTime="7.5" endTime="8" />
+
+	<!-- 3. countries -->
+	<animation id="appear-ico-country" type="appearFade|scaleTo:0.15" object="ico-country" positionStart="0.8333:0.5" positionEnd="0.0" positionRelativeTo="scene" startTime="8.5" endTime="9" />
+	<animation id="move-ico-country" type="basicMove|ease:easeOutExpo" object="ico-country" positionStart="0.8333:0.5" positionEnd="0.8333:0.25" positionRelativeTo="scene" startTime="8.5" endTime="9" />
+	<animation id="appear-text-country" type="appearFade" object="text-country" positionStart="0.8333:0.7" positionEnd="0:0" positionRelativeTo="scene" startTime="9.5" endTime="10" />
+	<animation id="appear-number-country" type="appearFade|scaleTo:0.1" object="number-country" positionStart="0.8333:0.5" positionEnd="0:0" positionRelativeTo="scene" startTime="11" endTime="11.5" />
+	<animation id="change-number-country" type="textCounterBasic|start:0;end:18;valtype:int" object="number-country" startTime="11" endTime="12.5" positionStart="center:center" positionEnd="center:top" positionRelativeTo="scene" />
+
+	<!-- INTERACTIONS -->
+	<interaction id="guess-country" type="popupBreak" subtype="inputRange|range:1,30;step:1;correct:18" startTime="10.5" content="Guess how many countries were founded?||Correct answer: %s||Your score: %s" />
+
+</igml>

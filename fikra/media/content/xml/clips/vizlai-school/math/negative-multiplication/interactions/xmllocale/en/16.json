@@ -1,0 +1,29 @@
+{
+	"text_objects": {
+		"l_3": "Recreate the following sentence using the correct maths equation:",
+		"l_4": "John has collected 3 times the dept of 10 dollars, which is equal to a total dept of 30 dollars.",
+		"l_20": "Done",
+		"l_22": " ",
+		"l_26": " ",
+		"l_30": " ",
+		"l_feedback": "Wrong",
+		"l_feedback_long": "You entered the correct answer"
+	},
+	"variable_objects": {
+		"an_v1": " ",
+		"an_v2": " ",
+		"an_v3": " ",
+		"sign_neg": "−",
+		"sign_pos": "+",
+		"feedback": "Wrong",
+		"feedback_wrong": "Wrong",
+		"feedback_correct": "Correct",
+		"feedback_long": "Correct answer",
+		"feedback_long_wrong": "The correct answer is: 3 * -10 = -30",
+		"feedback_long_correct": "Correct answer! Well done!"
+	},
+	"meta_info": {
+		"title": "Maths: Multiplication of negative numbers",
+		"description": "In this video you will learn a lot interestig information about multiplication"
+	}
+}

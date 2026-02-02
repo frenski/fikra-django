@@ -1,0 +1,87 @@
+#games-container {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+#games-container-if {
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+#games-container.games-container-game_pointnclick {
+  height: 100vh;
+}
+
+#games-container.games-container-game_pointnclick #games-container-if {
+  height: 100%;
+}
+
+.play-page {
+  width: 100%;
+  height: 100%;
+}
+
+.play-page body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.play-page #games-container {
+  width: 100%;
+  height: 100%;
+}
+
+.play-page #games-container-if {
+  width: 100%;
+  height: 100%;
+}
+
+.play-page #branding {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 480px) {
+  #games-container {
+    width: 80%;
+  }
+  #games-container.games-container-game_pointnclick {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  .play-page #branding {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #games-container {
+    width: 60%;
+  }
+  #games-container.games-container-game_pointnclick {
+    width: 100%;
+  }
+  .play-page #branding {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  #games-container.games-container-game_pointnclick {
+    width: 2400px;
+  }
+}
