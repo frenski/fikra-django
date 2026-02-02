@@ -1,0 +1,106 @@
+{% extends channel|yesno:"nodes/channel-base.html,nodes/base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+{% load humanize %}
+{% load custom_tags %}
+
+{% block title %} {% translated_node_title node %}: {% trans "Vizipedia" %} {% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static "css/vizlai.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/games-info.css" %}">
+{% if channel %}
+	{{ block.super }}
+{% endif %}
+{% endblock %}
+
+{% block article_main %}
+
+<div class="main-container">
+
+	<div class="main clearfix">
+
+		<div class="game-info-visual">
+			<div class="game-image" style="background-image:url('{% if node.thumbnail1 %}{{ media_url }}{{ node.thumbnail1}}{% else %}{% static "img/icons/thmb-default-" %}{{node.engine}}.png{% endif %}');"></div>
+			<a id="play-button" href="{% url 'node_play' node_id=node.pk %}" target="_blank">{% trans "PLAY" %}</a>
+		</div>
+
+		<div class="game-info-text">
+			<div id="breadcrumbs"><a class="breadcrumbs-link breadcrumbs-prev breadcrumbs-home" href="{{ request.META.HTTP_REFERER }}"><span class="breadcrumbs-back">&larr; </span>{% trans "Back" %}</a><span class="breadcrumbs-current"> / {% translated_node_title node %}</span></div>
+
+			<h2 id="game-info-title">{% translated_node_title node %}</h2>
+
+			<div id="game-metadata">
+				<div id="game-metadata-contributor">{% trans "by" %} <span class="metadata-extra-avatar" style="background-image:url('{{ media_url }}{{ node.owner.picture }}')"></span> <span class="metadata-extra-creator">{{node.owner.name}}</span></div>
+				<div id="game-metadata-description">
+					{% translated_node_desc node as langdesc %}
+					{% autoescape off %}
+					{{langdesc|safe}}
+					{% endautoescape %}
+				</div>
+
+				<div id="metadata-tags">
+					<i class="fas fa-tags"></i>
+					{% for tag in tags %}
+					<a href="#" class="metadata-tag">{{tag.word}}</a>
+					{% endfor %}
+				</div>
+			</div>
+
+			<div id="metadata-languages">
+				{% if langlist %}
+					<form method="POST" name="changelang-form" id="changelang-form" action="">
+						{% csrf_token %}
+						<select id="node-change-language" name="node-language">
+							<option value="">-- {% trans "Language" %} --</option>
+							{% for lang in langlist %}
+							<option value="{{lang}}" {% if language == language_selected %} selected="selected" {% endif %} >{{lang}}</option>
+							{% endfor %}
+						</select>
+					</form>
+				{% endif %}
+			</div>
+
+			<div id="game-metadata-stats">
+				<ul class="action-buttons-items">
+					<li class="button-social" id="button-social-like">
+						<i class="fas fa-heart"></i>
+						<span id="button-social-like-count">{{node.likes}}</span>
+					</li>
+					<li class="action-buttons-first stats-views"><i class="far fa-eye"></i> {{node.views}}</li>
+					<li class="stats-createtime"><i class="far fa-clock"></i> {{node.created_at|naturaltime}}</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+
+			<div class="game-extra">
+				<a id="create-button" href="#" target="_blank">{% trans "Create your own (coming soon)" %}</a>
+			</div>
+
+		</div>
+
+	</div>
+
+</div> <!-- #main-container -->
+
+{% if channel %}
+	{{ block.super }}
+{% endif %}
+
+{% endblock %}
+
+
+{% block extrajs %}
+<script type="text/javascript">
+	_VPD.FileToPlay = "{{node.xml_file}}";
+	_VPD.NodeId = "{{node.pk}}";
+	_VPD.timelineLevel = parseInt("{{node.timeline_level}}");
+	_VPD.aspectRatio = parseFloat("{{node.aspect_ratio|stringformat:".5f"}}");
+	_VPD.language = "{{language_selected}}";
+	_VPD.engine = "{{node.engine}}";
+</script>
+<script src="{% static "js/vizlai/config.js" %}"></script>
+<script src="{% static "js/utils.js" %}"></script>
+<script src="{% static "js/games-info.js" %}"></script>
+{% endblock %}

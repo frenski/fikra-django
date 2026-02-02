@@ -1,8 +1,28 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response, get_object_or_404
 from django.conf import settings
 from .models import UserProfile, Node, NodeCategory, Tag, Channel, SubChannel, FeaturedNode, LockCondition, LockUnlocked
 from django.db.models import Q, F, Count
+from django.utils.translation import ugettext as _
+from django.utils.translation import get_language
 from datetime import timedelta, datetime
+from clients.models import NodeUseLog
+import os
+from crawlerdetect import CrawlerDetect
+
+def _get_logged_profile (request):
+    profile_id = -1
+    profile = None
+    log_msg = ''
+    if not request.user.is_authenticated:
+        log_msg = "User not logged in!"
+    else:
+        profiles = UserProfile.objects.filter(user=request.user)
+        if len(profiles) > 0:
+            profile_id = profiles[0].pk
+            profile = profiles[0]
+        else:
+            log_msg = "There is no profile associated with this user!"
+    return profile, profile_id, log_msg
 
 def index(request):
 
