@@ -30,6 +30,7 @@ urlpatterns = [
     url(r'^dashboard/$', cl_views.dashboard, name='clients_dashboard'),
     url(r'^login/$', auth_views.LoginView.as_view(template_name='clients/login.html'), name='clients_login'),
     url(r'^logout/$', auth_views.LogoutView.as_view(template_name='clients/logged_out.html'), name='clients_logout'),
+    url(r'^become_creator/$', cl_views.signup_user, name='clients_signup'),
     url(r'^student/$', views.student, name='student'),
     url(r'^business/$', views.business, name='business'),
     url(r'^individual/$', views.individual, name='individual'),
