@@ -4,12 +4,12 @@
 {% load i18n %}
 {% load humanize %}
 
-{% block title %} {% trans "Vizipedia - the interactive encyclopedia" %} {% endblock %}
+{% block title %} {% trans "Fikra - the home of edutainment" %} {% endblock %}
 
 {% block extra_header %}
 	{% if landing_page %}
 	<div class="home-header">
-		<h1 class="home-header-title">{% trans "Browse Vizipedia open library of serious games created by our users!" %}</h1>
+		<h1 class="home-header-title">{% trans "Browse Fikra open library of serious games created by our users!" %}</h1>
 		{% if featured_node %}
 			<div class="home-header-featured">
 				<a href="{% url 'nodes_detail' slug=featured_node.node.slug %}" target="_blank">
