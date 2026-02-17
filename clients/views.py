@@ -483,13 +483,6 @@ def _calculate_tap_hashstring(data, secret_key):
 
 
 def plans(request):
-    # if not request.user.is_authenticated:
-    #     return HttpResponseRedirect('/login/')
-    # my_profiles = UserProfile.objects.filter(user=request.user)
-    # if len(my_profiles) > 0:
-    #     prof = my_profiles[0]
-    # else:
-    #     return HttpResponseRedirect('/')
 
     return render(request, 'clients/plans.html',
         {
