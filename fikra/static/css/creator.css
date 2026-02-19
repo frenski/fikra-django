@@ -1,0 +1,16 @@
+.creator-button {
+  background-color: #2A343D;
+  color: white;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px -2px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  #logo {
+    width: 15%;
+  }
+}

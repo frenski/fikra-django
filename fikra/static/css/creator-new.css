@@ -1,0 +1,19 @@
+.content-types-container {
+  padding: 2vw 6vw;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.content-type-link {
+
+}
+
+.content-external-container {
+
+}
+
+#external-creator-if {
+  width: 100%;
+  height: calc(100vh - 80px);
+  border: none;
+}

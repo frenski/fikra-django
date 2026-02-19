@@ -1,0 +1,197 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  margin: 0;
+  position: relative;
+}
+
+#playstopbutton-container,
+#controlbar-timeline,
+#controlbar-timer,
+#controlbar-volumecontrol,
+#infobutton {
+  display: none;
+}
+
+#branding {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+#metadata {
+  position: absolute;
+  width: calc(100% - 40px);
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 2001;
+  display: none;
+}
+
+#metadata.metadata-show {
+  display: block;
+}
+
+#metadata-title {
+  float: none;
+}
+
+#infobutton {
+	color: var(--gray400);
+	width: 28px;
+	height: 24px;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+  right: 10px;
+	z-index: 2000;
+  border-radius: 100px;
+  background: white;
+  text-align: center;
+  padding-top: 4px;
+}
+
+#metadata-closebut {
+	color: var(--gray400);
+	width: 28px;
+	height: 28px;
+	font-size: 28px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+  text-align: center;
+}
+
+#controlbar-volumecontrol {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+  top: auto;
+	width: 25px;
+	height: 20px;
+	background: white;
+	border-radius: 100px;
+	padding: 10px 4px 7px 8px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+#controlbar-volumecontrol.vc-unfold {
+	width: 120px;
+	transition: all 0.4s ease;
+}
+
+#controlbar-volumecontrol-icon {
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 2px;
+	top: 10px;
+	background-image:url('../img/ico-volume.png');
+	background-repeat:no-repeat;
+	background-size: 16px 16px;
+	background-position: left middle;
+	cursor: pointer;
+	margin: 0 0 0 10px;
+}
+
+#controlbar-volumecontrol input[type="range"]{
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(1, #241f51),
+        color-stop(1, #C5C5C5)
+    );
+		width: 82px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+		top: 11px;
+}
+
+#controlbar-volumecontrol-input {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.1s ease;
+}
+
+#controlbar-volumecontrol-input.vcinput-unfold {
+	visibility: visible;
+	opacity: 1;
+	transition: all 0.4s ease;
+	transition-delay: 0.2s;
+}
+
+#controlbar-volumecontrol input[type='range']::-moz-range-track {
+	background: none;
+}
+
+#controlbar-volumecontrol input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: #E9E9E9;
+    height: 16px;
+    width: 16px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.15);
+}
+
+#controlbar-volumecontrol input[type='range']:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 480px) {
+	.player-square-size #canvas-container,
+  .player-square-size #controlbar {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 560px) {
+	.player-square-size #canvas-container,
+  .player-square-size #controlbar{
+		width: 100%;
+	}
+
+  #branding {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .player-square-size #canvas-container,
+  .player-square-size #controlbar{
+    width: 100%;
+  }
+
+  #metadata {
+    width: 100%;
+  }
+
+  #branding {
+    width: 64px;
+    height: 64px;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+
+
+}

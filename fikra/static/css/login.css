@@ -1,0 +1,43 @@
+.login {
+  width: 320px;
+  margin: 3em auto 8em auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  ma
+}
+
+.login label {
+  display: block;
+  margin-top: 1em;
+  font-weight: lighter;
+  text-align: left;
+  width: 100%;
+}
+
+.login input {
+  font-size: 1em;
+  font-weight: lighter;
+  padding: 2%;
+  width: 96%;
+  margin: 0;
+  border-radius: 3px;
+  border: none;
+}
+
+.login button {
+  padding: 8px 0;
+  background: #B157F7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: lighter;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+}
+
+.login button:hover {
+  background: #1A1A1A;
+}

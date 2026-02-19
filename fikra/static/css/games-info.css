@@ -1,0 +1,143 @@
+.main-container {
+  background: white;
+  padding: 3vw 0;
+  color: #2F2F59;
+  font-size: 0.9em;
+}
+
+.game-info-visual {
+  width: 100%;
+  position: relative;
+}
+
+.game-image {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#play-button,
+#play-button:link,
+#play-button:active,
+#play-button:visited {
+  position: absolute;
+  width: 240px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  background: black;
+  left: calc(50% - 120px);
+  top: 50%;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 15px;
+}
+
+#play-button:hover {
+  background: #9B5CFE;
+}
+
+#create-button,
+#create-button:link,
+#create-button:active,
+#create-button:visited {
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background: gray;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px;
+}
+
+.game-extra{
+  display: block;
+  margin-top: 50px;
+}
+
+.game-info-text {
+  width: calc(100% - 4vw);
+  padding: 2vw;
+}
+
+
+#breadcrumbs {
+  max-width: 100%;
+  margin: 0 0 1.5em 0;
+}
+
+
+#game-info-title {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#button-social-like {
+  cursor: pointer;
+}
+
+.action-buttons-items {
+  padding: 0;
+}
+
+.action-buttons-items li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+#game-metadata-stats {
+  margin-top: 30px;
+}
+
+#game-metadata-description {
+  margin-top: 30px;
+}
+
+.metadata-extra-creator {
+  font-weight: bold;
+}
+
+.metadata-extra-avatar {
+  margin-left: 8px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .main {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .game-info-visual {
+      width: 55%;
+      float: left;
+      margin-right: 5%;
+  }
+
+  .game-image {
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.25);
+  }
+
+  .game-info-text {
+      width: 40%;
+      float: left;
+      padding: 0;
+  }
+
+	.player-square-size #canvas-container,
+	.player-square-size #controlbar {
+		width: 50%;
+	}
+
+	#buttons-social {
+		max-width: 20%;
+	}
+
+
+}
