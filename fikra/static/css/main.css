@@ -746,11 +746,11 @@ a.channel-link:active {
 	background-image:url('../img/button-html_page.png');
 }
 
-.selecttypebutton.selecttypebutton-singleplayer {
+.nodetypebutton.nodetypebutton-singleplayer {
 	background-image:url('../img/button-singleplayer.png');
 }
 
-.selecttypebutton.selecttypebutton-multiplayer {
+.nodetypebutton.nodetypebutton-multiplayer {
 	background-image:url('../img/button-multiplayer.png');
 }
 
