@@ -202,15 +202,17 @@
 .playstopbutton-container {
   width: 50px;
   top: calc(50% - 25px);
-  right: -35px;
+  right: 0;
   z-index: 10;
   display: block !important;
 }
 
 .playstopbutton-back {
-  top: 24px;
-  left: -15px;
+  top: 22px;
+  left: -23px;
   transform: rotate(-90deg);
+  position: absolute;
+  width: 200%;
 }
 
 .metadata {
@@ -248,16 +250,30 @@
 
 .node-locked-icon {
   color: white;
-  padding: 24px;
+  padding: 48px 0 0 0;
   text-align: center;
   background-color: #915AFF;
   font-size: 40px;
-  border-radius: 15px;
-  width: 40px;
-  height: 40px;
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
   position: absolute;
-  top: calc(50% - 40px);
-  left: 20%;
+  top: calc(50% - 70px);
+  left: 15%;
+  line-height: 40pt;
+  z-index: 10;
+}
+
+.node-locked-icon::before {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  background: rgba(154,98,224,0.3);
+  top: -15px;
+  left: -15px;
+  content: "";
+  z-index: -2;
+  border-radius: 100px;
 }
 
 .node-lock-conditions {

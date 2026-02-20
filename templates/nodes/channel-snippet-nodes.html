@@ -21,7 +21,7 @@
            <path  d="M102,22.8C91.6,12.4,81.2,1,63.5,0.8l0,0c-0.1,0-0.2,0-0.2,0c-0.1,0-0.2,0-0.2,0l0,0C45.3,1,35,12.4,24.5,22.8c-9,9-25,9-25,9H61h1.5H127C127,31.8,111,31.8,102,22.8z" style="stroke: none; fill:white;"></path>
           </svg>
       </div>
-      <div class="nodetypebutton nodetypebutton-{% if node.engine == 'explot' %}{% if node.interactivity > 1 %}intpiece{% else %}video{% endif %}{% elif node.engine == 'html_page' %}html_page{% elif node.engine == 'game_matching' or node.engine == 'game_mapconv' or node.engine == 'game_pointnclick' or node.engine == 'game_multchoice' or node.engine == 'game_occupation' or node.engine == 'game_endlessrunner' or node.engine == 'game_fallingcategoriser' %}game{% endif %}">&nbsp;</div>
+      <div class="nodetypebutton nodetypebutton-{% if node.engine == 'explot' %}{% if node.interactivity > 1 %}intpiece{% else %}video{% endif %}{% elif node.engine == 'html_page' %}html_page{% elif node.engine == 'game_matching' or node.engine == 'game_mapconv' or node.engine == 'game_pointnclick' or node.engine == 'game_multchoice' or node.engine == 'game_endlessrunner' or node.engine == 'game_fallingcategoriser' %}singleplayer{% elif node.engine == 'game_occupation' %}multiplayer{% endif %}">&nbsp;</div>
     </div>
   </div>
 

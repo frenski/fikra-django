@@ -434,3 +434,65 @@ def channels_list(request, page_id=1):
          'channels_count': channels_count,
          'media_url':settings.MEDIA_URL,
          })
+
+def node_unlock(request, node_id=None):
+    errormsg = None
+    next_url = request.POST.get('next_url', '/')
+    if not node_id:
+        errormsg = "Node id not supplied."
+    if not request.user.is_authenticated:
+        errormsg = "You need to be logged in in order to perform this action."
+    prof = None
+    profiles = UserProfile.objects.filter(user=request.user)
+    if len(profiles) > 0:
+        prof = profiles[0]
+    else:
+        errormsg = "Profile with this id doesn't exist."
+
+    if prof:
+        condition_id = request.POST.get('condition_id', None)
+        print (condition_id)
+        if not condition_id:
+            errormsg = "Condition id is missing."
+        else:
+            code = request.POST.get('code', '')
+            conds = LockCondition.objects.filter(pk=condition_id)
+            if len(conds) == 0:
+                errormsg = "Condition with this id doesn't exist."
+            else:
+                cond = conds[0]
+                if cond.unlock_code == code:
+                    unlocked = LockUnlocked.objects.filter(
+                        user=prof, lock=cond)
+                    if len(unlocked) == 0:
+                        unlocked_new = LockUnlocked.objects.create(
+                            user=prof, lock = cond)
+                        unlocked_new.save()
+                else:
+                    errormsg = "The code is wrong. Try again."
+    if not errormsg:
+        return HttpResponseRedirect(next_url)
+    else:
+        return render(request, 'nodes/node-unlock.html',{
+            'errormsg': errormsg,
+            'next_url': next_url,
+            })
+
+def node_update_likes(request, node_id=None):
+    node = get_object_or_404(Node, pk=node_id)
+    voted = False
+    votes = {}
+    if 'votes' in request.session:
+        votes = request.session['votes']
+        if str(node.pk) in votes:
+           voted = True
+    else:
+        request.session['votes'] = {}
+
+    if not voted:
+        votes[node.pk] = True
+        request.session['votes'] = votes
+        node.likes = node.likes + 1
+        node.save()
+
+    return HttpResponse(node.likes)
