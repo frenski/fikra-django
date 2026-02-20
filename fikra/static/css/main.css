@@ -746,6 +746,14 @@ a.channel-link:active {
 	background-image:url('../img/button-html_page.png');
 }
 
+.selecttypebutton.selecttypebutton-singleplayer {
+	background-image:url('../img/button-singleplayer.png');
+}
+
+.selecttypebutton.selecttypebutton-multiplayer {
+	background-image:url('../img/button-multiplayer.png');
+}
+
 .playstopbutton-back {
 	position: absolute;
 	width: 100%;
