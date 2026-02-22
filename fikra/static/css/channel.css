@@ -118,9 +118,10 @@
 }
 
 .channel-section-title {
-	color: #999999;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.1em;
+  color: var(--color-text-light);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 
 .channel-subsection-title {
@@ -175,7 +176,7 @@
 }
 
 .nodes-container {
-		margin: 0 auto 2em auto;
+		margin: 0 auto;
 }
 
 .node {

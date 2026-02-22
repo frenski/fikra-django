@@ -118,9 +118,10 @@
 }
 
 .channel-section-title {
-	color: #999999;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.1em;
+  color: var(--color-text-light);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 
 .channel-subsection-title {
@@ -136,6 +137,10 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+.channel-subsection.channel-tags {
+  margin-top: 20px;
+}
+
 .channel-tag {
 	font-size: 0.9em;
 	font-family: 'Quicksand', sans-serif;
@@ -145,6 +150,7 @@
 	padding: 9px 14px;
 	border: 1px solid #B3B3B3;
 	border-radius: 20px;
+  margin-top: 10px;
 }
 
 .channel-nodes {
@@ -153,6 +159,14 @@
 
 .channel-intro {
 	margin-bottom: 0;
+}
+
+.channel-contributors {
+  margin
+}
+
+.channel-subsection.channel-contributors {
+  margin-top: 15px;
 }
 
 .channel-info {
@@ -175,7 +189,7 @@
 }
 
 .nodes-container {
-		margin: 0 auto 2em auto;
+		margin: 0 auto;
 }
 
 .node {
