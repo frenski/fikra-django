@@ -36,7 +36,7 @@
         {% endfor %}
       </h3>
       {% translated_node_title node as langtitle %}
-      <h2 class="metadata-title">{{langtitle|truncatewords:10}}</h2>
+      <h2 class="metadata-title"><span>{{langtitle|truncatewords:10}}</span></h2>
       <div class="metadata-description">
         {% translated_node_desc node as langdesc %}
         {% autoescape off %}

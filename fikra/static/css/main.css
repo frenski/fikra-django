@@ -748,10 +748,12 @@ a.channel-link:active {
 
 .nodetypebutton.nodetypebutton-singleplayer {
 	background-image:url('../img/button-singleplayer.png');
+	border-radius: 0;
 }
 
 .nodetypebutton.nodetypebutton-multiplayer {
 	background-image:url('../img/button-multiplayer.png');
+	border-radius: 0;
 }
 
 .playstopbutton-back {

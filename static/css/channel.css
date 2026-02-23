@@ -215,7 +215,7 @@
 
 .playstopbutton-container {
   width: 50px;
-  top: calc(50% - 25px);
+  top: 45px;
   right: 0;
   z-index: 10;
   display: block !important;
@@ -223,10 +223,10 @@
 
 .playstopbutton-back {
   top: 22px;
-  left: -23px;
+  left: -19px;
   transform: rotate(-90deg);
   position: absolute;
-  width: 200%;
+  width: 190%;
 }
 
 .metadata {
@@ -240,7 +240,10 @@
 }
 
 .metadata-title {
+  font-weight: bold;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .metadata-extra {
