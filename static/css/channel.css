@@ -472,7 +472,7 @@ input[type="submit"] {
 
   .metadata-description {
     font-size: 0.9em;
-    max-height: calc(7vw - 20px);
+    max-height: calc(10vw - 20px);
   }
 
   .metadata-title {
